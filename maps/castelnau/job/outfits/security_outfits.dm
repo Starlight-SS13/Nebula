@@ -1,6 +1,6 @@
 /decl/hierarchy/outfit/job/castelnau/crew/security
 	hierarchy_type = /decl/hierarchy/outfit/job/castelnau/crew/security
-	l_ear = /obj/item/device/radio/headset/headset_sec
+	l_ear = /obj/item/radio/headset/headset_sec
 	pda_type = /obj/item/modular_computer/pda/security
 	pda_slot = slot_l_store_str
 	shoes = /obj/item/clothing/shoes/jackboots
@@ -12,8 +12,8 @@
 
 /decl/hierarchy/outfit/job/castelnau/crew/security/warden
 	name = OUTFIT_JOB_NAME("Warden - Castelnau")
-	id_type = /obj/item/weapon/card/id/castelnau/crew/security/warden
+	id_type = /obj/item/card/id/castelnau/crew/security/warden
 
 /decl/hierarchy/outfit/job/castelnau/crew/security/officer
 	name = OUTFIT_JOB_NAME("Security Officer - Castelnau")
-	id_type = /obj/item/weapon/card/id/castelnau/crew/security
+	id_type = /obj/item/card/id/castelnau/crew/security

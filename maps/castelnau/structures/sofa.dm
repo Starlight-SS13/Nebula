@@ -5,13 +5,14 @@
 	icon_state = "sofa_right"
 	buckle_dir = 0
 	buckle_lying = 0
+	var/base_icon
 
 /obj/structure/bed/sofa/left
 	icon_state = "sofa_left"
 
 /obj/structure/bed/sofa/New(var/newloc)
 	base_icon = icon_state
-	..(newloc,MATERIAL_LEATHER_GENERIC)
+	..(newloc, /decl/material/solid/leather)
 
 /obj/structure/bed/sofa/post_buckle_mob()
 	update_icon()

@@ -35,10 +35,10 @@
 
 /obj/item/card/id/castelnau/crew/medical/senior
 	job_access_type = /datum/job/senior_doctor
-
+/*
 /obj/item/card/id/castelnau/crew/medical/chemist
 	job_access_type = /datum/job/chemist
-
+*/
 /obj/item/card/id/castelnau/crew/security
 	desc = "An identification card issued to security personnel aboard the MOTV Castelnau."
 	job_access_type = /datum/job/officer

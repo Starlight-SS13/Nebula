@@ -13,21 +13,21 @@
 	return list(
 		/obj/item/clothing/under/hazard,
 		/obj/item/clothing/accessory/storage/brown_vest,
-		/obj/item/device/radio/headset/headset_eng,
-		/obj/item/device/radio/headset/headset_eng/alt,
+		/obj/item/radio/headset/headset_eng,
+		/obj/item/radio/headset/headset_eng/alt,
 		/obj/item/clothing/suit/storage/hazardvest,
 		/obj/item/clothing/mask/gas,
-		/obj/item/weapon/storage/belt/utility/full,
+		/obj/item/storage/belt/utility/full,
 		/obj/item/clothing/glasses/meson,
 		/obj/item/taperoll/engineering,
 		/obj/item/taperoll/atmos,
 		/obj/item/clothing/glasses/welding/superior,
-		/obj/item/device/flash,
-		/obj/item/device/flashlight/upgraded,
-		/obj/item/device/megaphone,
+		/obj/item/flash,
+		/obj/item/flashlight/upgraded,
+		/obj/item/megaphone,
 		/obj/item/clothing/gloves/insulated,
-		new /datum/atom_creator/weighted(list(/obj/item/weapon/storage/backpack/industrial, /obj/item/weapon/storage/backpack/satchel/eng)),
-		new /datum/atom_creator/weighted(list(/obj/item/weapon/storage/backpack/dufflebag/eng, /obj/item/weapon/storage/backpack/messenger/engi))
+		new /datum/atom_creator/weighted(list(/obj/item/storage/backpack/industrial, /obj/item/storage/backpack/satchel/eng)),
+		new /datum/atom_creator/weighted(list(/obj/item/storage/backpack/dufflebag/eng, /obj/item/storage/backpack/messenger/engi))
 	)
 
 /obj/structure/closet/secure_closet/engineering_electrical

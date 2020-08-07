@@ -27,8 +27,8 @@
 	icon_state = "greenglow"
 
 /obj/random/trash/space/spawn_choices()
-	return list(/obj/item/weapon/ore/iron = 1,
-				/obj/item/weapon/ore/glass = 5,
+	return list(/obj/item/ore/iron = 1,
+				/obj/item/ore/glass = 5,
 				/obj/item/stack/material/rods = 2,
 				/obj/effect/decal/cleanable/ash = 5,
 				/obj/effect/decal/cleanable/dirt = 3,

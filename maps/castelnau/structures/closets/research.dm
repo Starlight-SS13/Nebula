@@ -39,7 +39,7 @@
 /obj/structure/closet/secure_closet/xenoarchaeologist/castenlau/WillContain()
 	return list(
 		/obj/item/clothing/suit/storage/toggle/labcoat,
-		/obj/item/clothing/shoes/white,
+		/obj/item/clothing/shoes/color/white,
 		/obj/item/radio/headset/headset_sci,
 		/obj/item/clothing/mask/gas,
 		/obj/random/clipboard,
@@ -66,7 +66,7 @@
 /obj/structure/closet/secure_closet/scientist/castenlau/WillContain()
 	return list(
 		/obj/item/clothing/suit/storage/toggle/labcoat,
-		/obj/item/clothing/shoes/white,
+		/obj/item/clothing/shoes/color/white,
 		/obj/item/radio/headset/headset_sci,
 		/obj/item/clothing/mask/gas,
 		/obj/item/tank/emergency/oxygen/engi,
@@ -91,11 +91,6 @@
 
 /obj/structure/closet/secure_closet/scientist/castenlau/pilot/WillContain()
 	return list(
-		/obj/item/clothing/under/rank/ntpilot/nanotrasen,
-		/obj/item/clothing/under/rank/ntpilot/heph,
-		/obj/item/clothing/under/rank/ntpilot,
-		/obj/item/clothing/head/helmet/solgov/pilot,
-		/obj/item/clothing/head/helmet/nt/pilot,
 		/obj/item/spaceflare,
 		/obj/item/flashlight/flare,
 		/obj/item/storage/belt/utility/full,

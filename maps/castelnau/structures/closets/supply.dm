@@ -13,17 +13,17 @@
 		/obj/item/clothing/glasses/sunglasses,
 		/obj/item/clothing/suit/storage/hazardvest,
 		/obj/item/clothing/accessory/storage/brown_vest,
-		/obj/item/weapon/storage/belt/utility/full,
-		/obj/item/weapon/hand_labeler,
-		/obj/item/weapon/material/clipboard,
-		/obj/item/weapon/folder/yellow,
+		/obj/item/storage/belt/utility/full,
+		/obj/item/hand_labeler,
+		/obj/item/clipboard,
+		/obj/item/folder/yellow,
 		/obj/item/stack/package_wrap/twenty_five,
-		/obj/item/device/flash,
-		/obj/item/device/megaphone,
-		/obj/item/device/binoculars,
-		/obj/item/weapon/storage/belt/general,
-		new /datum/atom_creator/weighted(list(/obj/item/weapon/storage/backpack = 75, /obj/item/weapon/storage/backpack/satchel/grey = 25)),
-		new /datum/atom_creator/weighted(list(/obj/item/weapon/storage/backpack/messenger = 75, /obj/item/weapon/storage/backpack/dufflebag = 25))
+		/obj/item/flash,
+		/obj/item/megaphone,
+		/obj/item/binoculars,
+		/obj/item/storage/belt/general,
+		new /datum/atom_creator/weighted(list(/obj/item/storage/backpack = 75, /obj/item/storage/backpack/satchel/grey = 25)),
+		new /datum/atom_creator/weighted(list(/obj/item/storage/backpack/messenger = 75, /obj/item/storage/backpack/dufflebag = 25))
 	)
 
 /obj/structure/closet/secure_closet/miner/castelnau
@@ -32,17 +32,17 @@
 /obj/structure/closet/secure_closet/miner/castelnau/WillContain()
 	return list(
 		new /datum/atom_creator/weighted(list(
-				/obj/item/weapon/storage/backpack/industrial,
-				/obj/item/weapon/storage/backpack/satchel/eng
+				/obj/item/storage/backpack/industrial,
+				/obj/item/storage/backpack/satchel/eng
 			)),
-		/obj/item/device/radio/headset/headset_mining,
+		/obj/item/radio/headset/headset_mining,
 		/obj/item/clothing/under/rank/miner,
 		/obj/item/clothing/gloves/thick,
-		/obj/item/clothing/shoes/black,
-		/obj/item/device/scanner/gas,
-		/obj/item/weapon/storage/ore,
-		/obj/item/device/flashlight/lantern,
-		/obj/item/weapon/shovel,
-		/obj/item/weapon/pickaxe,
+		/obj/item/clothing/shoes/color/black,
+		/obj/item/scanner/gas,
+		/obj/item/storage/ore,
+		/obj/item/flashlight/lantern,
+		/obj/item/shovel,
+		/obj/item/pickaxe,
 		/obj/item/clothing/glasses/meson
 	)

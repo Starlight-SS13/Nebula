@@ -9,7 +9,7 @@
 	glasses = /obj/item/clothing/glasses/sunglasses
 	uniform = /obj/item/clothing/under/color/blue
 	l_ear = /obj/item/radio/headset/heads/castelnau_captain
-	shoes = /obj/item/clothing/shoes/brown
+	shoes = /obj/item/clothing/shoes/color/brown
 	head = /obj/item/clothing/head/caphat
 	id_type = /obj/item/card/id/castelnau/gold
 	pda_type = /obj/item/modular_computer/pda/captain
@@ -24,13 +24,13 @@
 	name = OUTFIT_JOB_NAME("First Officer - Castelnau")
 	uniform = /obj/item/clothing/under/color/blue
 	l_ear = /obj/item/radio/headset/heads/hop
-	shoes = /obj/item/clothing/shoes/laceup
+	shoes = /obj/item/clothing/shoes/dress
 	id_type = /obj/item/card/id/castelnau/silver
 	pda_type = /obj/item/modular_computer/pda/heads/hop
 
 /decl/hierarchy/outfit/job/castelnau/crew/command/adjutant
 	name = OUTFIT_JOB_NAME("Second Officer - Castelnau")
 	uniform = /obj/item/clothing/under/color/blue
-	shoes = /obj/item/clothing/shoes/black
+	shoes = /obj/item/clothing/shoes/color/black
 	l_ear = /obj/item/radio/headset/adjutant
 	id_type = /obj/item/card/id/castelnau/crew/adjutant

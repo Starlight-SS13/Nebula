@@ -1,7 +1,7 @@
 /decl/hierarchy/outfit/job/castelnau/crew/research
 	hierarchy_type = /decl/hierarchy/outfit/job/castelnau/crew/research
 	pda_type = /obj/item/modular_computer/pda/science
-	l_ear = /obj/item/device/radio/headset/headset_sci
+	l_ear = /obj/item/radio/headset/headset_sci
 	uniform = /obj/item/clothing/under/color/white
 
 /decl/hierarchy/outfit/job/castelnau/crew/research/New()
@@ -14,19 +14,19 @@
 	suit = /obj/item/clothing/suit/storage/toggle/labcoat
 	shoes = /obj/item/clothing/shoes/white
 	pda_type = /obj/item/modular_computer/pda/heads/rd
-	id_type = /obj/item/weapon/card/id/castelnau/crew/research/senior_scientist
+	id_type = /obj/item/card/id/castelnau/crew/research/senior_scientist
 
 /decl/hierarchy/outfit/job/castelnau/crew/research/scientist
 	name = OUTFIT_JOB_NAME("Scientist - Castelnau")
 	suit = /obj/item/clothing/suit/storage/toggle/labcoat
 	shoes = /obj/item/clothing/shoes/white
-	id_type = /obj/item/weapon/card/id/castelnau/crew/research/scientist
+	id_type = /obj/item/card/id/castelnau/crew/research/scientist
 
 /decl/hierarchy/outfit/job/castelnau/crew/research/roboticist
 	name = OUTFIT_JOB_NAME("Roboticist - Castelnau")
 	uniform = /obj/item/clothing/under/rank/roboticist
 	shoes = /obj/item/clothing/shoes/black
-	id_type = /obj/item/weapon/card/id/castelnau/crew/research/roboticist
+	id_type = /obj/item/card/id/castelnau/crew/research/roboticist
 	pda_type = /obj/item/modular_computer/pda/roboticist
 
 /decl/hierarchy/outfit/job/castelnau/crew/research/scientist/psych
@@ -38,12 +38,12 @@
 	name = OUTFIT_JOB_NAME("Research Assistant - Castelnau")
 	suit = /obj/item/clothing/suit/storage/toggle/labcoat
 	shoes = /obj/item/clothing/shoes/white
-	id_type = /obj/item/weapon/card/id/castelnau/crew/research
+	id_type = /obj/item/card/id/castelnau/crew/research
 
 /decl/hierarchy/outfit/job/castelnau/crew/research/scientist_pilot
 	name = OUTFIT_JOB_NAME("Research Pilot - Castelnau")
 	shoes = /obj/item/clothing/shoes/white
-	id_type = /obj/item/weapon/card/id/castelnau/crew/research/scientist_pilot
+	id_type = /obj/item/card/id/castelnau/crew/research/scientist_pilot
 
 /decl/hierarchy/outfit/job/castelnau/crew/research/assist/testsubject
 	name = OUTFIT_JOB_NAME("Testing Assistant")

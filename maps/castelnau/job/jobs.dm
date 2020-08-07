@@ -27,23 +27,4 @@
 		ACCESS_REGION_NT = list(access_castelnau_prometeus_senior),
 	)
 
-// Some jobs for nabber grades defined here due to map-specific job datums.
-/decl/cultural_info/culture/nabber/New()
-	LAZYADD(valid_jobs, /datum/job/scientist_assistant)
-	..()
 
-/decl/cultural_info/culture/nabber/b/New()
-	LAZYADD(valid_jobs, /datum/job/bartender)
-	..()
-
-/decl/cultural_info/culture/nabber/a/New()
-	LAZYADD(valid_jobs, /datum/job/engineer)
-	..()
-
-/decl/cultural_info/culture/nabber/a/New()
-	LAZYADD(valid_jobs, /datum/job/roboticist)
-	..()
-
-/decl/cultural_info/culture/nabber/a/plus/New()
-	LAZYADD(valid_jobs, /datum/job/doctor)
-	..()
