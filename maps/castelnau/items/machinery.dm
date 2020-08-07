@@ -31,14 +31,14 @@
 // Vending machines & dispensers
 /obj/machinery/vending/security
 	products = list(
-		/obj/item/weapon/handcuffs = 14,
-		/obj/item/weapon/grenade/flashbang = 4,
-		/obj/item/weapon/grenade/chem_grenade/teargas = 4,
-		/obj/item/device/flash = 7,
-		/obj/item/weapon/reagent_containers/spray/pepper = 4,
-		/obj/item/device/holowarrant = 4,
-		/obj/item/weapon/reagent_containers/food/snacks/donut/normal = 12,
-		/obj/item/weapon/storage/box/evidence = 8)
+		/obj/item/handcuffs = 14,
+		/obj/item/grenade/flashbang = 4,
+		/obj/item/grenade/chem_grenade/teargas = 4,
+		/obj/item/flash = 7,
+		/obj/item/chems/spray/pepper = 4,
+		/obj/item/holowarrant = 4,
+		/obj/item/chems/food/snacks/donut/normal = 12,
+		/obj/item/storage/box/evidence = 8)
 
 //buttons
 /obj/machinery/button/toggle/valve/nacelle/first

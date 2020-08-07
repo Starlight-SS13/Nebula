@@ -5,4 +5,3 @@
 /datum/spawnpoint/cryo/prometeus/New()
 	..()
 	turfs = GLOB.latejoin_cryo_prometeus
-	spawn_name = "Prometeus"

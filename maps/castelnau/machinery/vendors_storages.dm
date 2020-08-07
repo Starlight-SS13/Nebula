@@ -27,7 +27,7 @@
 //SECURITY
 /obj/machinery/vending/security
 	req_access = list(access_castelnau_security)
-	products = list(/obj/item/handcuffs = 14,/obj/item/grenade/flashbang = 4,/obj/item/grenade/chem_grenade/teargas = 4,/obj/item/device/flash = 7,
+	products = list(/obj/item/handcuffs = 14,/obj/item/grenade/flashbang = 4,/obj/item/grenade/chem_grenade/teargas = 4,/obj/item/flash = 7,
 				/obj/item/chems/spray/pepper = 4, /obj/item/chems/food/snacks/donut/normal = 12,/obj/item/storage/box/evidence = 8)
 
 /obj/machinery/suit_storage_unit/security
@@ -79,7 +79,7 @@
 					/obj/item/chems/food/drinks/bottle/melonliquor = 5,
 					/obj/item/chems/food/drinks/bottle/bluecuracao = 5,
 					/obj/item/chems/food/drinks/bottle/absinthe = 5,
-					/obj/item/chems/food/drinks/bottle/specialwhiskey = 5,
+					/obj/item/chems/food/drinks/bottle/whiskey = 5,
 					/obj/item/chems/food/drinks/bottle/herbal = 5,
 					/obj/item/chems/food/drinks/bottle/small/beer = 15,
 					/obj/item/chems/food/drinks/bottle/small/ale = 15,

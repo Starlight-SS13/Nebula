@@ -25,7 +25,7 @@
 // /datum/gear/soap
 // 	display_name = "soap selection"
 // 	sort_category = "Cosmetics"
-// 	path = /obj/item/weapon/soap
+// 	path = /obj/item/soap
 // 	flags = GEAR_HAS_TYPE_SELECTION
 // 	cost = 5
 
@@ -34,12 +34,12 @@
 
 /datum/gear/brush
 	display_name = "hairbrush"
-	path = /obj/item/weapon/haircomb/brush
+	path = /obj/item/haircomb/brush
 	sort_category = "Cosmetics"
 
 /datum/gear/deodorant
 	display_name = "deodorant"
-	path = /obj/item/weapon/reagent_containers/spray/cleaner/deodorant
+	path = /obj/item/chems/spray/cleaner/deodorant
 	sort_category = "Cosmetics"
 
 /datum/gear/watch
@@ -49,4 +49,4 @@
 
 /datum/gear/music_tapes
 	display_name = "custom music tapes"
-	path = /obj/item/weapon/storage/box/tapes
+	path = /obj/item/storage/box/tapes

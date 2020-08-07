@@ -10,5 +10,5 @@
 /decl/flooring/tiling
 	name = "deck"
 
-/obj/item/weapon/stamp/hop
+/obj/item/stamp/hop
 	name = "First Officer's Stamp"

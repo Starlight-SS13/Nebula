@@ -47,7 +47,7 @@
 	if(..())
 		return 1
 	if(result[1] == "End game")
-		evacuation_controller.state = 5
+		SSevac.evacuation_controller.state = 5
 	else if(result[1] == "Add Antagonist")
 		SSvote.queued_auto_vote = /datum/vote/add_antagonist
 

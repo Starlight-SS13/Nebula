@@ -47,7 +47,7 @@ GLOBAL_LIST_INIT(castelnay_command, list("Captain"))
 /datum/map/castelnau/setup_map()
 	..()
 	system_name = generate_system_name()
-	minor_announcement = new(new_sound = sound('sound/AI/torch/commandreport.ogg', volume = 45))
+//	minor_announcement = new(new_sound = sound('sound/AI/torch/commandreport.ogg', volume = 45))
 
 /datum/map/castelnau/get_map_info()
 	. = list()

@@ -23,7 +23,6 @@
 	#include "datums/reports.dm"
 	#include "datums/other_soft.dm"
 	#include "datums/round_end.dm"
-	#include "datums/programs/cardmod.dm"
 	#include "datums/programs/comm.dm"
 	#include "datums/programs/deck_management.dm"
 	#include "datums/programs/supermatter_monitor.dm"
@@ -36,27 +35,11 @@
 	#include "items/lighting.dm"
 	#include "items/machinery.dm"
 	#include "items/random.dm"
-	#include "items/exploration_suit.dm"
 	#include "items/manuals.dm"
-//	#include "items/uniform_vendor.dm"
-
 
 	#include "items/clothing/castelnau_hands.dm"
 	#include "items/clothing/castelnau_under.dm"
 	#include "items/clothing/castelnau_head.dm"
-	#include "items/clothing/solgov-accessory.dm"
-	#include "items/clothing/solgov-armor.dm"
-	#include "items/clothing/solgov-feet.dm"
-	#include "items/clothing/solgov-hands.dm"
-	#include "items/clothing/solgov-head.dm"
-	#include "items/clothing/solgov-suit.dm"
-	#include "items/clothing/solgov-under.dm"
-	#include "items/clothing/terran-accessory.dm"
-	#include "items/clothing/terran-feet.dm"
-	#include "items/clothing/terran-hands.dm"
-	#include "items/clothing/terran-head.dm"
-	#include "items/clothing/terran-suit.dm"
-	#include "items/clothing/terran-under.dm"
 
 	#include "job/access.dm"
 
@@ -108,7 +91,6 @@
 	#include "loadout/loadout_head.dm"
 	#include "loadout/loadout_misc.dm"
 	#include "loadout/loadout_shoes.dm"
-	#include "loadout/loadout_suit.dm"
 	#include "loadout/loadout_uniform.dm"
 
 	#include "castelnau-1.dmm"

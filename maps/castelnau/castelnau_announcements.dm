@@ -10,7 +10,7 @@
 	emergency_shuttle_recall_message = "Внимание всему персоналу: аварийная эвакуации отменена. Возвращайтесь к выполнению своих рабочих обязанностей."
 	emergency_shuttle_called_sound = sound('sound/AI/torch/abandonship.ogg', volume = 45)
 
-	command_report_sound = sound('sound/AI/torch/commandreport.ogg', volume = 45)
+//	command_report_sound = sound('sound/AI/torch/commandreport.ogg', volume = 45)
 
 	grid_check_message = "Обнаружены отклонения в работе энергосети %STATION_NAME%. Энергосеть аварийно отключена для полной калибровки. Пожалуйста, ожидайте."
 //	grid_check_sound = sound('sound/AI/torch/poweroff.ogg', volume = 45)
@@ -31,7 +31,7 @@
 	unidentified_lifesigns_message = "Обнаружена неопознанная форма жизни на борту %STATION_NAME%. Настоятельно рекомендуется заблокировать все внешние шлюзы и запретить стыковку гражданским судам."
 //	unidentified_lifesigns_sound = sound('sound/AI/torch/aliens.ogg', volume = 45)
 
-	electrical_storm_moderate_sound = sound('sound/AI/torch/electricalstormmoderate.ogg', volume = 45)
+//	electrical_storm_moderate_sound = sound('sound/AI/torch/electricalstormmoderate.ogg', volume = 45)
 //	electrical_storm_major_sound = sound('sound/AI/torch/electricalstormmajor.ogg', volume = 45)
 
 //	use_job_frequency_announcement = FALSE

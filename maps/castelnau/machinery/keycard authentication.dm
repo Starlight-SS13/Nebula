@@ -85,20 +85,20 @@
 			GLOB.using_map.unbolt_saferooms()
 			SSstatistics.add_field("unbolted_saferoom",1)
 		if("Evacuate")
-			if(!evacuation_controller)
+			if(!SSevac.evacuation_controller)
 				to_chat(usr, "<span class='danger'>Unable to initiate evacuation!</span>")
 				return
-			for (var/datum/evacuation_option/EO in evacuation_controller.available_evac_options())
+			for (var/datum/evacuation_option/EO in SSevac.evacuation_controller.available_evac_options())
 				if(EO.abandon_ship)
-					evacuation_controller.handle_evac_option(EO.option_target, usr)
+					SSevac.evacuation_controller.handle_evac_option(EO.option_target, usr)
 					return
 
-/obj/machinery/keycard_auth/castelnau/attackby(obj/item/weapon/W as obj, mob/user as mob)
+/obj/machinery/keycard_auth/castelnau/attackby(obj/item/W as obj, mob/user as mob)
 	if(stat & (NOPOWER|BROKEN))
 		to_chat(user, "This device is not powered.")
 		return
-	if(istype(W,/obj/item/weapon/card/id))
-		var/obj/item/weapon/card/id/ID = W
+	if(istype(W,/obj/item/card/id))
+		var/obj/item/card/id/ID = W
 		if(access_castelnau_command in ID.access)
 			if(active == 1)
 				//This is not the device that made the initial request. It is the device confirming the request.

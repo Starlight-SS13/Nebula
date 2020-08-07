@@ -8,8 +8,8 @@
 
 	if(program)
 		data["emagged"] = program.computer_emagged
-		data["net_comms"] = !!program.get_signal(NTNET_COMMUNICATION) //Double !! is needed to get 1 or 0 answer
-		data["net_syscont"] = !!program.get_signal(NTNET_SYSTEMCONTROL)
+		data["net_comms"] = !!program.get_signal(NETWORK_COMMUNICATION) //Double !! is needed to get 1 or 0 answer
+		data["net_syscont"] = !!program.get_signal(NETWORK_COMMUNICATION)
 		if(program.computer)
 			data["emagged"] = program.computer.emagged()
 			data["have_printer"] = program.computer.has_component(PART_PRINTER)

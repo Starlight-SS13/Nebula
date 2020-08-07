@@ -33,10 +33,6 @@
 /datum/gear/accessory/stethoscope
 	allowed_roles = STERILE_ROLES
 
-/datum/gear/accessory/tags
-	display_name = "SolGov dog tags"
-	path = /obj/item/clothing/accessory/badge/solgov/tags
-
 /datum/gear/tactical/holster
 	allowed_roles = ARMED_ROLES
 
@@ -93,42 +89,9 @@
 	cost = 2
 	allowed_roles = ARMORED_ROLES
 
-/datum/gear/tactical/armor_pouches/navy
-	display_name = "navy armor pouches"
-	path = /obj/item/clothing/accessory/storage/pouches/navy
-	allowed_branches = list(/datum/mil_rank/civ/civ)
-
-/datum/gear/tactical/armor_pouches/misc
-	display_name = "miscellaneous armor pouches selection"
-	path = /obj/item/clothing/accessory/storage/pouches
-	allowed_branches = CIVILIAN_BRANCHES
-
-/datum/gear/tactical/armor_pouches/misc/New()
-	..()
-	var/pouches = list()
-	pouches["green armor pouches"] = /obj/item/clothing/accessory/storage/pouches/green
-	pouches["tan armor pouches"] = /obj/item/clothing/accessory/storage/pouches/tan
-	gear_tweaks += new/datum/gear_tweak/path(pouches)
-
 /datum/gear/tactical/large_pouches
 	display_name = "black large armor pouches"
 	path = /obj/item/clothing/accessory/storage/pouches/large
 	cost = 5
 	allowed_roles = ARMORED_ROLES
 
-/datum/gear/tactical/large_pouches/navy
-	display_name = "navy large armor pouches"
-	path = /obj/item/clothing/accessory/storage/pouches/large/navy
-	allowed_branches = list(/datum/mil_rank/civ/civ)
-
-/datum/gear/tactical/large_pouches/misc
-	display_name = "miscellaneous large armor pouches selection"
-	path = /obj/item/clothing/accessory/storage/pouches/large
-	allowed_branches = CIVILIAN_BRANCHES
-
-/datum/gear/tactical/large_pouches/misc/New()
-	..()
-	var/pouches = list()
-	pouches["green large armor pouches"] = /obj/item/clothing/accessory/storage/pouches/large/green
-	pouches["tan large armor pouches"] = /obj/item/clothing/accessory/storage/pouches/large/tan
-	gear_tweaks += new/datum/gear_tweak/path(pouches)
