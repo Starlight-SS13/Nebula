@@ -26,7 +26,6 @@
 	#include "datums/programs/cardmod.dm"
 	#include "datums/programs/comm.dm"
 	#include "datums/programs/deck_management.dm"
-	#include "datums/programs/records.dm"
 	#include "datums/programs/supermatter_monitor.dm"
 
 	#include "items/cards_ids.dm"
@@ -41,12 +40,10 @@
 	#include "items/manuals.dm"
 //	#include "items/uniform_vendor.dm"
 
-	#include "items/custom_items/card_readers.dm"
 
 	#include "items/clothing/castelnau_hands.dm"
 	#include "items/clothing/castelnau_under.dm"
 	#include "items/clothing/castelnau_head.dm"
-	#include "items/clothing/castelnau_suit.dm"
 	#include "items/clothing/solgov-accessory.dm"
 	#include "items/clothing/solgov-armor.dm"
 	#include "items/clothing/solgov-feet.dm"

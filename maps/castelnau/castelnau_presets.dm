@@ -132,13 +132,13 @@ var/const/NETWORK_PROMETEUS   = "Prometeus"
 
 // Substation SMES
 /obj/machinery/power/smes/buildable/preset/castelnau/substation
-	uncreated_component_parts = list(/obj/item/weapon/stock_parts/smes_coil = 1) // Note that it gets one more from construction
+	uncreated_component_parts = list(/obj/item/stock_parts/smes_coil = 1) // Note that it gets one more from construction
 	_input_maxed = TRUE
 	_output_maxed = TRUE
 
 // Substation SMES (charged and with full I/O setting)
 /obj/machinery/power/smes/buildable/preset/castelnau/substation_full
-	uncreated_component_parts = list(/obj/item/weapon/stock_parts/smes_coil = 1)
+	uncreated_component_parts = list(/obj/item/stock_parts/smes_coil = 1)
 	_input_maxed = TRUE
 	_output_maxed = TRUE
 	_input_on = TRUE
@@ -148,8 +148,8 @@ var/const/NETWORK_PROMETEUS   = "Prometeus"
 // Main Engine output SMES
 /obj/machinery/power/smes/buildable/preset/castelnau/engine_main
 	uncreated_component_parts = list(
-		/obj/item/weapon/stock_parts/smes_coil/super_io = 2,
-		/obj/item/weapon/stock_parts/smes_coil/super_capacity = 2)
+		/obj/item/stock_parts/smes_coil/super_io = 2,
+		/obj/item/stock_parts/smes_coil/super_capacity = 2)
 	_input_maxed = TRUE
 	_output_maxed = TRUE
 	_input_on = TRUE
@@ -167,7 +167,7 @@ var/const/NETWORK_PROMETEUS   = "Prometeus"
 // Hangar SMES. Charges the shuttles so needs a pretty big throughput.
 /obj/machinery/power/smes/buildable/preset/castelnau/hangar
 	uncreated_component_parts = list(
-		/obj/item/weapon/stock_parts/smes_coil/super_io = 2)
+		/obj/item/stock_parts/smes_coil/super_io = 2)
 	_input_maxed = TRUE
 	_output_maxed = TRUE
 	_input_on = TRUE
