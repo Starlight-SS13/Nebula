@@ -1,1 +1,0 @@
-/datum/antagonist/required_language = LANGUAGE_SPACER

@@ -1,4 +1,4 @@
-/datum/reagent/ethanol/cider
+/decl/material/liquid/ethanol/cider
 	name = "Cider"
 	description = "A refreshing beverage."
 	taste_description = "apples and some alcohol"
@@ -9,7 +9,7 @@
 	glass_name = "Cider"
 	glass_desc = "A glass of refreshing cider."
 
-/obj/item/weapon/reagent_containers/food/drinks/cans/cider
+/obj/item/chems/food/drinks/cans/cider
 	name = "\improper Cyber Fox Cider"
 	desc = "A can of Cyber Fox brand cider."
 	icon = 'maps/castelnau/icons/obj/drinks.dmi'
@@ -19,6 +19,6 @@
 	item_state = "cider"
 	center_of_mass = "x=16;y=10"
 
-/obj/item/weapon/reagent_containers/food/drinks/cans/cider/New()
+/obj/item/chems/food/drinks/cans/cider/New()
 	..()
-	reagents.add_reagent(/datum/reagent/ethanol/cider, 30)
+	reagents.add_reagent(/decl/material/liquid/ethanol/, 30)
