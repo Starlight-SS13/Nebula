@@ -1,7 +1,6 @@
 /datum/job/senior_doctor
 	title = "Surgeon"
-	department = "Medical"
-	department_flag = MED
+	department_refs = list(DEPT_MEDICAL)
 
 	minimal_player_age = 14
 	ideal_character_age = 45
@@ -32,8 +31,7 @@
 
 /datum/job/doctor
 	title = "Doctor"
-	department = "Medical"
-	department_flag = MED
+	department_refs = list(DEPT_MEDICAL)
 
 	total_positions = 1
 	spawn_positions = 1

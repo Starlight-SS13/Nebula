@@ -1,8 +1,6 @@
 /datum/job/captain
 	title = "Captain"
-	department = "Command"
-	supervisors = "the God"
-	department_flag = COM
+	department_refs = list(DEPT_COMMAND)
 	head_position = 1
 	minimal_player_age = 21
 	economic_power = 20
@@ -62,8 +60,7 @@
 /datum/job/hop
 	title = "First Officer"
 	supervisors = "the Captain"
-	department = "Command"
-	department_flag = COM
+	department_refs = list(DEPT_COMMAND)
 	head_position = 1
 	total_positions = 1
 	spawn_positions = 1
@@ -119,8 +116,7 @@
 
 /datum/job/adjutant
 	title = "Second Officer"
-	department = "Command"
-	department_flag = COM
+	department_refs = list(DEPT_COMMAND)
 	total_positions = 1
 	spawn_positions = 1
 	supervisors = "the Captain and the First Officer"

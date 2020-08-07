@@ -1,7 +1,6 @@
 /datum/job/qm
 	title = "Quartermaster"
-	department = "Supply"
-	department_flag = SUP
+	department_refs = list(DEPT_SUPPLY)
 	total_positions = 1
 	spawn_positions = 1
 	supervisors = "the Captain, the First Officer and the Second Officer"
@@ -35,8 +34,7 @@
 
 /datum/job/mining
 	title = "Shaft Miner"
-	department = "Supply"
-	department_flag = SUP
+	department_refs = list(DEPT_SUPPLY)
 	total_positions = 2
 	spawn_positions = 2
 	supervisors = "the Quartermaster"

@@ -1,7 +1,6 @@
 /datum/job/senior_scientist
 	title = "Senior Researcher"
-	department = "Science"
-	department_flag = SCI
+	department_refs = list(DEPT_SCIENCE)
 
 	total_positions = 1
 	spawn_positions = 1
@@ -34,8 +33,7 @@
 
 /datum/job/scientist
 	title = "Scientist"
-	department = "Science"
-	department_flag = SCI
+	department_refs = list(DEPT_SCIENCE)
 	total_positions = 6
 	spawn_positions = 6
 	supervisors = "the Research Director"
@@ -70,8 +68,7 @@
 
 /datum/job/roboticist
 	title = "Roboticist"
-	department = "Science"
-	department_flag = SCI
+	department_refs = list(DEPT_SCIENCE)
 
 	total_positions = 1
 	spawn_positions = 1
@@ -104,8 +101,7 @@
 
 /datum/job/scientist_assistant
 	title = "Research Assistant"
-	department = "Science"
-	department_flag = SCI
+	department_refs = list(DEPT_SCIENCE)
 
 	total_positions = 1
 	spawn_positions = 1
@@ -136,8 +132,7 @@
 
 /datum/job/scientist_pilot
 	title = "Research Pilot"
-	department = "Science"
-	department_flag = SCI
+	department_refs = list(DEPT_SCIENCE)
 
 	total_positions = 1
 	spawn_positions = 1

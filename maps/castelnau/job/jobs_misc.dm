@@ -3,8 +3,7 @@
 	alt_titles = list()
 	total_positions = 4
 	spawn_positions = 4
-	department = "Civilian"
-	department_flag = CIV
+	department_refs = list(DEPT_CIVILIAN)
 	supervisors = "the Captain, the First Officer and the Second Officer"
 	selection_color = "#515151"
 	economic_power = 6

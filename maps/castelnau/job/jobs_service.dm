@@ -1,7 +1,6 @@
 /datum/job/janitor
 	title = "Janitor"
-	department = "Service"
-	department_flag = SRV
+	department_refs = list(DEPT_SERVICE)
 
 	total_positions = 1
 	spawn_positions = 1
@@ -19,8 +18,7 @@
 
 /datum/job/chef
 	title = "Chef"
-	department = "Service"
-	department_flag = SRV
+	department_refs = list(DEPT_SERVICE)
 	total_positions = 1
 	spawn_positions = 1
 	supervisors = "the Captain, the First Officer and the Second Officer"
@@ -40,8 +38,7 @@
 	minimal_access = list(access_castelnau_kitchen, access_castelnau_bar)
 
 /datum/job/bartender
-	department = "Service"
-	department_flag = SRV
+	department_refs = list(DEPT_SERVICE)
 	supervisors = "the Captain, the First Officer and the Second Officer"
 	ideal_character_age = 30
 	selection_color = "#515151"

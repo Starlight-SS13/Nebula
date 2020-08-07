@@ -1,7 +1,6 @@
 /datum/job/warden
 	title = "Sheriff"
-	department = "Security"
-	department_flag = SEC
+	department_refs = list(DEPT_SECURITY)
 	total_positions = 1
 	spawn_positions = 1
 	supervisors = "the Captain, the First Officer and the Second Officer"
@@ -47,8 +46,7 @@
 
 /datum/job/officer
 	title = "Deputy Sheriff"
-	department = "Security"
-	department_flag = SEC
+	department_refs = list(DEPT_SECURITY)
 	total_positions = 1
 	spawn_positions = 1
 	supervisors = "the Sheriff"
@@ -92,8 +90,7 @@
 
 /*/datum/job/specialist
 	title = "Security Specialist"
-	department = "Security"
-	department_flag = SEC
+	department_refs = list(DEPT_SECURITY)
 	total_positions = 1
 	spawn_positions = 1
 	supervisors = "the Sheriff"

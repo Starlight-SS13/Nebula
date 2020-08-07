@@ -1,7 +1,6 @@
 /datum/job/senior_engineer
 	title = "Senior Engineer"
-	department = "Engineering"
-	department_flag = ENG
+	department_refs = list(DEPT_ENGINEERING)
 	supervisors = "the Captain, the First Officer and the Second Officer"
 	selection_color = "#5b4d20"
 
@@ -48,8 +47,7 @@
 
 /datum/job/engineer
 	title = "Engineer"
-	department = "Engineering"
-	department_flag = ENG
+	department_refs = list(DEPT_ENGINEERING)
 	supervisors = "the Senior Engineer"
 	selection_color = "#5b4d20"
 
