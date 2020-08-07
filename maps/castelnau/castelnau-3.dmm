@@ -650,7 +650,7 @@
 	pixel_x = 26
 	},
 /obj/structure/bed,
-/obj/item/weapon/bedsheet/purple,
+/obj/item/bedsheet/purple,
 /turf/simulated/floor/carpet/purple,
 /area/castelnau/civ/bunk)
 "bE" = (
@@ -677,7 +677,7 @@
 	pixel_x = 26
 	},
 /obj/structure/bed,
-/obj/item/weapon/bedsheet/blue,
+/obj/item/bedsheet/blue,
 /turf/simulated/floor/carpet/blue2,
 /area/castelnau/civ/bunk)
 "bH" = (
@@ -1354,7 +1354,7 @@
 /area/castelnau/command/tcoms)
 "cS" = (
 /obj/structure/table/woodentable/walnut,
-/obj/item/device/flashlight/lamp/green,
+/obj/item/flashlight/lamp/green,
 /obj/machinery/light_switch{
 	dir = 4;
 	pixel_x = -23;
@@ -1380,7 +1380,7 @@
 /obj/structure/filingcabinet/wallcabinet{
 	pixel_y = 24
 	},
-/obj/item/weapon/folder/blue,
+/obj/item/folder/blue,
 /turf/simulated/floor/carpet/red,
 /area/castelnau/command/captain)
 "cV" = (
@@ -1629,8 +1629,8 @@
 	},
 /obj/structure/table/standard,
 /obj/random/cash,
-/obj/item/weapon/paper_bin,
-/obj/item/weapon/pen,
+/obj/item/paper_bin,
+/obj/item/pen,
 /turf/simulated/floor/tiled/techmaint,
 /area/castelnau/civ/bunk)
 "dr" = (
@@ -1850,7 +1850,7 @@
 /obj/structure/bed/chair/comfy/red{
 	dir = 4
 	},
-/obj/item/weapon/storage/secure/safe{
+/obj/item/storage/secure/safe{
 	pixel_x = -24
 	},
 /obj/effect/floor_decal/spline/fancy/wood{
@@ -1860,7 +1860,7 @@
 /area/castelnau/command/captain)
 "dQ" = (
 /obj/structure/table/woodentable/walnut,
-/obj/item/weapon/folder/blue,
+/obj/item/folder/blue,
 /obj/machinery/atmospherics/unary/vent_pump/on{
 	dir = 4
 	},
@@ -1936,8 +1936,8 @@
 /area/castelnau/command/eva)
 "dY" = (
 /obj/structure/table/rack,
-/obj/item/weapon/tank/jetpack/oxygen,
-/obj/item/weapon/tank/jetpack/oxygen,
+/obj/item/tank/jetpack/oxygen,
+/obj/item/tank/jetpack/oxygen,
 /obj/effect/floor_decal/industrial/hatch/yellow,
 /turf/simulated/floor/tiled/techfloor,
 /area/castelnau/command/eva)
@@ -2096,7 +2096,7 @@
 "en" = (
 /obj/structure/hygiene/shower,
 /obj/structure/curtain/open/shower,
-/obj/item/weapon/soap,
+/obj/item/soap,
 /turf/simulated/floor/tiled/freezer,
 /area/castelnau/civ/restroom)
 "eo" = (
@@ -2235,7 +2235,7 @@
 /obj/structure/displaycase{
 	req_access = list("ACCESS_CASTELNAU_CAPTAIN")
 	},
-/obj/item/weapon/gun/energy/captain,
+/obj/item/gun/energy/captain,
 /turf/simulated/floor/carpet/red,
 /area/castelnau/command/captain)
 "eD" = (
@@ -2249,7 +2249,7 @@
 	dir = 1
 	},
 /obj/structure/table/woodentable,
-/obj/item/weapon/stamp/hop,
+/obj/item/stamp/hop,
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
 /obj/structure/cable/green{
@@ -2264,7 +2264,7 @@
 	dir = 1
 	},
 /obj/structure/table/woodentable,
-/obj/item/weapon/folder/blue,
+/obj/item/folder/blue,
 /turf/simulated/floor/wood,
 /area/castelnau/command/captain)
 "eG" = (
@@ -2273,8 +2273,8 @@
 	},
 /obj/structure/table/woodentable,
 /obj/structure/table/woodentable,
-/obj/item/weapon/paper_bin,
-/obj/item/weapon/pen/multi/cmd/hop{
+/obj/item/paper_bin,
+/obj/item/pen/multi/cmd/hop{
 	name = "first officer's pen"
 	},
 /obj/machinery/light{
@@ -2305,9 +2305,9 @@
 /area/castelnau/command/captain)
 "eI" = (
 /obj/structure/table/woodentable/walnut,
-/obj/item/weapon/paper_bin,
-/obj/item/weapon/stamp/captain,
-/obj/item/weapon/pen/multi/cmd/captain,
+/obj/item/paper_bin,
+/obj/item/stamp/captain,
+/obj/item/pen/multi/cmd/captain,
 /turf/simulated/floor/carpet/red,
 /area/castelnau/command/captain)
 "eJ" = (
@@ -2421,11 +2421,11 @@
 /turf/simulated/floor/tiled/techfloor,
 /area/castelnau/command/eva)
 "eQ" = (
-/obj/item/weapon/storage/briefcase/inflatable,
-/obj/item/weapon/storage/briefcase/inflatable,
-/obj/item/weapon/storage/briefcase/inflatable,
+/obj/item/storage/briefcase/inflatable,
+/obj/item/storage/briefcase/inflatable,
+/obj/item/storage/briefcase/inflatable,
 /obj/structure/table/rack,
-/obj/item/weapon/inflatable_dispenser,
+/obj/item/inflatable_dispenser,
 /obj/effect/floor_decal/industrial/hatch/yellow,
 /turf/simulated/floor/tiled/techfloor,
 /area/castelnau/command/eva)
@@ -2471,7 +2471,7 @@
 /area/castelnau/storage/primary)
 "eV" = (
 /obj/structure/table/standard,
-/obj/item/weapon/tape_roll,
+/obj/item/tape_roll,
 /obj/random/tech_supply,
 /obj/random/tech_supply,
 /obj/random/tech_supply,
@@ -2537,7 +2537,7 @@
 /turf/simulated/floor/tiled/freezer,
 /area/castelnau/civ/restroom)
 "fc" = (
-/obj/item/weapon/storage/mirror{
+/obj/item/storage/mirror{
 	pixel_x = 32
 	},
 /obj/structure/hygiene/sink{
@@ -2602,7 +2602,7 @@
 /turf/simulated/floor/tiled/techfloor,
 /area/shuttle/escape_pod9/station)
 "fi" = (
-/obj/item/device/radio/intercom{
+/obj/item/radio/intercom{
 	dir = 1;
 	pixel_y = -29
 	},
@@ -3158,7 +3158,7 @@
 "gh" = (
 /obj/machinery/atmospherics/unary/vent_scrubber/on,
 /obj/structure/table/standard,
-/obj/item/weapon/towel/random,
+/obj/item/towel/random,
 /obj/machinery/firealarm{
 	dir = 4;
 	pixel_x = 26
@@ -3416,11 +3416,11 @@
 "gE" = (
 /obj/structure/table/steel_reinforced,
 /obj/machinery/cell_charger,
-/obj/item/device/radio/off,
-/obj/item/device/radio/off,
-/obj/item/device/radio/off,
-/obj/item/weapon/cell/high,
-/obj/item/weapon/cell/high,
+/obj/item/radio/off,
+/obj/item/radio/off,
+/obj/item/radio/off,
+/obj/item/cell/high,
+/obj/item/cell/high,
 /obj/effect/floor_decal/industrial/hatch/yellow,
 /turf/simulated/floor/tiled/techfloor,
 /area/castelnau/command/eva)
@@ -3440,10 +3440,10 @@
 /area/castelnau/command/eva)
 "gG" = (
 /obj/structure/table/steel_reinforced,
-/obj/item/weapon/storage/toolbox/mechanical,
-/obj/item/weapon/storage/toolbox/electrical,
+/obj/item/storage/toolbox/mechanical,
+/obj/item/storage/toolbox/electrical,
 /obj/item/clothing/head/welding,
-/obj/item/device/multitool,
+/obj/item/multitool,
 /obj/effect/floor_decal/industrial/hatch/yellow,
 /turf/simulated/floor/tiled/techfloor,
 /area/castelnau/command/eva)
@@ -3536,7 +3536,7 @@
 	dir = 1;
 	pixel_y = -24
 	},
-/obj/item/weapon/bedsheet/green,
+/obj/item/bedsheet/green,
 /obj/structure/bed,
 /turf/simulated/floor/carpet/green,
 /area/castelnau/civ/bunk)
@@ -3558,7 +3558,7 @@
 	dir = 1;
 	pixel_y = -24
 	},
-/obj/item/weapon/bedsheet/red,
+/obj/item/bedsheet/red,
 /obj/structure/bed,
 /turf/simulated/floor/carpet/red,
 /area/castelnau/civ/bunk)
@@ -3923,7 +3923,7 @@
 /area/castelnau/hallway/primary/firstdeck/fore)
 "hB" = (
 /obj/structure/table/woodentable_reinforced/walnut,
-/obj/item/weapon/card/id/captains_spare,
+/obj/item/card/id/captains_spare,
 /turf/simulated/floor/wood/walnut,
 /area/castelnau/command/captainquarts)
 "hC" = (
@@ -4847,7 +4847,7 @@
 	name = "EMERGENCY USE ONLY";
 	req_access = list("ACCESS_CASTELNAU_CAPTAIN")
 	},
-/obj/item/weapon/gun/projectile/automatic/merc_smg,
+/obj/item/gun/projectile/automatic/merc_smg,
 /obj/item/ammo_magazine/smg,
 /obj/item/ammo_magazine/smg,
 /turf/simulated/floor/plating,
@@ -4885,7 +4885,7 @@
 /turf/simulated/floor/tiled/monotile,
 /area/castelnau/hallway/primary/firstdeck/fore)
 "iJ" = (
-/obj/item/weapon/storage/secure/briefcase/money,
+/obj/item/storage/secure/briefcase/money,
 /obj/structure/table/rack,
 /turf/simulated/floor/plating,
 /area/castelnau/command/captainquarts)
@@ -4950,7 +4950,7 @@
 	pixel_y = 24;
 	tag_door = "escape_pod_8_hatch"
 	},
-/obj/item/device/radio/intercom{
+/obj/item/radio/intercom{
 	dir = 1;
 	pixel_y = -29
 	},
@@ -5135,7 +5135,7 @@
 /obj/effect/floor_decal/corner/red/bordercorner2{
 	dir = 6
 	},
-/obj/item/weapon/storage/box/donut,
+/obj/item/storage/box/donut,
 /obj/machinery/light{
 	dir = 4
 	},
@@ -6195,9 +6195,9 @@
 /area/castelnau/security/hall)
 "la" = (
 /obj/structure/filingcabinet/chestdrawer,
-/obj/item/weapon/folder/white,
-/obj/item/weapon/folder/white,
-/obj/item/weapon/folder/white,
+/obj/item/folder/white,
+/obj/item/folder/white,
+/obj/item/folder/white,
 /obj/structure/cable/green{
 	d2 = 2;
 	icon_state = "0-2"
@@ -6230,8 +6230,8 @@
 	dir = 4
 	},
 /obj/structure/table/reinforced,
-/obj/item/weapon/paper_bin,
-/obj/item/weapon/pen,
+/obj/item/paper_bin,
+/obj/item/pen,
 /obj/machinery/firealarm{
 	pixel_y = 16
 	},
@@ -6343,7 +6343,7 @@
 /area/castelnau/medical/surgery)
 "lj" = (
 /obj/structure/table/reinforced,
-/obj/item/weapon/storage/firstaid/adv,
+/obj/item/storage/firstaid/adv,
 /obj/effect/floor_decal/borderfloorwhite{
 	dir = 1
 	},
@@ -6376,7 +6376,7 @@
 /area/castelnau/medical/surgery)
 "ll" = (
 /obj/structure/table/standard,
-/obj/item/weapon/storage/box/bodybags{
+/obj/item/storage/box/bodybags{
 	pixel_x = 1;
 	pixel_y = 2
 	},
@@ -6446,7 +6446,7 @@
 /turf/simulated/floor/tiled/dark,
 /area/castelnau/civ/bar)
 "lt" = (
-/obj/item/weapon/flame/candle,
+/obj/item/flame/candle,
 /obj/structure/table/steel,
 /obj/machinery/floor_light/prebuilt/bar/violet,
 /obj/structure/disposalpipe/junction{
@@ -6491,9 +6491,9 @@
 /area/castelnau/civ/laundry)
 "lz" = (
 /obj/structure/table/standard,
-/obj/item/weapon/storage/box/detergent,
-/obj/item/weapon/storage/box/detergent,
-/obj/item/weapon/ironingiron,
+/obj/item/storage/box/detergent,
+/obj/item/storage/box/detergent,
+/obj/item/ironingiron,
 /obj/effect/floor_decal/corner/blue/diagonal{
 	dir = 4
 	},
@@ -6535,7 +6535,7 @@
 /area/castelnau/thruster/d1port)
 "lD" = (
 /obj/structure/table/woodentable,
-/obj/item/weapon/storage/box/donut,
+/obj/item/storage/box/donut,
 /turf/simulated/floor/carpet/red,
 /area/castelnau/civ/lounge)
 "lE" = (
@@ -6571,7 +6571,7 @@
 /turf/simulated/floor/reinforced/castelnau/fuel,
 /area/castelnau/thruster/d1port)
 "lI" = (
-/obj/item/weapon/storage/box/donut,
+/obj/item/storage/box/donut,
 /obj/structure/table/glass,
 /obj/effect/floor_decal/corner_techfloor_grid{
 	dir = 9
@@ -6623,9 +6623,9 @@
 "lM" = (
 /obj/structure/table/rack,
 /obj/effect/floor_decal/industrial/outline/grey,
-/obj/item/weapon/storage/toolbox/mechanical,
-/obj/item/device/multitool,
-/obj/item/weapon/pinpointer,
+/obj/item/storage/toolbox/mechanical,
+/obj/item/multitool,
+/obj/item/pinpointer,
 /obj/machinery/power/apc{
 	dir = 8;
 	name = "west bump";
@@ -6691,7 +6691,7 @@
 /obj/structure/bed/chair/armchair/brown{
 	dir = 4
 	},
-/obj/item/device/radio/intercom/department/security{
+/obj/item/radio/intercom/department/security{
 	dir = 4;
 	pixel_x = -21
 	},
@@ -6831,7 +6831,7 @@
 	icon_state = "left";
 	name = "Medical Reception"
 	},
-/obj/item/weapon/folder/white,
+/obj/item/folder/white,
 /obj/structure/cable/green{
 	d1 = 4;
 	d2 = 8;
@@ -7105,7 +7105,7 @@
 	dir = 4
 	},
 /obj/structure/table/marble,
-/obj/item/weapon/reagent_containers/glass/beaker{
+/obj/item/reagent_containers/glass/beaker{
 	pixel_x = 5
 	},
 /obj/machinery/reagentgrinder/juicer,
@@ -7239,7 +7239,7 @@
 	pixel_y = 24;
 	tag_door = "escape_pod_7_hatch"
 	},
-/obj/item/device/radio/intercom{
+/obj/item/radio/intercom{
 	dir = 1;
 	pixel_y = -29
 	},
@@ -7336,8 +7336,8 @@
 	icon_state = "4-8"
 	},
 /obj/structure/table/rack,
-/obj/item/weapon/storage/box/ids,
-/obj/item/weapon/storage/box/PDAs{
+/obj/item/storage/box/ids,
+/obj/item/storage/box/PDAs{
 	pixel_x = 4;
 	pixel_y = 4
 	},
@@ -7353,8 +7353,8 @@
 /area/castelnau/thruster/d1port)
 "mW" = (
 /obj/structure/table/woodentable_reinforced/walnut,
-/obj/item/weapon/paper_bin,
-/obj/item/weapon/pen,
+/obj/item/paper_bin,
+/obj/item/pen,
 /obj/machinery/atmospherics/pipe/manifold/hidden/scrubbers{
 	dir = 8
 	},
@@ -7369,7 +7369,7 @@
 /turf/simulated/floor/wood/walnut,
 /area/castelnau/command/captainquarts)
 "mX" = (
-/obj/item/weapon/storage/secure/safe{
+/obj/item/storage/secure/safe{
 	pixel_x = 32
 	},
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
@@ -7539,8 +7539,8 @@
 	dir = 4
 	},
 /obj/structure/table/reinforced,
-/obj/item/weapon/reagent_containers/spray/cleaner,
-/obj/item/weapon/reagent_containers/spray/sterilizine{
+/obj/item/reagent_containers/spray/cleaner,
+/obj/item/reagent_containers/spray/sterilizine{
 	pixel_x = -8
 	},
 /obj/machinery/atmospherics/unary/vent_pump/on{
@@ -7614,11 +7614,11 @@
 /area/castelnau/medical/infirmreception)
 "nl" = (
 /obj/structure/table/standard,
-/obj/item/weapon/reagent_containers/spray/cleaner{
+/obj/item/reagent_containers/spray/cleaner{
 	pixel_x = -5;
 	pixel_y = 4
 	},
-/obj/item/weapon/reagent_containers/spray/sterilizine{
+/obj/item/reagent_containers/spray/sterilizine{
 	pixel_x = 2;
 	pixel_y = 4
 	},
@@ -7653,7 +7653,7 @@
 /area/castelnau/medical/surgery)
 "nm" = (
 /obj/structure/table/standard,
-/obj/item/weapon/storage/firstaid/surgery{
+/obj/item/storage/firstaid/surgery{
 	pixel_y = 6
 	},
 /obj/effect/floor_decal/borderfloorwhite,
@@ -7841,7 +7841,7 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 4
 	},
-/obj/item/weapon/material/ashtray/glass,
+/obj/item/material/ashtray/glass,
 /obj/structure/table/steel,
 /obj/machinery/floor_light/prebuilt/bar/violet,
 /obj/structure/disposalpipe/segment{
@@ -8242,8 +8242,8 @@
 /area/castelnau/medical/surgery)
 "ok" = (
 /obj/structure/table/standard,
-/obj/item/weapon/scalpel,
-/obj/item/weapon/autopsy_scanner,
+/obj/item/scalpel,
+/obj/item/autopsy_scanner,
 /obj/machinery/atmospherics/unary/vent_pump/on{
 	dir = 1
 	},
@@ -8282,7 +8282,7 @@
 /area/castelnau/medical/morgue)
 "om" = (
 /obj/structure/table/steel,
-/obj/item/weapon/material/ashtray/glass,
+/obj/item/material/ashtray/glass,
 /turf/simulated/floor/tiled/dark,
 /area/castelnau/civ/bar)
 "on" = (
@@ -8380,10 +8380,10 @@
 	dir = 4
 	},
 /obj/structure/table/marble,
-/obj/item/weapon/reagent_containers/food/condiment/small/saltshaker{
+/obj/item/reagent_containers/food/condiment/small/saltshaker{
 	pixel_x = -3
 	},
-/obj/item/weapon/reagent_containers/food/condiment/small/peppermill{
+/obj/item/reagent_containers/food/condiment/small/peppermill{
 	pixel_x = 3
 	},
 /turf/simulated/floor/tiled/white,
@@ -8434,7 +8434,7 @@
 	d2 = 8;
 	icon_state = "4-8"
 	},
-/obj/item/device/radio/intercom{
+/obj/item/radio/intercom{
 	dir = 1;
 	pixel_y = -29
 	},
@@ -8591,16 +8591,16 @@
 /area/castelnau/command/bridge)
 "oM" = (
 /obj/structure/table/glass,
-/obj/item/weapon/folder/blue,
-/obj/item/weapon/folder/blue,
+/obj/item/folder/blue,
+/obj/item/folder/blue,
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/castelnau/command/bridge)
 "oN" = (
 /obj/structure/table/glass,
-/obj/item/weapon/paper_bin,
-/obj/item/weapon/pen/red,
-/obj/item/weapon/pen/blue,
-/obj/item/weapon/pen,
+/obj/item/paper_bin,
+/obj/item/pen/red,
+/obj/item/pen/blue,
+/obj/item/pen,
 /obj/machinery/atmospherics/unary/vent_scrubber/on{
 	dir = 1
 	},
@@ -8625,7 +8625,7 @@
 	dir = 1;
 	pixel_y = -32
 	},
-/obj/item/weapon/stool/padded,
+/obj/item/stool/padded,
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 9
 	},
@@ -8652,9 +8652,9 @@
 /area/castelnau/maintenance/firstdeck/foreport)
 "oT" = (
 /obj/structure/closet/secure_closet/captains/castelnau,
-/obj/item/weapon/gun/projectile/revolver/webley/captain,
+/obj/item/gun/projectile/revolver/webley/captain,
 /obj/item/ammo_magazine/speedloader/magnum,
-/obj/item/weapon/paper/monitorkey,
+/obj/item/paper/monitorkey,
 /obj/machinery/alarm{
 	dir = 1;
 	pixel_y = -22
@@ -8673,7 +8673,7 @@
 /area/castelnau/command/captainquarts)
 "oV" = (
 /obj/structure/bed,
-/obj/item/weapon/bedsheet/captain,
+/obj/item/bedsheet/captain,
 /turf/simulated/floor/carpet/green,
 /area/castelnau/command/captainquarts)
 "oW" = (
@@ -8829,7 +8829,7 @@
 /obj/item/bodybag/cryobag,
 /obj/item/bodybag/cryobag,
 /obj/item/bodybag/cryobag,
-/obj/item/device/scanner/spectrometer/adv,
+/obj/item/scanner/spectrometer/adv,
 /obj/machinery/atmospherics/unary/vent_scrubber/on{
 	dir = 8
 	},
@@ -8868,7 +8868,7 @@
 /obj/machinery/atmospherics/portables_connector,
 /obj/machinery/portable_atmospherics/canister/oxygen/prechilled,
 /obj/effect/floor_decal/corner/paleblue/mono,
-/obj/item/weapon/wrench,
+/obj/item/wrench,
 /turf/simulated/floor/tiled/white,
 /area/castelnau/medical/subacute)
 "pl" = (
@@ -8915,9 +8915,9 @@
 	pixel_y = 32;
 	req_access = list("ACCESS_CASTELNAU_MED")
 	},
-/obj/item/weapon/reagent_containers/ivbag/blood/OMinus,
-/obj/item/weapon/reagent_containers/ivbag/blood/OMinus,
-/obj/item/weapon/reagent_containers/ivbag/blood/OMinus,
+/obj/item/reagent_containers/ivbag/blood/OMinus,
+/obj/item/reagent_containers/ivbag/blood/OMinus,
+/obj/item/reagent_containers/ivbag/blood/OMinus,
 /turf/simulated/floor/tiled/white,
 /area/castelnau/medical/subacute)
 "pn" = (
@@ -8940,11 +8940,11 @@
 /turf/simulated/floor/tiled/dark,
 /area/castelnau/civ/bar)
 "pr" = (
-/obj/item/weapon/stool/bar/padded,
+/obj/item/stool/bar/padded,
 /turf/simulated/floor/tiled/dark/monotile,
 /area/castelnau/civ/bar)
 "ps" = (
-/obj/item/weapon/stool/bar/padded,
+/obj/item/stool/bar/padded,
 /obj/structure/disposalpipe/segment,
 /turf/simulated/floor/tiled/dark/monotile,
 /area/castelnau/civ/bar)
@@ -8975,7 +8975,7 @@
 	dir = 4
 	},
 /obj/structure/table/marble,
-/obj/item/weapon/reagent_containers/food/condiment/enzyme,
+/obj/item/reagent_containers/food/condiment/enzyme,
 /turf/simulated/floor/tiled/white,
 /area/castelnau/civ/kitchen)
 "px" = (
@@ -9094,9 +9094,9 @@
 /area/castelnau/command/bridge)
 "pH" = (
 /obj/structure/table/glass,
-/obj/item/weapon/storage/secure/briefcase,
-/obj/item/weapon/storage/secure/briefcase,
-/obj/item/weapon/storage/secure/briefcase,
+/obj/item/storage/secure/briefcase,
+/obj/item/storage/secure/briefcase,
+/obj/item/storage/secure/briefcase,
 /obj/machinery/firealarm{
 	dir = 1;
 	pixel_y = -24
@@ -9148,12 +9148,12 @@
 /area/castelnau/command/captainquarts)
 "pL" = (
 /obj/structure/table/rack,
-/obj/item/device/radio,
-/obj/item/device/radio,
-/obj/item/device/radio,
-/obj/item/device/flashlight/flare,
-/obj/item/device/flashlight/flare,
-/obj/item/weapon/crowbar,
+/obj/item/radio,
+/obj/item/radio,
+/obj/item/radio,
+/obj/item/flashlight/flare,
+/obj/item/flashlight/flare,
+/obj/item/crowbar,
 /obj/effect/floor_decal/industrial/hatch/yellow,
 /turf/simulated/floor/tiled/techfloor,
 /area/castelnau/command/eva)
@@ -9166,7 +9166,7 @@
 	dir = 4;
 	level = 2
 	},
-/obj/item/weapon/storage/mirror{
+/obj/item/storage/mirror{
 	pixel_y = 32
 	},
 /turf/simulated/floor/tiled/freezer,
@@ -9188,7 +9188,7 @@
 /turf/simulated/floor/tiled/freezer,
 /area/castelnau/security/recreation)
 "pP" = (
-/obj/item/weapon/storage/secure/safe{
+/obj/item/storage/secure/safe{
 	pixel_x = -26
 	},
 /obj/machinery/atmospherics/unary/vent_pump/on{
@@ -9432,9 +9432,9 @@
 /area/castelnau/medical/chemistry)
 "qh" = (
 /obj/structure/table/standard,
-/obj/item/device/scanner/spectrometer/adv,
-/obj/item/weapon/storage/box/beakers,
-/obj/item/weapon/storage/box/beakers,
+/obj/item/scanner/spectrometer/adv,
+/obj/item/storage/box/beakers,
+/obj/item/storage/box/beakers,
 /obj/machinery/alarm{
 	dir = 8;
 	pixel_x = 25
@@ -9452,8 +9452,8 @@
 /turf/simulated/floor/tiled/dark,
 /area/castelnau/civ/bar)
 "qj" = (
-/obj/item/weapon/paper_bin,
-/obj/item/weapon/pen,
+/obj/item/paper_bin,
+/obj/item/pen,
 /obj/structure/table/marble,
 /obj/machinery/floor_light/prebuilt/bar/violet,
 /obj/machinery/door/blast/shutters/open{
@@ -9463,7 +9463,7 @@
 /turf/simulated/floor/tiled/dark,
 /area/castelnau/civ/bar)
 "qk" = (
-/obj/item/weapon/material/ashtray/bronze,
+/obj/item/material/ashtray/bronze,
 /obj/structure/table/marble,
 /obj/machinery/floor_light/prebuilt/bar/violet,
 /obj/machinery/door/blast/shutters/open{
@@ -9564,18 +9564,18 @@
 	},
 /obj/effect/floor_decal/industrial/outline/yellow,
 /obj/structure/closet/secure_closet/freezer/meat,
-/obj/item/weapon/reagent_containers/food/condiment/barbecue,
+/obj/item/reagent_containers/food/condiment/barbecue,
 /turf/simulated/floor/tiled/freezer,
 /area/castelnau/civ/kitchen_backroom)
 "qt" = (
 /obj/structure/closet/secure_closet/freezer/fridge,
 /obj/effect/floor_decal/industrial/outline/yellow,
-/obj/item/weapon/reagent_containers/food/condiment/enzyme,
+/obj/item/reagent_containers/food/condiment/enzyme,
 /turf/simulated/floor/tiled/freezer,
 /area/castelnau/civ/kitchen_backroom)
 "qu" = (
 /obj/structure/table/standard,
-/obj/item/weapon/book/manual/chef_recipes,
+/obj/item/book/manual/chef_recipes,
 /turf/simulated/floor/tiled/freezer,
 /area/castelnau/civ/kitchen_backroom)
 "qv" = (
@@ -9645,7 +9645,7 @@
 	pixel_y = 24;
 	tag_door = "escape_pod_6_hatch"
 	},
-/obj/item/device/radio/intercom{
+/obj/item/radio/intercom{
 	dir = 1;
 	pixel_y = -29
 	},
@@ -9827,17 +9827,17 @@
 /area/castelnau/security/ivestigation)
 "qQ" = (
 /obj/structure/table/glass,
-/obj/item/weapon/reagent_containers/spray/luminol,
-/obj/item/weapon/reagent_containers/spray/sterilizine,
-/obj/item/weapon/forensics/sample_kit/powder,
-/obj/item/weapon/forensics/swab,
+/obj/item/reagent_containers/spray/luminol,
+/obj/item/reagent_containers/spray/sterilizine,
+/obj/item/forensics/sample_kit/powder,
+/obj/item/forensics/swab,
 /obj/effect/floor_decal/corner/blue/half,
 /obj/machinery/light,
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
 /obj/machinery/atmospherics/pipe/manifold/hidden/scrubbers{
 	dir = 8
 	},
-/obj/item/weapon/storage/briefcase/crimekit,
+/obj/item/storage/briefcase/crimekit,
 /obj/structure/cable/green{
 	d1 = 1;
 	d2 = 2;
@@ -9855,15 +9855,15 @@
 /obj/machinery/atmospherics/unary/vent_scrubber/on{
 	dir = 8
 	},
-/obj/item/weapon/paper_bin,
-/obj/item/weapon/pen,
+/obj/item/paper_bin,
+/obj/item/pen,
 /turf/simulated/floor/tiled/white,
 /area/castelnau/security/ivestigation)
 "qS" = (
 /obj/structure/table/glass,
-/obj/item/weapon/storage/box/gloves,
-/obj/item/weapon/storage/box/syringes,
-/obj/item/weapon/storage/box/evidence,
+/obj/item/storage/box/gloves,
+/obj/item/storage/box/syringes,
+/obj/item/storage/box/evidence,
 /obj/item/clothing/suit/storage/toggle/labcoat,
 /obj/effect/floor_decal/corner/blue/half,
 /obj/structure/noticeboard{
@@ -10153,11 +10153,11 @@
 /area/castelnau/medical/chemistry)
 "ri" = (
 /obj/structure/table/standard,
-/obj/item/weapon/reagent_containers/spray/cleaner{
+/obj/item/reagent_containers/spray/cleaner{
 	desc = "Someone has crossed out the 'Space' from Space Cleaner and written in Chemistry. Scrawled on the back is, 'Okay, whoever filled this with polytrinic acid, it was only funny the first time. It was hard enough replacing the CMO's first cat!'";
 	name = "Chemistry Cleaner"
 	},
-/obj/item/weapon/storage/box/syringes,
+/obj/item/storage/box/syringes,
 /obj/structure/extinguisher_cabinet{
 	pixel_x = 22
 	},
@@ -10248,7 +10248,7 @@
 /obj/effect/floor_decal/corner/grey/diagonal{
 	dir = 4
 	},
-/obj/item/weapon/material/kitchen/rollingpin,
+/obj/item/material/kitchen/rollingpin,
 /turf/simulated/floor/tiled/white,
 /area/castelnau/civ/kitchen)
 "rr" = (
@@ -10373,7 +10373,7 @@
 /turf/simulated/floor/plating,
 /area/castelnau/maintenance/firstdeck/aftport)
 "rz" = (
-/obj/item/weapon/caution/cone,
+/obj/item/caution/cone,
 /turf/simulated/floor/plating,
 /area/castelnau/maintenance/firstdeck/aftport)
 "rA" = (
@@ -10505,7 +10505,7 @@
 /area/castelnau/medical/sleeper)
 "rM" = (
 /obj/structure/table/standard,
-/obj/item/weapon/defibrillator/loaded,
+/obj/item/defibrillator/loaded,
 /obj/effect/floor_decal/borderfloorwhite{
 	dir = 10
 	},
@@ -10517,7 +10517,7 @@
 "rN" = (
 /obj/structure/table/standard,
 /obj/machinery/cell_charger,
-/obj/item/weapon/reagent_containers/glass/beaker/cryoxadone,
+/obj/item/reagent_containers/glass/beaker/cryoxadone,
 /obj/effect/floor_decal/borderfloorwhite{
 	dir = 6
 	},
@@ -10528,8 +10528,8 @@
 /area/castelnau/medical/subacute)
 "rO" = (
 /obj/structure/closet/secure_closet/medical1,
-/obj/item/weapon/storage/box/beakers,
-/obj/item/weapon/storage/box/syringes{
+/obj/item/storage/box/beakers,
+/obj/item/storage/box/syringes{
 	pixel_x = 4;
 	pixel_y = 4
 	},
@@ -10557,8 +10557,8 @@
 	},
 /obj/effect/floor_decal/corner/paleblue/mono,
 /obj/structure/closet/wardrobe/medic_white,
-/obj/item/weapon/storage/belt/medical/emt,
-/obj/item/weapon/storage/belt/medical,
+/obj/item/storage/belt/medical/emt,
+/obj/item/storage/belt/medical,
 /turf/simulated/floor/tiled/white,
 /area/castelnau/medical/subacute)
 "rQ" = (
@@ -10572,23 +10572,23 @@
 /area/castelnau/medical/subacute)
 "rR" = (
 /obj/structure/table/standard,
-/obj/item/weapon/storage/firstaid/regular{
+/obj/item/storage/firstaid/regular{
 	pixel_x = 5;
 	pixel_y = 10
 	},
-/obj/item/weapon/storage/firstaid/regular{
+/obj/item/storage/firstaid/regular{
 	pixel_x = 15;
 	pixel_y = 10
 	},
-/obj/item/weapon/storage/firstaid/toxin{
+/obj/item/storage/firstaid/toxin{
 	pixel_x = -5;
 	pixel_y = 4
 	},
-/obj/item/weapon/storage/firstaid/adv{
+/obj/item/storage/firstaid/adv{
 	pixel_x = 5;
 	pixel_y = 4
 	},
-/obj/item/weapon/storage/firstaid/fire{
+/obj/item/storage/firstaid/fire{
 	pixel_x = 15;
 	pixel_y = 4
 	},
@@ -10604,15 +10604,15 @@
 /area/castelnau/medical/subacute)
 "rS" = (
 /obj/structure/table/standard,
-/obj/item/weapon/storage/firstaid/o2{
+/obj/item/storage/firstaid/o2{
 	pixel_x = -5;
 	pixel_y = 4
 	},
-/obj/item/weapon/reagent_containers/glass/bottle/antitoxin{
+/obj/item/reagent_containers/glass/bottle/antitoxin{
 	pixel_x = 8;
 	pixel_y = 10
 	},
-/obj/item/weapon/reagent_containers/glass/bottle/inaprovaline{
+/obj/item/reagent_containers/glass/bottle/inaprovaline{
 	pixel_x = 8;
 	pixel_y = 4
 	},
@@ -10633,8 +10633,8 @@
 /area/castelnau/medical/chemistry)
 "rU" = (
 /obj/structure/table/standard,
-/obj/item/weapon/reagent_containers/glass/beaker/large,
-/obj/item/weapon/reagent_containers/dropper,
+/obj/item/reagent_containers/glass/beaker/large,
+/obj/item/reagent_containers/dropper,
 /obj/machinery/firealarm{
 	dir = 1;
 	pixel_y = -28
@@ -10849,7 +10849,7 @@
 /turf/simulated/floor/plating,
 /area/castelnau/maintenance/firstdeck/aftport)
 "so" = (
-/obj/item/weapon/wrench,
+/obj/item/wrench,
 /obj/machinery/atmospherics/pipe/simple/hidden/cyan{
 	dir = 9
 	},
@@ -10969,7 +10969,7 @@
 	},
 /obj/structure/table/steel,
 /obj/machinery/floor_light/prebuilt/bar/violet,
-/obj/item/device/boombox,
+/obj/item/boombox,
 /turf/simulated/floor/tiled/dark,
 /area/castelnau/civ/bar)
 "sx" = (
@@ -10992,7 +10992,7 @@
 	pixel_y = -24
 	},
 /obj/structure/table/marble,
-/obj/item/device/eftpos{
+/obj/item/eftpos{
 	eftpos_name = "Bartender EFTPOS scanner"
 	},
 /turf/simulated/floor/tiled/dark,
@@ -11008,7 +11008,7 @@
 	},
 /obj/machinery/floor_light/prebuilt/bar/violet,
 /obj/machinery/recharger,
-/obj/item/weapon/reagent_containers/food/drinks/shaker,
+/obj/item/reagent_containers/food/drinks/shaker,
 /turf/simulated/floor/tiled/dark,
 /area/castelnau/civ/bar)
 "sB" = (
@@ -11044,7 +11044,7 @@
 /obj/effect/floor_decal/corner/grey/diagonal{
 	dir = 4
 	},
-/obj/item/weapon/reagent_containers/food/snacks/mint,
+/obj/item/reagent_containers/food/snacks/mint,
 /turf/simulated/floor/tiled/white,
 /area/castelnau/civ/kitchen)
 "sF" = (
@@ -11477,10 +11477,10 @@
 /area/castelnau/maintenance/firstdeck/foreport)
 "ty" = (
 /obj/structure/table/woodentable,
-/obj/item/weapon/board,
-/obj/item/weapon/storage/box/checkers/chess,
-/obj/item/weapon/storage/box/checkers/chess/red,
-/obj/item/weapon/storage/box/checkers,
+/obj/item/board,
+/obj/item/storage/box/checkers/chess,
+/obj/item/storage/box/checkers/chess/red,
+/obj/item/storage/box/checkers,
 /obj/machinery/light/small,
 /turf/simulated/floor/carpet/red,
 /area/castelnau/civ/lounge)
@@ -11732,7 +11732,7 @@
 /area/castelnau/medical/maintenance_equipstorage)
 "tQ" = (
 /obj/structure/reagent_dispensers/watertank,
-/obj/item/weapon/reagent_containers/glass/bucket,
+/obj/item/reagent_containers/glass/bucket,
 /obj/structure/railing/mapped{
 	dir = 4
 	},
@@ -11780,8 +11780,8 @@
 /obj/structure/railing/mapped{
 	dir = 8
 	},
-/obj/item/weapon/material/minihoe,
-/obj/item/weapon/material/hatchet,
+/obj/item/material/minihoe,
+/obj/item/material/hatchet,
 /obj/structure/sign/warning/compressed_gas{
 	dir = 1;
 	pixel_y = -32
@@ -11801,7 +11801,7 @@
 /obj/structure/railing/mapped{
 	dir = 8
 	},
-/obj/item/weapon/storage/toolbox/emergency,
+/obj/item/storage/toolbox/emergency,
 /turf/simulated/floor/plating,
 /area/castelnau/maintenance/firstdeck/aftport)
 "tZ" = (
@@ -12137,7 +12137,7 @@
 	dir = 8;
 	level = 2
 	},
-/obj/item/device/flashlight/lamp/green,
+/obj/item/flashlight/lamp/green,
 /turf/simulated/floor/carpet/red,
 /area/castelnau/civ/lounge)
 "uN" = (
@@ -12149,8 +12149,8 @@
 /obj/effect/floor_decal/borderfloor,
 /obj/effect/floor_decal/corner/red/border,
 /obj/effect/floor_decal/borderfloor/corner2,
-/obj/item/weapon/mop,
-/obj/item/weapon/reagent_containers/glass/bucket,
+/obj/item/mop,
+/obj/item/reagent_containers/glass/bucket,
 /turf/simulated/floor/tiled,
 /area/castelnau/hallway/primary/firstdeck/fore)
 "uO" = (
@@ -12171,7 +12171,7 @@
 /area/castelnau/hallway/primary/firstdeck/fore)
 "uP" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
-/obj/item/weapon/stool/padded,
+/obj/item/stool/padded,
 /turf/simulated/floor/carpet/red,
 /area/castelnau/civ/lounge)
 "uQ" = (

@@ -309,7 +309,7 @@
 /obj/structure/table/rack,
 /obj/structure/railing/mapped,
 /obj/random/maintenance,
-/obj/item/weapon/storage/box/lights/mixed,
+/obj/item/storage/box/lights/mixed,
 /turf/simulated/floor/plating,
 /area/castelnau/maintenance/thirddeck/starboard)
 "aR" = (
@@ -634,7 +634,7 @@
 	dir = 4
 	},
 /obj/structure/table/steel,
-/obj/item/weapon/storage/toolbox/mechanical,
+/obj/item/storage/toolbox/mechanical,
 /obj/machinery/cell_charger,
 /turf/simulated/floor,
 /area/shuttle/castelnau/prometeus/power)
@@ -795,7 +795,7 @@
 	name = "Emergency Exit"
 	},
 /obj/effect/paint_stripe/red,
-/obj/item/weapon/airlock_brace,
+/obj/item/airlock_brace,
 /turf/simulated/floor/plating,
 /area/shuttle/castelnau/perseus/cockpit)
 "bY" = (
@@ -997,7 +997,7 @@
 /area/space)
 "cw" = (
 /obj/machinery/atmospherics/pipe/manifold4w/visible/fuel,
-/obj/item/weapon/storage/toolbox/mechanical,
+/obj/item/storage/toolbox/mechanical,
 /obj/machinery/alarm{
 	dir = 1;
 	pixel_y = -24
@@ -1019,7 +1019,7 @@
 	name = "south bump";
 	pixel_y = -24
 	},
-/obj/item/weapon/storage/mre/random,
+/obj/item/storage/mre/random,
 /obj/structure/cable/yellow{
 	d2 = 4;
 	icon_state = "0-4"
@@ -1126,7 +1126,7 @@
 /turf/simulated/floor/plating,
 /area/castelnau/maintenance/thirddeck/starboard)
 "cJ" = (
-/obj/item/weapon/farmbot_arm_assembly,
+/obj/item/farmbot_arm_assembly,
 /turf/simulated/floor/plating,
 /area/castelnau/maintenance/thirddeck/starboard)
 "cK" = (
@@ -1529,7 +1529,7 @@
 	dir = 8;
 	req_access = list("ACCESS_PERSEUS_HELM")
 	},
-/obj/item/device/radio/intercom{
+/obj/item/radio/intercom{
 	dir = 1;
 	pixel_y = -26
 	},
@@ -1781,7 +1781,7 @@
 /area/shuttle/castelnau/prometeus/cockpit)
 "dQ" = (
 /obj/structure/table/standard,
-/obj/item/device/flashlight/lamp,
+/obj/item/flashlight/lamp,
 /obj/effect/floor_decal/borderfloorwhite{
 	dir = 9
 	},
@@ -1792,8 +1792,8 @@
 /area/shuttle/castelnau/prometeus/cockpit)
 "dR" = (
 /obj/structure/table/standard,
-/obj/item/weapon/paper_bin,
-/obj/item/weapon/pen,
+/obj/item/paper_bin,
+/obj/item/pen,
 /obj/effect/floor_decal/borderfloorwhite{
 	dir = 1
 	},
@@ -1814,7 +1814,7 @@
 /area/shuttle/castelnau/prometeus/cockpit)
 "dT" = (
 /obj/structure/table/standard,
-/obj/item/device/paicard,
+/obj/item/paicard,
 /obj/machinery/firealarm{
 	pixel_y = 24
 	},
@@ -1841,10 +1841,10 @@
 /area/shuttle/castelnau/prometeus/cockpit)
 "dV" = (
 /obj/structure/table/woodentable,
-/obj/item/weapon/paper_bin,
-/obj/item/weapon/pen/red,
-/obj/item/weapon/pen/blue,
-/obj/item/weapon/pen,
+/obj/item/paper_bin,
+/obj/item/pen/red,
+/obj/item/pen/blue,
+/obj/item/pen,
 /turf/simulated/floor/tiled/white,
 /area/shuttle/castelnau/prometeus/cockpit)
 "dW" = (
@@ -2167,11 +2167,11 @@
 	req_access = newlist()
 	},
 /obj/machinery/hologram/holopad/longrange,
-/obj/item/weapon/storage/firstaid/regular,
+/obj/item/storage/firstaid/regular,
 /obj/item/bodybag/rescue,
 /obj/item/bodybag/cryobag,
-/obj/item/weapon/storage/med_pouch/oxyloss,
-/obj/item/weapon/storage/med_pouch/toxin,
+/obj/item/storage/med_pouch/oxyloss,
+/obj/item/storage/med_pouch/toxin,
 /turf/simulated/floor/tiled/dark,
 /area/shuttle/castelnau/perseus/cargo)
 "eC" = (
@@ -2322,7 +2322,7 @@
 /obj/effect/floor_decal/corner/purple/bordercorner2{
 	dir = 5
 	},
-/obj/item/weapon/stock_parts/computer/hard_drive/portable/advanced,
+/obj/item/stock_parts/computer/hard_drive/portable/advanced,
 /turf/simulated/floor/tiled/white/monotile,
 /area/shuttle/castelnau/prometeus/cockpit)
 "eV" = (
@@ -2349,11 +2349,11 @@
 /obj/effect/floor_decal/corner/paleblue/border{
 	dir = 8
 	},
-/obj/item/weapon/storage/box/syringes,
-/obj/item/weapon/storage/box/syringes,
+/obj/item/storage/box/syringes,
+/obj/item/storage/box/syringes,
 /obj/item/robot_rack/roller,
 /obj/item/robot_rack/roller,
-/obj/item/weapon/cane,
+/obj/item/cane,
 /turf/simulated/floor/tiled/white,
 /area/shuttle/castelnau/prometeus/medical)
 "eY" = (
@@ -2479,8 +2479,8 @@
 /area/shuttle/castelnau/prometeus/anomaly)
 "fj" = (
 /obj/structure/table/glass,
-/obj/item/weapon/paper_bin,
-/obj/item/weapon/pen,
+/obj/item/paper_bin,
+/obj/item/pen,
 /obj/structure/cable/yellow{
 	d1 = 4;
 	d2 = 8;
@@ -2514,11 +2514,11 @@
 	d2 = 8;
 	icon_state = "0-8"
 	},
-/obj/item/weapon/melee/baton/loaded,
-/obj/item/weapon/anodevice,
-/obj/item/weapon/anodevice,
-/obj/item/weapon/anobattery,
-/obj/item/weapon/anobattery,
+/obj/item/melee/baton/loaded,
+/obj/item/anodevice,
+/obj/item/anodevice,
+/obj/item/anobattery,
+/obj/item/anobattery,
 /turf/simulated/floor/tiled/white,
 /area/shuttle/castelnau/prometeus/anomaly)
 "fl" = (
@@ -2580,10 +2580,10 @@
 /area/shuttle/castelnau/prometeus/gas)
 "fr" = (
 /obj/structure/table/standard,
-/obj/item/device/transfer_valve,
-/obj/item/device/transfer_valve,
-/obj/item/device/transfer_valve,
-/obj/item/weapon/storage/toolbox/mechanical,
+/obj/item/transfer_valve,
+/obj/item/transfer_valve,
+/obj/item/transfer_valve,
+/obj/item/storage/toolbox/mechanical,
 /obj/machinery/light{
 	dir = 4
 	},
@@ -2748,7 +2748,7 @@
 /obj/structure/window/reinforced{
 	dir = 4
 	},
-/obj/item/weapon/stool,
+/obj/item/stool,
 /obj/machinery/atmospherics/unary/vent_pump/on{
 	dir = 1;
 	level = 2
@@ -2828,7 +2828,7 @@
 	pixel_y = -2;
 	req_access = list("ACCESS_PROMETEUS")
 	},
-/obj/item/device/radio/intercom{
+/obj/item/radio/intercom{
 	dir = 4;
 	pixel_x = -12;
 	pixel_y = 4
@@ -2928,7 +2928,7 @@
 /obj/effect/floor_decal/corner/paleblue/border{
 	dir = 8
 	},
-/obj/item/weapon/defibrillator/loaded,
+/obj/item/defibrillator/loaded,
 /obj/machinery/cell_charger,
 /obj/machinery/light{
 	dir = 8
@@ -3070,7 +3070,7 @@
 /area/shuttle/castelnau/prometeus/anomaly)
 "gr" = (
 /obj/structure/table/glass,
-/obj/item/weapon/storage/toolbox/mechanical,
+/obj/item/storage/toolbox/mechanical,
 /obj/machinery/recharger/wallcharger{
 	dir = 8;
 	pixel_x = 24
@@ -3624,7 +3624,7 @@
 "hp" = (
 /obj/effect/floor_decal/industrial/outline/yellow,
 /obj/structure/table/rack,
-/obj/item/weapon/gun/launcher/net,
+/obj/item/gun/launcher/net,
 /obj/item/clothing/accessory/storage/bandolier/safari,
 /obj/effect/floor_decal/corner/purple/mono,
 /turf/simulated/floor/tiled/monotile,
@@ -3684,7 +3684,7 @@
 /area/shuttle/castelnau/prometeus/equip)
 "hv" = (
 /obj/structure/table/glass,
-/obj/item/weapon/reagent_containers/glass/bucket,
+/obj/item/reagent_containers/glass/bucket,
 /obj/effect/floor_decal/borderfloor{
 	dir = 8
 	},
@@ -4141,7 +4141,7 @@
 /obj/effect/floor_decal/corner/purple/bordercorner2{
 	dir = 9
 	},
-/obj/item/weapon/storage/box/cups,
+/obj/item/storage/box/cups,
 /turf/simulated/floor/tiled/white,
 /area/shuttle/castelnau/prometeus/cockpit)
 "in" = (
@@ -4228,45 +4228,45 @@
 /area/shuttle/castelnau/prometeus/eva)
 "is" = (
 /obj/structure/table/steel,
-/obj/item/weapon/material/hatchet/machete,
-/obj/item/weapon/material/hatchet/machete,
-/obj/item/weapon/material/hatchet/machete,
-/obj/item/weapon/material/hatchet/machete,
-/obj/item/weapon/shovel,
-/obj/item/weapon/shovel,
-/obj/item/weapon/pickaxe/xeno/hand,
-/obj/item/weapon/pickaxe/xeno/hand,
-/obj/item/device/radio,
-/obj/item/device/radio,
-/obj/item/device/radio,
+/obj/item/material/hatchet/machete,
+/obj/item/material/hatchet/machete,
+/obj/item/material/hatchet/machete,
+/obj/item/material/hatchet/machete,
+/obj/item/shovel,
+/obj/item/shovel,
+/obj/item/pickaxe/xeno/hand,
+/obj/item/pickaxe/xeno/hand,
+/obj/item/radio,
+/obj/item/radio,
+/obj/item/radio,
 /obj/effect/floor_decal/corner/purple/mono,
 /turf/simulated/floor/tiled/monotile,
 /area/shuttle/castelnau/prometeus/eva)
 "it" = (
 /obj/structure/table/steel,
-/obj/item/device/scanner/mining,
-/obj/item/device/scanner/mining,
-/obj/item/device/scanner/mining,
+/obj/item/scanner/mining,
+/obj/item/scanner/mining,
+/obj/item/scanner/mining,
 /obj/item/stack/flag/red,
 /obj/item/stack/flag/red,
 /obj/item/stack/flag/red,
 /obj/item/stack/flag/red,
-/obj/item/weapon/storage/plants,
-/obj/item/weapon/storage/plants,
-/obj/item/weapon/storage/plants,
-/obj/item/device/geiger,
-/obj/item/device/geiger,
-/obj/item/device/geiger,
-/obj/item/device/scanner/plant,
-/obj/item/device/scanner/plant,
-/obj/item/device/scanner/plant,
-/obj/item/device/scanner/plant,
-/obj/item/weapon/storage/plants,
-/obj/item/device/geiger,
-/obj/item/device/scanner/xenobio,
-/obj/item/device/scanner/xenobio,
-/obj/item/device/scanner/xenobio,
-/obj/item/device/scanner/xenobio,
+/obj/item/storage/plants,
+/obj/item/storage/plants,
+/obj/item/storage/plants,
+/obj/item/geiger,
+/obj/item/geiger,
+/obj/item/geiger,
+/obj/item/scanner/plant,
+/obj/item/scanner/plant,
+/obj/item/scanner/plant,
+/obj/item/scanner/plant,
+/obj/item/storage/plants,
+/obj/item/geiger,
+/obj/item/scanner/xenobio,
+/obj/item/scanner/xenobio,
+/obj/item/scanner/xenobio,
+/obj/item/scanner/xenobio,
 /obj/effect/floor_decal/corner/purple/mono,
 /turf/simulated/floor/tiled/monotile,
 /area/shuttle/castelnau/prometeus/eva)
@@ -4302,8 +4302,8 @@
 "iw" = (
 /obj/structure/closet/crate/trashcart,
 /obj/effect/floor_decal/industrial/outline/yellow,
-/obj/item/weapon/mop,
-/obj/item/weapon/reagent_containers/glass/bucket,
+/obj/item/mop,
+/obj/item/reagent_containers/glass/bucket,
 /turf/simulated/floor/tiled/white,
 /area/shuttle/castelnau/prometeus/equip)
 "ix" = (
@@ -4518,10 +4518,10 @@
 "iQ" = (
 /obj/effect/floor_decal/industrial/outline/yellow,
 /obj/structure/table/rack,
-/obj/item/weapon/pickaxe,
-/obj/item/weapon/pickaxe,
-/obj/item/weapon/shovel,
-/obj/item/weapon/shovel,
+/obj/item/pickaxe,
+/obj/item/pickaxe,
+/obj/item/shovel,
+/obj/item/shovel,
 /turf/simulated/floor/tiled/dark/monotile,
 /area/castelnau/storage/expedition)
 "iR" = (
@@ -4536,8 +4536,8 @@
 	icon_state = "0-2"
 	},
 /obj/structure/table/rack,
-/obj/item/device/scanner/mining,
-/obj/item/device/scanner/mining,
+/obj/item/scanner/mining,
+/obj/item/scanner/mining,
 /turf/simulated/floor/tiled/dark/monotile,
 /area/castelnau/storage/expedition)
 "iS" = (
@@ -5772,7 +5772,7 @@
 	dir = 8;
 	icon_state = "dangercorner"
 	},
-/obj/item/weapon/caution/cone,
+/obj/item/caution/cone,
 /turf/simulated/floor/tiled,
 /area/castelnau/hallway/primary/thirddeck/aft)
 "kH" = (
@@ -6312,7 +6312,7 @@
 /area/shuttle/castelnau/prometeus/dorm)
 "lq" = (
 /obj/structure/table/standard,
-/obj/item/weapon/storage/box/donkpockets,
+/obj/item/storage/box/donkpockets,
 /obj/machinery/alarm/prometeus{
 	dir = 8;
 	pixel_x = 24
@@ -7557,7 +7557,7 @@
 	},
 /obj/structure/catwalk,
 /obj/structure/janitorialcart,
-/obj/item/weapon/mop,
+/obj/item/mop,
 /turf/simulated/floor/plating,
 /area/castelnau/civ/janitor)
 "nA" = (
@@ -7632,7 +7632,7 @@
 /area/shuttle/castelnau/prometeus/tele)
 "nF" = (
 /obj/machinery/r_n_d/circuit_imprinter,
-/obj/item/weapon/reagent_containers/glass/beaker/sulphuric,
+/obj/item/reagent_containers/glass/beaker/sulphuric,
 /obj/structure/reagent_dispensers/acid{
 	density = 0;
 	pixel_x = -28
@@ -7669,15 +7669,15 @@
 /area/shuttle/castelnau/prometeus/rnd)
 "nJ" = (
 /obj/structure/table/standard,
-/obj/item/weapon/reagent_containers/dropper{
+/obj/item/reagent_containers/dropper{
 	pixel_y = -4
 	},
-/obj/item/device/paicard,
-/obj/item/device/integrated_circuit_printer,
-/obj/item/device/integrated_electronics/analyzer,
-/obj/item/device/integrated_electronics/debugger,
-/obj/item/device/integrated_electronics/detailer,
-/obj/item/device/integrated_electronics/wirer,
+/obj/item/paicard,
+/obj/item/integrated_circuit_printer,
+/obj/item/integrated_electronics/analyzer,
+/obj/item/integrated_electronics/debugger,
+/obj/item/integrated_electronics/detailer,
+/obj/item/integrated_electronics/wirer,
 /obj/machinery/light_switch{
 	dir = 8;
 	pixel_x = 24
@@ -7697,20 +7697,20 @@
 /obj/structure/table/rack{
 	dir = 8
 	},
-/obj/item/weapon/storage/toolbox/mechanical,
+/obj/item/storage/toolbox/mechanical,
 /obj/item/clothing/head/welding{
 	pixel_x = -3;
 	pixel_y = 5
 	},
-/obj/item/device/multitool{
+/obj/item/multitool{
 	pixel_x = 3
 	},
 /obj/item/clothing/glasses/welding,
-/obj/item/weapon/storage/belt/utility/full,
+/obj/item/storage/belt/utility/full,
 /obj/effect/floor_decal/corner/purple/half{
 	dir = 1
 	},
-/obj/item/device/floor_painter,
+/obj/item/floor_painter,
 /turf/simulated/floor/tiled/white/monotile,
 /area/shuttle/castelnau/prometeus/robotic)
 "nM" = (
@@ -7740,9 +7740,9 @@
 /area/shuttle/castelnau/prometeus/robotic)
 "nP" = (
 /obj/structure/table/standard,
-/obj/item/weapon/paper_bin,
-/obj/item/weapon/folder/nt,
-/obj/item/weapon/pen,
+/obj/item/paper_bin,
+/obj/item/folder/nt,
+/obj/item/pen,
 /obj/effect/floor_decal/corner/purple/half{
 	dir = 1
 	},
@@ -7752,11 +7752,11 @@
 /obj/structure/table/standard,
 /obj/effect/floor_decal/corner/purple/mono,
 /obj/machinery/cell_charger,
-/obj/item/weapon/cell/high,
-/obj/item/weapon/cell/high,
-/obj/item/weapon/cell/high,
-/obj/item/weapon/cell/high/empty,
-/obj/item/device/robotanalyzer,
+/obj/item/cell/high,
+/obj/item/cell/high,
+/obj/item/cell/high,
+/obj/item/cell/high/empty,
+/obj/item/robotanalyzer,
 /obj/machinery/light_switch{
 	pixel_y = 24
 	},
@@ -8193,7 +8193,7 @@
 /area/castelnau/hallway/primary/thirddeck/aft)
 "oF" = (
 /obj/structure/table/standard,
-/obj/item/weapon/storage/box/cups,
+/obj/item/storage/box/cups,
 /obj/effect/floor_decal/borderfloor{
 	dir = 4
 	},
@@ -8675,9 +8675,9 @@
 	req_access = newlist()
 	},
 /obj/machinery/hologram/holopad/longrange,
-/obj/item/weapon/storage/firstaid/regular,
+/obj/item/storage/firstaid/regular,
 /obj/item/bodybag/rescue,
-/obj/item/weapon/storage/med_pouch/oxyloss,
+/obj/item/storage/med_pouch/oxyloss,
 /turf/simulated/floor/tiled/dark,
 /area/shuttle/castelnau/bixie/cargo)
 "px" = (
@@ -8737,14 +8737,14 @@
 /area/castelnau/supply/smelter)
 "pF" = (
 /obj/structure/table/standard,
-/obj/item/weapon/storage/box/lights/mixed,
-/obj/item/weapon/reagent_containers/glass/bucket,
+/obj/item/storage/box/lights/mixed,
+/obj/item/reagent_containers/glass/bucket,
 /turf/simulated/floor/tiled/techfloor,
 /area/castelnau/civ/janitor)
 "pG" = (
 /obj/structure/table/standard,
-/obj/item/weapon/storage/box/mousetraps,
-/obj/item/weapon/storage/box/mousetraps,
+/obj/item/storage/box/mousetraps,
+/obj/item/storage/box/mousetraps,
 /obj/machinery/firealarm{
 	dir = 1;
 	pixel_y = -28
@@ -8753,7 +8753,7 @@
 /area/castelnau/civ/janitor)
 "pH" = (
 /obj/structure/catwalk,
-/obj/item/weapon/stool,
+/obj/item/stool,
 /obj/machinery/power/apc{
 	dir = 4;
 	name = "east bump";
@@ -8825,8 +8825,8 @@
 	dir = 8;
 	pixel_x = 26
 	},
-/obj/item/weapon/paper_bin,
-/obj/item/weapon/pen,
+/obj/item/paper_bin,
+/obj/item/pen,
 /obj/effect/floor_decal/borderfloor{
 	dir = 6
 	},
@@ -8903,15 +8903,15 @@
 /area/shuttle/castelnau/prometeus/rnd)
 "pU" = (
 /obj/structure/table/standard,
-/obj/item/weapon/disk/design_disk,
-/obj/item/weapon/disk/design_disk,
-/obj/item/weapon/disk/tech_disk,
-/obj/item/weapon/disk/tech_disk,
-/obj/item/weapon/stock_parts/scanning_module,
-/obj/item/weapon/stock_parts/scanning_module,
-/obj/item/weapon/stock_parts/manipulator,
-/obj/item/weapon/stock_parts/micro_laser,
-/obj/item/weapon/stock_parts/matter_bin,
+/obj/item/disk/design_disk,
+/obj/item/disk/design_disk,
+/obj/item/disk/tech_disk,
+/obj/item/disk/tech_disk,
+/obj/item/stock_parts/scanning_module,
+/obj/item/stock_parts/scanning_module,
+/obj/item/stock_parts/manipulator,
+/obj/item/stock_parts/micro_laser,
+/obj/item/stock_parts/matter_bin,
 /turf/simulated/floor/tiled/techfloor,
 /area/shuttle/castelnau/prometeus/rnd)
 "pV" = (
@@ -9175,7 +9175,7 @@
 /obj/structure/hygiene/sink{
 	pixel_y = -14
 	},
-/obj/item/weapon/storage/mirror{
+/obj/item/storage/mirror{
 	pixel_y = -32
 	},
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
@@ -9328,7 +9328,7 @@
 	dir = 8;
 	req_access = list("ACCESS_BIXIE_HELM")
 	},
-/obj/item/device/radio/intercom{
+/obj/item/radio/intercom{
 	pixel_y = 18
 	},
 /turf/simulated/floor/tiled/techfloor,
@@ -9447,12 +9447,12 @@
 "qR" = (
 /obj/structure/table/standard,
 /obj/machinery/cell_charger,
-/obj/item/weapon/stock_parts/capacitor,
-/obj/item/weapon/stock_parts/capacitor,
+/obj/item/stock_parts/capacitor,
+/obj/item/stock_parts/capacitor,
 /obj/random/powercell,
 /obj/random/powercell,
 /obj/random/powercell,
-/obj/item/weapon/folder/nt,
+/obj/item/folder/nt,
 /obj/item/stack/nanopaste,
 /turf/simulated/floor/tiled/techfloor,
 /area/shuttle/castelnau/prometeus/rnd)
@@ -9470,7 +9470,7 @@
 	dir = 4
 	},
 /obj/structure/table/standard,
-/obj/item/weapon/storage/firstaid/surgery,
+/obj/item/storage/firstaid/surgery,
 /turf/simulated/floor/tiled/white/monotile,
 /area/shuttle/castelnau/prometeus/robotic)
 "qU" = (
@@ -9557,9 +9557,9 @@
 /obj/effect/floor_decal/industrial/warning{
 	dir = 4
 	},
-/obj/item/weapon/storage/box/syringes,
-/obj/item/weapon/reagent_containers/glass/beaker,
-/obj/item/weapon/storage/box/botanydisk,
+/obj/item/storage/box/syringes,
+/obj/item/reagent_containers/glass/beaker,
+/obj/item/storage/box/botanydisk,
 /turf/simulated/floor/tiled/white,
 /area/shuttle/castelnau/prometeus/botany)
 "re" = (
@@ -9619,7 +9619,7 @@
 /area/shuttle/castelnau/prometeus/xen)
 "rj" = (
 /obj/structure/table/glass,
-/obj/item/weapon/paper_bin,
+/obj/item/paper_bin,
 /turf/simulated/floor/tiled/white/monotile,
 /area/shuttle/castelnau/prometeus/xen)
 "rk" = (
@@ -10160,18 +10160,18 @@
 /area/shuttle/castelnau/prometeus/botany)
 "sl" = (
 /obj/structure/table/glass,
-/obj/item/weapon/pen,
-/obj/item/weapon/storage/box/monkeycubes,
-/obj/item/weapon/storage/box/monkeycubes,
-/obj/item/weapon/storage/box/syringes,
-/obj/item/weapon/reagent_containers/glass/beaker,
+/obj/item/pen,
+/obj/item/storage/box/monkeycubes,
+/obj/item/storage/box/monkeycubes,
+/obj/item/storage/box/syringes,
+/obj/item/reagent_containers/glass/beaker,
 /turf/simulated/floor/tiled/white/monotile,
 /area/shuttle/castelnau/prometeus/xen)
 "sm" = (
 /obj/machinery/atmospherics/unary/vent_scrubber/on{
 	dir = 4
 	},
-/obj/item/weapon/stool,
+/obj/item/stool,
 /obj/structure/disposalpipe/segment,
 /turf/simulated/floor/tiled/white,
 /area/shuttle/castelnau/prometeus/xen)
@@ -10213,7 +10213,7 @@
 	dir = 4
 	},
 /obj/structure/table/glass,
-/obj/item/weapon/storage/firstaid/surgery,
+/obj/item/storage/firstaid/surgery,
 /obj/structure/disposalpipe/segment{
 	dir = 4;
 	icon_state = "pipe-c"
@@ -10262,7 +10262,7 @@
 	dir = 1;
 	pixel_y = -28
 	},
-/obj/item/weapon/storage/toolbox/mechanical,
+/obj/item/storage/toolbox/mechanical,
 /obj/machinery/meter,
 /obj/machinery/atmospherics/pipe/simple/visible/fuel{
 	dir = 9
@@ -10329,7 +10329,7 @@
 	name = "Emergency Exit"
 	},
 /obj/effect/paint_stripe/brown,
-/obj/item/weapon/airlock_brace,
+/obj/item/airlock_brace,
 /turf/simulated/floor/plating,
 /area/shuttle/castelnau/bixie/cockpit)
 "sD" = (
@@ -10613,7 +10613,7 @@
 	},
 /obj/structure/table/standard,
 /obj/machinery/reagentgrinder/juicer,
-/obj/item/weapon/reagent_containers/glass/beaker,
+/obj/item/reagent_containers/glass/beaker,
 /turf/simulated/floor/tiled/white,
 /area/shuttle/castelnau/prometeus/botany)
 "td" = (
@@ -10624,7 +10624,7 @@
 /area/shuttle/castelnau/prometeus/botany)
 "te" = (
 /obj/structure/reagent_dispensers/watertank,
-/obj/item/weapon/extinguisher,
+/obj/item/extinguisher,
 /obj/effect/floor_decal/industrial/outline/yellow,
 /turf/simulated/floor/tiled/white/monotile,
 /area/shuttle/castelnau/prometeus/xen)
@@ -10788,7 +10788,7 @@
 /turf/simulated/floor/plating,
 /area/castelnau/maintenance/thirddeck/port)
 "tt" = (
-/obj/item/weapon/stool/padded,
+/obj/item/stool/padded,
 /turf/simulated/floor/plating,
 /area/castelnau/maintenance/thirddeck/port)
 "tu" = (
@@ -11004,7 +11004,7 @@
 	icon = 'icons/obj/playing_cards.dmi';
 	icon_state = "deck";
 	name = "randomly spawned deck of cards";
-	spawn_object = /obj/item/weapon/deck
+	spawn_object = /obj/item/deck
 	},
 /turf/simulated/floor/plating,
 /area/castelnau/maintenance/thirddeck/port)
