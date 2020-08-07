@@ -157,10 +157,9 @@
 /area/castelnau/thruster/d2starboard)
 "aw" = (
 /obj/machinery/atmospherics/unary/outlet_injector{
-	dir = 8;
-	frequency = 1441;
+	dir = 8;;
 	icon_state = "map_injector";
-	id = "chamber2_in";
+	id_tag = "chamber2_in";
 	pixel_y = 1;
 	use_power = 1;
 	volume_rate = 700
@@ -7161,9 +7160,8 @@
 /turf/simulated/floor/tiled/dark,
 /area/castelnau/supply/storage)
 "ma" = (
-/obj/machinery/atmospherics/unary/outlet_injector{
-	frequency = 1441;
-	id = "o2_in"
+/obj/machinery/atmospherics/unary/outlet_injector{;
+	id_tag = "o2_in"
 	},
 /turf/simulated/floor/reinforced/oxygen,
 /area/castelnau/engineering/atmos)
@@ -7189,9 +7187,8 @@
 /turf/simulated/wall/r_wall,
 /area/castelnau/engineering/atmos)
 "me" = (
-/obj/machinery/atmospherics/unary/outlet_injector{
-	frequency = 1441;
-	id = "n2_in"
+/obj/machinery/atmospherics/unary/outlet_injector{;
+	id_tag = "n2_in"
 	},
 /turf/simulated/floor/reinforced/nitrogen,
 /area/castelnau/engineering/atmos)
@@ -7202,9 +7199,8 @@
 /turf/simulated/floor/reinforced/nitrogen,
 /area/castelnau/engineering/atmos)
 "mg" = (
-/obj/machinery/atmospherics/unary/outlet_injector{
-	frequency = 1441;
-	id = "air_in"
+/obj/machinery/atmospherics/unary/outlet_injector{;
+	id_tag = "air_in"
 	},
 /turf/simulated/floor/reinforced/airmix,
 /area/castelnau/engineering/atmos)
@@ -10703,7 +10699,7 @@
 /area/castelnau/engineering/engine_room)
 "sg" = (
 /obj/machinery/atmospherics/unary/outlet_injector{
-	id = "reac_in_1"
+	id_tag = "reac_in_1"
 	},
 /obj/effect/floor_decal/industrial/warning/cee{
 	dir = 8;
@@ -10722,7 +10718,7 @@
 /area/castelnau/engineering/engine_room)
 "si" = (
 /obj/machinery/atmospherics/unary/outlet_injector{
-	id = "reac_in_2"
+	id_tag = "reac_in_2"
 	},
 /obj/effect/floor_decal/industrial/warning/cee{
 	dir = 4;
@@ -11101,10 +11097,9 @@
 /area/castelnau/supply/storage)
 "ta" = (
 /obj/machinery/atmospherics/unary/outlet_injector{
-	dir = 1;
-	frequency = 1441;
+	dir = 1;;
 	icon_state = "map_injector";
-	id = "h2_in"
+	id_tag = "h2_in"
 	},
 /turf/simulated/floor/reinforced/hydrogen,
 /area/castelnau/engineering/atmos)
@@ -11131,10 +11126,9 @@
 /area/castelnau/engineering/atmos)
 "te" = (
 /obj/machinery/atmospherics/unary/outlet_injector{
-	dir = 1;
-	frequency = 1441;
+	dir = 1;;
 	icon_state = "map_injector";
-	id = "n2o_in"
+	id_tag = "n2o_in"
 	},
 /turf/simulated/floor/reinforced/n20,
 /area/castelnau/engineering/atmos)
@@ -11149,10 +11143,9 @@
 /area/castelnau/engineering/atmos)
 "tg" = (
 /obj/machinery/atmospherics/unary/outlet_injector{
-	dir = 1;
-	frequency = 1441;
+	dir = 1;;
 	icon_state = "map_injector";
-	id = "co2_in"
+	id_tag = "co2_in"
 	},
 /turf/simulated/floor/reinforced/carbon_dioxide,
 /area/castelnau/engineering/atmos)
@@ -12154,10 +12147,9 @@
 /area/castelnau/thruster/d2port)
 "vj" = (
 /obj/machinery/atmospherics/unary/outlet_injector{
-	dir = 8;
-	frequency = 1441;
+	dir = 8;;
 	icon_state = "map_injector";
-	id = "chamber1_in";
+	id_tag = "chamber1_in";
 	pixel_y = 1;
 	use_power = 1;
 	volume_rate = 700

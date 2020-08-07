@@ -126,10 +126,9 @@
 /area/castelnau/command/captain)
 "aw" = (
 /obj/machinery/atmospherics/unary/outlet_injector{
-	dir = 8;
-	frequency = 1441;
+	dir = 8;;
 	icon_state = "map_injector";
-	id = "fuel2_in";
+	id_tag = "fuel2_in";
 	pixel_y = 1;
 	use_power = 1
 	},
@@ -6561,10 +6560,9 @@
 /area/shuttle/escape_pod7/station)
 "lH" = (
 /obj/machinery/atmospherics/unary/outlet_injector{
-	dir = 8;
-	frequency = 1441;
+	dir = 8;;
 	icon_state = "map_injector";
-	id = "fuel1_in";
+	id_tag = "fuel1_in";
 	pixel_y = 1;
 	use_power = 1
 	},

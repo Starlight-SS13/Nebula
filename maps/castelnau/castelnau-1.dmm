@@ -674,9 +674,8 @@
 /area/shuttle/castelnau/prometeus/power)
 "bH" = (
 /obj/effect/floor_decal/industrial/warning/corner,
-/obj/machinery/atmospherics/unary/outlet_injector{
-	frequency = 1441;
-	id = "pro_ano_in"
+/obj/machinery/atmospherics/unary/outlet_injector{;
+	id_tag = "pro_ano_in"
 	},
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/shuttle/castelnau/prometeus/anomaly)
@@ -720,9 +719,8 @@
 /turf/simulated/floor/reinforced/airless,
 /area/shuttle/castelnau/prometeus/gas)
 "bM" = (
-/obj/machinery/atmospherics/unary/outlet_injector{
-	frequency = 1441;
-	id = "pro_gas_in"
+/obj/machinery/atmospherics/unary/outlet_injector{;
+	id_tag = "pro_gas_in"
 	},
 /turf/simulated/floor/reinforced/airless,
 /area/shuttle/castelnau/prometeus/gas)
@@ -8472,9 +8470,8 @@
 /turf/simulated/floor/plating,
 /area/shuttle/castelnau/prometeus/external)
 "pd" = (
-/obj/machinery/atmospherics/unary/outlet_injector{
-	frequency = 1441;
-	id = "pro_xenobot_in";
+/obj/machinery/atmospherics/unary/outlet_injector{;
+	id_tag = "pro_xenobot_in";
 	tag = ""
 	},
 /obj/effect/floor_decal/industrial/warning{
@@ -11099,10 +11096,9 @@
 /area/shuttle/castelnau/prometeus/external)
 "tZ" = (
 /obj/machinery/atmospherics/unary/outlet_injector{
-	dir = 1;
-	frequency = 1441;
+	dir = 1;;
 	icon_state = "map_injector";
-	id = "pro_xenobio_in"
+	id_tag = "pro_xenobio_in"
 	},
 /obj/machinery/alarm/prometeus{
 	dir = 4;
