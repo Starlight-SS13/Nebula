@@ -1,7 +1,6 @@
 /decl/hierarchy/outfit/job/castelnau/crew/security
 	hierarchy_type = /decl/hierarchy/outfit/job/castelnau/crew/security
 	l_ear = /obj/item/radio/headset/headset_sec
-	pda_type = /obj/item/modular_computer/pda/security
 	pda_slot = slot_l_store_str
 	shoes = /obj/item/clothing/shoes/jackboots
 	uniform = /obj/item/clothing/under/camo

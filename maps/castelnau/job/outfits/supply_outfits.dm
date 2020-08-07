@@ -1,6 +1,6 @@
 /decl/hierarchy/outfit/job/castelnau/crew/supply
 	l_ear = /obj/item/radio/headset/headset_cargo
-	shoes = /obj/item/clothing/shoes/brown
+	shoes = /obj/item/clothing/shoes/color/brown
 	pda_type = /obj/item/modular_computer/pda/cargo
 	hierarchy_type = /decl/hierarchy/outfit/job/castelnau/crew/supply
 

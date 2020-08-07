@@ -12,22 +12,21 @@
 	name = OUTFIT_JOB_NAME("Senior Researcher - Castelnau")
 	uniform = /obj/item/clothing/under/color/white
 	suit = /obj/item/clothing/suit/storage/toggle/labcoat
-	shoes = /obj/item/clothing/shoes/white
-	pda_type = /obj/item/modular_computer/pda/heads/rd
+	shoes = /obj/item/clothing/shoes/color/white
+
 	id_type = /obj/item/card/id/castelnau/crew/research/senior_scientist
 
 /decl/hierarchy/outfit/job/castelnau/crew/research/scientist
 	name = OUTFIT_JOB_NAME("Scientist - Castelnau")
 	suit = /obj/item/clothing/suit/storage/toggle/labcoat
-	shoes = /obj/item/clothing/shoes/white
+	shoes = /obj/item/clothing/shoes/color/white
 	id_type = /obj/item/card/id/castelnau/crew/research/scientist
 
 /decl/hierarchy/outfit/job/castelnau/crew/research/roboticist
 	name = OUTFIT_JOB_NAME("Roboticist - Castelnau")
 	uniform = /obj/item/clothing/under/rank/roboticist
-	shoes = /obj/item/clothing/shoes/black
+	shoes = /obj/item/clothing/shoes/color/black
 	id_type = /obj/item/card/id/castelnau/crew/research/roboticist
-	pda_type = /obj/item/modular_computer/pda/roboticist
 
 /decl/hierarchy/outfit/job/castelnau/crew/research/scientist/psych
 	name = OUTFIT_JOB_NAME("Psychologist - Castelnau")
@@ -37,12 +36,12 @@
 /decl/hierarchy/outfit/job/castelnau/crew/research/assist
 	name = OUTFIT_JOB_NAME("Research Assistant - Castelnau")
 	suit = /obj/item/clothing/suit/storage/toggle/labcoat
-	shoes = /obj/item/clothing/shoes/white
+	shoes = /obj/item/clothing/shoes/color/white
 	id_type = /obj/item/card/id/castelnau/crew/research
 
 /decl/hierarchy/outfit/job/castelnau/crew/research/scientist_pilot
 	name = OUTFIT_JOB_NAME("Research Pilot - Castelnau")
-	shoes = /obj/item/clothing/shoes/white
+	shoes = /obj/item/clothing/shoes/color/white
 	id_type = /obj/item/card/id/castelnau/crew/research/scientist_pilot
 
 /decl/hierarchy/outfit/job/castelnau/crew/research/assist/testsubject

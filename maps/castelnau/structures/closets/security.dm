@@ -10,7 +10,6 @@
 	return list(
 		/obj/item/clothing/suit/armor/pcarrier/medium,
 		/obj/item/clothing/head/helmet,
-		/obj/item/clothing/head/beret/sec/corporate/warden,
 		/obj/item/radio/headset/headset_sec,
 		/obj/item/radio/headset/headset_sec/alt,
 		/obj/item/clothing/glasses/sunglasses/sechud/toggle,

@@ -17,5 +17,5 @@
 /decl/hierarchy/outfit/job/castelnau/crew/service/bartender
 	name = OUTFIT_JOB_NAME("Bartender - Castelnau")
 	uniform = /obj/item/clothing/under/rank/bartender
-	shoes = /obj/item/clothing/shoes/laceup
+	shoes = /obj/item/clothing/shoes/dress
 	id_type = /obj/item/card/id/castelnau/crew/service/bartender

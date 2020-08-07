@@ -1183,7 +1183,7 @@
 /obj/structure/closet{
 	name = "Wardrobe"
 	},
-/obj/item/clothing/shoes/black,
+/obj/item/clothing/shoes/color/black,
 /obj/item/clothing/under/overalls,
 /obj/item/clothing/under/skirt,
 /turf/simulated/floor/carpet/blue,
