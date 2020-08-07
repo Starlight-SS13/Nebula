@@ -24,15 +24,15 @@
 
 //SUPPLY
 /datum/computer_file/program/supply
-	available_on_ntnet = 0
+	available_on_network = 0
 
 /datum/computer_file/program/merchant
 	required_access = access_castelnau_supply
 
 //SECURITY
 /datum/computer_file/program/forceauthorization
-	available_on_ntnet = 0
+	available_on_network = 0
 
 /datum/computer_file/program/digitalwarrant
-	available_on_ntnet = 0
+	available_on_network = 0
 
