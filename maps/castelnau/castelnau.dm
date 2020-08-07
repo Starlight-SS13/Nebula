@@ -125,7 +125,6 @@
 	#include "castelnau-3.dmm"
 	#include "z1-admin.dmm"
 	#include "z2-transit.dmm"
-	#include "../away/empty.dmm"
 
 	#include "../away/ascent/ascent.dm"
 	#include "../away/bearcat/bearcat.dm"

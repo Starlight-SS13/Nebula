@@ -7,7 +7,6 @@
 	icon_state = "fingerlessgloves"
 	item_flags = ITEM_FLAG_PREMODIFIED
 	clipped = 1
-	species_restricted = list("exclude",SPECIES_NABBER, SPECIES_VOX, SPECIES_VOX_ARMALIS)
 
 /obj/item/clothing/ring/watch
 	name = "watch"
