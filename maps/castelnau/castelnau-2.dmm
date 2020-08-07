@@ -5410,11 +5410,11 @@
 /area/castelnau/command/fo)
 "jk" = (
 /obj/structure/table/woodentable_reinforced/ebony,
-/obj/item/reagent_containers/food/drinks/bottle/premiumwine,
-/obj/item/reagent_containers/food/drinks/glass2/wine{
+/obj/item/chems/food/drinks/bottle/premiumwine,
+/obj/item/chems/food/drinks/glass2/wine{
 	pixel_x = -10
 	},
-/obj/item/reagent_containers/food/drinks/glass2/wine{
+/obj/item/chems/food/drinks/glass2/wine{
 	pixel_x = 10
 	},
 /obj/item/radio/intercom{
@@ -8069,9 +8069,9 @@
 	dir = 8;
 	icon_state = "warning"
 	},
-/obj/item/reagent_containers/food/drinks/bottle/small/beer,
-/obj/item/reagent_containers/food/drinks/bottle/small/beer,
-/obj/item/reagent_containers/food/drinks/bottle/small/beer,
+/obj/item/chems/food/drinks/bottle/small/beer,
+/obj/item/chems/food/drinks/bottle/small/beer,
+/obj/item/chems/food/drinks/bottle/small/beer,
 /turf/simulated/floor/tiled,
 /area/castelnau/security/brig)
 "nD" = (
