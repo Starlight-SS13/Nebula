@@ -5,8 +5,8 @@
 	item_state = "fingerlessgloves"
 	icon = 'maps/castelnau/icons/obj/castelnau_hands.dmi'
 	icon_state = "fingerlessgloves"
-	item_flags = ITEM_FLAG_PREMODIFIED
-	clipped = 1
+//	item_flags = ITEM_FLAG_PREMODIFIED
+//	clipped = 1
 
 /obj/item/clothing/ring/watch
 	name = "watch"

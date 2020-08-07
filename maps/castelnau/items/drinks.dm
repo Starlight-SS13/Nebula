@@ -1,8 +1,7 @@
 /decl/material/liquid/ethanol/cider
 	name = "Cider"
-	description = "A refreshing beverage."
+	lore_text = "A refreshing beverage."
 	taste_description = "apples and some alcohol"
-	reagent_state = LIQUID
 	color = "#ffea73"
 	strength = 50
 

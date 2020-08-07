@@ -368,25 +368,25 @@
 	icon = 'maps/torch/icons/obj/obj_head_solgov.dmi'
 	item_icons = list(slot_head_str = 'maps/torch/icons/mob/onmob_head_solgov.dmi')
 	icon_state = "ecushankadown"
-	icon_state_up = "ecushankaup"
+//	icon_state_up = "ecushankaup"
 
 /obj/item/clothing/head/ushanka/solgov/fleet
 	name = "fleet fur hat"
 	desc = "An SCG Fleet synthfur-lined hat for operating in cold environments."
 	icon_state = "flushankadown"
-	icon_state_up = "flushankaup"
+//	icon_state_up = "flushankaup"
 
 /obj/item/clothing/head/ushanka/solgov/army
 	name = "army fur hat"
 	desc = "An SCG Army synthfur-lined hat for operating in cold environments."
 	icon_state = "barushankadown"
-	icon_state_up = "barushankaup"
+//	icon_state_up = "barushankaup"
 
 /obj/item/clothing/head/ushanka/solgov/army/green
 	name = "green army fur hat"
 	desc = "An SCG Army synthfur-lined hat for operating in cold environments."
 	icon_state = "arushankadown"
-	icon_state_up = "mcushankaup"
+//	icon_state_up = "mcushankaup"
 
 //helmets and other such trash
 

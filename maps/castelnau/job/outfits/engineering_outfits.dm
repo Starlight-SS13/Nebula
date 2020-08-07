@@ -2,7 +2,7 @@
 	hierarchy_type = /decl/hierarchy/outfit/job/castelnau/crew/engineering
 	l_ear = /obj/item/device/radio/headset/headset_eng
 	pda_type = /obj/item/modular_computer/pda/engineering
-	pda_slot = slot_l_store
+	pda_slot = slot_l_store_str
 	flags = OUTFIT_HAS_BACKPACK|OUTFIT_EXTENDED_SURVIVAL
 
 /decl/hierarchy/outfit/job/castelnau/crew/engineering/New()

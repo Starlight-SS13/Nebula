@@ -4,7 +4,7 @@
 	vessel_mass = 15000
 	start_x = 4
 	start_y = 5
-	base = TRUE
+	sector_flags = OVERMAP_SECTOR_BASE | OVERMAP_SECTOR_IN_SPACE
 	color = COLOR_PINK
 	icon = 'icons/obj/overmap.dmi'
 	initial_restricted_waypoints = list(
