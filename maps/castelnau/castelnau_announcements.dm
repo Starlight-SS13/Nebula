@@ -8,7 +8,7 @@
 	emergency_shuttle_docked_message = "Внимание всему персоналу: спасательные капсулы разблокированы. Незамедлительно проследуйте к спасательным капсулам в корму палубы 1 или к спасательным шаттлам в носовой док палубы 3. У вас есть %ETD% чтобы занять места в спасательных капсулах."
 	emergency_shuttle_leaving_dock = "Внимание всему персоналу: активация двигателей спасательных капсул. Расчетное время прибытия до пункта встречи шлюпок: %ETA%"
 	emergency_shuttle_recall_message = "Внимание всему персоналу: аварийная эвакуации отменена. Возвращайтесь к выполнению своих рабочих обязанностей."
-	emergency_shuttle_called_sound = sound('sound/AI/torch/abandonship.ogg', volume = 45)
+//	emergency_shuttle_called_sound = sound('sound/AI/torch/abandonship.ogg', volume = 45)
 
 //	command_report_sound = sound('sound/AI/torch/commandreport.ogg', volume = 45)
 

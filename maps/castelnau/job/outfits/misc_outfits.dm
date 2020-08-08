@@ -29,3 +29,4 @@
 
 /decl/hierarchy/outfit/job/castelnau/ert/leader
 	name = OUTFIT_JOB_NAME("ERT Leader - Castelnau")
+	head = /obj/item/clothing/head/beret
