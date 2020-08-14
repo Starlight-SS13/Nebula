@@ -34,7 +34,7 @@
 	name = "thrower_escapeshuttletop(left)";
 	tiles = 0
 	},
-/turf/space/bluespace,
+/turf/space/infinity,
 /area/space)
 "g" = (
 /obj/effect/step_trigger/thrower{
@@ -47,14 +47,14 @@
 /area/space)
 "j" = (
 /obj/effect/shuttle_landmark/ert/internim,
-/turf/space/bluespace,
+/turf/space/infinity,
 /area/space)
 "k" = (
 /obj/effect/shuttle_landmark/castelnau/transit/perseus,
 /turf/space,
 /area/space)
 "l" = (
-/turf/space/bluespace,
+/turf/space/infinity,
 /area/space)
 "q" = (
 /obj/effect/step_trigger/thrower{
@@ -64,7 +64,7 @@
 	stopper = 0;
 	tiles = 0
 	},
-/turf/space/bluespace,
+/turf/space/infinity,
 /area/space)
 "s" = (
 /obj/effect/step_trigger/thrower{
@@ -73,11 +73,11 @@
 	name = "thrower_escapeshuttletop(right)";
 	tiles = 0
 	},
-/turf/space/bluespace,
+/turf/space/infinity,
 /area/space)
 "t" = (
 /obj/effect/shuttle_landmark/skipjack/internim,
-/turf/space/bluespace,
+/turf/space/infinity,
 /area/space)
 "y" = (
 /obj/effect/shuttle_landmark/castelnau/transit/bixie,
@@ -85,7 +85,7 @@
 /area/space)
 "z" = (
 /obj/effect/shuttle_landmark/ninja/internim,
-/turf/space/bluespace,
+/turf/space/infinity,
 /area/space)
 "A" = (
 /obj/effect/step_trigger/thrower{
@@ -93,7 +93,7 @@
 	name = "thrower_throwdown";
 	tiles = 0
 	},
-/turf/space/bluespace,
+/turf/space/infinity,
 /area/space)
 "C" = (
 /obj/effect/step_trigger/thrower{
@@ -101,7 +101,7 @@
 	name = "thrower_throwup";
 	tiles = 0
 	},
-/turf/space/bluespace,
+/turf/space/infinity,
 /area/space)
 "X" = (
 /turf/space,
