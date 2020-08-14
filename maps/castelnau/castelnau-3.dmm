@@ -541,8 +541,7 @@
 /turf/simulated/wall,
 /area/castelnau/hallway/primary/firstdeck/fore)
 "bt" = (
-/obj/machinery/airlock_sensor{
-	frequency = 1331;
+/obj/machinery/airlock_sensor/shuttle{
 	id_tag = "merchant_shuttle_station_sensor";
 	pixel_x = -24
 	},
@@ -563,9 +562,8 @@
 	dir = 1
 	},
 /obj/structure/catwalk,
-/obj/machinery/access_button/airlock_exterior{
-	frequency = 1331;
-	master_tag = "merchant_shuttle_station_dock";
+/obj/machinery/button/access/shuttle/exterior{
+	id_tag = "merchant_shuttle_station_dock";
 	pixel_x = 24;
 	pixel_y = 24;
 	req_access = list("ACCESS_CASTELNAU_EXT_AL")
@@ -910,9 +908,8 @@
 "bX" = (
 /obj/machinery/atmospherics/pipe/manifold4w/hidden,
 /obj/structure/catwalk,
-/obj/machinery/access_button/airlock_interior{
-	frequency = 1331;
-	master_tag = "merchant_shuttle_station_dock";
+/obj/machinery/button/access/shuttle/interior{
+	id_tag = "merchant_shuttle_station_dock";
 	pixel_x = 24;
 	pixel_y = -24;
 	req_access = list("ACCESS_CASTELNAU_EXT_AL")
@@ -2567,7 +2564,7 @@
 /obj/structure/catwalk,
 /obj/machinery/embedded_controller/radio/simple_docking_controller/escape_pod_berth{
 	dir = 8;
-	frequency = 1380;
+	frequency = 1381;
 	id_tag = "escape_pod_9_berth";
 	name = "escape pod four berth controller";
 	pixel_x = 24;
@@ -2582,7 +2579,6 @@
 	pixel_y = -32
 	},
 /obj/machinery/door/airlock/external{
-	frequency = 1380;
 	icon_state = "closed";
 	id_tag = "escape_pod_9_berth_hatch";
 	locked = 1;
@@ -2592,7 +2588,6 @@
 /area/castelnau/maintenance/firstdeck/aft)
 "fh" = (
 /obj/machinery/door/airlock/external{
-	frequency = 1380;
 	icon_state = "closed";
 	id_tag = "escape_pod_9_hatch";
 	locked = 1;
@@ -2610,7 +2605,7 @@
 	tag = "icon-shuttle_chair_preview (NORTH)"
 	},
 /obj/machinery/embedded_controller/radio/simple_docking_controller/escape_pod{
-	frequency = 1380;
+	frequency = 1381;
 	id_tag = "escape_pod_9";
 	name = "escape pod four controller";
 	pixel_y = 24;
@@ -4920,7 +4915,7 @@
 	},
 /obj/machinery/embedded_controller/radio/simple_docking_controller/escape_pod_berth{
 	dir = 8;
-	frequency = 1380;
+	frequency = 1381;
 	id_tag = "escape_pod_8_berth";
 	name = "escape pod three berth controller";
 	pixel_x = 24;
@@ -4932,7 +4927,6 @@
 /area/castelnau/maintenance/firstdeck/aft)
 "iN" = (
 /obj/machinery/door/airlock/external{
-	frequency = 1380;
 	icon_state = "closed";
 	id_tag = "escape_pod_8_hatch";
 	locked = 1;
@@ -4943,7 +4937,7 @@
 /area/shuttle/escape_pod8/station)
 "iO" = (
 /obj/machinery/embedded_controller/radio/simple_docking_controller/escape_pod{
-	frequency = 1380;
+	frequency = 1381;
 	id_tag = "escape_pod_8";
 	name = "escape pod three controller";
 	pixel_y = 24;
@@ -6005,7 +5999,6 @@
 /area/castelnau/thruster/d1port)
 "kI" = (
 /obj/machinery/door/airlock/external{
-	frequency = 1380;
 	icon_state = "closed";
 	id_tag = "escape_pod_8_berth_hatch";
 	locked = 1;
@@ -7208,7 +7201,7 @@
 	},
 /obj/machinery/embedded_controller/radio/simple_docking_controller/escape_pod_berth{
 	dir = 8;
-	frequency = 1380;
+	frequency = 1381;
 	id_tag = "escape_pod_7_berth";
 	name = "escape pod two berth controller";
 	pixel_x = 24;
@@ -7220,7 +7213,6 @@
 /area/castelnau/maintenance/firstdeck/aft)
 "mI" = (
 /obj/machinery/door/airlock/external{
-	frequency = 1380;
 	icon_state = "closed";
 	id_tag = "escape_pod_7_hatch";
 	locked = 1;
@@ -7231,7 +7223,7 @@
 /area/shuttle/escape_pod7/station)
 "mJ" = (
 /obj/machinery/embedded_controller/radio/simple_docking_controller/escape_pod{
-	frequency = 1380;
+	frequency = 1381;
 	id_tag = "escape_pod_7";
 	name = "escape pod two controller";
 	pixel_y = 24;
@@ -7980,7 +7972,6 @@
 /area/castelnau/civ/laundry)
 "nJ" = (
 /obj/machinery/door/airlock/external{
-	frequency = 1380;
 	icon_state = "closed";
 	id_tag = "escape_pod_7_berth_hatch";
 	locked = 1;
@@ -9124,7 +9115,7 @@
 	},
 /obj/machinery/embedded_controller/radio/simple_docking_controller/escape_pod_berth{
 	dir = 8;
-	frequency = 1380;
+	frequency = 1381;
 	id_tag = "escape_pod_6_berth";
 	name = "escape pod one berth controller";
 	pixel_x = 24;
@@ -9602,7 +9593,6 @@
 /area/castelnau/maintenance/firstdeck/aftport)
 "qx" = (
 /obj/machinery/door/airlock/external{
-	frequency = 1380;
 	icon_state = "closed";
 	id_tag = "escape_pod_6_berth_hatch";
 	locked = 1;
@@ -9626,7 +9616,6 @@
 /area/castelnau/maintenance/firstdeck/aft)
 "qz" = (
 /obj/machinery/door/airlock/external{
-	frequency = 1380;
 	icon_state = "closed";
 	id_tag = "escape_pod_6_hatch";
 	locked = 1;
@@ -9637,7 +9626,7 @@
 /area/shuttle/escape_pod6/station)
 "qA" = (
 /obj/machinery/embedded_controller/radio/simple_docking_controller/escape_pod{
-	frequency = 1380;
+	frequency = 1381;
 	id_tag = "escape_pod_6";
 	name = "escape pod one controller";
 	pixel_y = 24;
@@ -11702,7 +11691,7 @@
 	pixel_x = -24
 	},
 /obj/structure/catwalk,
-/obj/machinery/atmospherics/unary/vent_pump/high_volume/airlock{
+/obj/machinery/atmospherics/unary/vent_pump/high_volume/external_air{
 	dir = 4;
 	icon_state = "map_vent";
 	id_tag = "sd_port_pump"
@@ -12068,10 +12057,9 @@
 	dir = 4
 	},
 /obj/structure/catwalk,
-/obj/machinery/access_button{
-	command = "cycle_interior";
+/obj/machinery/button/access/interior{
 	frequency = 1305;
-	master_tag = "sd_port_airlock";
+	id_tag = "sd_port_airlock";
 	name = "interior access button";
 	pixel_x = -4;
 	pixel_y = -24;

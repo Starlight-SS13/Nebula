@@ -2510,7 +2510,7 @@
 	d2 = 8;
 	icon_state = "0-8"
 	},
-/obj/item/melee/baton/loaded,
+/obj/item/baton/loaded,
 /obj/item/anodevice,
 /obj/item/anodevice,
 /obj/item/anobattery,
@@ -2651,7 +2651,6 @@
 "fB" = (
 /obj/structure/catwalk,
 /obj/machinery/door/airlock/external/bolted{
-	frequency = 1331;
 	id_tag = "perseus_shuttle_inner";
 	name = "Perseus External Access"
 	},
@@ -2661,7 +2660,6 @@
 /obj/structure/catwalk,
 /obj/machinery/embedded_controller/radio/airlock/docking_port{
 	cycle_to_external_air = 1;
-	frequency = 1331;
 	id_tag = "perseus_shuttle";
 	pixel_y = 24;
 	tag_exterior_sensor = "perseus_shuttle_sensor_external"
@@ -2735,7 +2733,7 @@
 /area/castelnau/maintenance/thirddeck/starboard)
 "fJ" = (
 /obj/machinery/conveyor_switch/oneway{
-	id = "packageSort1"
+	id_tag = "packageSort1"
 	},
 /obj/machinery/atmospherics/pipe/simple/hidden/universal,
 /turf/simulated/floor/plating,
@@ -3265,9 +3263,8 @@
 	d2 = 8;
 	icon_state = "4-8"
 	},
-/obj/machinery/access_button/airlock_interior{
-	frequency = 1331;
-	master_tag = "perseus_shuttle";
+/obj/machinery/button/access/shuttle/interior{
+	id_tag = "perseus_shuttle";
 	pixel_x = 24;
 	pixel_y = -24
 	},
@@ -3281,7 +3278,6 @@
 	},
 /obj/structure/catwalk,
 /obj/machinery/door/airlock/external/bolted{
-	frequency = 1331;
 	id_tag = "perseus_shuttle_inner";
 	name = "Perseus External Access"
 	},
@@ -3308,8 +3304,7 @@
 /area/shuttle/castelnau/perseus/cargo)
 "gK" = (
 /obj/structure/catwalk,
-/obj/machinery/airlock_sensor{
-	frequency = 1331;
+/obj/machinery/airlock_sensor/shuttle{
 	id_tag = "perseus_shuttle_sensor";
 	pixel_y = -24
 	},
@@ -3367,7 +3362,7 @@
 "gP" = (
 /obj/machinery/conveyor{
 	dir = 8;
-	id = "packageSort1"
+	id_tag = "packageSort1"
 	},
 /obj/machinery/atmospherics/unary/vent_pump/siphon/on{
 	dir = 1
@@ -3377,7 +3372,7 @@
 "gQ" = (
 /obj/machinery/conveyor{
 	dir = 8;
-	id = "packageSort1"
+	id_tag = "packageSort1"
 	},
 /obj/machinery/light/small,
 /obj/machinery/alarm{
@@ -3389,7 +3384,7 @@
 "gR" = (
 /obj/machinery/conveyor{
 	dir = 8;
-	id = "packageSort1"
+	id_tag = "packageSort1"
 	},
 /obj/structure/sign/warning/moving_parts{
 	dir = 0;
@@ -3620,7 +3615,6 @@
 "hp" = (
 /obj/effect/floor_decal/industrial/outline/yellow,
 /obj/structure/table/rack,
-/obj/item/gun/launcher/net,
 /obj/item/clothing/accessory/storage/bandolier,
 /obj/effect/floor_decal/corner/purple/mono,
 /turf/simulated/floor/tiled/monotile,
@@ -3915,7 +3909,6 @@
 "hR" = (
 /obj/effect/shuttle_landmark/castelnau/hangar/perseus,
 /obj/machinery/door/airlock/external/bolted{
-	frequency = 1331;
 	id_tag = "perseus_shuttle_outer";
 	name = "Perseus External Access"
 	},
@@ -3933,13 +3926,11 @@
 /obj/structure/catwalk,
 /obj/machinery/shield_diffuser,
 /obj/machinery/door/airlock/external/bolted{
-	frequency = 1331;
 	id_tag = "perseus_shuttle_outer";
 	name = "Perseus External Access"
 	},
-/obj/machinery/access_button/airlock_exterior{
-	frequency = 1331;
-	master_tag = "perseus_shuttle";
+/obj/machinery/button/access/shuttle/exterior{
+	id_tag = "perseus_shuttle";
 	pixel_x = 24;
 	pixel_y = -8
 	},
@@ -4448,8 +4439,7 @@
 /turf/simulated/wall/r_titanium,
 /area/shuttle/castelnau/prometeus/dorm)
 "iK" = (
-/obj/machinery/airlock_sensor{
-	frequency = 1331;
+/obj/machinery/airlock_sensor/shuttle{
 	id_tag = "perseus_shuttle_sensor_external";
 	pixel_x = -24
 	},
@@ -4474,7 +4464,6 @@
 	icon_state = "1-2"
 	},
 /obj/machinery/door/airlock/external/bolted{
-	frequency = 1331;
 	id_tag = "perseus_shuttle_dock_hatch";
 	name = "Docking Hatch"
 	},
@@ -4484,7 +4473,6 @@
 /area/castelnau/hallway/primary/thirddeck/fore)
 "iN" = (
 /obj/machinery/door/airlock/external/bolted{
-	frequency = 1331;
 	id_tag = "perseus_shuttle_dock_hatch";
 	name = "Docking Hatch"
 	},
@@ -4575,7 +4563,6 @@
 /obj/machinery/embedded_controller/radio/airlock/docking_port{
 	dir = 8;
 	display_name = "Dock 3-C";
-	frequency = 1331;
 	id_tag = "prometeus_shuttle_dock";
 	pixel_x = 24;
 	req_access = list("ACCESS_CASTELNAU_HANGAR");
@@ -4802,7 +4789,6 @@
 	icon_state = "1-4"
 	},
 /obj/machinery/embedded_controller/radio/simple_docking_controller{
-	frequency = 1331;
 	id_tag = "perseus_shuttle_dock";
 	pixel_x = -24;
 	pixel_y = 24;
@@ -5120,8 +5106,7 @@
 /turf/simulated/floor/tiled,
 /area/castelnau/hallway/primary/thirddeck/aft)
 "jG" = (
-/obj/machinery/door/airlock/external{
-	frequency = 1331;
+/obj/machinery/door/airlock/external/shuttle{
 	icon_state = "closed";
 	id_tag = "prometeus_shuttle_dock_inner";
 	locked = 1;
@@ -5143,8 +5128,7 @@
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/castelnau/hallway/primary/thirddeck/aft)
 "jJ" = (
-/obj/machinery/door/airlock/external{
-	frequency = 1331;
+/obj/machinery/door/airlock/external/shuttle{
 	icon_state = "closed";
 	id_tag = "prometeus_shuttle_dock_outer";
 	locked = 1;
@@ -5154,8 +5138,7 @@
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/castelnau/hallway/primary/thirddeck/aft)
 "jK" = (
-/obj/machinery/door/airlock/external{
-	frequency = 1331;
+/obj/machinery/door/airlock/external/shuttle{
 	icon_state = "closed";
 	id_tag = "prometeus_shuttle_outer";
 	name = "Prometeus Exterior Access"
@@ -5179,8 +5162,7 @@
 /obj/machinery/light/spot{
 	dir = 1
 	},
-/obj/machinery/airlock_sensor{
-	frequency = 1331;
+/obj/machinery/airlock_sensor/shuttle{
 	id_tag = "prometeus_shuttle_sensor";
 	pixel_y = 24
 	},
@@ -5204,8 +5186,7 @@
 /area/shuttle/castelnau/prometeus/hall)
 "jO" = (
 /obj/effect/floor_decal/industrial/hatch/yellow,
-/obj/machinery/door/airlock/external{
-	frequency = 1331;
+/obj/machinery/door/airlock/external/shuttle{
 	icon_state = "closed";
 	id_tag = "prometeus_shuttle_inner";
 	name = "Prometeus Interior Access"
@@ -5686,7 +5667,6 @@
 "kw" = (
 /obj/machinery/embedded_controller/radio/simple_docking_controller{
 	dir = 1;
-	frequency = 1331;
 	id_tag = "bixie_shuttle_dock";
 	pixel_x = -24;
 	pixel_y = -24;
@@ -5827,7 +5807,6 @@
 "kL" = (
 /obj/machinery/atmospherics/pipe/simple/hidden,
 /obj/machinery/airlock_sensor{
-	frequency = 1380;
 	id_tag = "petrov_shuttle_dock_sensor";
 	pixel_x = -24
 	},
@@ -5911,9 +5890,8 @@
 	dir = 8;
 	icon_state = "warning"
 	},
-/obj/machinery/access_button/airlock_interior{
-	frequency = 1391;
-	master_tag = "prometeus_shuttle_airlock";
+/obj/machinery/button/access/interior{
+	id_tag = "prometeus_shuttle_airlock";
 	pixel_x = -20;
 	req_access = list("ACCESS_PROMETEUS")
 	},
@@ -6338,7 +6316,6 @@
 /area/shuttle/castelnau/bixie/cargo)
 "lv" = (
 /obj/machinery/airlock_sensor{
-	frequency = 1390;
 	id_tag = "bixie_shuttle_sensor_ext";
 	pixel_x = -24
 	},
@@ -6351,7 +6328,6 @@
 /area/shuttle/castelnau/bixie/cargo)
 "lw" = (
 /obj/machinery/door/airlock/external/bolted{
-	frequency = 1331;
 	icon_state = "closed";
 	id_tag = "bixie_shuttle_dock_airlock";
 	name = "Docking Hatch"
@@ -6369,7 +6345,6 @@
 /obj/effect/catwalk_plated,
 /obj/machinery/shield_diffuser,
 /obj/machinery/door/airlock/external/bolted{
-	frequency = 1331;
 	icon_state = "closed";
 	id_tag = "bixie_shuttle_dock_airlock";
 	name = "Docking Hatch"
@@ -6473,7 +6448,6 @@
 "lL" = (
 /obj/machinery/embedded_controller/radio/airlock/docking_port{
 	dir = 1;
-	frequency = 1331;
 	id_tag = "prometeus_shuttle_airlock";
 	pixel_y = -24;
 	req_access = list("ACCESS_PROMETEUS");
@@ -6647,9 +6621,8 @@
 /turf/simulated/floor/tiled,
 /area/shuttle/castelnau/prometeus/hall)
 "mc" = (
-/obj/machinery/access_button/airlock_interior{
-	frequency = 1331;
-	master_tag = "calypso_shuttle";
+/obj/machinery/button/access/shuttle/interior{
+	id_tag = "calypso_shuttle";
 	pixel_x = -8;
 	pixel_y = -14;
 	req_access = list("ACCESS_PROMETEUS")
@@ -6903,7 +6876,6 @@
 	icon_state = "4-8"
 	},
 /obj/machinery/airlock_sensor{
-	frequency = 1390;
 	id_tag = "bixie_shuttle_interior_sensor";
 	pixel_y = 24
 	},
@@ -6960,7 +6932,6 @@
 "mz" = (
 /obj/effect/shuttle_landmark/castelnau/hangar/bixie,
 /obj/machinery/door/airlock/external/bolted{
-	frequency = 1331;
 	icon_state = "closed";
 	id_tag = "bixie_shuttle_outer";
 	locked = 0
@@ -6981,16 +6952,14 @@
 	dir = 10
 	},
 /obj/machinery/door/airlock/external/bolted{
-	frequency = 1331;
 	icon_state = "closed";
 	id_tag = "bixie_shuttle_outer";
 	locked = 0
 	},
 /obj/structure/catwalk,
 /obj/machinery/shield_diffuser,
-/obj/machinery/access_button/airlock_exterior{
-	frequency = 1331;
-	master_tag = "bixie_shuttle";
+/obj/machinery/button/access/shuttle/exterior{
+	id_tag = "bixie_shuttle";
 	pixel_x = 24;
 	pixel_y = 8
 	},
@@ -7176,8 +7145,7 @@
 /turf/simulated/floor/plating,
 /area/shuttle/castelnau/prometeus/external)
 "mU" = (
-/obj/machinery/door/airlock/external{
-	frequency = 1331;
+/obj/machinery/door/airlock/external/shuttle{
 	id_tag = "calypso_shuttle_inner";
 	locked = 1;
 	name = "Prometeus External Access"
@@ -7186,8 +7154,7 @@
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/shuttle/castelnau/prometeus/external)
 "mV" = (
-/obj/machinery/door/airlock/external{
-	frequency = 1331;
+/obj/machinery/door/airlock/external/shuttle{
 	id_tag = "calypso_shuttle_inner";
 	locked = 1;
 	name = "Prometeus External Access"
@@ -7253,14 +7220,12 @@
 	},
 /obj/effect/floor_decal/industrial/hatch/yellow,
 /obj/machinery/door/airlock/external/bolted{
-	frequency = 1331;
 	id_tag = "xeno_ext";
 	name = "Xenobiology Access";
 	tag = "xeno_ext"
 	},
-/obj/machinery/access_button/airlock_exterior{
-	frequency = 1331;
-	master_tag = "xeno";
+/obj/machinery/button/access/shuttle/exterior{
+	id_tag = "xeno";
 	pixel_x = -32;
 	req_access = list("ACCESS_PROMETEUS")
 	},
@@ -7280,7 +7245,6 @@
 	},
 /obj/machinery/atmospherics/pipe/simple/hidden/fuel,
 /obj/machinery/door/airlock/external/bolted{
-	frequency = 1331;
 	id_tag = "xeno_ext";
 	name = "Xenobiology Access";
 	tag = "xeno_ext"
@@ -7333,7 +7297,7 @@
 	dir = 1
 	},
 /obj/machinery/power/port_gen/pacman,
-/obj/machinery/light_construct/small,
+/obj/item/frame/light/small,
 /obj/structure/cable/green{
 	d2 = 4;
 	icon_state = "0-4"
@@ -7447,9 +7411,8 @@
 /turf/simulated/floor,
 /area/shuttle/castelnau/bixie/cargo)
 "nr" = (
-/obj/machinery/access_button/airlock_interior{
-	frequency = 1331;
-	master_tag = "bixie_shuttle";
+/obj/machinery/button/access/shuttle/interior{
+	id_tag = "bixie_shuttle";
 	pixel_x = 24;
 	pixel_y = 24
 	},
@@ -7463,7 +7426,6 @@
 "ns" = (
 /obj/structure/catwalk,
 /obj/machinery/door/airlock/external/bolted{
-	frequency = 1331;
 	icon_state = "closed";
 	id_tag = "bixie_shuttle_inner";
 	locked = 0
@@ -7500,7 +7462,7 @@
 /area/shuttle/castelnau/bixie/cargo)
 "nv" = (
 /obj/machinery/conveyor_switch{
-	id = "bixie_conveyor"
+	id_tag = "bixie_conveyor"
 	},
 /obj/effect/floor_decal/industrial/outline/yellow,
 /obj/machinery/light{
@@ -7762,8 +7724,7 @@
 	icon_state = "warningcee"
 	},
 /obj/structure/catwalk,
-/obj/machinery/airlock_sensor{
-	frequency = 1331;
+/obj/machinery/airlock_sensor/shuttle{
 	id_tag = "calypso_shuttle_sensor";
 	pixel_x = -24
 	},
@@ -7887,7 +7848,6 @@
 	dir = 8
 	},
 /obj/machinery/embedded_controller/radio/airlock/access_controller{
-	frequency = 1331;
 	id_tag = "xeno";
 	pixel_x = 24;
 	req_access = list("ACCESS_PROMETEUS");
@@ -7986,7 +7946,6 @@
 /area/shuttle/castelnau/bixie/cargo)
 "oq" = (
 /obj/machinery/door/airlock/external/bolted{
-	frequency = 1331;
 	icon_state = "closed";
 	id_tag = "bixie_shuttle_inner";
 	locked = 0
@@ -7999,7 +7958,6 @@
 /obj/machinery/embedded_controller/radio/airlock/docking_port{
 	cycle_to_external_air = 1;
 	dir = 1;
-	frequency = 1331;
 	id_tag = "bixie_shuttle";
 	pixel_y = -24;
 	tag_exterior_sensor = "bixie_shuttle_sensor_ext"
@@ -8020,10 +7978,9 @@
 "ot" = (
 /obj/machinery/conveyor{
 	dir = 4;
-	id = "bixie_conveyor"
+	id_tag = "bixie_conveyor"
 	},
-/obj/machinery/airlock_sensor{
-	frequency = 1331;
+/obj/machinery/airlock_sensor/shuttle{
 	id_tag = "bixie_shuttle_sensor";
 	pixel_y = -24
 	},
@@ -8032,12 +7989,11 @@
 "ou" = (
 /obj/machinery/conveyor{
 	dir = 4;
-	id = "bixie_conveyor"
+	id_tag = "bixie_conveyor"
 	},
 /obj/effect/paint_stripe/brown,
 /obj/structure/plasticflaps,
 /obj/machinery/door/airlock/external/bolted{
-	frequency = 1331;
 	icon_state = "closed";
 	id_tag = "bixie_shuttle_outer";
 	locked = 0;
@@ -8050,7 +8006,6 @@
 /obj/effect/floor_decal/industrial/hatch/yellow,
 /obj/machinery/door/firedoor,
 /obj/machinery/door/airlock/external/bolted{
-	frequency = 1331;
 	icon_state = "closed";
 	id_tag = "bixie_shuttle_dock_airlock";
 	name = "Loading Hatch";
@@ -8983,7 +8938,6 @@
 /obj/machinery/embedded_controller/radio/airlock/airlock_controller{
 	cycle_to_external_air = 1;
 	dir = 4;
-	frequency = 1331;
 	id_tag = "calypso_shuttle";
 	pixel_x = -24;
 	req_access = list("ACCESS_PROMETEUS");
@@ -9108,14 +9062,12 @@
 	},
 /obj/effect/floor_decal/industrial/hatch/yellow,
 /obj/machinery/door/airlock/external/bolted{
-	frequency = 1331;
 	id_tag = "xeno_int";
 	name = "Xenobiology Access";
 	tag = "xeno_int"
 	},
-/obj/machinery/access_button/airlock_interior{
-	frequency = 1331;
-	master_tag = "xeno";
+/obj/machinery/button/access/shuttle/interior{
+	id_tag = "xeno";
 	pixel_x = -32;
 	req_access = list("ACCESS_PROMETEUS")
 	},
@@ -9135,7 +9087,6 @@
 	},
 /obj/machinery/atmospherics/pipe/simple/hidden/fuel,
 /obj/machinery/door/airlock/external/bolted{
-	frequency = 1331;
 	id_tag = "xeno_int";
 	name = "Xenobiology Access";
 	tag = "xeno_int"
@@ -9785,7 +9736,7 @@
 	},
 /obj/machinery/conveyor{
 	dir = 1;
-	id = "mining_internal"
+	id_tag = "mining_internal"
 	},
 /turf/simulated/floor,
 /area/castelnau/supply/smelter)
@@ -9807,7 +9758,7 @@
 /area/castelnau/supply/smelter)
 "rD" = (
 /obj/machinery/conveyor_switch/oneway{
-	id = "mining_internal";
+	id_tag = "mining_internal";
 	name = "mining conveyor"
 	},
 /obj/machinery/firealarm{
@@ -9951,11 +9902,6 @@
 	dir = 8
 	},
 /obj/machinery/reagentgrinder,
-/obj/item/stack/material/phoron,
-/obj/item/stack/material/phoron,
-/obj/item/stack/material/phoron,
-/obj/item/stack/material/phoron,
-/obj/item/stack/material/phoron,
 /obj/structure/cable/yellow{
 	d1 = 1;
 	d2 = 8;
@@ -10034,8 +9980,7 @@
 /turf/simulated/floor/plating,
 /area/shuttle/castelnau/prometeus/external)
 "sb" = (
-/obj/machinery/door/airlock/external{
-	frequency = 1331;
+/obj/machinery/door/airlock/external/shuttle{
 	id_tag = "calypso_shuttle_outer";
 	locked = 1;
 	name = "Prometeus External Access"
@@ -10328,7 +10273,7 @@
 "sD" = (
 /obj/machinery/conveyor{
 	dir = 4;
-	id = "mining_internal"
+	id_tag = "mining_internal"
 	},
 /turf/simulated/floor,
 /area/castelnau/supply/smelter)
@@ -10336,7 +10281,7 @@
 /obj/structure/plasticflaps,
 /obj/machinery/conveyor{
 	dir = 4;
-	id = "mining_internal"
+	id_tag = "mining_internal"
 	},
 /obj/machinery/door/firedoor,
 /turf/simulated/floor/plating,
@@ -10472,14 +10417,12 @@
 "sR" = (
 /obj/effect/floor_decal/industrial/warning/full,
 /obj/structure/catwalk,
-/obj/machinery/airlock_sensor{
-	frequency = 1331;
+/obj/machinery/airlock_sensor/shuttle{
 	id_tag = "calypso_shuttle_sensor_external";
 	pixel_x = -24
 	},
-/obj/machinery/access_button/airlock_interior{
-	frequency = 1331;
-	master_tag = "calypso_shuttle";
+/obj/machinery/button/access/shuttle/interior{
+	id_tag = "calypso_shuttle";
 	pixel_x = -18;
 	pixel_y = 16;
 	req_access = list("ACCESS_PROMETEUS")
@@ -10498,9 +10441,8 @@
 /area/shuttle/castelnau/prometeus/external)
 "sT" = (
 /obj/machinery/atmospherics/pipe/manifold/hidden,
-/obj/machinery/access_button/airlock_exterior{
-	frequency = 1331;
-	master_tag = "calypso_shuttle";
+/obj/machinery/button/access/shuttle/exterior{
+	id_tag = "calypso_shuttle";
 	pixel_x = 12;
 	pixel_y = 24
 	},
@@ -10975,7 +10917,6 @@
 /obj/machinery/embedded_controller/radio/airlock/docking_port{
 	dir = 1;
 	display_name = "Dock 3-D";
-	frequency = 1331;
 	id_tag = "rescue_shuttle_dock_airlock";
 	pixel_x = -26;
 	pixel_y = -24;
@@ -11163,8 +11104,7 @@
 /area/shuttle/castelnau/prometeus/xen)
 "ug" = (
 /obj/machinery/atmospherics/pipe/simple/hidden,
-/obj/machinery/door/airlock/external{
-	frequency = 1331;
+/obj/machinery/door/airlock/external/shuttle{
 	icon_state = "closed";
 	id_tag = "rescue_shuttle_dock_inner";
 	locked = 1;
@@ -11312,8 +11252,7 @@
 /turf/space,
 /area/space)
 "uz" = (
-/obj/machinery/airlock_sensor{
-	frequency = 1331;
+/obj/machinery/airlock_sensor/shuttle{
 	id_tag = "rescue_shuttle_dock_sensor";
 	pixel_x = -28;
 	pixel_y = 6
@@ -11439,8 +11378,7 @@
 /turf/simulated/wall/titanium,
 /area/shuttle/castelnau/prometeus/xen)
 "uM" = (
-/obj/machinery/door/airlock/external{
-	frequency = 1331;
+/obj/machinery/door/airlock/external/shuttle{
 	icon_state = "closed";
 	id_tag = "rescue_shuttle_dock_outer";
 	locked = 1;
