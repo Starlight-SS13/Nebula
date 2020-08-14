@@ -63,7 +63,7 @@
 /turf/simulated/floor/plating,
 /area/castelnau/thruster/d1starboard)
 "an" = (
-/obj/effect/wallframe_spawn/reinforced_phoron,
+/obj/effect/wallframe_spawn/reinforced_borosilicate,
 /obj/machinery/atmospherics/pipe/simple/visible/cyan{
 	dir = 4
 	},
@@ -159,7 +159,7 @@
 /turf/simulated/floor/plating,
 /area/castelnau/thruster/d1starboard)
 "aA" = (
-/obj/effect/wallframe_spawn/reinforced_phoron,
+/obj/effect/wallframe_spawn/reinforced_borosilicate,
 /obj/machinery/atmospherics/pipe/simple/visible/green{
 	dir = 4
 	},
@@ -231,7 +231,7 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/fuel{
 	dir = 4
 	},
-/obj/effect/wallframe_spawn/reinforced_phoron,
+/obj/effect/wallframe_spawn/reinforced_borosilicate,
 /obj/machinery/door/firedoor,
 /obj/machinery/meter,
 /turf/simulated/floor/plating,
@@ -1205,12 +1205,12 @@
 /obj/machinery/light{
 	dir = 1
 	},
-/obj/machinery/suit_storage_unit/security,
+/obj/machinery/suit_cycler,
 /obj/effect/floor_decal/corner/red/mono,
 /turf/simulated/floor/tiled/techfloor,
 /area/castelnau/command/eva)
 "cB" = (
-/obj/machinery/suit_storage_unit/security,
+/obj/machinery/suit_cycler,
 /obj/effect/floor_decal/corner/red/mono,
 /turf/simulated/floor/tiled/techfloor,
 /area/castelnau/command/eva)
@@ -1941,7 +1941,7 @@
 /obj/structure/window/reinforced{
 	health = 1e+007
 	},
-/obj/machinery/suit_storage_unit/mining/alt,
+/obj/machinery/suit_cycler,
 /obj/effect/floor_decal/corner/brown/mono,
 /turf/simulated/floor/tiled/techfloor,
 /area/castelnau/command/eva)
@@ -2429,7 +2429,7 @@
 /obj/structure/window/reinforced{
 	dir = 1
 	},
-/obj/machinery/suit_storage_unit/engineering/alt,
+/obj/machinery/suit_cycler,
 /obj/effect/floor_decal/corner/yellow/mono,
 /turf/simulated/floor/tiled/techfloor,
 /area/castelnau/command/eva)
@@ -2977,7 +2977,6 @@
 /obj/machinery/light/small{
 	dir = 1
 	},
-/obj/item/toy/plushie/farwa,
 /obj/structure/closet/cabinet,
 /obj/machinery/button/alternate/door/bolts{
 	dir = 8;
@@ -3442,12 +3441,12 @@
 /turf/simulated/floor/tiled/techfloor,
 /area/castelnau/command/eva)
 "gH" = (
-/obj/machinery/suit_storage_unit/medical/alt,
+/obj/machinery/suit_cycler,
 /obj/effect/floor_decal/corner/paleblue/mono,
 /turf/simulated/floor/tiled/techfloor,
 /area/castelnau/command/eva)
 "gI" = (
-/obj/machinery/suit_storage_unit/medical/alt,
+/obj/machinery/suit_cycler,
 /obj/effect/floor_decal/corner/paleblue/mono,
 /obj/machinery/light{
 	dir = 4
@@ -3791,7 +3790,7 @@
 /turf/simulated/floor/tiled/techfloor,
 /area/castelnau/command/bridge)
 "hn" = (
-/obj/machinery/bluespacerelay,
+/obj/machinery/relay,
 /obj/machinery/alarm/server{
 	dir = 4;
 	pixel_x = -23
@@ -5488,7 +5487,7 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/fuel{
 	dir = 4
 	},
-/obj/effect/wallframe_spawn/reinforced_phoron,
+/obj/effect/wallframe_spawn/reinforced_borosilicate,
 /obj/machinery/door/firedoor,
 /obj/machinery/meter,
 /turf/simulated/floor/plating,
@@ -6187,9 +6186,9 @@
 /area/castelnau/security/hall)
 "la" = (
 /obj/structure/filingcabinet/chestdrawer,
-/obj/item/folder/white,
-/obj/item/folder/white,
-/obj/item/folder/white,
+/obj/item/folder/cyan,
+/obj/item/folder/cyan,
+/obj/item/folder/cyan,
 /obj/structure/cable/green{
 	d2 = 2;
 	icon_state = "0-2"
@@ -6531,7 +6530,7 @@
 /turf/simulated/floor/carpet/red,
 /area/castelnau/civ/lounge)
 "lE" = (
-/obj/effect/wallframe_spawn/reinforced_phoron,
+/obj/effect/wallframe_spawn/reinforced_borosilicate,
 /obj/machinery/door/firedoor,
 /obj/machinery/atmospherics/pipe/simple/visible/green{
 	dir = 4
@@ -7157,7 +7156,7 @@
 /obj/effect/floor_decal/spline/fancy/wood{
 	dir = 4
 	},
-/obj/machinery/bookbinder,
+/obj/machinery/fabricator/book,
 /obj/machinery/light/small,
 /turf/simulated/floor/wood,
 /area/castelnau/civ/lounge)
@@ -7530,7 +7529,7 @@
 	},
 /obj/structure/table/reinforced,
 /obj/item/chems/spray/cleaner,
-/obj/item/chems/spray/sterilizine{
+/obj/item/chems/spray/antiseptic{
 	pixel_x = -8
 	},
 /obj/machinery/atmospherics/unary/vent_pump/on{
@@ -7608,7 +7607,7 @@
 	pixel_x = -5;
 	pixel_y = 4
 	},
-/obj/item/chems/spray/sterilizine{
+/obj/item/chems/spray/antiseptic{
 	pixel_x = 2;
 	pixel_y = 4
 	},
@@ -7831,7 +7830,7 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 4
 	},
-/obj/item/material/ashtray/glass,
+/obj/item/ashtray/glass,
 /obj/structure/table/steel,
 /obj/machinery/floor_light/prebuilt/bar/violet,
 /obj/structure/disposalpipe/segment{
@@ -8271,7 +8270,7 @@
 /area/castelnau/medical/morgue)
 "om" = (
 /obj/structure/table/steel,
-/obj/item/material/ashtray/glass,
+/obj/item/ashtray/glass,
 /turf/simulated/floor/tiled/dark,
 /area/castelnau/civ/bar)
 "on" = (
@@ -8642,7 +8641,7 @@
 "oT" = (
 /obj/structure/closet/secure_closet/captains/castelnau,
 /obj/item/gun/projectile/revolver/webley/captain,
-/obj/item/ammo_magazine/speedloader/magnum,
+/obj/item/ammo_magazine/speedloader,
 /obj/item/paper/monitorkey,
 /obj/machinery/alarm{
 	dir = 1;
@@ -8842,7 +8841,6 @@
 /turf/simulated/floor/plating,
 /area/castelnau/medical/subacute)
 "pi" = (
-/obj/machinery/atmospherics/unary/cryo_cell,
 /obj/effect/floor_decal/corner/paleblue/mono,
 /turf/simulated/floor/tiled/white,
 /area/castelnau/medical/subacute)
@@ -9183,7 +9181,7 @@
 /obj/machinery/atmospherics/unary/vent_pump/on{
 	dir = 4
 	},
-/obj/machinery/microscope,
+/obj/machinery/forensic/microscope,
 /obj/structure/table/glass,
 /turf/simulated/floor/tiled/white,
 /area/castelnau/security/ivestigation)
@@ -9399,11 +9397,6 @@
 /area/castelnau/medical/chemistry)
 "qg" = (
 /obj/machinery/reagentgrinder,
-/obj/item/stack/material/phoron,
-/obj/item/stack/material/phoron,
-/obj/item/stack/material/phoron,
-/obj/item/stack/material/phoron,
-/obj/item/stack/material/phoron,
 /obj/effect/floor_decal/borderfloorwhite{
 	dir = 5
 	},
@@ -9452,7 +9445,7 @@
 /turf/simulated/floor/tiled/dark,
 /area/castelnau/civ/bar)
 "qk" = (
-/obj/item/material/ashtray/bronze,
+/obj/item/ashtray/bronze,
 /obj/structure/table/marble,
 /obj/machinery/floor_light/prebuilt/bar/violet,
 /obj/machinery/door/blast/shutters/open{
@@ -9815,7 +9808,7 @@
 "qQ" = (
 /obj/structure/table/glass,
 /obj/item/chems/spray/luminol,
-/obj/item/chems/spray/sterilizine,
+/obj/item/chems/spray/antiseptic,
 /obj/item/forensics/sample_kit/powder,
 /obj/item/forensics/swab,
 /obj/effect/floor_decal/corner/blue/half,
@@ -10235,7 +10228,7 @@
 /obj/effect/floor_decal/corner/grey/diagonal{
 	dir = 4
 	},
-/obj/item/material/kitchen/rollingpin,
+/obj/item/kitchen/rollingpin,
 /turf/simulated/floor/tiled/white,
 /area/castelnau/civ/kitchen)
 "rr" = (
@@ -10504,7 +10497,6 @@
 "rN" = (
 /obj/structure/table/standard,
 /obj/machinery/cell_charger,
-/obj/item/chems/glass/beaker/cryoxadone,
 /obj/effect/floor_decal/borderfloorwhite{
 	dir = 6
 	},
@@ -10599,7 +10591,7 @@
 	pixel_x = 8;
 	pixel_y = 10
 	},
-/obj/item/chems/glass/bottle/inaprovaline{
+/obj/item/storage/pill_bottle/adrenaline{
 	pixel_x = 8;
 	pixel_y = 4
 	},
@@ -11767,8 +11759,8 @@
 /obj/structure/railing/mapped{
 	dir = 8
 	},
-/obj/item/material/minihoe,
-/obj/item/material/hatchet,
+/obj/item/minihoe,
+/obj/item/hatchet,
 /obj/structure/sign/warning/compressed_gas{
 	dir = 1;
 	pixel_y = -32
@@ -11846,7 +11838,7 @@
 /turf/simulated/floor/plating,
 /area/castelnau/thruster/d1port)
 "uh" = (
-/obj/effect/wallframe_spawn/reinforced_phoron,
+/obj/effect/wallframe_spawn/reinforced_borosilicate,
 /obj/machinery/door/firedoor,
 /obj/machinery/atmospherics/pipe/simple/visible/cyan{
 	dir = 4

@@ -1,5 +1,7 @@
 #if !defined(using_map_DATUM)
 
+	#include "..\..\mods\dionaea\_dionaea.dme"
+
 	#include "castelnau_announcements.dm"
 	#include "castelnau_antagonism.dm"
 	#include "castelnau_areas.dm"

@@ -429,7 +429,7 @@
 /area/castelnau/thruster/d2starboard)
 "aZ" = (
 /obj/structure/catwalk,
-/obj/structure/ladderdown,
+/obj/structure/ladder,
 /turf/simulated/open,
 /area/space)
 "ba" = (
@@ -732,7 +732,7 @@
 /area/castelnau/maintenance/seconddeck/starboard)
 "bC" = (
 /obj/structure/catwalk,
-/obj/structure/ladderdown,
+/obj/structure/ladder,
 /turf/simulated/open,
 /area/castelnau/maintenance/seconddeck/starboard)
 "bD" = (
@@ -2041,10 +2041,10 @@
 /obj/structure/table/rack{
 	dir = 8
 	},
-/obj/item/stack/material/glass/phoronrglass{
+/obj/item/stack/material/glass/borosilicate{
 	amount = 20
 	},
-/obj/item/stack/material/glass/phoronrglass{
+/obj/item/stack/material/glass/borosilicate{
 	amount = 20
 	},
 /obj/item/stack/material/wood/fifty,
@@ -2058,10 +2058,9 @@
 "dX" = (
 /obj/structure/table/rack,
 /obj/effect/floor_decal/industrial/outline/yellow,
-/obj/item/stock_parts/circuitboard/rdserver,
+/obj/item/stock_parts/circuitboard/design_console,
 /obj/item/stock_parts/circuitboard/protolathe,
 /obj/item/stock_parts/circuitboard/destructive_analyzer,
-/obj/item/stock_parts/circuitboard/rdconsole,
 /obj/machinery/atmospherics/unary/vent_scrubber/on{
 	dir = 4
 	},
@@ -2082,7 +2081,7 @@
 "dZ" = (
 /obj/structure/table/rack,
 /obj/effect/floor_decal/industrial/outline/yellow,
-/obj/item/stock_parts/circuitboard/bluespacerelay,
+/obj/item/stock_parts/circuitboard/relay,
 /obj/machinery/light/small{
 	dir = 4
 	},
@@ -2193,7 +2192,7 @@
 /obj/item/hand_labeler,
 /obj/machinery/button/windowtint{
 	dir = 8;
-	id = "interrogation";
+	id_tag = "interrogation";
 	pixel_x = 24;
 	pixel_y = -6
 	},
@@ -3346,7 +3345,6 @@
 /turf/simulated/floor/tiled/steel_grid,
 /area/castelnau/engineering/hallway)
 "fW" = (
-/obj/machinery/portable_atmospherics/canister/phoron,
 /obj/effect/floor_decal/industrial/outline/grey,
 /obj/machinery/light/small{
 	dir = 8;
@@ -3884,7 +3882,7 @@
 	pixel_y = 23;
 	req_access = list("ACCESS_PROMETEUS")
 	},
-/obj/item/ladder_mobile,
+/obj/item/mobile_ladder,
 /obj/machinery/light_switch{
 	dir = 8;
 	pixel_x = 23
@@ -4004,12 +4002,6 @@
 /area/castelnau/engineering/hardstorage)
 "gU" = (
 /obj/structure/closet/crate,
-/obj/item/stack/material/phoron{
-	amount = 50
-	},
-/obj/item/stack/material/phoron{
-	amount = 50
-	},
 /obj/effect/floor_decal/industrial/outline/grey,
 /obj/machinery/alarm{
 	dir = 8;
@@ -4036,12 +4028,12 @@
 "gX" = (
 /obj/structure/table/rack,
 /obj/effect/floor_decal/industrial/outline/yellow,
-/obj/item/module/power_control,
-/obj/item/module/power_control,
-/obj/item/module/power_control,
-/obj/item/airlock_electronics,
-/obj/item/airlock_electronics,
-/obj/item/airlock_electronics,
+/obj/item/stock_parts/circuitboard/apc,
+/obj/item/stock_parts/circuitboard/apc,
+/obj/item/stock_parts/circuitboard/apc,
+/obj/item/stock_parts/circuitboard/airlock_electronics,
+/obj/item/stock_parts/circuitboard/airlock_electronics,
+/obj/item/stock_parts/circuitboard/airlock_electronics,
 /obj/structure/sign/warning/detailed{
 	dir = 8;
 	pixel_x = 32
@@ -5190,9 +5182,9 @@
 "iQ" = (
 /obj/structure/table/rack,
 /obj/effect/floor_decal/industrial/outline/yellow,
-/obj/item/airlock_electronics/brace,
-/obj/item/airlock_electronics/brace,
-/obj/item/airlock_electronics/brace,
+/obj/item/stock_parts/circuitboard/airlock_electronics/brace,
+/obj/item/stock_parts/circuitboard/airlock_electronics/brace,
+/obj/item/stock_parts/circuitboard/airlock_electronics/brace,
 /obj/item/airlock_brace,
 /obj/item/airlock_brace,
 /obj/item/airlock_brace,
@@ -5887,7 +5879,6 @@
 "jR" = (
 /obj/structure/table/rack,
 /obj/effect/floor_decal/industrial/outline/yellow,
-/obj/item/stock_parts/circuitboard/crew,
 /turf/simulated/floor/tiled/techmaint,
 /area/castelnau/storage/tech)
 "jS" = (
@@ -6192,12 +6183,12 @@
 /turf/simulated/floor/tiled/dark,
 /area/castelnau/supply/office)
 "ko" = (
-/obj/machinery/suit_storage_unit/atmos/alt,
+/obj/machinery/suit_cycler,
 /obj/effect/floor_decal/industrial/hatch/yellow,
 /turf/simulated/floor/tiled/monotile,
 /area/castelnau/engineering/storage)
 "kp" = (
-/obj/machinery/suit_storage_unit/engineering/alt,
+/obj/machinery/suit_cycler,
 /obj/effect/floor_decal/industrial/hatch/yellow,
 /turf/simulated/floor/tiled/monotile,
 /area/castelnau/engineering/storage)
@@ -7785,7 +7776,7 @@
 "mV" = (
 /obj/effect/floor_decal/industrial/outline/yellow,
 /obj/machinery/conveyor_switch{
-	id = "cargo_conveyor_1"
+	id_tag = "cargo_conveyor_1"
 	},
 /obj/machinery/light/spot{
 	dir = 8
@@ -7805,7 +7796,7 @@
 "mY" = (
 /obj/effect/floor_decal/industrial/outline/yellow,
 /obj/machinery/conveyor_switch{
-	id = "cargo_conveyor_2"
+	id_tag = "cargo_conveyor_2"
 	},
 /turf/simulated/floor/tiled/monotile,
 /area/castelnau/supply/storage)
@@ -7988,7 +7979,7 @@
 /turf/simulated/wall/ocp_wall,
 /area/castelnau/engineering/engine_room)
 "nx" = (
-/obj/effect/wallframe_spawn/reinforced_phoron/hull,
+/obj/effect/wallframe_spawn/reinforced_borosilicate/hull,
 /obj/machinery/door/blast/regular/open{
 	dir = 4;
 	id_tag = "reactor_rad";
@@ -8000,7 +7991,7 @@
 /turf/simulated/floor/plating,
 /area/castelnau/engineering/engine_room)
 "ny" = (
-/obj/effect/wallframe_spawn/reinforced_phoron/hull,
+/obj/effect/wallframe_spawn/reinforced_borosilicate/hull,
 /obj/machinery/door/blast/regular/open{
 	dir = 4;
 	id_tag = "reactor_rad";
@@ -8015,7 +8006,7 @@
 /turf/simulated/floor/plating,
 /area/castelnau/engineering/engine_room)
 "nz" = (
-/obj/effect/wallframe_spawn/reinforced_phoron/hull,
+/obj/effect/wallframe_spawn/reinforced_borosilicate/hull,
 /obj/machinery/door/blast/regular/open{
 	dir = 4;
 	id_tag = "reactor_rad";
@@ -8305,7 +8296,7 @@
 "nV" = (
 /obj/machinery/conveyor{
 	dir = 10;
-	id = "cargo_conveyor_1"
+	id_tag = "cargo_conveyor_1"
 	},
 /obj/machinery/floodlight,
 /obj/structure/sign/warning/moving_parts{
@@ -8317,21 +8308,21 @@
 "nW" = (
 /obj/machinery/conveyor{
 	dir = 9;
-	id = "cargo_conveyor_1"
+	id_tag = "cargo_conveyor_1"
 	},
 /turf/simulated/floor/tiled/monotile,
 /area/castelnau/supply/storage)
 "nX" = (
 /obj/machinery/conveyor{
 	dir = 10;
-	id = "cargo_conveyor_2"
+	id_tag = "cargo_conveyor_2"
 	},
 /turf/simulated/floor/tiled/monotile,
 /area/castelnau/supply/storage)
 "nY" = (
 /obj/machinery/conveyor{
 	dir = 9;
-	id = "cargo_conveyor_2"
+	id_tag = "cargo_conveyor_2"
 	},
 /turf/simulated/floor/tiled/monotile,
 /area/castelnau/supply/storage)
@@ -8996,14 +8987,14 @@
 "oZ" = (
 /obj/machinery/conveyor{
 	dir = 1;
-	id = "cargo_conveyor_1"
+	id_tag = "cargo_conveyor_1"
 	},
 /obj/structure/plasticflaps,
 /turf/simulated/floor,
 /area/castelnau/supply/storage)
 "pa" = (
 /obj/machinery/conveyor{
-	id = "cargo_conveyor_1"
+	id_tag = "cargo_conveyor_1"
 	},
 /obj/structure/plasticflaps,
 /obj/machinery/floodlight,
@@ -9020,14 +9011,14 @@
 "pc" = (
 /obj/machinery/conveyor{
 	dir = 1;
-	id = "cargo_conveyor_2"
+	id_tag = "cargo_conveyor_2"
 	},
 /obj/structure/plasticflaps,
 /turf/simulated/floor/tiled/dark,
 /area/castelnau/supply/storage)
 "pd" = (
 /obj/machinery/conveyor{
-	id = "cargo_conveyor_2"
+	id_tag = "cargo_conveyor_2"
 	},
 /obj/structure/plasticflaps,
 /turf/simulated/floor,
@@ -9294,7 +9285,7 @@
 	id_tag = "reactor_rad";
 	name = "Reactor Radiation Protection"
 	},
-/obj/effect/wallframe_spawn/reinforced_phoron/hull,
+/obj/effect/wallframe_spawn/reinforced_borosilicate/hull,
 /turf/simulated/floor/plating,
 /area/castelnau/engineering/engine_room)
 "pC" = (
@@ -9499,7 +9490,7 @@
 "pV" = (
 /obj/machinery/conveyor{
 	dir = 1;
-	id = "cargo_conveyor_1"
+	id_tag = "cargo_conveyor_1"
 	},
 /obj/structure/closet/crate/internals,
 /obj/machinery/light/small/red{
@@ -9509,7 +9500,7 @@
 /area/castelnau/supply/storage)
 "pW" = (
 /obj/machinery/conveyor{
-	id = "cargo_conveyor_1"
+	id_tag = "cargo_conveyor_1"
 	},
 /turf/simulated/floor,
 /area/castelnau/supply/storage)
@@ -9520,13 +9511,13 @@
 "pY" = (
 /obj/machinery/conveyor{
 	dir = 1;
-	id = "cargo_conveyor_2"
+	id_tag = "cargo_conveyor_2"
 	},
 /turf/simulated/floor,
 /area/castelnau/supply/storage)
 "pZ" = (
 /obj/machinery/conveyor{
-	id = "cargo_conveyor_2"
+	id_tag = "cargo_conveyor_2"
 	},
 /turf/simulated/floor,
 /area/castelnau/supply/storage)
@@ -9653,14 +9644,14 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
 	dir = 9
 	},
-/obj/machinery/pipedispenser/disposal,
+/obj/machinery/fabricator/pipe/disposal,
 /turf/simulated/floor/tiled/techfloor,
 /area/castelnau/engineering/atmos)
 "qo" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/red{
 	dir = 4
 	},
-/obj/machinery/pipedispenser,
+/obj/machinery/fabricator/pipe,
 /turf/simulated/floor/tiled/techfloor,
 /area/castelnau/engineering/atmos)
 "qp" = (
@@ -9892,7 +9883,7 @@
 /turf/simulated/floor/holofloor/tiled/dark,
 /area/castelnau/engineering/engine_room)
 "qF" = (
-/obj/effect/wallframe_spawn/reinforced_phoron/hull,
+/obj/effect/wallframe_spawn/reinforced_borosilicate/hull,
 /obj/machinery/door/blast/regular/open{
 	dir = 4;
 	id_tag = "reactor_rad";
@@ -9985,7 +9976,7 @@
 /area/castelnau/security/brig)
 "qO" = (
 /obj/structure/table/standard,
-/obj/item/material/minihoe,
+/obj/item/minihoe,
 /obj/random/maintenance,
 /obj/effect/floor_decal/industrial/outline/yellow,
 /turf/simulated/floor/tiled/monotile,
@@ -10020,10 +10011,10 @@
 /obj/structure/table/standard,
 /obj/item/storage/box/cola,
 /obj/item/storage/box/donkpockets,
-/obj/item/material/kitchen/utensil/fork/plastic,
-/obj/item/material/kitchen/utensil/fork/plastic,
-/obj/item/material/kitchen/utensil/spoon/plastic,
-/obj/item/material/kitchen/utensil/spoon/plastic,
+/obj/item/kitchen/utensil/fork/plastic,
+/obj/item/kitchen/utensil/fork/plastic,
+/obj/item/kitchen/utensil/spoon/plastic,
+/obj/item/kitchen/utensil/spoon/plastic,
 /obj/effect/floor_decal/industrial/outline/yellow,
 /turf/simulated/floor/tiled/monotile,
 /area/castelnau/security/brig)
@@ -10220,10 +10211,6 @@
 /turf/simulated/floor/tiled/dark/monotile,
 /area/castelnau/engineering/engine_smes)
 "rn" = (
-/obj/item/clothing/under/solgov/utility/fleet/officer/engineering{
-	dir = 4;
-	icon_state = "console"
-	},
 /obj/machinery/alarm{
 	alarm_id = "xenobio2_alarm";
 	dir = 4;
@@ -10486,7 +10473,7 @@
 "rK" = (
 /obj/machinery/conveyor{
 	dir = 1;
-	id = "cargo_conveyor_1"
+	id_tag = "cargo_conveyor_1"
 	},
 /obj/machinery/portable_atmospherics/canister/oxygen,
 /turf/simulated/floor,
@@ -10787,14 +10774,14 @@
 /obj/machinery/atmospherics/unary/vent_pump/on{
 	dir = 1
 	},
-/obj/item/clothing/accessory/legguards/tan,
-/obj/item/clothing/accessory/armguards/tan,
-/obj/item/clothing/accessory/legguards/navy,
-/obj/item/clothing/accessory/armguards/navy,
-/obj/item/clothing/accessory/legguards/green,
-/obj/item/clothing/accessory/armguards/green,
-/obj/item/clothing/accessory/legguards/blue,
-/obj/item/clothing/accessory/armguards/blue,
+/obj/item/clothing/accessory/legguards,
+/obj/item/clothing/accessory/armguards,
+/obj/item/clothing/accessory/legguards,
+/obj/item/clothing/accessory/armguards,
+/obj/item/clothing/accessory/legguards,
+/obj/item/clothing/accessory/armguards,
+/obj/item/clothing/accessory/legguards,
+/obj/item/clothing/accessory/armguards,
 /obj/machinery/recharger/wallcharger{
 	dir = 1;
 	pixel_y = -22
@@ -10829,7 +10816,7 @@
 "su" = (
 /obj/machinery/conveyor{
 	dir = 6;
-	id = "cargo_conveyor_1"
+	id_tag = "cargo_conveyor_1"
 	},
 /obj/machinery/light/small/red{
 	dir = 8
@@ -10839,7 +10826,7 @@
 "sv" = (
 /obj/machinery/conveyor{
 	dir = 5;
-	id = "cargo_conveyor_1"
+	id_tag = "cargo_conveyor_1"
 	},
 /obj/structure/closet/crate/medical,
 /turf/simulated/floor,
@@ -10847,14 +10834,14 @@
 "sw" = (
 /obj/machinery/conveyor{
 	dir = 6;
-	id = "cargo_conveyor_2"
+	id_tag = "cargo_conveyor_2"
 	},
 /turf/simulated/floor,
 /area/castelnau/supply/storage)
 "sx" = (
 /obj/machinery/conveyor{
 	dir = 5;
-	id = "cargo_conveyor_2"
+	id_tag = "cargo_conveyor_2"
 	},
 /obj/machinery/light/small/red,
 /turf/simulated/floor,
@@ -11006,7 +10993,7 @@
 /turf/simulated/floor/holofloor/tiled/dark,
 /area/castelnau/engineering/engine_room)
 "sQ" = (
-/obj/effect/wallframe_spawn/reinforced_phoron/hull,
+/obj/effect/wallframe_spawn/reinforced_borosilicate/hull,
 /obj/machinery/door/blast/regular/open{
 	dir = 4;
 	id_tag = "reactor_rad";
@@ -11018,7 +11005,7 @@
 /turf/simulated/floor/plating,
 /area/castelnau/engineering/engine_room)
 "sR" = (
-/obj/effect/wallframe_spawn/reinforced_phoron/hull,
+/obj/effect/wallframe_spawn/reinforced_borosilicate/hull,
 /obj/machinery/door/blast/regular/open{
 	dir = 4;
 	id_tag = "reactor_rad";
@@ -11951,7 +11938,7 @@
 /obj/machinery/atmospherics/pipe/manifold/visible/fuel{
 	dir = 1
 	},
-/obj/effect/wallframe_spawn/reinforced_phoron,
+/obj/effect/wallframe_spawn/reinforced_borosilicate,
 /obj/machinery/door/firedoor,
 /obj/machinery/meter,
 /obj/machinery/door/blast/regular/open{
@@ -12057,7 +12044,7 @@
 "va" = (
 /obj/machinery/atmospherics/pipe/manifold/visible/fuel,
 /obj/machinery/meter,
-/obj/effect/wallframe_spawn/reinforced_phoron,
+/obj/effect/wallframe_spawn/reinforced_borosilicate,
 /obj/machinery/door/firedoor,
 /obj/machinery/door/blast/regular/open{
 	dir = 4;
@@ -12129,7 +12116,7 @@
 	dir = 4
 	},
 /obj/machinery/meter,
-/obj/effect/wallframe_spawn/reinforced_phoron,
+/obj/effect/wallframe_spawn/reinforced_borosilicate,
 /obj/machinery/door/firedoor,
 /obj/machinery/door/blast/regular/open{
 	dir = 4;
