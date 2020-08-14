@@ -260,7 +260,6 @@
 /area/castelnau/hallway/primary/firstdeck/fore)
 "aQ" = (
 /obj/machinery/door/airlock/external/glass{
-	frequency = 1331;
 	id_tag = "merchant_shuttle_station_exterior";
 	locked = 1;
 	name = "Docking Port Airlock"
@@ -638,7 +637,7 @@
 /area/castelnau/civ/bunk)
 "bD" = (
 /obj/machinery/button/windowtint{
-	id = "dorm3tint";
+	id_tag = "dorm3tint";
 	pixel_x = -6;
 	pixel_y = 28
 	},
@@ -665,7 +664,7 @@
 /area/castelnau/civ/bunk)
 "bG" = (
 /obj/machinery/button/windowtint{
-	id = "dorm4tint";
+	id_tag = "dorm4tint";
 	pixel_x = -6;
 	pixel_y = 28
 	},
@@ -1181,7 +1180,6 @@
 /area/castelnau/hallway/primary/firstdeck/fore)
 "cy" = (
 /obj/machinery/door/airlock/external/glass{
-	frequency = 1331;
 	id_tag = "merchant_shuttle_station_interior";
 	locked = 1;
 	name = "Docking Port Airlock"
@@ -1479,7 +1477,6 @@
 "dd" = (
 /obj/machinery/embedded_controller/radio/airlock/docking_port{
 	display_name = "Dock 1-A";
-	frequency = 1331;
 	id_tag = "merchant_shuttle_station_dock";
 	pixel_x = -24;
 	pixel_y = 24;
@@ -2289,7 +2286,7 @@
 	},
 /obj/machinery/button/windowtint{
 	dir = 1;
-	id = "captainwindow";
+	id_tag = "captainwindow";
 	pixel_x = 12;
 	pixel_y = -21
 	},
@@ -2351,7 +2348,7 @@
 "eM" = (
 /obj/machinery/button/windowtint{
 	dir = 1;
-	id = "fowindow";
+	id_tag = "fowindow";
 	pixel_x = 12;
 	pixel_y = -21
 	},
@@ -2564,7 +2561,6 @@
 /obj/structure/catwalk,
 /obj/machinery/embedded_controller/radio/simple_docking_controller/escape_pod_berth{
 	dir = 8;
-	frequency = 1381;
 	id_tag = "escape_pod_9_berth";
 	name = "escape pod four berth controller";
 	pixel_x = 24;
@@ -2605,7 +2601,6 @@
 	tag = "icon-shuttle_chair_preview (NORTH)"
 	},
 /obj/machinery/embedded_controller/radio/simple_docking_controller/escape_pod{
-	frequency = 1381;
 	id_tag = "escape_pod_9";
 	name = "escape pod four controller";
 	pixel_y = 24;
@@ -3790,7 +3785,7 @@
 /turf/simulated/floor/tiled/techfloor,
 /area/castelnau/command/bridge)
 "hn" = (
-/obj/machinery/relay,
+/obj/machinery/network/relay,
 /obj/machinery/alarm/server{
 	dir = 4;
 	pixel_x = -23
@@ -3802,7 +3797,7 @@
 /turf/simulated/floor/bluegrid,
 /area/castelnau/command/tcoms)
 "hp" = (
-/obj/machinery/ntnet_relay,
+/obj/machinery/network/mainframe,
 /turf/simulated/floor/bluegrid,
 /area/castelnau/command/tcoms)
 "hq" = (
@@ -4840,7 +4835,6 @@
 	name = "EMERGENCY USE ONLY";
 	req_access = list("ACCESS_CASTELNAU_CAPTAIN")
 	},
-/obj/item/gun/projectile/automatic/merc_smg,
 /obj/item/ammo_magazine/smg,
 /obj/item/ammo_magazine/smg,
 /turf/simulated/floor/plating,
@@ -4914,7 +4908,6 @@
 	},
 /obj/machinery/embedded_controller/radio/simple_docking_controller/escape_pod_berth{
 	dir = 8;
-	frequency = 1381;
 	id_tag = "escape_pod_8_berth";
 	name = "escape pod three berth controller";
 	pixel_x = 24;
@@ -4936,7 +4929,6 @@
 /area/shuttle/escape_pod8/station)
 "iO" = (
 /obj/machinery/embedded_controller/radio/simple_docking_controller/escape_pod{
-	frequency = 1381;
 	id_tag = "escape_pod_8";
 	name = "escape pod three controller";
 	pixel_y = 24;
@@ -5970,7 +5962,6 @@
 /obj/effect/floor_decal/spline/fancy/wood{
 	dir = 4
 	},
-/obj/machinery/libraryscanner,
 /turf/simulated/floor/wood,
 /area/castelnau/civ/lounge)
 "kE" = (
@@ -6301,7 +6292,7 @@
 /obj/effect/floor_decal/corner/pink/mono,
 /obj/machinery/button/windowtint{
 	dir = 8;
-	id = "optheatre_tint";
+	id_tag = "optheatre_tint";
 	pixel_x = -24
 	},
 /turf/simulated/floor/tiled/white,
@@ -6512,7 +6503,7 @@
 /obj/effect/floor_decal/spline/fancy/wood{
 	dir = 4
 	},
-/obj/machinery/computer/modular/preset/library{
+/obj/machinery/computer/modular/preset/civilian{
 	dir = 4
 	},
 /turf/simulated/floor/wood,
@@ -6821,7 +6812,7 @@
 	icon_state = "left";
 	name = "Medical Reception"
 	},
-/obj/item/folder/white,
+/obj/item/folder/cyan,
 /obj/structure/cable/green{
 	d1 = 4;
 	d2 = 8;
@@ -7200,7 +7191,6 @@
 	},
 /obj/machinery/embedded_controller/radio/simple_docking_controller/escape_pod_berth{
 	dir = 8;
-	frequency = 1381;
 	id_tag = "escape_pod_7_berth";
 	name = "escape pod two berth controller";
 	pixel_x = 24;
@@ -7222,7 +7212,6 @@
 /area/shuttle/escape_pod7/station)
 "mJ" = (
 /obj/machinery/embedded_controller/radio/simple_docking_controller/escape_pod{
-	frequency = 1381;
 	id_tag = "escape_pod_7";
 	name = "escape pod two controller";
 	pixel_y = 24;
@@ -8231,7 +8220,7 @@
 "ok" = (
 /obj/structure/table/standard,
 /obj/item/scalpel,
-/obj/item/autopsy_scanner,
+/obj/item/scanner/autopsy,
 /obj/machinery/atmospherics/unary/vent_pump/on{
 	dir = 1
 	},
@@ -9113,7 +9102,6 @@
 	},
 /obj/machinery/embedded_controller/radio/simple_docking_controller/escape_pod_berth{
 	dir = 8;
-	frequency = 1381;
 	id_tag = "escape_pod_6_berth";
 	name = "escape pod one berth controller";
 	pixel_x = 24;
@@ -9445,7 +9433,7 @@
 /turf/simulated/floor/tiled/dark,
 /area/castelnau/civ/bar)
 "qk" = (
-/obj/item/ashtray/bronze,
+/obj/item/ashtray/glass,
 /obj/structure/table/marble,
 /obj/machinery/floor_light/prebuilt/bar/violet,
 /obj/machinery/door/blast/shutters/open{
@@ -9619,7 +9607,6 @@
 /area/shuttle/escape_pod6/station)
 "qA" = (
 /obj/machinery/embedded_controller/radio/simple_docking_controller/escape_pod{
-	frequency = 1381;
 	id_tag = "escape_pod_6";
 	name = "escape pod one controller";
 	pixel_y = 24;
@@ -9797,7 +9784,7 @@
 /turf/simulated/floor/tiled/freezer,
 /area/castelnau/security/recreation)
 "qP" = (
-/obj/machinery/dnaforensics,
+/obj/machinery/forensic/dnascanner,
 /obj/effect/floor_decal/corner/blue/half,
 /obj/machinery/alarm{
 	dir = 1;
@@ -9810,7 +9797,7 @@
 /obj/item/chems/spray/luminol,
 /obj/item/chems/spray/antiseptic,
 /obj/item/forensics/sample_kit/powder,
-/obj/item/forensics/swab,
+/obj/item/forensics/sample/swab,
 /obj/effect/floor_decal/corner/blue/half,
 /obj/machinery/light,
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
@@ -11678,7 +11665,6 @@
 /area/castelnau/medical/maintenance_equipstorage)
 "tO" = (
 /obj/machinery/airlock_sensor{
-	frequency = 1305;
 	id_tag = "sd_port_sensor";
 	pixel_x = -24
 	},
@@ -11693,7 +11679,6 @@
 "tP" = (
 /obj/machinery/embedded_controller/radio/airlock/airlock_controller{
 	dir = 8;
-	frequency = 1305;
 	id_tag = "sd_port_airlock";
 	name = "First Deck Port Airlock Controller";
 	pixel_x = 24;
@@ -11789,7 +11774,6 @@
 /area/castelnau/maintenance/firstdeck/aftport)
 "ua" = (
 /obj/machinery/door/airlock/external{
-	frequency = 1305;
 	icon_state = "closed";
 	id_tag = "sd_port_outer";
 	locked = 1;
@@ -12050,7 +12034,6 @@
 	},
 /obj/structure/catwalk,
 /obj/machinery/button/access/interior{
-	frequency = 1305;
 	id_tag = "sd_port_airlock";
 	name = "interior access button";
 	pixel_x = -4;
@@ -12061,7 +12044,6 @@
 /area/castelnau/medical/maintenance_equipstorage)
 "uD" = (
 /obj/machinery/door/airlock/external/glass{
-	frequency = 1305;
 	id_tag = "sd_port_inner";
 	locked = 1;
 	name = "First Deck Port Airlock"
@@ -12227,7 +12209,7 @@
 	},
 /obj/machinery/button/windowtint{
 	dir = 8;
-	id = "sec_restroom";
+	id_tag = "sec_restroom";
 	pixel_x = 23;
 	pixel_y = -8
 	},
