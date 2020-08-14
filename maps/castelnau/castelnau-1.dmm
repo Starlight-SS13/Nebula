@@ -70,7 +70,7 @@
 /turf/simulated/floor/plating,
 /area/castelnau/maintenance/thirddeck/starboard)
 "ai" = (
-/obj/structure/ladder/up,
+/obj/structure/ladder,
 /obj/effect/floor_decal/industrial/outline/yellow,
 /turf/simulated/floor/plating,
 /area/castelnau/maintenance/thirddeck/starboard)
@@ -183,7 +183,7 @@
 /turf/space,
 /area/space)
 "az" = (
-/obj/structure/ladder/up,
+/obj/structure/ladder,
 /obj/structure/lattice,
 /obj/structure/catwalk,
 /obj/structure/railing/mapped{
@@ -651,8 +651,6 @@
 	icon_state = "0-2"
 	},
 /obj/structure/cable/green,
-/obj/item/stack/material/phoron/ten,
-/obj/item/stack/material/phoron/ten,
 /turf/simulated/floor,
 /area/shuttle/castelnau/prometeus/power)
 "bF" = (
@@ -955,7 +953,7 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/yellow{
 	dir = 9
 	},
-/obj/effect/wallframe_spawn/reinforced_phoron/titanium,
+/obj/effect/wallframe_spawn/reinforced_borosilicate/titanium,
 /obj/machinery/door/firedoor/prometeus,
 /obj/machinery/door/blast/regular{
 	id_tag = "prometeus_test_observation";
@@ -1196,7 +1194,7 @@
 /turf/simulated/floor/plating,
 /area/shuttle/castelnau/prometeus/medical)
 "cT" = (
-/obj/machinery/suit_storage_unit/science,
+/obj/machinery/suit_cycler,
 /obj/effect/floor_decal/corner/purple/mono,
 /turf/simulated/floor/tiled/monotile,
 /area/shuttle/castelnau/prometeus/eva)
@@ -1345,7 +1343,7 @@
 /area/shuttle/castelnau/prometeus/gas)
 "di" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/yellow,
-/obj/machinery/vending/phoronresearch,
+/obj/machinery/vending/bombresearch,
 /turf/simulated/floor/tiled/white/monotile,
 /area/shuttle/castelnau/prometeus/gas)
 "dj" = (
@@ -2115,7 +2113,7 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/cyan{
 	dir = 5
 	},
-/obj/machinery/suit_storage_unit/standard_unit,
+/obj/machinery/suit_cycler,
 /obj/effect/floor_decal/industrial/outline/yellow,
 /obj/structure/cable/yellow{
 	d1 = 1;
@@ -3623,7 +3621,7 @@
 /obj/effect/floor_decal/industrial/outline/yellow,
 /obj/structure/table/rack,
 /obj/item/gun/launcher/net,
-/obj/item/clothing/accessory/storage/bandolier/safari,
+/obj/item/clothing/accessory/storage/bandolier,
 /obj/effect/floor_decal/corner/purple/mono,
 /turf/simulated/floor/tiled/monotile,
 /area/shuttle/castelnau/prometeus/eva)
@@ -3741,7 +3739,6 @@
 	level = 2
 	},
 /obj/effect/floor_decal/industrial/outline,
-/obj/machinery/portable_atmospherics/canister/phoron,
 /turf/simulated/floor/tiled/white/monotile,
 /area/shuttle/castelnau/prometeus/gas)
 "hB" = (
@@ -4226,10 +4223,10 @@
 /area/shuttle/castelnau/prometeus/eva)
 "is" = (
 /obj/structure/table/steel,
-/obj/item/material/hatchet/machete,
-/obj/item/material/hatchet/machete,
-/obj/item/material/hatchet/machete,
-/obj/item/material/hatchet/machete,
+/obj/item/hatchet/machete,
+/obj/item/hatchet/machete,
+/obj/item/hatchet/machete,
+/obj/item/hatchet/machete,
 /obj/item/shovel,
 /obj/item/shovel,
 /obj/item/pickaxe/xeno/hand,
@@ -4305,7 +4302,6 @@
 /turf/simulated/floor/tiled/white,
 /area/shuttle/castelnau/prometeus/equip)
 "ix" = (
-/obj/structure/reagent_dispensers/coolanttank,
 /obj/effect/floor_decal/borderfloor{
 	dir = 10
 	},
@@ -5747,7 +5743,7 @@
 /area/castelnau/hallway/primary/thirddeck/fore)
 "kD" = (
 /obj/effect/floor_decal/industrial/outline/yellow,
-/obj/machinery/pipedispenser,
+/obj/machinery/fabricator/pipe,
 /turf/simulated/floor/tiled/dark/monotile,
 /area/castelnau/storage/expedition)
 "kE" = (
@@ -6409,7 +6405,7 @@
 	dir = 1;
 	pixel_y = -28
 	},
-/obj/machinery/pipedispenser/disposal,
+/obj/machinery/fabricator/pipe/disposal,
 /obj/machinery/alarm{
 	alarm_id = "xenobio2_alarm";
 	dir = 4;
@@ -7629,7 +7625,7 @@
 /turf/simulated/wall/titanium,
 /area/shuttle/castelnau/prometeus/tele)
 "nF" = (
-/obj/machinery/r_n_d/circuit_imprinter,
+/obj/machinery/fabricator/imprinter,
 /obj/item/chems/glass/beaker/sulphuric,
 /obj/structure/reagent_dispensers/acid{
 	density = 0;
@@ -7641,7 +7637,7 @@
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/shuttle/castelnau/prometeus/rnd)
 "nG" = (
-/obj/machinery/r_n_d/protolathe,
+/obj/machinery/fabricator/protolathe,
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/shuttle/castelnau/prometeus/rnd)
 "nH" = (
@@ -7725,7 +7721,7 @@
 /obj/effect/floor_decal/corner/purple/half{
 	dir = 1
 	},
-/obj/machinery/r_n_d/server/robotics,
+/obj/machinery/design_database,
 /obj/effect/floor_decal/industrial/warning/cee,
 /turf/simulated/floor/tiled/white/monotile,
 /area/shuttle/castelnau/prometeus/robotic)
@@ -8339,7 +8335,7 @@
 /turf/simulated/floor/tiled/techfloor,
 /area/shuttle/castelnau/prometeus/rnd)
 "oR" = (
-/obj/machinery/r_n_d/server/core,
+/obj/machinery/design_database,
 /obj/effect/floor_decal/industrial/warning/cee{
 	dir = 8
 	},
@@ -8854,7 +8850,7 @@
 /turf/simulated/floor/tiled/techfloor,
 /area/shuttle/castelnau/prometeus/tele)
 "pQ" = (
-/obj/machinery/r_n_d/destructive_analyzer,
+/obj/machinery/destructive_analyzer,
 /obj/structure/extinguisher_cabinet{
 	dir = 1;
 	pixel_x = -22

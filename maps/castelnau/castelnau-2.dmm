@@ -142,7 +142,7 @@
 /turf/simulated/floor/plating,
 /area/castelnau/thruster/d2starboard)
 "av" = (
-/obj/effect/wallframe_spawn/reinforced_phoron/titanium,
+/obj/effect/wallframe_spawn/reinforced_borosilicate/titanium,
 /obj/machinery/atmospherics/pipe/simple/visible/yellow{
 	dir = 4
 	},
@@ -212,13 +212,13 @@
 /turf/space,
 /area/space)
 "aD" = (
-/obj/structure/ladder/up,
+/obj/structure/ladder,
 /obj/structure/lattice,
 /obj/structure/catwalk,
 /turf/space,
 /area/space)
 "aE" = (
-/obj/structure/ladder/up,
+/obj/structure/ladder,
 /obj/effect/floor_decal/industrial/outline/yellow,
 /turf/simulated/floor/plating,
 /area/castelnau/thruster/d2starboard)
@@ -254,7 +254,7 @@
 /turf/simulated/floor/plating,
 /area/castelnau/thruster/d2starboard)
 "aJ" = (
-/obj/effect/wallframe_spawn/reinforced_phoron/titanium,
+/obj/effect/wallframe_spawn/reinforced_borosilicate/titanium,
 /obj/machinery/meter,
 /obj/machinery/atmospherics/pipe/simple/visible/fuel{
 	dir = 4
@@ -289,7 +289,7 @@
 /obj/machinery/atmospherics/pipe/simple/visible/fuel{
 	dir = 4
 	},
-/obj/structure/ladder/up,
+/obj/structure/ladder,
 /obj/structure/catwalk,
 /turf/simulated/floor/airless,
 /area/castelnau/thruster/d2starboard)
@@ -390,7 +390,7 @@
 /turf/simulated/floor/plating,
 /area/castelnau/thruster/d2starboard)
 "aV" = (
-/obj/effect/wallframe_spawn/reinforced_phoron/titanium,
+/obj/effect/wallframe_spawn/reinforced_borosilicate/titanium,
 /obj/machinery/atmospherics/pipe/simple/visible/fuel{
 	dir = 4
 	},
@@ -429,7 +429,7 @@
 /area/castelnau/thruster/d2starboard)
 "aZ" = (
 /obj/structure/catwalk,
-/obj/structure/ladder/updown,
+/obj/structure/ladderdown,
 /turf/simulated/open,
 /area/space)
 "ba" = (
@@ -518,7 +518,7 @@
 	d2 = 4;
 	icon_state = "2-4"
 	},
-/obj/structure/ladder/up,
+/obj/structure/ladder,
 /obj/effect/floor_decal/industrial/outline/yellow,
 /turf/simulated/floor/plating,
 /area/castelnau/maintenance/seconddeck/starboard)
@@ -692,7 +692,7 @@
 /turf/simulated/floor/plating,
 /area/castelnau/engineering/gen_room)
 "by" = (
-/obj/structure/ladder/up,
+/obj/structure/ladder,
 /obj/structure/lattice,
 /turf/space,
 /area/space)
@@ -732,7 +732,7 @@
 /area/castelnau/maintenance/seconddeck/starboard)
 "bC" = (
 /obj/structure/catwalk,
-/obj/structure/ladder/updown,
+/obj/structure/ladderdown,
 /turf/simulated/open,
 /area/castelnau/maintenance/seconddeck/starboard)
 "bD" = (
@@ -773,7 +773,7 @@
 /turf/simulated/floor/plating,
 /area/castelnau/maintenance/seconddeck/starboard)
 "bH" = (
-/obj/structure/ladder/up,
+/obj/structure/ladder,
 /obj/effect/floor_decal/industrial/outline/yellow,
 /turf/simulated/floor/plating,
 /area/castelnau/maintenance/seconddeck/starboard)
@@ -1482,7 +1482,7 @@
 /turf/simulated/floor/plating,
 /area/castelnau/maintenance/seconddeck/aftstarboard)
 "db" = (
-/obj/structure/ladder/up,
+/obj/structure/ladder,
 /obj/effect/floor_decal/industrial/outline/yellow,
 /turf/simulated/floor/plating,
 /area/castelnau/maintenance/seconddeck/aftstarboard)
@@ -11705,7 +11705,7 @@
 /obj/structure/lattice,
 /obj/structure/catwalk,
 /obj/structure/railing/mapped,
-/obj/structure/ladder/up,
+/obj/structure/ladder,
 /turf/space,
 /area/space)
 "um" = (
@@ -11727,7 +11727,7 @@
 	d2 = 4;
 	icon_state = "1-4"
 	},
-/obj/structure/ladder/up,
+/obj/structure/ladder,
 /obj/effect/floor_decal/industrial/outline/yellow,
 /turf/simulated/floor/plating,
 /area/castelnau/maintenance/seconddeck/port)
@@ -11751,7 +11751,7 @@
 /turf/simulated/floor/plating,
 /area/castelnau/maintenance/seconddeck/port)
 "ur" = (
-/obj/structure/ladder/up,
+/obj/structure/ladder,
 /obj/machinery/atmospherics/pipe/simple/hidden/black,
 /obj/structure/cable/green{
 	d1 = 4;
@@ -11779,7 +11779,7 @@
 /turf/simulated/floor/plating,
 /area/castelnau/maintenance/seconddeck/port)
 "uu" = (
-/obj/structure/ladder/up,
+/obj/structure/ladder,
 /obj/structure/lattice,
 /obj/structure/catwalk,
 /obj/structure/railing/mapped,
@@ -12016,7 +12016,7 @@
 /turf/simulated/wall/r_wall/hull,
 /area/castelnau/thruster/d2port)
 "uU" = (
-/obj/structure/ladder/up,
+/obj/structure/ladder,
 /obj/structure/lattice,
 /obj/structure/catwalk,
 /obj/structure/railing/mapped{
@@ -12025,7 +12025,7 @@
 /turf/space,
 /area/space)
 "uV" = (
-/obj/structure/ladder/up,
+/obj/structure/ladder,
 /obj/effect/floor_decal/industrial/outline/yellow,
 /turf/simulated/floor/plating,
 /area/castelnau/thruster/d2port)
@@ -12087,7 +12087,7 @@
 /obj/machinery/atmospherics/pipe/simple/visible/fuel{
 	dir = 4
 	},
-/obj/structure/ladder/up,
+/obj/structure/ladder,
 /obj/structure/catwalk,
 /turf/simulated/floor/airless,
 /area/castelnau/thruster/d2port)
