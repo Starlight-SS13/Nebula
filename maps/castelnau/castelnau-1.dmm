@@ -10935,7 +10935,7 @@
 "tN" = (
 /obj/structure/table/standard,
 /obj/random/single{
-	icon = 'icons/obj/playing_cards.dmi';
+	icon = 'icons/obj/items/playing_cards.dmi';
 	icon_state = "deck";
 	name = "randomly spawned deck of cards";
 	spawn_object = /obj/item/deck
