@@ -1,6 +1,6 @@
 #if !defined(USING_MAP_DATUM)
 
-	#include "..\..\mods\dionaea\_dionaea.dme"
+	#include "../../mods/dionaea/_dionaea.dme"
 	#include "../../mods/corporate/_corporate.dme"
 	#include "../../mods/ascent/_ascent.dme"
 
@@ -46,7 +46,6 @@
 	#include "flooring/flooring_premade.dm"
 
 	#include "datums/hairs.dm"
-	#include "datums/reports.dm"
 	#include "datums/other_soft.dm"
 	#include "datums/round_end.dm"
 	#include "datums/programs/comm.dm"

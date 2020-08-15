@@ -10,9 +10,9 @@
 /obj/structure/bed/sofa/left
 	icon_state = "sofa_left"
 
-/obj/structure/bed/sofa/New(var/newloc)
-	base_icon = icon_state
-	..(newloc, /decl/material/solid/leather)
+/obj/structure/bed/sofa/Initialize(newloc)
+	. = ..(newloc, /decl/material/solid/leather)
+	base_icon = initial(icon_state)
 
 /obj/structure/bed/sofa/post_buckle_mob()
 	update_icon()

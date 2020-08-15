@@ -18,6 +18,6 @@
 	item_state = "cider"
 	center_of_mass = "x=16;y=10"
 
-/obj/item/chems/food/drinks/cans/cider/New()
-	..()
-	reagents.add_reagent(/decl/material/liquid/ethanol/, 30)
+/obj/item/chems/food/drinks/cans/cider/Initialize()
+	. = ..()
+	reagents.add_reagent(/decl/material/liquid/ethanol/cider, 30)
