@@ -15,6 +15,7 @@
 	#include "jobs/science.dm"
 	#include "jobs/security.dm"
 
+	#include "outfits/_pda.dm"
 	#include "outfits/cargo.dm"
 	#include "outfits/civilian.dm"
 	#include "outfits/command.dm"
