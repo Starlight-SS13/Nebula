@@ -1,0 +1,184 @@
+"ad" = (/obj/effect/landmark/start{name = "Sensor Technician"},/turf/simulated/floor/lino,/area/lowpop/hab_ring)
+"ai" = (/obj/machinery/door/airlock/external/bolted{id_tag = "eva_out"},/obj/effect/floor_decal/industrial/hatch/yellow,/obj/machinery/button/access/exterior{id_tag = "eva"; pixel_x = 20; pixel_y = 22},/turf/simulated/floor/tiled/techfloor/grid,/area/lowpop/hab_ring)
+"ao" = (/obj/machinery/door/airlock/external/bolted{id_tag = "eva_in"},/obj/machinery/atmospherics/pipe/simple/visible{dir = 4},/obj/effect/floor_decal/industrial/hatch/yellow,/obj/machinery/button/access/interior{id_tag = "eva"; pixel_x = -12; pixel_y = 20},/turf/simulated/floor/tiled/techfloor/grid,/area/lowpop/hab_ring)
+"aF" = (/obj/structure/lattice,/turf/space,/area/space)
+"by" = (/obj/effect/floor_decal/corner/blue/diagonal{dir = 4},/obj/structure/cable{d1 = 4; d2 = 8; icon_state = "4-8"; pixel_y = 0},/turf/simulated/floor/tiled/white,/area/lowpop/hab_ring/med)
+"ch" = (/obj/effect/floor_decal/corner/green/bordercee,/turf/simulated/floor/tiled,/area/lowpop/hab_ring)
+"eY" = (/obj/structure/cable{d1 = 4; d2 = 8; icon_state = "4-8"; pixel_y = 0},/obj/structure/cable{d1 = 1; d2 = 4; icon_state = "1-4"},/obj/machinery/hologram/holopad/longrange,/turf/simulated/floor/lino,/area/lowpop/hab_ring)
+"fE" = (/obj/machinery/optable,/obj/item/scanner/health,/turf/simulated/floor/tiled/white/monotile,/area/lowpop/hab_ring/med)
+"fU" = (/turf/simulated/wall/prepainted,/area/lowpop/hab_ring/med)
+"fW" = (/obj/structure/bed/chair/office/comfy/blue{dir = 4},/obj/structure/cable{d1 = 2; d2 = 4; icon_state = "2-4"},/obj/effect/landmark/start{name = "Sensor Technician"},/turf/simulated/floor/carpet/green,/area/lowpop/hab_ring/sensor)
+"gl" = (/obj/machinery/power/apc{dir = 8},/obj/structure/cable{d2 = 4; icon_state = "0-4"},/turf/simulated/floor/lino,/area/lowpop/hab_ring)
+"gF" = (/obj/structure/hygiene/shower{dir = 8},/obj/structure/curtain/shower,/turf/simulated/floor/tiled/freezer,/area/lowpop/hab_ring/med)
+"gG" = (/obj/structure/railing/mapped,/obj/machinery/atmospherics/pipe/simple/visible{dir = 6},/turf/simulated/floor/lino,/area/lowpop/hab_ring)
+"gV" = (/turf/simulated/floor/airless,/area/space)
+"hh" = (/obj/effect/floor_decal/industrial/hatch/yellow,/obj/machinery/door/airlock/hatch/autoname/command,/obj/structure/cable{d1 = 1; d2 = 2; icon_state = "1-2"},/turf/simulated/floor/tiled/techfloor/grid,/area/lowpop/hab_ring/sensor)
+"ht" = (/obj/structure/lattice,/obj/structure/catwalk,/obj/structure/railing/mapped,/obj/structure/railing/mapped{dir = 8; icon_state = "railing0-1"},/turf/space,/area/space)
+"hw" = (/turf/simulated/floor/lino,/area/lowpop/hab_ring)
+"hR" = (/turf/simulated/wall/prepainted,/area/lowpop/hab_ring)
+"if" = (/obj/structure/cable{icon_state = "2-8"},/turf/simulated/floor/lino,/area/lowpop/hab_ring)
+"ii" = (/obj/machinery/seed_storage/garden,/turf/simulated/floor/lino,/area/lowpop/hab_ring)
+"jH" = (/obj/machinery/light/small{dir = 4; icon_state = "bulb_map"},/obj/machinery/portable_atmospherics/canister/air,/turf/simulated/floor/plating,/area/lowpop/hab_ring)
+"jV" = (/obj/structure/table/steel,/obj/item/paper_bin,/turf/simulated/floor/tiled/dark/monotile,/area/lowpop/hab_ring)
+"kh" = (/obj/structure/lattice,/obj/structure/catwalk,/turf/space,/area/space)
+"kC" = (/obj/structure/table/marble,/obj/random/drinkbottle,/obj/random/drinkbottle,/turf/simulated/floor/lino,/area/lowpop/hab_ring)
+"kP" = (/obj/machinery/atmospherics/pipe/zpipe/down{dir = 1},/turf/simulated/open,/area/lowpop/hab_ring)
+"mj" = (/turf/space,/area/space)
+"ml" = (/obj/structure/hygiene/toilet{pixel_x = -5; pixel_y = 1},/turf/simulated/floor/tiled/freezer,/area/lowpop/hab_ring/med)
+"mn" = (/obj/structure/table/glass,/obj/item/towel/random,/obj/item/towel/random,/obj/item/towel/random,/obj/machinery/power/apc{dir = 1},/obj/structure/cable{d2 = 2; icon_state = "0-2"},/turf/simulated/floor/tiled/white/monotile,/area/lowpop/hab_ring/med)
+"mT" = (/obj/machinery/light{dir = 4},/obj/structure/table/reinforced,/turf/simulated/floor/tiled/freezer,/area/lowpop/hab_ring/med)
+"mU" = (/obj/structure/lattice,/obj/structure/catwalk,/obj/structure/railing/mapped,/turf/space,/area/space)
+"ne" = (/obj/structure/railing/mapped,/obj/item/chems/glass/beaker/large,/obj/item/chems/glass/beaker/large,/obj/item/chems/glass/beaker/large,/obj/item/chems/glass/beaker,/obj/structure/table/glass,/turf/simulated/floor/tiled/white/monotile,/area/lowpop/hab_ring/med)
+"nS" = (/turf/simulated/floor/carpet/green,/area/lowpop/hab_ring/sensor)
+"oj" = (/obj/effect/floor_decal/industrial/outline/yellow,/obj/structure/closet/crate,/turf/simulated/floor/reinforced/airless,/area/space)
+"oJ" = (/obj/structure/lattice,/obj/structure/catwalk,/obj/structure/railing/mapped{dir = 8; icon_state = "railing0-1"},/turf/space,/area/space)
+"pz" = (/obj/machinery/reagent_temperature,/obj/structure/table/reinforced,/turf/simulated/floor/tiled/freezer,/area/lowpop/hab_ring/med)
+"qL" = (/obj/effect/floor_decal/corner/blue/diagonal{dir = 4},/obj/machinery/light{dir = 4},/turf/simulated/floor/tiled/white,/area/lowpop/hab_ring/med)
+"rZ" = (/obj/structure/lattice,/obj/structure/railing/mapped{dir = 4},/obj/structure/ladder,/obj/structure/cable{d1 = 32; d2 = 1; icon_state = "32-1"},/obj/structure/cable{d1 = 1; d2 = 2; icon_state = "1-2"},/turf/simulated/open,/area/lowpop/hab_ring)
+"sF" = (/turf/space,/area/lowpop/hab_ring/sensor)
+"sY" = (/obj/structure/table/marble,/obj/machinery/light/small,/obj/random/drinkingglass,/obj/random/drinkingglass,/obj/random/drinkingglass,/obj/random/drinkingglass,/turf/simulated/floor/lino,/area/lowpop/hab_ring)
+"ve" = (/turf/simulated/wall/prepainted,/area/lowpop/hab_ring/sensor)
+"wx" = (/turf/simulated/floor/airless,/area/lowpop/hab_ring/sensor)
+"wA" = (/obj/structure/hygiene/sink{dir = 4; icon_state = "sink"; pixel_x = 11; pixel_y = 0},/obj/machinery/light/small{dir = 1; icon_state = "bulb_map"},/turf/simulated/floor/tiled/freezer,/area/lowpop/hab_ring/med)
+"wG" = (/obj/structure/table/glass,/obj/item/defibrillator/loaded,/obj/item/roller,/obj/machinery/light,/turf/simulated/floor/tiled/white/monotile,/area/lowpop/hab_ring/med)
+"xp" = (/obj/structure/lattice,/obj/structure/railing/mapped{dir = 1},/obj/structure/railing/mapped,/obj/structure/cable{d1 = 4; d2 = 8; icon_state = "4-8"; pixel_y = 0},/turf/simulated/open,/area/lowpop/hab_ring)
+"xq" = (/obj/structure/girder,/turf/simulated/floor/reinforced/airless,/area/space)
+"xK" = (/obj/structure/bed/padded,/obj/item/bedsheet,/obj/structure/curtain/open/privacy,/turf/simulated/floor/tiled/freezer,/area/lowpop/hab_ring/med)
+"ya" = (/obj/machinery/atmospherics/unary/vent_pump/high_volume/external_air{dir = 8; id_tag = "eva_pump"},/obj/structure/closet/walllocker{name = "spacesuit storage"; pixel_y = -32},/obj/item/clothing/suit/space,/obj/item/clothing/suit/space,/obj/item/clothing/suit/space,/obj/item/clothing/suit/space,/obj/item/clothing/head/helmet/space,/obj/item/clothing/head/helmet/space,/obj/item/clothing/head/helmet/space,/obj/item/clothing/head/helmet/space,/obj/structure/catwalk,/obj/item/tank/oxygen,/obj/item/tank/oxygen,/obj/item/tank/oxygen,/obj/item/tank/oxygen,/obj/machinery/light/small{dir = 4; icon_state = "bulb_map"},/turf/simulated/floor/plating,/area/lowpop/hab_ring)
+"yN" = (/obj/structure/cable{d1 = 4; d2 = 8; icon_state = "4-8"; pixel_y = 0},/obj/structure/railing/mapped,/turf/simulated/floor/tiled/techmaint,/area/lowpop/hab_ring)
+"zp" = (/obj/structure/lattice,/obj/structure/catwalk,/obj/structure/railing/mapped,/obj/structure/railing/mapped{dir = 4; icon_state = "railing0-1"},/turf/space,/area/space)
+"zx" = (/obj/structure/railing/mapped{dir = 4},/obj/structure/closet/crate/hydroponics/prespawned,/obj/effect/floor_decal/corner/green/mono,/turf/simulated/floor/tiled/monotile,/area/lowpop/hab_ring)
+"zz" = (/obj/structure/table/steel,/obj/item/deck/cards,/turf/simulated/floor/tiled/dark/monotile,/area/lowpop/hab_ring)
+"Ac" = (/obj/machinery/vending/hydronutrients/generic{dir = 8},/obj/structure/railing/mapped{dir = 4},/obj/effect/floor_decal/corner/green/mono,/turf/simulated/floor/tiled/monotile,/area/lowpop/hab_ring)
+"Ag" = (/obj/effect/floor_decal/corner/blue/diagonal{dir = 4},/obj/structure/cable{d1 = 1; d2 = 8; icon_state = "1-8"},/obj/effect/landmark/start{name = "Doctor"},/turf/simulated/floor/tiled/white,/area/lowpop/hab_ring/med)
+"AF" = (/obj/effect/floor_decal/corner/blue/diagonal{dir = 4},/turf/simulated/floor/tiled/white,/area/lowpop/hab_ring/med)
+"AQ" = (/obj/structure/reagent_dispensers/fueltank,/turf/simulated/floor/airless,/area/space)
+"AS" = (/obj/machinery/power/apc{dir = 2; name = "south bump"; pixel_y = -24},/obj/structure/cable{d2 = 8; icon_state = "0-8"},/turf/simulated/floor/carpet/green,/area/lowpop/hab_ring/sensor)
+"Bn" = (/obj/structure/table/steel,/turf/simulated/floor/tiled/dark/monotile,/area/lowpop/hab_ring)
+"Cp" = (/obj/structure/table/glass,/obj/item/storage/firstaid/surgery,/turf/simulated/floor/tiled/white/monotile,/area/lowpop/hab_ring/med)
+"Fl" = (/obj/structure/lattice,/obj/structure/catwalk,/obj/structure/railing/mapped{dir = 4; icon_state = "railing0-1"},/turf/space,/area/space)
+"FH" = (/obj/machinery/embedded_controller/radio/airlock/airlock_controller{id_tag = "eva"; pixel_y = 25; tag_airpump = "eva_pump"; tag_chamber_sensor = "eva_sensor"; tag_exterior_door = "eva_out"; tag_interior_door = "eva_in"},/obj/machinery/airlock_sensor{id_tag = "eva_sensor"; pixel_y = -24},/obj/machinery/atmospherics/pipe/simple/visible{dir = 4},/obj/structure/catwalk,/turf/simulated/floor/plating,/area/lowpop/hab_ring)
+"Gf" = (/obj/effect/floor_decal/corner/blue/diagonal{dir = 4},/obj/effect/landmark/start{name = "Doctor"},/turf/simulated/floor/tiled/white,/area/lowpop/hab_ring/med)
+"Gk" = (/obj/item/scanner/reagent,/obj/structure/table/glass,/turf/simulated/floor/tiled/white/monotile,/area/lowpop/hab_ring/med)
+"GG" = (/obj/structure/table/steel,/obj/item/pen,/turf/simulated/floor/tiled/dark/monotile,/area/lowpop/hab_ring)
+"GN" = (/obj/effect/landmark/map_data{height = 3},/turf/space,/area/space)
+"HB" = (/obj/machinery/reagent_temperature/cooler,/obj/structure/table/reinforced,/turf/simulated/floor/tiled/freezer,/area/lowpop/hab_ring/med)
+"HR" = (/obj/effect/landmark/start{name = "Doctor"},/obj/structure/bed/chair/office/light{dir = 8},/turf/simulated/floor/tiled/freezer,/area/lowpop/hab_ring/med)
+"Id" = (/obj/structure/closet/crate,/turf/simulated/floor/airless,/area/space)
+"IM" = (/obj/item/stool/padded,/obj/structure/cable{d1 = 1; d2 = 2; icon_state = "1-2"},/turf/simulated/floor/lino,/area/lowpop/hab_ring)
+"Ju" = (/obj/effect/floor_decal/corner/blue/diagonal{dir = 4},/obj/machinery/portable_atmospherics/powered/scrubber,/turf/simulated/floor/tiled/white,/area/lowpop/hab_ring/med)
+"Kd" = (/obj/structure/reagent_dispensers/watertank,/obj/structure/railing/mapped{dir = 4},/obj/effect/floor_decal/corner/green/mono,/obj/item/chems/glass/bucket,/turf/simulated/floor/tiled/monotile,/area/lowpop/hab_ring)
+"LL" = (/obj/machinery/portable_atmospherics/canister/oxygen,/turf/simulated/floor/plating,/area/lowpop/hab_ring)
+"Mv" = (/obj/machinery/light/navigation/delay5,/turf/simulated/floor/reinforced/airless,/area/lowpop/hab_ring/med)
+"ML" = (/obj/machinery/light/small{dir = 1; icon_state = "bulb_map"},/obj/item/stool/padded,/turf/simulated/floor/lino,/area/lowpop/hab_ring)
+"Nz" = (/obj/effect/wallframe_spawn/reinforced,/turf/simulated/floor/plating,/area/lowpop/hab_ring)
+"NA" = (/obj/effect/floor_decal/industrial/hatch/yellow,/obj/machinery/door/airlock/hatch/autoname/general,/turf/simulated/floor/tiled/techfloor/grid,/area/lowpop/hab_ring/med)
+"NF" = (/obj/structure/hygiene/sink{pixel_y = 23},/turf/simulated/floor/tiled/freezer,/area/lowpop/hab_ring/med)
+"NZ" = (/obj/structure/table/steel_reinforced,/obj/item/folder/blue,/turf/simulated/floor/carpet/green,/area/lowpop/hab_ring/sensor)
+"OP" = (/obj/structure/extinguisher_cabinet{pixel_y = -30},/obj/machinery/portable_atmospherics/canister/air,/turf/simulated/floor/plating,/area/lowpop/hab_ring)
+"Pg" = (/turf/simulated/wall/iron,/area/space)
+"PR" = (/obj/structure/railing/mapped,/turf/simulated/floor/reinforced/airless,/area/space)
+"PW" = (/obj/item/stool/padded,/turf/simulated/floor/lino,/area/lowpop/hab_ring)
+"Qt" = (/obj/structure/lattice,/obj/structure/railing/mapped{dir = 4},/obj/structure/ladder,/turf/simulated/open,/area/lowpop/hab_ring/med)
+"QM" = (/obj/effect/floor_decal/corner/green/border{dir = 4},/obj/effect/floor_decal/corner/green/border{dir = 8},/turf/simulated/floor/tiled,/area/lowpop/hab_ring)
+"Rf" = (/obj/machinery/light/navigation/delay5,/turf/simulated/floor/reinforced/airless,/area/lowpop/hab_ring)
+"Sq" = (/obj/structure/dispenser/oxygen,/turf/simulated/floor/plating,/area/lowpop/hab_ring)
+"SE" = (/obj/structure/table/glass,/obj/item/storage/firstaid/regular,/obj/structure/hygiene/sink{pixel_y = 23},/obj/random/medical/lite,/obj/random/medical/lite,/turf/simulated/floor/tiled/white/monotile,/area/lowpop/hab_ring/med)
+"SX" = (/obj/structure/lattice,/obj/structure/railing/mapped,/obj/structure/cable{d1 = 1; d2 = 4; icon_state = "1-4"},/turf/simulated/open,/area/lowpop/hab_ring)
+"Ti" = (/obj/effect/landmark{name = "Observer-Start"},/obj/structure/cable{d1 = 4; d2 = 8; icon_state = "4-8"; pixel_y = 0},/turf/simulated/floor/lino,/area/lowpop/hab_ring)
+"Tl" = (/obj/structure/table/steel_reinforced,/obj/item/paper_bin,/obj/item/pen,/obj/machinery/light/small{dir = 1; icon_state = "bulb_map"},/turf/simulated/floor/carpet/green,/area/lowpop/hab_ring/sensor)
+"UH" = (/obj/effect/floor_decal/industrial/outline/yellow,/turf/simulated/floor/reinforced/airless,/area/space)
+"US" = (/obj/machinery/portable_atmospherics/hydroponics,/obj/effect/floor_decal/corner/green/mono,/obj/machinery/light/small{dir = 8; icon_state = "bulb_map"},/turf/simulated/floor/tiled/monotile,/area/lowpop/hab_ring)
+"VY" = (/obj/machinery/shipsensors{critical_heat = 300; heat_reduction = 3; name = "long-range sensors suite"},/obj/machinery/light/small{dir = 1; icon_state = "bulb_map"},/turf/simulated/floor/airless,/area/lowpop/hab_ring/sensor)
+"Wg" = (/obj/effect/floor_decal/industrial/hatch/yellow,/obj/machinery/door/airlock/hatch/autoname/science,/obj/structure/cable{d1 = 4; d2 = 8; icon_state = "4-8"; pixel_y = 0},/turf/simulated/floor/tiled/techfloor/grid,/area/lowpop/hab_ring/med)
+"WJ" = (/turf/simulated/floor/tiled/freezer,/area/lowpop/hab_ring/med)
+"WW" = (/obj/machinery/computer/ship/sensors,/turf/simulated/floor/carpet/green,/area/lowpop/hab_ring/sensor)
+"Xv" = (/obj/structure/lattice,/obj/structure/ladder,/turf/simulated/open,/area/lowpop/hab_ring)
+"XN" = (/turf/simulated/floor/reinforced/airless,/area/space)
+"YX" = (/obj/machinery/portable_atmospherics/hydroponics,/obj/effect/floor_decal/corner/green/mono,/turf/simulated/floor/tiled/monotile,/area/lowpop/hab_ring)
+"Zh" = (/obj/machinery/chemical_dispenser/full,/turf/simulated/floor/tiled/white/monotile,/area/lowpop/hab_ring/med)
+"Zy" = (/obj/effect/floor_decal/industrial/hatch/yellow,/obj/machinery/door/airlock/hatch/autoname/science,/obj/structure/cable{d1 = 4; d2 = 8; icon_state = "4-8"; pixel_y = 0},/turf/simulated/floor/tiled/techfloor/grid,/area/lowpop/hab_ring)
+"ZV" = (/obj/effect/floor_decal/industrial/outline/yellow,/obj/structure/ore_box,/turf/simulated/floor/reinforced/airless,/area/space)
+
+(1,1,1) = {"
+mjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmj
+mjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmj
+mjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmj
+mjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmj
+mjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmj
+mjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmj
+mjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmj
+mjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmj
+mjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmj
+mjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmj
+mjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmj
+mjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmj
+mjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmj
+mjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmj
+mjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmj
+mjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmj
+mjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmj
+mjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmj
+mjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmj
+mjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmj
+mjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmj
+mjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmj
+mjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmj
+mjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmj
+mjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmj
+mjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmj
+mjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmj
+mjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmj
+mjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmj
+mjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmj
+mjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmj
+mjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmj
+mjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmj
+mjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmj
+mjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmj
+mjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjaFmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmj
+mjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjPgPgPgmjmjmjmjmjmjaFaFmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmj
+mjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjXNvevevevevesFwxVYPgmjmjmjmjmjmjaFaFmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmj
+mjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjXNXNveWWTlNZveNzNzgVPgmjmjmjmjaFaFaFaFmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmj
+mjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjXNXNxqvefWASnSveiiNzmjaFmjmjmjaFaFaFaFmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmj
+mjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjXNhRhRhRhhveveveadNzmjfUfUfUfUfUfUfUfUmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmj
+mjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjRfNzkChwIMGGjVMLhwNzmjfUmlwAfUZhNFpzfUmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmj
+mjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjNzsYhwIMzzBnPWhRhRaifUWJgFfUGkHRmTfUmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmj
+mjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjhRhRgleYTiifgGaoFHyafUNAfUfUneWJHBfUmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmj
+mjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjoJhRUSchKdrZkPhRhRhRfUQtmnSEJuAFfUfUXNmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmj
+mjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjoJhRYXQMAcSXxpZyyNyNWgbyAgAFGfqLfUXNXNmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmj
+mjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjoJhRUSXvzxOPjHhRLLSqfUxKwGxKCpfEfUXNFlmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmj
+mjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjoJhRhRhRhRhRhRhRhRhRfUfUfUfUfUfUfUMvFlmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmj
+mjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjhtmUkhPRPRPRPRXNIdAQUHojojZVUHojUHXNFlmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmj
+mjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjaFaFaFmjmjmjhtmUmUmUmUmUmUmUmUmUmUzpmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmj
+mjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjaFmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmj
+mjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjaFmjmjGNmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmj
+mjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjaFaFmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmj
+mjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjaFmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmj
+mjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmj
+mjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmj
+mjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmj
+mjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmj
+mjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmj
+mjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmj
+mjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmj
+mjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmj
+mjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmj
+mjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmj
+mjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmj
+mjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmj
+mjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmj
+mjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmj
+mjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmj
+mjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmj
+mjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmj
+mjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmj
+mjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmj
+mjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmj
+mjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmj
+mjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmj
+mjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmj
+mjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmj
+mjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmj
+mjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmjmj
+"}
