@@ -12,7 +12,7 @@
 	total_positions = 7
 	spawn_positions = 7
 
-	outfit_type = /decl/hierarchy/outfit/lowpop
+	outfit_type = /decl/hierarchy/outfit/job/lowpop
 	selection_color = "#704a36"
 	department_refs = list(DEPT_ENGINEERING)
 	hud_icon = "hudengineer"
@@ -43,7 +43,7 @@
 
 	skill_points = 36
 
-	alt_titles = list("Engineer"=/decl/hierarchy/outfit/lowpop/engi,"Doctor"=/decl/hierarchy/outfit/lowpop/doc,"Sensor Technician"=/decl/hierarchy/outfit/lowpop/tech)
+	alt_titles = list("Engineer"=/decl/hierarchy/outfit/job/lowpop/engi,"Doctor"=/decl/hierarchy/outfit/job/lowpop/doc,"Sensor Technician"=/decl/hierarchy/outfit/job/lowpop/tech)
 
 /datum/job/assistant/head
 	title = "Outpost Head"
@@ -56,27 +56,28 @@
 
 //Outfits
 
-/decl/hierarchy/outfit/lowpop
+/decl/hierarchy/outfit/job/lowpop
 	name = "Standard Omega Uniform"
 	uniform = /obj/item/clothing/under/color/white
 	shoes = /obj/item/clothing/shoes/color/white
 	id_type = /obj/item/card/id/civilian
 	id_slot = slot_wear_id_str
-	flags = OUTFIT_HAS_BACKPACK
+	l_ear = null
+	pda_type = null
 
-/decl/hierarchy/outfit/lowpop/engi
+/decl/hierarchy/outfit/job/lowpop/engi
 	name = "Engineering Omega Uniform"
 	uniform = /obj/item/clothing/under/hazard
 	shoes = /obj/item/clothing/shoes/workboots
 	belt = /obj/item/storage/belt/utility/full
 
-/decl/hierarchy/outfit/lowpop/doc
+/decl/hierarchy/outfit/job/lowpop/doc
 	name = "Medical Omega Uniform"
 	uniform = /obj/item/clothing/under/sterile
 	shoes = /obj/item/clothing/shoes/color/white
 	l_pocket = /obj/item/scanner/health
 
-/decl/hierarchy/outfit/lowpop/tech
+/decl/hierarchy/outfit/job/lowpop/tech
 	name = "Sensors Omega Uniform"
 	uniform = /obj/item/clothing/under/color/black
 	shoes = /obj/item/clothing/shoes/color/black
