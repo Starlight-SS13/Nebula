@@ -15,6 +15,7 @@
 	outfit_type = /decl/hierarchy/outfit/lowpop
 	selection_color = "#704a36"
 	department_refs = list(DEPT_ENGINEERING)
+	hud_icon = "hudengineer"
 
 	max_skill = list(
 		SKILL_LITERACY = SKILL_MAX,
@@ -50,11 +51,13 @@
 	total_positions = 1
 	spawn_positions = 1
 	selection_color = "#4824a3"
+	hud_icon = "hudheadofpersonnel"
 	alt_titles = list()
 
 //Outfits
 
 /decl/hierarchy/outfit/lowpop
+	name = "Standard Omega Uniform"
 	uniform = /obj/item/clothing/under/color/white
 	shoes = /obj/item/clothing/shoes/color/white
 	id_type = /obj/item/card/id/civilian
@@ -62,15 +65,18 @@
 	flags = OUTFIT_HAS_BACKPACK
 
 /decl/hierarchy/outfit/lowpop/engi
+	name = "Engineering Omega Uniform"
 	uniform = /obj/item/clothing/under/hazard
 	shoes = /obj/item/clothing/shoes/workboots
 	belt = /obj/item/storage/belt/utility/full
 
 /decl/hierarchy/outfit/lowpop/doc
+	name = "Medical Omega Uniform"
 	uniform = /obj/item/clothing/under/sterile
 	shoes = /obj/item/clothing/shoes/color/white
 	l_pocket = /obj/item/scanner/health
 
 /decl/hierarchy/outfit/lowpop/tech
+	name = "Sensors Omega Uniform"
 	uniform = /obj/item/clothing/under/color/black
 	shoes = /obj/item/clothing/shoes/color/black
