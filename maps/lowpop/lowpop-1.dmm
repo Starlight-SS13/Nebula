@@ -133,6 +133,9 @@
 	},
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/lowpop/hall)
+"jp" = (
+/turf/simulated/wall/prepainted,
+/area/space)
 "jP" = (
 /obj/machinery/material_processing/smeltery{
 	input_turf = 8;
@@ -274,9 +277,6 @@
 	},
 /turf/simulated/floor/tiled/techmaint,
 /area/lowpop/hall)
-"up" = (
-/turf/simulated/wall/prepainted,
-/area/space)
 "uq" = (
 /obj/item/pickaxe/drill,
 /obj/structure/catwalk,
@@ -324,6 +324,16 @@
 /obj/structure/table/steel_reinforced,
 /obj/machinery/recharger,
 /turf/simulated/floor/plating,
+/area/lowpop/hall/kitchen)
+"zu" = (
+/turf/simulated/floor/airless,
+/area/space)
+"zM" = (
+/obj/machinery/portable_atmospherics/powered/scrubber,
+/obj/structure/railing/mapped{
+	dir = 8
+	},
+/turf/simulated/floor/tiled/techfloor/grid,
 /area/lowpop/hall/kitchen)
 "zW" = (
 /obj/machinery/light/small{
@@ -427,19 +437,9 @@
 	},
 /turf/simulated/floor/tiled/techmaint,
 /area/lowpop/hall)
-"Kt" = (
-/obj/machinery/portable_atmospherics/powered/scrubber,
-/obj/structure/railing/mapped{
-	dir = 8
-	},
-/turf/simulated/floor/tiled/techfloor/grid,
-/area/lowpop/hall/kitchen)
 "Kv" = (
 /turf/simulated/floor/tiled/techmaint,
 /area/lowpop/hall/kitchen)
-"LK" = (
-/turf/simulated/floor/airless,
-/area/space)
 "Mp" = (
 /obj/structure/cable{
 	d1 = 1;
@@ -4412,8 +4412,8 @@ HA
 HA
 HA
 HA
-up
-LK
+jp
+zu
 Uz
 iu
 HL
@@ -4494,8 +4494,8 @@ HA
 HA
 HA
 HA
-up
-LK
+jp
+zu
 Uz
 Gg
 Kv
@@ -4825,7 +4825,7 @@ HA
 HA
 HA
 Uz
-Kt
+zM
 qT
 JT
 Uz
