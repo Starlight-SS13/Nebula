@@ -401,7 +401,6 @@
 /area/lowpop/hall/kitchen)
 "Iz" = (
 /obj/effect/floor_decal/industrial/outline/yellow,
-/obj/machinery/seed_storage/garden,
 /turf/simulated/floor/tiled/techmaint,
 /area/lowpop/hall/smelter)
 "JB" = (
