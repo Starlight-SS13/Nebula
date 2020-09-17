@@ -1,10 +1,4 @@
 //MAP CONVERTED BY dmm2tgm.py THIS HEADER COMMENT PREVENTS RECONVERSION, DO NOT REMOVE
-"ad" = (
-/obj/effect/landmark/start{
-	name = "Sensor Technician"
-	},
-/turf/simulated/floor/lino,
-/area/lowpop/hab_ring)
 "ai" = (
 /obj/machinery/door/airlock/external/bolted{
 	id_tag = "eva_out"
@@ -130,10 +124,6 @@
 /obj/structure/cable{
 	icon_state = "2-8"
 	},
-/turf/simulated/floor/lino,
-/area/lowpop/hab_ring)
-"ii" = (
-/obj/machinery/seed_storage/garden,
 /turf/simulated/floor/lino,
 /area/lowpop/hab_ring)
 "jH" = (
@@ -325,7 +315,7 @@
 	},
 /obj/structure/closet/walllocker{
 	name = "spacesuit storage";
-	pixel_y = -32
+	pixel_y = -30
 	},
 /obj/item/clothing/suit/space,
 /obj/item/clothing/suit/space,
@@ -537,6 +527,9 @@
 	name = "window shutters";
 	pixel_y = 24
 	},
+/obj/effect/landmark/start{
+	name = "Sensor Technician"
+	},
 /turf/simulated/floor/lino,
 /area/lowpop/hab_ring)
 "Ju" = (
@@ -601,6 +594,9 @@
 /obj/structure/hygiene/sink{
 	pixel_y = 23
 	},
+/obj/structure/iv_drip,
+/obj/item/chems/ivbag/blood/OMinus,
+/obj/item/chems/ivbag/blood/OMinus,
 /turf/simulated/floor/tiled/freezer,
 /area/lowpop/hab_ring/med)
 "NZ" = (
@@ -4268,8 +4264,8 @@ mj
 mj
 wx
 Nz
-ii
-ad
+Xv
+hw
 hw
 hR
 ao
@@ -4432,7 +4428,7 @@ mj
 Pg
 VY
 gV
-mj
+XN
 XN
 WB
 ai
@@ -4514,7 +4510,7 @@ mj
 Pg
 Pg
 Pg
-aF
+XN
 fU
 fU
 fU
@@ -4595,8 +4591,8 @@ mj
 mj
 mj
 mj
-mj
-mj
+XN
+XN
 fU
 ml
 WJ
@@ -4677,8 +4673,8 @@ mj
 mj
 mj
 mj
-mj
-mj
+XN
+XN
 fU
 wA
 gF
@@ -4760,7 +4756,7 @@ mj
 mj
 mj
 mj
-mj
+XN
 fU
 fU
 fU
@@ -5084,7 +5080,7 @@ mj
 mj
 mj
 mj
-aF
+mj
 aF
 aF
 aF
@@ -5166,7 +5162,7 @@ mj
 mj
 mj
 mj
-mj
+aF
 aF
 aF
 aF

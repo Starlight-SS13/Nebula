@@ -31,6 +31,7 @@
 	icon_state = "0-4"
 	},
 /obj/effect/floor_decal/industrial/outline/yellow,
+/obj/structure/closet/crate,
 /turf/simulated/floor/tiled/techmaint,
 /area/lowpop/hall/smelter)
 "cb" = (
@@ -273,6 +274,9 @@
 	},
 /turf/simulated/floor/tiled/techmaint,
 /area/lowpop/hall)
+"up" = (
+/turf/simulated/wall/prepainted,
+/area/space)
 "uq" = (
 /obj/item/pickaxe/drill,
 /obj/structure/catwalk,
@@ -290,10 +294,6 @@
 /turf/simulated/floor/plating,
 /area/lowpop/hall/smelter)
 "wm" = (
-/obj/structure/railing/mapped{
-	dir = 8;
-	icon_state = "railing0-1"
-	},
 /obj/structure/table/marble,
 /obj/machinery/reagentgrinder/juicer,
 /turf/simulated/floor/tiled/freezer,
@@ -391,11 +391,12 @@
 /area/lowpop/hall/kitchen)
 "Iz" = (
 /obj/effect/floor_decal/industrial/outline/yellow,
+/obj/machinery/seed_storage/garden,
 /turf/simulated/floor/tiled/techmaint,
 /area/lowpop/hall/smelter)
 "JB" = (
 /obj/effect/floor_decal/industrial/outline/yellow,
-/obj/structure/closet/crate,
+/obj/structure/ladder,
 /turf/simulated/floor/tiled/techmaint,
 /area/lowpop/hall/smelter)
 "JT" = (
@@ -426,9 +427,19 @@
 	},
 /turf/simulated/floor/tiled/techmaint,
 /area/lowpop/hall)
+"Kt" = (
+/obj/machinery/portable_atmospherics/powered/scrubber,
+/obj/structure/railing/mapped{
+	dir = 8
+	},
+/turf/simulated/floor/tiled/techfloor/grid,
+/area/lowpop/hall/kitchen)
 "Kv" = (
 /turf/simulated/floor/tiled/techmaint,
 /area/lowpop/hall/kitchen)
+"LK" = (
+/turf/simulated/floor/airless,
+/area/space)
 "Mp" = (
 /obj/structure/cable{
 	d1 = 1;
@@ -555,15 +566,7 @@
 /turf/simulated/floor/wood/walnut,
 /area/lowpop/hall/kitchen)
 "Wo" = (
-/obj/structure/railing/mapped{
-	dir = 8;
-	icon_state = "railing0-1"
-	},
 /obj/structure/table/marble,
-/obj/structure/railing/mapped{
-	dir = 1;
-	icon_state = "railing0-1"
-	},
 /obj/item/chems/food/condiment/small/peppermill,
 /obj/item/chems/food/condiment/small/saltshaker,
 /turf/simulated/floor/tiled/freezer,
@@ -4409,8 +4412,8 @@ HA
 HA
 HA
 HA
-HA
-HA
+up
+LK
 Uz
 iu
 HL
@@ -4491,8 +4494,8 @@ HA
 HA
 HA
 HA
-HA
-HA
+up
+LK
 Uz
 Gg
 Kv
@@ -4822,7 +4825,7 @@ HA
 HA
 HA
 Uz
-JT
+Kt
 qT
 JT
 Uz
