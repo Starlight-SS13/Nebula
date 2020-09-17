@@ -140,10 +140,15 @@
 /turf/simulated/floor/tiled/dark/monotile,
 /area/lowpop/hab_ring)
 "kh" = (
-/obj/structure/lattice,
-/obj/structure/catwalk,
-/turf/space,
-/area/space)
+/obj/effect/floor_decal/corner/green/border{
+	dir = 4
+	},
+/obj/effect/floor_decal/corner/green/border{
+	dir = 8
+	},
+/obj/structure/closet/crate/hydroponics/prespawned,
+/turf/simulated/floor/tiled,
+/area/lowpop/hab_ring)
 "kC" = (
 /obj/structure/table/marble,
 /obj/random/drinkbottle,
@@ -362,6 +367,9 @@
 	},
 /obj/structure/closet/crate/hydroponics/prespawned,
 /obj/effect/floor_decal/corner/green/mono,
+/obj/machinery/seed_storage/garden{
+	dir = 8
+	},
 /turf/simulated/floor/tiled/monotile,
 /area/lowpop/hab_ring)
 "zz" = (
@@ -615,8 +623,9 @@
 /turf/simulated/wall/iron,
 /area/space)
 "PR" = (
-/obj/structure/railing/mapped,
-/turf/simulated/floor/reinforced/airless,
+/obj/structure/lattice,
+/obj/structure/catwalk,
+/turf/space,
 /area/space)
 "PW" = (
 /obj/item/stool/padded,
@@ -627,6 +636,15 @@
 	},
 /turf/simulated/floor/lino,
 /area/lowpop/hab_ring)
+"Qa" = (
+/obj/structure/lattice,
+/obj/structure/catwalk,
+/obj/structure/railing/mapped{
+	dir = 4
+	},
+/obj/structure/railing/mapped,
+/turf/space,
+/area/space)
 "Qt" = (
 /obj/structure/lattice,
 /obj/structure/railing/mapped{
@@ -3700,8 +3718,8 @@ oJ
 oJ
 oJ
 ht
-mj
-mj
+aF
+aF
 mj
 mj
 mj
@@ -3781,9 +3799,9 @@ hR
 hR
 hR
 hR
-mU
+XN
+XN
 aF
-mj
 mj
 mj
 mj
@@ -3863,11 +3881,11 @@ US
 YX
 US
 hR
-kh
-aF
-aF
-aF
-aF
+hR
+XN
+mU
+mj
+mj
 mj
 mj
 mj
@@ -3944,13 +3962,13 @@ eY
 QM
 QM
 Xv
+kh
 hR
-PR
-aF
+XN
+mU
 mj
 mj
-aF
-aF
+mj
 mj
 mj
 mj
@@ -4027,9 +4045,9 @@ Kd
 Ac
 zx
 hR
-PR
-mj
-mj
+hR
+XN
+mU
 mj
 mj
 mj
@@ -4109,9 +4127,9 @@ rZ
 SX
 OP
 hR
-PR
-mj
-mj
+gV
+XN
+mU
 GN
 mj
 mj
@@ -4191,9 +4209,9 @@ kP
 xp
 jH
 hR
-PR
-mj
-mj
+gV
+XN
+mU
 mj
 mj
 mj
@@ -4274,8 +4292,8 @@ Zy
 hR
 hR
 XN
-ht
-mj
+PR
+Qa
 mj
 mj
 mj
