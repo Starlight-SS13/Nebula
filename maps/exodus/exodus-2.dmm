@@ -30833,7 +30833,9 @@
 /turf/simulated/wall/prepainted,
 /area/hallway/primary/starboard)
 "bhN" = (
-/obj/machinery/camera/network/civilian_west,
+/obj/machinery/camera/network/civilian_west{
+	c_tag = "Warehouse"
+	},
 /obj/effect/floor_decal/industrial/outline/yellow,
 /turf/simulated/floor/tiled,
 /area/quartermaster/storage)
@@ -40348,9 +40350,6 @@
 	dir = 1;
 	icon_state = "rwindow"
 	},
-/obj/structure/disposalpipe/segment{
-	dir = 4
-	},
 /obj/item/ore/coal{
 	pixel_x = 3;
 	pixel_y = 3
@@ -47111,7 +47110,6 @@
 	input_turf = 8;
 	output_turf = 4
 	},
-/obj/machinery/camera/network/civilian_west,
 /turf/simulated/floor/plating,
 /area/quartermaster/miningdock)
 "bLY" = (
@@ -47205,9 +47203,6 @@
 /obj/machinery/material_processing/stacker{
 	input_turf = 1;
 	output_turf = 8
-	},
-/obj/structure/disposalpipe/segment{
-	dir = 4
 	},
 /turf/simulated/floor/plating,
 /area/quartermaster/miningdock)
@@ -68984,15 +68979,6 @@
 	},
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/floor_decal/industrial/outline/yellow,
-/obj/structure/disposalpipe/segment{
-	dir = 4
-	},
-/turf/simulated/floor/tiled,
-/area/quartermaster/miningdock)
-"gfJ" = (
-/obj/structure/disposalpipe/segment{
-	dir = 4
-	},
 /turf/simulated/floor/tiled,
 /area/quartermaster/miningdock)
 "gny" = (
@@ -69154,10 +69140,6 @@
 /turf/simulated/floor/tiled,
 /area/quartermaster/miningdock)
 "jsn" = (
-/obj/machinery/camera/network/civilian_west{
-	c_tag = "Cargo Mining Dock";
-	dir = 4
-	},
 /obj/item/radio/intercom{
 	dir = 4;
 	pixel_x = -22
@@ -91206,7 +91188,7 @@ bdP
 bpd
 bLX
 cMF
-gfJ
+bKK
 bKK
 bPc
 bDH
