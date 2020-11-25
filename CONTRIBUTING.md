@@ -4,7 +4,7 @@ This is a quick and dirty set of agreed-upon standards for contributions to the 
 
 ---
 
-### Style guide
+### Style ass guide
 
 - No relative pathing, all paths must be absolute.
 - No use of `:`, cast the reference to the appropriate type and use `.`.
