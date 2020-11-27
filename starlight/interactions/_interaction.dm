@@ -90,11 +90,12 @@ big thanks to honkerton (and test unit) whose made panel for ATMTA project, sinc
 //AVAILIBILITY CHECK//
 
 /datum/interaction/proc/check_for(var/mob/living/carbon/human/H,flags)
+	var/list/face_covering = H.get_covering_equipped_items(SLOT_FACE)
 	if((flags    & INT_BREA) &&    H.gender != FEMALE) return 0
 	if((flags    & INT_PEN ) && ( !H.underfluffies_access() || H.gender != MALE ) ) return 0
 	if((flags    & INT_VAG ) && ( !H.underfluffies_access() || H.gender != FEMALE ) ) return 0
 	if((flags    & INT_ASS ) &&   !H.underfluffies_access() ) return 0
-	if((flags    & INT_MOU ) && (  H.get_covering_equipped_items(SLOT_FACE).len || !(H.species.appearance_flags & HAS_LIPS) )  ) return 0
+	if((flags    & INT_MOU ) && (  face_covering.len || !(H.species.appearance_flags & HAS_LIPS) )  ) return 0
 	if((flags    & INT_HAN ) &&   !H.hands_check()) return 0
 	if((flags    & INT_CONS) &&    H.stat) return 0
 	if((flags    & INT_CUFF) &&    H.restrained()) return 0
