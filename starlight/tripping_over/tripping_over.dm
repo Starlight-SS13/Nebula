@@ -31,6 +31,12 @@
 		return FALSE
 	. = ..()
 
+/obj/machinery/atmospherics/unary/vent_pump
+	trip_chance = 0
+
+/obj/machinery/atmospherics/unary/vent_scrubber
+	trip_chance = 0
+
 // Cables
 /obj/structure/cable
 	trip_chance = 5
