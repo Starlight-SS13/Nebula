@@ -23,3 +23,6 @@
 		/datum/computer_file/program/comm/orbital,
 		/datum/computer_file/program/wordprocessor
 	)
+
+/datum/extension/network_device/broadcaster/relay
+	long_range  = 1
