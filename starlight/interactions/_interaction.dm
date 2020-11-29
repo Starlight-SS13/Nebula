@@ -45,7 +45,7 @@ big thanks to honkerton (and test unit) whose made panel for ATMTA project, sinc
 	var/obj/item/organ/external/lhand = organs_by_name[BP_L_HAND]
 	return ( rhand && rhand.is_usable() ) && ( lhand && lhand.is_usable() )
 
-//Useful, makes text bold
+//Useful, makes text bold.
 #define B(X) "<b>[X]</b>"
 
 /mob/living/carbon/human/proc/get_age_pitch()
