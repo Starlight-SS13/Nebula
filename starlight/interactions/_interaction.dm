@@ -28,7 +28,7 @@ big thanks to honkerton (and test unit) whose made panel for ATMTA project, sinc
 	usr.visible_message(SPAN_NOTICE("[usr.name] [zipper ? "opens" : "closes"] zipper on their [name]."))
 
 /obj/item/underwear/Initialize()
-	..()
+	. = ..()
 	required_free_body_parts = SLOT_OVER_BODY //so you can remove it without undressing uniform
 
 //HELPERS//
