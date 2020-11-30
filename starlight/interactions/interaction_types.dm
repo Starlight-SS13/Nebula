@@ -270,4 +270,4 @@
 	animate_with(P,H)
 	H.muzzled_until = world.time + 50
 
-#undef B(X)
+#undef B
