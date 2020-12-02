@@ -22,7 +22,6 @@
 
 /datum/gear/tactical/armor
 	display_name = "armor suit selection"
-	path = /obj/item/clothing/suit/armor/pcarrier/filled
 	slot = slot_wear_suit_str
 
 /obj/item/clothing/suit/armor/pcarrier/filled
@@ -43,7 +42,6 @@
 
 /datum/gear/tactical/helmet
 	display_name = "helmet selection"
-	path = /obj/item/clothing/head/helmet
 	slot = slot_head_str
 
 /datum/gear/tactical/helmet/New()
@@ -58,7 +56,6 @@
 
 /datum/gear/tactical/mask
 	display_name = "gas mask selection"
-	path = /obj/item/clothing/mask/gas
 	slot = slot_wear_mask_str
 
 /datum/gear/tactical/mask/New()
