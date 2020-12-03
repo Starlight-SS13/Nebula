@@ -1,7 +1,7 @@
 /datum/sprite_accessory/hair/resomi
 	name = "Resomi Plumage"
 	icon_state = "resomi_default"
-	icon = 'icons/hair.dmi'
+	icon = 'icons/res_hair.dmi'
 	species_allowed = list(SPECIES_RESOMI)
 
 /datum/sprite_accessory/hair/resomi/ears
@@ -75,7 +75,7 @@
 // MARKINGS
 
 /datum/sprite_accessory/marking/resomi
-	icon = 'icons/markings.dmi'
+	icon = 'icons/res_markings.dmi'
 	species_allowed = list(SPECIES_RESOMI)
 	do_colouration = 1
 
