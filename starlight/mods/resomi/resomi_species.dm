@@ -23,7 +23,6 @@
 	husk_icon         = 'icons/husk.dmi'
 	tail_icon = 'icons/tail.dmi'
 	tail      = "tail"
-	tail_hair = "feathers"
 
 	base_color        = "#001144"
 	flesh_color       = "#5f7bb0"
