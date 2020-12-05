@@ -1,3 +1,31 @@
+/area/jelly
+	name = "Jellyfish Area Placeholder"
+
+/area/jelly/car
+
+//med
+
+/area/jelly/medical
+	name = "Medical Bay"
+	area_flags = AREA_FLAG_RAD_SHIELDED
+
+/area/jelly/medical/chemistry
+	name = "Chemistry"
+
+//engineering
+
+/area/jelly/engine
+	name = "Reactor Bay"
+
+/area/jelly/engine/ion_port
+	name = "Port Ion Engines"
+
+/area/jelly/engine/ion_star
+	name = "Starboard Ion Engines"
+
+/area/jelly/engine/ion_aft
+	name = "Aft Ion Engines"
+
 /* /area/ship/trade/crew/dorms1
 	name = "Crew Cabin #1"
 	icon_state = "green"
