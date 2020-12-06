@@ -1,47 +1,148 @@
 /area/jelly
-	name = "Jellyfish Area Placeholder"
+	name       = "Jellyfish Area Placeholder"
+	icon_state = "yellow"
 
-/area/jelly/car
+//Hallways
 
-//med
+/area/jelly/hall
+	name = "Aft Hallway"
 
-/area/jelly/medical
-	name = "Medical Bay"
+/area/jelly/hall/fore
+	name = "Fore Hallway"
+
+/area/jelly/hall/port
+	name = "Port Hallway"
+
+/area/jelly/hall/star
+	name = "Starboard Hallway"
+
+//Maintenance
+
+/decl/turf_initializer/maintenance/heavy/jelly
+	vermin_probability = 0
+
+/area/jelly/maint
+	name = "Maintenance"
+	turf_initializer = /decl/turf_initializer/maintenance/heavy/jelly
+
+/area/jelly/maint/ma1
+	name       = "Fore Port Maintenance"
+	icon_state = "fpmaint"
+
+/area/jelly/maint/ma2
+	name       = "Port Maintenance"
+	icon_state = "pmaint"
+
+/area/jelly/maint/ma3
+	name       = "Aft Port Maintenance"
+	icon_state = "apmaint"
+
+/area/jelly/maint/ma4
+	name       = "Starboard Maintenance"
+	icon_state = "smaint"
+
+/area/jelly/maint/ma5
+	name       = "Aft Starboard Maintenance"
+	icon_state = "asmaint"
+
+//Civilian
+
+/area/jelly/civilian
 	area_flags = AREA_FLAG_RAD_SHIELDED
 
-/area/jelly/medical/chemistry
-	name = "Chemistry"
+/area/jelly/civilian/civ1
+	name = "Crew Compartment #1"
+	icon_state = "crew_quarters"
 
-//engineering
+/area/jelly/civilian/civ2
+	name       = "Crew Compartment #2"
+	icon_state = "crew_quarters"
+
+/area/jelly/civilian/hygiene
+	name       = "Sanitation"
+	icon_state = "restrooms"
+
+/area/jelly/civilian/mess
+	name       = "Mess Hall"
+	icon_state = "cafeteria"
+
+/area/jelly/civilian/galley
+	name       = "Galley"
+	icon_state = "kitchen"
+
+//Command
+
+/area/jelly/bridge
+	name       = "Bridge"
+	req_access = list(access_bridge)
+	area_flags = AREA_FLAG_RAD_SHIELDED
+	icon_state = "bridge"
+
+//Cargo and etc
+
+/area/jelly/cargo/upper
+	name       = "Upper Cargo"
+	icon_state = "quart"
+
+/area/jelly/cargo/lower
+	name       = "Lower Cargo"
+	icon_state = "mining"
+
+/area/jelly/port_storage
+	name = "Port Storage"
+
+/area/jelly/star_storage
+	name = "Starboard Storage"
+
+//Medical
+
+/area/jelly/medical
+	name       = "Medical Bay"
+	area_flags = AREA_FLAG_RAD_SHIELDED
+	icon_state = "medbay"
+
+//Engineering
 
 /area/jelly/engine
-	name = "Reactor Bay"
+	name       = "Reactor Bay"
+	req_access = list(access_engine)
+	icon_state = "engine"
+
+/area/jelly/engine/aux_port
+	name       = "Port Aux Engines"
+
+/area/jelly/engine/aux_star
+	name       = "Starboard Aux Engines"
+
+/area/jelly/engine/atmos
+	name       = "Life Support"
+	icon_state = "atmos"
 
 /area/jelly/engine/ion_port
-	name = "Port Ion Engines"
+	name       = "Port Ion Engines"
+	icon_state = "thruster"
 
 /area/jelly/engine/ion_star
-	name = "Starboard Ion Engines"
+	name       = "Starboard Ion Engines"
+	icon_state = "thruster"
 
 /area/jelly/engine/ion_aft
-	name = "Aft Ion Engines"
+	name       = "Aft Ion Engines"
+	icon_state = "thruster"
 
-/* /area/ship/trade/crew/dorms1
-	name = "Crew Cabin #1"
-	icon_state = "green"
-	area_flags = AREA_FLAG_RAD_SHIELDED */
+//Cargo Elevator
 
 /obj/turbolift_map_holder/jelly
 	depth       = 2
-	lift_size_x = 5
-	lift_size_y = 3
+	lift_size_x = 4
+	lift_size_y = 2
 
 	door_type     = null
 	wall_type     = null
 	firedoor_type = null
 	light_type    = null
 
-	floor_type  = /turf/simulated/floor/plating
+	floor_type  = /turf/simulated/floor/tiled/dark
 	button_type = /obj/structure/lift/button/standalone
 	panel_type  = /obj/structure/lift/panel/standalone
 
