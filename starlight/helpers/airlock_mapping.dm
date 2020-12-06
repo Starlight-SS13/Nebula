@@ -5,6 +5,9 @@
 	var/shuttle = 0
 
 /obj/effect/airlock_helper/New()
+	if(!main_id)
+		main_id = "airlock_[pick("a","b","c")][rand(1,999)][rand(1,999)]"
+
 	var/obj/machinery/door/airlock/external/bolted/EXT = new()
 	var/obj/machinery/door/airlock/external/bolted/INT = new()
 	var/backdir

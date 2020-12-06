@@ -27,6 +27,7 @@
 	#include "jellyfish_unit_testing.dm"
 	#include "jellyfish-0.dmm"
 	#include "jellyfish-1.dmm"
+	#include "jellyfish-2.dmm"
 
 	#include "jobs/_jobs.dm"
 	#include "jobs/command.dm"

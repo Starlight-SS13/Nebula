@@ -25,25 +25,28 @@
 	name = "Maintenance"
 	turf_initializer = /decl/turf_initializer/maintenance/heavy/jelly
 
-/area/jelly/maint/ma1
+/area/jelly/maint/fore_port
 	name       = "Fore Port Maintenance"
 	icon_state = "fpmaint"
 
-/area/jelly/maint/ma2
+/area/jelly/maint/port
 	name       = "Port Maintenance"
 	icon_state = "pmaint"
 
-/area/jelly/maint/ma3
+/area/jelly/maint/aft_port
 	name       = "Aft Port Maintenance"
 	icon_state = "apmaint"
 
-/area/jelly/maint/ma4
+/area/jelly/maint/star
 	name       = "Starboard Maintenance"
 	icon_state = "smaint"
 
-/area/jelly/maint/ma5
+/area/jelly/maint/aft_star
 	name       = "Aft Starboard Maintenance"
 	icon_state = "asmaint"
+
+/area/jelly/maint/upper
+	name = "Upper Level Access"
 
 //Civilian
 

@@ -1,5 +1,5 @@
 /datum/map/jellyfish
-	allowed_spawns = list("Main Cryogenic Storage","Port Cryogenic Storage","Starboard Cryogenic Storage")
+	allowed_spawns = list("Main Cryogenic Storage","Port Cryogenic Storage")
 	default_spawn  = "Main Cryogenic Storage"
 
 /area/jelly/civilian/cryo
@@ -16,14 +16,10 @@
 	msg = "has been removed from port cryogenic storage."
 	spawn_area = /area/jelly/port_storage
 
-/datum/spawnpoint/jelly/star
-	display_name = "Starboard Cryogenic Storage"
-	msg = "has been removed from starboard cryogenic storage."
-	spawn_area = /area/jelly/star_storage
-
 /datum/spawnpoint/jelly/New()
 	..()
-	turfs += locate(spawn_area).contents
+	for(var/obj/machinery/cryopod/C locate(spawn_area).contents)
+		turfs += C //Who cares? After join player is moved to appropriate loc, so if no pods = no spawn, simple
 
 /datum/spawnpoint/jelly/after_join(mob/living/carbon/human/victim)
 	if(!istype(victim)) return

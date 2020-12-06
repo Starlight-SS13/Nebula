@@ -31,6 +31,9 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
 	dir = 10
 	},
+/obj/effect/floor_decal/industrial/warning{
+	dir = 1
+	},
 /turf/simulated/floor/tiled/dark/monotile,
 /area/jelly/cargo/lower)
 "bL" = (
@@ -50,6 +53,10 @@
 	},
 /turf/simulated/floor/plating,
 /area/jelly/engine)
+"cj" = (
+/obj/effect/floor_decal/industrial/warning,
+/turf/simulated/floor/tiled/dark/monotile,
+/area/jelly/cargo/lower)
 "ck" = (
 /turf/simulated/floor/plating,
 /area/jelly/engine)
@@ -187,6 +194,12 @@
 /obj/machinery/atmospherics/pipe/manifold4w/visible/fuel,
 /turf/simulated/floor/plating,
 /area/jelly/engine/aux_star)
+"iw" = (
+/obj/effect/floor_decal/industrial/warning/corner{
+	dir = 8
+	},
+/turf/simulated/floor/tiled/dark/monotile,
+/area/jelly/cargo/lower)
 "iI" = (
 /obj/machinery/portable_atmospherics/canister/hydrogen,
 /turf/simulated/floor/reinforced,
@@ -214,6 +227,18 @@
 	},
 /turf/simulated/floor/tiled/dark/monotile,
 /area/jelly/engine)
+"kJ" = (
+/obj/structure/cable/green{
+	icon_state = "4-8"
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 4
+	},
+/obj/effect/floor_decal/industrial/warning/corner{
+	dir = 1
+	},
+/turf/simulated/floor/tiled/dark/monotile,
+/area/jelly/cargo/lower)
 "lb" = (
 /obj/machinery/atmospherics/pipe/manifold/visible/fuel{
 	dir = 4
@@ -330,6 +355,12 @@
 	dir = 8
 	},
 /obj/machinery/portable_atmospherics/powered/pump,
+/turf/simulated/floor/reinforced,
+/area/jelly/cargo/lower)
+"oS" = (
+/obj/structure/closet/crate,
+/obj/item/stack/material/steel/fifty,
+/obj/item/stack/material/steel/fifty,
 /turf/simulated/floor/reinforced,
 /area/jelly/cargo/lower)
 "oX" = (
@@ -548,6 +579,9 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
 	dir = 6
 	},
+/obj/effect/floor_decal/industrial/warning{
+	dir = 1
+	},
 /turf/simulated/floor/tiled/dark/monotile,
 /area/jelly/cargo/lower)
 "xe" = (
@@ -618,6 +652,22 @@
 /obj/machinery/portable_atmospherics/canister/hydrogen,
 /turf/simulated/floor/plating,
 /area/jelly/engine/aux_star)
+"zK" = (
+/obj/structure/closet/crate,
+/obj/item/stack/material/glass/fifty,
+/obj/item/stack/material/glass/fifty,
+/obj/item/stack/material/glass/fifty,
+/obj/item/stack/material/glass/fifty,
+/turf/simulated/floor/reinforced,
+/area/jelly/cargo/lower)
+"Aj" = (
+/obj/structure/closet/crate,
+/obj/item/stack/material/rods/fifty,
+/obj/item/stack/material/rods/fifty,
+/obj/item/stack/material/rods/fifty,
+/obj/item/stack/material/rods/fifty,
+/turf/simulated/floor/reinforced,
+/area/jelly/cargo/lower)
 "Ax" = (
 /obj/machinery/atmospherics/unary/engine/fusion{
 	dir = 1
@@ -688,6 +738,18 @@
 /obj/machinery/door/airlock/hatch/jelly,
 /turf/simulated/floor/plating,
 /area/jelly/port_storage)
+"Df" = (
+/obj/structure/cable/green{
+	icon_state = "4-8"
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 4
+	},
+/obj/effect/floor_decal/industrial/warning/corner{
+	dir = 4
+	},
+/turf/simulated/floor/tiled/dark/monotile,
+/area/jelly/cargo/lower)
 "Dv" = (
 /obj/machinery/atmospherics/portables_connector{
 	dir = 8
@@ -706,6 +768,13 @@
 /obj/structure/cable/green,
 /turf/simulated/floor/plating,
 /area/jelly/engine)
+"EB" = (
+/obj/machinery/atmospherics/unary/vent_scrubber/on{
+	dir = 4
+	},
+/obj/structure/closet/crate,
+/turf/simulated/floor/reinforced,
+/area/jelly/cargo/lower)
 "ED" = (
 /obj/structure/cable{
 	icon_state = "1-2"
@@ -801,6 +870,10 @@
 /obj/item/pen,
 /turf/simulated/floor/tiled/dark/monotile,
 /area/jelly/engine)
+"Gw" = (
+/obj/effect/floor_decal/industrial/warning/corner,
+/turf/simulated/floor/tiled/dark/monotile,
+/area/jelly/cargo/lower)
 "GU" = (
 /obj/machinery/atmospherics/pipe/manifold/visible/fuel{
 	dir = 8
@@ -859,6 +932,11 @@
 /obj/machinery/portable_atmospherics/powered/scrubber,
 /turf/simulated/floor/reinforced,
 /area/jelly/cargo/lower)
+"Mm" = (
+/obj/structure/closet/crate,
+/obj/item/stack/material/aluminium/fifty,
+/turf/simulated/floor/reinforced,
+/area/jelly/cargo/lower)
 "Mn" = (
 /obj/machinery/atmospherics/pipe/simple/visible{
 	dir = 4
@@ -886,11 +964,17 @@
 	},
 /turf/simulated/floor/airless,
 /area/jelly/engine/aux_star)
+"NK" = (
+/obj/structure/closet/crate,
+/obj/item/stack/material/plastic/fifty,
+/obj/item/stack/material/plastic/fifty,
+/turf/simulated/floor/reinforced,
+/area/jelly/cargo/lower)
 "Ol" = (
 /obj/machinery/light{
 	dir = 4
 	},
-/obj/machinery/portable_atmospherics/canister/empty,
+/obj/machinery/portable_atmospherics/powered/scrubber,
 /turf/simulated/floor/reinforced,
 /area/jelly/cargo/lower)
 "OP" = (
@@ -999,6 +1083,15 @@
 /obj/structure/ladder,
 /turf/simulated/floor/plating,
 /area/jelly/port_storage)
+"RF" = (
+/obj/structure/closet/crate,
+/obj/item/stack/material/steel/fifty,
+/obj/item/stack/material/steel/fifty,
+/obj/item/stack/material/steel/fifty,
+/obj/item/stack/material/steel/fifty,
+/obj/item/stack/material/steel/fifty,
+/turf/simulated/floor/reinforced,
+/area/jelly/cargo/lower)
 "RP" = (
 /obj/structure/cable,
 /obj/machinery/power/port_gen/pacman{
@@ -1176,6 +1269,13 @@
 	},
 /turf/simulated/floor/tiled/dark,
 /area/jelly/engine)
+"Xk" = (
+/obj/structure/closet/crate,
+/obj/item/stack/material/steel/fifty,
+/obj/item/stack/material/steel/fifty,
+/obj/item/stack/material/steel/fifty,
+/turf/simulated/floor/reinforced,
+/area/jelly/cargo/lower)
 "XP" = (
 /obj/structure/closet/crate,
 /obj/machinery/atmospherics/unary/vent_scrubber/on{
@@ -4051,9 +4151,9 @@ KY
 Ui
 Ui
 Ui
-Ui
+zK
 oG
-Ui
+NK
 AV
 AV
 ru
@@ -4133,14 +4233,14 @@ AV
 FF
 Bl
 eX
-eX
 lX
 lX
-AV
+Bl
+Gw
 nz
 nz
 nz
-rG
+Df
 Ft
 RB
 jm
@@ -4218,7 +4318,7 @@ AV
 AV
 AV
 AV
-AV
+cj
 ot
 ot
 of
@@ -4295,9 +4395,9 @@ lX
 FN
 AV
 tE
-Ui
-Ui
-Ui
+oS
+RF
+Xk
 mj
 mj
 nz
@@ -4307,7 +4407,7 @@ ot
 nz
 XP
 Pg
-Pg
+EB
 rG
 bL
 bL
@@ -4458,8 +4558,8 @@ lX
 lX
 FN
 AV
-Ui
-Ui
+Mm
+Mm
 mj
 Lz
 Lz
@@ -4546,7 +4646,7 @@ AV
 AV
 AV
 AV
-AV
+cj
 ot
 ot
 ot
@@ -4625,14 +4725,14 @@ AV
 lX
 UY
 UY
-Ui
+Aj
 lX
 lX
-AV
+iw
 nz
 nz
 nz
-rG
+kJ
 hS
 QF
 QF

@@ -24,10 +24,10 @@
 /obj/item/light/tube
 	broken_chance = 0
 
-	b_max_bright  = 0.4
+	b_max_bright  = 0.3
 	b_inner_range = 0.1
 	b_outer_range = 8
-	b_curve       = 0.5
+	b_curve       = 0.9
 	b_colour      = "#f5dd2a"
 
 	lighting_modes = list(LIGHTMODE_EMERGENCY = list(l_color = "#da0205"))
@@ -47,8 +47,7 @@
 
 /datum/extension/ship_engine/gas/fusion/get_propellant(var/sample_only = TRUE)
 	var/obj/machinery/atmospherics/unary/engine/fusion/thruster = holder
-	if(!thruster.harvest_from || !thruster.harvest_from.owned_field)
-		return // No valid propellant.
+	if(!thruster.harvest_from || !thruster.harvest_from.owned_field) return
 	var/obj/effect/fusion_em_field/owned_field = thruster.harvest_from.owned_field
 	var/datum/gas_mixture/propellant = ..()
 	propellant.temperature = owned_field.plasma_temperature * efficiency
@@ -56,7 +55,7 @@
 
 /obj/machinery/atmospherics/unary/engine/fusion/Initialize()
 	. = ..()
-	harvest_from = locate(/obj/machinery/power/fusion_core) in get_area(src)
+	harvest_from   = locate(/obj/machinery/power/fusion_core) in get_area(src)
 
 //Netdevices + headsets
 

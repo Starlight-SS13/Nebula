@@ -9,9 +9,9 @@
 
 	path           = "jellyfish"
 
-	station_levels = list(1, 2)
-	contact_levels = list(1, 2)
-	player_levels  = list(1, 2)
+	station_levels = list(1, 2, 3)
+	contact_levels = list(1, 2, 3)
+	player_levels  = list(1, 2, 3)
 
 	dock_name      = "FTS Capitalist's Rest"
 	boss_name      = "FTU Merchant Navy"
