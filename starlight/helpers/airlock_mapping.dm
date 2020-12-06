@@ -10,16 +10,7 @@
 
 	var/obj/machinery/door/airlock/external/bolted/EXT = new()
 	var/obj/machinery/door/airlock/external/bolted/INT = new()
-	var/backdir
-	switch(dir)
-		if(NORTH)
-			backdir = SOUTH
-		if(SOUTH)
-			backdir = NORTH
-		if(WEST)
-			backdir = EAST
-		if(EAST)
-			backdir = WEST
+	var/backdir = GLOB.reverse_dir[dir]
 
 	EXT.id_tag = "[main_id]_external"
 	INT.id_tag = "[main_id]_internal"
@@ -36,9 +27,12 @@
 
 	if(shuttle)
 		var/obj/machinery/atmospherics/unary/vent_pump/high_volume/external_air/VENT_I = new(get_step(src,dir))
-		VENT_I.dir    = dir == NORTH || dir == SOUTH ? WEST : NORTH
+		VENT_I.dir    = dir
 		VENT_I.id_tag = "[main_id]_pump_out_internal"
 		EXT.loc = get_step(get_step(src,dir),dir)
+		for(var/obj/machinery/atmospherics/unary/vent_pump/high_volume/external_air/NA in loc.loc.contents)
+			if(findtext(NA.id_tag,main_id)) continue
+			NA.id_tag = "[main_id]_pump_out_external"
 
 	var/obj/machinery/embedded_controller/radio/airlock/docking_port/CON    = new(loc)
 	CON.id_tag             = main_id

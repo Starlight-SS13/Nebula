@@ -45,8 +45,47 @@
 	name       = "Aft Starboard Maintenance"
 	icon_state = "asmaint"
 
+//upper level
 /area/jelly/maint/upper
 	name = "Upper Level Access"
+
+//port(left)
+
+/area/jelly/maint/upper_fore_port
+	name       = "Upper Fore Port Maintenance"
+	icon_state = "fpmaint"
+
+/area/jelly/maint/upper_port
+	name       = "Upper Port Maintenance"
+	icon_state = "pmaint"
+
+/area/jelly/maint/upper_aft_port
+	name       = "Upper Aft Port Docking Access"
+	icon_state = "apmaint"
+
+//aft/fore
+
+/area/jelly/maint/upper_aft
+	name       = "Upper Aft Maintenance"
+	icon_state = "amaint"
+
+/area/jelly/maint/upper_fore
+	name       = "Upper Fore Maintenance"
+	icon_state = "fmaint"
+
+//starboard(right)
+
+/area/jelly/maint/upper_fore_star
+	name       = "Upper Fore Starboard Maintenance"
+	icon_state = "fsmaint"
+
+/area/jelly/maint/upper_star
+	name       = "Upper Starboard Maintenance"
+	icon_state = "smaint"
+
+/area/jelly/maint/upper_aft_star
+	name       = "Upper Aft Starboard Maintenance"
+	icon_state = "asmaint"
 
 //Civilian
 
@@ -109,34 +148,43 @@
 /area/jelly/engine
 	name       = "Reactor Bay"
 	req_access = list(access_engine)
+	turf_initializer = /decl/turf_initializer/maintenance/heavy/jelly
 	icon_state = "engine"
-
-/area/jelly/engine/aux_port
-	name       = "Port Aux Engines"
-
-/area/jelly/engine/aux_star
-	name       = "Starboard Aux Engines"
 
 /area/jelly/engine/atmos
 	name       = "Life Support"
 	icon_state = "atmos"
 
-/area/jelly/engine/ion_port
+//propulsiiiion
+
+/area/jelly/engine/propulsion
+	icon_state = "thruster"
+
+/area/jelly/engine/propulsion/aux_port
+	name       = "Port Aux Engines"
+
+/area/jelly/engine/propulsion/aux_star
+	name       = "Starboard Aux Engines"
+
+/area/jelly/engine/propulsion/ion_port
 	name       = "Port Ion Engines"
-	icon_state = "thruster"
 
-/area/jelly/engine/ion_star
+/area/jelly/engine/propulsion/ion_star
 	name       = "Starboard Ion Engines"
-	icon_state = "thruster"
 
-/area/jelly/engine/ion_aft
+/area/jelly/engine/propulsion/ion_aft
 	name       = "Aft Ion Engines"
-	icon_state = "thruster"
+
+/area/jelly/engine/propulsion/nac_port
+	name       = "Port Thrusters Nacelle"
+
+/area/jelly/engine/propulsion/nac_star
+	name       = "Starboard Thrusters Nacelle"
 
 //Cargo Elevator
 
 /obj/turbolift_map_holder/jelly
-	depth       = 2
+	depth       = 3
 	lift_size_x = 4
 	lift_size_y = 2
 
@@ -149,7 +197,7 @@
 	button_type = /obj/structure/lift/button/standalone
 	panel_type  = /obj/structure/lift/panel/standalone
 
-	areas_to_use = list(/area/turbolift/jelly_lower, /area/turbolift/jelly_upper)
+	areas_to_use = list(/area/turbolift/jelly_lower, /area/turbolift/jelly_middle, /area/turbolift/jelly_upper)
 	floor_departure_sound = 'sound/effects/lift_heavy_start.ogg'
 	floor_arrival_sound   = 'sound/effects/lift_heavy_stop.ogg'
 
@@ -166,6 +214,10 @@
 /area/turbolift/jelly_lower
 	name = "Lower Level"
 	base_turf = /turf/simulated/floor
+
+/area/turbolift/jelly_middle
+	name = "Middle Level"
+	base_turf = /turf/simulated/open
 
 /area/turbolift/jelly_upper
 	name = "Upper Level"

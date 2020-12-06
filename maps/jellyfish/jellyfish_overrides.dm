@@ -50,12 +50,15 @@
 	if(!thruster.harvest_from || !thruster.harvest_from.owned_field) return
 	var/obj/effect/fusion_em_field/owned_field = thruster.harvest_from.owned_field
 	var/datum/gas_mixture/propellant = ..()
-	propellant.temperature = owned_field.plasma_temperature * efficiency
+	propellant.temperature = owned_field.plasma_temperature * 3
 	return propellant
 
 /obj/machinery/atmospherics/unary/engine/fusion/Initialize()
 	. = ..()
 	harvest_from   = locate(/obj/machinery/power/fusion_core) in get_area(src)
+
+/obj/machinery/ion_thruster
+	thrust_limit   = 30
 
 //Netdevices + headsets
 

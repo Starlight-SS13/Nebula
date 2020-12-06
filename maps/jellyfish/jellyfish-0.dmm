@@ -7,7 +7,7 @@
 	dir = 8
 	},
 /turf/simulated/floor/plating,
-/area/jelly/engine/aux_port)
+/area/jelly/engine/propulsion/aux_port)
 "aF" = (
 /obj/structure/cable/green{
 	icon_state = "4-8"
@@ -95,7 +95,7 @@
 	dir = 4
 	},
 /turf/simulated/floor/plating,
-/area/jelly/engine/aux_port)
+/area/jelly/engine/propulsion/aux_port)
 "dz" = (
 /obj/machinery/light{
 	dir = 4
@@ -133,7 +133,7 @@
 /area/jelly/engine)
 "eZ" = (
 /turf/simulated/floor/plating,
-/area/jelly/engine/aux_star)
+/area/jelly/engine/propulsion/aux_star)
 "fH" = (
 /obj/structure/cable/green{
 	icon_state = "1-2"
@@ -193,7 +193,7 @@
 "ic" = (
 /obj/machinery/atmospherics/pipe/manifold4w/visible/fuel,
 /turf/simulated/floor/plating,
-/area/jelly/engine/aux_star)
+/area/jelly/engine/propulsion/aux_star)
 "iw" = (
 /obj/effect/floor_decal/industrial/warning/corner{
 	dir = 8
@@ -206,7 +206,7 @@
 /area/jelly/cargo/lower)
 "iR" = (
 /turf/simulated/wall/r_wall/prepainted,
-/area/jelly/engine/aux_star)
+/area/jelly/engine/propulsion/aux_star)
 "jm" = (
 /obj/machinery/portable_atmospherics/canister/hydrogen,
 /obj/machinery/atmospherics/unary/vent_pump/on{
@@ -264,7 +264,7 @@
 	},
 /obj/machinery/computer/ship/engines,
 /turf/simulated/floor/plating,
-/area/jelly/engine/aux_port)
+/area/jelly/engine/propulsion/aux_port)
 "lF" = (
 /obj/machinery/light,
 /turf/simulated/floor/tiled/dark/monotile,
@@ -292,7 +292,7 @@
 	dir = 4
 	},
 /turf/simulated/floor/plating,
-/area/jelly/engine/aux_star)
+/area/jelly/engine/propulsion/aux_star)
 "ms" = (
 /obj/structure/cable/green{
 	icon_state = "1-2"
@@ -354,7 +354,7 @@
 /obj/machinery/light{
 	dir = 8
 	},
-/obj/machinery/portable_atmospherics/powered/pump,
+/obj/random/closet,
 /turf/simulated/floor/reinforced,
 /area/jelly/cargo/lower)
 "oS" = (
@@ -398,7 +398,7 @@
 	dir = 4
 	},
 /turf/simulated/floor/plating,
-/area/jelly/engine/aux_star)
+/area/jelly/engine/propulsion/aux_star)
 "qU" = (
 /obj/machinery/atmospherics/unary/outlet_injector{
 	dir = 4;
@@ -482,7 +482,7 @@
 "te" = (
 /obj/machinery/network/relay,
 /turf/simulated/floor/plating,
-/area/jelly/engine/aux_port)
+/area/jelly/engine/propulsion/aux_port)
 "tp" = (
 /obj/structure/ladder,
 /turf/simulated/floor/plating,
@@ -490,15 +490,19 @@
 "tv" = (
 /obj/machinery/portable_atmospherics/canister/empty/oxygen,
 /turf/simulated/floor/plating,
-/area/jelly/engine/aux_star)
+/area/jelly/engine/propulsion/aux_star)
 "tE" = (
-/obj/machinery/portable_atmospherics/powered/pump/filled,
+/obj/structure/closet/cabinet,
+/obj/random/clothing,
+/obj/random/clothing,
+/obj/random/clothing,
+/obj/random/clothing,
 /turf/simulated/floor/reinforced,
 /area/jelly/cargo/lower)
 "tH" = (
 /obj/machinery/atmospherics/pipe/manifold4w/visible/fuel,
 /turf/simulated/floor/plating,
-/area/jelly/engine/aux_port)
+/area/jelly/engine/propulsion/aux_port)
 "tU" = (
 /obj/structure/cable/green{
 	icon_state = "1-2"
@@ -545,7 +549,7 @@
 /area/jelly/cargo/lower)
 "vG" = (
 /turf/simulated/wall/r_wall/prepainted,
-/area/jelly/engine/aux_port)
+/area/jelly/engine/propulsion/aux_port)
 "vR" = (
 /obj/structure/window/borosilicate_reinforced{
 	dir = 8
@@ -568,7 +572,7 @@
 "wl" = (
 /obj/machinery/portable_atmospherics/canister/empty/carbon_dioxide,
 /turf/simulated/floor/plating,
-/area/jelly/engine/aux_port)
+/area/jelly/engine/propulsion/aux_port)
 "wu" = (
 /obj/machinery/light{
 	dir = 8
@@ -644,6 +648,10 @@
 	},
 /turf/simulated/floor/tiled/dark/monotile,
 /area/jelly/engine)
+"yh" = (
+/obj/structure/mattress/dirty,
+/turf/simulated/floor/plating,
+/area/jelly/star_storage)
 "yv" = (
 /obj/machinery/door/airlock/hatch/jelly,
 /turf/simulated/floor/plating,
@@ -651,7 +659,7 @@
 "yz" = (
 /obj/machinery/portable_atmospherics/canister/hydrogen,
 /turf/simulated/floor/plating,
-/area/jelly/engine/aux_star)
+/area/jelly/engine/propulsion/aux_star)
 "zK" = (
 /obj/structure/closet/crate,
 /obj/item/stack/material/glass/fifty,
@@ -682,7 +690,7 @@
 /turf/simulated/floor/tiled/dark/monotile,
 /area/jelly/cargo/lower)
 "Bl" = (
-/obj/machinery/portable_atmospherics/powered/pump,
+/obj/random/closet,
 /turf/simulated/floor/reinforced,
 /area/jelly/cargo/lower)
 "Bv" = (
@@ -690,7 +698,7 @@
 	icon_state = "1-4"
 	},
 /turf/simulated/floor/plating,
-/area/jelly/engine/aux_port)
+/area/jelly/engine/propulsion/aux_port)
 "BD" = (
 /obj/machinery/atmospherics/pipe/simple/visible/fuel{
 	dir = 9
@@ -729,7 +737,7 @@
 	icon_state = "1-8"
 	},
 /turf/simulated/floor/plating,
-/area/jelly/engine/aux_star)
+/area/jelly/engine/propulsion/aux_star)
 "CE" = (
 /obj/structure/catwalk,
 /turf/simulated/floor/plating,
@@ -799,7 +807,7 @@
 "Fq" = (
 /obj/machinery/fabricator,
 /turf/simulated/floor/plating,
-/area/jelly/engine/aux_port)
+/area/jelly/engine/propulsion/aux_port)
 "Ft" = (
 /obj/machinery/portable_atmospherics/canister/empty/carbon_dioxide,
 /obj/machinery/atmospherics/unary/vent_pump/on{
@@ -954,7 +962,7 @@
 	dir = 1
 	},
 /turf/simulated/floor/airless,
-/area/jelly/engine/aux_port)
+/area/jelly/engine/propulsion/aux_port)
 "Nu" = (
 /obj/structure/window/borosilicate_reinforced{
 	dir = 1
@@ -963,7 +971,7 @@
 	dir = 1
 	},
 /turf/simulated/floor/airless,
-/area/jelly/engine/aux_star)
+/area/jelly/engine/propulsion/aux_star)
 "NK" = (
 /obj/structure/closet/crate,
 /obj/item/stack/material/plastic/fifty,
@@ -1035,7 +1043,7 @@
 	dir = 1
 	},
 /turf/simulated/floor/plating,
-/area/jelly/engine/aux_star)
+/area/jelly/engine/propulsion/aux_star)
 "Qi" = (
 /obj/structure/cable/green{
 	icon_state = "1-2"
@@ -1046,16 +1054,13 @@
 /turf/simulated/floor/tiled/dark/monotile,
 /area/jelly/cargo/lower)
 "QF" = (
-/obj/machinery/atmospherics/unary/vent_pump/on{
-	dir = 8
-	},
-/obj/machinery/space_heater,
+/obj/structure/closet/toolcloset,
 /turf/simulated/floor/reinforced,
 /area/jelly/cargo/lower)
 "QN" = (
 /obj/machinery/portable_atmospherics/canister/carbon_dioxide,
 /turf/simulated/floor/plating,
-/area/jelly/engine/aux_star)
+/area/jelly/engine/propulsion/aux_star)
 "QT" = (
 /turf/simulated/wall/r_wall/prepainted,
 /area/jelly/star_storage)
@@ -1065,7 +1070,7 @@
 "QY" = (
 /obj/machinery/portable_atmospherics/canister/carbon_dioxide,
 /turf/simulated/floor/plating,
-/area/jelly/engine/aux_port)
+/area/jelly/engine/propulsion/aux_port)
 "Rn" = (
 /obj/machinery/atmospherics/unary/vent_scrubber/on{
 	dir = 8
@@ -1153,7 +1158,7 @@
 	dir = 8
 	},
 /turf/simulated/floor/plating,
-/area/jelly/engine/aux_star)
+/area/jelly/engine/propulsion/aux_star)
 "Ua" = (
 /obj/structure/closet/crate/freezer/rations,
 /turf/simulated/floor/reinforced,
@@ -1180,7 +1185,7 @@
 "Uo" = (
 /obj/machinery/atmospherics/portables_connector,
 /turf/simulated/floor/plating,
-/area/jelly/engine/aux_star)
+/area/jelly/engine/propulsion/aux_star)
 "Ur" = (
 /obj/machinery/atmospherics/pipe/manifold/visible/fuel{
 	dir = 8
@@ -1199,7 +1204,7 @@
 /area/jelly/port_storage)
 "UB" = (
 /turf/simulated/floor/plating,
-/area/jelly/engine/aux_port)
+/area/jelly/engine/propulsion/aux_port)
 "UY" = (
 /obj/machinery/portable_atmospherics/canister/empty,
 /turf/simulated/floor/reinforced,
@@ -1235,6 +1240,10 @@
 	},
 /turf/simulated/floor/plating,
 /area/jelly/engine)
+"Wp" = (
+/obj/structure/closet/wardrobe/mixed,
+/turf/simulated/floor/reinforced,
+/area/jelly/cargo/lower)
 "Wy" = (
 /obj/machinery/atmospherics/unary/tank/carbon_dioxide{
 	start_pressure = 9000
@@ -1244,7 +1253,7 @@
 "WW" = (
 /obj/machinery/atmospherics/portables_connector,
 /turf/simulated/floor/plating,
-/area/jelly/engine/aux_port)
+/area/jelly/engine/propulsion/aux_port)
 "WX" = (
 /obj/machinery/computer/ship/navigation{
 	dir = 1
@@ -1276,6 +1285,10 @@
 /obj/item/stack/material/steel/fifty,
 /turf/simulated/floor/reinforced,
 /area/jelly/cargo/lower)
+"XI" = (
+/obj/effect/decal/cleanable/vomit,
+/turf/simulated/floor/plating,
+/area/jelly/port_storage)
 "XP" = (
 /obj/structure/closet/crate,
 /obj/machinery/atmospherics/unary/vent_scrubber/on{
@@ -1300,7 +1313,7 @@
 	dir = 8
 	},
 /turf/simulated/floor/plating,
-/area/jelly/engine/aux_port)
+/area/jelly/engine/propulsion/aux_port)
 "YG" = (
 /obj/machinery/portable_atmospherics/canister/empty/air,
 /turf/simulated/floor/reinforced,
@@ -2272,7 +2285,7 @@ KW
 KW
 Us
 KW
-cD
+XI
 vp
 KW
 Us
@@ -4231,10 +4244,10 @@ lX
 bL
 AV
 FF
-Bl
+lX
 eX
-lX
-lX
+Bl
+Bl
 Bl
 Gw
 nz
@@ -4476,8 +4489,8 @@ nz
 nz
 nz
 AV
-tE
-Lz
+QF
+QF
 mj
 mj
 Lz
@@ -4561,8 +4574,8 @@ AV
 Mm
 Mm
 mj
-Lz
-Lz
+lX
+lX
 lX
 nz
 ot
@@ -4734,8 +4747,8 @@ nz
 nz
 kJ
 hS
-QF
-QF
+hS
+hS
 Hr
 Ua
 Ua
@@ -4805,7 +4818,7 @@ nz
 AV
 dz
 lX
-lX
+Wp
 UY
 UY
 Ol
@@ -4816,7 +4829,7 @@ TI
 Vh
 vu
 rv
-Hr
+lX
 Hr
 Zh
 Ua
@@ -6861,7 +6874,7 @@ aa
 aa
 QT
 xW
-rd
+yh
 QT
 rd
 CE
