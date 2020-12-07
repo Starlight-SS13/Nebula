@@ -5,6 +5,7 @@
 	var/shuttle = 0
 
 /obj/effect/airlock_helper/Initialize()
+	. = ..()
 	if(!main_id)
 		main_id = "airlock_[sequential_id(type)]"
 
