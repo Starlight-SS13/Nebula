@@ -19,7 +19,7 @@
 /datum/spawnpoint/jelly/New()
 	..()
 	turfs = list()
-	for(var/obj/machinery/cryopod/C in locate(spawn_area).contents)
+	for(var/obj/machinery/cryopod/C in locate(spawn_area))
 		turfs += C //Who cares? After join player is moved to appropriate loc, so if no pods = no spawn, simple
 
 /datum/spawnpoint/jelly/after_join(mob/living/carbon/human/victim)
