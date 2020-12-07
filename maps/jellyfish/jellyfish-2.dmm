@@ -45,7 +45,7 @@
 "fc" = (/obj/machinery/light/small{dir = 1},/turf/simulated/open,/area/jelly/civilian/civ2)
 "fj" = (/obj/machinery/atmospherics/portables_connector{dir = 8},/obj/structure/cable/green{icon_state = "4-8"},/turf/simulated/floor/plating,/area/jelly/engine/propulsion/nac_port)
 "fl" = (/obj/machinery/atmospherics/portables_connector{dir = 1},/turf/simulated/floor/plating,/area/jelly/maint/upper_aft_port)
-"fn" = (/obj/machinery/atmospherics/pipe/simple/visible/scrubbers,/obj/machinery/atmospherics/pipe/manifold/visible{dir = 8},/turf/simulated/floor/plating,/area/jelly/shuttle/kite)
+"fn" = (/obj/machinery/atmospherics/pipe/manifold/visible{dir = 8},/obj/machinery/atmospherics/pipe/manifold/visible/scrubbers{dir = 4},/obj/structure/catwalk,/turf/simulated/floor/plating,/area/jelly/shuttle/kite)
 "ft" = (/obj/machinery/atmospherics/pipe/manifold/visible{dir = 4},/turf/simulated/floor/plating,/area/jelly/maint/upper_aft_port)
 "fv" = (/obj/structure/cable/green{icon_state = "1-2"},/obj/random/junk,/obj/random/trash,/obj/random/maintenance,/turf/simulated/floor/plating,/area/jelly/maint/upper_aft)
 "fE" = (/turf/simulated/floor/plating,/area/jelly/maint/upper_star)
@@ -127,7 +127,7 @@
 "pD" = (/obj/machinery/atmospherics/pipe/simple/visible{dir = 9},/turf/simulated/floor/plating,/area/jelly/maint/upper_star)
 "pH" = (/turf/simulated/wall/r_wall/prepainted,/area/jelly/engine/propulsion/nac_port)
 "pQ" = (/obj/machinery/door/airlock/hatch/jelly,/turf/simulated/floor/plating,/area/jelly/maint/upper_aft)
-"pV" = (/obj/machinery/atmospherics/pipe/simple/visible/scrubbers,/obj/machinery/atmospherics/pipe/simple/visible,/obj/machinery/door/airlock/hatch/jelly,/turf/simulated/floor/plating,/area/jelly/shuttle/kite)
+"pV" = (/obj/machinery/atmospherics/pipe/simple/visible/scrubbers,/obj/machinery/atmospherics/pipe/simple/visible,/obj/structure/catwalk,/obj/machinery/door/airlock/hatch/jelly,/turf/simulated/floor/plating,/area/jelly/shuttle/kite)
 "pY" = (/turf/simulated/wall/r_wall/prepainted,/area/jelly/maint/upper)
 "pZ" = (/obj/structure/lattice,/obj/structure/railing/mapped{dir = 8},/turf/simulated/open,/area/jelly/medical)
 "qc" = (/obj/structure/cable/green{icon_state = "1-4"},/turf/simulated/floor/plating,/area/jelly/maint/upper_aft)
@@ -167,7 +167,7 @@
 "uA" = (/obj/machinery/portable_atmospherics/powered/scrubber,/turf/simulated/floor/plating,/area/jelly/maint/upper_aft)
 "uJ" = (/obj/machinery/light/small{dir = 4},/turf/simulated/floor/plating,/area/jelly/civilian/civ1)
 "uL" = (/obj/machinery/door/airlock/hatch/jelly,/obj/structure/cable/green{icon_state = "1-2"},/turf/simulated/floor/plating,/area/jelly/maint/upper_star)
-"uQ" = (/obj/machinery/atmospherics/pipe/simple/visible,/obj/machinery/atmospherics/pipe/simple/visible/scrubbers,/obj/machinery/door/airlock/hatch/jelly,/turf/simulated/floor/plating,/area/jelly/shuttle/kite)
+"uQ" = (/obj/machinery/atmospherics/pipe/simple/visible,/obj/machinery/atmospherics/pipe/simple/visible/scrubbers,/obj/structure/catwalk,/obj/machinery/door/airlock/hatch/jelly,/turf/simulated/floor/plating,/area/jelly/shuttle/kite)
 "uU" = (/turf/simulated/open,/area/turbolift/jelly_upper)
 "uX" = (/obj/machinery/atmospherics/pipe/manifold/visible/fuel{dir = 1},/turf/simulated/floor/plating,/area/jelly/engine/propulsion/nac_port)
 "va" = (/obj/structure/cable/green{icon_state = "4-8"},/turf/simulated/floor/plating,/area/jelly/maint/upper_port)
@@ -204,6 +204,7 @@
 "yR" = (/obj/machinery/door/airlock/hatch/jelly,/turf/simulated/floor/plating,/area/jelly/maint/upper_port)
 "yT" = (/obj/machinery/atmospherics/unary/tank/oxygen,/turf/simulated/floor/plating,/area/jelly/maint/upper_star)
 "yV" = (/obj/machinery/power/apc{dir = 1},/obj/structure/cable/green{icon_state = "0-4"},/turf/simulated/floor/plating,/area/jelly/maint/upper_fore)
+"yX" = (/obj/machinery/atmospherics/pipe/simple/visible/universal{dir = 4},/turf/simulated/wall/titanium,/area/jelly/shuttle/kite)
 "yZ" = (/obj/item/tank/oxygen,/turf/simulated/floor/plating,/area/jelly/bridge)
 "zd" = (/turf/simulated/floor/plating,/area/jelly/maint/upper_fore)
 "zm" = (/obj/structure/cable/green{icon_state = "1-2"},/turf/simulated/floor/plating,/area/jelly/maint/upper_aft_star)
@@ -223,10 +224,11 @@
 "AZ" = (/obj/structure/table/standard,/obj/structure/bedsheetbin,/turf/simulated/floor/plating,/area/jelly/civilian/civ1)
 "Bb" = (/obj/machinery/portable_atmospherics/canister/air/airlock,/obj/machinery/atmospherics/portables_connector{dir = 4},/turf/simulated/floor/plating,/area/jelly/bridge)
 "Be" = (/obj/structure/grille,/turf/simulated/floor/plating,/area/jelly/engine/propulsion/nac_port)
+"Bf" = (/obj/effect/landmark/test/safe_turf,/turf/simulated/floor/plating,/area/jelly/maint/upper_star)
 "Bh" = (/obj/structure/largecrate{name = "tech supply crate"},/obj/random/tech_supply,/obj/random/tech_supply,/obj/random/tech_supply,/obj/random/tech_supply,/obj/random/tech_supply,/obj/random/tech_supply,/obj/random/tech_supply,/turf/simulated/floor/plating,/area/jelly/maint/upper_aft_star)
 "Bv" = (/obj/machinery/atmospherics/pipe/manifold/visible/fuel{dir = 8},/turf/simulated/floor/plating,/area/jelly/engine/propulsion/nac_port)
 "BM" = (/obj/structure/cable/green{icon_state = "0-4"},/obj/machinery/power/apc{dir = 8},/obj/machinery/suit_cycler/jelly,/turf/simulated/floor/plating,/area/jelly/maint/upper_fore_star)
-"BU" = (/obj/machinery/atmospherics/portables_connector{dir = 1},/obj/machinery/portable_atmospherics/canister/air/airlock{start_pressure = 1013},/obj/machinery/atmospherics/pipe/simple/visible/scrubbers,/turf/simulated/floor/plating,/area/jelly/shuttle/kite)
+"BU" = (/obj/machinery/atmospherics/portables_connector{dir = 1},/obj/machinery/portable_atmospherics/canister/air/airlock{start_pressure = 1013},/turf/simulated/floor/plating,/area/jelly/shuttle/kite)
 "BV" = (/obj/machinery/atmospherics/pipe/simple/visible/fuel,/obj/machinery/door/airlock/hatch/jelly,/turf/simulated/floor/plating,/area/jelly/engine/propulsion/nac_port)
 "Cq" = (/obj/machinery/atmospherics/portables_connector{dir = 1},/obj/machinery/portable_atmospherics/canister/air/airlock,/turf/simulated/floor/plating,/area/jelly/maint/upper_fore_star)
 "Ct" = (/obj/structure/cable/green{icon_state = "1-2"},/obj/structure/railing/mapped{dir = 4},/turf/simulated/floor/plating,/area/jelly/cargo/upper)
@@ -237,7 +239,7 @@
 "Du" = (/obj/machinery/portable_atmospherics/canister/empty/hydrogen,/turf/simulated/floor/plating,/area/jelly/maint/upper_aft)
 "DG" = (/obj/machinery/igniter{id_tag = "portfuel"},/turf/simulated/floor/reinforced/airless,/area/jelly/engine/propulsion/nac_port)
 "Eb" = (/obj/machinery/portable_atmospherics/canister/oxygen{start_pressure = 1741},/turf/simulated/floor/plating,/area/jelly/bridge)
-"Em" = (/obj/machinery/atmospherics/pipe/manifold/visible/scrubbers{dir = 1},/obj/machinery/atmospherics/pipe/manifold/visible{dir = 1},/obj/machinery/hologram/holopad/longrange/remoteship,/obj/structure/cable/green{icon_state = "4-8"},/turf/simulated/floor/plating,/area/jelly/shuttle/kite)
+"Em" = (/obj/machinery/atmospherics/pipe/manifold/visible{dir = 1},/obj/machinery/hologram/holopad/longrange/remoteship,/obj/structure/cable/green{icon_state = "4-8"},/obj/machinery/atmospherics/pipe/simple/visible/scrubbers{dir = 6},/obj/structure/catwalk,/turf/simulated/floor/plating,/area/jelly/shuttle/kite)
 "Er" = (/obj/machinery/atmospherics/unary/tank/carbon_dioxide{start_pressure = 9000},/turf/simulated/floor/plating,/area/jelly/engine/propulsion/nac_star)
 "Ez" = (/obj/random/junk,/obj/random/trash,/obj/random/maintenance,/obj/structure/cable/green{icon_state = "1-2"},/turf/simulated/floor/plating,/area/jelly/maint/upper_aft)
 "ED" = (/obj/structure/cable/green{icon_state = "1-8"},/turf/simulated/floor/plating,/area/jelly/maint/upper_aft)
@@ -339,13 +341,13 @@
 "PH" = (/obj/structure/lattice,/turf/simulated/open,/area/jelly/civilian/civ2)
 "PO" = (/obj/structure/grille,/turf/simulated/floor/plating,/area/jelly/cargo/upper)
 "Qa" = (/obj/structure/ore_box,/turf/simulated/floor/plating,/area/jelly/maint/upper_aft)
-"Qc" = (/obj/machinery/atmospherics/pipe/simple/visible/scrubbers{dir = 6},/obj/machinery/atmospherics/pipe/simple/visible{dir = 6},/obj/structure/catwalk,/obj/structure/cable/green{icon_state = "1-4"},/turf/simulated/floor/plating,/area/jelly/shuttle/kite)
+"Qc" = (/obj/machinery/atmospherics/pipe/simple/visible{dir = 6},/obj/structure/cable/green{icon_state = "1-4"},/obj/structure/catwalk,/turf/simulated/floor/plating,/area/jelly/shuttle/kite)
 "Qf" = (/obj/machinery/button/ignition{dir = 8; id_tag = "portfuel"; pixel_x = 24},/turf/simulated/floor/plating,/area/jelly/engine/propulsion/nac_port)
 "Qh" = (/obj/structure/cable/green{icon_state = "4-8"},/obj/machinery/door/airlock/hatch/jelly,/turf/simulated/floor/plating,/area/jelly/maint/upper)
 "Qq" = (/obj/machinery/atmospherics/pipe/simple/visible{dir = 4},/turf/simulated/floor/plating,/area/jelly/maint/upper_fore_port)
 "Qy" = (/obj/machinery/fabricator,/obj/item/stack/material/glass/fifty,/turf/simulated/floor/plating,/area/jelly/medical)
 "QG" = (/obj/structure/cable/green{icon_state = "4-8"},/obj/machinery/atmospherics/pipe/simple/visible{dir = 6},/turf/simulated/floor/plating,/area/jelly/maint/upper_aft)
-"QJ" = (/obj/machinery/atmospherics/pipe/simple/visible/universal,/turf/simulated/wall/titanium,/area/jelly/shuttle/kite)
+"QJ" = (/obj/machinery/atmospherics/pipe/simple/visible{dir = 6},/turf/simulated/wall/titanium,/area/jelly/shuttle/kite)
 "QP" = (/obj/machinery/atmospherics/binary/pump{dir = 4},/obj/structure/cable/green{icon_state = "4-8"},/turf/simulated/floor/plating,/area/jelly/engine/propulsion/nac_port)
 "Ra" = (/turf/simulated/floor/plating,/area/jelly/civilian/civ2)
 "Rt" = (/obj/structure/cable/green{icon_state = "2-8"},/turf/simulated/floor/plating,/area/jelly/maint/upper_fore)
@@ -379,6 +381,7 @@
 "UF" = (/obj/structure/cable/green{icon_state = "1-2"},/obj/random/junk,/obj/random/junk,/turf/simulated/floor/plating,/area/jelly/maint/upper_aft)
 "UL" = (/obj/machinery/atmospherics/portables_connector,/obj/machinery/portable_atmospherics/canister/air/airlock,/turf/simulated/floor/plating,/area/jelly/maint/upper_fore_port)
 "UW" = (/obj/machinery/button/blast_door{id_tag = "port_nac"; name = "blast doors"; pixel_x = 24},/obj/machinery/light/small,/turf/simulated/floor/plating,/area/jelly/engine/propulsion/nac_port)
+"Vp" = (/obj/machinery/atmospherics/pipe/simple/visible/scrubbers{dir = 4},/obj/machinery/atmospherics/pipe/simple/visible{dir = 4},/obj/structure/cable/green{icon_state = "4-8"},/obj/structure/catwalk,/obj/machinery/door/airlock/hatch/jelly,/turf/simulated/floor/plating,/area/jelly/shuttle/kite)
 "Vs" = (/obj/machinery/door/airlock/hatch/jelly,/turf/simulated/floor/plating,/area/jelly/medical)
 "Vu" = (/turf/simulated/wall/r_wall/prepainted,/area/jelly/cargo/upper)
 "Vv" = (/turf/simulated/open,/area/jelly/civilian/civ2)
@@ -394,7 +397,7 @@
 "Wx" = (/obj/machinery/atmospherics/pipe/simple/visible/fuel,/turf/simulated/wall/r_wall/prepainted,/area/jelly/engine/propulsion/nac_port)
 "Wz" = (/obj/machinery/atmospherics/pipe/simple/visible/fuel{dir = 10},/obj/structure/cable/green{icon_state = "4-8"},/turf/simulated/floor/plating,/area/jelly/engine/propulsion/nac_port)
 "WF" = (/obj/structure/cable/green{icon_state = "4-8"},/obj/machinery/atmospherics/pipe/simple/visible{dir = 4},/turf/simulated/floor/plating,/area/jelly/maint/upper_aft)
-"WI" = (/obj/machinery/atmospherics/pipe/simple/visible/scrubbers{dir = 4},/obj/machinery/atmospherics/pipe/simple/visible{dir = 4},/obj/structure/catwalk,/obj/structure/cable/green{icon_state = "4-8"},/obj/machinery/door/airlock/hatch/jelly,/turf/simulated/floor/plating,/area/jelly/shuttle/kite)
+"WI" = (/obj/machinery/atmospherics/pipe/simple/visible{dir = 4},/obj/structure/cable/green{icon_state = "4-8"},/obj/structure/catwalk,/obj/machinery/door/airlock/hatch/jelly,/turf/simulated/floor/plating,/area/jelly/shuttle/kite)
 "Xr" = (/obj/structure/cable/green{icon_state = "4-8"},/turf/simulated/floor/plating,/area/jelly/maint/upper_aft_star)
 "Xs" = (/obj/structure/railing/mapped,/obj/structure/cable/green{icon_state = "4-8"},/turf/simulated/floor/plating,/area/jelly/cargo/upper)
 "Xt" = (/obj/machinery/door/airlock/hatch/jelly,/turf/simulated/floor/plating,/area/jelly/maint/upper_fore_port)
@@ -465,13 +468,13 @@ LoLoLoLoLoLopHpHpHJcsXXVnEBepHpHpHSRpHpHpHpHIeIefQmLmLIejBbTbTIeAhQhOnQhwvNvxdvo
 LoLoLoLoLoLopHpHpHpHBVpHpHpHpHpHpHpvpvpvIeIeIeIefQPkPkIeIeyRIeIefQpYpYpYFXNvHRNvrxpYfEwCwCiIwCwCwCwCwCwCYYwCfEwCwCpvpvpvCwCwCwHhRDwMKrYBCwCwCwLoLoLoLoLoLoLoLoLo
 LoLoLoLoLoLoLopHpHmPueuXuXuxpHpHpvpvpvpvIeIeIeIefQbTbTIebTbTqwIefQIePkpYcZzzCRnGFXpYpYpYfEKafEfEwCfEfEfEfEwCfEwCwCpvpvpvpvCwCwHhYBolHhYBCwCwLoLoLoLoLoLoLoLoLoLo
 LoLoLoLoLoLoLoLopHASASASASASpHpvpvpvpvpvIeIeIeIelOvavalkvavaLrlkdfbTbTpYljOnInOnxtQhOnQhlBCMfEfEwCfEfEfEwCwCYYwCwCpvpvpvpvpvCwkckckckckcCwLoLoLoLoLoLoLoLoLoLoLo
-LoLoLoLoLoLoLoLoLoLoLoLoLoLoLoLopvpvpvpvdydydydydydydydydydydydyaqaqaqpYnGnGoCaYvXpYpYpYfEfEfEfEwCfEfEfEwCfEfEwCwCpvpvpvpvpvLoLoLoLoLoLoLoLoLoLoLoLoLoLoLoLoLoLo
+LoLoLoLoLoLoLoLoLoLoLoLoLoLoLoLopvpvpvpvdydydydydydydydydydydydyaqaqaqpYnGnGoCaYvXpYpYpYfEfEBffEwCfEfEfEwCfEfEwCwCpvpvpvpvpvLoLoLoLoLoLoLoLoLoLoLoLoLoLoLoLoLoLo
 LoLoLoLoLoLoLoLoLoLoLoLoLoLoLoLoLoLoLoLodydydydydyFzFzFzdynMnMnMaqbobopYpYpYSgpYpYpYkKaqfEfEfEfEwClPsPlPlPfEwCwCwCpvpvpvpvpvLoLoLoLoLoLoLoLoLoLoLoLoLoLoLoLoLoLo
 LoLoLoLoLoLoLoLoLoLoLoLolrlrlrlrlrMLMLlrdydyusnMdyTXgliJIJnMnMnMaqboboboaqsBUFaqkKkKkKaqlPsPlPlPlPRLRLRLlPsPlPlPlPpvpvpvpvpvLoLoLoLoLoLoLoLoLoLoLoLoLoLoLoLoLoLo
 LoLoLoLoLoLoLoLoLoLoLoLolrtjlrbllrobdVlrdydyusnMIJflvfdydydyIJdyaqbobokKpQqQfvaqkKkKkKaqRLRLRLRLlPRLFQtFyytFtFjORLpvpvpvpvpvLoLoLoLoLoLoLoLoLoLoLoLoLoLoLoLoLoLo
-LoLoLoLoLoLoLoLoLoLoLoLolrQcWIEmWIrMhvlrdydyusnMdyHqftAwdykdnMkdaqaqaqaqaqsTlFaqkKkKkKaqlPsPlPlPlPRLIqanlPlPlPlPlPpvpvpvpvpvLoLoLoLoLoLoLoLoLoLoLoLoLoLoLoLoLoLo
+LoLoLoLoLoLoLoLoLoLoLoLolrQcWIEmVprMhvlrdydyusnMdyHqftAwdykdnMkdaqaqaqaqaqsTlFaqkKkKkKaqlPsPlPlPlPRLIqanlPlPlPlPlPpvpvpvpvpvLoLoLoLoLoLoLoLoLoLoLoLoLoLoLoLoLoLo
 LoLoLoLoLoLoLoLoLoLoLoLolrBUlruQlrlrlrlrdydydydydyMVTXNbdykdnMkdaqxgoZZtaqOhOoaqkKkKkKkKsPRLlPRLRLmwwFanlPlPlPlPlPpvpvpvpvpvLoLoLoLoLoLoLoLoLoLoLoLoLoLoLoLoLoLo
-LoLoLoLoLoLoLoLoLoLoLoLolrQJlrfnywCEhegRnMIzJGJGJGGfKgNbdykdnMkdaqgYkKoZaqkKEzaqlPlPlPlPlPsPlPlPlPlPSqtFyytFtFjORLpvpvpvpvpvLoLoLoLoLoLoLoLoLoLoLoLoLoLoLoLoLoLo
+LoLoLoLoLoLoLoLoLoLoLoLolrQJyXfnywCEhegRnMIzJGJGJGGfKgNbdykdnMkdaqgYkKoZaqkKEzaqlPlPlPlPlPsPlPlPlPlPSqtFyytFtFjORLpvpvpvpvpvLoLoLoLoLoLoLoLoLoLoLoLoLoLoLoLoLoLo
 LoLoLoLoLoLoLoLoLoLoLoLoqUUxlrpVlrlrlrfbdydydyIJdydyaNdyaqaqaqaqaqaqpQaqaqaqawaqlPRLRLRLRLRLRLRLRLlPzmRLlPlPlPlPlPpvpvpvpvpvLoLoLoLoLoLoLoLoLoLoLoLoLoLoLoLoLoLo
 LoLoLoLoLoLoLoLoLoLoLoLolrYdlrcQrpVxstfbdydydynMdyUpufUpaqwzaqyhRAchhOaqqQsTdkkKlPRLRLWwBhBhAKqjRLlPzmlPlPlPlPlPlPpvpvpvpvpvLoLoLoLoLoLoLoLoLoLoLoLoLoLoLoLoLoLo
 LoLoLoLoLoLoLoLoLoLoLoLoLoLolrlrlrxLrdfbdydydynMdynVufflaqkKpQbGaqQabGaqqQsTbGlPlPlPRLAKbgLVBhAKRLlPzmOltFtFtFjORLpvpvpvpvpvLoLoLoLoLoLoLoLoLoLoLoLoLoLoLoLoLoLo
