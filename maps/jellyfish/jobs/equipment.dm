@@ -137,11 +137,11 @@
 /obj/item/pager/proc/receive_flick()
 	addglow("[icon_state]-receive",COLOR_GREEN)
 	if(sounded) playsound(src, 'sound/machines/twobeep.ogg', 20, 0)
-	addtimer(CALLBACK(src, /obj/item/pager/proc/update_icon), 5)
+	addtimer(CALLBACK(src, /atom/proc/update_icon), 5)
 
 /obj/item/pager/proc/broadcast_flick()
 	addglow("[icon_state]-broadcast",COLOR_YELLOW)
-	addtimer(CALLBACK(src, /obj/item/pager/proc/update_icon), 5)
+	addtimer(CALLBACK(src, /atom/proc/update_icon), 5)
 
 /obj/item/pager/verb/reconnect()
 	set name     = "Select Pager Network"
