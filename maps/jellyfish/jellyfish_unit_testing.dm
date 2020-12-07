@@ -9,7 +9,7 @@
 		/area/jelly/civilian    = null,
 		/area/jelly/maint/upper = null,
 		/area/jelly/medical     = null,
-		/area/jelly/cargo/upper = null,
+		/area/jelly/hall        = null,
 		/area/jelly/cargo/lower = null
 	)
 
