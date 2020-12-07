@@ -1,6 +1,7 @@
 //Outfits
 
 /decl/hierarchy/outfit/job/jelly
+	name = "Jellyfish Uniform"
 	gloves   = /obj/item/clothing/gloves/thick
 	uniform  = /obj/item/clothing/under/color/black
 	shoes    = /obj/item/clothing/shoes/jackboots
@@ -8,10 +9,12 @@
 	l_ear    = null
 
 /decl/hierarchy/outfit/job/jelly/eng
+	name = "Jellyfish Uniform - Engineering"
 	belt     = /obj/item/storage/belt/utility/full
 	glasses  = /obj/item/clothing/glasses/welding
 
 /decl/hierarchy/outfit/job/jelly/med
+	name = "Jellyfish Uniform - Medical"
 	belt     = /obj/item/scanner/health
 	glasses  = /obj/item/clothing/glasses/hud/health
 
