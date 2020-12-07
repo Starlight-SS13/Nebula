@@ -6,7 +6,7 @@
 
 /obj/effect/airlock_helper/New()
 	if(!main_id)
-		main_id = "airlock_[pick("a","b","c")][rand(1,999)][rand(1,999)]"
+		main_id = "airlock_[sequential_id(type)]"
 
 	var/obj/machinery/door/airlock/external/bolted/EXT = new()
 	var/obj/machinery/door/airlock/external/bolted/INT = new()
@@ -30,7 +30,7 @@
 		VENT_I.dir    = dir
 		VENT_I.id_tag = "[main_id]_pump_out_internal"
 		EXT.loc = get_step(get_step(src,dir),dir)
-		for(var/obj/machinery/atmospherics/unary/vent_pump/high_volume/external_air/NA in loc.loc.contents)
+		for(var/obj/machinery/atmospherics/unary/vent_pump/high_volume/external_air/NA in range(4,src))
 			if(findtext(NA.id_tag,main_id)) continue
 			NA.id_tag = "[main_id]_pump_out_external"
 

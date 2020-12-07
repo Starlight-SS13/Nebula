@@ -1,16 +1,11 @@
-/datum/map/jellyfish
-	default_law_type        = /datum/ai_laws/asimov
-	default_assistant_title = "Technical Assistant"
+//See jobs/ for job datums, this file contains map def for them
 
+/datum/map/jellyfish
+	default_assistant_title = "Technical Assistant"
 	allowed_jobs = list(
 		/datum/job/assistant,
-		/datum/job/ai,
+		/datum/job/jelly/engine,
+		/datum/job/jelly/medical,
+		/datum/job/jelly/miner,
+		/datum/job/jelly/captain
 	)
-
-/obj/machinery/suit_cycler
-	initial_access = list()
-
-/obj/machinery/suit_cycler/jelly
-	helmet = /obj/item/clothing/head/helmet/space/void/engineering/salvage
-	suit   = /obj/item/clothing/suit/space/void/engineering/salvage
-	boots  = /obj/item/clothing/shoes/magboots

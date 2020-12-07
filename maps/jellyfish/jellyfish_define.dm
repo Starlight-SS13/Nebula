@@ -42,7 +42,7 @@
 
 If you are changing this map, please follow these simple rules: (for my own sanity!)
 
- - Pixel offsets(pixel_x,pixel_y) are only: 24 (ONLY 24, FOR ALL THE THINGS.)
+ - Pixel offsets(pixel_x,pixel_y) are only: 24 (ONLY 24, FOR ALL THE THINGS. Yes, i know that offset for APCs is autoset to 22.)
  - DO NOT USE MANUAL AIRLOCK MAPPING, use helpers
  - Do not make/use/create trash instances which/and/or values are default, or have something like {pixel_y = 1, icon_state = "cable"}, PLAEEEEEEEEEEEEEEEEEEEASE.
  - Do not change pixel offsets for air alarms, apcs, fire alarms, etc, objs which generate it from dir
