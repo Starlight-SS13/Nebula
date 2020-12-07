@@ -48,7 +48,7 @@
 /obj/machinery/power/smes/buildable/jellyfish
 	uncreated_component_parts = list(
 		/obj/item/stock_parts/smes_coil/super_io = 2,
-		/obj/item/stock_parts/smes_coil/super_capacity = 4)
+		/obj/item/stock_parts/smes_coil/super_capacity = 2)
 
 //fusion engines, they was bugged
 /obj/machinery/atmospherics/unary/engine/fusion/Initialize()

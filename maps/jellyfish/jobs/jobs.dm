@@ -33,6 +33,7 @@
 /datum/job/jelly
 	skill_points = 24
 	supervisors = "your captain"
+	hud_icon = "hudblank"
 	outfit_type  = /decl/hierarchy/outfit/job/jelly
 
 /datum/job/jelly/engine
