@@ -9,6 +9,9 @@
 	if(!main_id)
 		main_id = "airlock_[sequential_id(type)]"
 
+	for(var/obj/machinery/atmospherics/pipe/cap/CAP in range(src,3))
+		qdel(CAP)
+
 	var/obj/machinery/door/airlock/external/bolted/EXT = new()
 	var/obj/machinery/door/airlock/external/bolted/INT = new()
 	var/backdir = GLOB.reverse_dir[dir]

@@ -2,16 +2,17 @@
 "aa" = (
 /turf/space,
 /area/space)
-"ae" = (
-/obj/structure/railing/mapped{
-	dir = 8
-	},
-/obj/structure/railing/mapped{
+"ad" = (
+/obj/machinery/atmospherics/pipe/cap/visible{
 	dir = 4
 	},
-/obj/machinery/pointdefense_control{
-	initial_id_tag = "catfish"
-	},
+/turf/simulated/floor/plating,
+/area/jelly/shuttle/catfish)
+"aw" = (
+/obj/structure/table/standard,
+/obj/random/drinkingglass,
+/obj/random/drinkingglass,
+/obj/random/drinkbottle,
 /turf/simulated/floor/plating,
 /area/jelly/shuttle/catfish)
 "aB" = (
@@ -26,30 +27,23 @@
 	},
 /turf/simulated/floor/plating,
 /area/jelly/cargo/lower)
-"aP" = (
-/obj/machinery/computer/ship/helm{
-	dir = 4
-	},
-/obj/machinery/light/small{
-	dir = 8
-	},
-/turf/simulated/floor/plating,
-/area/jelly/shuttle/galileo)
-"aZ" = (
+"aY" = (
 /obj/structure/cable/green{
 	icon_state = "1-2"
 	},
-/obj/machinery/door/airlock/hatch/jelly,
-/obj/machinery/door/blast/regular{
-	id_tag = "catfish_rads"
+/obj/structure/catwalk,
+/obj/effect/overmap/visitable/ship/landable/shuttle/catfish,
+/obj/effect/shuttle_landmark/jelly/dock_catfish,
+/obj/machinery/atmospherics/pipe/simple/visible/scrubbers,
+/turf/simulated/floor/plating,
+/area/jelly/shuttle/catfish)
+"br" = (
+/obj/effect/airlock_helper/shuttle/catfish{
+	dir = 4
 	},
-/turf/simulated/floor/reinforced,
-/area/jelly/shuttle/catfish)
-"bj" = (
-/turf/simulated/wall/r_wall/prepainted,
-/area/jelly/shuttle/catfish)
-"bk" = (
-/obj/machinery/computer/shuttle_control/explore/catfish,
+/obj/machinery/atmospherics/pipe/cap/visible{
+	dir = 8
+	},
 /turf/simulated/floor/plating,
 /area/jelly/shuttle/catfish)
 "bC" = (
@@ -59,12 +53,6 @@
 /obj/machinery/door/airlock/hatch/jelly,
 /turf/simulated/floor/plating,
 /area/jelly/engine)
-"bE" = (
-/obj/machinery/ion_thruster{
-	dir = 1
-	},
-/turf/simulated/floor/airless,
-/area/jelly/shuttle/galileo)
 "bF" = (
 /obj/machinery/light{
 	dir = 4
@@ -80,12 +68,29 @@
 	},
 /turf/simulated/floor/tiled/dark/monotile,
 /area/jelly/cargo/lower)
+"bG" = (
+/obj/machinery/ion_thruster{
+	dir = 8
+	},
+/turf/simulated/floor/airless,
+/area/jelly/shuttle/catfish)
 "bL" = (
 /obj/structure/ladder,
 /turf/simulated/floor/plating,
 /area/jelly/cargo/lower)
-"cb" = (
+"cc" = (
+/obj/machinery/atmospherics/pipe/manifold/visible{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/visible/scrubbers{
+	dir = 5
+	},
+/obj/structure/catwalk,
 /turf/simulated/floor/plating,
+/area/jelly/shuttle/catfish)
+"cf" = (
+/obj/machinery/shipsensors/weak,
+/turf/simulated/floor/reinforced/airless,
 /area/jelly/shuttle/catfish)
 "cg" = (
 /obj/machinery/atmospherics/pipe/manifold/visible/fuel{
@@ -117,10 +122,6 @@
 	},
 /turf/simulated/floor/plating,
 /area/jelly/engine)
-"cv" = (
-/obj/machinery/computer/ship/helm,
-/turf/simulated/floor/plating,
-/area/jelly/shuttle/catfish)
 "cB" = (
 /obj/machinery/atmospherics/pipe/manifold/visible/fuel{
 	dir = 4
@@ -141,16 +142,15 @@
 	},
 /turf/simulated/floor/plating,
 /area/jelly/engine)
-"cN" = (
-/obj/item/pickaxe/drill,
-/obj/item/pickaxe/drill,
-/obj/item/pickaxe/drill,
-/obj/structure/table/rack,
-/obj/item/storage/ore,
-/obj/item/storage/ore,
-/obj/item/storage/ore,
-/obj/item/storage/ore,
-/turf/simulated/floor/reinforced,
+"dl" = (
+/obj/machinery/atmospherics/portables_connector{
+	dir = 4
+	},
+/obj/machinery/portable_atmospherics/canister/carbon_dioxide,
+/obj/machinery/atmospherics/pipe/simple/visible/scrubbers{
+	dir = 4
+	},
+/turf/simulated/floor/plating,
 /area/jelly/shuttle/catfish)
 "do" = (
 /obj/machinery/atmospherics/pipe/manifold/visible/fuel{
@@ -158,13 +158,6 @@
 	},
 /turf/simulated/floor/plating,
 /area/jelly/engine/propulsion/aux_port)
-"du" = (
-/obj/machinery/atmospherics/portables_connector{
-	dir = 8
-	},
-/obj/machinery/portable_atmospherics/canister/empty/carbon_dioxide,
-/turf/simulated/floor/plating,
-/area/jelly/shuttle/catfish)
 "dz" = (
 /obj/machinery/light{
 	dir = 4
@@ -181,12 +174,45 @@
 	},
 /turf/simulated/floor/plating,
 /area/jelly/engine)
-"eD" = (
-/obj/machinery/atmospherics/portables_connector{
-	dir = 1
+"dO" = (
+/obj/structure/cable/green{
+	icon_state = "1-2"
 	},
-/obj/machinery/portable_atmospherics/canister/air,
+/obj/machinery/door/airlock/hatch/jelly,
+/obj/machinery/door/blast/regular{
+	id_tag = "catfish_rads"
+	},
+/turf/simulated/floor/reinforced,
+/area/jelly/shuttle/catfish)
+"dQ" = (
+/obj/machinery/atmospherics/pipe/simple/visible{
+	dir = 4
+	},
+/obj/structure/cable/green{
+	icon_state = "4-8"
+	},
 /turf/simulated/floor/plating,
+/area/jelly/shuttle/galileo)
+"eJ" = (
+/obj/structure/closet/crate/radiation,
+/obj/item/stack/material/uranium/ten,
+/obj/item/stack/material/uranium/ten,
+/obj/item/stack/material/uranium/ten,
+/obj/item/stack/material/uranium/ten,
+/obj/item/stack/material/uranium/ten,
+/turf/simulated/floor/reinforced,
+/area/jelly/shuttle/catfish)
+"eO" = (
+/obj/machinery/atmospherics/pipe/simple/visible,
+/obj/machinery/atmospherics/unary/outlet_injector{
+	dir = 4;
+	icon_state = "map_injector";
+	use_power = 1
+	},
+/obj/machinery/ion_thruster{
+	dir = 4
+	},
+/turf/simulated/floor/airless,
 /area/jelly/shuttle/catfish)
 "eT" = (
 /obj/item/radio_beacon,
@@ -210,6 +236,17 @@
 "eZ" = (
 /turf/simulated/floor/plating,
 /area/jelly/engine/propulsion/aux_star)
+"fa" = (
+/obj/structure/grille/broken,
+/turf/simulated/floor/reinforced/airless,
+/area/jelly/shuttle/catfish)
+"fD" = (
+/obj/machinery/atmospherics/pipe/simple/visible,
+/obj/machinery/atmospherics/pipe/simple/visible/scrubbers,
+/obj/structure/catwalk,
+/obj/machinery/door/airlock/hatch/jelly,
+/turf/simulated/floor/plating,
+/area/jelly/shuttle/catfish)
 "fH" = (
 /obj/structure/cable/green{
 	icon_state = "1-2"
@@ -217,6 +254,17 @@
 /obj/machinery/atmospherics/pipe/manifold4w/hidden/scrubbers,
 /turf/simulated/floor/tiled/dark/monotile,
 /area/jelly/cargo/lower)
+"fM" = (
+/obj/structure/catwalk,
+/obj/machinery/atmospherics/pipe/simple/visible/scrubbers{
+	dir = 4
+	},
+/turf/simulated/floor/plating,
+/area/jelly/shuttle/catfish)
+"fR" = (
+/obj/machinery/computer/ship/sensors,
+/turf/simulated/floor/plating,
+/area/jelly/shuttle/catfish)
 "fZ" = (
 /obj/structure/cable/green{
 	icon_state = "1-2"
@@ -229,10 +277,19 @@
 	},
 /turf/simulated/floor/plating,
 /area/jelly/cargo/lower)
-"gk" = (
-/obj/machinery/shipsensors/weak,
-/turf/simulated/floor/reinforced/airless,
+"gc" = (
+/obj/machinery/atmospherics/binary/pump/high_power,
+/turf/simulated/floor/plating,
 /area/jelly/shuttle/catfish)
+"gh" = (
+/obj/machinery/atmospherics/pipe/simple/visible/scrubbers,
+/obj/structure/cable/green{
+	icon_state = "1-2"
+	},
+/obj/structure/catwalk,
+/obj/machinery/door/airlock/hatch/jelly,
+/turf/simulated/floor/plating,
+/area/jelly/shuttle/galileo)
 "gH" = (
 /obj/machinery/computer/fusion/core_control{
 	dir = 4;
@@ -243,12 +300,12 @@
 	},
 /turf/simulated/floor/tiled/dark/monotile,
 /area/jelly/engine)
-"gU" = (
-/obj/machinery/atmospherics/pipe/simple/visible{
-	dir = 4
-	},
+"gT" = (
 /obj/structure/cable/green{
 	icon_state = "4-8"
+	},
+/obj/machinery/atmospherics/pipe/cap/visible{
+	dir = 8
 	},
 /turf/simulated/floor/plating,
 /area/jelly/shuttle/galileo)
@@ -266,6 +323,10 @@
 /obj/structure/reagent_dispensers/fueltank,
 /turf/simulated/floor/plating,
 /area/jelly/star_storage)
+"hv" = (
+/obj/structure/catwalk,
+/turf/simulated/floor/plating,
+/area/jelly/shuttle/catfish)
 "hG" = (
 /obj/machinery/atmospherics/pipe/simple/visible/fuel,
 /obj/structure/cable{
@@ -273,10 +334,6 @@
 	},
 /turf/simulated/floor/tiled/dark,
 /area/jelly/engine)
-"hN" = (
-/obj/machinery/computer/shuttle_control/explore/galileo,
-/turf/simulated/floor/plating,
-/area/jelly/shuttle/galileo)
 "hS" = (
 /obj/machinery/atmospherics/unary/vent_pump/on{
 	dir = 8
@@ -287,18 +344,18 @@
 /obj/machinery/atmospherics/pipe/manifold4w/visible/fuel,
 /turf/simulated/floor/plating,
 /area/jelly/engine/propulsion/aux_star)
+"ih" = (
+/obj/machinery/atmospherics/pipe/simple/visible/universal{
+	dir = 4
+	},
+/turf/simulated/wall/r_wall/prepainted,
+/area/jelly/shuttle/catfish)
 "iw" = (
 /obj/effect/floor_decal/industrial/warning/corner{
 	dir = 8
 	},
 /turf/simulated/floor/tiled/dark/monotile,
 /area/jelly/cargo/lower)
-"iC" = (
-/obj/machinery/atmospherics/pipe/simple/visible{
-	dir = 10
-	},
-/turf/simulated/floor/plating,
-/area/jelly/shuttle/catfish)
 "iI" = (
 /obj/machinery/portable_atmospherics/canister/hydrogen,
 /turf/simulated/floor/reinforced,
@@ -306,15 +363,6 @@
 "iR" = (
 /turf/simulated/wall/r_wall/prepainted,
 /area/jelly/engine/propulsion/aux_star)
-"jd" = (
-/obj/structure/closet/crate/radiation,
-/obj/item/stack/material/uranium/ten,
-/obj/item/stack/material/uranium/ten,
-/obj/item/stack/material/uranium/ten,
-/obj/item/stack/material/uranium/ten,
-/obj/item/stack/material/uranium/ten,
-/turf/simulated/floor/reinforced,
-/area/jelly/shuttle/catfish)
 "jm" = (
 /obj/machinery/portable_atmospherics/canister/hydrogen,
 /obj/machinery/atmospherics/unary/vent_pump/on{
@@ -328,23 +376,6 @@
 	},
 /turf/simulated/floor/reinforced,
 /area/jelly/cargo/lower)
-"jD" = (
-/obj/machinery/atmospherics/unary/vent_pump/high_volume/external_air{
-	dir = 1
-	},
-/obj/machinery/ion_thruster{
-	dir = 4
-	},
-/turf/simulated/floor/airless,
-/area/jelly/shuttle/galileo)
-"jS" = (
-/obj/machinery/power/terminal,
-/obj/structure/cable/green{
-	icon_state = "0-4"
-	},
-/obj/structure/catwalk,
-/turf/simulated/floor/plating,
-/area/jelly/shuttle/galileo)
 "jV" = (
 /obj/machinery/portable_atmospherics/canister/hydrogen,
 /obj/machinery/light{
@@ -352,12 +383,9 @@
 	},
 /turf/simulated/floor/tiled/dark/monotile,
 /area/jelly/engine)
-"kv" = (
-/obj/machinery/atmospherics/pipe/simple/visible,
-/obj/machinery/atmospherics/pipe/simple/visible/scrubbers,
-/obj/structure/catwalk,
-/turf/simulated/floor/plating,
-/area/jelly/shuttle/catfish)
+"ko" = (
+/turf/simulated/wall/r_titanium,
+/area/jelly/shuttle/galileo)
 "kJ" = (
 /obj/structure/cable/green{
 	icon_state = "4-8"
@@ -380,27 +408,32 @@
 	},
 /turf/simulated/floor/plating,
 /area/jelly/engine)
-"li" = (
-/obj/machinery/power/port_gen/pacman/super/potato,
-/obj/structure/cable/green,
-/turf/simulated/floor/reinforced,
-/area/jelly/shuttle/catfish)
+"lo" = (
+/obj/machinery/computer/ship/helm{
+	dir = 4
+	},
+/obj/machinery/light/small{
+	dir = 8
+	},
+/turf/simulated/floor/plating,
+/area/jelly/shuttle/galileo)
 "lq" = (
 /obj/machinery/light{
 	dir = 1
 	},
 /turf/simulated/floor/reinforced,
 /area/jelly/cargo/lower)
-"lz" = (
-/obj/structure/cable/green{
-	icon_state = "1-2"
+"lw" = (
+/obj/machinery/atmospherics/pipe/simple/visible{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/visible/scrubbers{
+	dir = 4
 	},
 /obj/structure/catwalk,
-/obj/machinery/atmospherics/pipe/simple/visible/scrubbers{
-	dir = 9
-	},
+/obj/machinery/door/airlock/hatch/jelly,
 /turf/simulated/floor/plating,
-/area/jelly/shuttle/catfish)
+/area/jelly/shuttle/galileo)
 "lE" = (
 /obj/structure/cable/green{
 	icon_state = "0-2"
@@ -418,6 +451,10 @@
 "lX" = (
 /turf/simulated/floor/reinforced,
 /area/jelly/cargo/lower)
+"lY" = (
+/obj/machinery/computer/ship/engines,
+/turf/simulated/floor/plating,
+/area/jelly/shuttle/catfish)
 "mf" = (
 /obj/item/radio_beacon,
 /obj/item/radio_beacon,
@@ -429,16 +466,6 @@
 /obj/random/tool,
 /turf/simulated/floor/plating,
 /area/jelly/cargo/lower)
-"mh" = (
-/obj/machinery/atmospherics/pipe/manifold/visible{
-	dir = 4
-	},
-/obj/machinery/atmospherics/pipe/manifold/visible/scrubbers{
-	dir = 1
-	},
-/obj/structure/catwalk,
-/turf/simulated/floor/plating,
-/area/jelly/shuttle/galileo)
 "mj" = (
 /obj/structure/ore_box,
 /turf/simulated/floor/reinforced,
@@ -456,10 +483,9 @@
 /obj/machinery/door/airlock/hatch/jelly,
 /turf/simulated/floor/plating,
 /area/jelly/engine)
-"mt" = (
-/obj/effect/airlock_helper/shuttle/catfish{
-	dir = 8;
-	main_id = "catfish_airlock_aux"
+"mC" = (
+/obj/machinery/atmospherics/pipe/simple/visible{
+	dir = 10
 	},
 /turf/simulated/floor/plating,
 /area/jelly/shuttle/catfish)
@@ -467,23 +493,19 @@
 /obj/machinery/portable_atmospherics/canister/carbon_dioxide,
 /turf/simulated/floor/reinforced,
 /area/jelly/cargo/lower)
-"nb" = (
-/obj/machinery/button/blast_door{
-	id_tag = "catfish_rads";
-	name = "radshields";
-	pixel_y = -24
-	},
-/obj/structure/catwalk,
-/obj/random/tool,
-/obj/random/tool,
-/turf/simulated/floor/plating,
-/area/jelly/shuttle/catfish)
 "nh" = (
 /obj/machinery/computer/ship/engines{
 	dir = 1
 	},
 /turf/simulated/floor/tiled/dark,
 /area/jelly/engine)
+"nn" = (
+/obj/structure/catwalk,
+/obj/machinery/alarm{
+	dir = 1
+	},
+/turf/simulated/floor/plating,
+/area/jelly/shuttle/catfish)
 "no" = (
 /obj/structure/cable/green{
 	icon_state = "1-4"
@@ -493,6 +515,12 @@
 	},
 /turf/simulated/floor/tiled/dark/monotile,
 /area/jelly/cargo/lower)
+"np" = (
+/obj/machinery/atmospherics/pipe/manifold/visible/fuel{
+	dir = 8
+	},
+/turf/simulated/floor/plating,
+/area/jelly/shuttle/catfish)
 "nt" = (
 /obj/machinery/atmospherics/pipe/simple/visible/fuel{
 	dir = 4
@@ -505,16 +533,6 @@
 "nz" = (
 /turf/simulated/wall/r_wall/prepainted,
 /area/jelly/cargo/lower)
-"nV" = (
-/obj/machinery/atmospherics/portables_connector{
-	dir = 4
-	},
-/obj/machinery/portable_atmospherics/canister/carbon_dioxide,
-/obj/machinery/atmospherics/pipe/simple/visible/scrubbers{
-	dir = 4
-	},
-/turf/simulated/floor/plating,
-/area/jelly/shuttle/catfish)
 "oa" = (
 /obj/machinery/atmospherics/binary/passive_gate{
 	dir = 8
@@ -531,29 +549,31 @@
 	},
 /turf/simulated/floor/plating,
 /area/turbolift/jelly_lower)
-"ol" = (
-/obj/machinery/atmospherics/pipe/manifold/visible/fuel{
+"oj" = (
+/obj/machinery/atmospherics/pipe/simple/visible/universal,
+/turf/simulated/wall/r_titanium,
+/area/jelly/shuttle/galileo)
+"oo" = (
+/obj/machinery/atmospherics/pipe/simple/visible/scrubbers{
+	dir = 9
+	},
+/obj/machinery/light_switch{
+	pixel_x = 24
+	},
+/obj/structure/bed/chair/shuttle/black{
 	dir = 8
 	},
+/turf/simulated/floor/plating,
+/area/jelly/shuttle/galileo)
+"or" = (
+/obj/machinery/atmospherics/pipe/simple/visible,
+/obj/machinery/atmospherics/pipe/simple/visible/scrubbers,
+/obj/structure/catwalk,
 /turf/simulated/floor/plating,
 /area/jelly/shuttle/catfish)
 "ot" = (
 /turf/simulated/floor/plating,
 /area/turbolift/jelly_lower)
-"ox" = (
-/obj/structure/cable/green{
-	icon_state = "0-2"
-	},
-/obj/machinery/power/apc/hyper{
-	dir = 1;
-	emp_hardened = 1
-	},
-/obj/structure/catwalk,
-/obj/machinery/atmospherics/pipe/simple/visible/scrubbers{
-	dir = 10
-	},
-/turf/simulated/floor/plating,
-/area/jelly/shuttle/catfish)
 "oG" = (
 /obj/machinery/light{
 	dir = 8
@@ -567,22 +587,6 @@
 /obj/item/stack/material/steel/fifty,
 /turf/simulated/floor/reinforced,
 /area/jelly/cargo/lower)
-"oU" = (
-/obj/machinery/atmospherics/pipe/simple/visible/universal{
-	dir = 4
-	},
-/turf/simulated/wall/r_wall/prepainted,
-/area/jelly/shuttle/catfish)
-"oW" = (
-/obj/machinery/network/relay,
-/obj/structure/railing/mapped{
-	dir = 8
-	},
-/obj/structure/railing/mapped{
-	dir = 4
-	},
-/turf/simulated/floor/plating,
-/area/jelly/shuttle/catfish)
 "oX" = (
 /obj/machinery/atmospherics/binary/passive_gate{
 	dir = 4
@@ -597,41 +601,11 @@
 /obj/machinery/atmospherics/portables_connector,
 /turf/simulated/floor/plating,
 /area/jelly/cargo/lower)
-"pr" = (
-/obj/machinery/atmospherics/pipe/simple/visible,
-/obj/machinery/atmospherics/pipe/simple/visible/scrubbers,
-/obj/structure/catwalk,
+"pF" = (
+/obj/machinery/atmospherics/pipe/simple/visible/fuel,
 /obj/machinery/door/airlock/hatch/jelly,
 /turf/simulated/floor/plating,
-/area/jelly/shuttle/galileo)
-"pK" = (
-/obj/structure/cable/green{
-	icon_state = "4-8"
-	},
-/turf/simulated/floor/plating,
-/area/jelly/shuttle/galileo)
-"pM" = (
-/obj/structure/cable/green{
-	icon_state = "1-2"
-	},
-/obj/structure/catwalk,
-/obj/effect/overmap/visitable/ship/landable/shuttle/catfish,
-/obj/effect/shuttle_landmark/jelly/dock_catfish,
-/obj/machinery/atmospherics/pipe/simple/visible/scrubbers,
-/turf/simulated/floor/plating,
 /area/jelly/shuttle/catfish)
-"qc" = (
-/obj/machinery/atmospherics/pipe/simple/visible/scrubbers{
-	dir = 9
-	},
-/obj/machinery/light_switch{
-	pixel_x = 24
-	},
-/obj/structure/bed/chair/shuttle/black{
-	dir = 8
-	},
-/turf/simulated/floor/plating,
-/area/jelly/shuttle/galileo)
 "qd" = (
 /obj/machinery/atmospherics/pipe/simple/visible/fuel,
 /obj/machinery/atmospherics/binary/pump{
@@ -647,12 +621,6 @@
 	},
 /turf/simulated/floor/plating,
 /area/jelly/engine)
-"qM" = (
-/obj/machinery/atmospherics/pipe/manifold/visible/fuel{
-	dir = 1
-	},
-/turf/simulated/floor/plating,
-/area/jelly/shuttle/catfish)
 "qR" = (
 /obj/machinery/fabricator/pipe,
 /obj/machinery/light/small{
@@ -668,10 +636,6 @@
 	},
 /turf/simulated/floor/reinforced/airless,
 /area/jelly/engine)
-"ra" = (
-/obj/structure/grille,
-/turf/simulated/floor/reinforced/airless,
-/area/jelly/shuttle/catfish)
 "rd" = (
 /turf/simulated/floor/plating,
 /area/jelly/star_storage)
@@ -679,17 +643,6 @@
 /obj/machinery/portable_atmospherics/canister/hydrogen,
 /turf/simulated/floor/tiled/dark/monotile,
 /area/jelly/engine)
-"ro" = (
-/obj/machinery/network/relay,
-/obj/machinery/atmospherics/pipe/simple/visible/scrubbers,
-/turf/simulated/floor/plating,
-/area/jelly/shuttle/galileo)
-"rt" = (
-/obj/machinery/ion_thruster{
-	dir = 4
-	},
-/turf/simulated/floor/airless,
-/area/jelly/shuttle/galileo)
 "ru" = (
 /obj/structure/cable/green{
 	icon_state = "2-8"
@@ -703,6 +656,12 @@
 /obj/structure/closet/crate/freezer,
 /turf/simulated/floor/reinforced,
 /area/jelly/cargo/lower)
+"rx" = (
+/obj/structure/cable/green{
+	icon_state = "1-4"
+	},
+/turf/simulated/floor/plating,
+/area/jelly/shuttle/galileo)
 "rG" = (
 /obj/structure/cable/green{
 	icon_state = "4-8"
@@ -724,34 +683,10 @@
 	},
 /turf/simulated/floor/tiled/dark/monotile,
 /area/jelly/engine)
-"rX" = (
-/obj/machinery/atmospherics/pipe/simple/visible{
-	dir = 4
-	},
-/turf/simulated/floor/plating,
-/area/jelly/shuttle/catfish)
-"sd" = (
-/obj/machinery/atmospherics/unary/engine{
-	dir = 1
-	},
-/obj/structure/window/borosilicate_reinforced{
-	dir = 1
-	},
-/turf/simulated/floor/plating,
-/area/jelly/shuttle/catfish)
-"sh" = (
-/obj/machinery/atmospherics/portables_connector{
-	dir = 8
-	},
-/turf/simulated/floor/plating,
-/area/jelly/shuttle/catfish)
-"sl" = (
+"rO" = (
 /obj/machinery/atmospherics/pipe/simple/visible,
-/obj/machinery/atmospherics/pipe/simple/visible/scrubbers,
-/obj/structure/catwalk,
-/obj/machinery/door/airlock/hatch/jelly,
-/turf/simulated/floor/plating,
-/area/jelly/shuttle/catfish)
+/turf/simulated/wall/r_titanium,
+/area/jelly/shuttle/galileo)
 "sn" = (
 /obj/structure/closet/crate/radiation,
 /obj/item/stack/material/deuterium/fifty,
@@ -771,20 +706,6 @@
 	},
 /turf/simulated/floor/reinforced/airless,
 /area/jelly/engine)
-"su" = (
-/turf/simulated/floor/reinforced/airless,
-/area/jelly/shuttle/catfish)
-"sy" = (
-/obj/machinery/computer/ship/sensors,
-/turf/simulated/floor/plating,
-/area/jelly/shuttle/galileo)
-"sz" = (
-/obj/structure/catwalk,
-/obj/machinery/atmospherics/pipe/simple/visible/scrubbers{
-	dir = 4
-	},
-/turf/simulated/floor/plating,
-/area/jelly/shuttle/catfish)
 "sL" = (
 /obj/structure/cable{
 	icon_state = "1-4"
@@ -801,6 +722,13 @@
 /obj/machinery/network/relay,
 /turf/simulated/floor/plating,
 /area/jelly/engine/propulsion/aux_port)
+"tn" = (
+/obj/machinery/atmospherics/pipe/simple/visible,
+/obj/machinery/atmospherics/pipe/simple/visible/scrubbers,
+/obj/structure/catwalk,
+/obj/machinery/door/airlock/hatch/jelly,
+/turf/simulated/floor/plating,
+/area/jelly/shuttle/galileo)
 "tp" = (
 /obj/structure/ladder,
 /turf/simulated/floor/plating,
@@ -817,13 +745,11 @@
 /obj/random/clothing,
 /turf/simulated/floor/reinforced,
 /area/jelly/cargo/lower)
-"tG" = (
-/obj/structure/catwalk,
-/obj/machinery/light_switch{
-	pixel_y = -24
-	},
+"tF" = (
+/obj/machinery/network/relay,
+/obj/machinery/atmospherics/pipe/simple/visible/scrubbers,
 /turf/simulated/floor/plating,
-/area/jelly/shuttle/catfish)
+/area/jelly/shuttle/galileo)
 "tH" = (
 /obj/machinery/atmospherics/pipe/manifold4w/visible/fuel,
 /turf/simulated/floor/plating,
@@ -850,20 +776,20 @@
 /turf/simulated/floor/plating,
 /area/jelly/port_storage)
 "um" = (
-/obj/machinery/atmospherics/unary/vent_pump/high_volume/external_air{
-	dir = 1
-	},
-/obj/machinery/ion_thruster{
-	dir = 1
-	},
-/turf/simulated/floor/airless,
-/area/jelly/shuttle/catfish)
-"uy" = (
-/obj/machinery/atmospherics/pipe/manifold/visible{
+/obj/machinery/atmospherics/pipe/simple/visible/scrubbers{
 	dir = 4
 	},
+/obj/structure/catwalk,
+/obj/machinery/light/small,
+/turf/simulated/floor/plating,
+/area/jelly/shuttle/catfish)
+"un" = (
+/obj/structure/bed/chair/shuttle/black{
+	dir = 1
+	},
+/obj/machinery/atmospherics/unary/vent_pump/on,
 /obj/machinery/atmospherics/pipe/simple/visible/scrubbers{
-	dir = 5
+	dir = 6
 	},
 /obj/structure/catwalk,
 /turf/simulated/floor/plating,
@@ -878,6 +804,10 @@
 	},
 /turf/simulated/floor/plating,
 /area/jelly/engine)
+"va" = (
+/obj/machinery/computer/ship/helm,
+/turf/simulated/floor/plating,
+/area/jelly/shuttle/catfish)
 "vp" = (
 /obj/structure/reagent_dispensers/watertank,
 /turf/simulated/floor/plating,
@@ -891,22 +821,9 @@
 	},
 /turf/simulated/floor/tiled/dark/monotile,
 /area/jelly/cargo/lower)
-"vy" = (
-/obj/structure/catwalk,
-/obj/machinery/alarm{
-	dir = 1
-	},
-/turf/simulated/floor/plating,
-/area/jelly/shuttle/catfish)
 "vG" = (
 /turf/simulated/wall/r_wall/prepainted,
 /area/jelly/engine/propulsion/aux_port)
-"vM" = (
-/obj/structure/cable/green{
-	icon_state = "1-4"
-	},
-/turf/simulated/floor/plating,
-/area/jelly/shuttle/galileo)
 "vR" = (
 /obj/structure/window/borosilicate_reinforced{
 	dir = 8
@@ -927,18 +844,8 @@
 /turf/simulated/floor/reinforced,
 /area/jelly/cargo/lower)
 "wh" = (
-/obj/structure/bed/chair/shuttle/black{
-	dir = 1
-	},
-/obj/machinery/atmospherics/unary/vent_scrubber/on{
-	dir = 8
-	},
-/obj/structure/catwalk,
-/turf/simulated/floor/plating,
-/area/jelly/shuttle/catfish)
-"wj" = (
-/obj/machinery/atmospherics/pipe/manifold/visible/fuel{
-	dir = 4
+/obj/machinery/atmospherics/pipe/simple/visible/fuel{
+	dir = 5
 	},
 /turf/simulated/floor/plating,
 /area/jelly/shuttle/catfish)
@@ -993,23 +900,9 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
 /turf/simulated/floor/plating,
 /area/jelly/cargo/lower)
-"xv" = (
-/turf/simulated/floor/reinforced,
-/area/jelly/shuttle/catfish)
-"xF" = (
+"xO" = (
 /obj/machinery/atmospherics/pipe/simple/visible{
-	dir = 4
-	},
-/obj/machinery/atmospherics/pipe/simple/visible/scrubbers{
-	dir = 4
-	},
-/obj/structure/catwalk,
-/obj/machinery/door/airlock/hatch/jelly,
-/turf/simulated/floor/plating,
-/area/jelly/shuttle/galileo)
-"xI" = (
-/obj/effect/airlock_helper/shuttle/catfish{
-	dir = 4
+	dir = 6
 	},
 /turf/simulated/floor/plating,
 /area/jelly/shuttle/catfish)
@@ -1022,6 +915,17 @@
 /obj/machinery/meter,
 /turf/simulated/floor/plating,
 /area/jelly/engine)
+"xR" = (
+/obj/item/pickaxe/drill,
+/obj/item/pickaxe/drill,
+/obj/item/pickaxe/drill,
+/obj/structure/table/rack,
+/obj/item/storage/ore,
+/obj/item/storage/ore,
+/obj/item/storage/ore,
+/obj/item/storage/ore,
+/turf/simulated/floor/reinforced,
+/area/jelly/shuttle/catfish)
 "xW" = (
 /obj/machinery/portable_atmospherics/canister/oxygen,
 /turf/simulated/floor/plating,
@@ -1045,6 +949,23 @@
 /obj/structure/mattress/dirty,
 /turf/simulated/floor/plating,
 /area/jelly/star_storage)
+"yq" = (
+/obj/structure/catwalk,
+/obj/machinery/light_switch{
+	pixel_y = -24
+	},
+/turf/simulated/floor/plating,
+/area/jelly/shuttle/catfish)
+"yr" = (
+/obj/structure/bed/chair/shuttle/black{
+	dir = 1
+	},
+/obj/machinery/atmospherics/unary/vent_scrubber/on{
+	dir = 8
+	},
+/obj/structure/catwalk,
+/turf/simulated/floor/plating,
+/area/jelly/shuttle/catfish)
 "yv" = (
 /obj/machinery/door/airlock/hatch/jelly,
 /turf/simulated/floor/plating,
@@ -1053,23 +974,47 @@
 /obj/machinery/portable_atmospherics/canister/hydrogen,
 /turf/simulated/floor/plating,
 /area/jelly/engine/propulsion/aux_star)
-"yD" = (
-/obj/machinery/atmospherics/unary/vent_pump/on,
-/obj/machinery/alarm{
+"yY" = (
+/turf/simulated/wall/r_wall/prepainted,
+/area/jelly/shuttle/catfish)
+"yZ" = (
+/obj/machinery/atmospherics/pipe/simple/visible,
+/obj/machinery/ion_thruster{
 	dir = 8
 	},
+/turf/simulated/floor/airless,
+/area/jelly/shuttle/catfish)
+"zj" = (
+/obj/machinery/atmospherics/pipe/simple/visible{
+	dir = 5
+	},
+/obj/machinery/atmospherics/unary/vent_scrubber/on{
+	dir = 4
+	},
 /obj/structure/catwalk,
+/obj/structure/bed/chair/shuttle/black{
+	dir = 8
+	},
 /turf/simulated/floor/plating,
 /area/jelly/shuttle/galileo)
-"yR" = (
-/obj/machinery/power/smes/buildable/preset{
-	_fully_charged = 1;
-	_output_maxed = 1;
-	_output_on = 1
+"zA" = (
+/obj/machinery/network/relay,
+/obj/structure/railing/mapped{
+	dir = 8
 	},
-/obj/structure/cable/green{
-	icon_state = "0-8"
+/obj/structure/railing/mapped{
+	dir = 4
 	},
+/turf/simulated/floor/plating,
+/area/jelly/shuttle/catfish)
+"zJ" = (
+/obj/machinery/atmospherics/pipe/manifold/visible{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/manifold/visible/scrubbers{
+	dir = 1
+	},
+/obj/structure/catwalk,
 /turf/simulated/floor/plating,
 /area/jelly/shuttle/galileo)
 "zK" = (
@@ -1088,9 +1033,9 @@
 /obj/item/stack/material/rods/fifty,
 /turf/simulated/floor/reinforced,
 /area/jelly/cargo/lower)
-"Ao" = (
-/turf/simulated/wall/r_titanium,
-/area/jelly/shuttle/galileo)
+"Am" = (
+/turf/simulated/floor/reinforced,
+/area/jelly/shuttle/catfish)
 "Ax" = (
 /obj/machinery/atmospherics/unary/engine/fusion{
 	dir = 1
@@ -1101,15 +1046,15 @@
 /obj/structure/reagent_dispensers/fueltank,
 /turf/simulated/floor/plating,
 /area/jelly/port_storage)
-"AS" = (
-/obj/machinery/atmospherics/pipe/simple/visible/fuel{
-	dir = 5
-	},
-/turf/simulated/floor/plating,
-/area/jelly/shuttle/catfish)
 "AV" = (
 /turf/simulated/floor/tiled/dark/monotile,
 /area/jelly/cargo/lower)
+"AY" = (
+/obj/machinery/atmospherics/portables_connector{
+	dir = 8
+	},
+/turf/simulated/floor/plating,
+/area/jelly/shuttle/catfish)
 "Bl" = (
 /obj/random/closet,
 /turf/simulated/floor/reinforced,
@@ -1153,9 +1098,22 @@
 /obj/machinery/portable_atmospherics/canister/empty/oxygen,
 /turf/simulated/floor/plating,
 /area/jelly/star_storage)
-"Cd" = (
-/obj/structure/grille/broken,
-/turf/simulated/floor/reinforced/airless,
+"BT" = (
+/obj/machinery/ion_thruster{
+	dir = 1
+	},
+/turf/simulated/floor/airless,
+/area/jelly/shuttle/catfish)
+"BW" = (
+/obj/machinery/atmospherics/pipe/simple/visible{
+	dir = 4
+	},
+/turf/simulated/floor/plating,
+/area/jelly/shuttle/catfish)
+"Cl" = (
+/obj/machinery/power/port_gen/pacman/super/potato,
+/obj/structure/cable/green,
+/turf/simulated/floor/reinforced,
 /area/jelly/shuttle/catfish)
 "Cr" = (
 /obj/structure/cable/green{
@@ -1163,21 +1121,29 @@
 	},
 /turf/simulated/floor/plating,
 /area/jelly/engine/propulsion/aux_star)
+"Cw" = (
+/obj/machinery/atmospherics/pipe/manifold/visible/fuel{
+	dir = 4
+	},
+/turf/simulated/floor/plating,
+/area/jelly/shuttle/catfish)
+"Cz" = (
+/obj/machinery/ion_thruster{
+	dir = 8
+	},
+/turf/simulated/floor/airless,
+/area/jelly/shuttle/galileo)
+"CC" = (
+/obj/machinery/atmospherics/portables_connector{
+	dir = 4
+	},
+/obj/machinery/portable_atmospherics/canister/carbon_dioxide,
+/turf/simulated/floor/plating,
+/area/jelly/shuttle/catfish)
 "CE" = (
 /obj/structure/catwalk,
 /turf/simulated/floor/plating,
 /area/jelly/star_storage)
-"CY" = (
-/obj/machinery/atmospherics/pipe/manifold/visible,
-/obj/machinery/atmospherics/pipe/simple/visible/scrubbers,
-/obj/structure/cable/green{
-	icon_state = "2-8"
-	},
-/obj/structure/catwalk,
-/obj/effect/shuttle_landmark/jelly/dock_galileo,
-/obj/effect/overmap/visitable/ship/landable/shuttle/galileo,
-/turf/simulated/floor/plating,
-/area/jelly/shuttle/galileo)
 "De" = (
 /obj/machinery/door/airlock/hatch/jelly,
 /turf/simulated/floor/plating,
@@ -1194,6 +1160,29 @@
 	},
 /turf/simulated/floor/tiled/dark/monotile,
 /area/jelly/cargo/lower)
+"Dh" = (
+/obj/machinery/atmospherics/pipe/manifold/visible/fuel{
+	dir = 1
+	},
+/turf/simulated/floor/plating,
+/area/jelly/shuttle/catfish)
+"Dl" = (
+/obj/machinery/button/blast_door{
+	id_tag = "catfish_rads";
+	name = "radshields";
+	pixel_y = -24
+	},
+/obj/structure/catwalk,
+/obj/random/tool,
+/obj/random/tool,
+/turf/simulated/floor/plating,
+/area/jelly/shuttle/catfish)
+"Dq" = (
+/obj/machinery/ion_thruster{
+	dir = 1
+	},
+/turf/simulated/floor/airless,
+/area/jelly/shuttle/galileo)
 "Dv" = (
 /obj/machinery/atmospherics/portables_connector{
 	dir = 8
@@ -1212,22 +1201,18 @@
 /obj/machinery/power/smes/buildable/jellyfish,
 /turf/simulated/floor/plating,
 /area/jelly/engine)
-"DN" = (
-/obj/machinery/atmospherics/pipe/simple/visible,
-/obj/machinery/atmospherics/unary/outlet_injector{
-	dir = 4;
-	icon_state = "map_injector";
-	use_power = 1
+"Eb" = (
+/obj/effect/airlock_helper/shuttle/catfish{
+	dir = 8;
+	main_id = "catfish_airlock_aux"
 	},
-/obj/machinery/ion_thruster{
-	dir = 4
-	},
-/turf/simulated/floor/airless,
+/turf/simulated/floor/plating,
 /area/jelly/shuttle/catfish)
-"El" = (
-/obj/machinery/shipsensors/weak,
-/turf/simulated/floor/airless,
-/area/jelly/shuttle/galileo)
+"Eu" = (
+/obj/structure/catwalk,
+/obj/machinery/door/airlock/hatch/jelly,
+/turf/simulated/floor/plating,
+/area/jelly/shuttle/catfish)
 "EB" = (
 /obj/machinery/atmospherics/unary/vent_scrubber/on{
 	dir = 4
@@ -1247,26 +1232,18 @@
 	},
 /turf/simulated/floor/plating,
 /area/jelly/engine)
-"EY" = (
-/obj/machinery/ion_thruster{
-	dir = 8
-	},
-/turf/simulated/floor/airless,
-/area/jelly/shuttle/catfish)
 "Fb" = (
 /obj/machinery/meter/turf,
 /obj/effect/airlock_helper/dock/catfish{
 	dir = 8
 	},
+/obj/machinery/atmospherics/pipe/cap/visible{
+	dir = 4
+	},
 /turf/simulated/floor/plating,
 /area/jelly/cargo/lower)
-"Fk" = (
-/obj/machinery/atmospherics/portables_connector{
-	dir = 8
-	},
-/obj/machinery/portable_atmospherics/canister/air/airlock{
-	start_pressure = 1013
-	},
+"Fc" = (
+/obj/machinery/computer/shuttle_control/explore/galileo,
 /turf/simulated/floor/plating,
 /area/jelly/shuttle/galileo)
 "Fq" = (
@@ -1315,17 +1292,10 @@
 "FN" = (
 /turf/simulated/floor/plating,
 /area/jelly/cargo/lower)
-"FW" = (
-/obj/machinery/pointdefense{
-	initial_id_tag = "catfish"
-	},
-/turf/simulated/floor/reinforced/airless,
-/area/jelly/shuttle/catfish)
-"Go" = (
-/obj/machinery/atmospherics/pipe/simple/visible/fuel,
-/obj/machinery/door/airlock/hatch/jelly,
+"FO" = (
+/obj/machinery/computer/ship/sensors,
 /turf/simulated/floor/plating,
-/area/jelly/shuttle/catfish)
+/area/jelly/shuttle/galileo)
 "Gr" = (
 /obj/machinery/atmospherics/pipe/simple/visible/fuel{
 	dir = 4
@@ -1378,25 +1348,45 @@
 /obj/machinery/space_heater,
 /turf/simulated/floor/reinforced,
 /area/jelly/cargo/lower)
-"HV" = (
+"Hx" = (
+/obj/machinery/atmospherics/portables_connector{
+	dir = 1
+	},
+/obj/machinery/portable_atmospherics/canister/air/airlock,
+/turf/simulated/floor/plating,
+/area/jelly/shuttle/catfish)
+"HC" = (
 /obj/machinery/atmospherics/pipe/simple/visible{
 	dir = 6
 	},
+/obj/structure/cable/green{
+	icon_state = "4-8"
+	},
 /turf/simulated/floor/plating,
-/area/jelly/shuttle/catfish)
+/area/jelly/shuttle/galileo)
 "If" = (
-/obj/machinery/atmospherics/portables_connector{
+/obj/effect/airlock_helper/shuttle/galileo{
+	dir = 8
+	},
+/obj/structure/cable/green{
+	icon_state = "4-8"
+	},
+/obj/machinery/atmospherics/pipe/cap/visible{
 	dir = 4
 	},
-/obj/machinery/portable_atmospherics/canister/carbon_dioxide,
 /turf/simulated/floor/plating,
-/area/jelly/shuttle/catfish)
-"Ig" = (
+/area/jelly/shuttle/galileo)
+"Ii" = (
+/obj/machinery/atmospherics/unary/vent_pump/on,
+/obj/structure/catwalk,
+/turf/simulated/floor/plating,
+/area/jelly/shuttle/galileo)
+"Iv" = (
 /obj/machinery/ion_thruster{
 	dir = 4
 	},
 /turf/simulated/floor/airless,
-/area/jelly/shuttle/catfish)
+/area/jelly/shuttle/galileo)
 "Ix" = (
 /obj/machinery/atmospherics/binary/pump/high_power{
 	dir = 8
@@ -1406,7 +1396,18 @@
 	},
 /turf/simulated/floor/plating,
 /area/jelly/engine)
-"IU" = (
+"JS" = (
+/obj/machinery/atmospherics/binary/passive_gate/on{
+	target_pressure = 202
+	},
+/turf/simulated/floor/tiled/dark/monotile,
+/area/jelly/engine)
+"KC" = (
+/obj/machinery/light/small,
+/obj/machinery/portable_atmospherics/powered/scrubber,
+/turf/simulated/floor/plating,
+/area/jelly/cargo/lower)
+"KN" = (
 /obj/machinery/atmospherics/unary/vent_scrubber/on,
 /obj/machinery/alarm,
 /obj/machinery/light/small{
@@ -1417,49 +1418,6 @@
 	},
 /turf/simulated/floor/plating,
 /area/jelly/shuttle/galileo)
-"Jm" = (
-/obj/machinery/atmospherics/pipe/simple/visible,
-/turf/simulated/wall/r_wall/prepainted,
-/area/jelly/shuttle/catfish)
-"Jr" = (
-/obj/machinery/atmospherics/pipe/simple/visible,
-/turf/simulated/wall/r_titanium,
-/area/jelly/shuttle/galileo)
-"JS" = (
-/obj/machinery/atmospherics/binary/passive_gate/on{
-	target_pressure = 202
-	},
-/turf/simulated/floor/tiled/dark/monotile,
-/area/jelly/engine)
-"Ku" = (
-/obj/machinery/atmospherics/pipe/simple/visible/fuel{
-	dir = 10
-	},
-/obj/machinery/atmospherics/pipe/simple/visible/scrubbers{
-	dir = 4
-	},
-/turf/simulated/floor/plating,
-/area/jelly/shuttle/catfish)
-"Ky" = (
-/obj/machinery/atmospherics/pipe/simple/visible/scrubbers,
-/obj/structure/cable/green{
-	icon_state = "1-8"
-	},
-/obj/structure/catwalk,
-/turf/simulated/floor/plating,
-/area/jelly/shuttle/galileo)
-"KC" = (
-/obj/machinery/light/small,
-/obj/machinery/portable_atmospherics/powered/scrubber,
-/turf/simulated/floor/plating,
-/area/jelly/cargo/lower)
-"KK" = (
-/obj/machinery/atmospherics/pipe/simple/visible/fuel{
-	dir = 9
-	},
-/obj/random/maintenance,
-/turf/simulated/floor/plating,
-/area/jelly/shuttle/catfish)
 "KW" = (
 /turf/simulated/floor/plating,
 /area/jelly/port_storage)
@@ -1469,18 +1427,14 @@
 	},
 /turf/simulated/floor/tiled/dark/monotile,
 /area/jelly/cargo/lower)
-"Lh" = (
-/obj/structure/closet/crate,
-/obj/random/tool,
-/obj/random/tool,
-/obj/random/tool,
-/obj/random/tool,
-/obj/random/toolbox,
-/obj/random/maintenance/clean,
-/obj/random/firstaid,
-/obj/random/clothing,
-/turf/simulated/floor/reinforced,
-/area/jelly/shuttle/catfish)
+"Lt" = (
+/obj/machinery/power/terminal,
+/obj/structure/cable/green{
+	icon_state = "0-4"
+	},
+/obj/structure/catwalk,
+/turf/simulated/floor/plating,
+/area/jelly/shuttle/galileo)
 "Lu" = (
 /obj/machinery/light/small,
 /obj/machinery/suit_cycler/jelly,
@@ -1490,23 +1444,15 @@
 /obj/machinery/portable_atmospherics/powered/scrubber,
 /turf/simulated/floor/reinforced,
 /area/jelly/cargo/lower)
-"LU" = (
-/obj/machinery/computer/ship/engines{
-	dir = 4
+"LH" = (
+/obj/machinery/atmospherics/portables_connector{
+	dir = 8
+	},
+/obj/machinery/portable_atmospherics/canister/air/airlock{
+	start_pressure = 1013
 	},
 /turf/simulated/floor/plating,
 /area/jelly/shuttle/galileo)
-"Md" = (
-/obj/structure/bed/chair/shuttle/black{
-	dir = 1
-	},
-/obj/machinery/atmospherics/unary/vent_pump/on,
-/obj/machinery/atmospherics/pipe/simple/visible/scrubbers{
-	dir = 6
-	},
-/obj/structure/catwalk,
-/turf/simulated/floor/plating,
-/area/jelly/shuttle/catfish)
 "Mm" = (
 /obj/structure/closet/crate,
 /obj/item/stack/material/aluminium/fifty,
@@ -1521,13 +1467,29 @@
 	},
 /turf/simulated/floor/plating,
 /area/jelly/cargo/lower)
-"MB" = (
-/obj/structure/table/standard,
-/obj/random/drinkingglass,
-/obj/random/drinkingglass,
-/obj/random/drinkbottle,
+"MG" = (
+/obj/structure/cable/green{
+	icon_state = "0-2"
+	},
+/obj/machinery/power/apc/hyper{
+	dir = 1;
+	emp_hardened = 1
+	},
+/obj/structure/catwalk,
+/obj/machinery/atmospherics/pipe/simple/visible/scrubbers{
+	dir = 10
+	},
 /turf/simulated/floor/plating,
 /area/jelly/shuttle/catfish)
+"MN" = (
+/obj/machinery/atmospherics/unary/vent_pump/high_volume/external_air{
+	dir = 1
+	},
+/obj/machinery/ion_thruster{
+	dir = 4
+	},
+/turf/simulated/floor/airless,
+/area/jelly/shuttle/galileo)
 "Ni" = (
 /obj/structure/window/borosilicate_reinforced{
 	dir = 1
@@ -1546,24 +1508,60 @@
 	},
 /turf/simulated/floor/airless,
 /area/jelly/engine/propulsion/aux_star)
+"Nx" = (
+/obj/structure/railing/mapped{
+	dir = 8
+	},
+/obj/structure/railing/mapped{
+	dir = 4
+	},
+/obj/machinery/pointdefense_control{
+	initial_id_tag = "catfish"
+	},
+/turf/simulated/floor/plating,
+/area/jelly/shuttle/catfish)
+"NG" = (
+/obj/structure/closet/crate,
+/obj/random/tool,
+/obj/random/tool,
+/obj/random/tool,
+/obj/random/tool,
+/obj/random/toolbox,
+/obj/random/maintenance/clean,
+/obj/random/firstaid,
+/obj/random/clothing,
+/turf/simulated/floor/reinforced,
+/area/jelly/shuttle/catfish)
 "NK" = (
 /obj/structure/closet/crate,
 /obj/item/stack/material/plastic/fifty,
 /obj/item/stack/material/plastic/fifty,
 /turf/simulated/floor/reinforced,
 /area/jelly/cargo/lower)
-"NM" = (
-/obj/machinery/atmospherics/pipe/simple/visible/scrubbers,
-/obj/structure/cable/green{
-	icon_state = "1-2"
+"NO" = (
+/obj/machinery/atmospherics/portables_connector{
+	dir = 1
 	},
-/obj/structure/catwalk,
-/obj/machinery/door/airlock/hatch/jelly,
+/obj/machinery/portable_atmospherics/canister/air,
 /turf/simulated/floor/plating,
-/area/jelly/shuttle/galileo)
-"Of" = (
-/obj/machinery/computer/ship/engines,
-/turf/simulated/floor/plating,
+/area/jelly/shuttle/catfish)
+"Ok" = (
+/obj/structure/largecrate{
+	name = "uranium supply crate"
+	},
+/obj/item/stack/material/uranium/ten{
+	amount = 60
+	},
+/obj/item/stack/material/uranium/ten{
+	amount = 60
+	},
+/obj/item/stack/material/uranium/ten{
+	amount = 60
+	},
+/obj/item/stack/material/uranium/ten{
+	amount = 60
+	},
+/turf/simulated/floor/reinforced,
 /area/jelly/shuttle/catfish)
 "Ol" = (
 /obj/machinery/light{
@@ -1572,6 +1570,10 @@
 /obj/machinery/portable_atmospherics/powered/scrubber,
 /turf/simulated/floor/reinforced,
 /area/jelly/cargo/lower)
+"ON" = (
+/obj/machinery/shipsensors/weak,
+/turf/simulated/floor/airless,
+/area/jelly/shuttle/galileo)
 "OP" = (
 /turf/simulated/floor/reinforced/airless,
 /area/jelly/engine)
@@ -1585,23 +1587,18 @@
 /obj/machinery/door/airlock/hatch/jelly,
 /turf/simulated/floor/plating,
 /area/jelly/cargo/lower)
-"OV" = (
-/obj/machinery/atmospherics/pipe/simple/visible{
-	dir = 6
-	},
-/obj/structure/catwalk,
-/turf/simulated/floor/plating,
-/area/jelly/shuttle/catfish)
 "Pg" = (
 /obj/machinery/atmospherics/unary/vent_scrubber/on{
 	dir = 4
 	},
 /turf/simulated/floor/reinforced,
 /area/jelly/cargo/lower)
-"Pv" = (
-/obj/structure/catwalk,
-/obj/machinery/door/airlock/hatch/jelly,
+"Pw" = (
+/obj/machinery/computer/shuttle_control/explore/catfish,
 /turf/simulated/floor/plating,
+/area/jelly/shuttle/catfish)
+"PC" = (
+/turf/simulated/floor/reinforced/airless,
 /area/jelly/shuttle/catfish)
 "PF" = (
 /obj/structure/cable/green{
@@ -1611,25 +1608,21 @@
 /obj/effect/airlock_helper/dock/galileo{
 	dir = 4
 	},
+/obj/machinery/atmospherics/pipe/cap/visible{
+	dir = 8
+	},
 /turf/simulated/floor/plating,
 /area/jelly/cargo/lower)
-"PH" = (
-/obj/machinery/atmospherics/pipe/simple/visible/scrubbers{
-	dir = 4
+"PJ" = (
+/obj/structure/cable/green{
+	icon_state = "1-2"
 	},
 /obj/structure/catwalk,
-/obj/machinery/light/small,
+/obj/machinery/atmospherics/pipe/simple/visible/scrubbers{
+	dir = 9
+	},
 /turf/simulated/floor/plating,
 /area/jelly/shuttle/catfish)
-"PK" = (
-/obj/machinery/atmospherics/unary/vent_pump/on,
-/obj/structure/catwalk,
-/turf/simulated/floor/plating,
-/area/jelly/shuttle/galileo)
-"PY" = (
-/obj/machinery/atmospherics/pipe/simple/visible/universal,
-/turf/simulated/wall/r_titanium,
-/area/jelly/shuttle/galileo)
 "Qc" = (
 /obj/machinery/atmospherics/binary/pump/high_power{
 	dir = 4
@@ -1658,6 +1651,17 @@
 	},
 /turf/simulated/floor/plating,
 /area/jelly/engine/propulsion/aux_star)
+"Qh" = (
+/obj/machinery/power/smes/buildable/preset{
+	_fully_charged = 1;
+	_output_maxed = 1;
+	_output_on = 1
+	},
+/obj/structure/cable/green{
+	icon_state = "0-8"
+	},
+/turf/simulated/floor/plating,
+/area/jelly/shuttle/galileo)
 "Qi" = (
 /obj/structure/cable/green{
 	icon_state = "1-2"
@@ -1671,13 +1675,6 @@
 /obj/structure/closet/toolcloset,
 /turf/simulated/floor/reinforced,
 /area/jelly/cargo/lower)
-"QJ" = (
-/obj/machinery/atmospherics/pipe/simple/visible,
-/obj/machinery/ion_thruster{
-	dir = 8
-	},
-/turf/simulated/floor/airless,
-/area/jelly/shuttle/catfish)
 "QN" = (
 /obj/machinery/portable_atmospherics/canister/carbon_dioxide,
 /turf/simulated/floor/plating,
@@ -1688,19 +1685,6 @@
 "QU" = (
 /turf/simulated/wall/r_wall/prepainted,
 /area/jelly/engine)
-"QW" = (
-/obj/machinery/atmospherics/pipe/simple/visible{
-	dir = 5
-	},
-/obj/machinery/atmospherics/unary/vent_scrubber/on{
-	dir = 4
-	},
-/obj/structure/catwalk,
-/obj/structure/bed/chair/shuttle/black{
-	dir = 8
-	},
-/turf/simulated/floor/plating,
-/area/jelly/shuttle/galileo)
 "QY" = (
 /obj/machinery/portable_atmospherics/canister/carbon_dioxide,
 /turf/simulated/floor/plating,
@@ -1750,23 +1734,11 @@
 	},
 /turf/simulated/floor/tiled/dark/monotile,
 /area/jelly/engine)
-"RZ" = (
-/obj/machinery/ion_thruster{
-	dir = 1
-	},
-/turf/simulated/floor/airless,
-/area/jelly/shuttle/catfish)
 "Sb" = (
 /obj/machinery/power/shield_generator,
 /obj/structure/cable,
 /turf/simulated/floor/tiled/dark/monotile,
 /area/jelly/engine)
-"Sp" = (
-/obj/machinery/atmospherics/pipe/simple/visible/fuel{
-	dir = 6
-	},
-/turf/simulated/floor/plating,
-/area/jelly/shuttle/catfish)
 "Ss" = (
 /obj/structure/catwalk,
 /obj/structure/cable{
@@ -1777,17 +1749,10 @@
 	},
 /turf/simulated/floor/plating,
 /area/jelly/engine)
-"SD" = (
-/obj/machinery/ion_thruster{
-	dir = 1
-	},
-/obj/machinery/atmospherics/unary/outlet_injector{
-	dir = 1;
-	icon_state = "map_injector";
-	use_power = 1
-	},
-/turf/simulated/floor/airless,
-/area/jelly/shuttle/galileo)
+"Su" = (
+/obj/machinery/atmospherics/pipe/simple/visible,
+/turf/simulated/wall/r_wall/prepainted,
+/area/jelly/shuttle/catfish)
 "SE" = (
 /obj/machinery/portable_atmospherics/powered/scrubber,
 /turf/simulated/floor/plating,
@@ -1797,21 +1762,6 @@
 /obj/structure/reagent_dispensers/fueltank,
 /turf/simulated/floor/plating,
 /area/jelly/star_storage)
-"SW" = (
-/obj/machinery/computer/ship/sensors,
-/turf/simulated/floor/plating,
-/area/jelly/shuttle/catfish)
-"Tv" = (
-/obj/machinery/power/apc/hyper{
-	dir = 1;
-	emp_hardened = 1
-	},
-/obj/structure/cable/green{
-	icon_state = "0-2"
-	},
-/obj/structure/catwalk,
-/turf/simulated/floor/plating,
-/area/jelly/shuttle/galileo)
 "TI" = (
 /obj/structure/cable/green{
 	icon_state = "2-4"
@@ -1877,6 +1827,22 @@
 "UB" = (
 /turf/simulated/floor/plating,
 /area/jelly/engine/propulsion/aux_port)
+"UL" = (
+/obj/structure/grille,
+/turf/simulated/floor/reinforced/airless,
+/area/jelly/shuttle/catfish)
+"UR" = (
+/obj/machinery/ion_thruster{
+	dir = 4
+	},
+/turf/simulated/floor/airless,
+/area/jelly/shuttle/catfish)
+"UX" = (
+/obj/machinery/computer/ship/engines{
+	dir = 4
+	},
+/turf/simulated/floor/plating,
+/area/jelly/shuttle/galileo)
 "UY" = (
 /obj/machinery/portable_atmospherics/canister/empty,
 /turf/simulated/floor/reinforced,
@@ -1888,6 +1854,17 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
 /turf/simulated/floor/tiled/dark/monotile,
 /area/jelly/cargo/lower)
+"Vy" = (
+/obj/machinery/atmospherics/pipe/manifold/visible,
+/obj/machinery/atmospherics/pipe/simple/visible/scrubbers,
+/obj/structure/cable/green{
+	icon_state = "2-8"
+	},
+/obj/structure/catwalk,
+/obj/effect/shuttle_landmark/jelly/dock_galileo,
+/obj/effect/overmap/visitable/ship/landable/shuttle/galileo,
+/turf/simulated/floor/plating,
+/area/jelly/shuttle/galileo)
 "VL" = (
 /obj/machinery/atmospherics/pipe/manifold/visible,
 /obj/structure/cable/green{
@@ -1895,6 +1872,16 @@
 	},
 /turf/simulated/floor/plating,
 /area/jelly/cargo/lower)
+"VO" = (
+/obj/machinery/atmospherics/portables_connector{
+	dir = 8
+	},
+/obj/machinery/portable_atmospherics/canister/empty/carbon_dioxide,
+/turf/simulated/floor/plating,
+/area/jelly/shuttle/catfish)
+"VP" = (
+/turf/simulated/floor/plating,
+/area/jelly/shuttle/catfish)
 "VT" = (
 /obj/structure/catwalk,
 /obj/structure/cable/green{
@@ -1902,15 +1889,6 @@
 	},
 /turf/simulated/floor/plating,
 /area/jelly/engine)
-"VY" = (
-/obj/machinery/atmospherics/pipe/simple/visible{
-	dir = 6
-	},
-/obj/structure/cable/green{
-	icon_state = "4-8"
-	},
-/turf/simulated/floor/plating,
-/area/jelly/shuttle/galileo)
 "Wf" = (
 /obj/machinery/fusion_fuel_injector/mapped{
 	dir = 4;
@@ -1922,28 +1900,38 @@
 /turf/simulated/floor/plating,
 /area/jelly/engine)
 "Wi" = (
-/obj/machinery/atmospherics/binary/pump/high_power,
+/obj/machinery/atmospherics/unary/engine{
+	dir = 1
+	},
+/obj/structure/window/borosilicate_reinforced{
+	dir = 1
+	},
 /turf/simulated/floor/plating,
 /area/jelly/shuttle/catfish)
 "Wp" = (
 /obj/structure/closet/wardrobe/mixed,
 /turf/simulated/floor/reinforced,
 /area/jelly/cargo/lower)
-"Wr" = (
-/obj/structure/catwalk,
-/turf/simulated/floor/plating,
-/area/jelly/shuttle/catfish)
 "Wy" = (
 /obj/machinery/atmospherics/unary/tank/carbon_dioxide{
 	start_pressure = 9000
 	},
 /turf/simulated/floor/plating,
 /area/jelly/engine)
-"WF" = (
-/obj/machinery/ion_thruster{
+"WG" = (
+/obj/machinery/atmospherics/pipe/simple/visible/fuel{
+	dir = 9
+	},
+/obj/random/maintenance,
+/turf/simulated/floor/plating,
+/area/jelly/shuttle/catfish)
+"WV" = (
+/obj/machinery/atmospherics/unary/vent_pump/on,
+/obj/machinery/alarm{
 	dir = 8
 	},
-/turf/simulated/floor/airless,
+/obj/structure/catwalk,
+/turf/simulated/floor/plating,
 /area/jelly/shuttle/galileo)
 "WW" = (
 /obj/machinery/atmospherics/portables_connector,
@@ -1980,37 +1968,33 @@
 /obj/item/stack/material/steel/fifty,
 /turf/simulated/floor/reinforced,
 /area/jelly/cargo/lower)
-"Xz" = (
-/obj/effect/airlock_helper/shuttle/galileo{
-	dir = 8
+"Xn" = (
+/obj/machinery/pointdefense{
+	initial_id_tag = "catfish"
+	},
+/turf/simulated/floor/reinforced/airless,
+/area/jelly/shuttle/catfish)
+"Xq" = (
+/obj/machinery/power/apc/hyper{
+	dir = 1;
+	emp_hardened = 1
 	},
 /obj/structure/cable/green{
-	icon_state = "4-8"
+	icon_state = "0-2"
 	},
+/obj/structure/catwalk,
 /turf/simulated/floor/plating,
 /area/jelly/shuttle/galileo)
+"XB" = (
+/obj/machinery/atmospherics/pipe/simple/visible/fuel{
+	dir = 6
+	},
+/turf/simulated/floor/plating,
+/area/jelly/shuttle/catfish)
 "XI" = (
 /obj/effect/decal/cleanable/vomit,
 /turf/simulated/floor/plating,
 /area/jelly/port_storage)
-"XN" = (
-/obj/structure/largecrate{
-	name = "uranium supply crate"
-	},
-/obj/item/stack/material/uranium/ten{
-	amount = 60
-	},
-/obj/item/stack/material/uranium/ten{
-	amount = 60
-	},
-/obj/item/stack/material/uranium/ten{
-	amount = 60
-	},
-/obj/item/stack/material/uranium/ten{
-	amount = 60
-	},
-/turf/simulated/floor/reinforced,
-/area/jelly/shuttle/catfish)
 "XP" = (
 /obj/structure/closet/crate,
 /obj/machinery/atmospherics/unary/vent_scrubber/on{
@@ -2018,10 +2002,28 @@
 	},
 /turf/simulated/floor/reinforced,
 /area/jelly/cargo/lower)
+"XU" = (
+/obj/machinery/atmospherics/unary/vent_pump/high_volume/external_air{
+	dir = 1
+	},
+/obj/machinery/ion_thruster{
+	dir = 1
+	},
+/turf/simulated/floor/airless,
+/area/jelly/shuttle/catfish)
 "XX" = (
 /obj/structure/anomaly_container,
 /turf/simulated/floor/plating,
 /area/jelly/port_storage)
+"XY" = (
+/obj/machinery/atmospherics/pipe/simple/visible/fuel{
+	dir = 10
+	},
+/obj/machinery/atmospherics/pipe/simple/visible/scrubbers{
+	dir = 4
+	},
+/turf/simulated/floor/plating,
+/area/jelly/shuttle/catfish)
 "Yk" = (
 /obj/machinery/atmospherics/pipe/manifold/visible/fuel,
 /obj/structure/catwalk,
@@ -2030,6 +2032,17 @@
 	},
 /turf/simulated/floor/plating,
 /area/jelly/engine)
+"Yo" = (
+/obj/machinery/ion_thruster{
+	dir = 1
+	},
+/obj/machinery/atmospherics/unary/outlet_injector{
+	dir = 1;
+	icon_state = "map_injector";
+	use_power = 1
+	},
+/turf/simulated/floor/airless,
+/area/jelly/shuttle/galileo)
 "YB" = (
 /obj/machinery/light/small{
 	dir = 8
@@ -2061,11 +2074,19 @@
 	},
 /turf/simulated/floor/tiled/dark/monotile,
 /area/jelly/engine)
-"ZV" = (
-/obj/machinery/atmospherics/portables_connector{
-	dir = 1
+"ZR" = (
+/obj/machinery/atmospherics/pipe/simple/visible/scrubbers,
+/obj/structure/cable/green{
+	icon_state = "1-8"
 	},
-/obj/machinery/portable_atmospherics/canister/air/airlock,
+/obj/structure/catwalk,
+/turf/simulated/floor/plating,
+/area/jelly/shuttle/galileo)
+"ZY" = (
+/obj/machinery/atmospherics/pipe/simple/visible{
+	dir = 6
+	},
+/obj/structure/catwalk,
 /turf/simulated/floor/plating,
 /area/jelly/shuttle/catfish)
 
@@ -3498,16 +3519,16 @@ aa
 aa
 aa
 aa
-FW
-ra
-ra
-ra
-gk
-bj
-HV
-Jm
-DN
-um
+Xn
+UL
+UL
+UL
+cf
+yY
+xO
+Su
+eO
+XU
 aa
 aa
 aa
@@ -3580,19 +3601,19 @@ aa
 aa
 aa
 aa
-su
-su
-bj
-bj
-bj
-bj
-cb
-bj
-oU
-bj
-bj
-Ig
-RZ
+PC
+PC
+yY
+yY
+yY
+yY
+VP
+yY
+ih
+yY
+yY
+UR
+BT
 aa
 aa
 aa
@@ -3661,21 +3682,21 @@ aa
 aa
 aa
 aa
-bj
-bj
-bj
-bj
-XN
-jd
-bj
-mt
-bj
-nV
-If
-bj
-bj
-bj
-bj
+yY
+yY
+yY
+yY
+Ok
+eJ
+yY
+Eb
+yY
+dl
+CC
+yY
+yY
+yY
+yY
 aa
 aa
 aa
@@ -3743,21 +3764,21 @@ aa
 aa
 aa
 aa
-bj
-bk
-tG
-bj
-xv
-xv
-bj
-rX
-bj
-Ku
-wj
-Wi
-Go
-AS
-bj
+yY
+Pw
+yq
+yY
+Am
+Am
+yY
+BW
+yY
+XY
+Cw
+gc
+pF
+wh
+yY
 aa
 aa
 aa
@@ -3824,22 +3845,22 @@ aa
 aa
 aa
 aa
-su
-bj
-cv
-Md
-sl
-kv
-kv
-sl
-uy
-eD
-sz
-bj
-bj
-bj
-qM
-sd
+PC
+yY
+va
+un
+fD
+or
+or
+fD
+cc
+NO
+fM
+yY
+yY
+yY
+Dh
+Wi
 aa
 aa
 aa
@@ -3906,22 +3927,22 @@ aa
 aa
 aa
 aa
-FW
-bj
-MB
-PH
-bj
-ae
-oW
-bj
-ox
-pM
-lz
-aZ
-li
-bj
-qM
-sd
+Xn
+yY
+aw
+um
+yY
+Nx
+zA
+yY
+MG
+aY
+PJ
+dO
+Cl
+yY
+Dh
+Wi
 aa
 aa
 aa
@@ -3988,22 +4009,22 @@ aa
 aa
 aa
 aa
-su
-bj
-Of
-wh
-Pv
-Wr
-Wr
-Pv
-OV
-ZV
-nb
-bj
-bj
-bj
-qM
-sd
+PC
+yY
+lY
+yr
+Eu
+hv
+hv
+Eu
+ZY
+Hx
+Dl
+yY
+yY
+yY
+Dh
+Wi
 aa
 aa
 aa
@@ -4071,21 +4092,21 @@ aa
 aa
 aa
 aa
-bj
-SW
-vy
-bj
-cN
-xv
-bj
-rX
-bj
-Sp
-ol
-Wi
-Go
-KK
-bj
+yY
+fR
+nn
+yY
+xR
+Am
+yY
+BW
+yY
+XB
+np
+gc
+pF
+WG
+yY
 aa
 aa
 aa
@@ -4153,21 +4174,21 @@ aa
 aa
 aa
 aa
-bj
-bj
-bj
-bj
-Lh
-xv
-bj
-xI
-bj
-sh
-du
-bj
-bj
-bj
-bj
+yY
+yY
+yY
+yY
+NG
+Am
+yY
+br
+yY
+AY
+VO
+yY
+yY
+yY
+yY
 aa
 aa
 aa
@@ -4236,19 +4257,19 @@ aa
 aa
 aa
 aa
-su
-su
-bj
-bj
-bj
-bj
-cb
-bj
-bj
-bj
-bj
-EY
-RZ
+PC
+PC
+yY
+yY
+yY
+yY
+ad
+yY
+yY
+yY
+yY
+bG
+BT
 aa
 aa
 aa
@@ -4318,16 +4339,16 @@ aa
 aa
 aa
 aa
-FW
-ra
-ra
-ra
-Cd
-bj
-iC
-Jm
-QJ
-um
+Xn
+UL
+UL
+UL
+fa
+yY
+mC
+Su
+yZ
+XU
 aa
 aa
 aa
@@ -6124,15 +6145,15 @@ aa
 aa
 aa
 aa
-Ao
-Ao
-Ao
-Ao
-VY
-Jr
-jD
-rt
-rt
+ko
+ko
+ko
+ko
+HC
+rO
+MN
+Iv
+Iv
 aa
 aa
 aa
@@ -6205,17 +6226,17 @@ aa
 aa
 aa
 aa
-Ao
-Ao
-LU
-aP
-Ao
-pK
-Ao
-Ao
-Ao
-Ao
-Ao
+ko
+ko
+UX
+lo
+ko
+gT
+ko
+ko
+ko
+ko
+ko
 aa
 aa
 aa
@@ -6287,17 +6308,17 @@ aa
 aa
 aa
 aa
-Ao
-hN
-yD
-QW
-Ao
-Xz
-Ao
-Tv
-vM
-Ao
-bE
+ko
+Fc
+WV
+zj
+ko
+If
+ko
+Xq
+rx
+ko
+Dq
 aa
 aa
 aa
@@ -6369,17 +6390,17 @@ aa
 aa
 aa
 aa
-Ao
-Ao
-Ao
-xF
-Ao
-gU
-Ao
-jS
-yR
-Ao
-El
+ko
+ko
+ko
+lw
+ko
+dQ
+ko
+Lt
+Qh
+ko
+ON
 aa
 aa
 aa
@@ -6451,17 +6472,17 @@ aa
 aa
 aa
 aa
-Ao
-sy
-PK
-mh
-pr
-CY
-NM
-Ky
-ro
-PY
-SD
+ko
+FO
+Ii
+zJ
+tn
+Vy
+gh
+ZR
+tF
+oj
+Yo
 aa
 aa
 aa
@@ -6533,17 +6554,17 @@ aa
 aa
 aa
 aa
-Ao
-Ao
-IU
-qc
-Ao
-Fk
-Ao
-Ao
-Ao
-Ao
-Ao
+ko
+ko
+KN
+oo
+ko
+LH
+ko
+ko
+ko
+ko
+ko
 aa
 aa
 aa
@@ -6616,15 +6637,15 @@ aa
 aa
 aa
 aa
-Ao
-Ao
-Ao
-Ao
-Ao
-Ao
-WF
-WF
-WF
+ko
+ko
+ko
+ko
+ko
+ko
+Cz
+Cz
+Cz
 aa
 aa
 aa
