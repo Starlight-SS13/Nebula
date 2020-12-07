@@ -3,7 +3,7 @@
 /turf/space,
 /area/space)
 "ad" = (
-/obj/machinery/atmospherics/pipe/cap/visible{
+/obj/machinery/atmospherics/unary/vent_pump/high_volume/external_air{
 	dir = 4
 	},
 /turf/simulated/floor/plating,
@@ -41,7 +41,7 @@
 /obj/effect/airlock_helper/shuttle/catfish{
 	dir = 4
 	},
-/obj/machinery/atmospherics/pipe/cap/visible{
+/obj/machinery/atmospherics/unary/vent_pump/high_volume/external_air{
 	dir = 8
 	},
 /turf/simulated/floor/plating,
@@ -304,7 +304,7 @@
 /obj/structure/cable/green{
 	icon_state = "4-8"
 	},
-/obj/machinery/atmospherics/pipe/cap/visible{
+/obj/machinery/atmospherics/unary/vent_pump/high_volume/external_air{
 	dir = 8
 	},
 /turf/simulated/floor/plating,
@@ -613,6 +613,15 @@
 	},
 /turf/simulated/floor/tiled/dark,
 /area/jelly/engine)
+"qf" = (
+/obj/machinery/atmospherics/unary/vent_pump/high_volume/external_air{
+	dir = 1
+	},
+/obj/machinery/ion_thruster{
+	dir = 4
+	},
+/turf/simulated/floor/airless,
+/area/jelly/shuttle/catfish)
 "qE" = (
 /obj/machinery/atmospherics/pipe/manifold/visible/fuel,
 /obj/structure/catwalk,
@@ -1206,6 +1215,9 @@
 	dir = 8;
 	main_id = "catfish_airlock_aux"
 	},
+/obj/machinery/atmospherics/unary/vent_pump/high_volume/external_air{
+	dir = 4
+	},
 /turf/simulated/floor/plating,
 /area/jelly/shuttle/catfish)
 "Eu" = (
@@ -1233,11 +1245,10 @@
 /turf/simulated/floor/plating,
 /area/jelly/engine)
 "Fb" = (
-/obj/machinery/meter/turf,
 /obj/effect/airlock_helper/dock/catfish{
 	dir = 8
 	},
-/obj/machinery/atmospherics/pipe/cap/visible{
+/obj/machinery/atmospherics/unary/vent_pump/high_volume/external_air{
 	dir = 4
 	},
 /turf/simulated/floor/plating,
@@ -1371,7 +1382,7 @@
 /obj/structure/cable/green{
 	icon_state = "4-8"
 	},
-/obj/machinery/atmospherics/pipe/cap/visible{
+/obj/machinery/atmospherics/unary/vent_pump/high_volume/external_air{
 	dir = 4
 	},
 /turf/simulated/floor/plating,
@@ -1604,11 +1615,10 @@
 /obj/structure/cable/green{
 	icon_state = "4-8"
 	},
-/obj/machinery/meter/turf,
 /obj/effect/airlock_helper/dock/galileo{
 	dir = 4
 	},
-/obj/machinery/atmospherics/pipe/cap/visible{
+/obj/machinery/atmospherics/unary/vent_pump/high_volume/external_air{
 	dir = 8
 	},
 /turf/simulated/floor/plating,
@@ -1880,6 +1890,9 @@
 /turf/simulated/floor/plating,
 /area/jelly/shuttle/catfish)
 "VP" = (
+/obj/machinery/atmospherics/unary/vent_pump/high_volume/external_air{
+	dir = 8
+	},
 /turf/simulated/floor/plating,
 /area/jelly/shuttle/catfish)
 "VT" = (
@@ -3528,7 +3541,7 @@ yY
 xO
 Su
 eO
-XU
+qf
 aa
 aa
 aa

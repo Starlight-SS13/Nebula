@@ -9,9 +9,6 @@
 	if(!main_id)
 		main_id = "airlock_[sequential_id(type)]"
 
-	for(var/obj/machinery/atmospherics/pipe/cap/CAP in range(src,3))
-		qdel(CAP)
-
 	var/obj/machinery/door/airlock/external/bolted/EXT = new()
 	var/obj/machinery/door/airlock/external/bolted/INT = new()
 	var/backdir = GLOB.reverse_dir[dir]
@@ -25,12 +22,12 @@
 	var/obj/machinery/airlock_sensor/SEN = new(loc)
 	SEN.id_tag = "[main_id]_sensor"
 
-	var/obj/machinery/atmospherics/unary/vent_pump/high_volume/external_air/VENT = new(loc)
+	var/obj/machinery/atmospherics/unary/vent_pump/high_volume/external_air/VENT = locate(loc)
 	VENT.dir    = backdir
 	VENT.id_tag = "[main_id]_pump"
 
 	if(shuttle)
-		var/obj/machinery/atmospherics/unary/vent_pump/high_volume/external_air/VENT_I = new(get_step(src,dir))
+		var/obj/machinery/atmospherics/unary/vent_pump/high_volume/external_air/VENT_I = locate(get_step(src,dir))
 		VENT_I.dir    = dir
 		VENT_I.id_tag = "[main_id]_pump_out_internal"
 		EXT.loc = get_step(get_step(src,dir),dir)

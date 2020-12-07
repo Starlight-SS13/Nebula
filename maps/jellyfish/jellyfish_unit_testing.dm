@@ -1,8 +1,10 @@
 /datum/map/jellyfish
 	// Unit test exemptions
 	apc_test_exempt_areas = list(
+		/area/space = NO_SCRUBBER|NO_VENT|NO_APC,
+		/area/exoplanet = NO_SCRUBBER|NO_VENT|NO_APC,
 		/area/turbolift = NO_SCRUBBER|NO_VENT|NO_APC,
-		/area/jelly     = NO_SCRUBBER|NO_VENT|NO_APC,
+		/area/jelly     = NO_SCRUBBER|NO_VENT,
 		/area/jelly/shuttle     = null,
 		/area/jelly/civilian    = null,
 		/area/jelly/maint/upper = null,

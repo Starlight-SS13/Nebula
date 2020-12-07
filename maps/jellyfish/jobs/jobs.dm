@@ -29,6 +29,7 @@
 	supervisors = "your captain, senior staff"
 	outfit_type = /decl/hierarchy/outfit/job/jelly
 	department_refs = list(DEPT_SUPPLY)
+	hud_icon = "hudblank"
 
 /datum/job/jelly
 	skill_points = 24
