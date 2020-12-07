@@ -10,8 +10,8 @@
 		/area/jelly/maint/upper = null,
 		/area/jelly/medical     = null,
 		/area/jelly/hall        = null,
-		/area/jelly/hall/port   = null,
-		/area/jelly/hall/star   = null,
+		/area/jelly/hall/port   = NO_SCRUBBER|NO_VENT,
+		/area/jelly/hall/star   = NO_SCRUBBER|NO_VENT,
 		/area/jelly/bridge      = null,
 		/area/jelly/cargo/lower = null,
 		/area/jelly/engine/propulsion/nac_port = NO_SCRUBBER
