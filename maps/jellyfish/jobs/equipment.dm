@@ -33,7 +33,7 @@
 	var/obj/item/card/id/stored
 
 /obj/item/badge/on_update_icon()
-	underlays.Cut()
+	cut_overlays()
 	if(stored)
 		underlays += image(icon = stored.icon, icon_state = ICON_STATE_INV)
 
@@ -95,15 +95,18 @@
 	update_icon()
 
 /obj/item/pager/on_update_icon()
-	overlays.Cut()
+	cut_overlays()
 	if(broadcast)
-		var/image/L = image(icon,icon_state+"-toggle",layer = EYE_GLOW_LAYER)
-		var/image/O = image(icon,icon_state+"-toggle")
-		L.plane = EFFECTS_ABOVE_LIGHTING_PLANE
-		L.color = COLOR_CYAN
-		O.color = COLOR_CYAN
-		overlays += L
-		overlays += O
+		addglow("[icon_state]-toggle",COLOR_CYAN)
+
+/obj/item/pager/proc/addglow(var/overlay_icon,var/overlay_color)
+	var/image/L = image(icon,overlay_icon,layer = EYE_GLOW_LAYER)
+	var/image/O = image(icon,overlay_icon)
+	L.plane = EFFECTS_ABOVE_LIGHTING_PLANE
+	L.color = overlay_color
+	O.color = overlay_color
+	add_overlay(L)
+	add_overlay(O)
 
 /obj/item/pager/Initialize()
 	. = ..()
@@ -132,30 +135,13 @@
 		to_chat(H,"[html_icon(src)] <B>[D.network_tag]:</B> [uppertext(message)]")
 
 /obj/item/pager/proc/receive_flick()
-	var/image/L = image(icon,icon_state+"-receive",layer = EYE_GLOW_LAYER)
-	var/image/O = image(icon,icon_state+"-receive")
-	L.plane = EFFECTS_ABOVE_LIGHTING_PLANE
-	L.color = COLOR_GREEN
-	O.color = COLOR_GREEN
-	overlays += L
-	overlays += O
-	if(sounded)
-		playsound(src, 'sound/machines/twobeep.ogg', 20, 0)
-		animate(src,pixel_x = pixel_x + rand(-3,3),time = rand(3,6))
-		animate(src,pixel_y = pixel_y + rand(-3,3),time = rand(3,6))
-		animate(src,pixel_x = 0,time = rand(3,6))
-		animate(src,pixel_y = 0,time = rand(3,6))
-	spawn(5) update_icon()
+	addglow("[icon_state]-receive",COLOR_GREEN)
+	if(sounded) playsound(src, 'sound/machines/twobeep.ogg', 20, 0)
+	addtimer(CALLBACK(src, .proc/update_icon), 5)
 
 /obj/item/pager/proc/broadcast_flick()
-	var/image/L = image(icon,icon_state+"-broadcast",layer = EYE_GLOW_LAYER)
-	var/image/O = image(icon,icon_state+"-broadcast")
-	L.plane = EFFECTS_ABOVE_LIGHTING_PLANE
-	L.color = COLOR_YELLOW
-	O.color = COLOR_YELLOW
-	overlays += L
-	overlays += O
-	spawn(10) update_icon()
+	addglow("[icon_state]-broadcast",COLOR_YELLOW)
+	addtimer(CALLBACK(src, .proc/update_icon), 5)
 
 /obj/item/pager/verb/reconnect()
 	set name     = "Select Pager Network"

@@ -88,7 +88,7 @@
 			IB.pixel_y  = -24
 			IB.pixel_x  = -10
 
-	qdel(src)
+	return INITIALIZE_HINT_QDEL
 
 /obj/effect/airlock_helper/shuttle
 	shuttle = 1
