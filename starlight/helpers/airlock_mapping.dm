@@ -22,12 +22,12 @@
 	var/obj/machinery/airlock_sensor/SEN = new(loc)
 	SEN.id_tag = "[main_id]_sensor"
 
-	var/obj/machinery/atmospherics/unary/vent_pump/high_volume/external_air/VENT = locate(loc)
+	var/obj/machinery/atmospherics/unary/vent_pump/high_volume/external_air/VENT = locate() in loc
 	VENT.dir    = backdir
 	VENT.id_tag = "[main_id]_pump"
 
 	if(shuttle)
-		var/obj/machinery/atmospherics/unary/vent_pump/high_volume/external_air/VENT_I = locate(get_step(src,dir))
+		var/obj/machinery/atmospherics/unary/vent_pump/high_volume/external_air/VENT_I = locate() in get_step(src,dir)
 		VENT_I.dir    = dir
 		VENT_I.id_tag = "[main_id]_pump_out_internal"
 		EXT.loc = get_step(get_step(src,dir),dir)
