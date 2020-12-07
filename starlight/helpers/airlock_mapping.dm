@@ -4,7 +4,7 @@
 	var/main_id = null
 	var/shuttle = 0
 
-/obj/effect/airlock_helper/New()
+/obj/effect/airlock_helper/Initialize()
 	if(!main_id)
 		main_id = "airlock_[sequential_id(type)]"
 
@@ -84,8 +84,6 @@
 			IB.pixel_y  = -24
 			IB.pixel_x  = -10
 
-/obj/effect/airlock_helper/Initialize()
-	. = ..()
 	qdel(src)
 
 /obj/effect/airlock_helper/shuttle

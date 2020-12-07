@@ -9,8 +9,8 @@ Kite    - Light Transport Pod
 /obj/effect/overmap/visitable/ship/landable/shuttle
 	vessel_size = SHIP_SIZE_TINY
 
-/obj/effect/shuttle_landmark/jelly/New()
-	..()
+/obj/effect/shuttle_landmark/jelly/Initialize()
+	. = ..()
 	var/obj/effect/overmap/visitable/ship/jelly/J = locate() in world
 	if(!J || !(type in subtypesof(type)) ) return
 	J.restricted_waypoints[splittext(name," ")[1]] = landmark_tag
