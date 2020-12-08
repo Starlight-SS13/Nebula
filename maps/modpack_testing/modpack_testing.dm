@@ -13,6 +13,7 @@
 	#include "..\..\mods\dionaea\_dionaea.dme"
 
 	// - Starlight Edit -
+	#include "../../starlight/mods/resomi/_resomi.dme"
 	#include "../../starlight/mods/booster/_booster.dme"
 	#include "../../starlight/mods/tajaran/_tajaran.dme"
 	#include "../../starlight/mods/tritonian/_tritonian.dme"
