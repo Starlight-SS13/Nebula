@@ -25,6 +25,7 @@
 /obj/structure/cable/green{
 	icon_state = "4-8"
 	},
+/obj/machinery/door/airlock/external/bolted,
 /turf/simulated/floor/plating,
 /area/jelly/cargo/lower)
 "aY" = (
@@ -43,6 +44,9 @@
 	},
 /obj/machinery/atmospherics/unary/vent_pump/high_volume/external_air{
 	dir = 8
+	},
+/obj/machinery/embedded_controller/radio/airlock/docking_port{
+	id_tag = "catfish_airlock"
 	},
 /turf/simulated/floor/plating,
 /area/jelly/shuttle/catfish)
@@ -191,6 +195,7 @@
 /obj/structure/cable/green{
 	icon_state = "4-8"
 	},
+/obj/machinery/door/airlock/external/bolted,
 /turf/simulated/floor/plating,
 /area/jelly/shuttle/galileo)
 "eJ" = (
@@ -487,6 +492,7 @@
 /obj/machinery/atmospherics/pipe/simple/visible{
 	dir = 10
 	},
+/obj/machinery/door/airlock/external/bolted,
 /turf/simulated/floor/plating,
 /area/jelly/shuttle/catfish)
 "mI" = (
@@ -716,6 +722,7 @@
 /obj/machinery/atmospherics/pipe/simple/visible{
 	dir = 4
 	},
+/obj/machinery/door/airlock/external/bolted,
 /turf/simulated/floor/plating,
 /area/jelly/cargo/lower)
 "te" = (
@@ -770,11 +777,6 @@
 	},
 /turf/simulated/floor/tiled/dark/monotile,
 /area/jelly/cargo/lower)
-"ug" = (
-/obj/structure/anomaly_container,
-/obj/structure/artifact,
-/turf/simulated/floor/plating,
-/area/jelly/port_storage)
 "um" = (
 /obj/machinery/atmospherics/pipe/simple/visible/scrubbers{
 	dir = 4
@@ -853,6 +855,10 @@
 /obj/machinery/portable_atmospherics/canister/empty/carbon_dioxide,
 /turf/simulated/floor/plating,
 /area/jelly/engine/propulsion/aux_port)
+"wr" = (
+/obj/machinery/door/airlock/external/bolted,
+/turf/simulated/floor/plating,
+/area/jelly/cargo/lower)
 "wu" = (
 /obj/machinery/light{
 	dir = 8
@@ -904,6 +910,7 @@
 /obj/machinery/atmospherics/pipe/simple/visible{
 	dir = 6
 	},
+/obj/machinery/door/airlock/external/bolted,
 /turf/simulated/floor/plating,
 /area/jelly/shuttle/catfish)
 "xP" = (
@@ -1114,6 +1121,7 @@
 /obj/machinery/atmospherics/pipe/simple/visible{
 	dir = 4
 	},
+/obj/machinery/door/airlock/external/bolted,
 /turf/simulated/floor/plating,
 /area/jelly/shuttle/catfish)
 "Cl" = (
@@ -1214,6 +1222,9 @@
 	},
 /obj/machinery/atmospherics/unary/vent_pump/high_volume/external_air{
 	dir = 4
+	},
+/obj/machinery/embedded_controller/radio/airlock/docking_port{
+	id_tag = "catfish_airlock_aux"
 	},
 /turf/simulated/floor/plating,
 /area/jelly/shuttle/catfish)
@@ -1370,6 +1381,7 @@
 /obj/structure/cable/green{
 	icon_state = "4-8"
 	},
+/obj/machinery/door/airlock/external/bolted,
 /turf/simulated/floor/plating,
 /area/jelly/shuttle/galileo)
 "If" = (
@@ -1381,6 +1393,9 @@
 	},
 /obj/machinery/atmospherics/unary/vent_pump/high_volume/external_air{
 	dir = 4
+	},
+/obj/machinery/embedded_controller/radio/airlock/docking_port{
+	id_tag = "galileo_airlock"
 	},
 /turf/simulated/floor/plating,
 /area/jelly/shuttle/galileo)
@@ -1472,6 +1487,7 @@
 /obj/structure/cable/green{
 	icon_state = "4-8"
 	},
+/obj/machinery/door/airlock/external/bolted,
 /turf/simulated/floor/plating,
 /area/jelly/cargo/lower)
 "MG" = (
@@ -2021,7 +2037,8 @@
 /turf/simulated/floor/airless,
 /area/jelly/shuttle/catfish)
 "XX" = (
-/obj/structure/anomaly_container,
+/obj/machinery/recharger,
+/obj/structure/table/standard,
 /turf/simulated/floor/plating,
 /area/jelly/port_storage)
 "XY" = (
@@ -2876,7 +2893,7 @@ aa
 aa
 aa
 Us
-ug
+KW
 KW
 Us
 AO
@@ -3122,7 +3139,7 @@ aa
 aa
 aa
 Us
-ug
+XX
 KW
 De
 KW
@@ -3204,7 +3221,7 @@ aa
 aa
 aa
 Us
-XX
+KW
 KW
 Us
 KW
@@ -4436,7 +4453,7 @@ aa
 aa
 aa
 nz
-FN
+wr
 nz
 aa
 aa
