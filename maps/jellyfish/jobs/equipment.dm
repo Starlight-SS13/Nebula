@@ -32,16 +32,28 @@
 	w_class    = ITEM_SIZE_SMALL
 	var/obj/item/card/id/stored
 
+/obj/item/badge/dropped()
+	. = ..()
+	if(stored) stored.icon_state = ICON_STATE_WORLD
+	update_icon()
+
+/obj/item/badge/equipped()
+	. = ..()
+	if(stored) stored.icon_state = ICON_STATE_INV
+	update_icon()
+
 /obj/item/badge/on_update_icon()
-	cut_overlays()
+	. = ..()
+	underlays = list()
 	if(stored)
-		underlays += image(icon = stored.icon, icon_state = ICON_STATE_INV)
+		underlays += image(stored.icon,stored.icon_state)
 
 /obj/item/badge/attackby(var/obj/item/I,var/mob/user)
 	if(stored) return
 	if(istype(I,/obj/item/card/id))
 		user.drop_from_inventory(I)
 		stored = I
+		stored.icon_state = ICON_STATE_INV
 		I.forceMove(src)
 		update_icon()
 
@@ -114,34 +126,34 @@
 
 /mob/living/carbon/human/say(var/message, var/decl/language/speaking = null, whispering)
 	. = ..()
-	var/obj/item/pager/P = locate() in contents
-	if(!P) return
-	P.hear_talk(src,message)
+	for(var/obj/item/pager/P in contents)
+		P.hear_talk(src,message)
 
 /obj/item/pager/hear_talk(mob/M, msg, var/say_verb = "says", var/decl/language/speaking = null)
 	if(!broadcast) return
 	transmit(msg)
 
 /obj/item/pager/proc/transmit(message)
+	message = sanitize_text(message)
 	var/datum/extension/network_device/D = get_extension(src, /datum/extension/network_device)
-	if(!D) return
+	if(!D || !length(message)) return
 	broadcast_flick()
 	var/datum/computer_network/net = D.get_network()
 	var/list/pagers = net.get_devices_by_type(type, null)
 	for(var/obj/item/pager/P in pagers)
-		P.receive_flick()
+		if(P != src) P.receive_flick()
 		var/mob/living/carbon/human/H = P.loc
 		if(!istype(H)) continue
 		to_chat(H,"[html_icon(src)] <B>[D.network_tag]:</B> [uppertext(message)]")
 
-/obj/item/pager/proc/receive_flick()
-	addglow("[icon_state]-receive",COLOR_GREEN)
+/obj/item/pager/proc/receive_flick(var/glow_color = COLOR_GREEN)
+	addglow("[icon_state]-receive",glow_color)
 	if(sounded) playsound(src, 'sound/machines/twobeep.ogg', 20, 0)
-	addtimer(CALLBACK(src, /atom/proc/update_icon), 5)
+	addtimer(CALLBACK(src, /atom/proc/update_icon), 20)
 
 /obj/item/pager/proc/broadcast_flick()
 	addglow("[icon_state]-broadcast",COLOR_YELLOW)
-	addtimer(CALLBACK(src, /atom/proc/update_icon), 5)
+	addtimer(CALLBACK(src, /atom/proc/update_icon), 30)
 
 /obj/item/pager/verb/reconnect()
 	set name     = "Select Pager Network"

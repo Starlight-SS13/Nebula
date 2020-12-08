@@ -16,18 +16,22 @@
 
 /obj/effect/airlock_helper/Initialize()
 	. = ..()
+
 	if(!main_id)
 		main_id = "airlock_[sequential_id(type)]"
 
 	var/backdir = GLOB.reverse_dir[dir]
-	var/turf/fore = get_step(src,dir)
-	var/turf/back = get_step(src,backdir)
+	var/turf/fore     = get_step(src,dir)
+	var/turf/forefore = get_step(fore,dir)
+	var/turf/back     = get_step(src,backdir)
 
 //Things..
 
 	var/obj/machinery/door/airlock/external/door_exterior
-	if(shuttle) door_exterior = locate() in get_step(fore,dir)
-	else        door_exterior = locate() in fore
+	if(shuttle)
+		door_exterior = locate() in forefore
+	else
+		door_exterior = locate() in fore
 
 	var/obj/machinery/door/airlock/external/door_interior = locate() in back
 	var/obj/machinery/airlock_sensor/sensor               = new(loc)
@@ -60,12 +64,11 @@
 
 	controller.cycle_to_external_air = shuttle
 
+	controller.program.reset_id_tags(main_id)
+
 //Move them
 
-	door_exterior.loc = fore
-	door_interior.loc = back
-
-	exterior_button.loc = fore
+	exterior_button.loc = shuttle ? fore : forefore
 	interior_button.loc = back
 
 //Sensor is always on right wall, controller is on left
@@ -104,7 +107,7 @@
 
 		if(EAST)
 			sensor.pixel_y     = -24
-			controller.pixel_x =  24
+			controller.pixel_y =  24
 
 			exterior_button.pixel_x  =  10
 			exterior_button.pixel_y  =  24

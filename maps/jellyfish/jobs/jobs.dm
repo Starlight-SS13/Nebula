@@ -6,6 +6,7 @@
 	uniform  = /obj/item/clothing/under/color/black
 	shoes    = /obj/item/clothing/shoes/jackboots
 	l_pocket = /obj/item/pager
+	r_pocket = /obj/item/flashlight
 	l_ear    = null
 
 /decl/hierarchy/outfit/job/jelly/eng

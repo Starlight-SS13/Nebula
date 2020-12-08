@@ -9,12 +9,6 @@ Kite    - Light Transport Pod
 /obj/effect/overmap/visitable/ship/landable/shuttle
 	vessel_size = SHIP_SIZE_TINY
 
-/obj/effect/shuttle_landmark/jelly/Initialize()
-	. = ..()
-	var/obj/effect/overmap/visitable/ship/jelly/J = SSshuttle.ship_by_type(/obj/effect/overmap/visitable/ship/jelly)
-	if(!J || !(type in subtypesof(type)) ) return
-	J.restricted_waypoints[splittext(name," ")[1]] = landmark_tag
-
 /obj/machinery/computer/shuttle_control/explore/Initialize()
 	. = ..()
 	name = "shuttle console ([shuttle_tag])"
