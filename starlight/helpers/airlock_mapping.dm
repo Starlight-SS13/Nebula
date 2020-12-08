@@ -39,7 +39,6 @@
 
 	var/obj/machinery/button/access/exterior/exterior_button = new(loc)
 	var/obj/machinery/button/access/interior/interior_button = new(loc)
-	EB.id_tag = CON.id_tag
 
 //Assign tags
 
