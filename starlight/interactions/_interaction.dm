@@ -7,8 +7,10 @@ big thanks to honkerton (and test unit) whose made panel for ATMTA project, sinc
 
 */
 
-//also, ipcs species name was undefed. idk why...
-#define SPECIES_FRAME "Utility Frame"
+//Helpers and etc
+
+#define B(X) "<b>[X]</b>" //Bold text macro
+#define SPECIES_FRAME "Utility Frame" //It was undefed
 
 //Clothing zippers. It is... strange.
 
@@ -45,9 +47,6 @@ big thanks to honkerton (and test unit) whose made panel for ATMTA project, sinc
 	var/obj/item/organ/external/lhand = organs_by_name[BP_L_HAND]
 	return ( rhand && rhand.is_usable() ) && ( lhand && lhand.is_usable() )
 
-//Useful, makes text bold.
-#define B(X) "<b>[X]</b>"
-
 /mob/living/carbon/human/proc/get_age_pitch()
 	return 1.0 + 0.5*(30 - age)/80
 
@@ -73,7 +72,7 @@ big thanks to honkerton (and test unit) whose made panel for ATMTA project, sinc
 
 /datum/interaction
 	var/name = "You should not see this"
-	var/id   = "no" //ID for hrefs and global list, **MUST FILL**
+	var/id   = "no" //ID for hrefs and global list, seems odd (as you can use interaction names to generate lists etc), maybe remove them later
 
 //Availability flags
 	var/user_flags    = null
@@ -102,7 +101,7 @@ big thanks to honkerton (and test unit) whose made panel for ATMTA project, sinc
 	return 1
 
 /datum/interaction/proc/available_for(var/mob/living/carbon/human/H,var/mob/living/carbon/human/P)
-	if(!H || H == P) return 0 //no selfinteracts, FOR NOW
+	if(!H || H == P) return 0 //no selfinteracts
 	if(adjacent && !(H.Adjacent(P) || H.loc == P.loc)) return 0
 	return check_for(H,user_flags) && check_for(P,partner_flags)
 
@@ -110,14 +109,13 @@ big thanks to honkerton (and test unit) whose made panel for ATMTA project, sinc
 
 GLOBAL_LIST_EMPTY(interactions)
 
-//thats baaad, i knoooooooooooooooooooow. i will not change this since i am lazy
 /world/New()
-	for(var/interaction_type in typesof(/datum/interaction)-/datum/interaction)
+	..()
+	for(var/interaction_type in subtypesof(/datum/interaction))
 		var/datum/interaction/I = interaction_type
 		if(initial(I.id) == "no") continue
 		var/datum/interaction/N = new interaction_type
 		GLOB.interactions[N.id] = N
-	..()
 
 //INTERFACE//
 

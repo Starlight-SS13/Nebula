@@ -107,8 +107,8 @@
 						"penetrates [PN] at last, shivering")
 
 		if(flag == INT_ASS)
-			message = pick("cums in [PN]'ass",
-						"pulls out from [PN]'asshole, splattering their cum on them")
+			message = pick("cums in [PN]'s ass",
+						"pulls out from [PN]'s asshole, splattering their cum on them")
 
 		if(!flag)
 			message = "cums onto floor"
@@ -116,7 +116,7 @@
 	H.lust = 0
 	H.adjust_drugged(5, 5)
 	H.visible_message("<span style='color: [color]'>[B("[H] [message].")]</span>")
-	if(H.species.name != SPECIES_FRAME) playsound(get_turf(H), "starlight/sound/voice/interaction/final_[H.gender == MALE ? "m" : "f"][H.gender == MALE ? rand(1,5) : rand(1,3)].ogg", 70 + (H.gender == FEMALE ? 20 : 0), 1, frequency = H.get_age_pitch())
+	if(H.species.name != SPECIES_FRAME) playsound(get_turf(H), "starlight/sound/voice/interaction/final_[H.gender == MALE ? "m" : "f"][H.gender == MALE ? rand(1,5) : rand(1,3)].ogg", 40 + (H.gender == FEMALE ? 40 : 0), 1, frequency = H.get_age_pitch())
 	else playsound(get_turf(H),'sound/effects/turret/open.wav',70,1,-1)
 
 /datum/interaction/sex/proc/moan(var/mob/living/carbon/human/H)
@@ -271,3 +271,4 @@
 	H.muzzled_until = world.time + 50
 
 #undef B
+#undef SPECIES_FRAME
