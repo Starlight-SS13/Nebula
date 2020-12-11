@@ -75,15 +75,6 @@
 	else
 		layer = open_layer
 
-
-	if(width > 1)
-		if(dir in list(EAST, WEST))
-			bound_width = width * world.icon_size
-			bound_height = world.icon_size
-		else
-			bound_width = world.icon_size
-			bound_height = width * world.icon_size
-
 	if (turf_hand_priority)
 		set_extension(src, /datum/extension/turf_hand, turf_hand_priority)
 
@@ -113,6 +104,15 @@
 			close()
 		else
 			close_door_at = 0
+
+/obj/machinery/door/airlock/proc/SetBounds()
+	if(width <= 1) return
+	if(dir in list(NORTH, SOUTH))
+		bound_width = width * world.icon_size
+		bound_height = world.icon_size
+	else
+		bound_width = world.icon_size
+		bound_height = width * world.icon_size
 
 /obj/machinery/door/proc/can_open()
 	if(!density || operating)
@@ -452,13 +452,6 @@
 	update_nearby_tiles()
 
 	. = ..()
-	if(width > 1)
-		if(dir in list(EAST, WEST))
-			bound_width = width * world.icon_size
-			bound_height = world.icon_size
-		else
-			bound_width = world.icon_size
-			bound_height = width * world.icon_size
 
 	if(.)
 		dismantle(TRUE)

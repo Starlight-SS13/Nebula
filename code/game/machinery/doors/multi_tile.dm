@@ -20,22 +20,13 @@
 	opacity = 1
 	frame_type = /obj/structure/door_assembly/multi_tile
 
-/obj/machinery/door/airlock/multi_tile/Initialize()
+/obj/machinery/door/airlock/multi_tile/LateInitialize()
 	. = ..()
 	SetBounds()
 
 /obj/machinery/door/airlock/multi_tile/Move()
 	. = ..()
 	SetBounds()
-
-/obj/machinery/door/airlock/multi_tile/proc/SetBounds()
-	if(dir in list(NORTH, SOUTH))
-		bound_width = width * world.icon_size
-		bound_height = world.icon_size
-	else
-		bound_width = world.icon_size
-		bound_height = width * world.icon_size
-
 
 /obj/machinery/door/airlock/multi_tile/on_update_icon(state=0, override=0)
 	..()
