@@ -1,18 +1,15 @@
 /*
 
-interaction system by coltrane
-made for constellation project. ported to starlight
-
-big thanks to honkerton (and test unit) whose made panel for ATMTA project, since i am using its media and some helpers
+interaction system (just a datum what plays sound and outputs text depending on itself and user)
 
 */
 
-//Helpers and etc
+//Unsorted defines
 
-#define B(X) "<b>[X]</b>" //Bold text macro
+#define B(X) "<b>[X]</b>"             //Bold text macro
 #define SPECIES_FRAME "Utility Frame" //It was undefed
 
-//Clothing zippers. It is... strange.
+//Clothing zippers
 
 /obj/item/clothing/under/var/zipper = 0
 
@@ -108,14 +105,14 @@ big thanks to honkerton (and test unit) whose made panel for ATMTA project, sinc
 //INITIALIZATION//
 
 GLOBAL_LIST_EMPTY(interactions)
-
+/* temporarily
 /world/New()
 	..()
 	for(var/interaction_type in subtypesof(/datum/interaction))
 		var/datum/interaction/I = interaction_type
 		if(initial(I.id) == "no") continue
 		var/datum/interaction/N = new interaction_type
-		GLOB.interactions[N.id] = N
+		GLOB.interactions[N.id] = N*/
 
 //INTERFACE//
 

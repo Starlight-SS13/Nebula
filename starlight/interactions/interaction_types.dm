@@ -51,7 +51,6 @@
 /mob/living/carbon/human
 	var/lust = 0
 	var/max_lust = 180
-	var/penis_size = 10
 
 	var/last_moan //Number of sound (moan)
 
@@ -59,14 +58,10 @@
 	. = ..()
 	if(lust > 1) lust -= 1
 
-/mob/living/carbon/human/Initialize()
-	. = ..()
-	penis_size = rand(10,20)
-
 /mob/living/carbon/human/examine(mob/user, distance)
 	. = ..()
 	if(underfluffies_access() && gender == MALE)
-		to_chat(user,SPAN_BOLD("Penis size: [penis_size] cm"))
+		to_chat(user,SPAN_BOLD("They have an exposed penis."))
 
 /datum/species
 	genders = list(MALE, FEMALE)
@@ -159,8 +154,8 @@
 /datum/interaction/sex/handle_other(var/mob/living/carbon/human/H, var/mob/living/carbon/human/P)
 	if(H.lust >= H.max_lust) cum(H,P,hole)
 	if(P.lust >= P.max_lust) cum(P,H,null)
-	H.lust += H.penis_size * rand(0.4,0.9)
-	P.lust += H.penis_size * rand(0.4,0.9)
+	H.lust += 10 * rand(0.4,0.9)
+	P.lust += 10 * rand(0.4,0.9)
 	moan(H)
 	moan(P)
 	animate_with(H,P)
@@ -232,7 +227,7 @@
 /datum/interaction/sex/oral/handle_other(var/mob/living/carbon/human/H, var/mob/living/carbon/human/P)
 	if(H.lust >= H.max_lust) cum(H,P,hole)
 	if(P.lust >= P.max_lust) cum(P,H,null)
-	H.lust += H.penis_size * rand(0.4,0.9)
+	H.lust += 10 * rand(0.4,0.9)
 	moan(H)
 	animate_with(H,P)
 	P.muzzled_until = world.time + 100
@@ -265,7 +260,7 @@
 /datum/interaction/sex/oral/blowjob/handle_other(var/mob/living/carbon/human/H, var/mob/living/carbon/human/P)
 	if(P.lust >= P.max_lust) cum(P,H,hole)
 	if(H.lust >= H.max_lust) cum(H,P,null)
-	P.lust += P.penis_size * rand(0.4,0.9)
+	P.lust += 10 * rand(0.4,0.9)
 	moan(P)
 	animate_with(P,H)
 	H.muzzled_until = world.time + 50

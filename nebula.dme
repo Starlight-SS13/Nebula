@@ -3271,5 +3271,7 @@
 #include "maps\~unit_tests\unit_testing.dm"
 #include "mods\_modpack.dm"
 #include "starlight\_global_vars\sound.dm"
+#include "starlight\interactions\_interaction.dm"
+#include "starlight\interactions\interaction_types.dm"
 #include "~code\global_init.dm"
 // END_INCLUDE
