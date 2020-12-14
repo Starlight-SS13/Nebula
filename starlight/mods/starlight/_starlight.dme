@@ -19,6 +19,7 @@
 #include "music_tracks\rainfall_over_parallel_ports.dm"
 #include "noose\noose.dm"
 #include "pixel_shift\pixel_shift.dm"
+#include "robot_vision\robot_vision.dm"
 #include "sprite_accessory\hair.dm"
 #include "sprite_accessory\markings.dm"
 #include "tripping_over\tripping_over.dm"
