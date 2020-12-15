@@ -243,7 +243,7 @@
 	if(possible_locations.len && prob(10))
 		newz = pick(possible_locations)
 	var/turf/nloc = locate(rand(TRANSITIONEDGE, world.maxx-TRANSITIONEDGE), rand(TRANSITIONEDGE, world.maxy-TRANSITIONEDGE),newz)
-	if(!istype(nloc, /turf/space))
+	if(!isspaceturf(nloc))
 		explosion(nloc, 1, 2, 3)
 	playsound(loc,'sound/effects/rocket.ogg',100)
 	forceMove(nloc)
@@ -544,9 +544,6 @@
 	if(!occupant)
 		return
 
-	if(!do_after(usr, 3 SECONDS, src))
-		return
-
 	if(occupant.client)
 		occupant.client.eye = src.occupant.client.mob
 		occupant.client.perspective = MOB_PERSPECTIVE
@@ -579,9 +576,9 @@
 
 	SetName("[name] ([occupant])")
 	icon_state = occupied_icon_state
-/*
+
 /obj/machinery/cryopod/relaymove(var/mob/user)
-	go_out()*/
+	go_out()
 
 //A prop version for away missions and such
 
