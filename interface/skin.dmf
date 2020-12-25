@@ -1,4 +1,25 @@
 macro "borghotkeymode"
+
+//STARLIGHT CUSTOM MACROS
+	
+	elem 
+		name = "CTRL+SHIFT+West"
+		command = "shiftwest"
+
+	elem 
+		name = "CTRL+SHIFT+North"
+		command = "shiftnorth"
+
+	elem 
+		name = "CTRL+SHIFT+East"
+		command = "shifteast"
+
+	elem 
+		name = "CTRL+SHIFT+South"
+		command = "shiftsouth"
+
+//STARLIGHT CUSTOM MACROS
+
 	elem 
 		name = "Tab"
 		command = ".winset \"mainwindow.macro=borgmacro hotkey_toggle.is-checked=false input.focus=true input.background-color=#d3b5b5\""
@@ -223,6 +244,27 @@ macro "borghotkeymode"
 		command = "move-down"
 
 macro "macro"
+
+//STARLIGHT CUSTOM MACROS
+	
+	elem 
+		name = "CTRL+SHIFT+West"
+		command = "shiftwest"
+
+	elem 
+		name = "CTRL+SHIFT+North"
+		command = "shiftnorth"
+
+	elem 
+		name = "CTRL+SHIFT+East"
+		command = "shifteast"
+
+	elem 
+		name = "CTRL+SHIFT+South"
+		command = "shiftsouth"
+
+//STARLIGHT CUSTOM MACROS
+
 	elem 
 		name = "Tab"
 		command = ".winset \"mainwindow.macro=hotkeymode hotkey_toggle.is-checked=true mapwindow.map.focus=true input.background-color=#f0f0f0\""
@@ -396,6 +438,27 @@ macro "macro"
 		command = "move-down"
 
 macro "hotkeymode"
+
+//STARLIGHT CUSTOM MACROS
+	
+	elem 
+		name = "CTRL+SHIFT+West"
+		command = "shiftwest"
+
+	elem 
+		name = "CTRL+SHIFT+North"
+		command = "shiftnorth"
+
+	elem 
+		name = "CTRL+SHIFT+East"
+		command = "shifteast"
+
+	elem 
+		name = "CTRL+SHIFT+South"
+		command = "shiftsouth"
+
+//STARLIGHT CUSTOM MACROS
+
 	elem 
 		name = "Tab"
 		command = ".winset \"mainwindow.macro=macro hotkey_toggle.is-checked=false input.focus=true input.background-color=#d3b5b5\""
@@ -638,6 +701,27 @@ macro "hotkeymode"
 		command = "setmovingslowly"
 
 macro "borgmacro"
+
+//STARLIGHT CUSTOM MACROS
+	
+	elem 
+		name = "CTRL+SHIFT+West"
+		command = "shiftwest"
+
+	elem 
+		name = "CTRL+SHIFT+North"
+		command = "shiftnorth"
+
+	elem 
+		name = "CTRL+SHIFT+East"
+		command = "shifteast"
+
+	elem 
+		name = "CTRL+SHIFT+South"
+		command = "shiftsouth"
+
+//STARLIGHT CUSTOM MACROS
+
 	elem 
 		name = "Tab"
 		command = ".winset \"mainwindow.macro=borghotkeymode hotkey_toggle.is-checked=true mapwindow.map.focus=true input.background-color=#f0f0f0\""
@@ -1216,6 +1300,31 @@ window "rpane"
 		command = ".winset \"rpanewindow.left=infowindow\""
 		group = "rpanemode"
 		button-type = pushbox
+
+window "preferences_window"
+	elem "preferences_window"
+		type = MAIN
+		pos = 281,0
+		size = 1000x800
+		anchor1 = none
+		anchor2 = none
+		is-visible = false
+		saved-params = "pos;size;is-minimized;is-maximized"
+		statusbar = false
+	elem "preferences_browser"
+		type = BROWSER
+		pos = 0,0
+		size = 800x800
+		anchor1 = 0,0
+		anchor2 = 80,100
+		saved-params = ""
+	elem "character_preview_map"
+		type = MAP
+		pos = 800,0
+		size = 200x800
+		anchor1 = 80,0
+		anchor2 = 100,100
+		right-click = false
 
 window "infowindow"
 	elem "infowindow"

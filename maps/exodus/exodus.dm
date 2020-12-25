@@ -1,10 +1,16 @@
 #if !defined(USING_MAP_DATUM)
 
 	#include "../../mods/misc/mundane.dm"
+	#include "../../mods/utility_frames/_utility_frames.dme"
 	#include "../../mods/corporate/_corporate.dme"
 	#include "../../mods/ascent/_ascent.dme"
 	#include "../../mods/psionics/_psionics.dme"
 	#include "../../mods/dionaea/_dionaea.dme"
+
+// STARLIGHT MODS START
+
+	// General content mod
+	#include "../../starlight/mods/starlight/_starlight.dme"
 
 	// Species mods
 	#include "../../starlight/mods/resomi/_resomi.dme"
@@ -14,7 +20,11 @@
 
 	// Visual and audio mods
 //	#include "../../starlight/mods/blindspot/_blindspot.dme"
-	#include "../../starlight/mods/europa_floors/_europa_floors.dme"
+//	#include "../../starlight/mods/europa_floors/_europa_floors.dme"
+
+// STARLIGHT MODS END
+
+	#include "../random_ruins/exoplanet_ruins/playablecolony/playablecolony.dm"
 
 	#include "../../mods/government/away_sites/icarus/icarus.dm"
 	#include "../../mods/government/ruins/ec_old_crash/ec_old_crash.dm"
@@ -56,6 +66,7 @@
 	#include "exodus_elevator.dm"
 	#include "exodus_jobs.dm"
 	#include "exodus_loadout.dm"
+	#include "exodus_lobby.dm"
 	#include "exodus_overmap.dm"
 	#include "exodus_setup.dm"
 	#include "exodus_shuttles.dm"
