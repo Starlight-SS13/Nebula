@@ -18,42 +18,6 @@ Kite    - Light Transport Pod
 	area_flags = AREA_FLAG_RAD_SHIELDED | AREA_FLAG_ION_SHIELDED
 	turf_initializer = /decl/turf_initializer/maintenance/heavy/jelly
 
-/* Example
-
-//Example
-
-/obj/machinery/computer/shuttle_control/explore/example
-	shuttle_tag = "Example"
-
-/datum/shuttle/autodock/overmap/example
-	name = "Example"
-	shuttle_area = /area/jelly/shuttle/example
-	dock_target = "example_airlock"
-	current_location = "nav_dock_example"
-
-/area/jelly/shuttle/example
-	name = "Example"
-	area_flags = AREA_FLAG_RAD_SHIELDED | AREA_FLAG_ION_SHIELDED
-
-/obj/effect/overmap/visitable/ship/landable/shuttle/example
-	name = "Example"
-	shuttle = "Example"
-
-/obj/effect/shuttle_landmark/jelly/dock_example
-	name = "Example Docking Port"
-	landmark_tag = "nav_dock_example"
-	docking_controller = "example_dock_airlock"
-
-/obj/effect/airlock_helper/shuttle/example
-	name = "Airlock Helper - Example Shuttle"
-	main_id = "example_airlock"
-
-/obj/effect/airlock_helper/dock/example
-	name = "Airlock Helper - Example Shuttle Dock"
-	main_id = "example_dock_airlock"
-
-*/
-
 //Catfish
 
 /obj/machinery/computer/shuttle_control/explore/catfish
@@ -62,7 +26,6 @@ Kite    - Light Transport Pod
 /datum/shuttle/autodock/overmap/catfish
 	name = "Catfish"
 	shuttle_area = /area/jelly/shuttle/catfish
-	dock_target = "catfish_airlock"
 	current_location = "nav_dock_catfish"
 
 /area/jelly/shuttle/catfish
@@ -75,15 +38,6 @@ Kite    - Light Transport Pod
 /obj/effect/shuttle_landmark/jelly/dock_catfish
 	name = "Catfish Docking Port"
 	landmark_tag = "nav_dock_catfish"
-	docking_controller = "catfish_dock_airlock"
-
-/obj/effect/airlock_helper/shuttle/catfish
-	name = "Airlock Helper - Catfish Shuttle"
-	main_id = "catfish_airlock"
-
-/obj/effect/airlock_helper/dock/catfish
-	name = "Airlock Helper - Catfish Shuttle Dock"
-	main_id = "catfish_dock_airlock"
 
 //Galileo
 
@@ -93,7 +47,6 @@ Kite    - Light Transport Pod
 /datum/shuttle/autodock/overmap/galileo
 	name = "Galileo"
 	shuttle_area = /area/jelly/shuttle/galileo
-	dock_target = "galileo_airlock"
 	current_location = "nav_dock_galileo"
 
 /area/jelly/shuttle/galileo
@@ -106,15 +59,6 @@ Kite    - Light Transport Pod
 /obj/effect/shuttle_landmark/jelly/dock_galileo
 	name = "Galileo Docking Port"
 	landmark_tag = "nav_dock_galileo"
-	docking_controller = "galileo_dock_airlock"
-
-/obj/effect/airlock_helper/shuttle/galileo
-	name = "Airlock Helper - Galileo Shuttle"
-	main_id = "galileo_airlock"
-
-/obj/effect/airlock_helper/dock/galileo
-	name = "Airlock Helper - Galileo Shuttle Dock"
-	main_id = "galileo_dock_airlock"
 
 //Kite
 
@@ -124,7 +68,6 @@ Kite    - Light Transport Pod
 /datum/shuttle/autodock/overmap/kite
 	name = "Kite"
 	shuttle_area = /area/jelly/shuttle/kite
-	dock_target = "kite_airlock"
 	current_location = "nav_dock_kite"
 
 /area/jelly/shuttle/kite
@@ -137,12 +80,40 @@ Kite    - Light Transport Pod
 /obj/effect/shuttle_landmark/jelly/dock_kite
 	name = "Kite Docking Port"
 	landmark_tag = "nav_dock_kite"
-	docking_controller = "kite_dock_airlock"
 
-/obj/effect/airlock_helper/shuttle/kite
-	name = "Airlock Helper - Kite Shuttle"
-	main_id = "kite_airlock"
+//rotary airlock
 
-/obj/effect/airlock_helper/dock/kite
-	name = "Airlock Helper - Kite Shuttle Dock"
-	main_id = "kite_dock_airlock"
+/obj/machinery/rotary_access
+	name = "rotary access door"
+	desc = "Rotating tube used generally used for easy exterior/interior access points."
+
+	icon = 'icons/obj/machines/massdriver.dmi' //spriter crisis
+	icon_state = "mass_driver"
+
+	idle_power_usage = 300
+
+	anchored = 1
+	opacity  = 1
+
+/obj/machinery/rotary_access/on_update_icon()
+	if(!operable())
+		set_light(0)
+		return
+	set_light(0.4, 0.1, 1, 0.5, COLOR_RED_LIGHT)
+
+/obj/machinery/rotary_access/attack_hand(var/mob/user)
+	if(!operable() || !isliving(user) || !(get_dir(src,user) in global.cardinal))
+		to_chat(user,SPAN_DANGER("\the [src] refuses to operate."))
+		return
+	var/godir = (user.loc == get_step(src,dir) ? global.reverse_dir[dir] : dir)
+	var/turf/exit = get_step(src,godir)
+	var/obj/machinery/rotary_access/docked = locate() in exit
+	if(docked) exit = get_step(docked,godir)
+
+	if(exit.contains_dense_objects())
+		to_chat(user,SPAN_DANGER("Something is blocking the hatch."))
+		return
+
+	if(do_after(user,20,src))
+		user.forceMove(exit)
+		playsound(exit, 'sound/machines/airlock_ext_open.ogg', 60, 0)

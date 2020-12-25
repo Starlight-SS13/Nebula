@@ -2,2125 +2,16 @@
 "aa" = (
 /turf/space,
 /area/space)
-"ad" = (
-/obj/machinery/atmospherics/unary/vent_pump/high_volume/external_air{
-	dir = 4
-	},
-/turf/simulated/floor/plating,
-/area/jelly/shuttle/catfish)
-"aw" = (
-/obj/structure/table/standard,
-/obj/random/drinkingglass,
-/obj/random/drinkingglass,
-/obj/random/drinkbottle,
-/turf/simulated/floor/plating,
-/area/jelly/shuttle/catfish)
-"aB" = (
-/obj/machinery/atmospherics/pipe/manifold/visible/fuel{
-	dir = 8
-	},
-/turf/simulated/floor/plating,
-/area/jelly/engine/propulsion/aux_port)
-"aF" = (
-/obj/structure/cable/green{
-	icon_state = "4-8"
-	},
-/obj/machinery/door/airlock/external/bolted,
-/turf/simulated/floor/plating,
-/area/jelly/cargo/lower)
-"aY" = (
-/obj/structure/cable/green{
-	icon_state = "1-2"
-	},
-/obj/structure/catwalk,
-/obj/effect/overmap/visitable/ship/landable/shuttle/catfish,
-/obj/effect/shuttle_landmark/jelly/dock_catfish,
-/obj/machinery/atmospherics/pipe/simple/visible/scrubbers,
-/turf/simulated/floor/plating,
-/area/jelly/shuttle/catfish)
-"br" = (
-/obj/effect/airlock_helper/shuttle/catfish{
-	dir = 4
-	},
-/obj/machinery/atmospherics/unary/vent_pump/high_volume/external_air{
-	dir = 8
-	},
-/obj/machinery/embedded_controller/radio/airlock/docking_port{
-	id_tag = "catfish_airlock"
-	},
-/turf/simulated/floor/plating,
-/area/jelly/shuttle/catfish)
-"bC" = (
-/obj/structure/cable/green{
-	icon_state = "4-8"
-	},
-/obj/machinery/door/airlock/hatch/jelly,
-/turf/simulated/floor/plating,
-/area/jelly/engine)
-"bF" = (
-/obj/machinery/light{
-	dir = 4
-	},
-/obj/structure/cable/green{
-	icon_state = "2-8"
-	},
-/obj/machinery/atmospherics/pipe/simple/hidden/supply{
-	dir = 10
-	},
-/obj/effect/floor_decal/industrial/warning{
-	dir = 1
-	},
-/turf/simulated/floor/tiled/dark/monotile,
-/area/jelly/cargo/lower)
-"bG" = (
-/obj/machinery/ion_thruster{
-	dir = 8
-	},
-/turf/simulated/floor/airless,
-/area/jelly/shuttle/catfish)
-"bL" = (
-/obj/structure/ladder,
-/turf/simulated/floor/plating,
-/area/jelly/cargo/lower)
-"cc" = (
-/obj/machinery/atmospherics/pipe/manifold/visible{
-	dir = 4
-	},
-/obj/machinery/atmospherics/pipe/simple/visible/scrubbers{
-	dir = 5
-	},
-/obj/structure/catwalk,
-/turf/simulated/floor/plating,
-/area/jelly/shuttle/catfish)
-"cf" = (
-/obj/machinery/shipsensors/weak,
-/turf/simulated/floor/reinforced/airless,
-/area/jelly/shuttle/catfish)
-"cg" = (
-/obj/machinery/atmospherics/pipe/manifold/visible/fuel{
-	dir = 8
-	},
-/obj/structure/catwalk,
-/obj/structure/cable{
-	icon_state = "2-4"
-	},
-/obj/machinery/light{
-	dir = 8
-	},
-/turf/simulated/floor/plating,
-/area/jelly/engine)
-"cj" = (
-/obj/effect/floor_decal/industrial/warning,
-/turf/simulated/floor/tiled/dark/monotile,
-/area/jelly/cargo/lower)
-"ck" = (
-/turf/simulated/floor/plating,
-/area/jelly/engine)
-"co" = (
-/obj/machinery/atmospherics/pipe/simple/visible/fuel{
-	dir = 6
-	},
-/obj/structure/window/borosilicate_reinforced,
-/obj/structure/railing/mapped{
-	dir = 1
-	},
-/turf/simulated/floor/plating,
-/area/jelly/engine)
-"cB" = (
-/obj/machinery/atmospherics/pipe/manifold/visible/fuel{
-	dir = 4
-	},
-/obj/structure/catwalk,
-/obj/machinery/light{
-	dir = 4
-	},
-/turf/simulated/floor/plating,
-/area/jelly/engine)
-"cD" = (
-/obj/structure/catwalk,
-/turf/simulated/floor/plating,
-/area/jelly/port_storage)
-"cH" = (
-/obj/structure/cable/green{
-	icon_state = "4-8"
-	},
-/turf/simulated/floor/plating,
-/area/jelly/engine)
-"dl" = (
-/obj/machinery/atmospherics/portables_connector{
-	dir = 4
-	},
-/obj/machinery/portable_atmospherics/canister/carbon_dioxide,
-/obj/machinery/atmospherics/pipe/simple/visible/scrubbers{
-	dir = 4
-	},
-/turf/simulated/floor/plating,
-/area/jelly/shuttle/catfish)
-"do" = (
-/obj/machinery/atmospherics/pipe/manifold/visible/fuel{
-	dir = 4
-	},
-/turf/simulated/floor/plating,
-/area/jelly/engine/propulsion/aux_port)
-"dz" = (
-/obj/machinery/light{
-	dir = 4
-	},
-/turf/simulated/floor/tiled/dark/monotile,
-/area/jelly/cargo/lower)
-"dG" = (
-/obj/machinery/atmospherics/pipe/simple/visible/fuel{
-	dir = 5
-	},
-/obj/structure/catwalk,
-/obj/structure/cable/green{
-	icon_state = "4-8"
-	},
-/turf/simulated/floor/plating,
-/area/jelly/engine)
-"dO" = (
-/obj/structure/cable/green{
-	icon_state = "1-2"
-	},
-/obj/machinery/door/airlock/hatch/jelly,
-/obj/machinery/door/blast/regular{
-	id_tag = "catfish_rads"
-	},
-/turf/simulated/floor/reinforced,
-/area/jelly/shuttle/catfish)
-"dQ" = (
-/obj/machinery/atmospherics/pipe/simple/visible{
-	dir = 4
-	},
-/obj/structure/cable/green{
-	icon_state = "4-8"
-	},
-/obj/machinery/door/airlock/external/bolted,
-/turf/simulated/floor/plating,
-/area/jelly/shuttle/galileo)
-"eJ" = (
-/obj/structure/closet/crate/radiation,
-/obj/item/stack/material/uranium/ten,
-/obj/item/stack/material/uranium/ten,
-/obj/item/stack/material/uranium/ten,
-/obj/item/stack/material/uranium/ten,
-/obj/item/stack/material/uranium/ten,
-/turf/simulated/floor/reinforced,
-/area/jelly/shuttle/catfish)
-"eO" = (
-/obj/machinery/atmospherics/pipe/simple/visible,
-/obj/machinery/atmospherics/unary/outlet_injector{
-	dir = 4;
-	icon_state = "map_injector";
-	use_power = 1
-	},
-/obj/machinery/ion_thruster{
-	dir = 4
-	},
-/turf/simulated/floor/airless,
-/area/jelly/shuttle/catfish)
-"eT" = (
-/obj/item/radio_beacon,
-/obj/item/radio_beacon,
-/obj/structure/table/rack,
-/obj/random/toolbox,
-/obj/random/toolbox,
-/obj/random/toolbox,
-/turf/simulated/floor/plating,
-/area/jelly/cargo/lower)
-"eX" = (
-/obj/machinery/portable_atmospherics/canister/empty/oxygen,
-/turf/simulated/floor/reinforced,
-/area/jelly/cargo/lower)
-"eY" = (
-/obj/machinery/atmospherics/binary/passive_gate/on{
-	target_pressure = 202
-	},
-/turf/simulated/floor/tiled/dark,
-/area/jelly/engine)
-"eZ" = (
-/turf/simulated/floor/plating,
-/area/jelly/engine/propulsion/aux_star)
-"fa" = (
-/obj/structure/grille/broken,
-/turf/simulated/floor/reinforced/airless,
-/area/jelly/shuttle/catfish)
-"fD" = (
-/obj/machinery/atmospherics/pipe/simple/visible,
-/obj/machinery/atmospherics/pipe/simple/visible/scrubbers,
-/obj/structure/catwalk,
-/obj/machinery/door/airlock/hatch/jelly,
-/turf/simulated/floor/plating,
-/area/jelly/shuttle/catfish)
-"fH" = (
-/obj/structure/cable/green{
-	icon_state = "1-2"
-	},
-/obj/machinery/atmospherics/pipe/manifold4w/hidden/scrubbers,
-/turf/simulated/floor/tiled/dark/monotile,
-/area/jelly/cargo/lower)
-"fM" = (
-/obj/structure/catwalk,
-/obj/machinery/atmospherics/pipe/simple/visible/scrubbers{
-	dir = 4
-	},
-/turf/simulated/floor/plating,
-/area/jelly/shuttle/catfish)
-"fR" = (
-/obj/machinery/computer/ship/sensors,
-/turf/simulated/floor/plating,
-/area/jelly/shuttle/catfish)
-"fZ" = (
-/obj/structure/cable/green{
-	icon_state = "1-2"
-	},
-/obj/machinery/atmospherics/pipe/zpipe/up/supply{
-	dir = 1
-	},
-/obj/machinery/atmospherics/pipe/zpipe/up/scrubbers{
-	dir = 1
-	},
-/turf/simulated/floor/plating,
-/area/jelly/cargo/lower)
-"gc" = (
-/obj/machinery/atmospherics/binary/pump/high_power,
-/turf/simulated/floor/plating,
-/area/jelly/shuttle/catfish)
-"gh" = (
-/obj/machinery/atmospherics/pipe/simple/visible/scrubbers,
-/obj/structure/cable/green{
-	icon_state = "1-2"
-	},
-/obj/structure/catwalk,
-/obj/machinery/door/airlock/hatch/jelly,
-/turf/simulated/floor/plating,
-/area/jelly/shuttle/galileo)
-"gH" = (
-/obj/machinery/computer/fusion/core_control{
-	dir = 4;
-	initial_id_tag = "main"
-	},
-/obj/machinery/light{
-	dir = 8
-	},
-/turf/simulated/floor/tiled/dark/monotile,
-/area/jelly/engine)
-"gT" = (
-/obj/structure/cable/green{
-	icon_state = "4-8"
-	},
-/obj/machinery/atmospherics/unary/vent_pump/high_volume/external_air{
-	dir = 8
-	},
-/turf/simulated/floor/plating,
-/area/jelly/shuttle/galileo)
-"gY" = (
-/obj/machinery/atmospherics/pipe/simple/visible/fuel,
-/turf/simulated/floor/tiled/dark,
-/area/jelly/engine)
-"hl" = (
-/obj/machinery/atmospherics/pipe/manifold/visible/fuel{
-	dir = 4
-	},
-/turf/simulated/floor/tiled/dark,
-/area/jelly/engine)
-"hq" = (
-/obj/structure/reagent_dispensers/fueltank,
-/turf/simulated/floor/plating,
-/area/jelly/star_storage)
-"hv" = (
-/obj/structure/catwalk,
-/turf/simulated/floor/plating,
-/area/jelly/shuttle/catfish)
-"hG" = (
-/obj/machinery/atmospherics/pipe/simple/visible/fuel,
-/obj/structure/cable{
-	icon_state = "1-2"
-	},
-/turf/simulated/floor/tiled/dark,
-/area/jelly/engine)
-"hS" = (
-/obj/machinery/atmospherics/unary/vent_pump/on{
-	dir = 8
-	},
-/turf/simulated/floor/reinforced,
-/area/jelly/cargo/lower)
-"ic" = (
-/obj/machinery/atmospherics/pipe/manifold4w/visible/fuel,
-/turf/simulated/floor/plating,
-/area/jelly/engine/propulsion/aux_star)
-"ih" = (
-/obj/machinery/atmospherics/pipe/simple/visible/universal{
-	dir = 4
-	},
-/turf/simulated/wall/r_wall/prepainted,
-/area/jelly/shuttle/catfish)
-"iw" = (
-/obj/effect/floor_decal/industrial/warning/corner{
-	dir = 8
-	},
-/turf/simulated/floor/tiled/dark/monotile,
-/area/jelly/cargo/lower)
-"iI" = (
-/obj/machinery/portable_atmospherics/canister/hydrogen,
-/turf/simulated/floor/reinforced,
-/area/jelly/cargo/lower)
-"iR" = (
-/turf/simulated/wall/r_wall/prepainted,
-/area/jelly/engine/propulsion/aux_star)
-"jm" = (
-/obj/machinery/portable_atmospherics/canister/hydrogen,
-/obj/machinery/atmospherics/unary/vent_pump/on{
-	dir = 4
-	},
-/turf/simulated/floor/reinforced,
-/area/jelly/cargo/lower)
-"jo" = (
-/obj/machinery/alarm{
-	dir = 1
-	},
-/turf/simulated/floor/reinforced,
-/area/jelly/cargo/lower)
-"jV" = (
-/obj/machinery/portable_atmospherics/canister/hydrogen,
-/obj/machinery/light{
-	dir = 4
-	},
-/turf/simulated/floor/tiled/dark/monotile,
-/area/jelly/engine)
-"ko" = (
-/turf/simulated/wall/r_titanium,
-/area/jelly/shuttle/galileo)
-"kJ" = (
-/obj/structure/cable/green{
-	icon_state = "4-8"
-	},
-/obj/machinery/atmospherics/pipe/simple/hidden/supply{
-	dir = 4
-	},
-/obj/effect/floor_decal/industrial/warning/corner{
-	dir = 1
-	},
-/turf/simulated/floor/tiled/dark/monotile,
-/area/jelly/cargo/lower)
-"lb" = (
-/obj/machinery/atmospherics/pipe/manifold/visible/fuel{
-	dir = 4
-	},
-/obj/structure/catwalk,
-/obj/structure/cable/green{
-	icon_state = "4-8"
-	},
-/turf/simulated/floor/plating,
-/area/jelly/engine)
-"lo" = (
-/obj/machinery/computer/ship/helm{
-	dir = 4
-	},
-/obj/machinery/light/small{
-	dir = 8
-	},
-/turf/simulated/floor/plating,
-/area/jelly/shuttle/galileo)
-"lq" = (
-/obj/machinery/light{
-	dir = 1
-	},
-/turf/simulated/floor/reinforced,
-/area/jelly/cargo/lower)
-"lw" = (
-/obj/machinery/atmospherics/pipe/simple/visible{
-	dir = 4
-	},
-/obj/machinery/atmospherics/pipe/simple/visible/scrubbers{
-	dir = 4
-	},
-/obj/structure/catwalk,
-/obj/machinery/door/airlock/hatch/jelly,
-/turf/simulated/floor/plating,
-/area/jelly/shuttle/galileo)
-"lE" = (
-/obj/structure/cable/green{
-	icon_state = "0-2"
-	},
-/obj/machinery/power/apc{
-	dir = 1
-	},
-/obj/machinery/computer/ship/engines,
-/turf/simulated/floor/plating,
-/area/jelly/engine/propulsion/aux_port)
-"lF" = (
-/obj/machinery/light,
-/turf/simulated/floor/tiled/dark/monotile,
-/area/jelly/cargo/lower)
-"lX" = (
-/turf/simulated/floor/reinforced,
-/area/jelly/cargo/lower)
-"lY" = (
-/obj/machinery/computer/ship/engines,
-/turf/simulated/floor/plating,
-/area/jelly/shuttle/catfish)
-"mf" = (
-/obj/item/radio_beacon,
-/obj/item/radio_beacon,
-/obj/item/radio_beacon,
-/obj/item/radio_beacon,
-/obj/structure/table/rack,
-/obj/random/tool,
-/obj/random/tool,
-/obj/random/tool,
-/turf/simulated/floor/plating,
-/area/jelly/cargo/lower)
-"mj" = (
-/obj/structure/ore_box,
-/turf/simulated/floor/reinforced,
-/area/jelly/cargo/lower)
-"mk" = (
-/obj/machinery/atmospherics/pipe/manifold/visible/fuel{
-	dir = 4
-	},
-/turf/simulated/floor/plating,
-/area/jelly/engine/propulsion/aux_star)
-"ms" = (
-/obj/structure/cable/green{
-	icon_state = "1-2"
-	},
-/obj/machinery/door/airlock/hatch/jelly,
-/turf/simulated/floor/plating,
-/area/jelly/engine)
-"mC" = (
-/obj/machinery/atmospherics/pipe/simple/visible{
-	dir = 10
-	},
-/obj/machinery/door/airlock/external/bolted,
-/turf/simulated/floor/plating,
-/area/jelly/shuttle/catfish)
-"mI" = (
-/obj/machinery/portable_atmospherics/canister/carbon_dioxide,
-/turf/simulated/floor/reinforced,
-/area/jelly/cargo/lower)
-"nh" = (
-/obj/machinery/computer/ship/engines{
-	dir = 1
-	},
-/turf/simulated/floor/tiled/dark,
-/area/jelly/engine)
-"nn" = (
-/obj/structure/catwalk,
-/obj/machinery/alarm{
-	dir = 1
-	},
-/turf/simulated/floor/plating,
-/area/jelly/shuttle/catfish)
-"no" = (
-/obj/structure/cable/green{
-	icon_state = "1-4"
-	},
-/obj/machinery/atmospherics/pipe/simple/hidden/supply{
-	dir = 5
-	},
-/turf/simulated/floor/tiled/dark/monotile,
-/area/jelly/cargo/lower)
-"np" = (
-/obj/machinery/atmospherics/pipe/manifold/visible/fuel{
-	dir = 8
-	},
-/turf/simulated/floor/plating,
-/area/jelly/shuttle/catfish)
-"nt" = (
-/obj/machinery/atmospherics/pipe/simple/visible/fuel{
-	dir = 4
-	},
-/obj/structure/cable{
-	icon_state = "4-8"
-	},
-/turf/simulated/floor/tiled/dark,
-/area/jelly/engine)
-"nz" = (
-/turf/simulated/wall/r_wall/prepainted,
-/area/jelly/cargo/lower)
-"oa" = (
-/obj/machinery/atmospherics/binary/passive_gate{
-	dir = 8
-	},
-/obj/structure/cable/green{
-	icon_state = "4-8"
-	},
-/turf/simulated/floor/plating,
-/area/jelly/cargo/lower)
-"of" = (
+"Gr" = (
 /obj/turbolift_map_holder/jelly{
 	icon = 'icons/effects/effects.dmi';
 	icon_state = "white"
 	},
 /turf/simulated/floor/plating,
-/area/turbolift/jelly_lower)
-"oj" = (
-/obj/machinery/atmospherics/pipe/simple/visible/universal,
-/turf/simulated/wall/r_titanium,
-/area/jelly/shuttle/galileo)
-"oo" = (
-/obj/machinery/atmospherics/pipe/simple/visible/scrubbers{
-	dir = 9
-	},
-/obj/machinery/light_switch{
-	pixel_x = 24
-	},
-/obj/structure/bed/chair/shuttle/black{
-	dir = 8
-	},
-/turf/simulated/floor/plating,
-/area/jelly/shuttle/galileo)
-"or" = (
-/obj/machinery/atmospherics/pipe/simple/visible,
-/obj/machinery/atmospherics/pipe/simple/visible/scrubbers,
-/obj/structure/catwalk,
-/turf/simulated/floor/plating,
-/area/jelly/shuttle/catfish)
-"ot" = (
-/turf/simulated/floor/plating,
-/area/turbolift/jelly_lower)
-"oG" = (
-/obj/machinery/light{
-	dir = 8
-	},
-/obj/random/closet,
-/turf/simulated/floor/reinforced,
-/area/jelly/cargo/lower)
-"oS" = (
-/obj/structure/closet/crate,
-/obj/item/stack/material/steel/fifty,
-/obj/item/stack/material/steel/fifty,
-/turf/simulated/floor/reinforced,
-/area/jelly/cargo/lower)
-"oX" = (
-/obj/machinery/atmospherics/binary/passive_gate{
-	dir = 4
-	},
-/obj/structure/cable/green{
-	icon_state = "4-8"
-	},
-/turf/simulated/floor/plating,
-/area/jelly/cargo/lower)
-"pg" = (
-/obj/machinery/portable_atmospherics/canister/air/airlock,
-/obj/machinery/atmospherics/portables_connector,
-/turf/simulated/floor/plating,
-/area/jelly/cargo/lower)
-"pF" = (
-/obj/machinery/atmospherics/pipe/simple/visible/fuel,
-/obj/machinery/door/airlock/hatch/jelly,
-/turf/simulated/floor/plating,
-/area/jelly/shuttle/catfish)
-"qd" = (
-/obj/machinery/atmospherics/pipe/simple/visible/fuel,
-/obj/machinery/atmospherics/binary/pump{
-	dir = 8
-	},
-/turf/simulated/floor/tiled/dark,
-/area/jelly/engine)
-"qE" = (
-/obj/machinery/atmospherics/pipe/manifold/visible/fuel,
-/obj/structure/catwalk,
-/obj/structure/cable{
-	icon_state = "4-8"
-	},
-/turf/simulated/floor/plating,
-/area/jelly/engine)
-"qR" = (
-/obj/machinery/fabricator/pipe,
-/obj/machinery/light/small{
-	dir = 4
-	},
-/turf/simulated/floor/plating,
-/area/jelly/engine/propulsion/aux_star)
-"qU" = (
-/obj/machinery/atmospherics/unary/outlet_injector{
-	dir = 4;
-	icon_state = "map_injector";
-	use_power = 1
-	},
-/turf/simulated/floor/reinforced/airless,
-/area/jelly/engine)
-"rd" = (
-/turf/simulated/floor/plating,
-/area/jelly/star_storage)
-"rk" = (
-/obj/machinery/portable_atmospherics/canister/hydrogen,
-/turf/simulated/floor/tiled/dark/monotile,
-/area/jelly/engine)
-"ru" = (
-/obj/structure/cable/green{
-	icon_state = "2-8"
-	},
-/obj/machinery/atmospherics/pipe/simple/hidden/supply{
-	dir = 10
-	},
-/turf/simulated/floor/tiled/dark/monotile,
-/area/jelly/cargo/lower)
-"rv" = (
-/obj/structure/closet/crate/freezer,
-/turf/simulated/floor/reinforced,
-/area/jelly/cargo/lower)
-"rx" = (
-/obj/structure/cable/green{
-	icon_state = "1-4"
-	},
-/turf/simulated/floor/plating,
-/area/jelly/shuttle/galileo)
-"rG" = (
-/obj/structure/cable/green{
-	icon_state = "4-8"
-	},
-/obj/machinery/atmospherics/pipe/simple/hidden/supply{
-	dir = 4
-	},
-/turf/simulated/floor/tiled/dark/monotile,
-/area/jelly/cargo/lower)
-"rM" = (
-/obj/structure/window/borosilicate_reinforced,
-/obj/machinery/power/emitter/gyrotron/anchored{
-	initial_id_tag = "main";
-	rate = 2
-	},
-/obj/structure/cable,
-/obj/structure/cable/green{
-	icon_state = "4-8"
-	},
-/turf/simulated/floor/tiled/dark/monotile,
-/area/jelly/engine)
-"rO" = (
-/obj/machinery/atmospherics/pipe/simple/visible,
-/turf/simulated/wall/r_titanium,
-/area/jelly/shuttle/galileo)
-"sn" = (
-/obj/structure/closet/crate/radiation,
-/obj/item/stack/material/deuterium/fifty,
-/obj/item/stack/material/deuterium/fifty,
-/obj/item/stack/material/deuterium/fifty,
-/obj/item/stack/material/deuterium/fifty,
-/obj/item/stack/material/deuterium/fifty,
-/obj/item/stack/material/deuterium/fifty,
-/turf/simulated/floor/tiled/dark/monotile,
-/area/jelly/engine)
-"st" = (
-/obj/machinery/power/fusion_core/mapped{
-	initial_id_tag = "main"
-	},
-/obj/structure/cable{
-	icon_state = "0-2"
-	},
-/turf/simulated/floor/reinforced/airless,
-/area/jelly/engine)
-"sL" = (
-/obj/structure/cable{
-	icon_state = "1-4"
-	},
-/turf/simulated/floor/plating,
-/area/jelly/engine)
-"sO" = (
-/obj/machinery/atmospherics/pipe/simple/visible{
-	dir = 4
-	},
-/obj/machinery/door/airlock/external/bolted,
-/turf/simulated/floor/plating,
-/area/jelly/cargo/lower)
-"te" = (
-/obj/machinery/network/relay,
-/turf/simulated/floor/plating,
-/area/jelly/engine/propulsion/aux_port)
-"tn" = (
-/obj/machinery/atmospherics/pipe/simple/visible,
-/obj/machinery/atmospherics/pipe/simple/visible/scrubbers,
-/obj/structure/catwalk,
-/obj/machinery/door/airlock/hatch/jelly,
-/turf/simulated/floor/plating,
-/area/jelly/shuttle/galileo)
-"tp" = (
-/obj/structure/ladder,
-/turf/simulated/floor/plating,
-/area/jelly/star_storage)
-"tv" = (
-/obj/machinery/portable_atmospherics/canister/empty/oxygen,
-/turf/simulated/floor/plating,
-/area/jelly/engine/propulsion/aux_star)
-"tE" = (
-/obj/structure/closet/cabinet,
-/obj/random/clothing,
-/obj/random/clothing,
-/obj/random/clothing,
-/obj/random/clothing,
-/turf/simulated/floor/reinforced,
-/area/jelly/cargo/lower)
-"tF" = (
-/obj/machinery/network/relay,
-/obj/machinery/atmospherics/pipe/simple/visible/scrubbers,
-/turf/simulated/floor/plating,
-/area/jelly/shuttle/galileo)
-"tH" = (
-/obj/machinery/atmospherics/pipe/manifold4w/visible/fuel,
-/turf/simulated/floor/plating,
-/area/jelly/engine/propulsion/aux_port)
-"tU" = (
-/obj/structure/cable/green{
-	icon_state = "1-2"
-	},
-/obj/structure/cable/green{
-	icon_state = "2-8"
-	},
-/obj/structure/cable/green{
-	icon_state = "2-4"
-	},
-/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
-/obj/machinery/atmospherics/pipe/manifold/hidden/supply{
-	dir = 1
-	},
-/turf/simulated/floor/tiled/dark/monotile,
-/area/jelly/cargo/lower)
-"um" = (
-/obj/machinery/atmospherics/pipe/simple/visible/scrubbers{
-	dir = 4
-	},
-/obj/structure/catwalk,
-/obj/machinery/light/small,
-/turf/simulated/floor/plating,
-/area/jelly/shuttle/catfish)
-"un" = (
-/obj/structure/bed/chair/shuttle/black{
-	dir = 1
-	},
-/obj/machinery/atmospherics/unary/vent_pump/on,
-/obj/machinery/atmospherics/pipe/simple/visible/scrubbers{
-	dir = 6
-	},
-/obj/structure/catwalk,
-/turf/simulated/floor/plating,
-/area/jelly/shuttle/catfish)
-"uK" = (
-/obj/machinery/portable_atmospherics/powered/scrubber,
-/turf/simulated/floor/plating,
-/area/jelly/cargo/lower)
-"uU" = (
-/obj/machinery/atmospherics/portables_connector{
-	dir = 8
-	},
-/turf/simulated/floor/plating,
-/area/jelly/engine)
-"va" = (
-/obj/machinery/computer/ship/helm,
-/turf/simulated/floor/plating,
-/area/jelly/shuttle/catfish)
-"vp" = (
-/obj/structure/reagent_dispensers/watertank,
-/turf/simulated/floor/plating,
-/area/jelly/port_storage)
-"vu" = (
-/obj/structure/cable/green{
-	icon_state = "1-8"
-	},
-/obj/machinery/atmospherics/pipe/simple/hidden/supply{
-	dir = 9
-	},
-/turf/simulated/floor/tiled/dark/monotile,
-/area/jelly/cargo/lower)
-"vG" = (
-/turf/simulated/wall/r_wall/prepainted,
-/area/jelly/engine/propulsion/aux_port)
-"vR" = (
-/obj/structure/window/borosilicate_reinforced{
-	dir = 8
-	},
-/obj/structure/cable/green{
-	icon_state = "1-2"
-	},
-/obj/machinery/power/sensor{
-	id_tag = "Main Grid"
-	},
-/obj/structure/cable/green{
-	icon_state = "0-2"
-	},
-/turf/simulated/floor/plating,
-/area/jelly/engine)
-"vS" = (
-/obj/machinery/portable_atmospherics/canister/empty/carbon_dioxide,
-/turf/simulated/floor/reinforced,
-/area/jelly/cargo/lower)
-"wh" = (
-/obj/machinery/atmospherics/pipe/simple/visible/fuel{
-	dir = 5
-	},
-/turf/simulated/floor/plating,
-/area/jelly/shuttle/catfish)
-"wl" = (
-/obj/machinery/portable_atmospherics/canister/empty/carbon_dioxide,
-/turf/simulated/floor/plating,
-/area/jelly/engine/propulsion/aux_port)
-"wu" = (
-/obj/machinery/light{
-	dir = 8
-	},
-/obj/structure/cable/green{
-	icon_state = "2-4"
-	},
-/obj/machinery/atmospherics/pipe/simple/hidden/supply{
-	dir = 6
-	},
-/obj/effect/floor_decal/industrial/warning{
-	dir = 1
-	},
-/turf/simulated/floor/tiled/dark/monotile,
-/area/jelly/cargo/lower)
-"xe" = (
-/obj/machinery/power/apc/high{
-	dir = 1
-	},
-/obj/structure/cable/green{
-	icon_state = "0-2"
-	},
-/obj/machinery/atmospherics/pipe/manifold/hidden/scrubbers{
-	dir = 1
-	},
-/turf/simulated/floor/tiled/dark/monotile,
-/area/jelly/cargo/lower)
-"xh" = (
-/obj/structure/cable{
-	icon_state = "1-2"
-	},
-/turf/simulated/floor/reinforced/airless,
-/area/jelly/engine)
-"xj" = (
-/obj/structure/cable/green{
-	icon_state = "1-2"
-	},
-/obj/structure/cable/green{
-	icon_state = "0-2"
-	},
-/obj/structure/cable/green{
-	icon_state = "16-0"
-	},
-/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
-/obj/machinery/atmospherics/pipe/simple/hidden/supply,
-/turf/simulated/floor/plating,
-/area/jelly/cargo/lower)
-"xn" = (
-/obj/machinery/door/airlock/external/bolted,
-/turf/simulated/floor/plating,
-/area/jelly/cargo/lower)
-"xO" = (
-/obj/machinery/atmospherics/pipe/simple/visible{
-	dir = 6
-	},
-/obj/machinery/door/airlock/external/bolted,
-/turf/simulated/floor/plating,
-/area/jelly/shuttle/catfish)
-"xP" = (
-/obj/machinery/atmospherics/pipe/manifold4w/visible/fuel,
-/obj/structure/window/borosilicate_reinforced,
-/obj/structure/railing/mapped{
-	dir = 1
-	},
-/obj/machinery/meter,
-/turf/simulated/floor/plating,
-/area/jelly/engine)
-"xR" = (
-/obj/item/pickaxe/drill,
-/obj/item/pickaxe/drill,
-/obj/item/pickaxe/drill,
-/obj/structure/table/rack,
-/obj/item/storage/ore,
-/obj/item/storage/ore,
-/obj/item/storage/ore,
-/obj/item/storage/ore,
-/turf/simulated/floor/reinforced,
-/area/jelly/shuttle/catfish)
-"xW" = (
-/obj/machinery/portable_atmospherics/canister/oxygen,
-/turf/simulated/floor/plating,
-/area/jelly/star_storage)
-"ye" = (
-/obj/machinery/atmospherics/pipe/simple/visible/fuel{
-	dir = 4
-	},
-/obj/structure/window/borosilicate_reinforced{
-	dir = 1
-	},
-/obj/structure/cable{
-	icon_state = "4-8"
-	},
-/obj/structure/cable{
-	icon_state = "2-4"
-	},
-/turf/simulated/floor/tiled/dark/monotile,
-/area/jelly/engine)
-"yh" = (
-/obj/structure/mattress/dirty,
-/turf/simulated/floor/plating,
-/area/jelly/star_storage)
-"yq" = (
-/obj/structure/catwalk,
-/obj/machinery/light_switch{
-	pixel_y = -24
-	},
-/turf/simulated/floor/plating,
-/area/jelly/shuttle/catfish)
-"yr" = (
-/obj/structure/bed/chair/shuttle/black{
-	dir = 1
-	},
-/obj/machinery/atmospherics/unary/vent_scrubber/on{
-	dir = 8
-	},
-/obj/structure/catwalk,
-/turf/simulated/floor/plating,
-/area/jelly/shuttle/catfish)
-"yv" = (
-/obj/machinery/door/airlock/hatch/jelly,
-/turf/simulated/floor/plating,
-/area/jelly/star_storage)
-"yz" = (
-/obj/machinery/portable_atmospherics/canister/hydrogen,
-/turf/simulated/floor/plating,
-/area/jelly/engine/propulsion/aux_star)
-"yY" = (
-/turf/simulated/wall/r_wall/prepainted,
-/area/jelly/shuttle/catfish)
-"yZ" = (
-/obj/machinery/atmospherics/pipe/simple/visible,
-/obj/machinery/ion_thruster{
-	dir = 8
-	},
-/turf/simulated/floor/airless,
-/area/jelly/shuttle/catfish)
-"zj" = (
-/obj/machinery/atmospherics/pipe/simple/visible/scrubbers{
-	dir = 5
-	},
-/obj/machinery/atmospherics/unary/vent_pump/on{
-	dir = 4
-	},
-/obj/structure/catwalk,
-/turf/simulated/floor/plating,
-/area/jelly/shuttle/galileo)
-"zA" = (
-/obj/machinery/network/relay,
-/obj/structure/railing/mapped{
-	dir = 8
-	},
-/obj/structure/railing/mapped{
-	dir = 4
-	},
-/turf/simulated/floor/plating,
-/area/jelly/shuttle/catfish)
-"zJ" = (
-/obj/machinery/atmospherics/pipe/manifold/visible{
-	dir = 4
-	},
-/obj/machinery/atmospherics/pipe/manifold/visible/scrubbers{
-	dir = 1
-	},
-/obj/structure/catwalk,
-/turf/simulated/floor/plating,
-/area/jelly/shuttle/galileo)
-"zK" = (
-/obj/structure/closet/crate,
-/obj/item/stack/material/glass/fifty,
-/obj/item/stack/material/glass/fifty,
-/obj/item/stack/material/glass/fifty,
-/obj/item/stack/material/glass/fifty,
-/turf/simulated/floor/reinforced,
-/area/jelly/cargo/lower)
-"Ad" = (
-/obj/machinery/atmospherics/unary/vent_pump/high_volume/external_air{
-	dir = 1
-	},
-/obj/machinery/ion_thruster{
-	dir = 4
-	},
-/turf/simulated/floor/airless,
-/area/jelly/shuttle/catfish)
-"Aj" = (
-/obj/structure/closet/crate,
-/obj/item/stack/material/rods/fifty,
-/obj/item/stack/material/rods/fifty,
-/obj/item/stack/material/rods/fifty,
-/obj/item/stack/material/rods/fifty,
-/turf/simulated/floor/reinforced,
-/area/jelly/cargo/lower)
-"Am" = (
-/turf/simulated/floor/reinforced,
-/area/jelly/shuttle/catfish)
-"Ax" = (
-/obj/machinery/atmospherics/unary/engine/fusion{
-	dir = 1
-	},
-/turf/simulated/floor/airless,
-/area/jelly/engine)
-"AO" = (
-/obj/structure/reagent_dispensers/fueltank,
-/turf/simulated/floor/plating,
-/area/jelly/port_storage)
-"AV" = (
-/turf/simulated/floor/tiled/dark/monotile,
-/area/jelly/cargo/lower)
-"AY" = (
-/obj/machinery/atmospherics/portables_connector{
-	dir = 8
-	},
-/turf/simulated/floor/plating,
-/area/jelly/shuttle/catfish)
-"Bl" = (
-/obj/random/closet,
-/turf/simulated/floor/reinforced,
-/area/jelly/cargo/lower)
-"Bv" = (
-/obj/structure/cable/green{
-	icon_state = "1-4"
-	},
-/turf/simulated/floor/plating,
-/area/jelly/engine/propulsion/aux_port)
-"BD" = (
-/obj/machinery/atmospherics/pipe/simple/visible/fuel{
-	dir = 9
-	},
-/obj/structure/catwalk,
-/obj/structure/cable{
-	icon_state = "4-8"
-	},
-/turf/simulated/floor/plating,
-/area/jelly/engine)
-"BI" = (
-/obj/machinery/atmospherics/pipe/manifold/visible/fuel{
-	dir = 1
-	},
-/obj/structure/window/borosilicate_reinforced{
-	dir = 1
-	},
-/obj/machinery/meter,
-/obj/structure/cable{
-	icon_state = "1-8"
-	},
-/obj/structure/cable{
-	icon_state = "1-4"
-	},
-/obj/structure/cable{
-	icon_state = "4-8"
-	},
-/turf/simulated/floor/tiled/dark/monotile,
-/area/jelly/engine)
-"BR" = (
-/obj/machinery/portable_atmospherics/canister/empty/oxygen,
-/turf/simulated/floor/plating,
-/area/jelly/star_storage)
-"BT" = (
-/obj/machinery/ion_thruster{
-	dir = 1
-	},
-/turf/simulated/floor/airless,
-/area/jelly/shuttle/catfish)
-"BW" = (
-/obj/machinery/atmospherics/pipe/simple/visible{
-	dir = 4
-	},
-/obj/machinery/door/airlock/external/bolted,
-/turf/simulated/floor/plating,
-/area/jelly/shuttle/catfish)
-"Cl" = (
-/obj/machinery/power/port_gen/pacman/super/potato,
-/obj/structure/cable/green,
-/turf/simulated/floor/reinforced,
-/area/jelly/shuttle/catfish)
-"Cr" = (
-/obj/structure/cable/green{
-	icon_state = "1-8"
-	},
-/turf/simulated/floor/plating,
-/area/jelly/engine/propulsion/aux_star)
-"Cw" = (
-/obj/machinery/atmospherics/pipe/manifold/visible/fuel{
-	dir = 4
-	},
-/turf/simulated/floor/plating,
-/area/jelly/shuttle/catfish)
-"Cz" = (
-/obj/machinery/ion_thruster{
-	dir = 8
-	},
-/turf/simulated/floor/airless,
-/area/jelly/shuttle/galileo)
-"CC" = (
-/obj/machinery/atmospherics/portables_connector{
-	dir = 4
-	},
-/obj/machinery/portable_atmospherics/canister/carbon_dioxide,
-/turf/simulated/floor/plating,
-/area/jelly/shuttle/catfish)
-"CE" = (
-/obj/structure/catwalk,
-/turf/simulated/floor/plating,
-/area/jelly/star_storage)
-"De" = (
-/obj/machinery/door/airlock/hatch/jelly,
-/turf/simulated/floor/plating,
-/area/jelly/port_storage)
-"Df" = (
-/obj/structure/cable/green{
-	icon_state = "4-8"
-	},
-/obj/machinery/atmospherics/pipe/simple/hidden/supply{
-	dir = 4
-	},
-/obj/effect/floor_decal/industrial/warning/corner{
-	dir = 4
-	},
-/turf/simulated/floor/tiled/dark/monotile,
-/area/jelly/cargo/lower)
-"Dh" = (
-/obj/machinery/atmospherics/pipe/manifold/visible/fuel{
-	dir = 1
-	},
-/turf/simulated/floor/plating,
-/area/jelly/shuttle/catfish)
-"Dl" = (
-/obj/machinery/button/blast_door{
-	id_tag = "catfish_rads";
-	name = "radshields";
-	pixel_y = -24
-	},
-/obj/structure/catwalk,
-/obj/random/tool,
-/obj/random/tool,
-/turf/simulated/floor/plating,
-/area/jelly/shuttle/catfish)
-"Dq" = (
-/obj/machinery/ion_thruster{
-	dir = 1
-	},
-/turf/simulated/floor/airless,
-/area/jelly/shuttle/galileo)
-"Dv" = (
-/obj/machinery/atmospherics/portables_connector{
-	dir = 8
-	},
-/obj/structure/window/borosilicate_reinforced,
-/obj/structure/cable/green{
-	icon_state = "4-8"
-	},
-/turf/simulated/floor/tiled/dark/monotile,
-/area/jelly/engine)
-"DD" = (
-/obj/structure/window/borosilicate_reinforced{
-	dir = 8
-	},
-/obj/structure/cable/green,
-/obj/machinery/power/smes/buildable/jellyfish,
-/turf/simulated/floor/plating,
-/area/jelly/engine)
-"Eb" = (
-/obj/effect/airlock_helper/shuttle/catfish{
-	dir = 8;
-	main_id = "catfish_airlock_aux"
-	},
-/obj/machinery/atmospherics/unary/vent_pump/high_volume/external_air{
-	dir = 4
-	},
-/obj/machinery/embedded_controller/radio/airlock/docking_port{
-	id_tag = "catfish_airlock_aux"
-	},
-/turf/simulated/floor/plating,
-/area/jelly/shuttle/catfish)
-"Eu" = (
-/obj/structure/catwalk,
-/obj/machinery/door/airlock/hatch/jelly,
-/turf/simulated/floor/plating,
-/area/jelly/shuttle/catfish)
-"EB" = (
-/obj/machinery/atmospherics/unary/vent_scrubber/on{
-	dir = 4
-	},
-/obj/structure/closet/crate,
-/turf/simulated/floor/reinforced,
-/area/jelly/cargo/lower)
-"ED" = (
-/obj/structure/cable{
-	icon_state = "1-2"
-	},
-/obj/machinery/power/sensor{
-	id_tag = "Engine Output"
-	},
-/obj/structure/cable{
-	icon_state = "0-2"
-	},
-/turf/simulated/floor/plating,
-/area/jelly/engine)
-"Fb" = (
-/obj/effect/airlock_helper/dock/catfish{
-	dir = 8
-	},
-/obj/machinery/atmospherics/unary/vent_pump/high_volume/external_air{
-	dir = 4
-	},
-/obj/machinery/embedded_controller/radio/airlock/docking_port{
-	id_tag = "catfish_dock_airlock"
-	},
-/turf/simulated/floor/plating,
-/area/jelly/cargo/lower)
-"Fc" = (
-/obj/machinery/computer/shuttle_control/explore/galileo,
-/turf/simulated/floor/plating,
-/area/jelly/shuttle/galileo)
-"Fq" = (
-/obj/machinery/fabricator,
-/turf/simulated/floor/plating,
-/area/jelly/engine/propulsion/aux_port)
-"Ft" = (
-/obj/machinery/portable_atmospherics/canister/empty/carbon_dioxide,
-/obj/machinery/atmospherics/unary/vent_pump/on{
-	dir = 4
-	},
-/turf/simulated/floor/reinforced,
-/area/jelly/cargo/lower)
-"Fw" = (
-/obj/machinery/atmospherics/pipe/simple/visible/fuel{
-	dir = 10
-	},
-/obj/structure/window/borosilicate_reinforced,
-/obj/structure/railing/mapped{
-	dir = 1
-	},
-/turf/simulated/floor/plating,
-/area/jelly/engine)
-"Fy" = (
-/obj/structure/closet/crate,
-/obj/machinery/atmospherics/unary/vent_scrubber/on{
-	dir = 8
-	},
-/turf/simulated/floor/reinforced,
-/area/jelly/cargo/lower)
-"FD" = (
-/obj/machinery/computer/fusion/gyrotron{
-	dir = 4;
-	initial_id_tag = "main"
-	},
-/turf/simulated/floor/tiled/dark/monotile,
-/area/jelly/engine)
-"FF" = (
-/obj/machinery/portable_atmospherics/canister/oxygen,
-/turf/simulated/floor/reinforced,
-/area/jelly/cargo/lower)
-"FI" = (
-/obj/machinery/portable_atmospherics/canister/empty/hydrogen,
-/turf/simulated/floor/reinforced,
-/area/jelly/cargo/lower)
-"FN" = (
-/turf/simulated/floor/plating,
-/area/jelly/cargo/lower)
-"FO" = (
-/obj/machinery/computer/ship/sensors,
-/turf/simulated/floor/plating,
-/area/jelly/shuttle/galileo)
-"Gr" = (
-/obj/machinery/atmospherics/pipe/simple/visible/fuel{
-	dir = 4
-	},
-/obj/structure/window/borosilicate_reinforced{
-	dir = 1
-	},
-/obj/structure/cable{
-	icon_state = "4-8"
-	},
-/obj/structure/cable{
-	icon_state = "2-8"
-	},
-/turf/simulated/floor/tiled/dark/monotile,
-/area/jelly/engine)
-"Gu" = (
-/obj/structure/cable{
-	icon_state = "0-2"
-	},
-/obj/machinery/power/apc/hyper{
-	dir = 1;
-	emp_hardened = 1
-	},
-/obj/structure/table/reinforced,
-/obj/item/paper_bin,
-/obj/item/pen,
-/turf/simulated/floor/tiled/dark/monotile,
-/area/jelly/engine)
-"Gw" = (
-/obj/effect/floor_decal/industrial/warning/corner,
-/turf/simulated/floor/tiled/dark/monotile,
-/area/jelly/cargo/lower)
-"GU" = (
-/obj/machinery/atmospherics/pipe/manifold/visible/fuel{
-	dir = 8
-	},
-/obj/structure/cable{
-	icon_state = "4-8"
-	},
-/obj/structure/cable{
-	icon_state = "1-4"
-	},
-/turf/simulated/floor/tiled/dark,
-/area/jelly/engine)
-"Hm" = (
-/obj/machinery/fusion_fuel_compressor,
-/turf/simulated/floor/tiled/dark/monotile,
-/area/jelly/engine)
-"Hr" = (
-/obj/machinery/space_heater,
-/turf/simulated/floor/reinforced,
-/area/jelly/cargo/lower)
-"Hx" = (
-/obj/machinery/atmospherics/portables_connector{
-	dir = 1
-	},
-/obj/machinery/portable_atmospherics/canister/air/airlock,
-/turf/simulated/floor/plating,
-/area/jelly/shuttle/catfish)
-"HC" = (
-/obj/machinery/atmospherics/pipe/simple/visible{
-	dir = 6
-	},
-/obj/structure/cable/green{
-	icon_state = "4-8"
-	},
-/obj/machinery/door/airlock/external/bolted,
-/turf/simulated/floor/plating,
-/area/jelly/shuttle/galileo)
-"If" = (
-/obj/effect/airlock_helper/shuttle/galileo{
-	dir = 8
-	},
-/obj/structure/cable/green{
-	icon_state = "4-8"
-	},
-/obj/machinery/atmospherics/unary/vent_pump/high_volume/external_air{
-	dir = 4
-	},
-/obj/machinery/embedded_controller/radio/airlock/docking_port{
-	id_tag = "galileo_airlock"
-	},
-/turf/simulated/floor/plating,
-/area/jelly/shuttle/galileo)
-"Ii" = (
-/obj/machinery/atmospherics/unary/vent_pump/on,
-/turf/simulated/floor/plating,
-/area/jelly/shuttle/galileo)
-"Iv" = (
-/obj/machinery/ion_thruster{
-	dir = 4
-	},
-/turf/simulated/floor/airless,
-/area/jelly/shuttle/galileo)
-"Ix" = (
-/obj/machinery/atmospherics/binary/pump/high_power{
-	dir = 8
-	},
-/obj/structure/cable/green{
-	icon_state = "4-8"
-	},
-/turf/simulated/floor/plating,
-/area/jelly/engine)
-"JS" = (
-/obj/machinery/atmospherics/binary/passive_gate/on{
-	target_pressure = 202
-	},
-/turf/simulated/floor/tiled/dark/monotile,
-/area/jelly/engine)
-"KC" = (
-/obj/machinery/light/small,
-/obj/machinery/portable_atmospherics/powered/scrubber,
-/turf/simulated/floor/plating,
-/area/jelly/cargo/lower)
-"KN" = (
-/obj/machinery/atmospherics/unary/vent_scrubber/on,
-/obj/machinery/alarm,
-/obj/machinery/light/small{
-	dir = 4
-	},
-/obj/structure/bed/chair/shuttle/black{
-	dir = 8
-	},
-/turf/simulated/floor/plating,
-/area/jelly/shuttle/galileo)
-"KW" = (
-/turf/simulated/floor/plating,
-/area/jelly/port_storage)
-"KY" = (
-/obj/machinery/light{
-	dir = 8
-	},
-/turf/simulated/floor/tiled/dark/monotile,
-/area/jelly/cargo/lower)
-"Lt" = (
-/obj/machinery/power/terminal,
-/obj/structure/cable/green{
-	icon_state = "0-4"
-	},
-/obj/structure/catwalk,
-/turf/simulated/floor/plating,
-/area/jelly/shuttle/galileo)
-"Lu" = (
-/obj/machinery/light/small,
-/obj/machinery/suit_cycler/jelly,
-/turf/simulated/floor/plating,
-/area/jelly/cargo/lower)
-"Lz" = (
-/obj/machinery/portable_atmospherics/powered/scrubber,
-/turf/simulated/floor/reinforced,
-/area/jelly/cargo/lower)
-"LH" = (
-/obj/machinery/atmospherics/portables_connector{
-	dir = 8
-	},
-/obj/machinery/portable_atmospherics/canister/air/airlock{
-	start_pressure = 1013
-	},
-/turf/simulated/floor/plating,
-/area/jelly/shuttle/galileo)
-"Mm" = (
-/obj/structure/closet/crate,
-/obj/item/stack/material/aluminium/fifty,
-/turf/simulated/floor/reinforced,
-/area/jelly/cargo/lower)
-"Mn" = (
-/obj/machinery/atmospherics/pipe/simple/visible{
-	dir = 4
-	},
-/obj/structure/cable/green{
-	icon_state = "4-8"
-	},
-/obj/machinery/door/airlock/external/bolted,
-/turf/simulated/floor/plating,
-/area/jelly/cargo/lower)
-"MG" = (
-/obj/structure/cable/green{
-	icon_state = "0-2"
-	},
-/obj/machinery/power/apc/hyper{
-	dir = 1;
-	emp_hardened = 1
-	},
-/obj/structure/catwalk,
-/obj/machinery/atmospherics/pipe/simple/visible/scrubbers{
-	dir = 10
-	},
-/turf/simulated/floor/plating,
-/area/jelly/shuttle/catfish)
-"MN" = (
-/obj/machinery/atmospherics/unary/vent_pump/high_volume/external_air{
-	dir = 1
-	},
-/obj/machinery/ion_thruster{
-	dir = 4
-	},
-/turf/simulated/floor/airless,
-/area/jelly/shuttle/galileo)
-"Ni" = (
-/obj/structure/window/borosilicate_reinforced{
-	dir = 1
-	},
-/obj/machinery/atmospherics/unary/engine{
-	dir = 1
-	},
-/turf/simulated/floor/airless,
-/area/jelly/engine/propulsion/aux_port)
-"Nu" = (
-/obj/structure/window/borosilicate_reinforced{
-	dir = 1
-	},
-/obj/machinery/atmospherics/unary/engine{
-	dir = 1
-	},
-/turf/simulated/floor/airless,
-/area/jelly/engine/propulsion/aux_star)
-"Nx" = (
-/obj/structure/railing/mapped{
-	dir = 8
-	},
-/obj/structure/railing/mapped{
-	dir = 4
-	},
-/obj/machinery/pointdefense_control{
-	initial_id_tag = "catfish"
-	},
-/turf/simulated/floor/plating,
-/area/jelly/shuttle/catfish)
-"NG" = (
-/obj/structure/closet/crate,
-/obj/random/tool,
-/obj/random/tool,
-/obj/random/tool,
-/obj/random/tool,
-/obj/random/toolbox,
-/obj/random/maintenance/clean,
-/obj/random/firstaid,
-/obj/random/clothing,
-/turf/simulated/floor/reinforced,
-/area/jelly/shuttle/catfish)
-"NK" = (
-/obj/structure/closet/crate,
-/obj/item/stack/material/plastic/fifty,
-/obj/item/stack/material/plastic/fifty,
-/turf/simulated/floor/reinforced,
-/area/jelly/cargo/lower)
-"NO" = (
-/obj/machinery/atmospherics/portables_connector{
-	dir = 1
-	},
-/obj/machinery/portable_atmospherics/canister/air,
-/turf/simulated/floor/plating,
-/area/jelly/shuttle/catfish)
-"Ok" = (
-/obj/structure/largecrate{
-	name = "uranium supply crate"
-	},
-/obj/item/stack/material/uranium/ten{
-	amount = 60
-	},
-/obj/item/stack/material/uranium/ten{
-	amount = 60
-	},
-/obj/item/stack/material/uranium/ten{
-	amount = 60
-	},
-/obj/item/stack/material/uranium/ten{
-	amount = 60
-	},
-/turf/simulated/floor/reinforced,
-/area/jelly/shuttle/catfish)
-"Ol" = (
-/obj/machinery/light{
-	dir = 4
-	},
-/obj/machinery/portable_atmospherics/powered/scrubber,
-/turf/simulated/floor/reinforced,
-/area/jelly/cargo/lower)
-"ON" = (
-/obj/machinery/shipsensors/weak,
-/turf/simulated/floor/airless,
-/area/jelly/shuttle/galileo)
-"OP" = (
-/turf/simulated/floor/reinforced/airless,
-/area/jelly/engine)
-"OR" = (
-/obj/machinery/atmospherics/pipe/simple/visible/universal{
-	dir = 4
-	},
-/obj/structure/cable/green{
-	icon_state = "4-8"
-	},
-/obj/machinery/door/airlock/hatch/jelly,
-/turf/simulated/floor/plating,
-/area/jelly/cargo/lower)
-"Pg" = (
-/obj/machinery/atmospherics/unary/vent_scrubber/on{
-	dir = 4
-	},
-/turf/simulated/floor/reinforced,
-/area/jelly/cargo/lower)
-"Pw" = (
-/obj/machinery/computer/shuttle_control/explore/catfish,
-/turf/simulated/floor/plating,
-/area/jelly/shuttle/catfish)
-"PC" = (
-/turf/simulated/floor/reinforced/airless,
-/area/jelly/shuttle/catfish)
-"PF" = (
-/obj/structure/cable/green{
-	icon_state = "4-8"
-	},
-/obj/effect/airlock_helper/dock/galileo{
-	dir = 4
-	},
-/obj/machinery/atmospherics/unary/vent_pump/high_volume/external_air{
-	dir = 8
-	},
-/obj/machinery/embedded_controller/radio/airlock/docking_port{
-	id_tag = "galileo_dock_airlock"
-	},
-/turf/simulated/floor/plating,
-/area/jelly/cargo/lower)
-"PJ" = (
-/obj/structure/cable/green{
-	icon_state = "1-2"
-	},
-/obj/structure/catwalk,
-/obj/machinery/atmospherics/pipe/simple/visible/scrubbers{
-	dir = 9
-	},
-/turf/simulated/floor/plating,
-/area/jelly/shuttle/catfish)
-"Qc" = (
-/obj/machinery/atmospherics/binary/pump/high_power{
-	dir = 4
-	},
-/obj/structure/cable/green{
-	icon_state = "1-2"
-	},
-/obj/structure/cable/green{
-	icon_state = "2-8"
-	},
-/obj/structure/cable/green{
-	icon_state = "2-4"
-	},
-/obj/structure/cable/green{
-	icon_state = "4-8"
-	},
-/turf/simulated/floor/plating,
-/area/jelly/engine)
-"Qe" = (
-/obj/machinery/portable_atmospherics/canister/carbon_dioxide,
-/obj/structure/cable/green{
-	icon_state = "0-2"
-	},
-/obj/machinery/power/apc{
-	dir = 1
-	},
-/turf/simulated/floor/plating,
-/area/jelly/engine/propulsion/aux_star)
-"Qh" = (
-/obj/machinery/power/smes/buildable/preset{
-	_fully_charged = 1;
-	_output_maxed = 1;
-	_output_on = 1
-	},
-/obj/structure/cable/green{
-	icon_state = "0-8"
-	},
-/turf/simulated/floor/plating,
-/area/jelly/shuttle/galileo)
-"Qi" = (
-/obj/structure/cable/green{
-	icon_state = "1-2"
-	},
-/obj/machinery/atmospherics/pipe/manifold/hidden/supply{
-	dir = 8
-	},
-/turf/simulated/floor/tiled/dark/monotile,
-/area/jelly/cargo/lower)
-"QF" = (
-/obj/structure/closet/toolcloset,
-/turf/simulated/floor/reinforced,
-/area/jelly/cargo/lower)
-"QN" = (
-/obj/machinery/portable_atmospherics/canister/carbon_dioxide,
-/turf/simulated/floor/plating,
-/area/jelly/engine/propulsion/aux_star)
-"QT" = (
-/turf/simulated/wall/r_wall/prepainted,
-/area/jelly/star_storage)
-"QU" = (
-/turf/simulated/wall/r_wall/prepainted,
-/area/jelly/engine)
-"QY" = (
-/obj/machinery/portable_atmospherics/canister/carbon_dioxide,
-/turf/simulated/floor/plating,
-/area/jelly/engine/propulsion/aux_port)
-"Rn" = (
-/obj/machinery/atmospherics/unary/vent_scrubber/on{
-	dir = 8
-	},
-/turf/simulated/floor/reinforced,
-/area/jelly/cargo/lower)
-"RB" = (
-/obj/machinery/portable_atmospherics/canister/empty,
-/obj/machinery/atmospherics/unary/vent_pump/on{
-	dir = 4
-	},
-/turf/simulated/floor/reinforced,
-/area/jelly/cargo/lower)
-"RC" = (
-/obj/structure/ladder,
-/turf/simulated/floor/plating,
-/area/jelly/port_storage)
-"RF" = (
-/obj/structure/closet/crate,
-/obj/item/stack/material/steel/fifty,
-/obj/item/stack/material/steel/fifty,
-/obj/item/stack/material/steel/fifty,
-/obj/item/stack/material/steel/fifty,
-/obj/item/stack/material/steel/fifty,
-/turf/simulated/floor/reinforced,
-/area/jelly/cargo/lower)
-"RP" = (
-/obj/structure/cable,
-/obj/machinery/power/port_gen/pacman{
-	anchored = 1;
-	sheets = 60
-	},
-/turf/simulated/floor/tiled/dark/monotile,
-/area/jelly/engine)
-"RS" = (
-/obj/machinery/suit_cycler/jelly,
-/turf/simulated/floor/plating,
-/area/jelly/cargo/lower)
-"RU" = (
-/obj/machinery/computer/fusion/fuel_control{
-	dir = 4;
-	initial_id_tag = "main"
-	},
-/turf/simulated/floor/tiled/dark/monotile,
-/area/jelly/engine)
-"Sb" = (
-/obj/machinery/power/shield_generator,
-/obj/structure/cable,
-/turf/simulated/floor/tiled/dark/monotile,
-/area/jelly/engine)
-"Ss" = (
-/obj/structure/catwalk,
-/obj/structure/cable{
-	icon_state = "2-8"
-	},
-/obj/structure/cable/green{
-	icon_state = "1-4"
-	},
-/turf/simulated/floor/plating,
-/area/jelly/engine)
-"Su" = (
-/obj/machinery/atmospherics/pipe/simple/visible,
-/turf/simulated/wall/r_wall/prepainted,
-/area/jelly/shuttle/catfish)
-"SE" = (
-/obj/machinery/portable_atmospherics/powered/scrubber,
-/turf/simulated/floor/plating,
-/area/jelly/port_storage)
-"SN" = (
-/obj/structure/catwalk,
-/obj/structure/reagent_dispensers/fueltank,
-/turf/simulated/floor/plating,
-/area/jelly/star_storage)
-"TI" = (
-/obj/structure/cable/green{
-	icon_state = "2-4"
-	},
-/obj/machinery/atmospherics/pipe/simple/hidden/supply{
-	dir = 6
-	},
-/turf/simulated/floor/tiled/dark/monotile,
-/area/jelly/cargo/lower)
-"TP" = (
-/obj/machinery/portable_atmospherics/canister/helium,
-/turf/simulated/floor/reinforced,
-/area/jelly/cargo/lower)
-"TX" = (
-/obj/machinery/atmospherics/pipe/manifold/visible/fuel{
-	dir = 8
-	},
-/turf/simulated/floor/plating,
-/area/jelly/engine/propulsion/aux_star)
-"Ua" = (
-/obj/structure/closet/crate/freezer/rations,
-/turf/simulated/floor/reinforced,
-/area/jelly/cargo/lower)
-"Uf" = (
-/obj/structure/window/borosilicate_reinforced{
-	dir = 8
-	},
-/obj/machinery/atmospherics/pipe/simple/visible{
-	dir = 4
-	},
-/obj/machinery/power/terminal{
-	dir = 1
-	},
-/obj/structure/cable{
-	icon_state = "0-2"
-	},
-/turf/simulated/floor/plating,
-/area/jelly/engine)
-"Ui" = (
-/obj/structure/closet/crate,
-/turf/simulated/floor/reinforced,
-/area/jelly/cargo/lower)
-"Uo" = (
-/obj/machinery/atmospherics/portables_connector,
-/turf/simulated/floor/plating,
-/area/jelly/engine/propulsion/aux_star)
-"Ur" = (
-/obj/machinery/atmospherics/pipe/manifold/visible/fuel{
-	dir = 8
-	},
-/obj/structure/catwalk,
-/obj/structure/cable{
-	icon_state = "1-2"
-	},
-/obj/structure/cable/green{
-	icon_state = "4-8"
-	},
-/turf/simulated/floor/plating,
-/area/jelly/engine)
-"Us" = (
-/turf/simulated/wall/r_wall/prepainted,
-/area/jelly/port_storage)
-"UB" = (
-/turf/simulated/floor/plating,
-/area/jelly/engine/propulsion/aux_port)
-"UL" = (
-/obj/structure/grille,
-/turf/simulated/floor/reinforced/airless,
-/area/jelly/shuttle/catfish)
-"UR" = (
-/obj/machinery/ion_thruster{
-	dir = 4
-	},
-/turf/simulated/floor/airless,
-/area/jelly/shuttle/catfish)
-"UX" = (
-/obj/machinery/computer/ship/engines{
-	dir = 4
-	},
-/turf/simulated/floor/plating,
-/area/jelly/shuttle/galileo)
-"UY" = (
-/obj/machinery/portable_atmospherics/canister/empty,
-/turf/simulated/floor/reinforced,
-/area/jelly/cargo/lower)
-"Vh" = (
-/obj/structure/cable/green{
-	icon_state = "1-2"
-	},
-/obj/machinery/atmospherics/pipe/simple/hidden/supply,
-/turf/simulated/floor/tiled/dark/monotile,
-/area/jelly/cargo/lower)
-"Vy" = (
-/obj/machinery/atmospherics/pipe/manifold/visible,
-/obj/machinery/atmospherics/pipe/simple/visible/scrubbers,
-/obj/structure/cable/green{
-	icon_state = "2-8"
-	},
-/obj/structure/catwalk,
-/obj/effect/shuttle_landmark/jelly/dock_galileo,
-/obj/effect/overmap/visitable/ship/landable/shuttle/galileo,
-/turf/simulated/floor/plating,
-/area/jelly/shuttle/galileo)
-"VL" = (
-/obj/machinery/atmospherics/pipe/manifold/visible,
-/obj/structure/cable/green{
-	icon_state = "4-8"
-	},
-/turf/simulated/floor/plating,
-/area/jelly/cargo/lower)
-"VO" = (
-/obj/machinery/atmospherics/portables_connector{
-	dir = 8
-	},
-/obj/machinery/portable_atmospherics/canister/empty/carbon_dioxide,
-/turf/simulated/floor/plating,
-/area/jelly/shuttle/catfish)
-"VP" = (
-/obj/machinery/atmospherics/unary/vent_pump/high_volume/external_air{
-	dir = 8
-	},
-/turf/simulated/floor/plating,
-/area/jelly/shuttle/catfish)
-"VT" = (
-/obj/structure/catwalk,
-/obj/structure/cable/green{
-	icon_state = "1-2"
-	},
-/turf/simulated/floor/plating,
-/area/jelly/engine)
-"Wf" = (
-/obj/machinery/fusion_fuel_injector/mapped{
-	dir = 4;
-	initial_id_tag = "main"
-	},
-/obj/structure/window/borosilicate_reinforced{
-	dir = 4
-	},
-/turf/simulated/floor/plating,
-/area/jelly/engine)
-"Wi" = (
-/obj/machinery/atmospherics/unary/engine{
-	dir = 1
-	},
-/obj/structure/window/borosilicate_reinforced{
-	dir = 1
-	},
-/turf/simulated/floor/plating,
-/area/jelly/shuttle/catfish)
-"Wp" = (
-/obj/structure/closet/wardrobe/mixed,
-/turf/simulated/floor/reinforced,
-/area/jelly/cargo/lower)
-"Wy" = (
-/obj/machinery/atmospherics/unary/tank/carbon_dioxide{
-	start_pressure = 9000
-	},
-/turf/simulated/floor/plating,
-/area/jelly/engine)
-"WG" = (
-/obj/machinery/atmospherics/pipe/simple/visible/fuel{
-	dir = 9
-	},
-/obj/random/maintenance,
-/turf/simulated/floor/plating,
-/area/jelly/shuttle/catfish)
-"WV" = (
-/obj/machinery/alarm{
-	dir = 8
-	},
-/obj/machinery/atmospherics/unary/vent_scrubber/on,
-/obj/structure/catwalk,
-/turf/simulated/floor/plating,
-/area/jelly/shuttle/galileo)
-"WW" = (
-/obj/machinery/atmospherics/portables_connector,
-/turf/simulated/floor/plating,
-/area/jelly/engine/propulsion/aux_port)
-"WX" = (
-/obj/machinery/computer/ship/navigation{
-	dir = 1
-	},
-/turf/simulated/floor/tiled/dark,
-/area/jelly/engine)
-"Xb" = (
-/obj/structure/cable/green{
-	icon_state = "1-2"
-	},
-/obj/machinery/atmospherics/pipe/manifold/hidden/supply{
-	dir = 4
-	},
-/turf/simulated/floor/tiled/dark/monotile,
-/area/jelly/cargo/lower)
+/area/space)
 "Xf" = (
-/obj/machinery/atmospherics/pipe/simple/visible/fuel{
-	dir = 4
-	},
-/obj/structure/cable{
-	icon_state = "1-8"
-	},
-/turf/simulated/floor/tiled/dark,
-/area/jelly/engine)
-"Xk" = (
-/obj/structure/closet/crate,
-/obj/item/stack/material/steel/fifty,
-/obj/item/stack/material/steel/fifty,
-/obj/item/stack/material/steel/fifty,
-/turf/simulated/floor/reinforced,
-/area/jelly/cargo/lower)
-"Xn" = (
-/obj/machinery/pointdefense{
-	initial_id_tag = "catfish"
-	},
-/turf/simulated/floor/reinforced/airless,
-/area/jelly/shuttle/catfish)
-"Xq" = (
-/obj/machinery/power/apc/hyper{
-	dir = 1;
-	emp_hardened = 1
-	},
-/obj/structure/cable/green{
-	icon_state = "0-2"
-	},
-/obj/structure/catwalk,
 /turf/simulated/floor/plating,
-/area/jelly/shuttle/galileo)
-"XB" = (
-/obj/machinery/atmospherics/pipe/simple/visible/fuel{
-	dir = 6
-	},
-/turf/simulated/floor/plating,
-/area/jelly/shuttle/catfish)
-"XI" = (
-/obj/effect/decal/cleanable/vomit,
-/turf/simulated/floor/plating,
-/area/jelly/port_storage)
-"XP" = (
-/obj/structure/closet/crate,
-/obj/machinery/atmospherics/unary/vent_scrubber/on{
-	dir = 4
-	},
-/turf/simulated/floor/reinforced,
-/area/jelly/cargo/lower)
-"XU" = (
-/obj/machinery/atmospherics/unary/vent_pump/high_volume/external_air{
-	dir = 1
-	},
-/obj/machinery/ion_thruster{
-	dir = 1
-	},
-/turf/simulated/floor/airless,
-/area/jelly/shuttle/catfish)
-"XX" = (
-/obj/machinery/recharger,
-/obj/structure/table/standard,
-/turf/simulated/floor/plating,
-/area/jelly/port_storage)
-"XY" = (
-/obj/machinery/atmospherics/pipe/simple/visible/fuel{
-	dir = 10
-	},
-/obj/machinery/atmospherics/pipe/simple/visible/scrubbers{
-	dir = 4
-	},
-/turf/simulated/floor/plating,
-/area/jelly/shuttle/catfish)
-"Yk" = (
-/obj/machinery/atmospherics/pipe/manifold/visible/fuel,
-/obj/structure/catwalk,
-/obj/structure/cable/green{
-	icon_state = "2-8"
-	},
-/turf/simulated/floor/plating,
-/area/jelly/engine)
-"Yo" = (
-/obj/machinery/ion_thruster{
-	dir = 1
-	},
-/obj/machinery/atmospherics/unary/outlet_injector{
-	dir = 1;
-	icon_state = "map_injector";
-	use_power = 1
-	},
-/turf/simulated/floor/airless,
-/area/jelly/shuttle/galileo)
-"YB" = (
-/obj/machinery/light/small{
-	dir = 8
-	},
-/turf/simulated/floor/plating,
-/area/jelly/engine/propulsion/aux_port)
-"YG" = (
-/obj/machinery/portable_atmospherics/canister/empty/air,
-/turf/simulated/floor/reinforced,
-/area/jelly/cargo/lower)
-"Zb" = (
-/obj/machinery/atmospherics/pipe/manifold/visible,
-/obj/structure/cable/green{
-	icon_state = "0-4"
-	},
-/turf/simulated/floor/plating,
-/area/jelly/cargo/lower)
-"Zh" = (
-/obj/structure/closet/crate/freezer/meat,
-/turf/simulated/floor/reinforced,
-/area/jelly/cargo/lower)
-"ZE" = (
-/obj/machinery/atmospherics/portables_connector{
-	dir = 4
-	},
-/obj/structure/window/borosilicate_reinforced,
-/obj/structure/cable/green{
-	icon_state = "4-8"
-	},
-/turf/simulated/floor/tiled/dark/monotile,
-/area/jelly/engine)
-"ZR" = (
-/obj/machinery/atmospherics/pipe/simple/visible/scrubbers,
-/obj/structure/cable/green{
-	icon_state = "1-8"
-	},
-/obj/structure/catwalk,
-/turf/simulated/floor/plating,
-/area/jelly/shuttle/galileo)
-"ZY" = (
-/obj/machinery/atmospherics/pipe/simple/visible{
-	dir = 6
-	},
-/obj/structure/catwalk,
-/turf/simulated/floor/plating,
-/area/jelly/shuttle/catfish)
+/area/space)
 
 (1,1,1) = {"
 aa
@@ -2737,12 +628,12 @@ aa
 aa
 aa
 aa
-Us
-Us
-Us
-Us
-Us
-Us
+aa
+aa
+aa
+aa
+aa
+aa
 aa
 aa
 aa
@@ -2816,15 +707,15 @@ aa
 aa
 aa
 aa
-Us
-Us
-Us
-Us
-KW
-KW
-KW
-KW
-Us
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
 aa
 aa
 aa
@@ -2898,15 +789,15 @@ aa
 aa
 aa
 aa
-Us
-KW
-KW
-Us
-AO
-cD
-RC
-KW
-Us
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
 aa
 aa
 aa
@@ -2980,15 +871,15 @@ aa
 aa
 aa
 aa
-Us
-XX
-KW
-Us
-AO
-cD
-RC
-KW
-Us
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
 aa
 aa
 aa
@@ -3062,15 +953,15 @@ aa
 aa
 aa
 aa
-Us
-KW
-KW
-Us
-KW
-XI
-vp
-KW
-Us
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
 aa
 aa
 aa
@@ -3144,15 +1035,15 @@ aa
 aa
 aa
 aa
-Us
-XX
-KW
-De
-KW
-cD
-cD
-KW
-Us
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
 aa
 aa
 aa
@@ -3226,15 +1117,15 @@ aa
 aa
 aa
 aa
-Us
-KW
-KW
-Us
-KW
-vp
-cD
-SE
-Us
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
 aa
 aa
 aa
@@ -3308,15 +1199,15 @@ aa
 aa
 aa
 aa
-Us
-Us
-Us
-Us
-KW
-KW
-KW
-SE
-Us
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
 aa
 aa
 aa
@@ -3393,12 +1284,12 @@ aa
 aa
 aa
 aa
-Us
-Us
-Us
-Us
-Us
-Us
+aa
+aa
+aa
+aa
+aa
+aa
 aa
 aa
 aa
@@ -3551,16 +1442,16 @@ aa
 aa
 aa
 aa
-Xn
-UL
-UL
-UL
-cf
-yY
-xO
-Su
-eO
-Ad
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
 aa
 aa
 aa
@@ -3633,19 +1524,19 @@ aa
 aa
 aa
 aa
-PC
-PC
-yY
-yY
-yY
-yY
-VP
-yY
-ih
-yY
-yY
-UR
-BT
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
 aa
 aa
 aa
@@ -3714,21 +1605,21 @@ aa
 aa
 aa
 aa
-yY
-yY
-yY
-yY
-Ok
-eJ
-yY
-Eb
-yY
-dl
-CC
-yY
-yY
-yY
-yY
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
 aa
 aa
 aa
@@ -3796,21 +1687,21 @@ aa
 aa
 aa
 aa
-yY
-Pw
-yq
-yY
-Am
-Am
-yY
-BW
-yY
-XY
-Cw
-gc
-pF
-wh
-yY
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
 aa
 aa
 aa
@@ -3877,22 +1768,22 @@ aa
 aa
 aa
 aa
-PC
-yY
-va
-un
-fD
-or
-or
-fD
-cc
-NO
-fM
-yY
-yY
-yY
-Dh
-Wi
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
 aa
 aa
 aa
@@ -3959,22 +1850,22 @@ aa
 aa
 aa
 aa
-Xn
-yY
-aw
-um
-yY
-Nx
-zA
-yY
-MG
-aY
-PJ
-dO
-Cl
-yY
-Dh
-Wi
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
 aa
 aa
 aa
@@ -4041,22 +1932,22 @@ aa
 aa
 aa
 aa
-PC
-yY
-lY
-yr
-Eu
-hv
-hv
-Eu
-ZY
-Hx
-Dl
-yY
-yY
-yY
-Dh
-Wi
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
 aa
 aa
 aa
@@ -4124,21 +2015,21 @@ aa
 aa
 aa
 aa
-yY
-fR
-nn
-yY
-xR
-Am
-yY
-BW
-yY
-XB
-np
-gc
-pF
-WG
-yY
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
 aa
 aa
 aa
@@ -4206,21 +2097,21 @@ aa
 aa
 aa
 aa
-yY
-yY
-yY
-yY
-NG
-Am
-yY
-br
-yY
-AY
-VO
-yY
-yY
-yY
-yY
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
 aa
 aa
 aa
@@ -4289,19 +2180,19 @@ aa
 aa
 aa
 aa
-PC
-PC
-yY
-yY
-yY
-yY
-ad
-yY
-yY
-yY
-yY
-bG
-BT
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
 aa
 aa
 aa
@@ -4371,28 +2262,28 @@ aa
 aa
 aa
 aa
-Xn
-UL
-UL
-UL
-fa
-yY
-mC
-Su
-yZ
-XU
 aa
 aa
 aa
 aa
 aa
-vG
-vG
-vG
-vG
-vG
-vG
-vG
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
 aa
 aa
 aa
@@ -4458,23 +2349,23 @@ aa
 aa
 aa
 aa
-nz
-xn
-nz
 aa
 aa
 aa
 aa
 aa
 aa
-vG
-vG
-vG
-vG
-YB
-WW
-aB
-Ni
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
 aa
 aa
 aa
@@ -4540,23 +2431,23 @@ aa
 aa
 aa
 aa
-nz
-Fb
-nz
 aa
 aa
 aa
 aa
 aa
-vG
-vG
-wl
-QY
-QY
-UB
-WW
-tH
-Ni
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
 aa
 aa
 aa
@@ -4621,24 +2512,24 @@ aa
 aa
 aa
 aa
-nz
-nz
-sO
-nz
-nz
 aa
 aa
 aa
 aa
-vG
-vG
-wl
-QY
-QY
-UB
-WW
-do
-Ni
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
 aa
 aa
 aa
@@ -4693,37 +2584,37 @@ aa
 aa
 aa
 aa
-nz
-nz
-nz
-nz
-nz
-nz
-nz
-nz
-nz
-nz
-nz
-pg
-Zb
-uK
-nz
-nz
-nz
 aa
 aa
-vG
-vG
-te
-UB
-UB
-UB
-Fq
-QU
-QU
-QU
-QU
-QU
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
 aa
 aa
 aa
@@ -4774,39 +2665,39 @@ aa
 aa
 aa
 aa
-nz
-nz
-nz
-nz
-nz
-nz
-nz
-nz
-nz
-nz
-nz
-nz
-mf
-oa
-KC
-nz
-nz
-nz
-nz
-nz
-vG
-vG
-vG
-vG
-lE
-Bv
-QU
-QU
-QU
-QU
-QU
-QU
-QU
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
 aa
 aa
 aa
@@ -4855,40 +2746,40 @@ aa
 aa
 aa
 aa
-nz
-nz
-nz
-nz
-nz
-nz
-nz
-nz
-nz
-nz
-nz
-nz
-nz
-nz
-OR
-nz
-nz
-nz
-nz
-nz
-nz
-nz
-nz
-QU
-QU
-QU
-bC
-QU
-QU
-FD
-gH
-RU
-QU
-QU
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
 aa
 aa
 aa
@@ -4936,41 +2827,41 @@ aa
 aa
 aa
 aa
-nz
-nz
-nz
-nz
-nz
-AV
-KY
-Ui
-Ui
-Ui
-zK
-oG
-NK
-AV
-AV
-ru
-Vh
-no
-TP
-TP
-vS
-iI
-FI
-mI
-QU
-QU
-QU
-cH
-QU
-Gu
-ED
-sL
-ck
-co
-Ax
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
 aa
 aa
 aa
@@ -5018,41 +2909,41 @@ aa
 aa
 aa
 aa
-nz
-nz
-nz
-lX
-lX
-bL
-AV
-FF
-lX
-eX
-Bl
-Bl
-Bl
-Gw
-nz
-nz
-nz
-Df
-Ft
-RB
-jm
-vS
-YG
-mI
-QU
-Wy
-cg
-Ur
-hG
-hG
-hG
-GU
-eY
-xP
-Ax
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
 aa
 aa
 aa
@@ -5100,41 +2991,41 @@ aa
 aa
 aa
 aa
-nz
-nz
-nz
-lq
-lX
-FN
-AV
-AV
-AV
-AV
-AV
-AV
-AV
-cj
-ot
-ot
-of
-bF
-Xb
-Xb
-Xb
-no
-AV
-lF
-QU
-Wy
-qE
-Ix
-Wf
-Wf
-Wf
-nt
-nh
-Fw
-Ax
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
 aa
 aa
 aa
@@ -5182,41 +3073,41 @@ aa
 aa
 aa
 aa
-nz
-nz
-nz
-lX
-lX
-FN
-AV
-tE
-oS
-RF
-Xk
-mj
-mj
-nz
-ot
-ot
-ot
-nz
-XP
-Pg
-EB
-rG
-bL
-bL
-QU
-Wy
-BD
-Dv
-OP
-OP
-OP
-ye
-RP
-co
-Ax
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
 aa
 aa
 aa
@@ -5264,41 +3155,41 @@ aa
 aa
 aa
 aa
-nz
-nz
-nz
-nz
-nz
-nz
-AV
-QF
-QF
-mj
-mj
-Lz
-jo
-nz
-ot
-ot
-ot
-nz
-xe
-fH
-fH
-tU
-xj
-fZ
-ms
-VT
-Ss
-rM
-OP
-st
-xh
-BI
-JS
-xP
-Ax
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
 aa
 aa
 aa
@@ -5346,41 +3237,41 @@ aa
 aa
 aa
 aa
-nz
-nz
-nz
-lX
-lX
-FN
-AV
-Mm
-Mm
-mj
-lX
-lX
-lX
-nz
-ot
-ot
-ot
-nz
-Fy
-Fy
-Rn
-rG
-bL
-bL
-QU
-Wy
-dG
-ZE
-OP
-OP
-qU
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+Xf
+Xf
 Gr
-Sb
-Fw
-Ax
+aa
+aa
+aa
 aa
 aa
 aa
@@ -5428,41 +3319,41 @@ aa
 aa
 aa
 aa
-nz
-nz
-nz
-lq
-lX
-FN
-AV
-AV
-AV
-AV
-AV
-AV
-AV
-cj
-ot
-ot
-ot
-wu
-Qi
-Qi
-Qi
-vu
-AV
-lF
-QU
-Wy
-Yk
-Qc
-vR
-DD
-Uf
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
 Xf
-WX
-co
-Ax
+Xf
+Xf
+aa
+aa
+aa
 aa
 aa
 aa
@@ -5510,41 +3401,41 @@ aa
 aa
 aa
 aa
-nz
-nz
-nz
-lX
-lX
-bL
-AV
-lX
-UY
-UY
-Aj
-lX
-lX
-iw
-nz
-nz
-nz
-kJ
-hS
-hS
-hS
-Hr
-Ua
-Ua
-QU
-Wy
-cB
-lb
-gY
-gY
-qd
-hl
-eY
-xP
-Ax
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+Xf
+Xf
+Xf
+aa
+aa
+aa
 aa
 aa
 aa
@@ -5592,41 +3483,41 @@ aa
 aa
 aa
 aa
-nz
-nz
-nz
-nz
-nz
-AV
-dz
-lX
-Wp
-UY
-UY
-Ol
-lX
-AV
-AV
-TI
-Vh
-vu
-rv
-lX
-Hr
-Zh
-Ua
-Ua
-QU
-QU
-QU
-cH
-QU
-Hm
-uU
-ck
-ck
-Fw
-Ax
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+Xf
+Xf
+Xf
+aa
+aa
+aa
 aa
 aa
 aa
@@ -5675,40 +3566,40 @@ aa
 aa
 aa
 aa
-nz
-nz
-nz
-nz
-nz
-nz
-nz
-nz
-nz
-nz
-nz
-nz
-nz
-nz
-OR
-nz
-nz
-nz
-nz
-nz
-nz
-nz
-nz
-QU
-QU
-QU
-bC
-QU
-QU
-rk
-jV
-sn
-QU
-QU
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+Xf
+Xf
+Xf
+aa
+aa
+aa
 aa
 aa
 aa
@@ -5758,39 +3649,39 @@ aa
 aa
 aa
 aa
-nz
-nz
-nz
-nz
-nz
-nz
-nz
-nz
-nz
-nz
-nz
-nz
-eT
-oX
-Lu
-nz
-nz
-nz
-nz
-nz
-iR
-iR
-iR
-iR
-Qe
-Cr
-QU
-QU
-QU
-QU
-QU
-QU
-QU
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
 aa
 aa
 aa
@@ -5841,37 +3732,37 @@ aa
 aa
 aa
 aa
-nz
-nz
-nz
-nz
-nz
-nz
-nz
-nz
-nz
-nz
-nz
-pg
-VL
-RS
-nz
-nz
-nz
 aa
 aa
-iR
-iR
-tv
-yz
-eZ
-eZ
-QN
-QU
-QU
-QU
-QU
-QU
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
 aa
 aa
 aa
@@ -5933,24 +3824,24 @@ aa
 aa
 aa
 aa
-nz
-nz
-Mn
-nz
-nz
 aa
 aa
 aa
 aa
-iR
-iR
-tv
-yz
-eZ
-eZ
-Uo
-TX
-Nu
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
 aa
 aa
 aa
@@ -6016,23 +3907,23 @@ aa
 aa
 aa
 aa
-nz
-PF
-nz
 aa
 aa
 aa
 aa
 aa
-iR
-iR
-QN
-eZ
-eZ
-eZ
-Uo
-ic
-Nu
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
 aa
 aa
 aa
@@ -6098,23 +3989,23 @@ aa
 aa
 aa
 aa
-nz
-aF
-nz
 aa
 aa
 aa
 aa
 aa
 aa
-iR
-iR
-iR
-iR
-qR
-Uo
-mk
-Nu
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
 aa
 aa
 aa
@@ -6177,26 +4068,26 @@ aa
 aa
 aa
 aa
-ko
-ko
-ko
-ko
-HC
-rO
-MN
-Iv
-Iv
 aa
 aa
 aa
 aa
-iR
-iR
-iR
-iR
-iR
-iR
-iR
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
 aa
 aa
 aa
@@ -6258,17 +4149,17 @@ aa
 aa
 aa
 aa
-ko
-ko
-UX
-lo
-ko
-gT
-ko
-ko
-ko
-ko
-ko
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
 aa
 aa
 aa
@@ -6340,17 +4231,17 @@ aa
 aa
 aa
 aa
-ko
-Fc
-WV
-zj
-ko
-If
-ko
-Xq
-rx
-ko
-Dq
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
 aa
 aa
 aa
@@ -6422,17 +4313,17 @@ aa
 aa
 aa
 aa
-ko
-ko
-ko
-lw
-ko
-dQ
-ko
-Lt
-Qh
-ko
-ON
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
 aa
 aa
 aa
@@ -6504,17 +4395,17 @@ aa
 aa
 aa
 aa
-ko
-FO
-Ii
-zJ
-tn
-Vy
-gh
-ZR
-tF
-oj
-Yo
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
 aa
 aa
 aa
@@ -6586,17 +4477,17 @@ aa
 aa
 aa
 aa
-ko
-ko
-KN
-oo
-ko
-LH
-ko
-ko
-ko
-ko
-ko
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
 aa
 aa
 aa
@@ -6669,15 +4560,15 @@ aa
 aa
 aa
 aa
-ko
-ko
-ko
-ko
-ko
-ko
-Cz
-Cz
-Cz
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
 aa
 aa
 aa
@@ -7165,12 +5056,12 @@ aa
 aa
 aa
 aa
-QT
-QT
-QT
-QT
-QT
-QT
+aa
+aa
+aa
+aa
+aa
+aa
 aa
 aa
 aa
@@ -7244,15 +5135,15 @@ aa
 aa
 aa
 aa
-QT
-QT
-QT
-QT
-rd
-rd
-rd
-rd
-QT
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
 aa
 aa
 aa
@@ -7326,15 +5217,15 @@ aa
 aa
 aa
 aa
-QT
-rd
-rd
-QT
-rd
-CE
-SN
-CE
-QT
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
 aa
 aa
 aa
@@ -7408,15 +5299,15 @@ aa
 aa
 aa
 aa
-QT
-rd
-rd
-yv
-rd
-CE
-CE
-CE
-QT
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
 aa
 aa
 aa
@@ -7490,15 +5381,15 @@ aa
 aa
 aa
 aa
-QT
-xW
-rd
-QT
-rd
-CE
-rd
-rd
-QT
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
 aa
 aa
 aa
@@ -7572,15 +5463,15 @@ aa
 aa
 aa
 aa
-QT
-BR
-rd
-QT
-rd
-CE
-tp
-hq
-QT
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
 aa
 aa
 aa
@@ -7654,15 +5545,15 @@ aa
 aa
 aa
 aa
-QT
-xW
-yh
-QT
-rd
-CE
-tp
-hq
-QT
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
 aa
 aa
 aa
@@ -7736,15 +5627,15 @@ aa
 aa
 aa
 aa
-QT
-QT
-QT
-QT
-CE
-CE
-CE
-CE
-QT
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
+aa
 aa
 aa
 aa
@@ -7821,12 +5712,12 @@ aa
 aa
 aa
 aa
-QT
-QT
-QT
-QT
-QT
-QT
+aa
+aa
+aa
+aa
+aa
+aa
 aa
 aa
 aa
