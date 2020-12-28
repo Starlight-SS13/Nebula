@@ -1,17 +1,17 @@
-/datum/map/loop/setup_map()
+/datum/map/tethys/setup_map()
 	..()
-//	system_name = generate_system_name()
+	new/datum/random_map/noise/seafloor(null, 1, 1, 2, world.maxx, world.maxy)
 
-/datum/map/loop/send_welcome()
-	var/obj/effect/overmap/visitable/ship/loop = SSshuttle.ship_by_type(/obj/effect/overmap/visitable/ship/loop)
+/datum/map/tethys/send_welcome()
+	var/obj/effect/overmap/visitable/ship/tethys = SSshuttle.ship_by_type(/obj/effect/overmap/visitable/ship/tethys)
 
 	var/welcome_text = "<center><font size = 3><b>[GLOB.using_map.station_name]</b> Sensor Readings:</font><br>"
 	welcome_text += "Report generated on [stationdate2text()] at [stationtime2text()]</center><br /><br />"
-	welcome_text += "<hr>Current system:<br /><b>[loop ? system_name() : "Unknown"]</b><br /><br>"
+	welcome_text += "<hr>Current system:<br /><b>[tethys ? system_name() : "Unknown"]</b><br /><br>"
 
-	if(loop) //If the overmap is disabled, it's possible for there to be no loop.
+	if(tethys) //If the overmap is disabled, it's possible for there to be no tethys.
 		var/list/space_things = list()
-		welcome_text += "Current Coordinates:<br /><b>[loop.x]:[loop.y]</b><br /><br>"
+		welcome_text += "Current Coordinates:<br /><b>[tethys.x]:[tethys.y]</b><br /><br>"
 		welcome_text += "Next system targeted for jump:<br /><b>[generate_system_name()]</b><br /><br>"
 		welcome_text += "Travel time to [company_name]:<br /><b>[rand(15,45)] days</b><br /><br>"
 		welcome_text += "Time since last port visit:<br /><b>[rand(60,180)] days</b><br /><hr>"
@@ -19,7 +19,7 @@
 
 		for(var/zlevel in map_sectors)
 			var/obj/effect/overmap/visitable/O = map_sectors[zlevel]
-			if(O.name == loop.name)
+			if(O.name == tethys.name)
 				continue
 			if(istype(O, /obj/effect/overmap/visitable/ship/landable)) //Don't show shuttles
 				continue
@@ -30,8 +30,8 @@
 		var/list/distress_calls
 		for(var/obj/effect/overmap/visitable/O in space_things)
 			var/location_desc = " at present co-ordinates."
-			if(O.loc != loop.loc)
-				var/bearing = round(90 - Atan2(O.x - loop.x, O.y - loop.y),5) //fucking triangles how do they work
+			if(O.loc != tethys.loc)
+				var/bearing = round(90 - Atan2(O.x - tethys.x, O.y - tethys.y),5) //fucking triangles how do they work
 				if(bearing < 0)
 					bearing += 360
 				location_desc = ", bearing [bearing]."
