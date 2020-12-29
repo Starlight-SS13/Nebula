@@ -15,7 +15,6 @@
 /datum/shuttle/autodock/overmap/tethys
 	name             = "Tethys Pod"
 	shuttle_area     = /area/tethys/pod
-	dock_target      = "tethys_pod"
 	current_location = "nav_tethys_dock"
 
 /area/tethys/pod

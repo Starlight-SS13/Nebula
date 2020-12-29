@@ -1,10 +1,10 @@
 /datum/map/tethys
 	path = "tethys"
 
-	name           = "\"the Tethys\" Complex"
-	full_name      = "\"the Tethys\" Underwater Complex"
-	station_name   = "\"the Tethys\" Underwater Complex"
-	station_short  = "\"the Tethys\""
+	name           = "Tethys Complex"
+	full_name      = "Tethys Underwater Complex"
+	station_name   = "Tethys Underwater Complex"
+	station_short  = "Tethys"
 
 	dock_name      = "Ro'Klarr"
 	boss_name      = "Republic Council"
