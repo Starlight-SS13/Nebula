@@ -10,8 +10,8 @@
 	floor_type = /turf/exterior/seafloor
 	strata     = /decl/strata/permafrost
 
-/turf/exterior/seafloor/return_air()
-	return GLOB.using_map.get_exterior_atmosphere()
+/turf/exterior/seafloor
+	blocks_air = 1
 
 /area/space/ocean
 	name        = "open ocean"

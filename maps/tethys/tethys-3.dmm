@@ -30,7 +30,7 @@
 "iI" = (/obj/machinery/atmospherics/pipe/simple/visible{dir = 5},/obj/structure/cable{icon_state = "1-2"},/obj/machinery/atmospherics/unary/vent_pump{dir = 8; id_tag = "tethys_pod_pump_out_internal"},/turf/simulated/floor/tiled/white,/area/tethys/pod)
 "iR" = (/obj/machinery/computer/modular/preset/engineering{dir = 4},/obj/effect/floor_decal/techfloor{dir = 4},/obj/machinery/light{dir = 8},/turf/simulated/floor/tiled/techfloor/grid,/area/tethys/bridge)
 "jb" = (/turf/simulated/open/flooded,/area/space/ocean)
-"jf" = (/obj/structure/cable{icon_state = "1-2"},/obj/machinery/door/airlock/external{id_tag = "tethys_pod_outer"},/turf/simulated/floor/tiled/white/monotile,/area/tethys/pod)
+"jf" = (/obj/structure/cable{icon_state = "1-2"},/obj/machinery/door/airlock/external/bolted_open{id_tag = "tethys_pod_outer"},/turf/simulated/floor/tiled/white/monotile,/area/tethys/pod)
 "jh" = (/turf/simulated/wall/r_wall/prepainted,/area/tethys/hallway/tower)
 "jt" = (/obj/structure/cable{icon_state = "1-2"},/obj/structure/catwalk,/obj/machinery/light/small{dir = 8},/turf/simulated/floor/plating,/area/tethys/eva)
 "jM" = (/obj/machinery/atmospherics/unary/vent_scrubber/on,/turf/simulated/floor/tiled/dark,/area/tethys/hallway/tower)

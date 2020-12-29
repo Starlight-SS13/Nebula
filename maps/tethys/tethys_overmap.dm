@@ -1,5 +1,7 @@
 /datum/map/tethys
-	use_overmap = 1
+	use_overmap    = 1
+	num_exoplanets = 8
+	planet_size    = list(30,30) //for diversity...
 
 /obj/effect/overmap/visitable/ship/tethys
 	name         = "underwater complex"
@@ -7,6 +9,7 @@
 	icon_state   = "object"
 	free_landing = TRUE
 	known        = TRUE
+	initial_restricted_waypoints = list("Tethys Pod" = list("nav_tethys_dock"))
 
 /obj/machinery/computer/shuttle_control/explore/tethys
 	name        = "control console"
