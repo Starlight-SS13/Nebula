@@ -16,7 +16,7 @@
 "bM" = (/turf/simulated/wall/r_wall/prepainted,/area/tethys/civilian/hygiene)
 "bN" = (/obj/machinery/optable,/obj/machinery/light{dir = 8},/obj/effect/floor_decal/corner/paleblue/mono,/turf/simulated/floor/tiled/white/monotile,/area/tethys/medical/chem)
 "bQ" = (/obj/machinery/atmospherics/pipe/simple/hidden/supply{dir = 10},/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{dir = 10},/obj/structure/cable{icon_state = "2-8"},/turf/simulated/floor/tiled/white,/area/tethys/civilian/cryo)
-"bV" = (/obj/structure/railing/mapped{dir = 4},/turf/simulated/floor/bluegrid,/area/tethys/engine/comms)
+"bV" = (/obj/structure/railing/mapped{dir = 4},/obj/machinery/light/small{dir = 8},/turf/simulated/floor/bluegrid,/area/tethys/engine/comms)
 "bX" = (/obj/machinery/atmospherics/binary/pump/high_power{dir = 8},/turf/simulated/floor/plating,/area/tethys/engine/atmos)
 "bZ" = (/obj/machinery/atmospherics/pipe/simple/hidden/supply{dir = 9},/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{dir = 9},/obj/structure/cable{icon_state = "1-8"},/obj/effect/floor_decal/corner/beige{dir = 5},/turf/simulated/floor/tiled,/area/tethys/hallway/lower)
 "ca" = (/obj/machinery/atmospherics/unary/vent_scrubber/on{dir = 8},/turf/simulated/floor/tiled/white,/area/tethys/science/workshop)
@@ -41,7 +41,7 @@
 "dz" = (/obj/machinery/alarm{dir = 8},/turf/simulated/floor/tiled/techfloor,/area/tethys/science/robot)
 "dD" = (/obj/structure/table/standard,/obj/structure/railing/mapped{dir = 8},/obj/random/tool,/turf/simulated/floor/bluegrid,/area/tethys/engine/comms)
 "dE" = (/obj/machinery/atmospherics/pipe/manifold4w/hidden/scrubbers,/turf/simulated/floor/reinforced,/area/tethys/science/testing)
-"dM" = (/turf/simulated/floor/tiled/white/monotile,/area/tethys/science/fabrication)
+"dM" = (/obj/item/stack/material/osmium/ten,/turf/simulated/floor/tiled/white/monotile,/area/tethys/science/fabrication)
 "dP" = (/turf/simulated/floor/plating,/area/tethys/civilian)
 "dW" = (/obj/structure/hygiene/toilet{dir = 4},/obj/machinery/atmospherics/unary/vent_scrubber/on{dir = 4},/obj/machinery/button/alternate/door/bolts{id_tag = "toilet2"; name = "door lock"; pixel_y = 24},/obj/machinery/alarm{dir = 1},/turf/simulated/floor/tiled/freezer,/area/tethys/civilian/hygiene)
 "dZ" = (/obj/machinery/atmospherics/pipe/simple/hidden/supply,/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,/obj/structure/cable{icon_state = "1-2"},/obj/effect/floor_decal/corner/beige{dir = 9},/turf/simulated/floor/tiled,/area/tethys/civilian/dorm)
@@ -342,7 +342,7 @@
 "Dw" = (/obj/machinery/fabricator/imprinter,/turf/simulated/floor/bluegrid,/area/tethys/science)
 "Dx" = (/obj/structure/cable{icon_state = "4-8"},/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{dir = 4},/obj/machinery/atmospherics/pipe/simple/hidden/supply{dir = 4},/obj/machinery/light,/obj/effect/floor_decal/corner/beige{dir = 10},/turf/simulated/floor/tiled,/area/tethys/hallway/lower)
 "Dz" = (/obj/machinery/computer/modular/preset/civilian{dir = 4},/turf/simulated/floor/tiled/white/monotile,/area/tethys/civilian/cryo)
-"DC" = (/obj/structure/closet/crate,/obj/random/material,/obj/random/material,/obj/random/material,/obj/random/material,/obj/random/material,/turf/simulated/floor/tiled/techmaint,/area/tethys/cargo)
+"DC" = (/obj/structure/closet/crate,/obj/random/material,/obj/random/material,/obj/random/material,/obj/random/material,/obj/random/material,/obj/item/stack/material/osmium/ten,/obj/item/stack/material/osmium/ten,/obj/item/stack/material/osmium/ten,/obj/item/stack/material/osmium/ten,/obj/item/stack/material/osmium/ten,/obj/item/stack/material/osmium/ten,/turf/simulated/floor/tiled/techmaint,/area/tethys/cargo)
 "DD" = (/obj/structure/cable{icon_state = "4-8"},/obj/machinery/atmospherics/pipe/simple/hidden/supply{dir = 4},/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{dir = 4},/obj/machinery/door/airlock/hatch/tethys/sci,/turf/simulated/floor/tiled/techfloor/grid,/area/tethys/science/robot)
 "DF" = (/obj/machinery/cryopod/robot,/obj/effect/floor_decal/techfloor,/obj/effect/floor_decal/techfloor{dir = 1},/obj/effect/floor_decal/techfloor/hole,/turf/simulated/floor/tiled/techfloor/grid,/area/tethys/science/robot)
 "DG" = (/obj/machinery/atmospherics/unary/vent_pump/on{dir = 8},/turf/simulated/floor/tiled/techfloor,/area/tethys/science/robot)
@@ -395,6 +395,7 @@
 "Ig" = (/obj/structure/cable{icon_state = "4-8"},/obj/machinery/atmospherics/pipe/manifold/hidden/scrubbers,/obj/machinery/atmospherics/pipe/simple/hidden/supply{dir = 4},/obj/effect/floor_decal/corner/beige{dir = 10},/turf/simulated/floor/tiled,/area/tethys/hallway/lower)
 "Ih" = (/obj/turbolift_map_holder/tethys,/turf/simulated/floor/plating,/area/turbolift/tethys_under)
 "In" = (/obj/machinery/atmospherics/pipe/manifold/visible{dir = 8},/obj/structure/railing/mapped{dir = 8},/turf/simulated/floor/tiled/techfloor,/area/tethys/engine/atmos)
+"Iw" = (/obj/machinery/light/small,/turf/simulated/floor/tiled/techfloor,/area/tethys/science/robot)
 "IA" = (/turf/simulated/floor/tiled,/area/tethys/hallway/lower)
 "IB" = (/turf/simulated/wall/r_wall/prepainted,/area/tethys/civilian/cryo)
 "IL" = (/obj/structure/cable{icon_state = "4-8"},/obj/effect/floor_decal/corner/beige{dir = 10},/obj/structure/cable{icon_state = "1-8"},/obj/machinery/atmospherics/pipe/manifold4w/hidden/scrubbers,/obj/machinery/atmospherics/pipe/manifold4w/hidden/supply,/obj/structure/cable{icon_state = "2-8"},/turf/simulated/floor/tiled,/area/tethys/hallway/lower)
@@ -524,6 +525,7 @@
 "UB" = (/obj/effect/floor_decal/corner/beige{dir = 9},/obj/machinery/atmospherics/pipe/simple/hidden/supply{dir = 4},/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{dir = 4},/obj/structure/cable{icon_state = "4-8"},/turf/simulated/floor/tiled,/area/tethys/hallway/lower)
 "UC" = (/obj/machinery/light{dir = 4},/obj/effect/floor_decal/corner/research{dir = 6},/turf/simulated/floor/tiled/white,/area/tethys/science/fabrication)
 "UF" = (/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{dir = 4},/obj/machinery/atmospherics/pipe/simple/hidden/supply{dir = 4},/obj/structure/cable{icon_state = "4-8"},/obj/machinery/light,/turf/simulated/floor/tiled/white,/area/tethys/medical)
+"UJ" = (/obj/machinery/light/small{dir = 1},/turf/simulated/floor/tiled/techfloor,/area/tethys/science/robot)
 "US" = (/obj/machinery/body_scanconsole{dir = 1},/turf/simulated/floor/tiled/white/monotile,/area/tethys/medical)
 "UT" = (/obj/structure/table/standard,/obj/machinery/reagent_temperature,/obj/machinery/light{dir = 1},/turf/simulated/floor/tiled/white/monotile,/area/tethys/medical/chem)
 "UZ" = (/obj/machinery/optable,/obj/machinery/light{dir = 4},/obj/effect/floor_decal/corner/paleblue/mono,/turf/simulated/floor/tiled/white/monotile,/area/tethys/medical/chem)
@@ -571,7 +573,7 @@
 "YN" = (/turf/simulated/floor/plating,/area/tethys/hallway/lower)
 "YP" = (/obj/structure/table/standard,/obj/effect/floor_decal/industrial/outline/yellow,/obj/machinery/cell_charger,/obj/item/mobile_ladder,/obj/item/mobile_ladder,/turf/simulated/floor/tiled/dark/monotile,/area/tethys/engine)
 "YV" = (/obj/effect/floor_decal/corner_techfloor_grid{dir = 4},/obj/effect/floor_decal/techfloor/corner{dir = 4},/turf/simulated/floor/tiled/techfloor,/area/tethys/engine/reactor)
-"Zc" = (/obj/structure/closet/crate,/obj/item/stack/material/steel/fifty,/obj/item/stack/material/steel/fifty,/obj/item/stack/material/glass/fifty,/obj/item/stack/material/glass/fifty,/obj/item/stack/material/aluminium/fifty,/obj/item/stack/material/aluminium/fifty,/obj/item/stack/material/plastic/fifty,/obj/item/stack/material/plastic/fifty,/obj/effect/floor_decal/corner/research{dir = 6},/turf/simulated/floor/tiled/white,/area/tethys/science)
+"Zc" = (/obj/structure/closet/crate,/obj/item/stack/material/steel/fifty,/obj/item/stack/material/steel/fifty,/obj/item/stack/material/glass/fifty,/obj/item/stack/material/glass/fifty,/obj/item/stack/material/aluminium/fifty,/obj/item/stack/material/aluminium/fifty,/obj/item/stack/material/plastic/fifty,/obj/item/stack/material/plastic/fifty,/obj/item/stack/material/osmium/ten,/obj/item/stack/material/osmium/ten,/obj/effect/floor_decal/corner/research{dir = 6},/turf/simulated/floor/tiled/white,/area/tethys/science)
 "Zm" = (/obj/machinery/atmospherics/pipe/manifold/hidden/supply,/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{dir = 4},/obj/structure/cable{icon_state = "4-8"},/obj/structure/cable{icon_state = "1-8"},/obj/effect/floor_decal/corner/paleblue{dir = 9},/turf/simulated/floor/tiled/white,/area/tethys/medical)
 "Zz" = (/obj/structure/cable{icon_state = "4-8"},/turf/simulated/floor/tiled/techmaint,/area/tethys/cargo)
 "ZG" = (/obj/machinery/atmospherics/pipe/simple/hidden/supply,/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,/obj/machinery/door/airlock/hatch/tethys,/turf/simulated/floor/tiled/techfloor/grid,/area/tethys/civilian/hygiene)
@@ -631,13 +633,13 @@ popopopopopopopopopopopopopopopopopopopopopopopopopopopopoZLoqcQZLONJdKOGuGuGuGu
 popopopopopopopopopopopopopopopopopopopopopopopopopopopopoZLZLZLZLdZVQKOGuGuGuGuGuzUldKnWzbqAIzUksDuxncGuOjXkzKkrfUzykHvHvZKGhQskxQsQspopopopopopopopopopopopopo
 popopopopopopopopopopopopopopopopopopopopopopopopopopopopoZLxbnTSAUsBbKOIhGuGuGuGuzUCQPKyKMCGozUzQDuezNhNhEtufFpZcDuvqgKluluGhoubZXEpTpopopopopopopopopopopopopo
 popopopopopopopopopopopopopopopopopopopopopopopopopopopopoZLDgCBZLdZfXpTpTYNYNYNpTpTtazUzUzUzUzUyxDuDuDuDuDuDufuDuDuGhGhGhGhGhDmleMkGDGDGDGDGDGDGDpopopopopopopo
-popopopopopopopopopopopopopopopopopopopopopopopopopopopopoZLZLZLZLdZfjpTcVjujujusiZOgThyynuDjurgMaZOhAjujuVguDovakhLhAjujuVgZODmHCXtGDMNMNMNMNMNGDpopopopopopopo
+popopopopopopopopopopopopopopopopopopopopopopopopopopopopoZLZLZLZLdZfjpTcVjujujusiZOgThyynuDjurgMaZOhAjujuVguDovakhLhAjujuVgZODmHCXtGDMNMNUJMNMNGDpopopopopopopo
 popopopopopopopopopopopopopopopopopopopopopopopopopopopopoZLLAGvUmWGmOpTOXleIAXOcNktwdmNqvDxMuHJEvXsDPGNDxhVGNILusMuIgDxGNUcxuaHihSiGDLkDFkqpDMNGDpopopopopopopo
 popopopopopopopopopopopopopopopopopopopopopopopopopopopopoZLTjOrZLAVLKyZUBqDwIdoXXpTevamamamamamamAOAOAOAOAOAOpLAOAOAOAOAOAOAOvQHsryDDMXUAUADGMNGDpopopopopopopo
 popopopopopopopopopopopopopopopopopopopopopopopopopopobMbMbMbMbMbMJibMpTRuYApxwwrFpTRdamDWgZmjQwamDCAPzykwydAOaZqXZzJczyeNzyAOGSLpLtGDmkDFkqpDMNGDpopopopopopopo
 popopopopopopopopopopopopopopopopopopopopopopopopopopobMHMhWbMEubMAqwtpTpTpTpTpTpTpTevamzVSqzcKPamsbsbsbsbMlAOWhNbXWQcrqfVzyAOAOAOAOAOXSJuJuhQdzGDpopopopopopopo
 popopopopopopopopopopopopopopopopopopopopopopopopopopobMDZNAbMFPbMxFQCttTAiaybGGCXttqemYCDCDCDIPamkbeQxwxwomwzwMxzJxNQspsbzyAOCJhxITAOMNDFkqpDMNGDpopopopopopopo
-popopopopopopopopopopopopopopopopopopopopopopopopopopobMbMTtbMVZbMZGbMttklfOIXfOkettssmgYPIWOmIMMjMjMjMjMjQnAOOEpOBoozBopfBobcXnkhvyAOMNMNMNMNMNGDpopopopopopopo
+popopopopopopopopopopopopopopopopopopopopopopopopopopobMbMTtbMVZbMZGbMttklfOIXfOkettssmgYPIWOmIMMjMjMjMjMjQnAOOEpOBoozBopfBobcXnkhvyAOMNMNIwMNMNGDpopopopopopopo
 popopopopopopopopopopopopopopopopopopopopopopopopopopopobMgoogjImanhSyttfZvDhfhqKCiPhFibLwXGifFAPDiJiWkiMjMjAOAOAOAOAOAOAOAOAOxRwlASAOGDGDGDGDGDGDpopopopopopopo
 popopopopopopopopopopopopopopopopopopopopopopopopopopopobMbMbMngbMbMnzttmGkFkNllHmttqQlyNkNkmqBBMjqpqpndHDjflNlNMjpopopopopoAOAOAOAOAOpopopopopopopopopopopopopo
 popopopopopopopopopopopopopopopopopopopopopopopopopopopopobMdWWYbMpvWYttCfttSjttuTttvZnBpWqdamamMjqnsNtfHDInzhpeMjpopopopopopopopopopopopopopopopopopopopopopopo

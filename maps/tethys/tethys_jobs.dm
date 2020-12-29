@@ -1,7 +1,6 @@
 /datum/map/tethys
 	default_law_type        = /datum/ai_laws/asimov
-
-	allowed_jobs            = list(/datum/job/tethys,
+	allowed_jobs            = list(/datum/job/assistant,
 								   /datum/job/cyborg
 	)
 
@@ -12,17 +11,19 @@
 
 /obj/machinery/suit_cycler/tethys
 	helmet = /obj/item/clothing/head/helmet/space/void/engineering
-	suit = /obj/item/clothing/suit/space/void/engineering
-	boots = /obj/item/clothing/shoes/magboots
+	suit   = /obj/item/clothing/suit/space/void/engineering
+	boots  = /obj/item/clothing/shoes/magboots
 
 /obj/machinery/suit_cycler/tethys/salvage
 	helmet = /obj/item/clothing/head/helmet/space/void/engineering/salvage
-	suit = /obj/item/clothing/suit/space/void/engineering/salvage
+	suit   = /obj/item/clothing/suit/space/void/engineering/salvage
 
 //Jobs
 
+/datum/job/assistant
+	outfit_type     = /decl/hierarchy/outfit/job/tethys
+
 /datum/job/tethys
-	title           = "Station Dweller"
 	department_refs = list(DEPT_CIVILIAN)
 	outfit_type     = /decl/hierarchy/outfit/job/tethys
 

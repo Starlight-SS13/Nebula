@@ -1,18 +1,25 @@
+"as" = (/obj/machinery/atmospherics/pipe/simple/visible{dir = 4},/turf/simulated/wall/titanium,/area/tethys/pod)
 "au" = (/turf/simulated/floor/reinforced/airless,/area/tethys/engine/atmos)
 "aC" = (/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{dir = 4},/obj/machinery/atmospherics/pipe/simple/hidden/supply{dir = 9},/obj/structure/cable{icon_state = "4-8"},/turf/simulated/floor/tiled/techfloor,/area/tethys/sec)
 "aK" = (/obj/machinery/atmospherics/pipe/zpipe/down/scrubbers{dir = 1},/obj/machinery/atmospherics/pipe/zpipe/down/supply{dir = 1},/obj/structure/cable{icon_state = "32-2"},/obj/structure/lattice,/turf/simulated/open,/area/tethys/maint/shaft)
 "bj" = (/obj/machinery/atmospherics/unary/vent_scrubber/on,/turf/simulated/floor/tiled/techfloor,/area/tethys/eva)
 "bs" = (/obj/machinery/atmospherics/unary/vent_pump/on,/turf/simulated/floor/tiled/techfloor,/area/tethys/sec)
 "cc" = (/obj/effect/wallframe_spawn/reinforced,/turf/simulated/floor/plating,/area/tethys/civilian/library)
+"ck" = (/turf/simulated/floor/reinforced/airless,/area/tethys/bridge)
 "cy" = (/turf/simulated/floor/reinforced/airless,/area/space/ocean)
 "cL" = (/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,/obj/machinery/atmospherics/pipe/simple/hidden/supply,/obj/structure/cable{icon_state = "1-2"},/obj/machinery/door/airlock/hatch/tethys/eng,/turf/simulated/floor/tiled/techfloor/grid,/area/tethys/maint/shaft)
 "cM" = (/turf/simulated/open,/area/tethys/maint/shaft)
 "db" = (/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{dir = 4},/obj/machinery/atmospherics/pipe/simple/hidden/supply{dir = 4},/obj/machinery/door/airlock/hatch/tethys/com,/obj/structure/cable{icon_state = "4-8"},/turf/simulated/floor/tiled/techfloor/grid,/area/tethys/sec)
+"dL" = (/obj/effect/floor_decal/techfloor{dir = 1},/obj/machinery/computer/ship/sensors{dir = 1},/turf/simulated/floor/tiled/techfloor/grid,/area/tethys/bridge)
 "dQ" = (/obj/structure/bed/chair/comfy/blue,/obj/machinery/light/small{dir = 1},/turf/simulated/floor/carpet/blue,/area/tethys/civilian/library)
+"ek" = (/obj/machinery/computer/shuttle_control/explore/tethys{dir = 4},/turf/simulated/floor/bluegrid,/area/tethys/pod)
 "eq" = (/obj/structure/closet/secure_closet{closet_appearance = /decl/closet_appearance/secure_closet/security; name = "equipment closet"; req_access = list(access_armory)},/obj/item/gun/energy/capacitor/rifle,/obj/item/gun/energy/capacitor/rifle,/obj/item/gun/energy/capacitor/rifle,/obj/item/gun/energy/capacitor/rifle,/turf/simulated/floor/tiled/techfloor/grid,/area/tethys/sec)
+"eW" = (/obj/machinery/alarm{id_tag = "tethys_pod_alarm"},/obj/structure/bed/chair/shuttle/white{dir = 8},/obj/effect/floor_decal/industrial/outline/orange,/turf/simulated/floor/tiled/white/monotile,/area/tethys/pod)
 "fz" = (/obj/machinery/door/airlock/external/glass,/obj/structure/catwalk,/turf/simulated/floor/plating,/area/tethys/eva)
 "fH" = (/obj/structure/ladder,/obj/structure/lattice,/turf/simulated/open,/area/tethys/engine/comms)
 "fZ" = (/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,/obj/machinery/atmospherics/pipe/simple/hidden/supply,/obj/structure/cable{icon_state = "1-2"},/obj/machinery/door/airlock/hatch/tethys/com,/turf/simulated/floor/tiled/techfloor/grid,/area/tethys/eva)
+"gb" = (/obj/machinery/computer/ship/engines{dir = 8},/obj/machinery/light{dir = 4},/turf/simulated/floor/bluegrid,/area/tethys/pod)
+"gw" = (/obj/effect/overmap/visitable/ship/landable/tethys_pod,/obj/structure/bed/chair/shuttle/white{dir = 4},/obj/effect/floor_decal/industrial/outline/orange,/turf/simulated/floor/tiled/white/monotile,/area/tethys/pod)
 "gy" = (/obj/machinery/atmospherics/unary/vent_pump/on,/turf/simulated/floor/tiled/dark,/area/tethys/hallway/tower)
 "gU" = (/obj/machinery/atmospherics/pipe/manifold/hidden/scrubbers,/obj/machinery/atmospherics/pipe/simple/hidden/supply{dir = 4},/obj/machinery/light/small,/obj/structure/cable{icon_state = "4-8"},/turf/simulated/floor/tiled/dark,/area/tethys/hallway/tower)
 "gX" = (/obj/machinery/computer/modular/preset/cardslot/command{dir = 1},/obj/effect/floor_decal/techfloor{dir = 1},/turf/simulated/floor/tiled/techfloor/grid,/area/tethys/bridge)
@@ -20,11 +27,16 @@
 "hQ" = (/obj/machinery/computer/modular/preset/aislot/sysadmin{dir = 1},/turf/simulated/floor/bluegrid,/area/tethys/engine/comms)
 "iy" = (/obj/structure/bookcase/skill_books/random,/turf/simulated/floor/wood/walnut,/area/tethys/civilian/library)
 "iG" = (/obj/machinery/alarm{dir = 4},/obj/machinery/atmospherics/unary/vent_scrubber/on{dir = 1},/turf/simulated/floor/tiled/dark/monotile,/area/tethys/hallway/tower)
+"iI" = (/obj/machinery/atmospherics/pipe/simple/visible{dir = 5},/obj/structure/cable{icon_state = "1-2"},/obj/machinery/button/access/interior{id_tag = "tethys_pod"; pixel_x = -24},/turf/simulated/floor/tiled/white,/area/tethys/pod)
 "iR" = (/obj/machinery/computer/modular/preset/engineering{dir = 4},/obj/effect/floor_decal/techfloor{dir = 4},/obj/machinery/light{dir = 8},/turf/simulated/floor/tiled/techfloor/grid,/area/tethys/bridge)
 "jb" = (/turf/simulated/open/flooded,/area/space/ocean)
+"jf" = (/obj/machinery/door/airlock/external/bolted{id_tag = "tethys_pod_door"},/obj/structure/cable{icon_state = "1-2"},/obj/machinery/button/access/exterior{id_tag = "tethys_pod"; pixel_x = -24; pixel_y = -10},/turf/simulated/floor/tiled/white/monotile,/area/tethys/pod)
 "jh" = (/turf/simulated/wall/r_wall/prepainted,/area/tethys/hallway/tower)
+"jt" = (/obj/structure/cable{icon_state = "1-2"},/obj/structure/catwalk,/obj/machinery/light/small{dir = 8},/turf/simulated/floor/plating,/area/tethys/eva)
 "jM" = (/obj/machinery/atmospherics/unary/vent_scrubber/on,/turf/simulated/floor/tiled/dark,/area/tethys/hallway/tower)
+"kb" = (/turf/simulated/wall/titanium,/area/tethys/pod)
 "kh" = (/obj/machinery/atmospherics/unary/vent_scrubber/on,/turf/simulated/floor/tiled/techfloor,/area/tethys/sec)
+"kA" = (/obj/machinery/atmospherics/unary/vent_pump/high_volume/external_air{dir = 8; id_tag = "tethys_pod_vent"},/obj/machinery/airlock_sensor{id_tag = "tethys_pod_sensor"; pixel_x = 24},/obj/structure/bed/chair/shuttle/white{dir = 8},/obj/effect/floor_decal/industrial/outline/orange,/turf/simulated/floor/tiled/white/monotile,/area/tethys/pod)
 "lb" = (/obj/machinery/atmospherics/pipe/simple/hidden/supply{dir = 5},/obj/structure/cable{icon_state = "1-4"},/obj/machinery/atmospherics/pipe/manifold/hidden/scrubbers{dir = 8},/turf/simulated/floor/tiled/dark,/area/tethys/hallway/tower)
 "lJ" = (/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{dir = 4},/obj/machinery/light,/obj/structure/cable{icon_state = "0-8"},/obj/machinery/power/apc,/turf/simulated/floor/tiled/techfloor,/area/tethys/sec)
 "lQ" = (/obj/structure/cable{icon_state = "0-2"},/obj/machinery/power/apc{dir = 4},/turf/simulated/floor/tiled/dark/monotile,/area/tethys/hallway/tower)
@@ -41,13 +53,14 @@
 "oL" = (/obj/structure/bookcase,/turf/simulated/floor/wood/walnut,/area/tethys/civilian/library)
 "py" = (/obj/machinery/atmospherics/unary/vent_pump/on,/turf/simulated/floor/tiled/techfloor,/area/tethys/eva)
 "pT" = (/obj/machinery/atmospherics/pipe/simple/hidden/supply{dir = 9},/obj/structure/cable{icon_state = "1-8"},/obj/machinery/atmospherics/pipe/manifold/hidden/scrubbers{dir = 4},/turf/simulated/floor/tiled/dark,/area/tethys/hallway/tower)
-"qd" = (/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{dir = 9},/obj/machinery/atmospherics/pipe/simple/hidden/supply{dir = 5},/obj/structure/cable{icon_state = "1-8"},/turf/simulated/floor/tiled/techfloor,/area/tethys/bridge)
+"qd" = (/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{dir = 9},/obj/machinery/atmospherics/pipe/simple/hidden/supply{dir = 5},/obj/structure/cable{icon_state = "1-8"},/obj/effect/overmap/visitable/ship/tethys,/turf/simulated/floor/tiled/techfloor,/area/tethys/bridge)
 "qm" = (/obj/effect/wallframe_spawn/reinforced,/turf/simulated/floor/plating,/area/tethys/bridge)
 "rz" = (/turf/simulated/floor/reinforced/airless,/area/tethys/civilian/library)
 "rE" = (/obj/effect/wallframe_spawn/reinforced,/turf/simulated/floor/plating,/area/tethys/hallway/tower)
 "rM" = (/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{dir = 4},/obj/machinery/atmospherics/pipe/simple/hidden/supply{dir = 4},/obj/structure/cable{icon_state = "4-8"},/turf/simulated/floor/tiled/techfloor,/area/tethys/eva)
 "sm" = (/obj/item/clothing/mask/gas/aquabreather,/obj/structure/table/rack,/obj/item/clothing/mask/gas/aquabreather,/obj/item/clothing/mask/gas/aquabreather,/obj/item/clothing/mask/gas/aquabreather,/obj/item/clothing/mask/gas/aquabreather,/obj/item/clothing/mask/gas/aquabreather,/obj/item/clothing/mask/gas/aquabreather,/obj/item/clothing/mask/gas/aquabreather,/obj/item/clothing/mask/gas/aquabreather,/turf/simulated/floor/tiled/techfloor/grid,/area/tethys/eva)
 "so" = (/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{dir = 4},/obj/machinery/atmospherics/pipe/simple/hidden/supply{dir = 4},/obj/structure/cable{icon_state = "4-8"},/obj/structure/cable{icon_state = "1-4"},/turf/simulated/floor/tiled/dark,/area/tethys/hallway/tower)
+"sM" = (/obj/machinery/atmospherics/portables_connector{dir = 8},/obj/machinery/portable_atmospherics/canister/air/airlock{start_pressure = 606},/turf/simulated/floor/tiled/white,/area/tethys/pod)
 "sV" = (/obj/structure/lattice,/obj/item/storage/toolbox/electrical,/obj/item/clothing/gloves/insulated,/turf/simulated/open,/area/tethys/science/testing)
 "sZ" = (/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{dir = 4},/obj/machinery/atmospherics/pipe/simple/hidden/supply{dir = 4},/obj/structure/cable{icon_state = "4-8"},/turf/simulated/floor/tiled/dark,/area/tethys/hallway/tower)
 "tb" = (/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,/obj/machinery/atmospherics/pipe/simple/hidden/supply,/obj/structure/cable{icon_state = "1-2"},/obj/machinery/door/airlock/hatch/tethys/com,/turf/simulated/floor/tiled/techfloor/grid,/area/tethys/bridge)
@@ -56,7 +69,9 @@
 "tD" = (/obj/machinery/alarm{dir = 8},/obj/machinery/atmospherics/unary/vent_scrubber/on{dir = 1},/turf/simulated/floor/tiled/dark/monotile,/area/tethys/hallway/tower)
 "uI" = (/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{dir = 4},/obj/machinery/atmospherics/pipe/simple/hidden/supply{dir = 4},/obj/structure/cable{icon_state = "4-8"},/obj/machinery/door/airlock/hatch/tethys/com,/turf/simulated/floor/tiled/techfloor/grid,/area/tethys/eva)
 "vc" = (/obj/structure/bed/chair/comfy/blue{dir = 1},/obj/structure/cable{icon_state = "0-4"},/obj/machinery/power/apc,/turf/simulated/floor/carpet/blue,/area/tethys/civilian/library)
+"vu" = (/obj/structure/cable{icon_state = "4-8"},/obj/machinery/door/airlock/external/glass,/turf/simulated/floor/tiled/techfloor/grid,/area/tethys/eva)
 "vD" = (/turf/simulated/floor/reinforced/airless,/area/tethys/science/testing)
+"vJ" = (/obj/machinery/dehumidifier,/turf/simulated/floor/plating,/area/tethys/maint/shaft)
 "vR" = (/obj/structure/closet/emcloset,/turf/simulated/floor/tiled/dark/monotile,/area/tethys/hallway/tower)
 "vX" = (/turf/simulated/open,/area/tethys/science/testing)
 "wc" = (/turf/simulated/open,/area/tethys/hallway/tower)
@@ -65,12 +80,14 @@
 "xH" = (/turf/simulated/open,/area/turbolift/tethys_tower)
 "xO" = (/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,/obj/machinery/atmospherics/pipe/simple/hidden/supply,/obj/structure/cable{icon_state = "1-2"},/obj/structure/cable{icon_state = "2-8"},/turf/simulated/floor/wood/walnut,/area/tethys/civilian/library)
 "xP" = (/turf/simulated/floor/reinforced/airless,/area/tethys/sec)
-"xW" = (/obj/structure/mattress,/turf/simulated/floor/bluegrid,/area/tethys/engine/comms)
+"xW" = (/obj/structure/mattress,/obj/machinery/alarm{dir = 8},/turf/simulated/floor/bluegrid,/area/tethys/engine/comms)
 "yu" = (/turf/simulated/floor/plating,/area/tethys/science/testing)
+"yv" = (/obj/machinery/computer/ship/helm{dir = 4},/obj/machinery/light{dir = 8},/turf/simulated/floor/bluegrid,/area/tethys/pod)
 "yw" = (/turf/simulated/floor/wood/walnut,/area/tethys/civilian/library)
 "yE" = (/obj/structure/bed/chair/comfy/blue,/obj/machinery/alarm,/turf/simulated/floor/carpet/blue,/area/tethys/civilian/library)
 "yQ" = (/obj/machinery/alarm,/turf/simulated/floor/tiled/dark/monotile,/area/tethys/hallway/tower)
 "yZ" = (/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,/obj/machinery/atmospherics/pipe/manifold/hidden/supply{dir = 4},/obj/structure/cable{icon_state = "1-2"},/turf/simulated/floor/wood/walnut,/area/tethys/civilian/library)
+"za" = (/obj/machinery/shipsensors/weak,/obj/machinery/atmospherics/unary/vent_pump/high_volume/external_air{dir = 4; id_tag = "tethys_pod_vent_external"},/turf/simulated/floor/reinforced/airless,/area/tethys/pod)
 "zv" = (/turf/simulated/wall/r_wall/prepainted,/area/tethys/engine/comms)
 "Ai" = (/obj/machinery/atmospherics/unary/vent_pump/on{dir = 8},/obj/machinery/alarm,/obj/structure/bed/chair/office/comfy/blue{dir = 4},/turf/simulated/floor/tiled/techfloor,/area/tethys/bridge)
 "BO" = (/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,/obj/machinery/atmospherics/pipe/simple/hidden/supply,/obj/structure/cable{icon_state = "1-2"},/turf/simulated/floor/wood/walnut,/area/tethys/civilian/library)
@@ -79,21 +96,28 @@
 "CL" = (/obj/machinery/atmospherics/unary/vent_scrubber/on{dir = 4},/obj/structure/cable{icon_state = "0-4"},/obj/machinery/power/apc{dir = 1},/obj/structure/bed/chair/office/comfy/blue{dir = 8},/turf/simulated/floor/tiled/techfloor,/area/tethys/bridge)
 "CS" = (/obj/structure/lattice,/obj/machinery/power/port_gen/pacman,/turf/simulated/open,/area/tethys/science/testing)
 "De" = (/obj/effect/wallframe_spawn/reinforced,/turf/simulated/floor/plating,/area/tethys/engine/comms)
-"DC" = (/obj/structure/closet/crate,/turf/simulated/floor/tiled/techfloor/grid,/area/tethys/eva)
+"DC" = (/obj/structure/cable{icon_state = "4-8"},/turf/simulated/floor/tiled/techfloor/grid,/area/tethys/eva)
 "DH" = (/obj/structure/table/standard,/obj/item/paper_bin,/obj/item/pen,/obj/random/snack,/turf/simulated/floor/bluegrid,/area/tethys/engine/comms)
 "DS" = (/turf/simulated/floor/reinforced/airless,/area/tethys/maint/shaft)
+"Eb" = (/obj/machinery/atmospherics/unary/vent_pump/high_volume/external_air{dir = 8; id_tag = "tethys_pod_vent"},/obj/structure/cable{icon_state = "0-8"},/obj/machinery/power/port_gen/pacman,/obj/effect/floor_decal/industrial/outline/orange,/turf/simulated/floor/tiled/white/monotile,/area/tethys/pod)
 "En" = (/obj/machinery/atmospherics/pipe/simple/hidden/supply{dir = 10},/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{dir = 10},/obj/structure/lattice,/turf/simulated/open,/area/tethys/maint/shaft)
+"Ew" = (/obj/structure/reagent_dispensers/fueltank,/turf/simulated/floor/plating,/area/tethys/maint/shaft)
+"ET" = (/obj/machinery/portable_atmospherics/powered/scrubber,/turf/simulated/floor/plating,/area/tethys/maint/shaft)
 "FH" = (/turf/simulated/floor/plating,/area/tethys/maint/shaft)
+"Gb" = (/obj/machinery/embedded_controller/radio/airlock/tin_can{id_tag = "tethys_pod"; pixel_y = -32; tag_air_alarm = "tethys_pod_alarm"; tag_airpump = "tethys_pod_vent"; tag_chamber_sensor = "tethys_pod_sensor"; tag_exterior_door = "tethys_pod_door"},/obj/machinery/atmospherics/unary/vent_pump/high_volume/external_air{dir = 8; id_tag = "tethys_pod_vent"},/obj/machinery/portable_atmospherics/powered/scrubber,/obj/effect/floor_decal/industrial/outline/orange,/turf/simulated/floor/tiled/white/monotile,/area/tethys/pod)
 "Gv" = (/obj/machinery/door/window/brigdoor/southright,/obj/structure/window/reinforced{dir = 8},/obj/machinery/merchant_pad,/turf/simulated/floor/tiled/techfloor/grid,/area/tethys/eva)
+"Gz" = (/obj/machinery/atmospherics/pipe/manifold/visible{dir = 8},/obj/machinery/atmospherics/unary/vent_pump/high_volume/external_air{dir = 8; id_tag = "tethys_pod_vent_internal"},/obj/structure/cable{icon_state = "1-2"},/obj/structure/cable{icon_state = "1-4"},/obj/machinery/light{dir = 8},/turf/simulated/floor/tiled/white,/area/tethys/pod)
 "GA" = (/turf/simulated/wall/r_wall/prepainted,/area/tethys/civilian/library)
 "GM" = (/obj/effect/wallframe_spawn/reinforced,/turf/simulated/floor/plating,/area/tethys/sec)
-"GZ" = (/obj/machinery/alarm{dir = 4},/obj/machinery/commsrelay,/turf/simulated/floor/bluegrid,/area/tethys/engine/comms)
+"GZ" = (/obj/machinery/commsrelay,/turf/simulated/floor/bluegrid,/area/tethys/engine/comms)
 "Hz" = (/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,/obj/machinery/atmospherics/pipe/simple/hidden/supply,/obj/structure/cable{icon_state = "1-2"},/obj/machinery/door/airlock/hatch/tethys,/turf/simulated/floor/tiled/techfloor/grid,/area/tethys/civilian/library)
 "HY" = (/obj/structure/catwalk,/turf/simulated/floor/plating,/area/tethys/eva)
+"Is" = (/obj/machinery/atmospherics/pipe/simple/visible{dir = 6},/obj/structure/cable{icon_state = "0-2"},/obj/machinery/power/apc/super/critical{dir = 8},/turf/simulated/floor/tiled/white,/area/tethys/pod)
 "It" = (/obj/machinery/light{dir = 4},/obj/machinery/recharger,/obj/structure/table/standard,/turf/simulated/floor/tiled/techfloor/grid,/area/tethys/eva)
 "Iw" = (/obj/structure/cable{icon_state = "1-2"},/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,/obj/machinery/atmospherics/pipe/simple/hidden/supply,/turf/simulated/floor/plating,/area/tethys/maint/shaft)
-"IA" = (/obj/machinery/alarm,/obj/structure/closet/crate,/turf/simulated/floor/tiled/techfloor/grid,/area/tethys/eva)
+"IA" = (/obj/machinery/alarm,/obj/item/stack/material/deuterium/fifty,/obj/item/stack/material/deuterium/fifty,/obj/structure/closet/crate,/turf/simulated/floor/tiled/techfloor/grid,/area/tethys/eva)
 "IL" = (/obj/machinery/atmospherics/pipe/manifold/hidden/scrubbers,/obj/machinery/atmospherics/pipe/manifold/hidden/supply,/obj/structure/cable{icon_state = "4-8"},/obj/structure/cable{icon_state = "1-8"},/turf/simulated/floor/tiled/techfloor,/area/tethys/eva)
+"IN" = (/obj/structure/cable{icon_state = "1-2"},/obj/machinery/door/airlock/external/glass,/turf/simulated/floor/tiled/techfloor/grid,/area/tethys/eva)
 "IS" = (/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{dir = 9},/turf/simulated/floor/tiled/techfloor,/area/tethys/sec)
 "IT" = (/obj/structure/lattice,/obj/structure/cable{icon_state = "1-2"},/turf/simulated/open,/area/tethys/science/testing)
 "Jp" = (/obj/machinery/atmospherics/unary/vent_scrubber/on,/obj/machinery/atmospherics/pipe/simple/hidden/supply,/obj/structure/cable{icon_state = "2-4"},/turf/simulated/floor/tiled/techfloor,/area/tethys/eva)
@@ -102,8 +126,11 @@
 "Kp" = (/obj/machinery/light{dir = 4},/obj/machinery/atmospherics/unary/vent_pump/on{dir = 1},/turf/simulated/floor/tiled/dark/monotile,/area/tethys/hallway/tower)
 "Kr" = (/turf/simulated/wall/r_wall/prepainted,/area/tethys/sec)
 "Kz" = (/obj/structure/bed/chair/comfy/blue{dir = 1},/obj/machinery/light/small,/turf/simulated/floor/carpet/blue,/area/tethys/civilian/library)
+"KX" = (/obj/structure/cable{icon_state = "1-4"},/obj/structure/catwalk,/turf/simulated/floor/plating,/area/tethys/eva)
 "LF" = (/turf/simulated/wall/r_wall/prepainted,/area/tethys/eva)
 "Mg" = (/obj/structure/cable,/obj/machinery/power/shield_generator,/turf/simulated/floor/plating,/area/tethys/science/testing)
+"Mv" = (/obj/machinery/shipsensors,/turf/simulated/floor/reinforced/airless,/area/tethys/bridge)
+"MN" = (/obj/machinery/computer/ship/sensors{dir = 8},/turf/simulated/floor/bluegrid,/area/tethys/pod)
 "MX" = (/obj/machinery/atmospherics/unary/vent_pump/on{dir = 4},/obj/structure/table/standard,/obj/machinery/recharger,/turf/simulated/floor/carpet/blue,/area/tethys/civilian/library)
 "Ne" = (/obj/structure/hygiene/drain,/obj/machinery/dehumidifier,/turf/simulated/floor/tiled/techfloor/grid,/area/tethys/eva)
 "Ny" = (/obj/structure/table/standard,/turf/simulated/floor/carpet/blue,/area/tethys/civilian/library)
@@ -121,8 +148,11 @@
 "Tv" = (/obj/machinery/fabricator/book,/obj/structure/table/standard,/obj/item/stack/material/wood/ten,/obj/item/stack/material/plastic/ten,/turf/simulated/floor/wood/walnut,/area/tethys/civilian/library)
 "TK" = (/turf/simulated/floor/reinforced/airless,/area/tethys/eva)
 "TX" = (/obj/machinery/atmospherics/pipe/manifold/hidden/scrubbers{dir = 4},/obj/machinery/atmospherics/pipe/simple/hidden/supply,/obj/structure/cable{icon_state = "1-2"},/turf/simulated/floor/wood/walnut,/area/tethys/civilian/library)
+"Uh" = (/obj/machinery/atmospherics/pipe/manifold/visible{dir = 8},/obj/structure/cable{icon_state = "1-2"},/turf/simulated/floor/tiled/white,/area/tethys/pod)
 "UT" = (/turf/simulated/floor/tiled/dark,/area/tethys/hallway/tower)
+"Vm" = (/obj/structure/lattice,/obj/machinery/light/small{dir = 1},/turf/simulated/open,/area/tethys/engine/comms)
 "Vr" = (/obj/machinery/atmospherics/pipe/simple/hidden/supply,/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,/obj/structure/cable{icon_state = "2-8"},/turf/simulated/floor/plating,/area/tethys/maint/shaft)
+"Vt" = (/obj/machinery/ion_thruster{dir = 8},/turf/simulated/floor/reinforced/airless,/area/tethys/pod)
 "VB" = (/obj/structure/lattice,/obj/structure/railing/mapped,/turf/simulated/open,/area/tethys/maint/shaft)
 "Wm" = (/turf/simulated/floor/reinforced/airless,/area/tethys/hallway/tower)
 "WV" = (/obj/machinery/fabricator/tethys{fab_status_flags = 1},/turf/simulated/floor/tiled/techfloor/grid,/area/tethys/sec)
@@ -131,7 +161,7 @@
 "Zc" = (/obj/structure/closet/secure_closet{closet_appearance = /decl/closet_appearance/secure_closet/security; name = "equipment closet"; req_access = list(access_armory)},/obj/item/gun/projectile/automatic/smg,/obj/item/gun/projectile/automatic/smg,/obj/item/gun/projectile/automatic/smg,/obj/item/gun/projectile/automatic/smg,/obj/item/gun/projectile/revolver/lasvolver,/obj/item/gun/projectile/revolver/lasvolver,/obj/item/gun/projectile/revolver/lasvolver,/obj/item/gun/projectile/revolver/lasvolver,/turf/simulated/floor/tiled/techfloor/grid,/area/tethys/sec)
 "Zx" = (/obj/structure/lattice,/turf/simulated/open,/area/tethys/science/testing)
 "ZD" = (/obj/effect/wallframe_spawn/reinforced,/turf/simulated/floor/plating,/area/tethys/eva)
-"ZI" = (/obj/machinery/atmospherics/pipe/manifold/hidden/scrubbers{dir = 8},/obj/machinery/atmospherics/pipe/simple/hidden/supply{dir = 6},/obj/structure/cable{icon_state = "2-4"},/turf/simulated/floor/tiled/techfloor,/area/tethys/eva)
+"ZI" = (/obj/machinery/atmospherics/pipe/manifold/hidden/scrubbers{dir = 8},/obj/machinery/atmospherics/pipe/simple/hidden/supply{dir = 6},/obj/structure/cable{icon_state = "2-4"},/obj/structure/cable{icon_state = "2-8"},/obj/structure/cable{icon_state = "4-8"},/turf/simulated/floor/tiled/techfloor,/area/tethys/eva)
 "ZY" = (/obj/effect/landmark/map_data{height = 3},/turf/simulated/open/flooded,/area/space/ocean)
 
 (1,1,1) = {"
@@ -163,29 +193,29 @@ jbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjb
 jbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjb
 jbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjb
 jbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjb
-jbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjb
-jbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjb
-jbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbcyjbjbjbcyjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjb
-jbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbcycycycycyjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjb
-jbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbLFLFfzLFLFjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbvDvDvDvDvDvDvDndndndndndndndjbjbjbjbjb
-jbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbLFCIHYwmLFjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbvDvDvDvDvDvDvDndvXvXPevXvXndjbjbjbjbjb
-jbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbLFTKTKLFNeHYNeKrxPxPKrjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbvDvDvDvDvDvDvDndvXZxITvXvXndjbjbjbjbjb
-jbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbLFZDZDLFLFfzLFKrGMGMKrjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbndvXZxMgCbyundjbjbjbjbjb
-jbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbTKLFLFLFPYGvLFmvpyItKreqZcKrKrKrxPjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbndvXZxyuyuttndjbjbjbjbjb
-jbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbTKZDIAbjNFpyLFsmJpnUKrbsNDkhKeGMxPjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbndvXZxQAsVCSndjbjbjbjbjb
-jbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbTKTKZDDCZImjTquIrMILrMdbaClJISWVGMxPxPjbjbjbjbjbjbjbjbjbjbjbjbjbjbzvzvzvzvzvjbndndndndndndndjbjbjbjbjb
-jbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbTKLFLFLFfZLFLFLFLFLFLFnJnJnJnJnJnJnJDSjbjbjbjbjbjbjbjbjbjbjbjbjbjbzvhCnYOFzvjbjbjbjbjbjbjbjbjbjbjbjbjb
-jbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbrzccdQyEBOoLGAxHxHxHxHxHnJcMmAFHFHnJDSjbjbjbjbjbjbjbjbjbjbjbjbjbjbzvGZfHxWzvjbjbjbjbjbjbjbjbjbjbjbjbjb
+jbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbkbkbkbkbkbkbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjb
+jbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbkbyveWgbkbVtjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjb
+jbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbkbekgwMNkbVtjbjbcyjbjbjbcyjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjb
+jbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbkbkbIssMkbVtjbjbcycycycycyjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjb
+jbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbzaasGzEbkbVtjbjbLFLFfzLFLFjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbvDvDvDvDvDvDvDndndndndndndndjbjbjbjbjb
+jbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbkbUhkAkbkbjbjbLFCIHYwmLFjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbvDvDvDvDvDvDvDndvXvXPevXvXndjbjbjbjbjb
+jbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbkbiIGbkbLFTKTKLFNeHYNeKrxPxPKrjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbvDvDvDvDvDvDvDndvXZxITvXvXndjbjbjbjbjb
+jbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbkbjfkbkbLFZDZDLFLFfzLFKrGMGMKrjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbndvXZxMgCbyundjbjbjbjbjb
+jbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbLFINLFLFLFPYGvLFmvpyItKreqZcKrKrKrxPjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbndvXZxyuyuttndjbjbjbjbjb
+jbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbLFjtLFIAbjNFpyLFsmJpnUKrbsNDkhKeGMxPjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbndvXZxQAsVCSndjbjbjbjbjb
+jbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbLFKXvuDCZImjTquIrMILrMdbaClJISWVGMxPxPjbjbjbjbjbjbjbjbjbjbjbjbjbjbzvzvzvzvzvjbndndndndndndndjbjbjbjbjb
+jbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbLFLFLFLFfZLFLFLFLFLFLFnJnJnJnJnJnJnJDSjbjbjbjbjbjbjbjbjbjbjbjbjbjbzvhCVmOFzvjbjbjbjbjbjbjbjbjbjbjbjbjb
+jbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbrzccdQyEBOoLGAxHxHxHxHxHnJcMmAvJvJnJDSjbjbjbjbjbjbjbjbjbjbjbjbjbjbzvGZfHxWzvjbjbjbjbjbjbjbjbjbjbjbjbjb
 jbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbrzccNySLTXoLGAxHxHxHxHxHnJXSEnVBVBnJDSjbjbjbjbjbjbjbjbjbjbjbjbjbjbzvDHnYhQzvjbjbjbjbjbjbjbjbjbjbjbjbjb
 jbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbrzccywywBOoLGAxHxHxHxHxHnJaKnxcMcMnJDSjbjbjbjbjbjbjbjbjbjbjbjbjbjbzvDeDeDezvjbjbjbjbjbjbjbjbjbjbjbjbjb
-jbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbrzccNyMXyZTvGAxHxHxHxHxHnJtfVrFHFHnJDSjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjb
-jbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbrzccKzvcxOiyGAjhwcwcwcjhnJFHIwFHFHnJDSjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjb
+jbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbrzccNyMXyZTvGAxHxHxHxHxHnJtfVrFHETnJDSjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjb
+jbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbrzccKzvcxOiyGAjhwcwcwcjhnJEwIwFHETnJDSjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjb
 jbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbrzGAGAGAHzGAGAyQjMUTgylQnJnJcLnJnJnJDSjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjb
 jbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbWmWmrEvRlbwRRNsZgUNCJUsoRNwRpTYrrEWmWmjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjb
 jbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbWmjhjhiGKpmgmgmgtbmgmgmgmWtDjhjhWmjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjb
 jbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjhjhvRmgiRCLqdAiOrmgvRjhjhjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjb
-jbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjhrEmgmggXgXgXmgmgrEjhjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjb
-jbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbmgqmqmqmmgjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjb
+jbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjhrEmgmggXdLgXmgmgrEjhjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjb
+jbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbMvckmgqmqmqmmgckckjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjb
 jbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbauauaujbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjb
 jbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbauauaujbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjb
 jbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbauauaujbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjb

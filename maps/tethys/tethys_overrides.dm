@@ -1,21 +1,3 @@
-//Visual
-
-/obj/item/light/tube
-	b_max_bright  = 0.9
-	b_colour      = "#38ff9f"
-	broken_chance = 0
-
-/obj/item/light/bulb
-	b_max_bright  = 0.6
-	b_colour      = "#78f591"
-	broken_chance = 0
-
-//floors fix
-
-/turf/simulated/floor/Initialize()
-	. = ..()
-	set_light()
-
 //merch prog
 
 /datum/computer_file/program/merchant
@@ -26,7 +8,7 @@
 /obj/machinery/power/port_gen/pacman/super/potato
 	desc           = "PTTO-3, an industrial all-in-one nuclear power plant by Neo-Chernobyl GmbH. Uses uranium as a fuel source."
 	power_gen      = 250 KILOWATTS
-	time_per_sheet = 3600
+	time_per_sheet = 7200
 
 /obj/machinery/power/smes/buildable/tethys
 	uncreated_component_parts = list(/obj/item/stock_parts/smes_coil/super_capacity = 4)
@@ -42,6 +24,13 @@
 	var/area/A = get_area(src)
 	SetName("hatch ([A.name])")
 
+/obj/effect/wallframe_spawn/activate()
+	. = ..()
+	var/obj/machinery/door/firedoor/fire
+	if(!(locate(fire)  in loc)) fire  = new(loc)
+
+//depts
+
 /obj/machinery/door/airlock/hatch/tethys/eng
 	stripe_color = COLOR_WARM_YELLOW
 
@@ -54,12 +43,7 @@
 /obj/machinery/door/airlock/hatch/tethys/sci
 	stripe_color = COLOR_RESEARCH
 
-/obj/effect/wallframe_spawn/activate()
-	. = ..()
-	var/obj/machinery/door/firedoor/fire
-	if(!(locate(fire)  in loc)) fire  = new(loc)
-
-//prefilled fabs
+//prefilled lathe
 
 /obj/machinery/fabricator/tethys/Initialize()
 	. = ..()

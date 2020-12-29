@@ -15,7 +15,7 @@
 "et" = (/obj/structure/ladder,/obj/structure/cable{icon_state = "32-4"},/turf/simulated/open,/area/tethys/science/testing)
 "eE" = (/obj/machinery/design_database,/turf/simulated/floor/bluegrid,/area/tethys/engine/comms)
 "eS" = (/obj/machinery/vending/cola,/turf/simulated/floor/tiled/dark/monotile,/area/tethys/hallway/upper)
-"fa" = (/obj/structure/closet/secure_closet/freezer/kitchen,/turf/simulated/floor/tiled/freezer,/area/tethys/civilian/lounge)
+"fa" = (/obj/structure/closet/secure_closet/freezer/kitchen{req_access = list()},/turf/simulated/floor/tiled/freezer,/area/tethys/civilian/lounge)
 "fd" = (/turf/simulated/open,/area/turbolift/tethys_surface)
 "fE" = (/obj/effect/floor_decal/corner/blue{dir = 9},/obj/structure/hygiene/drain,/turf/simulated/floor/tiled/dark,/area/tethys/hallway/upper)
 "fO" = (/turf/simulated/open,/area/tethys/hallway/upper)
@@ -23,6 +23,7 @@
 "gr" = (/obj/effect/floor_decal/spline/fancy/wood{dir = 1},/obj/machinery/atmospherics/pipe/simple/hidden/supply{dir = 6},/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{dir = 10},/obj/structure/cable{icon_state = "2-4"},/turf/simulated/floor/lino,/area/tethys/civilian/lounge)
 "gt" = (/obj/structure/reagent_dispensers/watertank,/turf/simulated/floor/plating,/area/tethys/maint/shaft)
 "gH" = (/obj/structure/cable{icon_state = "4-8"},/obj/machinery/door/airlock/hatch/tethys/sci,/turf/simulated/floor/tiled/techfloor/grid,/area/tethys/science/testing)
+"hB" = (/obj/structure/railing/mapped{dir = 4},/obj/machinery/space_heater,/obj/machinery/light/small{dir = 8},/turf/simulated/floor/bluegrid,/area/tethys/engine/comms)
 "iH" = (/obj/effect/floor_decal/spline/fancy/wood/corner,/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{dir = 6},/turf/simulated/floor/lino,/area/tethys/civilian/lounge)
 "iX" = (/turf/simulated/wall/r_wall/prepainted,/area/tethys/hallway/upper)
 "ki" = (/obj/structure/cable{icon_state = "0-2"},/obj/machinery/power/apc{dir = 1},/turf/simulated/floor/plating,/area/tethys/maint/shaft)
@@ -167,7 +168,7 @@ bKbKbKbKbKbKbKbKbKbKbKbKbKbKbKbKbKbKbKbKbKbKbKbKbKbKbKbKbKbKbKypypUvfPmpIUXSpvDT
 bKbKbKbKbKbKbKbKbKbKbKbKbKbKbKbKbKbKbKbKbKbKbKbKbKbKbKbKbKbKbKypalalLLqLFZlGfanHBMoSXcvSbKbKbKbKbKbKbKbKbKbKbKbKbKbKbKbKbKbKbKbKbKbKbKbKQemREyEymUEyQebKbKbKbKbK
 bKbKbKbKbKbKbKbKbKbKbKbKbKbKbKbKbKbKbKbKbKbKbKbKbKbKbKbKbKypypypalalccGtGtyiGtGtyRaTaTaTaTaTaTaTbKbKbKbKbKbKbKbKbKbKbKbKbKbKbUbUbUbUbUbKQeQeQeQeQeQeQebKbKbKbKbK
 bKbKbKbKbKbKbKbKbKbKbKbKbKbKbKbKbKbKbKbKbKbKbKbKbKbKbKbKbKvSiHqCHCHCQYypypypypypypaTdFkiAALpgtaTbKbKbKbKbKbKbKbKbKbKbKbKbKbKbUtpLCeEbUbKbKbKbKbKbKbKbKbKbKbKbKbK
-bKbKbKbKbKbKbKbKbKbKbKbKbKbKbKbKbKbKbKbKbKbKbKbKbKbKbKbKbKvSWNngVvPOFuypfdfdfdfdfdaTFNciXuXuSTaTbKbKbKbKbKbKbKbKbKbKbKbKbKbKbUSRnxeEbUbKbKbKbKbKbKbKbKbKbKbKbKbK
+bKbKbKbKbKbKbKbKbKbKbKbKbKbKbKbKbKbKbKbKbKbKbKbKbKbKbKbKbKvSWNngVvPOFuypfdfdfdfdfdaTFNciXuXuSTaTbKbKbKbKbKbKbKbKbKbKbKbKbKbKbUhBnxeEbUbKbKbKbKbKbKbKbKbKbKbKbKbK
 bKbKbKbKbKbKbKbKbKbKbKbKbKbKbKbKbKbKbKbKbKbKbKbKbKbKbKbKbKvSGMaIVvNInlypfdfdfdfdfdaTpaPxkHkHkHaTbKbKbKbKbKbKbKbKbKbKbKbKbKbKbUSRLCeEbUbKbKbKbKbKbKbKbKbKbKbKbKbK
 bKbKbKbKbKbKbKbKbKbKbKbKbKbKbKbKbKbKbKbKbKbKbKbKbKbKbKbKbKvSGMaIVvNInlypfdfdfdfdfdaTTGyNkHkHkHaTbKbKbKbKbKbKbKbKbKbKbKbKbKbKbUbUbUbUbUbKbKbKbKbKbKbKbKbKbKbKbKbK
 bKbKbKbKbKbKbKbKbKbKbKbKbKbKbKbKbKbKbKbKbKbKbKbKbKbKbKbKbKvSWNngVvPOrCypfdfdfdfdfdaTkHbrkHkHkHaTbKbKbKbKbKbKbKbKbKbKbKbKbKbKbKbKbKbKbKbKbKbKbKbKbKbKbKbKbKbKbKbK
