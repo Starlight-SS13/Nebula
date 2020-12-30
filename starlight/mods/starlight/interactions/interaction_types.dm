@@ -8,7 +8,7 @@
 	name = "Pat their head"
 	id = "headpat"
 	user_flags = INT_HAN | INT_CONS | INT_CUFF
-	sounds = list('starlight/sound/voice/interaction/hug.ogg')
+	sounds = list('starlight/mods/starlight/interactions/sound/hug.ogg')
 
 /datum/interaction/headpat/get_message(var/mob/living/carbon/human/H, var/mob/living/carbon/human/P)
 	return "[B(H)] headpats [B(P)]"
@@ -17,7 +17,7 @@
 	name = "Slap their ass"
 	id = "slap"
 	user_flags = INT_HAN | INT_CONS | INT_CUFF
-	sounds = list('starlight/sound/voice/interaction/slap.ogg')
+	sounds = list('starlight/mods/starlight/interactions/sound/slap.ogg')
 	color = "red"
 
 /datum/interaction/slap/get_message(var/mob/living/carbon/human/H, var/mob/living/carbon/human/P)
@@ -39,17 +39,16 @@
 /datum/interaction/sex
 	user_flags = INT_HAN | INT_CONS | INT_CUFF | INT_PEN //Hands, not dead, not restrained, male
 	color = "purple"
-	sounds = list('starlight/sound/voice/interaction/bang1.ogg',
-					'starlight/sound/voice/interaction/bang2.ogg',
-					'starlight/sound/voice/interaction/bang3.ogg')
+	sounds = list('starlight/mods/starlight/interactions/sound/bang1.ogg',
+					'starlight/mods/starlight/interactions/sound/bang2.ogg',
+					'starlight/mods/starlight/interactions/sound/bang3.ogg')
 	bold_prob = 5
-
 	var/hole
 
 //Misc.
 
 /mob/living/carbon/human
-	var/lust = 0
+	var/lust     = 0
 	var/max_lust = 180
 
 	var/last_moan //Number of sound (moan)
@@ -60,21 +59,25 @@
 
 /mob/living/carbon/human/examine(mob/user, distance)
 	. = ..()
-	if(underfluffies_access() && gender == MALE)
-		to_chat(user,SPAN_BOLD("They have an exposed penis."))
+	if(!underfluffies_access()) return
+	switch(gender)
+		if(MALE)
+			to_chat(user,SPAN_BOLD("They have an exposed penis.[ lust > 5 ? " It is erect." : ""]"))
+		if(FEMALE)
+			to_chat(user,SPAN_BOLD("They have an exposed vagina.[lust > 5 ? " It is wet."   : ""]"))
 
-/datum/species
+/decl/species
 	genders = list(MALE, FEMALE)
 
-/datum/species/utility_frame
-	genders = list(MALE, FEMALE)
+/decl/species/utility_frame
+	genders = list(MALE, FEMALE) //sexrobot goes brrrrrrrrrrrrrrr
 
 //Ewwww
 
 /obj/effect/decal/cleanable/cum
 	name = "cum"
 	desc = "It's pie cream from a cream pie. Or not..."
-	icon = 'starlight/icons/effects.dmi'
+	icon = 'starlight/mods/starlight/interactions/icons/cum.dmi'
 	random_icon_states = list("cum1", "cum3", "cum4", "cum5", "cum6", "cum7", "cum8", "cum9", "cum10", "cum11", "cum12")
 
 /datum/interaction/sex/proc/cum(var/mob/living/carbon/human/H, var/mob/living/carbon/human/P,var/flag)
@@ -111,7 +114,7 @@
 	H.lust = 0
 	H.adjust_drugged(5, 5)
 	H.visible_message("<span style='color: [color]'>[B("[H] [message].")]</span>")
-	if(H.species.name != SPECIES_FRAME) playsound(get_turf(H), "starlight/sound/voice/interaction/final_[H.gender == MALE ? "m" : "f"][H.gender == MALE ? rand(1,5) : rand(1,3)].ogg", 40 + (H.gender == FEMALE ? 40 : 0), 1, frequency = H.get_age_pitch())
+	if(H.species.name != SPECIES_FRAME) playsound(get_turf(H), "starlight/mods/starlight/interactions/sound/final_[H.gender == MALE ? "m" : "f"][H.gender == MALE ? rand(1,5) : rand(1,3)].ogg", 40 + (H.gender == FEMALE ? 40 : 0), 1, frequency = H.get_age_pitch())
 	else playsound(get_turf(H),'sound/effects/turret/open.wav',70,1,-1)
 
 /datum/interaction/sex/proc/moan(var/mob/living/carbon/human/H)
@@ -124,8 +127,8 @@
 		var/gend_sound = H.gender == FEMALE ? "f" : "m"
 		var/moan_sound = rand(1, 7)
 		if(moan_sound == H.last_moan && moan_sound != 1) moan_sound--
-		if(!istype(H.loc, /obj/structure/closet)) playsound(get_turf(H), "starlight/sound/voice/interaction/moan_[gend_sound][moan_sound].ogg", 70, 1, frequency = H.get_age_pitch())
-		else if (gend_sound == "f") playsound(get_turf(H), "starlight/sound/voice/interaction/under_moan_f[rand(1, 4)].ogg", 70, 1, frequency = H.get_age_pitch())
+		if(!istype(H.loc, /obj/structure/closet)) playsound(get_turf(H), "starlight/mods/starlight/interactions/sound/moan_[gend_sound][moan_sound].ogg", 70, 1, frequency = H.get_age_pitch())
+		else if (gend_sound == "f") playsound(get_turf(H), "starlight/mods/starlight/interactions/sound/under_moan_f[rand(1, 4)].ogg", 70, 1, frequency = H.get_age_pitch())
 		H.last_moan = moan_sound
 
 	if(H.species.name == SPECIES_FRAME  && prob(H.lust / H.max_lust * 35))
@@ -172,9 +175,9 @@
 	id = "vaginal"
 	partner_flags = INT_VAG
 	hole = INT_VAG
-	sounds = list("starlight/sound/voice/interaction/bang4.ogg",
-					"starlight/sound/voice/interaction/bang5.ogg",
-					"starlight/sound/voice/interaction/bang6.ogg")
+	sounds = list("starlight/mods/starlight/interactions/sound/bang4.ogg",
+					"starlight/mods/starlight/interactions/sound/bang5.ogg",
+					"starlight/mods/starlight/interactions/sound/bang6.ogg")
 
 /datum/interaction/sex/vaginal/get_message(var/mob/living/carbon/human/H, var/mob/living/carbon/human/P)
 	var/PN = B(P)
@@ -213,7 +216,7 @@
 	id = "oral"
 	partner_flags = INT_MOU
 	hole = INT_MOU
-	sounds = list("starlight/sound/voice/interaction/oral1.ogg","starlight/sound/voice/interaction/oral2.ogg")
+	sounds = list("starlight/mods/starlight/interactions/sound/oral1.ogg","starlight/mods/starlight/interactions/sound/oral2.ogg")
 
 /datum/interaction/sex/oral/get_message(var/mob/living/carbon/human/H, var/mob/living/carbon/human/P)
 	var/PN = B(P)
@@ -237,17 +240,17 @@
 	id = "blowjob"
 	user_flags = INT_HAN | INT_CONS | INT_CUFF | INT_MOU //Hands, not dead, not restrained, mouth
 	partner_flags = INT_PEN
-	sounds = list('starlight/sound/voice/interaction/bj1.ogg',
-				'starlight/sound/voice/interaction/bj2.ogg',
-				'starlight/sound/voice/interaction/bj3.ogg',
-				'starlight/sound/voice/interaction/bj4.ogg',
-				'starlight/sound/voice/interaction/bj5.ogg',
-				'starlight/sound/voice/interaction/bj6.ogg',
-				'starlight/sound/voice/interaction/bj7.ogg',
-				'starlight/sound/voice/interaction/bj8.ogg',
-				'starlight/sound/voice/interaction/bj9.ogg',
-				'starlight/sound/voice/interaction/bj10.ogg',
-				'starlight/sound/voice/interaction/bj11.ogg')
+	sounds = list('starlight/mods/starlight/interactions/sound/bj1.ogg',
+				'starlight/mods/starlight/interactions/sound/bj2.ogg',
+				'starlight/mods/starlight/interactions/sound/bj3.ogg',
+				'starlight/mods/starlight/interactions/sound/bj4.ogg',
+				'starlight/mods/starlight/interactions/sound/bj5.ogg',
+				'starlight/mods/starlight/interactions/sound/bj6.ogg',
+				'starlight/mods/starlight/interactions/sound/bj7.ogg',
+				'starlight/mods/starlight/interactions/sound/bj8.ogg',
+				'starlight/mods/starlight/interactions/sound/bj9.ogg',
+				'starlight/mods/starlight/interactions/sound/bj10.ogg',
+				'starlight/mods/starlight/interactions/sound/bj11.ogg')
 
 /datum/interaction/sex/oral/blowjob/get_message(var/mob/living/carbon/human/H, var/mob/living/carbon/human/P)
 	var/PN = B(P)
