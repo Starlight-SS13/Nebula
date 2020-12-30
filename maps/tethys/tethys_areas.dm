@@ -10,8 +10,9 @@
 	floor_type = /turf/exterior/seafloor
 	strata     = /decl/strata/permafrost
 
-/turf/exterior/seafloor
-	blocks_air = 1
+/turf/c_airblock(turf/other)
+	if(get_fluid_depth() >= FLUID_OVER_MOB_HEAD) return BLOCKED
+	. = ..()
 
 /area/space/ocean
 	name        = "open ocean"

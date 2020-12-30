@@ -1,7 +1,8 @@
 /datum/map/tethys
-	use_overmap    = 1
-	num_exoplanets = 8
-	planet_size    = list(30,30) //for diversity...
+	use_overmap         = 1
+	overmap_event_areas = 6
+	num_exoplanets      = 2
+	planet_size         = list(129,129)
 
 /obj/effect/overmap/visitable/ship/tethys
 	name         = "underwater complex"
