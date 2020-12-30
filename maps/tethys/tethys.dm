@@ -1,6 +1,6 @@
 #if !defined(USING_MAP_DATUM)
 
-	#include "../../mods/utility_frames/_utility_frames.dme"
+	#include "../../mods/species/utility_frames/_utility_frames.dme"
 
 // STARLIGHT MODS START
 
