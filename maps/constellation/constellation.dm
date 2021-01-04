@@ -1,29 +1,31 @@
 #if !defined(USING_MAP_DATUM)
 
-	#include "../../mods/utility_frames/_utility_frames.dme"
-	#include "../../mods/corporate/_corporate.dme"
-	#include "../../mods/ascent/_ascent.dme"
-	#include "../../mods/dionaea/_dionaea.dme"
-
 // STARLIGHT MODS START
 
 	// General content mod
-	#include "../../starlight/mods/starlight/_starlight.dme"
+	#include "../../starlight/mods/content/starlight/_starlight.dme"
 
 	// Species mods
-	#include "../../starlight/mods/resomi/_resomi.dme"
-	#include "../../starlight/mods/booster/_booster.dme"
-	#include "../../starlight/mods/tajaran/_tajaran.dme"
-	#include "../../starlight/mods/tritonian/_tritonian.dme"
+	#include "../../starlight/mods/species/booster/_booster.dme"
+	#include "../../starlight/mods/species/resomi/_resomi.dme"
+	#include "../../starlight/mods/species/vatgrown/_vatgrown.dme"
 
-	#include "../../starlight/mods/interpost_sounds/_interpost_sounds.dme"
+	#include "../../starlight/mods/species/tajaran/_tajaran.dme" //temp
 
 // STARLIGHT MODS END
 
-	#include "../../mods/government/away_sites/icarus/icarus.dm"
-	#include "../../mods/government/ruins/ec_old_crash/ec_old_crash.dm"
-	#include "../../mods/corporate/away_sites/lar_maria/lar_maria.dm"
-	#include "../../mods/ascent/away_sites/ascent/ascent.dm"
+	#include "../antag_spawn/heist/heist.dm"
+
+	#include "../../mods/content/corporate/_corporate.dme"
+	#include "../../mods/species/utility_frames/_utility_frames.dme"
+	#include "../../mods/mobs/dionaea/_dionaea.dme"
+
+	#include "../random_ruins/exoplanet_ruins/playablecolony/playablecolony.dm"
+
+	#include "../../mods/content/government/away_sites/icarus/icarus.dm"
+	#include "../../mods/content/government/ruins/ec_old_crash/ec_old_crash.dm"
+	#include "../../mods/content/corporate/away_sites/lar_maria/lar_maria.dm"
+	#include "../../mods/species/ascent/away_sites/ascent/ascent.dm"
 
 	#include "../away/bearcat/bearcat.dm"
 	#include "../away/casino/casino.dm"
