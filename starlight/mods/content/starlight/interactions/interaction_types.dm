@@ -122,7 +122,7 @@
 	if(H.stat) return
 	var/message
 
-	if(H.species.name == SPECIES_HUMAN  && prob(H.lust / H.max_lust * (H.gender == MALE ? 5 : 60)))
+	if(H.species.name in list("Vat-Grown Human",SPECIES_HUMAN)  && prob(H.lust / H.max_lust * (H.gender == MALE ? 5 : 60)))
 		message = pick("moans", "moans in arousal", "closes their eyes", "bites their lips")
 
 		var/gend_sound = H.gender == FEMALE ? "f" : "m"
