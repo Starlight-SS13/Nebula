@@ -69,7 +69,8 @@
 /decl/species
 	genders = list(MALE, FEMALE)
 
-/decl/species/utility_frame
+/decl/species/utility_frame/Initialize()
+	. = ..()
 	genders = list(MALE, FEMALE) //sexrobot goes brrrrrrrrrrrrrrr
 
 //Ewwww
