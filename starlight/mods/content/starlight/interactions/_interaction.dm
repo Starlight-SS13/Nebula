@@ -73,7 +73,7 @@
 
 /datum/interaction/proc/available_for(var/mob/living/carbon/human/H,var/mob/living/carbon/human/P)
 	. = 1
-	if(!H || (adjacent && !(H.Adjacent(P) || H.loc == P.loc)) || !(check_for(H,user_flags) && check_for(P,partner_flags)) || ((user_flags & INT_SELF) && H != P)) . = 0
+	if(!H || (adjacent && !(H.Adjacent(P) || H.loc == P.loc)) || !(check_for(H,user_flags) && check_for(P,partner_flags)) || (!(user_flags & INT_SELF) && H == P)) . = 0
 
 //init
 
