@@ -118,11 +118,13 @@
 	if(H.species.name != SPECIES_FRAME) playsound(get_turf(H), "starlight/mods/content/starlight/interactions/sound/final_[H.gender == MALE ? "m" : "f"][H.gender == MALE ? rand(1,5) : rand(1,3)].ogg", 40 + (H.gender == FEMALE ? 40 : 0), 1, frequency = H.get_age_pitch())
 	else playsound(get_turf(H),'sound/effects/turret/open.wav',70,1,-1)
 
+#define MOAN_SPECIES_LIST list(SPECIES_HUMAN,"Vat-Grown Human","Booster")
+
 /datum/interaction/sex/proc/moan(var/mob/living/carbon/human/H)
 	if(H.stat) return
 	var/message
 
-	if(H.species.name in list("Vat-Grown Human",SPECIES_HUMAN)  && prob(H.lust / H.max_lust * (H.gender == MALE ? 5 : 60)))
+	if((H.species.name in MOAN_SPECIES_LIST) && prob(H.lust / H.max_lust * (H.gender == MALE ? 5 : 60)))
 		message = pick("moans", "moans in arousal", "closes their eyes", "bites their lips")
 
 		var/gend_sound = H.gender == FEMALE ? "f" : "m"
