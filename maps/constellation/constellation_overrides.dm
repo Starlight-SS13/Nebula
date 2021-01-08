@@ -31,6 +31,10 @@
 		overlays += pickle
 	var/image/I   = image(icon, "lid[!!(occupant && !(stat & (BROKEN|NOPOWER)))]")
 	overlays     += I
+	if(operable() && occupant)
+		set_light(1, 0.1, 1, 1.5, COLOR_WHITE)
+		return
+	set_light(0)
 
 /obj/item/stock_parts/circuitboard/sleeper/stasis
 	name           = T_BOARD("sleeping pod")
@@ -47,14 +51,21 @@
 	base_icon_state = "darkmatter_shard"
 
 	color                      = COLOR_YELLOW
-	light_color                = COLOR_YELLOW
-	thermal_release_modifier   = 1000
-	critical_temperature       = 8000
+	decay_factor               = 20000
+	critical_temperature       = 90000
 
 	product_release_modifier   = -2
 	oxygen_release_modifier    = -2
 	radiation_release_modifier = 0
 	config_hallucination_power = 0
+
+/obj/machinery/power/supermatter/energy/Initialize()
+	light_color = color
+	. = ..()
+
+/obj/machinery/power/supermatter/energy/examine(var/mob/user)
+	. = ..()
+	to_chat(user,SPAN_NOTICE("It is of [(thermal_release_modifier > 0) ? FONT_COLORED(COLOR_RED, "heating") : FONT_COLORED(COLOR_CYAN, "cooling")] type."))
 
 /obj/machinery/power/supermatter/energy/attack_hand(var/mob/user)
 	visible_message(SPAN_NOTICE("[user] gently taps \the [src]."))
@@ -68,11 +79,11 @@
 //hot-cold
 
 /obj/machinery/power/supermatter/energy/hot
-	color                    = COLOR_RED
-	light_color              = COLOR_RED
-	thermal_release_modifier = 2500
+	name                     = "heating energy crystal"
+	color                    = COLOR_ORANGE
+	thermal_release_modifier =  8000
 
 /obj/machinery/power/supermatter/energy/cold
+	name                     = "cooling energy crystal"
 	color                    = COLOR_CYAN
-	light_color              = COLOR_CYAN
-	thermal_release_modifier = -2500
+	thermal_release_modifier = -8000

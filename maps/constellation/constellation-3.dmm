@@ -28,7 +28,13 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
 	dir = 6
 	},
-/turf/simulated/floor/tiled/techmaint,
+/obj/structure/catwalk,
+/obj/structure/cable/yellow{
+	d1 = 1;
+	d2 = 4;
+	icon_state = "1-4"
+	},
+/turf/simulated/open,
 /area/ship/trade/engineering/solars)
 "ai" = (
 /obj/structure/cable/yellow{
@@ -86,7 +92,7 @@
 	dir = 9;
 	pixel_y = 0
 	},
-/obj/structure/lattice,
+/obj/structure/catwalk,
 /turf/simulated/open,
 /area/ship/trade/engineering/solars)
 "as" = (
@@ -196,6 +202,9 @@
 	},
 /obj/effect/floor_decal/industrial/warning{
 	dir = 8
+	},
+/obj/machinery/light_switch{
+	pixel_y = 24
 	},
 /turf/simulated/floor/tiled/techmaint,
 /area/ship/trade/engineering/solars)
@@ -339,11 +348,12 @@
 /turf/simulated/floor/tiled/dark,
 /area/ship/trade/command/bridge_upper)
 "jy" = (
-/obj/structure/cable/yellow{
-	d2 = 4;
-	icon_state = "0-4"
+/obj/machinery/computer/modular/preset/engineering{
+	dir = 8
 	},
-/obj/machinery/power/solar_control/autostart,
+/obj/machinery/light/small{
+	dir = 4
+	},
 /turf/simulated/floor/tiled/techfloor,
 /area/ship/trade/engineering/solars)
 "jz" = (
@@ -492,22 +502,9 @@
 /turf/simulated/floor/tiled,
 /area/ship/trade/command/bridge_upper)
 "sx" = (
-/obj/structure/cable/yellow{
-	d1 = 1;
-	d2 = 2;
-	icon_state = "1-2"
-	},
-/obj/structure/cable/yellow{
-	icon_state = "1-8"
-	},
-/obj/structure/railing/mapped{
-	dir = 4
-	},
-/obj/effect/floor_decal/industrial/warning{
-	dir = 4
-	},
-/turf/simulated/floor/tiled/techmaint,
-/area/ship/trade/engineering/solars)
+/obj/effect/floor_decal/industrial/warning/fulltile,
+/turf/simulated/floor/airless,
+/area/space)
 "sX" = (
 /obj/machinery/door/window/westleft,
 /obj/structure/cable{
@@ -700,6 +697,11 @@
 	level = 2
 	},
 /obj/item/stool/padded,
+/obj/structure/cable/yellow{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8"
+	},
 /turf/simulated/floor/tiled/techmaint,
 /area/ship/trade/engineering/solars)
 "Dg" = (
@@ -948,6 +950,10 @@
 	},
 /turf/simulated/floor/plating,
 /area/ship/trade/command/bridge_upper)
+"PP" = (
+/obj/structure/closet/coffin,
+/turf/simulated/floor/reinforced/airless,
+/area/space)
 "PZ" = (
 /obj/machinery/atmospherics/unary/vent_pump/on{
 	dir = 1;
@@ -983,6 +989,9 @@
 /obj/effect/floor_decal/industrial/hatch/yellow,
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/ship/trade/engineering/solars)
+"RF" = (
+/turf/simulated/wall/r_wall/prepainted,
+/area/space)
 "RZ" = (
 /obj/item/radio/intercom{
 	dir = 4;
@@ -1077,13 +1086,11 @@
 /obj/machinery/atmospherics/unary/vent_scrubber/on{
 	dir = 8
 	},
+/obj/item/stool/padded,
 /obj/machinery/alarm{
 	dir = 1;
-	icon_state = "alarm0";
-	pixel_x = 0;
-	pixel_y = -32
+	pixel_y = -24
 	},
-/obj/item/stool/padded,
 /turf/simulated/floor/tiled/techmaint,
 /area/ship/trade/engineering/solars)
 "Xu" = (
@@ -1138,8 +1145,12 @@
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/ship/trade/command/bridge_upper)
 "Zx" = (
-/obj/machinery/computer/modular/preset/engineering{
+/obj/machinery/power/solar_control/autostart{
 	dir = 8
+	},
+/obj/structure/cable/yellow{
+	d2 = 8;
+	icon_state = "0-8"
 	},
 /turf/simulated/floor/tiled/techfloor,
 /area/ship/trade/engineering/solars)
@@ -4104,7 +4115,7 @@ ax
 aV
 aV
 aV
-jy
+ao
 ao
 aV
 aV
@@ -4186,7 +4197,7 @@ aV
 aV
 Lf
 FY
-sx
+FY
 FY
 FY
 Pg
@@ -4283,9 +4294,9 @@ ax
 ax
 ax
 ax
-ax
-ax
-ax
+sx
+RF
+sx
 ax
 ax
 ax
@@ -4523,7 +4534,7 @@ ax
 ax
 aV
 Zx
-Zx
+jy
 aV
 ax
 ax
@@ -4616,7 +4627,7 @@ ax
 ax
 ax
 ax
-ax
+PP
 ax
 ax
 ax
