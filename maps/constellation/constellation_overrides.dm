@@ -87,3 +87,9 @@
 	name                     = "cooling energy crystal"
 	color                    = COLOR_CYAN
 	thermal_release_modifier = -8000
+
+//exosuit runtime fix
+
+/mob/living/exosuit/premade/Initialize()
+	. = ..()
+	return INITIALIZE_HINT_NORMAL
