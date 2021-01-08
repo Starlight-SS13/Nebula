@@ -1031,6 +1031,13 @@
 /obj/machinery/chemical_dispenser/bar_alc/full,
 /turf/simulated/floor/wood/walnut,
 /area/ship/trade/bar)
+"fb" = (
+/obj/structure/closet/crate,
+/obj/random/soap,
+/obj/random/soap,
+/obj/random/soap,
+/turf/simulated/floor,
+/area/ship/trade/fore_port_underside_maint)
 "fp" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 6
@@ -1043,6 +1050,13 @@
 	d2 = 4;
 	icon_state = "2-4"
 	},
+/obj/structure/closet/crate,
+/obj/random/junk,
+/obj/random/junk,
+/obj/random/junk,
+/obj/random/junk,
+/obj/random/junk,
+/obj/random/junk,
 /turf/simulated/floor,
 /area/ship/trade/fore_port_underside_maint)
 "fq" = (
@@ -1372,6 +1386,10 @@
 	},
 /turf/simulated/floor,
 /area/ship/trade/bar)
+"pV" = (
+/obj/structure/closet/jcloset,
+/turf/simulated/floor,
+/area/ship/trade/fore_port_underside_maint)
 "qt" = (
 /obj/item/stool/bar/padded,
 /turf/simulated/floor/tiled/dark,
@@ -1730,13 +1748,22 @@
 /turf/simulated/floor/tiled/white,
 /area/ship/trade/livestock)
 "AO" = (
-/obj/structure/hygiene/drain,
+/obj/structure/table/rack,
+/obj/random/maintenance,
+/obj/random/maintenance,
+/obj/random/maintenance,
 /turf/simulated/floor,
-/area/ship/trade/aft_starboard_underside_maint)
+/area/ship/trade/fore_port_underside_maint)
 "AZ" = (
 /obj/machinery/smartfridge/secure/extract,
 /turf/simulated/floor/tiled/white/monotile,
 /area/ship/trade/livestock)
+"BE" = (
+/obj/structure/table/rack,
+/obj/random/tech_supply,
+/obj/random/tech_supply,
+/turf/simulated/floor,
+/area/ship/trade/fore_port_underside_maint)
 "Cg" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
 /obj/machinery/atmospherics/pipe/manifold/hidden/supply{
@@ -1828,7 +1855,6 @@
 /turf/simulated/floor,
 /area/ship/trade/undercomms)
 "FD" = (
-/obj/structure/hygiene/drain,
 /obj/effect/floor_decal/industrial/outline/yellow,
 /turf/simulated/floor/tiled/techfloor,
 /area/ship/trade/loading_bay)
@@ -1852,7 +1878,6 @@
 /turf/simulated/floor/tiled/white/monotile,
 /area/ship/trade/livestock)
 "Hb" = (
-/obj/structure/hygiene/drain,
 /obj/effect/floor_decal/industrial/outline/yellow,
 /obj/effect/decal/cleanable/dirt,
 /turf/simulated/floor/tiled/techfloor,
@@ -2128,6 +2153,9 @@
 "Nj" = (
 /obj/structure/table/rack,
 /obj/random/maintenance,
+/obj/random/maintenance,
+/obj/random/maintenance,
+/obj/random/maintenance,
 /turf/simulated/floor,
 /area/ship/trade/fore_port_underside_maint)
 "Nq" = (
@@ -2327,7 +2355,6 @@
 /turf/simulated/wall/r_wall/prepainted,
 /area/ship/trade/fore_port_underside_maint)
 "Xo" = (
-/obj/structure/hygiene/drain,
 /obj/random/trash,
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/spiderling_remains,
@@ -5115,9 +5142,9 @@ Ux
 Xe
 Nq
 ak
-ak
-ak
-ak
+pV
+fb
+BE
 Xe
 bH
 Jz
@@ -5278,7 +5305,7 @@ LB
 hf
 Xe
 Nq
-Nj
+AO
 yO
 af
 UI
@@ -6112,7 +6139,7 @@ zb
 yO
 yO
 YH
-AO
+hF
 Gp
 aZ
 JF
