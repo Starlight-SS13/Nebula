@@ -48,6 +48,7 @@
 	#include "constellation_shuttles.dm"
 	#include "constellation_spawnpoints.dm"
 	#include "constellation_unit_testing.dm"
+
 	#include "constellation-0.dmm"
 	#include "constellation-1.dmm"
 	#include "constellation-2.dmm"
