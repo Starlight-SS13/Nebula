@@ -11,8 +11,8 @@
 	bodytype_restricted = list(BODYTYPE_RESOMI)
 	body_parts_covered = SLOT_UPPER_BODY|SLOT_ARMS|SLOT_LOWER_BODY
 
-/obj/item/clothing/suit/storage/hooded/polychromic/New()
-	..()
+/obj/item/clothing/suit/storage/hooded/polychromic/Initialize()
+	. = ..()
 	sprite_sheets = list(
 		BODYTYPE_RESOMI = 'starlight/mods/species/resomi/icons/clothing/onmob_suit.dmi'
 	)
@@ -55,8 +55,8 @@
 	body_parts_covered = SLOT_HEAD
 	canremove = 0
 
-/obj/item/clothing/head/winterhood/polychromic_hood/New()
-	..()
+/obj/item/clothing/head/winterhood/polychromic_hood/Initialize()
+	. = ..()
 	sprite_sheets = list(
 		BODYTYPE_RESOMI = 'starlight/mods/species/resomi/icons/clothing/onmob_head.dmi'
 	)
