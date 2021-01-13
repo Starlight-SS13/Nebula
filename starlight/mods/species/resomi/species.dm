@@ -4,6 +4,8 @@
 	description       = "A tiny birdy creature."
 	hidden_from_codex = FALSE
 
+    max_players       = 2
+
 	sexybits_location = BP_GROIN
 	min_age           = 15
 	max_age           = 45
