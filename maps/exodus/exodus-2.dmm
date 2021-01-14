@@ -11477,6 +11477,7 @@
 	icon_state = "1-2"
 	},
 /obj/machinery/hologram/holopad,
+/obj/effect/landmark/paperwork_finish_exodus,
 /turf/simulated/floor/tiled,
 /area/bridge)
 "avT" = (
@@ -25436,6 +25437,8 @@
 /obj/effect/floor_decal/corner/brown{
 	dir = 5
 	},
+/obj/structure/table/reinforced,
+/obj/effect/landmark/paperwork_spawn_exodus,
 /turf/simulated/floor/tiled,
 /area/bridge)
 "aXl" = (
@@ -25530,6 +25533,8 @@
 /obj/effect/floor_decal/corner/white{
 	dir = 5
 	},
+/obj/structure/table/reinforced,
+/obj/effect/landmark/paperwork_spawn_exodus,
 /turf/simulated/floor/tiled,
 /area/bridge)
 "aXu" = (

@@ -41,6 +41,7 @@
 	#include "../away/unishi/unishi.dm"
 	#include "../away/yacht/yacht.dm"
 
+	#include "jobs/_goals.dm"
 	#include "jobs/captain.dm"
 	#include "jobs/civilian.dm"
 	#include "jobs/engineering.dm"
