@@ -27,15 +27,15 @@ var/list/exodus_paperwork_end_areas = list()
 	return INITIALIZE_HINT_QDEL
 
 /datum/goal/department/paperwork/exodus
-	paperwork_types =    list(/obj/item/paperwork/exodus)
+	paperwork_types = list(/obj/item/paperwork/exodus)
 	signatory_job_list = list(
-        /datum/job/captain, 
-        /datum/job/hop, 
-        /datum/job/cmo,
-        /datum/job/chief_engineer,
-        /datum/job/rd,
-        /datum/job/hos
-    )
+		/datum/job/captain,
+		/datum/job/hop,
+		/datum/job/cmo,
+		/datum/job/chief_engineer,
+		/datum/job/rd,
+		/datum/job/hos
+	)
 
 /datum/goal/department/paperwork/exodus/get_spawn_turfs()
 	return global.exodus_paperwork_spawn_turfs
