@@ -59083,8 +59083,8 @@
 /obj/effect/floor_decal/corner/purple{
 	dir = 9
 	},
-/obj/item/clothing/under/rank/hydroponics,
-/obj/item/clothing/under/rank/hydroponics,
+/obj/item/clothing/under/hydroponics,
+/obj/item/clothing/under/hydroponics,
 /obj/item/clothing/gloves/thick/botany,
 /obj/item/clothing/gloves/thick/botany,
 /turf/simulated/floor/tiled/white,
