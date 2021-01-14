@@ -1,4 +1,4 @@
-#define MARKING_ICON_PATH 'starlight/mods/content/starlight/sprite_accessory/markings.dmi'
+#define MARKING_ICON_PATH 'starlight/mods/content/starlight/icons/markings.dmi'
 
 /datum/sprite_accessory/marking/eye_mask
 	name = "Tattoo (Eye Mask)"
