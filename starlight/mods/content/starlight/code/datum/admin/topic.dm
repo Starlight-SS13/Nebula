@@ -1,6 +1,5 @@
 /datum/admins/Topic(href, href_list)
 	..()
-
 	if(href_list["listen_tape_sound"])
 		var/sound/S = sound(locate(href_list["listen_tape_sound"]))
 		if(!S) return
