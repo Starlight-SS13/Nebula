@@ -1740,7 +1740,7 @@
 /area/tethys/science/workshop)
 "po" = (
 /turf/unsimulated/mask,
-/area/space/ocean)
+/area/space)
 "pr" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
 	dir = 4

@@ -19,7 +19,7 @@
 "ax" = (
 /obj/machinery/light/navigation/delay5,
 /turf/simulated/floor/reinforced/airless,
-/area/space/ocean)
+/area/space)
 "aC" = (
 /obj/machinery/atmospherics/unary/vent_pump/high_volume/external_air{
 	dir = 4;
@@ -88,7 +88,7 @@
 /area/tethys/exploration_pod)
 "cy" = (
 /turf/simulated/floor/reinforced/airless,
-/area/space/ocean)
+/area/space)
 "cL" = (
 /turf/simulated/floor/airless,
 /area/tethys/exploration_pod)
@@ -265,7 +265,7 @@
 /area/tethys/exploration_pod)
 "jb" = (
 /turf/simulated/open/flooded,
-/area/space/ocean)
+/area/space)
 "jh" = (
 /obj/machinery/atmospherics/pipe/simple/hidden{
 	dir = 10;
@@ -2119,7 +2119,7 @@
 	height = 3
 	},
 /turf/simulated/open/flooded,
-/area/space/ocean)
+/area/space)
 
 (1,1,1) = {"
 jb

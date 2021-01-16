@@ -16,13 +16,13 @@
 		return BLOCKED
 	. = ..()
 
-/area/space/ocean
+/area/space
 	name        = "open ocean"
 	icon_state  = "ocean"
 	icon        = 'maps/tethys/media/areas.dmi'
 	base_turf   = /turf/exterior/seafloor
 
-/area/space/ocean/has_gravity()
+/area/space/has_gravity()
 	return TRUE
 
 /area/tethys

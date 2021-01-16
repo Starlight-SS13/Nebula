@@ -1,11 +1,11 @@
 //MAP CONVERTED BY dmm2tgm.py THIS HEADER COMMENT PREVENTS RECONVERSION, DO NOT REMOVE
 "al" = (
 /turf/simulated/wall/r_wall/prepainted,
-/area/space/ocean)
+/area/space)
 "aI" = (
 /obj/structure/stairs/south,
 /turf/exterior/seafloor,
-/area/space/ocean)
+/area/space)
 "aJ" = (
 /turf/simulated/wall/r_wall/prepainted,
 /area/tethys/civilian/lounge)
@@ -28,7 +28,7 @@
 /area/tethys/civilian/lounge)
 "bK" = (
 /turf/exterior/seafloor,
-/area/space/ocean)
+/area/space)
 "bU" = (
 /obj/structure/table/standard,
 /obj/machinery/reagent_temperature/cooler,
@@ -365,7 +365,7 @@
 "tO" = (
 /obj/effect/landmark/test/space_turf,
 /turf/exterior/seafloor,
-/area/space/ocean)
+/area/space)
 "uC" = (
 /obj/effect/floor_decal/spline/fancy/wood/corner{
 	dir = 8
@@ -798,7 +798,7 @@
 /area/tethys/hallway/upper)
 "RF" = (
 /turf/unsimulated/mask,
-/area/space/ocean)
+/area/space)
 "RI" = (
 /obj/effect/floor_decal/corner/blue{
 	dir = 10
