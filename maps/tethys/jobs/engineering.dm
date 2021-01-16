@@ -107,7 +107,7 @@
 	)
 	minimal_player_age = 14
 	supervisors = "the Colony Director"
-	outfit_type = /decl/hierarchy/outfit/job/tethys/basic/head
+	outfit_type = /decl/hierarchy/outfit/job/tethys/basic/engineer/head
 	min_skill = list(
 		SKILL_LITERACY     = SKILL_ADEPT,
 		SKILL_COMPUTER     = SKILL_ADEPT,
