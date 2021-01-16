@@ -19,6 +19,7 @@
 #include "mob\ghost.dm"
 #include "mob\living.dm"
 #include "mob\pixel_shift.dm"
+#include "obj\barsign.dm"
 #include "obj\items\backpack.dm"
 #include "obj\items\music_player\_music_player.dm"
 #include "obj\items\music_player\_music_tape.dm"
