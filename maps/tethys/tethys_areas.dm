@@ -1,8 +1,5 @@
 //Areas + ocean things
 
-/world
-	area = /area/space/ocean
-
 /datum/map/tethys
 	base_turf_by_z = list(
 		"1" = /turf/exterior/seafloor,
