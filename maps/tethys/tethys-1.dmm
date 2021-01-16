@@ -667,12 +667,11 @@
 	dir = 6
 	},
 /obj/structure/table/standard,
+/obj/machinery/firealarm{
+	dir = 1
+	},
 /turf/simulated/floor/tiled/white,
 /area/tethys/medical/chem)
-"eQ" = (
-/obj/structure/closet/emcloset,
-/turf/simulated/floor/tiled/white/monotile,
-/area/tethys/civilian/cryo)
 "eT" = (
 /obj/machinery/alarm,
 /turf/simulated/floor/tiled/white,
@@ -687,8 +686,8 @@
 /obj/machinery/computer/cryopod{
 	pixel_y = 32
 	},
-/obj/machinery/light_switch/on{
-	pixel_x = 24
+/obj/machinery/firealarm{
+	dir = 4
 	},
 /turf/simulated/floor/tiled/white,
 /area/tethys/civilian/cryo)
@@ -736,9 +735,12 @@
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/tethys/engineering/power)
 "fV" = (
-/obj/machinery/alarm,
+/obj/effect/floor_decal/corner/research{
+	dir = 5
+	},
+/obj/machinery/firealarm,
 /turf/simulated/floor/tiled/white,
-/area/tethys/science/workshop)
+/area/tethys/science/testing)
 "fX" = (
 /obj/effect/floor_decal/corner/research{
 	dir = 6
@@ -889,10 +891,19 @@
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/tethys/medical)
 "hV" = (
-/obj/structure/closet/emcloset,
 /obj/machinery/light{
 	dir = 8
 	},
+/obj/structure/closet,
+/obj/item/clothing/under/color/tethys,
+/obj/item/clothing/under/color/tethys,
+/obj/item/clothing/under/color/tethys,
+/obj/item/clothing/shoes/jackboots/duty,
+/obj/item/clothing/shoes/jackboots/duty,
+/obj/item/clothing/shoes/jackboots/duty,
+/obj/item/radio,
+/obj/item/radio,
+/obj/item/radio,
 /turf/simulated/floor/tiled/white/monotile,
 /area/tethys/civilian/cryo)
 "hW" = (
@@ -981,6 +992,9 @@
 	},
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 4
+	},
+/obj/machinery/firealarm{
+	dir = 1
 	},
 /turf/simulated/floor/tiled/freezer,
 /area/tethys/civilian/hygiene)
@@ -1125,9 +1139,6 @@
 	},
 /turf/simulated/floor/tiled/white,
 /area/tethys/medical)
-"kh" = (
-/turf/simulated/floor/tiled/white,
-/area/tethys/civilian/cryo)
 "kl" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
 /turf/simulated/floor/tiled/white,
@@ -1202,6 +1213,15 @@
 /obj/machinery/recharger,
 /turf/simulated/floor/plating,
 /area/tethys/science/workshop)
+"kJ" = (
+/obj/effect/floor_decal/techfloor{
+	dir = 1
+	},
+/obj/machinery/firealarm{
+	dir = 1
+	},
+/turf/simulated/floor/tiled/techfloor,
+/area/tethys/engineering/reactor)
 "kN" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 4
@@ -1422,9 +1442,16 @@
 /turf/simulated/floor/tiled/white,
 /area/tethys/medical)
 "mU" = (
-/obj/machinery/computer/modular/preset/civilian{
-	dir = 4
-	},
+/obj/structure/closet,
+/obj/item/clothing/under/color/tethys,
+/obj/item/clothing/under/color/tethys,
+/obj/item/clothing/under/color/tethys,
+/obj/item/clothing/shoes/jackboots/duty,
+/obj/item/clothing/shoes/jackboots/duty,
+/obj/item/clothing/shoes/jackboots/duty,
+/obj/item/radio,
+/obj/item/radio,
+/obj/item/radio,
 /turf/simulated/floor/tiled/white/monotile,
 /area/tethys/civilian/cryo)
 "mY" = (
@@ -1598,6 +1625,9 @@
 	},
 /obj/effect/floor_decal/corner/paleblue{
 	dir = 9
+	},
+/obj/machinery/firealarm{
+	dir = 1
 	},
 /turf/simulated/floor/tiled/white,
 /area/tethys/medical)
@@ -2006,7 +2036,9 @@
 /obj/structure/cable{
 	icon_state = "1-4"
 	},
-/obj/machinery/light/small/red,
+/obj/machinery/light_switch/on{
+	pixel_y = -24
+	},
 /turf/simulated/floor/tiled/white,
 /area/tethys/civilian/cryo)
 "sb" = (
@@ -2031,6 +2063,12 @@
 /obj/machinery/destructive_analyzer,
 /turf/simulated/floor/bluegrid,
 /area/tethys/science)
+"su" = (
+/obj/machinery/firealarm{
+	dir = 8
+	},
+/turf/simulated/floor/tiled,
+/area/tethys/civilian)
 "sx" = (
 /obj/machinery/atmospherics/pipe/manifold/visible,
 /obj/structure/railing/mapped{
@@ -2055,10 +2093,8 @@
 /turf/simulated/floor/tiled/white,
 /area/tethys/science)
 "tt" = (
-/obj/effect/floor_decal/corner/research{
-	dir = 6
-	},
-/turf/simulated/floor/tiled/white,
+/obj/machinery/computer/design_console,
+/turf/simulated/floor/bluegrid,
 /area/tethys/science)
 "tC" = (
 /obj/effect/floor_decal/corner/research{
@@ -2202,6 +2238,13 @@
 /obj/machinery/portable_atmospherics/canister/air,
 /turf/simulated/floor/plating,
 /area/tethys/maintenance/shaft)
+"va" = (
+/obj/effect/floor_decal/corner/beige{
+	dir = 5
+	},
+/obj/machinery/firealarm,
+/turf/simulated/floor/tiled,
+/area/tethys/hallway/lower)
 "vk" = (
 /obj/structure/hygiene/toilet{
 	dir = 4
@@ -2257,20 +2300,17 @@
 /turf/simulated/floor/tiled/white,
 /area/tethys/science)
 "vG" = (
-/obj/machinery/computer/design_console{
-	dir = 4
-	},
-/turf/simulated/floor/bluegrid,
+/turf/simulated/floor/tiled/white,
 /area/tethys/science)
 "vK" = (
-/obj/structure/bed/chair/office/comfy/purple{
-	dir = 8
-	},
 /obj/machinery/light{
 	dir = 4
 	},
 /obj/effect/floor_decal/corner/research{
 	dir = 6
+	},
+/obj/structure/bed/chair/office/comfy/purple{
+	dir = 1
 	},
 /turf/simulated/floor/tiled/white,
 /area/tethys/science)
@@ -2289,6 +2329,9 @@
 "vQ" = (
 /obj/effect/floor_decal/corner/research{
 	dir = 6
+	},
+/obj/machinery/firealarm{
+	dir = 4
 	},
 /turf/simulated/floor/tiled/white,
 /area/tethys/science/fabrication)
@@ -2312,6 +2355,9 @@
 /area/tethys/engineering/communications)
 "vW" = (
 /obj/effect/floor_decal/corner/yellow/three_quarters,
+/obj/machinery/firealarm{
+	dir = 8
+	},
 /turf/simulated/floor/tiled/dark,
 /area/tethys/engineering)
 "vY" = (
@@ -2595,6 +2641,10 @@
 	},
 /turf/simulated/floor/tiled,
 /area/tethys/civilian/dorm)
+"yu" = (
+/obj/machinery/alarm,
+/turf/simulated/floor/tiled/white,
+/area/tethys/science/workshop)
 "yx" = (
 /obj/effect/floor_decal/corner/beige{
 	dir = 6
@@ -2931,6 +2981,10 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
 /turf/simulated/floor/tiled/white,
 /area/tethys/science)
+"Cq" = (
+/obj/machinery/firealarm,
+/turf/simulated/floor/tiled/white,
+/area/tethys/science/workshop)
 "Cv" = (
 /obj/machinery/atmospherics/pipe/simple/visible,
 /obj/structure/railing/mapped{
@@ -3120,6 +3174,9 @@
 /area/tethys/civilian/dorm)
 "DG" = (
 /obj/effect/floor_decal/corner/beige/three_quarters{
+	dir = 8
+	},
+/obj/machinery/firealarm{
 	dir = 8
 	},
 /turf/simulated/floor/tiled,
@@ -3724,6 +3781,9 @@
 /obj/effect/floor_decal/corner/beige{
 	dir = 6
 	},
+/obj/machinery/firealarm{
+	dir = 4
+	},
 /turf/simulated/floor/tiled,
 /area/tethys/hallway/lower)
 "Ji" = (
@@ -3785,6 +3845,15 @@
 	},
 /turf/simulated/floor/carpet/blue3,
 /area/tethys/civilian/dorm)
+"Ku" = (
+/obj/effect/floor_decal/corner/research{
+	dir = 9
+	},
+/obj/machinery/firealarm{
+	dir = 8
+	},
+/turf/simulated/floor/tiled/white,
+/area/tethys/science)
 "Kv" = (
 /obj/structure/closet/cabinet,
 /obj/machinery/atmospherics/unary/vent_pump/on{
@@ -4139,6 +4208,10 @@
 /obj/item/stack/material/osmium/ten,
 /turf/simulated/floor/tiled/techmaint,
 /area/tethys/cargo)
+"NC" = (
+/obj/machinery/firealarm,
+/turf/simulated/floor/tiled/techmaint,
+/area/tethys/cargo)
 "NQ" = (
 /obj/machinery/fabricator/industrial,
 /turf/simulated/floor/tiled/techmaint,
@@ -4187,6 +4260,7 @@
 /obj/structure/cable{
 	icon_state = "4-8"
 	},
+/obj/machinery/firealarm,
 /turf/simulated/floor/tiled/techmaint,
 /area/tethys/cargo)
 "Oy" = (
@@ -4495,6 +4569,7 @@
 /obj/structure/cable{
 	icon_state = "4-8"
 	},
+/obj/machinery/firealarm,
 /turf/simulated/floor/tiled/techfloor,
 /area/tethys/engineering/power)
 "Tj" = (
@@ -4518,6 +4593,12 @@
 	},
 /turf/simulated/floor/tiled/techfloor,
 /area/tethys/engineering/power)
+"Tr" = (
+/obj/machinery/firealarm{
+	dir = 8
+	},
+/turf/simulated/floor/tiled/techfloor,
+/area/tethys/science/robot)
 "Tt" = (
 /obj/structure/cable{
 	icon_state = "1-2"
@@ -4935,6 +5016,20 @@
 /obj/machinery/light/small,
 /turf/simulated/floor/tiled/techfloor,
 /area/tethys/science/robot)
+"XJ" = (
+/obj/machinery/atmospherics/pipe/simple/hidden/supply,
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
+/obj/structure/cable{
+	icon_state = "1-2"
+	},
+/obj/effect/floor_decal/corner/beige{
+	dir = 9
+	},
+/obj/machinery/firealarm{
+	dir = 8
+	},
+/turf/simulated/floor/tiled,
+/area/tethys/civilian/dorm)
 "XK" = (
 /obj/machinery/atmospherics/pipe/manifold4w/hidden/supply,
 /obj/machinery/atmospherics/pipe/manifold4w/hidden/scrubbers,
@@ -5227,6 +5322,7 @@
 /obj/structure/cable{
 	icon_state = "4-8"
 	},
+/obj/machinery/firealarm,
 /turf/simulated/floor/plating,
 /area/tethys/engineering/atmospherics)
 "ZK" = (
@@ -10797,7 +10893,7 @@ po
 po
 ab
 ae
-aw
+su
 bc
 ab
 al
@@ -11329,7 +11425,7 @@ qd
 ry
 uN
 wl
-yr
+XJ
 AP
 yr
 yr
@@ -11865,7 +11961,7 @@ Sy
 Rh
 ro
 em
-TD
+kJ
 Rh
 po
 po
@@ -12880,9 +12976,9 @@ po
 po
 po
 dz
-eQ
+mU
 hV
-kh
+mU
 mU
 oV
 qD
@@ -13539,7 +13635,7 @@ qX
 si
 vq
 xn
-si
+Ku
 BB
 qX
 EJ
@@ -13660,7 +13756,7 @@ po
 po
 po
 dC
-fO
+Cq
 if
 kt
 nh
@@ -13672,10 +13768,10 @@ xu
 zm
 BO
 qX
-DP
+va
 Iw
 OO
-NR
+NC
 Qs
 Us
 RF
@@ -13790,7 +13886,7 @@ po
 po
 po
 dC
-fV
+fO
 fO
 kw
 nk
@@ -13920,7 +14016,7 @@ po
 po
 po
 dC
-fO
+yu
 ih
 kx
 no
@@ -15757,7 +15853,7 @@ Ji
 LZ
 OR
 Rq
-Go
+Tr
 Go
 DD
 po
@@ -16386,7 +16482,7 @@ po
 po
 po
 ad
-at
+fV
 aN
 cQ
 eb

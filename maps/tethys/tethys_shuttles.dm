@@ -1,5 +1,5 @@
 /obj/machinery/computer/shuttle_control/explore/exploration_pod
-	name        = "control console"
+	name        = "exploration shuttle control console"
 	shuttle_tag = "Exploration Shuttle"
 
 /datum/shuttle/autodock/overmap/exploration_pod

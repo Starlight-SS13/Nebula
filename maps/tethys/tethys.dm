@@ -13,7 +13,7 @@
 	#include "tethys_antagonists.dm"
 	#include "tethys_areas.dm"
 	#include "tethys_jobs.dm"
-    #include "tethys_loadout.dm"
+	#include "tethys_loadout.dm"
 	#include "tethys_lore.dm"
 	#include "tethys_overmap.dm"
 	#include "tethys_overrides.dm"

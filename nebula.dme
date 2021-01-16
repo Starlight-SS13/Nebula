@@ -3263,7 +3263,6 @@
 #include "maps\random_ruins\space_ruins\space_ruins.dm"
 #include "maps\tethys\tethys.dm"
 #include "maps\tethys\tethys_define.dm"
-#include "maps\tethys\tethys_loadout.dm"
 #include "maps\tradeship\tradeship_define.dm"
 #include "maps\~mapsystem\map_preferences.dm"
 #include "maps\~mapsystem\map_ranks.dm"

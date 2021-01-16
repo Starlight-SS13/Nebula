@@ -252,6 +252,7 @@
 /area/tethys/exploration_pod)
 "iL" = (
 /obj/effect/floor_decal/industrial/outline/yellow,
+/obj/machinery/sleeper,
 /turf/simulated/floor/tiled/dark/monotile,
 /area/tethys/exploration_pod)
 "iR" = (
@@ -964,6 +965,21 @@
 	},
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/tethys/exploration_pod)
+"wh" = (
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 4
+	},
+/obj/structure/cable{
+	icon_state = "4-8"
+	},
+/obj/machinery/firealarm{
+	dir = 1
+	},
+/turf/simulated/floor/tiled/techfloor,
+/area/tethys/eva)
 "wm" = (
 /obj/machinery/button/access/exterior{
 	id_tag = "tethys_dock_port";
@@ -1160,6 +1176,9 @@
 "yV" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 9
+	},
+/obj/machinery/firealarm{
+	dir = 1
 	},
 /turf/simulated/floor/tiled/techfloor,
 /area/tethys/security)
@@ -1408,6 +1427,13 @@
 /obj/machinery/dehumidifier,
 /turf/simulated/floor/plating,
 /area/tethys/maintenance/shaft)
+"Gm" = (
+/obj/machinery/atmospherics/unary/vent_pump/on,
+/obj/machinery/firealarm{
+	dir = 4
+	},
+/turf/simulated/floor/tiled/techfloor,
+/area/tethys/eva)
 "Gv" = (
 /obj/machinery/commsrelay,
 /turf/simulated/floor/bluegrid,
@@ -1599,8 +1625,8 @@
 /turf/simulated/floor/plating,
 /area/tethys/exploration_pod)
 "Kx" = (
-/obj/machinery/power/port_gen/pacman/super/potato,
 /obj/structure/cable,
+/obj/machinery/power/port_gen/pacman/super,
 /turf/simulated/floor/plating,
 /area/tethys/exploration_pod)
 "Kz" = (
@@ -1678,6 +1704,9 @@
 /obj/structure/table/standard,
 /obj/item/stack/material/wood/ten,
 /obj/item/stack/material/plastic/ten,
+/obj/machinery/firealarm{
+	dir = 4
+	},
 /turf/simulated/floor/wood/walnut,
 /area/tethys/civilian/library)
 "MX" = (
@@ -1767,6 +1796,9 @@
 /area/tethys/civilian/library)
 "Pe" = (
 /obj/machinery/alarm,
+/obj/machinery/firealarm{
+	dir = 8
+	},
 /turf/simulated/floor/tiled/dark/monotile,
 /area/tethys/hallway/tower)
 "Ph" = (
@@ -2004,6 +2036,9 @@
 	dir = 8
 	},
 /obj/effect/landmark/paperwork_spawn_tethys,
+/obj/machinery/firealarm{
+	dir = 1
+	},
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/tethys/bridge)
 "Yr" = (
@@ -8387,7 +8422,7 @@ jb
 jm
 fH
 pd
-py
+Gm
 xR
 fB
 EQ
@@ -8908,7 +8943,7 @@ jD
 fH
 pA
 sV
-yu
+wh
 fB
 ET
 ET

@@ -132,6 +132,19 @@
 	},
 /turf/simulated/floor/carpet/purple,
 /area/tethys/civilian/lounge)
+"hc" = (
+/obj/effect/floor_decal/spline/fancy/wood{
+	dir = 8
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/supply,
+/obj/structure/cable{
+	icon_state = "1-2"
+	},
+/obj/machinery/firealarm{
+	dir = 4
+	},
+/turf/simulated/floor/lino,
+/area/tethys/civilian/lounge)
 "hB" = (
 /obj/effect/wallframe_spawn/reinforced,
 /obj/machinery/door/firedoor{
@@ -139,6 +152,22 @@
 	},
 /turf/simulated/floor/plating,
 /area/tethys/civilian/lounge)
+"hU" = (
+/obj/effect/floor_decal/corner/blue{
+	dir = 10
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 4
+	},
+/obj/structure/cable{
+	icon_state = "4-8"
+	},
+/obj/machinery/firealarm,
+/turf/simulated/floor/tiled/dark,
+/area/tethys/hallway/upper)
 "iD" = (
 /obj/machinery/atmospherics/unary/outlet_injector/engine{
 	dir = 1;
@@ -717,6 +746,12 @@
 /obj/machinery/door/firedoor,
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/tethys/maintenance/shaft)
+"Qn" = (
+/obj/machinery/firealarm{
+	dir = 1
+	},
+/turf/simulated/floor/lino,
+/area/tethys/civilian/lounge)
 "QI" = (
 /obj/machinery/vending/cigarette{
 	dir = 4
@@ -7115,11 +7150,11 @@ pH
 uC
 BM
 GM
-GM
+hc
 Kf
 LL
 aJ
-QY
+hU
 UD
 UD
 Xu
@@ -7761,7 +7796,7 @@ fa
 gr
 mp
 pa
-fO
+Qn
 aJ
 Cd
 Cd
@@ -8159,7 +8194,7 @@ IU
 HW
 NB
 rC
-QY
+hU
 Vn
 Vn
 Xu

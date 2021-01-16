@@ -1,7 +1,7 @@
 /datum/map/tethys
 	path = "tethys"
 
-	name           = "Tethys Complex"
+	name           = "Tethys"
 	full_name      = "Tethys Underwater Complex"
 	station_name   = "Tethys Underwater Complex"
 	station_short  = "Tethys"
@@ -13,7 +13,7 @@
 	company_short  = "RG"
 
 	lobby_screens = list('maps/tethys/media/tethys.png')
-	lobby_tracks  = list(/music_track/darkspace1)
+	welcome_sound = 'maps/tethys/media/welcome.ogg'
 
 	station_levels = list(1,2,3)
 	contact_levels = list(1,2,3)

@@ -6,11 +6,11 @@
 		/datum/job/director,
 		/datum/job/manager,
 		/datum/job/engineer/head,
+		/datum/job/engineer,
 		/datum/job/doctor,
 		/datum/job/doctor/head,
-		/datum/job/researcher,
 		/datum/job/researcher/head,
-		/datum/job/engineer
+		/datum/job/researcher
 	)
 
 /obj/machinery/suit_cycler/tethys
