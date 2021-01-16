@@ -926,7 +926,7 @@
 "if" = (
 /obj/effect/floor_decal/industrial/outline/orange,
 /obj/machinery/mech_recharger,
-/mob/living/exosuit/premade/random/boring,
+/mob/living/exosuit/premade/random/normal,
 /turf/simulated/floor/tiled/white/monotile,
 /area/tethys/science/workshop)
 "ih" = (
@@ -1470,11 +1470,6 @@
 	},
 /turf/simulated/floor/tiled/white,
 /area/tethys/science/workshop)
-"nh" = (
-/obj/effect/floor_decal/industrial/outline/orange,
-/mob/living/exosuit/premade/random/boring,
-/turf/simulated/floor/tiled/white/monotile,
-/area/tethys/science/workshop)
 "nk" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
@@ -1482,6 +1477,7 @@
 /area/tethys/science/workshop)
 "no" = (
 /obj/effect/floor_decal/industrial/outline/orange,
+/mob/living/exosuit/premade/random/normal,
 /turf/simulated/floor/tiled/white/monotile,
 /area/tethys/science/workshop)
 "nr" = (
@@ -4228,7 +4224,7 @@
 /area/tethys/cargo)
 "Og" = (
 /obj/machinery/mech_recharger,
-/mob/living/exosuit/premade/random/boring,
+/mob/living/exosuit/premade/random/normal,
 /turf/simulated/floor/tiled/techmaint,
 /area/tethys/cargo)
 "Om" = (
@@ -4411,10 +4407,6 @@
 	},
 /obj/structure/catwalk,
 /obj/structure/ore_box,
-/turf/simulated/floor/plating,
-/area/tethys/cargo)
-"QF" = (
-/obj/machinery/mech_recharger,
 /turf/simulated/floor/plating,
 /area/tethys/cargo)
 "QX" = (
@@ -4733,7 +4725,6 @@
 /area/tethys/cargo)
 "UF" = (
 /obj/machinery/mech_recharger,
-/mob/living/exosuit/premade/random/boring,
 /turf/simulated/floor/plating,
 /area/tethys/cargo)
 "UJ" = (
@@ -13759,7 +13750,7 @@ dC
 Cq
 if
 kt
-nh
+no
 pc
 qX
 ss
@@ -14552,7 +14543,7 @@ FA
 HJ
 OO
 Or
-QF
+UB
 UB
 WY
 OO
