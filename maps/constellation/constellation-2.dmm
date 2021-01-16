@@ -194,9 +194,6 @@
 /obj/effect/floor_decal/industrial/warning{
 	dir = 8
 	},
-/obj/machinery/light/small{
-	dir = 1
-	},
 /obj/machinery/light_switch{
 	pixel_y = 24
 	},
@@ -251,9 +248,7 @@
 /obj/effect/floor_decal/industrial/warning{
 	dir = 4
 	},
-/obj/machinery/light/small{
-	dir = 1
-	},
+/obj/machinery/alarm,
 /turf/simulated/floor/tiled/techmaint,
 /area/ship/trade/dock)
 "ay" = (
@@ -391,6 +386,7 @@
 	d2 = 2;
 	icon_state = "0-2"
 	},
+/obj/machinery/door/firedoor,
 /turf/simulated/floor/plating,
 /area/ship/trade/command/bridge)
 "aM" = (
@@ -739,6 +735,13 @@
 /obj/machinery/atmospherics/pipe/manifold/hidden/scrubbers{
 	dir = 8
 	},
+/obj/machinery/power/apc{
+	dir = 8
+	},
+/obj/structure/cable{
+	d2 = 4;
+	icon_state = "0-4"
+	},
 /turf/simulated/floor/tiled/techmaint,
 /area/ship/trade/dock)
 "bD" = (
@@ -746,9 +749,6 @@
 	d1 = 4;
 	d2 = 8;
 	icon_state = "4-8"
-	},
-/obj/machinery/light_switch{
-	pixel_y = -24
 	},
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
 	dir = 4
@@ -777,11 +777,6 @@
 	},
 /obj/machinery/atmospherics/pipe/manifold/hidden/scrubbers,
 /obj/machinery/atmospherics/pipe/manifold/hidden/supply,
-/obj/machinery/power/apc,
-/obj/structure/cable{
-	d2 = 8;
-	icon_state = "0-8"
-	},
 /turf/simulated/floor/tiled/techmaint,
 /area/ship/trade/dock)
 "bG" = (
@@ -4675,10 +4670,10 @@
 /turf/simulated/floor/plating,
 /area/ship/trade/shuttle)
 "tg" = (
-/obj/machinery/light/small{
+/obj/machinery/atmospherics/unary/vent_scrubber/on,
+/obj/machinery/light{
 	dir = 8
 	},
-/obj/machinery/atmospherics/unary/vent_scrubber/on,
 /turf/simulated/floor/tiled/techmaint,
 /area/ship/trade/dock)
 "tC" = (
@@ -5168,7 +5163,7 @@
 /area/ship/trade/crew/toilets)
 "zi" = (
 /obj/machinery/atmospherics/unary/vent_scrubber/on,
-/obj/machinery/light/small{
+/obj/machinery/light{
 	dir = 4
 	},
 /turf/simulated/floor/tiled/techmaint,
@@ -5508,9 +5503,6 @@
 	},
 /obj/effect/floor_decal/industrial/warning{
 	dir = 4
-	},
-/obj/machinery/alarm{
-	dir = 1
 	},
 /turf/simulated/floor/tiled/techmaint,
 /area/ship/trade/dock)
