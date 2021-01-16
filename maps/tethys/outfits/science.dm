@@ -1,4 +1,4 @@
-/decl/hierarchy/outfit/job/tethys/researcher
+/decl/hierarchy/outfit/job/tethys/basic/researcher
 	name = "Colony Researcher Outfit"
 	id_type = /obj/item/card/id/science
 	shoes = /obj/item/clothing/shoes/dress
@@ -10,7 +10,7 @@
 	job_access_type = /datum/job/researcher
 	detail_color = COLOR_PALE_PURPLE_GRAY
 
-/decl/hierarchy/outfit/job/tethys/researcher/head
+/decl/hierarchy/outfit/job/tethys/basic/researcher/head
 	name = "Head Colony Researcher Outfit"
 	id_type = /obj/item/card/id/science/head
 

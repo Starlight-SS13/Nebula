@@ -39,17 +39,18 @@
 		access_surgery,
 		access_virology
 	)
-	outfit_type = /decl/hierarchy/outfit/job/tethys/doctor
+	outfit_type = /decl/hierarchy/outfit/job/tethys/basic/doctor
 
 /datum/job/doctor/head
 	title = "Colony Head Doctor"
 	head_position = 1
+	hud_icon = "hudchiefmedicalofficer"
 	department_refs = list(
 		DEPT_MEDICAL,
 		DEPT_COMMAND
 	)
 	supervisors = "the Colony Director and your own ethics"
-	outfit_type = /decl/hierarchy/outfit/job/tethys/doctor/head
+	outfit_type = /decl/hierarchy/outfit/job/tethys/basic/doctor/head
 	alt_titles = list("Surgeon")
 	total_positions = 1
 	spawn_positions = 1

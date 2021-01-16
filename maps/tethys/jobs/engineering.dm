@@ -4,7 +4,7 @@
 	total_positions = 2
 	spawn_positions = 2
 	hud_icon = "hudengineer"
-	outfit_type = /decl/hierarchy/outfit/job/tethys/engineer
+	outfit_type = /decl/hierarchy/outfit/job/tethys/basic/engineer
 	department_refs = list(DEPT_ENGINEERING)
 	total_positions = 8
 	spawn_positions = 7
@@ -107,7 +107,7 @@
 	)
 	minimal_player_age = 14
 	supervisors = "the Colony Director"
-	outfit_type = /decl/hierarchy/outfit/job/tethys/engineer/head
+	outfit_type = /decl/hierarchy/outfit/job/tethys/basic/head
 	min_skill = list(
 		SKILL_LITERACY     = SKILL_ADEPT,
 		SKILL_COMPUTER     = SKILL_ADEPT,

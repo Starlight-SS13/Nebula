@@ -362,6 +362,10 @@
 	},
 /turf/simulated/floor/lino,
 /area/tethys/civilian/lounge)
+"tO" = (
+/obj/effect/landmark/test/space_turf,
+/turf/exterior/seafloor,
+/area/space/ocean)
 "uC" = (
 /obj/effect/floor_decal/spline/fancy/wood/corner{
 	dir = 8
@@ -838,6 +842,7 @@
 /obj/structure/cable{
 	icon_state = "4-8"
 	},
+/obj/effect/landmark/test/safe_turf,
 /turf/simulated/floor/tiled/dark,
 /area/tethys/hallway/upper)
 "ST" = (
@@ -7679,7 +7684,7 @@ Wp
 Xc
 Xu
 bK
-bK
+tO
 bK
 bK
 bK

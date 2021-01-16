@@ -2,7 +2,7 @@
 	title       = "Colony Director"
 	supervisors = "your conscience, law, and command orders"
 
-	outfit_type = /decl/hierarchy/outfit/job/tethys/director
+	outfit_type = /decl/hierarchy/outfit/job/tethys/basic/director
 
 	min_skill = list(
 		SKILL_LITERACY = SKILL_ADEPT,
@@ -20,6 +20,7 @@
 	department_refs       = list(DEPT_COMMAND)
 	total_positions       = 1
 	spawn_positions       = 1
+	hud_icon              = "hudcaptain"
 	selection_color       = "#1d1d4f"
 	req_admin_notify      = TRUE
 	head_position         = TRUE
@@ -39,7 +40,7 @@
 	title = "Colony Manager"
 	supervisors = "the Colony Director"
 
-	outfit_type = /decl/hierarchy/outfit/job/tethys/manager
+	outfit_type = /decl/hierarchy/outfit/job/tethys/basic/manager
 
 	min_skill = list(
 		SKILL_LITERACY = SKILL_ADEPT,

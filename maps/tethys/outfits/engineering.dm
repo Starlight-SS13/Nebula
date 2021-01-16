@@ -1,4 +1,4 @@
-/decl/hierarchy/outfit/job/tethys/engineer
+/decl/hierarchy/outfit/job/tethys/basic/engineer
 	name = "Colony Engineer Outfit"
 	head = /obj/item/clothing/head/hardhat
 	flags = OUTFIT_HAS_BACKPACK|OUTFIT_EXTENDED_SURVIVAL
@@ -14,7 +14,7 @@
 	job_access_type = /datum/job/engineer
 	detail_color = COLOR_SUN
 
-/decl/hierarchy/outfit/job/tethys/engineer/head
+/decl/hierarchy/outfit/job/tethys/basic/engineer/head
 	name = "Colony Head Engineer Outfit"
 	uniform = /obj/item/clothing/under/chief_engineer
 	glasses = /obj/item/clothing/glasses/welding/superior

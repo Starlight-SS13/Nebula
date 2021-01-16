@@ -1004,6 +1004,12 @@
 	dir = 4;
 	id_tag = "dock_port_pump"
 	},
+/obj/structure/cable{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8";
+	pixel_y = 0
+	},
 /turf/simulated/floor/tiled/techfloor,
 /area/tethys/eva)
 "wx" = (
@@ -1019,6 +1025,12 @@
 	icon_state = "intact"
 	},
 /obj/structure/hygiene/drain,
+/obj/structure/cable{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8";
+	pixel_y = 0
+	},
 /turf/simulated/floor/tiled/techfloor,
 /area/tethys/eva)
 "wR" = (

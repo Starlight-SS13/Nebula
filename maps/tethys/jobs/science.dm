@@ -3,8 +3,9 @@
 	supervisors = "the Head Colony Researcher and the Colony Director"
 	total_positions = 2
 	spawn_positions = 1
+	hud_icon = "hudscientist"
 	alt_titles = list()
-	outfit_type = /decl/hierarchy/outfit/job/tethys/researcher
+	outfit_type = /decl/hierarchy/outfit/job/tethys/basic/researcher
 	min_skill = list(
 		SKILL_LITERACY = SKILL_ADEPT,
 		SKILL_COMPUTER = SKILL_BASIC,
@@ -43,8 +44,9 @@
 	supervisors = "the Colony Director"
 	spawn_positions = 1
 	total_positions = 1
+	hud_icon = "hudheadresearcher"
 	alt_titles = list()
-	outfit_type = /decl/hierarchy/outfit/job/tethys/researcher/head
+	outfit_type = /decl/hierarchy/outfit/job/tethys/basic/researcher/head
 	min_skill = list(
 		SKILL_LITERACY = SKILL_ADEPT,
 		SKILL_COMPUTER = SKILL_BASIC,

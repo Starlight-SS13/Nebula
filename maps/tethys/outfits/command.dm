@@ -1,4 +1,4 @@
-/decl/hierarchy/outfit/job/tethys/director
+/decl/hierarchy/outfit/job/tethys/basic/director
 	name = "Colony Director Outfit"
 	uniform = /obj/item/clothing/pants/baggy/casual/classicjeans
 	shoes = /obj/item/clothing/shoes/color/black
@@ -6,7 +6,7 @@
 	r_pocket = /obj/item/radio
 	id_type = /obj/item/card/id/gold/director
 
-/decl/hierarchy/outfit/job/tethys/post_equip(var/mob/living/carbon/human/H)
+/decl/hierarchy/outfit/job/tethys/basic/director/post_equip(var/mob/living/carbon/human/H)
 	..()
 	var/obj/item/clothing/uniform = H.w_uniform
 	if(uniform)
@@ -16,7 +16,7 @@
 		else
 			qdel(eyegore)
 
-/decl/hierarchy/outfit/job/tethys/manager
+/decl/hierarchy/outfit/job/tethys/basic/manager
 	name = "Colony Manager Outfit"
 	uniform = /obj/item/clothing/under/suit_jacket/checkered
 	shoes = /obj/item/clothing/shoes/dress
