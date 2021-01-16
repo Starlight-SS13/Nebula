@@ -1,8 +1,3 @@
-/datum/map/tethys
-	use_overmap         = TRUE
-	overmap_event_areas = 6
-	num_exoplanets      = 2
-
 /obj/effect/overmap/visitable/ship/tethys
 	name         = "underwater complex"
 	desc         = "Medium-sized pressurized underwater facility."

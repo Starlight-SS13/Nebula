@@ -1,16 +1,3 @@
-//Areas + ocean things
-
-/datum/map/tethys
-	base_turf_by_z = list(
-		"1" = /turf/exterior/seafloor,
-		"2" = /turf/simulated/open,
-		"3" = /turf/simulated/open)
-
-/turf/simulated/wall/natural/ocean
-	name       = "ocean rock"
-	floor_type = /turf/exterior/seafloor
-	strata     = /decl/strata/permafrost
-
 /turf/c_airblock(turf/other)
 	if(get_fluid_depth() >= FLUID_OVER_MOB_HEAD)
 		return BLOCKED

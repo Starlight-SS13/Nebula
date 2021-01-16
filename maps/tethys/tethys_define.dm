@@ -19,6 +19,18 @@
 	contact_levels = list(1,2,3)
 	player_levels  = list(1,2,3)
 
+	base_turf_by_z = list(
+		"1" = /turf/exterior/seafloor,
+		"2" = /turf/simulated/open,
+		"3" = /turf/simulated/open
+	)
+
+	use_overmap         = TRUE
+	overmap_event_areas = 6
+	num_exoplanets      = 2
+
+	exterior_atmos_temp = 110 // -160 degrees celcius (surface temperature of Europa)
+
 	emergency_shuttle_leaving_dock   = "Attention all hands: the escape pods have been launched, maintaining burn for %ETA%."
 	emergency_shuttle_called_message = "Attention all hands: emergency evacuation procedures are now in effect. Escape pods will launch in %ETA%"
 	emergency_shuttle_recall_message = "Attention all hands: emergency evacuation sequence aborted. Return to normal operating conditions."
