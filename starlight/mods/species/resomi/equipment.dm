@@ -64,39 +64,37 @@
 /obj/item/clothing/under/resomi
 	name = "small jumpsuit"
 	desc = "A small jumpsuit. Looks pretty much perfect to fit a resomi."
-	icon       = 'starlight/mods/species/resomi/icons/clothing/obj_under.dmi'
-	icon_state = "jumpsuit"
+	icon = 'starlight/mods/species/resomi/icons/clothing/exp/under/small_jumpsuit.dmi'
 	bodytype_restricted = list(BODYTYPE_RESOMI)
-	sprite_sheets       = list(BODYTYPE_RESOMI = 'starlight/mods/species/resomi/icons/clothing/onmob_under.dmi')
 
 /obj/item/clothing/under/resomi/simple
 	name = "small smock"
-	icon_state = "grey"
+	icon = 'starlight/mods/species/resomi/icons/clothing/exp/under/small_smock.dmi'
 
 /obj/item/clothing/under/resomi/rainbow
 	name = "rainbow smock"
 	desc = "Why would someone wear this?"
-	icon_state = "rainbow"
+	icon = 'starlight/mods/species/resomi/icons/clothing/exp/under/rainbow_smock.dmi'
 
 /obj/item/clothing/under/resomi/engine
 	name = "small engineering smock"
-	icon_state = "eng"
+	icon = 'starlight/mods/species/resomi/icons/clothing/exp/under/engineering_smock.dmi'
 
 /obj/item/clothing/under/resomi/security
 	name = "small security smock"
-	icon_state = "sec"
+	icon = 'starlight/mods/species/resomi/icons/clothing/exp/under/security_smock.dmi'
 
 /obj/item/clothing/under/resomi/medical
 	name = "small medical smock"
-	icon_state = "med"
+	icon = 'starlight/mods/species/resomi/icons/clothing/exp/under/medical_smock.dmi'
 
 /obj/item/clothing/under/resomi/science
 	name = "small science smock"
-	icon_state = "sci"
+	icon = 'starlight/mods/species/resomi/icons/clothing/exp/under/science_smock.dmi'
 
 /obj/item/clothing/under/resomi/command
 	name = "small command uniform"
-	icon_state = "capt"
+	icon = 'starlight/mods/species/resomi/icons/clothing/exp/under/command_uniform.dmi'
 
 /obj/item/clothing/under/resomi/work
 	name = "small work jumpsuit"
@@ -130,7 +128,7 @@
 /obj/item/clothing/shoes/resomi/footwraps
 	name = "cloth footwraps"
 	desc = "A roll of treated canvas used for wrapping paws"
-	icon = 'starlight/mods/species/resomi/icons/clothing/exp/footwraps.dmi'
+	icon = 'starlight/mods/species/resomi/icons/clothing/exp/feet/footwraps.dmi'
 	force = 0
 	item_flags = ITEM_FLAG_SILENT
 	w_class = ITEM_SIZE_SMALL
@@ -138,11 +136,11 @@
 /obj/item/clothing/shoes/resomi/footwraps/socks_resomi
 	name = "koishi"
 	desc = "Looks like socks but with toe holes and thick sole."
-	icon = 'starlight/mods/species/resomi/icons/clothing/exp/koishi.dmi'
+	icon = 'starlight/mods/species/resomi/icons/clothing/exp/feet/koishi.dmi'
 
 /obj/item/clothing/shoes/resomi
 	name = "small shoes"
-	icon = 'starlight/mods/species/resomi/icons/clothing/exp/shoes.dmi'
+	icon = 'starlight/mods/species/resomi/icons/clothing/exp/feet/shoes.dmi'
 	color = COLOR_GRAY
 	bodytype_restricted = list(BODYTYPE_RESOMI)
 
@@ -151,7 +149,7 @@
 /obj/item/clothing/under/resomi/space
 	name       = "small pressure suit"
 	desc       = "Thick rubber jumpsuit designed for work in vacuum of space."
-	icon_state = "space"
+	icon       = 'starlight/mods/species/resomi/icons/clothing/exp/under/pressure_suit.dmi'
 	item_flags         = ITEM_FLAG_THICKMATERIAL
 	body_parts_covered = SLOT_UPPER_BODY | SLOT_LOWER_BODY | SLOT_LEGS | SLOT_FEET | SLOT_ARMS | SLOT_HANDS
 	cold_protection    = SLOT_UPPER_BODY | SLOT_LOWER_BODY | SLOT_LEGS | SLOT_FEET | SLOT_ARMS | SLOT_HANDS
