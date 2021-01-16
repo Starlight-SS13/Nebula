@@ -5,3 +5,6 @@
 
 /decl/modpack/resomi
 	name = "Resomi"
+
+/mob/living/carbon/human/resomi/Initialize(mapload)
+	..(mapload, SPECIES_RESOMI)
