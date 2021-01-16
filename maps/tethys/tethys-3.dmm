@@ -701,17 +701,7 @@
 /obj/machinery/door/airlock/external/bolted{
 	id_tag = "dock_port_in"
 	},
-/obj/structure/cable{
-	d1 = 4;
-	d2 = 8;
-	icon_state = "4-8";
-	pixel_y = 0
-	},
 /obj/effect/floor_decal/industrial/hatch/yellow,
-/obj/machinery/atmospherics/pipe/simple/hidden{
-	dir = 4;
-	icon_state = "intact"
-	},
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/tethys/eva)
 "sm" = (
