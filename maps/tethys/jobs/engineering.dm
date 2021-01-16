@@ -52,7 +52,7 @@
 	alt_titles = list()
 
 /datum/job/engineer/head
-	title = "Head Engineer"
+	title = "Colony Head Engineer"
 	head_position = 1
 	department_refs = list(
 		DEPT_ENGINEERING,

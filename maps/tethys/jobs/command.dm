@@ -1,10 +1,3 @@
-/datum/job
-	department_refs = list(DEPT_CIVILIAN)
-	skill_points    = 26
-	outfit_type     = /decl/hierarchy/outfit/job/tethys
-
-//com
-
 /datum/job/director
 	title       = "Colony Director"
 	supervisors = "your conscience, law, and command orders"
@@ -15,7 +8,8 @@
 		SKILL_LITERACY = SKILL_ADEPT,
 		SKILL_WEAPONS  = SKILL_ADEPT,
 		SKILL_SCIENCE  = SKILL_ADEPT,
-		SKILL_PILOT    = SKILL_ADEPT)
+		SKILL_PILOT    = SKILL_ADEPT
+	)
 
 	max_skill = list(
 		SKILL_PILOT   = SKILL_MAX,
@@ -41,11 +35,11 @@
 /datum/job/director/get_access()
 	return get_all_station_access()
 
-/datum/job/hop
-	title = "Head of Personnel"
+/datum/job/manager
+	title = "Colony Manager"
 	supervisors = "the Colony Director"
 
-	outfit_type = /decl/hierarchy/outfit/job/tethys/hop
+	outfit_type = /decl/hierarchy/outfit/job/tethys/manager
 
 	min_skill = list(
 		SKILL_LITERACY = SKILL_ADEPT,

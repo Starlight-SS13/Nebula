@@ -4,7 +4,7 @@
 	allowed_jobs = list(
 		/datum/job/assistant,
 		/datum/job/director,
-		/datum/job/hop,
+		/datum/job/manager,
 		/datum/job/engineer/head,
 		/datum/job/doctor,
 		/datum/job/doctor/head,

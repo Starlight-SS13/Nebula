@@ -1,5 +1,5 @@
 /decl/hierarchy/outfit/job/tethys/doctor
-	name = "Colony Doctor"
+	name = "Colony Doctor Outfit"
 	uniform = /obj/item/clothing/under/det/black
 	shoes = /obj/item/clothing/shoes/dress
 	pda_type = /obj/item/modular_computer/pda/medical
@@ -12,4 +12,4 @@
 	detail_color = COLOR_PALE_BLUE_GRAY
 
 /decl/hierarchy/outfit/job/tethys/doctor/head
-	name = "Head Colony Doctor"
+	name = "Colony Head Doctor Outfit"

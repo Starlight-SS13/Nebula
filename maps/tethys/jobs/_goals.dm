@@ -28,7 +28,7 @@ var/list/tethys_paperwork_end_areas = list()
 
 /datum/goal/department/paperwork/tethys
 	paperwork_types =    list(/obj/item/paperwork/tethys)
-	signatory_job_list = list(/datum/job/director, /datum/job/hop)
+	signatory_job_list = list(/datum/job/director, /datum/job/manager)
 
 /datum/goal/department/paperwork/tethys/get_spawn_turfs()
 	return global.tethys_paperwork_spawn_turfs

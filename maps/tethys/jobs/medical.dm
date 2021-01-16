@@ -42,7 +42,7 @@
 	outfit_type = /decl/hierarchy/outfit/job/tethys/doctor
 
 /datum/job/doctor/head
-	title = "Head Colony Doctor"
+	title = "Colony Head Doctor"
 	head_position = 1
 	department_refs = list(
 		DEPT_MEDICAL,

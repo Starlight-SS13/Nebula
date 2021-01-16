@@ -39,7 +39,7 @@
 	)
 
 /datum/job/researcher/head
-	title = "Head Colony Researcher"
+	title = "Colony Head Researcher"
 	supervisors = "the Colony Director"
 	spawn_positions = 1
 	total_positions = 1
