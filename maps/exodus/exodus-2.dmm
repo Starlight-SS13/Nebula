@@ -15188,11 +15188,58 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
 /turf/simulated/floor/tiled/freezer,
 /area/crew_quarters/toilet)
+"aDg" = (
+/obj/machinery/computer/modular/preset/civilian{
+	dir = 4
+	},
+/obj/effect/floor_decal/corner/white/three_quarters{
+	dir = 8
+	},
+/turf/space,
+/turf/simulated/floor/tiled/dark,
+/area/shuttle/arrival/station)
+"aDh" = (
+/obj/machinery/computer/modular/preset/civilian{
+	dir = 4
+	},
+/obj/effect/floor_decal/corner/white/three_quarters,
+/turf/space,
+/turf/simulated/floor/tiled/dark,
+/area/shuttle/arrival/station)
+"aDi" = (
+/obj/structure/table/woodentable,
+/obj/machinery/fabricator/book,
+/obj/item/stack/material/plastic/ten,
+/obj/item/stack/material/wood/ten,
+/turf/simulated/floor/wood/walnut,
+/area/library)
 "aDj" = (
 /obj/effect/wallframe_spawn/reinforced,
 /obj/machinery/door/firedoor,
 /turf/simulated/floor/plating,
 /area/shuttle/arrival/station)
+"aDk" = (
+/obj/machinery/atmospherics/pipe/zpipe/down/supply{
+	dir = 1
+	},
+/obj/machinery/atmospherics/pipe/zpipe/down/scrubbers{
+	dir = 1
+	},
+/obj/machinery/atmospherics/pipe/zpipe/down/cyan{
+	dir = 1
+	},
+/obj/structure/lattice,
+/turf/simulated/floor/plating,
+/turf/simulated/open,
+/area/engineering/sublevel_access)
+"aDl" = (
+/obj/machinery/atmospherics/pipe/zpipe/down/red{
+	dir = 1
+	},
+/obj/structure/lattice,
+/turf/simulated/floor/plating,
+/turf/simulated/open,
+/area/engineering/sublevel_access)
 "aDm" = (
 /obj/machinery/vending/coffee,
 /turf/simulated/floor/wood/walnut,
@@ -15960,6 +16007,24 @@
 /obj/machinery/door/firedoor,
 /turf/simulated/floor/plating,
 /area/bridge/meeting_room)
+"aEH" = (
+/obj/machinery/atmospherics/pipe/zpipe/down{
+	dir = 4
+	},
+/obj/structure/cable{
+	d1 = 32;
+	d2 = 4;
+	icon_state = "32-4"
+	},
+/obj/machinery/light,
+/obj/structure/lattice,
+/obj/structure/disposalpipe/down{
+	dir = 1;
+	icon_state = "pipe-d"
+	},
+/turf/simulated/floor/plating,
+/turf/simulated/open,
+/area/engineering/sublevel_access)
 "aEI" = (
 /obj/structure/shuttle/engine/propulsion/burst{
 	dir = 4
@@ -18552,16 +18617,6 @@
 	},
 /turf/simulated/floor/wood/walnut,
 /area/crew_quarters/bar/cabin)
-"aJs" = (
-/obj/machinery/computer/modular/preset/civilian{
-	dir = 4
-	},
-/obj/effect/floor_decal/corner/white/three_quarters{
-	dir = 8
-	},
-/turf/space,
-/turf/simulated/floor/tiled/dark,
-/area/shuttle/arrival/station)
 "aJt" = (
 /obj/machinery/atmospherics/pipe/manifold/hidden/supply{
 	dir = 8
@@ -22216,11 +22271,6 @@
 /obj/structure/curtain/open/shower/security,
 /turf/simulated/floor/tiled/freezer,
 /area/security/prison/restroom)
-"aQu" = (
-/obj/structure/table/woodentable,
-/obj/machinery/fabricator/book,
-/turf/simulated/floor/wood/walnut,
-/area/library)
 "aQw" = (
 /obj/machinery/photocopier,
 /obj/structure/table/woodentable,
@@ -46187,20 +46237,6 @@
 "bKc" = (
 /turf/simulated/floor/tiled/dark,
 /area/server)
-"bKd" = (
-/obj/machinery/atmospherics/pipe/zpipe/down/supply{
-	dir = 1
-	},
-/obj/machinery/atmospherics/pipe/zpipe/down/scrubbers{
-	dir = 1
-	},
-/obj/machinery/atmospherics/pipe/zpipe/down/cyan{
-	dir = 1
-	},
-/obj/structure/lattice,
-/turf/simulated/floor/plating,
-/turf/simulated/open,
-/area/engineering/sublevel_access)
 "bKe" = (
 /obj/effect/wallframe_spawn/reinforced,
 /obj/structure/sign/warning/server_room{
@@ -50926,32 +50962,6 @@
 	},
 /turf/simulated/floor/tiled/airless,
 /area/rnd/test_area)
-"bTe" = (
-/obj/machinery/atmospherics/pipe/zpipe/down/red{
-	dir = 1
-	},
-/obj/structure/lattice,
-/turf/simulated/floor/plating,
-/turf/simulated/open,
-/area/engineering/sublevel_access)
-"bTf" = (
-/obj/machinery/atmospherics/pipe/zpipe/down{
-	dir = 4
-	},
-/obj/structure/cable{
-	d1 = 32;
-	d2 = 4;
-	icon_state = "32-4"
-	},
-/obj/machinery/light,
-/obj/structure/lattice,
-/obj/structure/disposalpipe/down{
-	dir = 1;
-	icon_state = "pipe-d"
-	},
-/turf/simulated/floor/plating,
-/turf/simulated/open,
-/area/engineering/sublevel_access)
 "bTh" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
@@ -69737,14 +69747,6 @@
 	},
 /turf/simulated/floor,
 /area/quartermaster/miningdock)
-"uCk" = (
-/obj/machinery/computer/modular/preset/civilian{
-	dir = 4
-	},
-/obj/effect/floor_decal/corner/white/three_quarters,
-/turf/space,
-/turf/simulated/floor/tiled/dark,
-/area/shuttle/arrival/station)
 "uGq" = (
 /obj/machinery/door/blast/regular{
 	dir = 4;
@@ -78495,9 +78497,9 @@ cec
 cLU
 cLU
 aMV
-aJs
+aDg
 rNu
-uCk
+aDh
 aMV
 cLU
 cLU
@@ -95003,7 +95005,7 @@ bxG
 bLY
 bPC
 cbZ
-bKd
+aDk
 cfE
 cLU
 cLU
@@ -95260,7 +95262,7 @@ bxc
 bxJ
 bNP
 cbU
-bTe
+aDl
 cfE
 cfE
 cfE
@@ -95517,7 +95519,7 @@ cfE
 bMc
 bSh
 ahP
-bTf
+aEH
 cfE
 cik
 ckT
@@ -113709,7 +113711,7 @@ aJM
 aKb
 aMq
 hLX
-aQu
+aDi
 aVd
 aON
 aVd
