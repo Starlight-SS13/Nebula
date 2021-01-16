@@ -1,5 +1,5 @@
 /datum/map/tethys
-	use_overmap         = 1
+	use_overmap         = TRUE
 	overmap_event_areas = 6
 	num_exoplanets      = 2
 	planet_size         = list(129,129)
@@ -10,26 +10,14 @@
 	icon_state   = "object"
 	free_landing = TRUE
 	known        = TRUE
-	initial_restricted_waypoints = list("Tethys Pod" = list("nav_tethys_dock"))
 
-/obj/machinery/computer/shuttle_control/explore/tethys
-	name        = "control console"
-	shuttle_tag = "Tethys Pod"
+	initial_generic_waypoints = list("nav_tethys_dock_pod")
+	initial_restricted_waypoints = list(
+		"Exploration Pod" = list(
+			"nav_tethys_dock_pod"
+		)
+	)
 
-/datum/shuttle/autodock/overmap/tethys
-	name             = "Tethys Pod"
-	shuttle_area     = /area/tethys/pod
-	current_location = "nav_tethys_dock"
-
-/area/tethys/pod
-	name       = "Tethys Pod"
-	area_flags = AREA_FLAG_RAD_SHIELDED | AREA_FLAG_ION_SHIELDED | AREA_FLAG_IS_NOT_PERSISTENT
-
-/obj/effect/overmap/visitable/ship/landable/tethys_pod
-	name    = "tethys pod"
-	shuttle = "Tethys Pod"
-
-/obj/effect/shuttle_landmark/tethys_dock
-	name               = "Tethys Pod Dock"
-	landmark_tag       = "nav_tethys_dock"
-	docking_controller = null
+/obj/effect/overmap/visitable/ship/landable/exploration_pod
+	name    = "Exploration Shuttle"
+	shuttle = "Exploration Shuttle"

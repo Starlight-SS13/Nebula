@@ -1,19 +1,12 @@
 #if !defined(USING_MAP_DATUM)
 
 	#include "../../mods/species/utility_frames/_utility_frames.dme"
+	#include "../../mods/species/tritonian/_tritonian.dme"
 
 // STARLIGHT MODS START
 
 	// General content mod
-	#include "../../starlight/mods/starlight/_starlight.dme"
-
-	// Species mods
-	#include "../../starlight/mods/resomi/_resomi.dme"
-	#include "../../starlight/mods/tajaran/_tajaran.dme"
-	#include "../../starlight/mods/tritonian/_tritonian.dme"
-
-	// Visual and audio mods
-	#include "../../starlight/mods/interpost_sounds/_interpost_sounds.dme"
+	#include "../../starlight/mods/content/starlight/_starlight.dme"
 
 // STARLIGHT MODS END
 
@@ -24,7 +17,26 @@
 	#include "tethys_overmap.dm"
 	#include "tethys_overrides.dm"
 	#include "tethys_setup.dm"
+	#include "tethys_shuttles.dm"
 	#include "tethys_unit_testing.dm"
+
+	#include "datum/fabricator_designs.dm"
+	#include "datum/loadout.dm"
+
+	#include "jobs/_goals.dm"
+	#include "jobs/_jobs.dm"
+	#include "jobs/command.dm"
+	#include "jobs/engineering.dm"
+	#include "jobs/medical.dm"
+	#include "jobs/science.dm"
+
+	#include "machinery/airlock.dm"
+
+	#include "outfits/_outfits.dm"
+	#include "outfits/command.dm"
+	#include "outfits/engineering.dm"
+	#include "outfits/medical.dm"
+	#include "outfits/science.dm"
 
 	#include "tethys-1.dmm"
 	#include "tethys-2.dmm"

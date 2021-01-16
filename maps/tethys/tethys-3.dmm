@@ -1,248 +1,8558 @@
-"au" = (/turf/simulated/floor/reinforced/airless,/area/tethys/engine/atmos)
-"aC" = (/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{dir = 4},/obj/machinery/atmospherics/pipe/simple/hidden/supply{dir = 9},/obj/structure/cable{icon_state = "4-8"},/turf/simulated/floor/tiled/techfloor,/area/tethys/sec)
-"aK" = (/obj/machinery/atmospherics/pipe/zpipe/down/scrubbers{dir = 1},/obj/machinery/atmospherics/pipe/zpipe/down/supply{dir = 1},/obj/structure/cable{icon_state = "32-2"},/obj/structure/lattice,/turf/simulated/open,/area/tethys/maint/shaft)
-"bj" = (/obj/machinery/atmospherics/unary/vent_scrubber/on,/turf/simulated/floor/tiled/techfloor,/area/tethys/eva)
-"bs" = (/obj/machinery/atmospherics/unary/vent_pump/on,/turf/simulated/floor/tiled/techfloor,/area/tethys/sec)
-"cc" = (/obj/effect/wallframe_spawn/reinforced,/turf/simulated/floor/plating,/area/tethys/civilian/library)
-"ck" = (/turf/simulated/floor/reinforced/airless,/area/tethys/bridge)
-"cy" = (/turf/simulated/floor/reinforced/airless,/area/space/ocean)
-"cL" = (/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,/obj/machinery/atmospherics/pipe/simple/hidden/supply,/obj/structure/cable{icon_state = "1-2"},/obj/machinery/door/airlock/hatch/tethys/eng,/turf/simulated/floor/tiled/techfloor/grid,/area/tethys/maint/shaft)
-"cM" = (/turf/simulated/open,/area/tethys/maint/shaft)
-"db" = (/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{dir = 4},/obj/machinery/atmospherics/pipe/simple/hidden/supply{dir = 4},/obj/machinery/door/airlock/hatch/tethys/com,/obj/structure/cable{icon_state = "4-8"},/turf/simulated/floor/tiled/techfloor/grid,/area/tethys/sec)
-"dL" = (/obj/effect/floor_decal/techfloor{dir = 1},/obj/machinery/computer/ship/sensors{dir = 1},/turf/simulated/floor/tiled/techfloor/grid,/area/tethys/bridge)
-"dQ" = (/obj/structure/bed/chair/comfy/blue,/obj/machinery/light/small{dir = 1},/turf/simulated/floor/carpet/blue,/area/tethys/civilian/library)
-"ek" = (/obj/machinery/computer/shuttle_control/explore/tethys{dir = 4},/turf/simulated/floor/bluegrid,/area/tethys/pod)
-"eq" = (/obj/structure/closet/secure_closet{closet_appearance = /decl/closet_appearance/secure_closet/security; name = "equipment closet"; req_access = list(access_armory)},/obj/item/gun/energy/capacitor/rifle,/obj/item/gun/energy/capacitor/rifle,/obj/item/gun/energy/capacitor/rifle,/obj/item/gun/energy/capacitor/rifle,/turf/simulated/floor/tiled/techfloor/grid,/area/tethys/sec)
-"eW" = (/obj/structure/bed/chair/shuttle/white{dir = 8},/obj/effect/floor_decal/industrial/outline/orange,/obj/machinery/alarm,/turf/simulated/floor/tiled/white/monotile,/area/tethys/pod)
-"fz" = (/obj/machinery/door/airlock/external/glass,/obj/structure/catwalk,/turf/simulated/floor/plating,/area/tethys/eva)
-"fH" = (/obj/structure/ladder,/obj/structure/lattice,/turf/simulated/open,/area/tethys/engine/comms)
-"fZ" = (/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,/obj/machinery/atmospherics/pipe/simple/hidden/supply,/obj/structure/cable{icon_state = "1-2"},/obj/machinery/door/airlock/hatch/tethys/com,/turf/simulated/floor/tiled/techfloor/grid,/area/tethys/eva)
-"gb" = (/obj/machinery/computer/ship/engines{dir = 8},/obj/machinery/light{dir = 4},/turf/simulated/floor/bluegrid,/area/tethys/pod)
-"gw" = (/obj/effect/overmap/visitable/ship/landable/tethys_pod,/obj/structure/bed/chair/shuttle/white{dir = 4},/obj/effect/floor_decal/industrial/outline/orange,/obj/effect/shuttle_landmark/tethys_dock,/turf/simulated/floor/tiled/white/monotile,/area/tethys/pod)
-"gy" = (/obj/machinery/atmospherics/unary/vent_pump/on,/turf/simulated/floor/tiled/dark,/area/tethys/hallway/tower)
-"gU" = (/obj/machinery/atmospherics/pipe/manifold/hidden/scrubbers,/obj/machinery/atmospherics/pipe/simple/hidden/supply{dir = 4},/obj/machinery/light/small,/obj/structure/cable{icon_state = "4-8"},/turf/simulated/floor/tiled/dark,/area/tethys/hallway/tower)
-"gX" = (/obj/machinery/computer/modular/preset/cardslot/command{dir = 1},/obj/effect/floor_decal/techfloor{dir = 1},/turf/simulated/floor/tiled/techfloor/grid,/area/tethys/bridge)
-"hC" = (/obj/machinery/network/router,/turf/simulated/floor/bluegrid,/area/tethys/engine/comms)
-"hQ" = (/obj/machinery/computer/modular/preset/aislot/sysadmin{dir = 1},/turf/simulated/floor/bluegrid,/area/tethys/engine/comms)
-"iy" = (/obj/structure/bookcase/skill_books/random,/turf/simulated/floor/wood/walnut,/area/tethys/civilian/library)
-"iG" = (/obj/machinery/alarm{dir = 4},/obj/machinery/atmospherics/unary/vent_scrubber/on{dir = 1},/turf/simulated/floor/tiled/dark/monotile,/area/tethys/hallway/tower)
-"iI" = (/obj/machinery/atmospherics/pipe/simple/visible{dir = 5},/obj/structure/cable{icon_state = "1-2"},/turf/simulated/floor/tiled/white,/area/tethys/pod)
-"iR" = (/obj/machinery/computer/modular/preset/engineering{dir = 4},/obj/effect/floor_decal/techfloor{dir = 4},/obj/machinery/light{dir = 8},/turf/simulated/floor/tiled/techfloor/grid,/area/tethys/bridge)
-"jb" = (/turf/simulated/open/flooded,/area/space/ocean)
-"jf" = (/obj/structure/cable{icon_state = "1-2"},/obj/machinery/door/airlock/external/bolted_open{id_tag = "tethys_pod_outer"},/turf/simulated/floor/tiled/white/monotile,/area/tethys/pod)
-"jh" = (/turf/simulated/wall/r_wall/prepainted,/area/tethys/hallway/tower)
-"jt" = (/obj/structure/cable{icon_state = "1-2"},/obj/structure/catwalk,/obj/machinery/light/small{dir = 8},/turf/simulated/floor/plating,/area/tethys/eva)
-"jM" = (/obj/machinery/atmospherics/unary/vent_scrubber/on,/turf/simulated/floor/tiled/dark,/area/tethys/hallway/tower)
-"kb" = (/turf/simulated/wall/titanium,/area/tethys/pod)
-"kh" = (/obj/machinery/atmospherics/unary/vent_scrubber/on,/turf/simulated/floor/tiled/techfloor,/area/tethys/sec)
-"kA" = (/obj/structure/bed/chair/shuttle/white{dir = 8},/obj/effect/floor_decal/industrial/outline/orange,/obj/machinery/atmospherics/unary/vent_pump/siphon{dir = 8; id_tag = "tethys_pod_pump_out_external"},/obj/machinery/airlock_sensor{id_tag = "tethys_pod_interior_sensor"; pixel_x = 24},/turf/simulated/floor/tiled/white/monotile,/area/tethys/pod)
-"lb" = (/obj/machinery/atmospherics/pipe/simple/hidden/supply{dir = 5},/obj/structure/cable{icon_state = "1-4"},/obj/machinery/atmospherics/pipe/manifold/hidden/scrubbers{dir = 8},/turf/simulated/floor/tiled/dark,/area/tethys/hallway/tower)
-"lJ" = (/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{dir = 4},/obj/machinery/light,/obj/structure/cable{icon_state = "0-8"},/obj/machinery/power/apc,/turf/simulated/floor/tiled/techfloor,/area/tethys/sec)
-"lQ" = (/obj/structure/cable{icon_state = "0-2"},/obj/machinery/power/apc{dir = 4},/turf/simulated/floor/tiled/dark/monotile,/area/tethys/hallway/tower)
-"mg" = (/turf/simulated/wall/r_wall/prepainted,/area/tethys/bridge)
-"mj" = (/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{dir = 4},/obj/machinery/atmospherics/pipe/simple/hidden/supply{dir = 4},/obj/machinery/light,/obj/structure/cable{icon_state = "4-8"},/turf/simulated/floor/tiled/techfloor,/area/tethys/eva)
-"mv" = (/obj/structure/table/rack,/obj/machinery/alarm{dir = 4},/turf/simulated/floor/tiled/techfloor/grid,/area/tethys/eva)
-"mA" = (/obj/structure/lattice,/obj/structure/railing/mapped{dir = 8},/turf/simulated/open,/area/tethys/maint/shaft)
-"mW" = (/obj/machinery/light{dir = 8},/obj/machinery/atmospherics/unary/vent_pump/on{dir = 1},/turf/simulated/floor/tiled/dark/monotile,/area/tethys/hallway/tower)
-"nd" = (/turf/simulated/wall/r_wall/prepainted,/area/tethys/science/testing)
-"nx" = (/obj/machinery/atmospherics/pipe/simple/hidden/supply,/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,/obj/structure/lattice,/obj/structure/railing/mapped{dir = 4},/turf/simulated/open,/area/tethys/maint/shaft)
-"nJ" = (/turf/simulated/wall/r_wall/prepainted,/area/tethys/maint/shaft)
-"nU" = (/obj/machinery/power/apc{dir = 4},/obj/structure/cable{icon_state = "0-8"},/obj/structure/table/standard,/obj/machinery/cell_charger,/turf/simulated/floor/tiled/techfloor/grid,/area/tethys/eva)
-"nY" = (/obj/structure/lattice,/turf/simulated/open,/area/tethys/engine/comms)
-"oL" = (/obj/structure/bookcase,/turf/simulated/floor/wood/walnut,/area/tethys/civilian/library)
-"py" = (/obj/machinery/atmospherics/unary/vent_pump/on,/turf/simulated/floor/tiled/techfloor,/area/tethys/eva)
-"pT" = (/obj/machinery/atmospherics/pipe/simple/hidden/supply{dir = 9},/obj/structure/cable{icon_state = "1-8"},/obj/machinery/atmospherics/pipe/manifold/hidden/scrubbers{dir = 4},/turf/simulated/floor/tiled/dark,/area/tethys/hallway/tower)
-"qd" = (/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{dir = 9},/obj/machinery/atmospherics/pipe/simple/hidden/supply{dir = 5},/obj/structure/cable{icon_state = "1-8"},/obj/effect/overmap/visitable/ship/tethys,/turf/simulated/floor/tiled/techfloor,/area/tethys/bridge)
-"qm" = (/obj/effect/wallframe_spawn/reinforced,/turf/simulated/floor/plating,/area/tethys/bridge)
-"rz" = (/turf/simulated/floor/reinforced/airless,/area/tethys/civilian/library)
-"rE" = (/obj/effect/wallframe_spawn/reinforced,/turf/simulated/floor/plating,/area/tethys/hallway/tower)
-"rM" = (/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{dir = 4},/obj/machinery/atmospherics/pipe/simple/hidden/supply{dir = 4},/obj/structure/cable{icon_state = "4-8"},/turf/simulated/floor/tiled/techfloor,/area/tethys/eva)
-"sm" = (/obj/item/clothing/mask/gas/aquabreather,/obj/structure/table/rack,/obj/item/clothing/mask/gas/aquabreather,/obj/item/clothing/mask/gas/aquabreather,/obj/item/clothing/mask/gas/aquabreather,/obj/item/clothing/mask/gas/aquabreather,/obj/item/clothing/mask/gas/aquabreather,/obj/item/clothing/mask/gas/aquabreather,/obj/item/clothing/mask/gas/aquabreather,/obj/item/clothing/mask/gas/aquabreather,/turf/simulated/floor/tiled/techfloor/grid,/area/tethys/eva)
-"so" = (/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{dir = 4},/obj/machinery/atmospherics/pipe/simple/hidden/supply{dir = 4},/obj/structure/cable{icon_state = "4-8"},/obj/structure/cable{icon_state = "1-4"},/turf/simulated/floor/tiled/dark,/area/tethys/hallway/tower)
-"sM" = (/obj/machinery/atmospherics/portables_connector{dir = 8},/obj/machinery/portable_atmospherics/canister/air/airlock{start_pressure = 606},/turf/simulated/floor/tiled/white,/area/tethys/pod)
-"sV" = (/obj/structure/lattice,/obj/item/storage/toolbox/electrical,/obj/item/clothing/gloves/insulated,/turf/simulated/open,/area/tethys/science/testing)
-"sZ" = (/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{dir = 4},/obj/machinery/atmospherics/pipe/simple/hidden/supply{dir = 4},/obj/structure/cable{icon_state = "4-8"},/turf/simulated/floor/tiled/dark,/area/tethys/hallway/tower)
-"tb" = (/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,/obj/machinery/atmospherics/pipe/simple/hidden/supply,/obj/structure/cable{icon_state = "1-2"},/obj/machinery/door/airlock/hatch/tethys/com,/turf/simulated/floor/tiled/techfloor/grid,/area/tethys/bridge)
-"tf" = (/obj/structure/cable{icon_state = "1-4"},/obj/structure/lattice,/turf/simulated/open,/area/tethys/maint/shaft)
-"tt" = (/obj/item/hoist_kit,/turf/simulated/floor/plating,/area/tethys/science/testing)
-"tD" = (/obj/machinery/alarm{dir = 8},/obj/machinery/atmospherics/unary/vent_scrubber/on{dir = 1},/turf/simulated/floor/tiled/dark/monotile,/area/tethys/hallway/tower)
-"uI" = (/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{dir = 4},/obj/machinery/atmospherics/pipe/simple/hidden/supply{dir = 4},/obj/structure/cable{icon_state = "4-8"},/obj/machinery/door/airlock/hatch/tethys/com,/turf/simulated/floor/tiled/techfloor/grid,/area/tethys/eva)
-"vc" = (/obj/structure/bed/chair/comfy/blue{dir = 1},/obj/structure/cable{icon_state = "0-4"},/obj/machinery/power/apc,/turf/simulated/floor/carpet/blue,/area/tethys/civilian/library)
-"vu" = (/obj/structure/cable{icon_state = "4-8"},/obj/machinery/door/airlock/external/glass,/turf/simulated/floor/tiled/techfloor/grid,/area/tethys/eva)
-"vD" = (/turf/simulated/floor/reinforced/airless,/area/tethys/science/testing)
-"vJ" = (/obj/machinery/dehumidifier,/turf/simulated/floor/plating,/area/tethys/maint/shaft)
-"vR" = (/obj/structure/closet/emcloset,/turf/simulated/floor/tiled/dark/monotile,/area/tethys/hallway/tower)
-"vX" = (/turf/simulated/open,/area/tethys/science/testing)
-"wc" = (/turf/simulated/open,/area/tethys/hallway/tower)
-"wm" = (/obj/structure/hygiene/drain,/obj/machinery/light/small{dir = 4},/obj/machinery/dehumidifier,/turf/simulated/floor/tiled/techfloor/grid,/area/tethys/eva)
-"wR" = (/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{dir = 4},/obj/structure/cable{icon_state = "4-8"},/obj/machinery/atmospherics/pipe/manifold/hidden/supply{dir = 1},/turf/simulated/floor/tiled/dark,/area/tethys/hallway/tower)
-"xH" = (/turf/simulated/open,/area/turbolift/tethys_tower)
-"xO" = (/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,/obj/machinery/atmospherics/pipe/simple/hidden/supply,/obj/structure/cable{icon_state = "1-2"},/obj/structure/cable{icon_state = "2-8"},/turf/simulated/floor/wood/walnut,/area/tethys/civilian/library)
-"xP" = (/turf/simulated/floor/reinforced/airless,/area/tethys/sec)
-"xW" = (/obj/structure/mattress,/obj/machinery/alarm{dir = 8},/turf/simulated/floor/bluegrid,/area/tethys/engine/comms)
-"yu" = (/turf/simulated/floor/plating,/area/tethys/science/testing)
-"yv" = (/obj/machinery/computer/ship/helm{dir = 4},/obj/machinery/light{dir = 8},/turf/simulated/floor/bluegrid,/area/tethys/pod)
-"yw" = (/turf/simulated/floor/wood/walnut,/area/tethys/civilian/library)
-"yE" = (/obj/structure/bed/chair/comfy/blue,/obj/machinery/alarm,/turf/simulated/floor/carpet/blue,/area/tethys/civilian/library)
-"yQ" = (/obj/machinery/alarm,/turf/simulated/floor/tiled/dark/monotile,/area/tethys/hallway/tower)
-"yZ" = (/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,/obj/machinery/atmospherics/pipe/manifold/hidden/supply{dir = 4},/obj/structure/cable{icon_state = "1-2"},/turf/simulated/floor/wood/walnut,/area/tethys/civilian/library)
-"za" = (/obj/machinery/shipsensors/weak,/obj/machinery/airlock_sensor{id_tag = "tethys_pod_exterior_sensor"; pixel_y = 24},/turf/simulated/floor/reinforced/airless,/area/tethys/pod)
-"zv" = (/turf/simulated/wall/r_wall/prepainted,/area/tethys/engine/comms)
-"Ai" = (/obj/machinery/atmospherics/unary/vent_pump/on{dir = 8},/obj/machinery/alarm,/obj/structure/bed/chair/office/comfy/blue{dir = 4},/turf/simulated/floor/tiled/techfloor,/area/tethys/bridge)
-"BO" = (/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,/obj/machinery/atmospherics/pipe/simple/hidden/supply,/obj/structure/cable{icon_state = "1-2"},/turf/simulated/floor/wood/walnut,/area/tethys/civilian/library)
-"Cb" = (/obj/effect/decal/cleanable/molten_item,/turf/simulated/floor/plating,/area/tethys/science/testing)
-"CI" = (/obj/structure/hygiene/drain,/obj/machinery/light/small{dir = 8},/obj/machinery/dehumidifier,/turf/simulated/floor/tiled/techfloor/grid,/area/tethys/eva)
-"CL" = (/obj/machinery/atmospherics/unary/vent_scrubber/on{dir = 4},/obj/structure/cable{icon_state = "0-4"},/obj/machinery/power/apc{dir = 1},/obj/structure/bed/chair/office/comfy/blue{dir = 8},/turf/simulated/floor/tiled/techfloor,/area/tethys/bridge)
-"CS" = (/obj/structure/lattice,/obj/machinery/power/port_gen/pacman,/turf/simulated/open,/area/tethys/science/testing)
-"De" = (/obj/effect/wallframe_spawn/reinforced,/turf/simulated/floor/plating,/area/tethys/engine/comms)
-"DC" = (/obj/structure/cable{icon_state = "4-8"},/turf/simulated/floor/tiled/techfloor/grid,/area/tethys/eva)
-"DH" = (/obj/structure/table/standard,/obj/item/paper_bin,/obj/item/pen,/obj/random/snack,/turf/simulated/floor/bluegrid,/area/tethys/engine/comms)
-"DS" = (/turf/simulated/floor/reinforced/airless,/area/tethys/maint/shaft)
-"Eb" = (/obj/structure/cable{icon_state = "0-8"},/obj/machinery/power/port_gen/pacman,/obj/effect/floor_decal/industrial/outline/orange,/obj/machinery/atmospherics/unary/vent_pump/siphon{dir = 8; id_tag = "tethys_pod_pump_out_external"},/obj/random/tool,/obj/random/tool,/turf/simulated/floor/tiled/white/monotile,/area/tethys/pod)
-"En" = (/obj/machinery/atmospherics/pipe/simple/hidden/supply{dir = 10},/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{dir = 10},/obj/structure/lattice,/turf/simulated/open,/area/tethys/maint/shaft)
-"Ew" = (/obj/structure/reagent_dispensers/fueltank,/turf/simulated/floor/plating,/area/tethys/maint/shaft)
-"ET" = (/obj/machinery/portable_atmospherics/powered/scrubber,/turf/simulated/floor/plating,/area/tethys/maint/shaft)
-"FH" = (/turf/simulated/floor/plating,/area/tethys/maint/shaft)
-"Gb" = (/obj/machinery/portable_atmospherics/powered/scrubber,/obj/effect/floor_decal/industrial/outline/orange,/obj/machinery/embedded_controller/radio/airlock/tin_can{id_tag = "tethys_pod"; pixel_y = -32},/obj/machinery/atmospherics/unary/vent_pump/siphon{dir = 8; id_tag = "tethys_pod_pump_out_external"},/turf/simulated/floor/tiled/white/monotile,/area/tethys/pod)
-"Gv" = (/obj/machinery/door/window/brigdoor/southright,/obj/structure/window/reinforced{dir = 8},/obj/machinery/merchant_pad,/turf/simulated/floor/tiled/techfloor/grid,/area/tethys/eva)
-"Gz" = (/obj/machinery/atmospherics/pipe/manifold/visible{dir = 8},/obj/structure/cable{icon_state = "1-2"},/obj/structure/cable{icon_state = "1-4"},/obj/machinery/light{dir = 8},/turf/simulated/floor/tiled/white,/area/tethys/pod)
-"GA" = (/turf/simulated/wall/r_wall/prepainted,/area/tethys/civilian/library)
-"GM" = (/obj/effect/wallframe_spawn/reinforced,/turf/simulated/floor/plating,/area/tethys/sec)
-"GZ" = (/obj/machinery/commsrelay,/turf/simulated/floor/bluegrid,/area/tethys/engine/comms)
-"Hz" = (/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,/obj/machinery/atmospherics/pipe/simple/hidden/supply,/obj/structure/cable{icon_state = "1-2"},/obj/machinery/door/airlock/hatch/tethys,/turf/simulated/floor/tiled/techfloor/grid,/area/tethys/civilian/library)
-"HY" = (/obj/structure/catwalk,/turf/simulated/floor/plating,/area/tethys/eva)
-"Is" = (/obj/machinery/atmospherics/pipe/simple/visible{dir = 6},/obj/structure/cable{icon_state = "0-2"},/obj/machinery/power/apc/super/critical{dir = 8},/turf/simulated/floor/tiled/white,/area/tethys/pod)
-"It" = (/obj/machinery/light{dir = 4},/obj/machinery/recharger,/obj/structure/table/standard,/turf/simulated/floor/tiled/techfloor/grid,/area/tethys/eva)
-"Iw" = (/obj/structure/cable{icon_state = "1-2"},/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,/obj/machinery/atmospherics/pipe/simple/hidden/supply,/turf/simulated/floor/plating,/area/tethys/maint/shaft)
-"IA" = (/obj/machinery/alarm,/obj/item/stack/material/deuterium/fifty,/obj/item/stack/material/deuterium/fifty,/obj/structure/closet/crate,/turf/simulated/floor/tiled/techfloor/grid,/area/tethys/eva)
-"IL" = (/obj/machinery/atmospherics/pipe/manifold/hidden/scrubbers,/obj/machinery/atmospherics/pipe/manifold/hidden/supply,/obj/structure/cable{icon_state = "4-8"},/obj/structure/cable{icon_state = "1-8"},/turf/simulated/floor/tiled/techfloor,/area/tethys/eva)
-"IN" = (/obj/structure/cable{icon_state = "1-2"},/obj/machinery/door/airlock/external/glass,/turf/simulated/floor/tiled/techfloor/grid,/area/tethys/eva)
-"IS" = (/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{dir = 9},/turf/simulated/floor/tiled/techfloor,/area/tethys/sec)
-"IT" = (/obj/structure/lattice,/obj/structure/cable{icon_state = "1-2"},/turf/simulated/open,/area/tethys/science/testing)
-"Jp" = (/obj/machinery/atmospherics/unary/vent_scrubber/on,/obj/machinery/atmospherics/pipe/simple/hidden/supply,/obj/structure/cable{icon_state = "2-4"},/turf/simulated/floor/tiled/techfloor,/area/tethys/eva)
-"JU" = (/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{dir = 4},/obj/machinery/atmospherics/pipe/manifold/hidden/supply,/obj/machinery/light/small,/obj/structure/cable{icon_state = "4-8"},/turf/simulated/floor/tiled/dark,/area/tethys/hallway/tower)
-"Ke" = (/obj/machinery/alarm,/obj/structure/closet/secure_closet{closet_appearance = /decl/closet_appearance/secure_closet/security; name = "equipment closet"; req_access = list(access_armory)},/obj/item/stack/material/steel/fifty,/obj/item/stack/material/glass/fifty,/turf/simulated/floor/tiled/techfloor/grid,/area/tethys/sec)
-"Kp" = (/obj/machinery/light{dir = 4},/obj/machinery/atmospherics/unary/vent_pump/on{dir = 1},/turf/simulated/floor/tiled/dark/monotile,/area/tethys/hallway/tower)
-"Kr" = (/turf/simulated/wall/r_wall/prepainted,/area/tethys/sec)
-"Kz" = (/obj/structure/bed/chair/comfy/blue{dir = 1},/obj/machinery/light/small,/turf/simulated/floor/carpet/blue,/area/tethys/civilian/library)
-"KX" = (/obj/structure/cable{icon_state = "1-4"},/obj/structure/catwalk,/turf/simulated/floor/plating,/area/tethys/eva)
-"LF" = (/turf/simulated/wall/r_wall/prepainted,/area/tethys/eva)
-"Mg" = (/obj/structure/cable,/obj/machinery/power/shield_generator,/turf/simulated/floor/plating,/area/tethys/science/testing)
-"Mv" = (/obj/machinery/shipsensors,/turf/simulated/floor/reinforced/airless,/area/tethys/bridge)
-"MN" = (/obj/machinery/computer/ship/sensors{dir = 8},/turf/simulated/floor/bluegrid,/area/tethys/pod)
-"MX" = (/obj/machinery/atmospherics/unary/vent_pump/on{dir = 4},/obj/structure/table/standard,/obj/machinery/recharger,/turf/simulated/floor/carpet/blue,/area/tethys/civilian/library)
-"Ne" = (/obj/structure/hygiene/drain,/obj/machinery/dehumidifier,/turf/simulated/floor/tiled/techfloor/grid,/area/tethys/eva)
-"Ny" = (/obj/structure/table/standard,/turf/simulated/floor/carpet/blue,/area/tethys/civilian/library)
-"NC" = (/obj/machinery/atmospherics/pipe/manifold/hidden/scrubbers{dir = 1},/obj/machinery/atmospherics/pipe/manifold/hidden/supply{dir = 1},/obj/structure/cable{icon_state = "4-8"},/obj/structure/cable{icon_state = "2-4"},/turf/simulated/floor/tiled/dark,/area/tethys/hallway/tower)
-"ND" = (/turf/simulated/floor/tiled/techfloor,/area/tethys/sec)
-"NF" = (/obj/structure/bed/chair/office/comfy/blue{dir = 1},/turf/simulated/floor/tiled/techfloor,/area/tethys/eva)
-"Or" = (/obj/machinery/computer/modular/preset/medical{dir = 8},/obj/effect/floor_decal/techfloor{dir = 8},/obj/machinery/light{dir = 4},/turf/simulated/floor/tiled/techfloor/grid,/area/tethys/bridge)
-"OF" = (/obj/machinery/network/mainframe,/turf/simulated/floor/bluegrid,/area/tethys/engine/comms)
-"Pe" = (/obj/structure/ladder,/obj/structure/lattice,/obj/structure/cable{icon_state = "32-2"},/turf/simulated/open,/area/tethys/science/testing)
-"PY" = (/obj/machinery/computer/modular/preset/merchant,/turf/simulated/floor/tiled/techfloor/grid,/area/tethys/eva)
-"QA" = (/obj/machinery/light/small,/turf/simulated/floor/plating,/area/tethys/science/testing)
-"RN" = (/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{dir = 4},/obj/machinery/atmospherics/pipe/simple/hidden/supply{dir = 4},/obj/structure/cable{icon_state = "4-8"},/obj/machinery/door/airlock/hatch/tethys,/turf/simulated/floor/tiled/techfloor/grid,/area/tethys/hallway/tower)
-"SL" = (/obj/machinery/atmospherics/unary/vent_scrubber/on{dir = 4},/obj/structure/table/standard,/turf/simulated/floor/carpet/blue,/area/tethys/civilian/library)
-"Tq" = (/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{dir = 4},/obj/machinery/atmospherics/pipe/manifold/hidden/supply,/obj/structure/cable{icon_state = "4-8"},/turf/simulated/floor/tiled/techfloor,/area/tethys/eva)
-"Tv" = (/obj/machinery/fabricator/book,/obj/structure/table/standard,/obj/item/stack/material/wood/ten,/obj/item/stack/material/plastic/ten,/turf/simulated/floor/wood/walnut,/area/tethys/civilian/library)
-"TK" = (/turf/simulated/floor/reinforced/airless,/area/tethys/eva)
-"TX" = (/obj/machinery/atmospherics/pipe/manifold/hidden/scrubbers{dir = 4},/obj/machinery/atmospherics/pipe/simple/hidden/supply,/obj/structure/cable{icon_state = "1-2"},/turf/simulated/floor/wood/walnut,/area/tethys/civilian/library)
-"Uh" = (/obj/machinery/atmospherics/pipe/manifold/visible{dir = 8},/obj/structure/cable{icon_state = "1-2"},/turf/simulated/floor/tiled/white,/area/tethys/pod)
-"UT" = (/turf/simulated/floor/tiled/dark,/area/tethys/hallway/tower)
-"Vm" = (/obj/structure/lattice,/obj/machinery/light/small{dir = 1},/turf/simulated/open,/area/tethys/engine/comms)
-"Vr" = (/obj/machinery/atmospherics/pipe/simple/hidden/supply,/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,/obj/structure/cable{icon_state = "2-8"},/turf/simulated/floor/plating,/area/tethys/maint/shaft)
-"Vt" = (/obj/machinery/ion_thruster{dir = 8},/turf/simulated/floor/reinforced/airless,/area/tethys/pod)
-"VB" = (/obj/structure/lattice,/obj/structure/railing/mapped,/turf/simulated/open,/area/tethys/maint/shaft)
-"Wm" = (/turf/simulated/floor/reinforced/airless,/area/tethys/hallway/tower)
-"WV" = (/obj/machinery/fabricator/tethys{fab_status_flags = 1},/turf/simulated/floor/tiled/techfloor/grid,/area/tethys/sec)
-"Xw" = (/obj/machinery/ion_thruster{dir = 4},/turf/simulated/floor/reinforced/airless,/area/tethys/pod)
-"XS" = (/obj/machinery/atmospherics/pipe/simple/hidden/supply{dir = 6},/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{dir = 6},/obj/structure/lattice,/obj/structure/ladder,/obj/structure/railing/mapped{dir = 1},/turf/simulated/open,/area/tethys/maint/shaft)
-"Yr" = (/obj/structure/closet/firecloset,/turf/simulated/floor/tiled/dark/monotile,/area/tethys/hallway/tower)
-"Zc" = (/obj/structure/closet/secure_closet{closet_appearance = /decl/closet_appearance/secure_closet/security; name = "equipment closet"; req_access = list(access_armory)},/obj/item/gun/projectile/automatic/smg,/obj/item/gun/projectile/automatic/smg,/obj/item/gun/projectile/automatic/smg,/obj/item/gun/projectile/automatic/smg,/obj/item/gun/projectile/revolver/lasvolver,/obj/item/gun/projectile/revolver/lasvolver,/obj/item/gun/projectile/revolver/lasvolver,/obj/item/gun/projectile/revolver/lasvolver,/turf/simulated/floor/tiled/techfloor/grid,/area/tethys/sec)
-"Zx" = (/obj/structure/lattice,/turf/simulated/open,/area/tethys/science/testing)
-"ZD" = (/obj/effect/wallframe_spawn/reinforced,/turf/simulated/floor/plating,/area/tethys/eva)
-"ZI" = (/obj/machinery/atmospherics/pipe/manifold/hidden/scrubbers{dir = 8},/obj/machinery/atmospherics/pipe/simple/hidden/supply{dir = 6},/obj/structure/cable{icon_state = "2-4"},/obj/structure/cable{icon_state = "2-8"},/obj/structure/cable{icon_state = "4-8"},/turf/simulated/floor/tiled/techfloor,/area/tethys/eva)
-"ZY" = (/obj/effect/landmark/map_data{height = 3},/turf/simulated/open/flooded,/area/space/ocean)
+//MAP CONVERTED BY dmm2tgm.py THIS HEADER COMMENT PREVENTS RECONVERSION, DO NOT REMOVE
+"am" = (
+/obj/machinery/atmospherics/pipe/simple/hidden{
+	dir = 9;
+	icon_state = "intact"
+	},
+/turf/simulated/wall/titanium,
+/area/tethys/exploration_pod)
+"au" = (
+/turf/simulated/floor/reinforced/airless,
+/area/tethys/engineering/atmospherics)
+"ax" = (
+/obj/machinery/atmospherics/pipe/manifold/hidden/supply{
+	dir = 8
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
+/obj/machinery/button/blast_door{
+	id_tag = "shuttle_left";
+	name = "Port External Lockdown";
+	pixel_x = -24;
+	pixel_y = -8
+	},
+/obj/machinery/button/blast_door{
+	id_tag = "shuttle_right";
+	name = "Starboard External Lockdown";
+	pixel_x = -24;
+	pixel_y = 8
+	},
+/obj/structure/handrail{
+	dir = 4
+	},
+/turf/simulated/floor/tiled/dark/monotile,
+/area/tethys/exploration_pod)
+"aC" = (
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 9
+	},
+/obj/structure/cable{
+	icon_state = "4-8"
+	},
+/obj/machinery/light_switch{
+	pixel_y = -21
+	},
+/turf/simulated/floor/tiled/techfloor,
+/area/tethys/security)
+"aK" = (
+/obj/machinery/atmospherics/pipe/zpipe/down/scrubbers{
+	dir = 1
+	},
+/obj/machinery/atmospherics/pipe/zpipe/down/supply{
+	dir = 1
+	},
+/obj/structure/cable{
+	icon_state = "32-2"
+	},
+/obj/structure/lattice,
+/turf/simulated/open,
+/area/tethys/maintenance/shaft)
+"aN" = (
+/obj/machinery/atmospherics/pipe/simple/hidden/supply,
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
+/obj/machinery/door/firedoor,
+/obj/effect/floor_decal/industrial/hatch/yellow,
+/turf/simulated/floor/tiled/techfloor/grid,
+/area/tethys/exploration_pod)
+"bj" = (
+/obj/machinery/atmospherics/unary/vent_scrubber/on,
+/turf/simulated/floor/tiled/techfloor,
+/area/tethys/eva)
+"bs" = (
+/obj/machinery/atmospherics/unary/vent_pump/on,
+/turf/simulated/floor/tiled/techfloor,
+/area/tethys/security)
+"cc" = (
+/obj/effect/wallframe_spawn/reinforced,
+/turf/simulated/floor/plating,
+/area/tethys/civilian/library)
+"ch" = (
+/obj/structure/cable{
+	d1 = 1;
+	d2 = 4;
+	icon_state = "1-4"
+	},
+/obj/machinery/atmospherics/pipe/manifold4w/hidden/supply,
+/obj/machinery/atmospherics/pipe/manifold/hidden/scrubbers,
+/turf/simulated/floor/plating,
+/area/tethys/exploration_pod)
+"ck" = (
+/turf/simulated/floor/reinforced/airless,
+/area/tethys/bridge)
+"cw" = (
+/obj/machinery/atmospherics/pipe/simple/hidden{
+	dir = 10;
+	icon_state = "intact"
+	},
+/obj/effect/floor_decal/industrial/outline/yellow,
+/obj/structure/dispenser/oxygen,
+/turf/simulated/floor/tiled/dark/monotile,
+/area/tethys/exploration_pod)
+"cy" = (
+/turf/simulated/floor/reinforced/airless,
+/area/space/ocean)
+"cL" = (
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
+/obj/machinery/atmospherics/pipe/simple/hidden/supply,
+/obj/structure/cable{
+	icon_state = "1-2"
+	},
+/obj/machinery/door/airlock/hatch/tethys/eng,
+/turf/simulated/floor/tiled/techfloor/grid,
+/area/tethys/maintenance/shaft)
+"cM" = (
+/turf/simulated/open,
+/area/tethys/maintenance/shaft)
+"db" = (
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 4
+	},
+/obj/machinery/door/airlock/hatch/tethys/com,
+/obj/structure/cable{
+	icon_state = "4-8"
+	},
+/turf/simulated/floor/tiled/techfloor/grid,
+/area/tethys/security)
+"dD" = (
+/obj/effect/floor_decal/industrial/hatch/yellow,
+/obj/machinery/door/airlock/external/bolted{
+	id_tag = "tethys_shuttle_2_in"
+	},
+/obj/machinery/button/access/interior{
+	id_tag = "tethys_shuttle_2";
+	pixel_x = 10;
+	pixel_y = -24
+	},
+/turf/simulated/floor/tiled/techfloor/grid,
+/area/tethys/exploration_pod)
+"dI" = (
+/obj/machinery/atmospherics/unary/vent_pump/high_volume/external_air{
+	dir = 4;
+	id_tag = "tethys_shuttle_2_pump_out_external"
+	},
+/turf/simulated/floor/airless,
+/area/tethys/exploration_pod)
+"dL" = (
+/obj/effect/floor_decal/techfloor{
+	dir = 1
+	},
+/obj/machinery/computer/ship/sensors{
+	dir = 1
+	},
+/obj/effect/landmark/paperwork_spawn_tethys,
+/turf/simulated/floor/tiled/techfloor/grid,
+/area/tethys/bridge)
+"dQ" = (
+/obj/structure/bed/chair/comfy/blue,
+/obj/machinery/light/small{
+	dir = 1
+	},
+/turf/simulated/floor/carpet/blue,
+/area/tethys/civilian/library)
+"eq" = (
+/obj/structure/closet/secure_closet{
+	closet_appearance = /decl/closet_appearance/secure_closet/security;
+	name = "equipment closet";
+	req_access = list(access_armory)
+	},
+/obj/item/gun/energy/capacitor/rifle,
+/obj/item/gun/energy/capacitor/rifle,
+/obj/item/gun/energy/capacitor/rifle,
+/obj/item/gun/energy/capacitor/rifle,
+/turf/simulated/floor/tiled/techfloor/grid,
+/area/tethys/security)
+"fz" = (
+/obj/machinery/door/airlock/external/glass,
+/obj/structure/catwalk,
+/turf/simulated/floor/plating,
+/area/tethys/eva)
+"fB" = (
+/obj/machinery/atmospherics/portables_connector{
+	dir = 4;
+	icon_state = "map_connector"
+	},
+/obj/machinery/alarm{
+	dir = 1
+	},
+/turf/simulated/floor/plating,
+/area/tethys/exploration_pod)
+"fH" = (
+/obj/structure/ladder,
+/obj/structure/lattice,
+/turf/simulated/open,
+/area/tethys/engineering/communications)
+"fZ" = (
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
+/obj/machinery/atmospherics/pipe/simple/hidden/supply,
+/obj/structure/cable{
+	icon_state = "1-2"
+	},
+/obj/machinery/door/airlock/hatch/tethys/com,
+/turf/simulated/floor/tiled/techfloor/grid,
+/area/tethys/eva)
+"gy" = (
+/obj/machinery/atmospherics/unary/vent_pump/on,
+/turf/simulated/floor/tiled/dark,
+/area/tethys/hallway/tower)
+"gU" = (
+/obj/machinery/atmospherics/pipe/manifold/hidden/scrubbers,
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 4
+	},
+/obj/machinery/light/small,
+/obj/structure/cable{
+	icon_state = "4-8"
+	},
+/turf/simulated/floor/tiled/dark,
+/area/tethys/hallway/tower)
+"gX" = (
+/obj/machinery/computer/modular/preset/cardslot/command{
+	dir = 1
+	},
+/obj/effect/floor_decal/techfloor{
+	dir = 1
+	},
+/obj/effect/landmark/paperwork_spawn_tethys,
+/turf/simulated/floor/tiled/techfloor/grid,
+/area/tethys/bridge)
+"hf" = (
+/obj/machinery/atmospherics/pipe/simple/hidden,
+/obj/machinery/atmospherics/pipe/simple/hidden/supply,
+/obj/effect/floor_decal/industrial/hatch/yellow,
+/obj/machinery/door/firedoor,
+/obj/machinery/door/airlock/hatch/autoname/maintenance,
+/turf/simulated/floor/tiled/techfloor/grid,
+/area/tethys/exploration_pod)
+"hh" = (
+/obj/machinery/atmospherics/portables_connector{
+	dir = 1
+	},
+/obj/machinery/portable_atmospherics/canister/air/airlock{
+	start_pressure = 1460
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 4
+	},
+/obj/item/geiger,
+/turf/simulated/floor/plating,
+/area/tethys/exploration_pod)
+"hx" = (
+/obj/machinery/atmospherics/unary/vent_pump/high_volume/external_air{
+	dir = 4;
+	id_tag = "dock_port_pump"
+	},
+/obj/machinery/light/small{
+	dir = 8
+	},
+/turf/simulated/floor/tiled/techfloor,
+/area/tethys/eva)
+"hC" = (
+/obj/machinery/network/router,
+/turf/simulated/floor/bluegrid,
+/area/tethys/engineering/communications)
+"hQ" = (
+/obj/machinery/computer/modular/preset/aislot/sysadmin{
+	dir = 1
+	},
+/turf/simulated/floor/bluegrid,
+/area/tethys/engineering/communications)
+"hS" = (
+/obj/machinery/atmospherics/unary/vent_pump/high_volume/external_air{
+	dir = 1;
+	id_tag = "tethys_shuttle_pump_out_internal"
+	},
+/obj/machinery/embedded_controller/radio/airlock/docking_port{
+	cycle_to_external_air = 1;
+	id_tag = "tethys_shuttle";
+	pixel_x = 32;
+	tag_airpump = "tethys_shuttle_pump";
+	tag_chamber_sensor = "tethys_shuttle_sensor";
+	tag_exterior_door = "tethys_shuttle_out";
+	tag_interior_door = "tethys_shuttle_in"
+	},
+/obj/effect/floor_decal/industrial/warning{
+	dir = 4
+	},
+/turf/simulated/floor/tiled/techfloor,
+/area/tethys/exploration_pod)
+"iy" = (
+/obj/structure/bookcase/skill_books/random,
+/obj/machinery/light_switch{
+	pixel_y = -21
+	},
+/turf/simulated/floor/wood/walnut,
+/area/tethys/civilian/library)
+"iG" = (
+/obj/machinery/alarm{
+	dir = 4
+	},
+/obj/machinery/atmospherics/unary/vent_scrubber/on{
+	dir = 1
+	},
+/turf/simulated/floor/tiled/dark/monotile,
+/area/tethys/hallway/tower)
+"iK" = (
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 4
+	},
+/obj/item/radio_beacon,
+/turf/simulated/floor/tiled/dark,
+/area/tethys/exploration_pod)
+"iL" = (
+/obj/machinery/atmospherics/pipe/simple/hidden{
+	dir = 4;
+	icon_state = "intact"
+	},
+/obj/machinery/door/airlock/external/bolted{
+	id_tag = "dock_port_in"
+	},
+/obj/structure/cable{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8";
+	pixel_y = 0
+	},
+/obj/effect/floor_decal/industrial/hatch/yellow,
+/obj/machinery/atmospherics/pipe/simple/hidden{
+	dir = 4;
+	icon_state = "intact"
+	},
+/turf/simulated/floor/tiled/techfloor/grid,
+/area/tethys/eva)
+"iR" = (
+/obj/machinery/computer/modular/preset/engineering{
+	dir = 4
+	},
+/obj/effect/floor_decal/techfloor{
+	dir = 4
+	},
+/obj/machinery/light{
+	dir = 8
+	},
+/obj/effect/landmark/paperwork_spawn_tethys,
+/turf/simulated/floor/tiled/techfloor/grid,
+/area/tethys/bridge)
+"jb" = (
+/turf/simulated/open/flooded,
+/area/space/ocean)
+"jh" = (
+/turf/simulated/wall/r_wall/prepainted,
+/area/tethys/hallway/tower)
+"jm" = (
+/obj/machinery/atmospherics/unary/vent_pump/high_volume/external_air{
+	dir = 4;
+	id_tag = "dock_port_pump"
+	},
+/turf/simulated/floor/tiled/techfloor,
+/area/tethys/eva)
+"jt" = (
+/obj/machinery/embedded_controller/radio/airlock/docking_port{
+	id_tag = "tethys_dock_port";
+	pixel_y = 24;
+	tag_airpump = "dock_port_pump";
+	tag_chamber_sensor = "dock_port_sensor";
+	tag_exterior_door = "dock_port_out";
+	tag_interior_door = "dock_port_in"
+	},
+/obj/effect/floor_decal/industrial/warning{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/manifold/hidden{
+	dir = 1
+	},
+/turf/simulated/floor/tiled/techfloor,
+/area/tethys/eva)
+"jD" = (
+/obj/machinery/atmospherics/pipe/manifold/hidden{
+	dir = 8
+	},
+/turf/simulated/wall/titanium,
+/area/tethys/exploration_pod)
+"jM" = (
+/obj/machinery/atmospherics/unary/vent_scrubber/on,
+/turf/simulated/floor/tiled/dark,
+/area/tethys/hallway/tower)
+"kh" = (
+/obj/machinery/atmospherics/unary/vent_scrubber/on,
+/turf/simulated/floor/tiled/techfloor,
+/area/tethys/security)
+"ku" = (
+/obj/machinery/atmospherics/pipe/simple/hidden{
+	dir = 5;
+	icon_state = "intact"
+	},
+/obj/machinery/light,
+/obj/structure/table/standard,
+/obj/machinery/cell_charger,
+/turf/simulated/floor/plating,
+/area/tethys/exploration_pod)
+"lb" = (
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 5
+	},
+/obj/structure/cable{
+	icon_state = "1-4"
+	},
+/obj/machinery/atmospherics/pipe/manifold/hidden/scrubbers{
+	dir = 8
+	},
+/turf/simulated/floor/tiled/dark,
+/area/tethys/hallway/tower)
+"lf" = (
+/obj/machinery/atmospherics/binary/passive_gate/on{
+	dir = 8
+	},
+/obj/machinery/atmospherics/unary/vent_scrubber/on{
+	dir = 1
+	},
+/turf/simulated/floor/plating,
+/area/tethys/exploration_pod)
+"lJ" = (
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 4
+	},
+/obj/machinery/light,
+/obj/structure/cable{
+	icon_state = "0-8"
+	},
+/obj/machinery/power/apc,
+/turf/simulated/floor/tiled/techfloor,
+/area/tethys/security)
+"lP" = (
+/obj/machinery/atmospherics/unary/vent_pump/high_volume/external_air{
+	dir = 1;
+	id_tag = "tethys_shuttle_2_pump_out_internal"
+	},
+/obj/machinery/embedded_controller/radio/airlock/docking_port{
+	cycle_to_external_air = 1;
+	id_tag = "tethys_shuttle_2";
+	pixel_x = -32;
+	tag_airpump = "tethys_shuttle_2_pump";
+	tag_chamber_sensor = "tethys_shuttle_2_sensor";
+	tag_exterior_door = "tethys_shuttle_2_out";
+	tag_interior_door = "tethys_shuttle_2_in"
+	},
+/obj/effect/floor_decal/industrial/warning{
+	dir = 9
+	},
+/obj/structure/handrail{
+	dir = 4
+	},
+/turf/simulated/floor/tiled/techfloor,
+/area/tethys/exploration_pod)
+"lQ" = (
+/obj/structure/cable{
+	icon_state = "0-2"
+	},
+/obj/machinery/power/apc{
+	dir = 4
+	},
+/turf/simulated/floor/tiled/dark/monotile,
+/area/tethys/hallway/tower)
+"lY" = (
+/obj/machinery/shipsensors,
+/turf/simulated/floor/airless,
+/area/tethys/exploration_pod)
+"mg" = (
+/turf/simulated/wall/r_wall/prepainted,
+/area/tethys/bridge)
+"mj" = (
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 4
+	},
+/obj/machinery/light,
+/obj/structure/cable{
+	icon_state = "4-8"
+	},
+/turf/simulated/floor/tiled/techfloor,
+/area/tethys/eva)
+"mp" = (
+/obj/machinery/atmospherics/pipe/simple/visible/universal,
+/turf/simulated/floor/plating,
+/area/tethys/exploration_pod)
+"mr" = (
+/obj/machinery/atmospherics/pipe/simple/hidden{
+	dir = 5;
+	icon_state = "intact"
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
+/turf/simulated/floor/tiled/dark,
+/area/tethys/exploration_pod)
+"mv" = (
+/obj/structure/table/rack,
+/obj/machinery/alarm{
+	dir = 4
+	},
+/turf/simulated/floor/tiled/techfloor/grid,
+/area/tethys/eva)
+"mA" = (
+/obj/structure/lattice,
+/obj/structure/railing/mapped{
+	dir = 8
+	},
+/turf/simulated/open,
+/area/tethys/maintenance/shaft)
+"mW" = (
+/obj/machinery/light{
+	dir = 8
+	},
+/obj/machinery/atmospherics/unary/vent_pump/on{
+	dir = 1
+	},
+/turf/simulated/floor/tiled/dark/monotile,
+/area/tethys/hallway/tower)
+"nd" = (
+/turf/simulated/wall/r_wall/prepainted,
+/area/tethys/science/testing)
+"ni" = (
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 6
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 4
+	},
+/turf/simulated/floor/plating,
+/area/tethys/exploration_pod)
+"nx" = (
+/obj/machinery/atmospherics/pipe/simple/hidden/supply,
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
+/obj/structure/lattice,
+/obj/structure/railing/mapped{
+	dir = 4
+	},
+/turf/simulated/open,
+/area/tethys/maintenance/shaft)
+"nI" = (
+/obj/machinery/light,
+/obj/machinery/atmospherics/unary/vent_scrubber/on{
+	dir = 4
+	},
+/obj/structure/bed/chair/shuttle/black{
+	dir = 1
+	},
+/turf/simulated/floor/tiled/dark,
+/area/tethys/exploration_pod)
+"nJ" = (
+/turf/simulated/wall/r_wall/prepainted,
+/area/tethys/maintenance/shaft)
+"nU" = (
+/obj/machinery/power/apc{
+	dir = 4
+	},
+/obj/structure/cable{
+	icon_state = "0-8"
+	},
+/obj/structure/table/standard,
+/obj/machinery/cell_charger,
+/turf/simulated/floor/tiled/techfloor/grid,
+/area/tethys/eva)
+"nY" = (
+/obj/structure/lattice,
+/turf/simulated/open,
+/area/tethys/engineering/communications)
+"ot" = (
+/obj/machinery/atmospherics/unary/vent_pump/high_volume/external_air{
+	id_tag = "tethys_shuttle_2_pump"
+	},
+/obj/machinery/light,
+/obj/effect/floor_decal/industrial/warning{
+	dir = 4
+	},
+/turf/simulated/floor/tiled/techfloor,
+/area/tethys/exploration_pod)
+"ow" = (
+/obj/machinery/atmospherics/pipe/simple/hidden,
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 10
+	},
+/turf/simulated/floor/tiled/dark,
+/area/tethys/exploration_pod)
+"oE" = (
+/obj/machinery/atmospherics/pipe/simple/hidden,
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
+/obj/effect/floor_decal/industrial/hatch/yellow,
+/obj/machinery/door/firedoor,
+/obj/machinery/door/airlock/hatch/autoname/maintenance,
+/turf/simulated/floor/tiled/techfloor/grid,
+/area/tethys/exploration_pod)
+"oF" = (
+/obj/machinery/door/firedoor,
+/obj/effect/floor_decal/industrial/hatch/yellow,
+/turf/simulated/floor/tiled/techfloor/grid,
+/area/tethys/exploration_pod)
+"oL" = (
+/obj/structure/bookcase,
+/turf/simulated/floor/wood/walnut,
+/area/tethys/civilian/library)
+"pd" = (
+/obj/machinery/atmospherics/pipe/simple/hidden{
+	dir = 6;
+	icon_state = "intact"
+	},
+/obj/machinery/door/firedoor,
+/obj/effect/wallframe_spawn/reinforced/titanium,
+/turf/simulated/floor/plating,
+/area/tethys/exploration_pod)
+"pl" = (
+/obj/machinery/atmospherics/pipe/simple/hidden{
+	dir = 6;
+	icon_state = "intact"
+	},
+/obj/effect/floor_decal/industrial/hatch/yellow,
+/obj/machinery/door/airlock/external/glass/bolted{
+	id_tag = "tethys_shuttle_2_in"
+	},
+/turf/simulated/floor/tiled/techfloor/grid,
+/area/tethys/exploration_pod)
+"py" = (
+/obj/machinery/atmospherics/unary/vent_pump/on,
+/turf/simulated/floor/tiled/techfloor,
+/area/tethys/eva)
+"pA" = (
+/obj/machinery/atmospherics/portables_connector{
+	dir = 1
+	},
+/obj/machinery/portable_atmospherics/canister/air/airlock{
+	start_pressure = 1460
+	},
+/turf/simulated/floor/plating,
+/area/tethys/exploration_pod)
+"pT" = (
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 9
+	},
+/obj/structure/cable{
+	icon_state = "1-8"
+	},
+/obj/machinery/atmospherics/pipe/manifold/hidden/scrubbers{
+	dir = 4
+	},
+/turf/simulated/floor/tiled/dark,
+/area/tethys/hallway/tower)
+"qc" = (
+/obj/machinery/alarm{
+	dir = 1
+	},
+/obj/machinery/hologram/holopad/longrange,
+/obj/effect/floor_decal/industrial/outline,
+/turf/simulated/floor/tiled/dark/monotile,
+/area/tethys/exploration_pod)
+"qd" = (
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 9
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 5
+	},
+/obj/structure/cable{
+	icon_state = "1-8"
+	},
+/obj/effect/overmap/visitable/ship/tethys,
+/obj/machinery/light_switch{
+	pixel_x = -20;
+	pixel_y = 25
+	},
+/obj/effect/landmark/paperwork_finish_tethys,
+/turf/simulated/floor/tiled/techfloor,
+/area/tethys/bridge)
+"qm" = (
+/obj/effect/wallframe_spawn/reinforced,
+/turf/simulated/floor/plating,
+/area/tethys/bridge)
+"qH" = (
+/obj/structure/closet/crate/medical,
+/obj/random/firstaid,
+/obj/random/firstaid,
+/obj/random/firstaid,
+/obj/random/medical,
+/obj/random/medical,
+/obj/random/medical,
+/obj/random/medical,
+/obj/random/medical/lite,
+/obj/random/medical/lite,
+/turf/simulated/floor/plating,
+/area/tethys/exploration_pod)
+"qW" = (
+/obj/machinery/atmospherics/unary/vent_pump/high_volume/external_air{
+	dir = 1;
+	id_tag = "tethys_shuttle_2_pump_out_internal"
+	},
+/obj/effect/floor_decal/industrial/warning{
+	dir = 5
+	},
+/obj/structure/handrail{
+	dir = 8
+	},
+/turf/simulated/floor/tiled/techfloor,
+/area/tethys/exploration_pod)
+"qZ" = (
+/obj/machinery/atmospherics/pipe/simple/hidden{
+	dir = 9;
+	icon_state = "intact"
+	},
+/obj/machinery/recharge_station,
+/turf/simulated/floor/plating,
+/area/tethys/exploration_pod)
+"rl" = (
+/obj/structure/bed/chair{
+	dir = 1
+	},
+/turf/simulated/wall/titanium,
+/area/tethys/exploration_pod)
+"rw" = (
+/turf/simulated/wall/titanium,
+/area/tethys/exploration_pod)
+"rz" = (
+/turf/simulated/floor/reinforced/airless,
+/area/tethys/civilian/library)
+"rE" = (
+/obj/effect/wallframe_spawn/reinforced,
+/turf/simulated/floor/plating,
+/area/tethys/hallway/tower)
+"rM" = (
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 4
+	},
+/obj/structure/cable{
+	icon_state = "4-8"
+	},
+/turf/simulated/floor/tiled/techfloor,
+/area/tethys/eva)
+"rZ" = (
+/obj/machinery/atmospherics/pipe/manifold/hidden{
+	dir = 4
+	},
+/obj/effect/floor_decal/industrial/hatch/yellow,
+/obj/machinery/door/airlock/external/glass/bolted{
+	id_tag = "tethys_shuttle_2_in"
+	},
+/turf/simulated/floor/tiled/techfloor/grid,
+/area/tethys/exploration_pod)
+"sm" = (
+/obj/item/clothing/mask/gas/aquabreather,
+/obj/structure/table/rack,
+/obj/item/clothing/mask/gas/aquabreather,
+/obj/item/clothing/mask/gas/aquabreather,
+/obj/item/clothing/mask/gas/aquabreather,
+/obj/item/clothing/mask/gas/aquabreather,
+/obj/item/clothing/mask/gas/aquabreather,
+/obj/item/clothing/mask/gas/aquabreather,
+/obj/item/clothing/mask/gas/aquabreather,
+/obj/item/clothing/mask/gas/aquabreather,
+/turf/simulated/floor/tiled/techfloor/grid,
+/area/tethys/eva)
+"so" = (
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 4
+	},
+/obj/structure/cable{
+	icon_state = "4-8"
+	},
+/obj/structure/cable{
+	icon_state = "1-4"
+	},
+/turf/simulated/floor/tiled/dark,
+/area/tethys/hallway/tower)
+"sC" = (
+/obj/machinery/light/navigation/delay5,
+/turf/simulated/floor/reinforced/airless,
+/area/tethys/hallway/tower)
+"sM" = (
+/obj/machinery/button/access/exterior{
+	id_tag = "tethys_dock_port";
+	pixel_x = -10;
+	pixel_y = 24
+	},
+/obj/machinery/door/airlock/external/bolted{
+	id_tag = "dock_port_out"
+	},
+/obj/machinery/shield_diffuser,
+/obj/structure/cable{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8";
+	pixel_y = 0
+	},
+/obj/effect/floor_decal/industrial/hatch/yellow,
+/turf/simulated/floor/tiled/techfloor/grid,
+/area/tethys/eva)
+"sU" = (
+/obj/machinery/computer/ship/sensors,
+/obj/effect/floor_decal/industrial/outline/yellow,
+/turf/simulated/floor/tiled/dark/monotile,
+/area/tethys/exploration_pod)
+"sV" = (
+/obj/structure/lattice,
+/obj/item/storage/toolbox/electrical,
+/obj/item/clothing/gloves/insulated,
+/turf/simulated/open,
+/area/tethys/science/testing)
+"sZ" = (
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 4
+	},
+/obj/structure/cable{
+	icon_state = "4-8"
+	},
+/turf/simulated/floor/tiled/dark,
+/area/tethys/hallway/tower)
+"tb" = (
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
+/obj/machinery/atmospherics/pipe/simple/hidden/supply,
+/obj/structure/cable{
+	icon_state = "1-2"
+	},
+/obj/machinery/door/airlock/hatch/tethys/com,
+/turf/simulated/floor/tiled/techfloor/grid,
+/area/tethys/bridge)
+"tf" = (
+/obj/structure/cable{
+	icon_state = "1-4"
+	},
+/obj/structure/lattice,
+/turf/simulated/open,
+/area/tethys/maintenance/shaft)
+"tt" = (
+/obj/item/hoist_kit,
+/turf/simulated/floor/plating,
+/area/tethys/science/testing)
+"tD" = (
+/obj/machinery/alarm{
+	dir = 8
+	},
+/obj/machinery/atmospherics/unary/vent_scrubber/on{
+	dir = 1
+	},
+/turf/simulated/floor/tiled/dark/monotile,
+/area/tethys/hallway/tower)
+"uq" = (
+/obj/structure/cable{
+	d1 = 1;
+	d2 = 2;
+	icon_state = "1-2"
+	},
+/obj/machinery/atmospherics/unary/vent_pump/on{
+	dir = 1
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 5
+	},
+/obj/machinery/alarm{
+	dir = 4
+	},
+/turf/simulated/floor/plating,
+/area/tethys/exploration_pod)
+"uI" = (
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 4
+	},
+/obj/structure/cable{
+	icon_state = "4-8"
+	},
+/obj/machinery/door/airlock/hatch/tethys/com,
+/turf/simulated/floor/tiled/techfloor/grid,
+/area/tethys/eva)
+"uP" = (
+/obj/structure/cable{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8"
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 4
+	},
+/obj/machinery/door/firedoor,
+/obj/effect/floor_decal/industrial/hatch/yellow,
+/obj/machinery/door/airlock/hatch/autoname/maintenance,
+/turf/simulated/floor/tiled/techfloor/grid,
+/area/tethys/exploration_pod)
+"vc" = (
+/obj/structure/bed/chair/comfy/blue{
+	dir = 1
+	},
+/obj/structure/cable{
+	icon_state = "0-4"
+	},
+/obj/machinery/power/apc,
+/turf/simulated/floor/carpet/blue,
+/area/tethys/civilian/library)
+"vu" = (
+/obj/machinery/button/access/interior{
+	id_tag = "tethys_dock_port";
+	pixel_x = 5;
+	pixel_y = -20
+	},
+/obj/machinery/door/airlock/external/bolted{
+	id_tag = "dock_port_in"
+	},
+/obj/structure/cable{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8";
+	pixel_y = 0
+	},
+/obj/effect/floor_decal/industrial/hatch/yellow,
+/turf/simulated/floor/tiled/techfloor/grid,
+/area/tethys/eva)
+"vD" = (
+/turf/simulated/floor/reinforced/airless,
+/area/tethys/science/testing)
+"vE" = (
+/obj/machinery/door/firedoor,
+/obj/machinery/atmospherics/pipe/simple/hidden{
+	dir = 4;
+	icon_state = "intact"
+	},
+/obj/effect/wallframe_spawn/reinforced/titanium,
+/obj/machinery/door/blast/regular{
+	dir = 4;
+	id_tag = "shuttle_front"
+	},
+/turf/simulated/floor/plating,
+/area/tethys/exploration_pod)
+"vJ" = (
+/obj/machinery/dehumidifier,
+/turf/simulated/floor/plating,
+/area/tethys/maintenance/shaft)
+"vP" = (
+/obj/machinery/computer/ship/helm,
+/obj/effect/floor_decal/industrial/outline/yellow,
+/turf/simulated/floor/tiled/dark/monotile,
+/area/tethys/exploration_pod)
+"vR" = (
+/obj/structure/closet/emcloset,
+/turf/simulated/floor/tiled/dark/monotile,
+/area/tethys/hallway/tower)
+"vX" = (
+/turf/simulated/open,
+/area/tethys/science/testing)
+"wc" = (
+/turf/simulated/open,
+/area/tethys/hallway/tower)
+"wd" = (
+/obj/machinery/atmospherics/unary/vent_pump/high_volume/external_air{
+	id_tag = "tethys_shuttle_2_pump"
+	},
+/obj/machinery/airlock_sensor{
+	id_tag = "tethys_shuttle_2_sensor";
+	pixel_y = -24
+	},
+/obj/effect/floor_decal/industrial/warning{
+	dir = 8
+	},
+/turf/simulated/floor/tiled/techfloor,
+/area/tethys/exploration_pod)
+"wm" = (
+/obj/structure/hygiene/drain,
+/obj/machinery/light/small{
+	dir = 4
+	},
+/obj/machinery/dehumidifier,
+/turf/simulated/floor/tiled/techfloor/grid,
+/area/tethys/eva)
+"wp" = (
+/obj/effect/floor_decal/industrial/outline/yellow,
+/turf/simulated/floor/tiled/dark/monotile,
+/area/tethys/exploration_pod)
+"wx" = (
+/obj/machinery/ion_thruster{
+	dir = 1
+	},
+/turf/simulated/floor/airless,
+/area/tethys/exploration_pod)
+"wR" = (
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 4
+	},
+/obj/structure/cable{
+	icon_state = "4-8"
+	},
+/obj/machinery/atmospherics/pipe/manifold/hidden/supply{
+	dir = 1
+	},
+/turf/simulated/floor/tiled/dark,
+/area/tethys/hallway/tower)
+"xH" = (
+/turf/simulated/open,
+/area/turbolift/tethys_tower)
+"xO" = (
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
+/obj/machinery/atmospherics/pipe/simple/hidden/supply,
+/obj/structure/cable{
+	icon_state = "1-2"
+	},
+/obj/structure/cable{
+	icon_state = "2-8"
+	},
+/turf/simulated/floor/wood/walnut,
+/area/tethys/civilian/library)
+"xP" = (
+/turf/simulated/floor/reinforced/airless,
+/area/tethys/security)
+"xR" = (
+/obj/machinery/atmospherics/unary/vent_pump/on{
+	dir = 4
+	},
+/obj/machinery/portable_atmospherics/powered/scrubber,
+/obj/machinery/alarm{
+	dir = 4
+	},
+/obj/effect/floor_decal/industrial/outline/yellow,
+/turf/simulated/floor/tiled/dark/monotile,
+/area/tethys/exploration_pod)
+"xW" = (
+/obj/structure/mattress,
+/obj/machinery/alarm{
+	dir = 8
+	},
+/turf/simulated/floor/bluegrid,
+/area/tethys/engineering/communications)
+"yu" = (
+/turf/simulated/floor/plating,
+/area/tethys/science/testing)
+"yw" = (
+/turf/simulated/floor/wood/walnut,
+/area/tethys/civilian/library)
+"yE" = (
+/obj/structure/bed/chair/comfy/blue,
+/obj/machinery/alarm,
+/turf/simulated/floor/carpet/blue,
+/area/tethys/civilian/library)
+"yQ" = (
+/obj/machinery/alarm,
+/turf/simulated/floor/tiled/dark/monotile,
+/area/tethys/hallway/tower)
+"yS" = (
+/obj/structure/cable{
+	d1 = 1;
+	d2 = 2;
+	icon_state = "1-2"
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/supply,
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
+/obj/machinery/door/firedoor,
+/obj/effect/floor_decal/industrial/hatch/yellow,
+/obj/machinery/door/airlock/hatch/autoname/maintenance,
+/turf/simulated/floor/tiled/techfloor/grid,
+/area/tethys/exploration_pod)
+"yV" = (
+/obj/machinery/atmospherics/pipe/simple/hidden,
+/obj/machinery/atmospherics/pipe/manifold/hidden/supply,
+/turf/simulated/floor/tiled/dark,
+/area/tethys/exploration_pod)
+"yZ" = (
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
+/obj/machinery/atmospherics/pipe/manifold/hidden/supply{
+	dir = 4
+	},
+/obj/structure/cable{
+	icon_state = "1-2"
+	},
+/turf/simulated/floor/wood/walnut,
+/area/tethys/civilian/library)
+"zv" = (
+/turf/simulated/wall/r_wall/prepainted,
+/area/tethys/engineering/communications)
+"zA" = (
+/obj/machinery/atmospherics/pipe/manifold/hidden,
+/obj/machinery/meter,
+/turf/simulated/floor/plating,
+/area/tethys/exploration_pod)
+"zU" = (
+/obj/machinery/atmospherics/unary/outlet_injector{
+	dir = 1;
+	icon_state = "map_injector";
+	use_power = 1
+	},
+/turf/simulated/floor/airless,
+/area/tethys/exploration_pod)
+"Ae" = (
+/obj/machinery/airlock_sensor{
+	id_tag = "tethys_shuttle_sensor";
+	pixel_y = -24
+	},
+/obj/structure/cable{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8";
+	pixel_y = 0
+	},
+/obj/machinery/atmospherics/unary/vent_pump/high_volume/external_air{
+	id_tag = "tethys_shuttle_pump"
+	},
+/obj/effect/floor_decal/industrial/warning{
+	dir = 4
+	},
+/obj/structure/handrail{
+	dir = 1
+	},
+/turf/simulated/floor/tiled/techfloor,
+/area/tethys/exploration_pod)
+"Ai" = (
+/obj/machinery/atmospherics/unary/vent_pump/on{
+	dir = 8
+	},
+/obj/machinery/alarm,
+/obj/structure/bed/chair/office/comfy/blue{
+	dir = 4
+	},
+/turf/simulated/floor/tiled/techfloor,
+/area/tethys/bridge)
+"At" = (
+/obj/structure/cable{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8"
+	},
+/obj/machinery/atmospherics/unary/vent_scrubber/on{
+	dir = 8
+	},
+/obj/machinery/alarm{
+	dir = 1
+	},
+/turf/simulated/floor/tiled/dark/monotile,
+/area/tethys/exploration_pod)
+"Br" = (
+/obj/machinery/light/navigation/delay5,
+/turf/simulated/floor/reinforced/airless,
+/area/space/ocean)
+"Bv" = (
+/obj/structure/cable{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8"
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 4
+	},
+/obj/structure/handrail,
+/turf/simulated/floor/plating,
+/area/tethys/exploration_pod)
+"BO" = (
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
+/obj/machinery/atmospherics/pipe/simple/hidden/supply,
+/obj/structure/cable{
+	icon_state = "1-2"
+	},
+/turf/simulated/floor/wood/walnut,
+/area/tethys/civilian/library)
+"BR" = (
+/obj/machinery/atmospherics/unary/vent_pump/on{
+	dir = 4
+	},
+/obj/structure/ore_box,
+/obj/effect/floor_decal/industrial/outline/yellow,
+/turf/simulated/floor/tiled/dark/monotile,
+/area/tethys/exploration_pod)
+"BU" = (
+/obj/effect/floor_decal/industrial/hatch/yellow,
+/obj/structure/cable{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8"
+	},
+/obj/machinery/door/airlock/external/bolted{
+	id_tag = "tethys_shuttle_in"
+	},
+/turf/simulated/floor/tiled/techfloor/grid,
+/area/tethys/exploration_pod)
+"Ca" = (
+/obj/machinery/atmospherics/pipe/simple/hidden{
+	dir = 5;
+	icon_state = "intact"
+	},
+/turf/simulated/wall/titanium,
+/area/tethys/exploration_pod)
+"Cb" = (
+/obj/effect/decal/cleanable/molten_item,
+/turf/simulated/floor/plating,
+/area/tethys/science/testing)
+"CI" = (
+/obj/structure/hygiene/drain,
+/obj/machinery/light/small{
+	dir = 8
+	},
+/obj/machinery/dehumidifier,
+/turf/simulated/floor/tiled/techfloor/grid,
+/area/tethys/eva)
+"CL" = (
+/obj/machinery/atmospherics/unary/vent_scrubber/on{
+	dir = 4
+	},
+/obj/structure/cable{
+	icon_state = "0-4"
+	},
+/obj/machinery/power/apc{
+	dir = 1
+	},
+/obj/structure/bed/chair/office/comfy/blue{
+	dir = 8
+	},
+/turf/simulated/floor/tiled/techfloor,
+/area/tethys/bridge)
+"CS" = (
+/obj/structure/lattice,
+/obj/machinery/power/port_gen/pacman,
+/turf/simulated/open,
+/area/tethys/science/testing)
+"De" = (
+/obj/effect/wallframe_spawn/reinforced,
+/turf/simulated/floor/plating,
+/area/tethys/engineering/communications)
+"Dg" = (
+/obj/machinery/atmospherics/pipe/manifold/hidden{
+	dir = 4
+	},
+/turf/simulated/wall/titanium,
+/area/tethys/exploration_pod)
+"Dl" = (
+/obj/machinery/light{
+	dir = 4
+	},
+/obj/machinery/atmospherics/unary/vent_scrubber/on{
+	dir = 8
+	},
+/obj/structure/closet/crate/uranium,
+/obj/item/stack/material/uranium/ten,
+/obj/item/stack/material/uranium/ten,
+/obj/item/stack/material/uranium/ten,
+/turf/simulated/floor/plating,
+/area/tethys/exploration_pod)
+"Ds" = (
+/obj/machinery/atmospherics/unary/vent_pump/high_volume/external_air{
+	dir = 1;
+	id_tag = "tethys_shuttle_pump_out_internal"
+	},
+/obj/effect/floor_decal/industrial/warning{
+	dir = 8
+	},
+/turf/simulated/floor/tiled/techfloor,
+/area/tethys/exploration_pod)
+"Dy" = (
+/obj/machinery/atmospherics/unary/tank/air,
+/turf/simulated/floor/plating,
+/area/tethys/exploration_pod)
+"DC" = (
+/obj/structure/cable{
+	icon_state = "4-8"
+	},
+/obj/machinery/alarm{
+	dir = 1
+	},
+/turf/simulated/floor/tiled/techfloor/grid,
+/area/tethys/eva)
+"DH" = (
+/obj/structure/table/standard,
+/obj/item/paper_bin,
+/obj/item/pen,
+/obj/random/snack,
+/turf/simulated/floor/bluegrid,
+/area/tethys/engineering/communications)
+"DS" = (
+/turf/simulated/floor/reinforced/airless,
+/area/tethys/maintenance/shaft)
+"DZ" = (
+/obj/machinery/atmospherics/pipe/simple/hidden,
+/obj/machinery/atmospherics/pipe/manifold/hidden/supply{
+	dir = 4
+	},
+/turf/simulated/floor/tiled/dark,
+/area/tethys/exploration_pod)
+"En" = (
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 10
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 10
+	},
+/obj/structure/lattice,
+/turf/simulated/open,
+/area/tethys/maintenance/shaft)
+"Ew" = (
+/obj/structure/reagent_dispensers/fueltank,
+/turf/simulated/floor/plating,
+/area/tethys/maintenance/shaft)
+"EC" = (
+/obj/machinery/button/blast_door{
+	id_tag = "shuttle_front";
+	pixel_y = -24
+	},
+/obj/structure/handrail{
+	dir = 1
+	},
+/obj/effect/overmap/visitable/ship/landable/exploration_pod,
+/turf/simulated/floor/tiled/dark,
+/area/tethys/exploration_pod)
+"EQ" = (
+/obj/machinery/atmospherics/pipe/simple/hidden,
+/obj/machinery/atmospherics/unary/vent_scrubber/on{
+	dir = 8
+	},
+/obj/machinery/portable_atmospherics/canister/oxygen,
+/obj/effect/floor_decal/industrial/outline/yellow,
+/turf/simulated/floor/tiled/dark/monotile,
+/area/tethys/exploration_pod)
+"ET" = (
+/obj/machinery/portable_atmospherics/powered/scrubber,
+/turf/simulated/floor/plating,
+/area/tethys/maintenance/shaft)
+"Fq" = (
+/obj/structure/cable{
+	d1 = 2;
+	d2 = 4;
+	icon_state = "2-4"
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/supply,
+/obj/machinery/atmospherics/pipe/manifold/hidden/scrubbers{
+	dir = 8
+	},
+/obj/effect/shuttle_landmark/exploration_pod/tethys,
+/turf/simulated/floor/tiled/dark/monotile,
+/area/tethys/exploration_pod)
+"FE" = (
+/obj/machinery/atmospherics/pipe/simple/visible/universal,
+/turf/simulated/wall/titanium,
+/area/tethys/exploration_pod)
+"FH" = (
+/turf/simulated/floor/plating,
+/area/tethys/maintenance/shaft)
+"Gv" = (
+/obj/machinery/door/window/brigdoor/southright,
+/obj/structure/window/reinforced{
+	dir = 8
+	},
+/obj/machinery/merchant_pad,
+/turf/simulated/floor/tiled/techfloor/grid,
+/area/tethys/eva)
+"GA" = (
+/turf/simulated/wall/r_wall/prepainted,
+/area/tethys/civilian/library)
+"GJ" = (
+/obj/machinery/atmospherics/pipe/simple/hidden{
+	dir = 10;
+	icon_state = "intact"
+	},
+/obj/machinery/atmospherics/unary/vent_pump/on{
+	dir = 1
+	},
+/turf/simulated/floor/plating,
+/area/tethys/exploration_pod)
+"GM" = (
+/obj/effect/wallframe_spawn/reinforced,
+/turf/simulated/floor/plating,
+/area/tethys/security)
+"GO" = (
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
+/turf/simulated/wall/titanium,
+/area/tethys/exploration_pod)
+"GX" = (
+/obj/machinery/atmospherics/unary/vent_pump/high_volume/external_air{
+	dir = 8;
+	id_tag = "tethys_shuttle_pump_out_external"
+	},
+/turf/simulated/floor/airless,
+/area/tethys/exploration_pod)
+"GZ" = (
+/obj/machinery/commsrelay,
+/turf/simulated/floor/bluegrid,
+/area/tethys/engineering/communications)
+"Hz" = (
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
+/obj/machinery/atmospherics/pipe/simple/hidden/supply,
+/obj/structure/cable{
+	icon_state = "1-2"
+	},
+/obj/machinery/door/airlock/hatch/tethys,
+/turf/simulated/floor/tiled/techfloor/grid,
+/area/tethys/civilian/library)
+"HY" = (
+/obj/structure/catwalk,
+/turf/simulated/floor/plating,
+/area/tethys/eva)
+"Ij" = (
+/obj/machinery/atmospherics/pipe/simple/hidden{
+	dir = 6;
+	icon_state = "intact"
+	},
+/obj/effect/floor_decal/industrial/outline/yellow,
+/obj/machinery/fabricator,
+/turf/simulated/floor/tiled/dark/monotile,
+/area/tethys/exploration_pod)
+"It" = (
+/obj/machinery/light{
+	dir = 4
+	},
+/obj/machinery/recharger,
+/obj/structure/table/standard,
+/turf/simulated/floor/tiled/techfloor/grid,
+/area/tethys/eva)
+"Iw" = (
+/obj/structure/cable{
+	icon_state = "1-2"
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
+/obj/machinery/atmospherics/pipe/simple/hidden/supply,
+/turf/simulated/floor/plating,
+/area/tethys/maintenance/shaft)
+"IA" = (
+/obj/machinery/atmospherics/pipe/simple/hidden{
+	dir = 9;
+	icon_state = "intact"
+	},
+/turf/simulated/floor/tiled/techfloor/grid,
+/area/tethys/eva)
+"IL" = (
+/obj/machinery/atmospherics/pipe/manifold/hidden/scrubbers,
+/obj/machinery/atmospherics/pipe/manifold/hidden/supply,
+/obj/structure/cable{
+	icon_state = "4-8"
+	},
+/obj/structure/cable{
+	icon_state = "1-8"
+	},
+/turf/simulated/floor/tiled/techfloor,
+/area/tethys/eva)
+"IN" = (
+/obj/machinery/door/firedoor,
+/obj/effect/wallframe_spawn/reinforced/titanium,
+/obj/machinery/door/blast/regular{
+	dir = 4;
+	id_tag = "shuttle_front"
+	},
+/turf/simulated/floor/plating,
+/area/tethys/exploration_pod)
+"IS" = (
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 9
+	},
+/turf/simulated/floor/tiled/techfloor,
+/area/tethys/security)
+"IT" = (
+/obj/structure/lattice,
+/obj/structure/cable{
+	icon_state = "1-2"
+	},
+/turf/simulated/open,
+/area/tethys/science/testing)
+"Jp" = (
+/obj/machinery/atmospherics/unary/vent_scrubber/on,
+/obj/machinery/atmospherics/pipe/simple/hidden/supply,
+/obj/structure/cable{
+	icon_state = "2-4"
+	},
+/turf/simulated/floor/tiled/techfloor,
+/area/tethys/eva)
+"Jx" = (
+/obj/machinery/atmospherics/pipe/simple/hidden,
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 6
+	},
+/turf/simulated/floor/tiled/dark,
+/area/tethys/exploration_pod)
+"JU" = (
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/manifold/hidden/supply,
+/obj/machinery/light/small,
+/obj/structure/cable{
+	icon_state = "4-8"
+	},
+/turf/simulated/floor/tiled/dark,
+/area/tethys/hallway/tower)
+"JW" = (
+/obj/effect/floor_decal/industrial/outline/yellow,
+/obj/machinery/computer/shuttle_control/explore/exploration_pod,
+/turf/simulated/floor/tiled/dark/monotile,
+/area/tethys/exploration_pod)
+"Ke" = (
+/obj/machinery/alarm,
+/obj/structure/closet/secure_closet{
+	closet_appearance = /decl/closet_appearance/secure_closet/security;
+	name = "equipment closet";
+	req_access = list(access_armory)
+	},
+/obj/item/stack/material/steel/fifty,
+/obj/item/stack/material/glass/fifty,
+/turf/simulated/floor/tiled/techfloor/grid,
+/area/tethys/security)
+"Kp" = (
+/obj/machinery/light{
+	dir = 4
+	},
+/obj/machinery/atmospherics/unary/vent_pump/on{
+	dir = 1
+	},
+/turf/simulated/floor/tiled/dark/monotile,
+/area/tethys/hallway/tower)
+"Kr" = (
+/turf/simulated/wall/r_wall/prepainted,
+/area/tethys/security)
+"Kx" = (
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 10
+	},
+/turf/simulated/wall/titanium,
+/area/tethys/exploration_pod)
+"Kz" = (
+/obj/structure/bed/chair/comfy/blue{
+	dir = 1
+	},
+/obj/machinery/light/small,
+/turf/simulated/floor/carpet/blue,
+/area/tethys/civilian/library)
+"KX" = (
+/obj/machinery/airlock_sensor{
+	id_tag = "dock_port_sensor";
+	pixel_y = -24
+	},
+/obj/effect/floor_decal/industrial/warning{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden{
+	dir = 9;
+	icon_state = "intact"
+	},
+/turf/simulated/floor/tiled/techfloor,
+/area/tethys/eva)
+"Lp" = (
+/obj/machinery/atmospherics/pipe/manifold/hidden{
+	dir = 4
+	},
+/obj/machinery/door/firedoor,
+/obj/effect/wallframe_spawn/reinforced/titanium,
+/turf/simulated/floor/plating,
+/area/tethys/exploration_pod)
+"Lu" = (
+/obj/machinery/door/airlock/external/bolted{
+	id_tag = "tethys_shuttle_out"
+	},
+/obj/machinery/button/access/exterior{
+	id_tag = "tethys_shuttle";
+	pixel_x = 10;
+	pixel_y = -24
+	},
+/obj/structure/cable{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8";
+	pixel_y = 0
+	},
+/obj/effect/floor_decal/industrial/hatch/yellow,
+/obj/machinery/door/blast/regular/open{
+	dir = 4;
+	icon_state = "pdoor0";
+	id_tag = "shuttle_right";
+	opacity = 0
+	},
+/turf/simulated/floor/tiled/techfloor/grid,
+/area/tethys/exploration_pod)
+"LF" = (
+/turf/simulated/wall/r_wall/prepainted,
+/area/tethys/eva)
+"Mg" = (
+/obj/structure/cable,
+/obj/machinery/power/shield_generator,
+/turf/simulated/floor/plating,
+/area/tethys/science/testing)
+"Mn" = (
+/obj/machinery/light/navigation/delay5,
+/turf/simulated/floor/reinforced/airless,
+/area/tethys/engineering/atmospherics)
+"Mv" = (
+/obj/machinery/shipsensors,
+/turf/simulated/floor/reinforced/airless,
+/area/tethys/bridge)
+"MB" = (
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 6
+	},
+/turf/simulated/floor/plating,
+/area/tethys/exploration_pod)
+"MQ" = (
+/obj/machinery/atmospherics/pipe/simple/hidden{
+	dir = 10;
+	icon_state = "intact"
+	},
+/obj/machinery/computer/ship/engines,
+/obj/effect/floor_decal/industrial/outline/yellow,
+/turf/simulated/floor/tiled/dark/monotile,
+/area/tethys/exploration_pod)
+"MX" = (
+/obj/machinery/atmospherics/unary/vent_pump/on{
+	dir = 4
+	},
+/obj/structure/table/standard,
+/obj/machinery/recharger,
+/turf/simulated/floor/carpet/blue,
+/area/tethys/civilian/library)
+"Ne" = (
+/obj/structure/hygiene/drain,
+/obj/machinery/dehumidifier,
+/turf/simulated/floor/tiled/techfloor/grid,
+/area/tethys/eva)
+"Ny" = (
+/obj/structure/table/standard,
+/turf/simulated/floor/carpet/blue,
+/area/tethys/civilian/library)
+"NC" = (
+/obj/machinery/atmospherics/pipe/manifold/hidden/scrubbers{
+	dir = 1
+	},
+/obj/machinery/atmospherics/pipe/manifold/hidden/supply{
+	dir = 1
+	},
+/obj/structure/cable{
+	icon_state = "4-8"
+	},
+/obj/structure/cable{
+	icon_state = "2-4"
+	},
+/turf/simulated/floor/tiled/dark,
+/area/tethys/hallway/tower)
+"ND" = (
+/turf/simulated/floor/tiled/techfloor,
+/area/tethys/security)
+"NF" = (
+/obj/structure/bed/chair/office/comfy/blue{
+	dir = 1
+	},
+/obj/item/stack/material/deuterium/fifty{
+	pixel_x = 8
+	},
+/obj/item/stack/material/deuterium/fifty{
+	pixel_y = -7
+	},
+/turf/simulated/floor/tiled/techfloor,
+/area/tethys/eva)
+"Ol" = (
+/obj/machinery/atmospherics/portables_connector,
+/obj/effect/floor_decal/industrial/outline/yellow,
+/obj/machinery/portable_atmospherics/canister/air/airlock,
+/turf/simulated/floor/tiled/techfloor,
+/area/tethys/eva)
+"Oq" = (
+/turf/simulated/floor/airless,
+/area/tethys/exploration_pod)
+"Or" = (
+/obj/machinery/computer/modular/preset/medical{
+	dir = 8
+	},
+/obj/effect/floor_decal/techfloor{
+	dir = 8
+	},
+/obj/machinery/light{
+	dir = 4
+	},
+/obj/effect/landmark/paperwork_spawn_tethys,
+/turf/simulated/floor/tiled/techfloor/grid,
+/area/tethys/bridge)
+"Oz" = (
+/obj/machinery/light/navigation/delay5,
+/turf/simulated/floor/reinforced/airless,
+/area/tethys/science/testing)
+"OF" = (
+/obj/machinery/network/mainframe,
+/turf/simulated/floor/bluegrid,
+/area/tethys/engineering/communications)
+"OG" = (
+/obj/effect/floor_decal/industrial/hatch/yellow,
+/obj/machinery/button/access/exterior{
+	id_tag = "tethys_shuttle_2";
+	pixel_x = -10;
+	pixel_y = -24
+	},
+/obj/machinery/door/airlock/external/bolted{
+	id_tag = "tethys_shuttle_2_out"
+	},
+/obj/machinery/door/blast/regular{
+	dir = 4;
+	id_tag = "shuttle_left"
+	},
+/turf/simulated/floor/tiled/techfloor/grid,
+/area/tethys/exploration_pod)
+"OQ" = (
+/obj/machinery/light/navigation/delay5,
+/turf/simulated/floor/reinforced/airless,
+/area/tethys/security)
+"Pe" = (
+/obj/structure/ladder,
+/obj/structure/lattice,
+/obj/structure/cable{
+	icon_state = "32-2"
+	},
+/turf/simulated/open,
+/area/tethys/science/testing)
+"Ph" = (
+/obj/machinery/computer/shuttle_control/explore/exploration_pod,
+/turf/simulated/floor/tiled/techfloor,
+/area/tethys/eva)
+"PY" = (
+/obj/machinery/computer/modular/preset/merchant,
+/turf/simulated/floor/tiled/techfloor/grid,
+/area/tethys/eva)
+"Qr" = (
+/obj/structure/cable{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8";
+	pixel_y = 0
+	},
+/obj/machinery/atmospherics/unary/vent_pump/high_volume/external_air{
+	id_tag = "tethys_shuttle_pump"
+	},
+/obj/effect/floor_decal/industrial/warning{
+	dir = 8
+	},
+/obj/machinery/light,
+/turf/simulated/floor/tiled/techfloor,
+/area/tethys/exploration_pod)
+"QA" = (
+/obj/machinery/light/small,
+/turf/simulated/floor/plating,
+/area/tethys/science/testing)
+"QH" = (
+/obj/machinery/atmospherics/pipe/manifold/hidden/scrubbers,
+/turf/simulated/floor/tiled/dark,
+/area/tethys/exploration_pod)
+"RN" = (
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 4
+	},
+/obj/structure/cable{
+	icon_state = "4-8"
+	},
+/obj/machinery/door/airlock/hatch/tethys,
+/turf/simulated/floor/tiled/techfloor/grid,
+/area/tethys/hallway/tower)
+"Sp" = (
+/obj/effect/floor_decal/industrial/outline/yellow,
+/obj/structure/table/standard,
+/obj/machinery/recharger,
+/turf/simulated/floor/tiled/dark/monotile,
+/area/tethys/exploration_pod)
+"SD" = (
+/obj/machinery/power/apc/hyper{
+	dir = 1;
+	emp_hardened = 1
+	},
+/obj/structure/cable{
+	d2 = 2;
+	icon_state = "0-2"
+	},
+/obj/structure/cable{
+	d1 = 2;
+	d2 = 8;
+	icon_state = "2-8"
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 10
+	},
+/obj/machinery/atmospherics/pipe/manifold/hidden/scrubbers{
+	dir = 1;
+	icon_state = "map-scrubbers"
+	},
+/turf/simulated/floor/plating,
+/area/tethys/exploration_pod)
+"SL" = (
+/obj/machinery/atmospherics/unary/vent_scrubber/on{
+	dir = 4
+	},
+/obj/structure/table/standard,
+/turf/simulated/floor/carpet/blue,
+/area/tethys/civilian/library)
+"Tq" = (
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/manifold/hidden/supply,
+/obj/structure/cable{
+	icon_state = "4-8"
+	},
+/turf/simulated/floor/tiled/techfloor,
+/area/tethys/eva)
+"Tv" = (
+/obj/machinery/fabricator/book,
+/obj/structure/table/standard,
+/obj/item/stack/material/wood/ten,
+/obj/item/stack/material/plastic/ten,
+/turf/simulated/floor/wood/walnut,
+/area/tethys/civilian/library)
+"TC" = (
+/obj/machinery/door/firedoor,
+/obj/effect/wallframe_spawn/reinforced/titanium,
+/obj/machinery/door/blast/regular{
+	id_tag = "shuttle_front"
+	},
+/turf/simulated/floor/plating,
+/area/tethys/exploration_pod)
+"TK" = (
+/turf/simulated/floor/reinforced/airless,
+/area/tethys/eva)
+"TX" = (
+/obj/machinery/atmospherics/pipe/manifold/hidden/scrubbers{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/supply,
+/obj/structure/cable{
+	icon_state = "1-2"
+	},
+/turf/simulated/floor/wood/walnut,
+/area/tethys/civilian/library)
+"Um" = (
+/obj/machinery/atmospherics/unary/vent_pump/on{
+	dir = 8
+	},
+/turf/simulated/floor/tiled/dark/monotile,
+/area/tethys/exploration_pod)
+"UT" = (
+/turf/simulated/floor/tiled/dark,
+/area/tethys/hallway/tower)
+"Vm" = (
+/obj/structure/lattice,
+/obj/machinery/light/small{
+	dir = 1
+	},
+/turf/simulated/open,
+/area/tethys/engineering/communications)
+"Vn" = (
+/obj/machinery/light,
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 4
+	},
+/obj/machinery/light_switch{
+	pixel_y = -24
+	},
+/turf/simulated/floor/tiled/dark,
+/area/tethys/exploration_pod)
+"Vr" = (
+/obj/machinery/atmospherics/pipe/simple/hidden/supply,
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
+/obj/structure/cable{
+	icon_state = "2-8"
+	},
+/turf/simulated/floor/plating,
+/area/tethys/maintenance/shaft)
+"VB" = (
+/obj/structure/lattice,
+/obj/structure/railing/mapped,
+/turf/simulated/open,
+/area/tethys/maintenance/shaft)
+"VI" = (
+/obj/effect/floor_decal/industrial/hatch/yellow,
+/obj/machinery/button/access/interior{
+	id_tag = "tethys_shuttle";
+	pixel_x = -10;
+	pixel_y = 24
+	},
+/obj/machinery/door/airlock/external/bolted{
+	id_tag = "tethys_shuttle_in"
+	},
+/turf/simulated/floor/tiled/techfloor/grid,
+/area/tethys/exploration_pod)
+"Wm" = (
+/turf/simulated/floor/reinforced/airless,
+/area/tethys/hallway/tower)
+"WV" = (
+/obj/machinery/fabricator{
+	fab_status_flags = 1
+	},
+/turf/simulated/floor/tiled/techfloor/grid,
+/area/tethys/security)
+"XS" = (
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 6
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 6
+	},
+/obj/structure/lattice,
+/obj/structure/ladder,
+/obj/structure/railing/mapped{
+	dir = 1
+	},
+/turf/simulated/open,
+/area/tethys/maintenance/shaft)
+"Yc" = (
+/obj/machinery/power/port_gen/pacman/super/potato,
+/obj/structure/cable,
+/turf/simulated/floor/plating,
+/area/tethys/exploration_pod)
+"Yo" = (
+/obj/machinery/light,
+/obj/machinery/atmospherics/unary/vent_pump/on{
+	dir = 8
+	},
+/obj/structure/bed/chair/shuttle/black{
+	dir = 1
+	},
+/turf/simulated/floor/tiled/dark,
+/area/tethys/exploration_pod)
+"Yq" = (
+/obj/machinery/light,
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 4
+	},
+/turf/simulated/floor/tiled/dark,
+/area/tethys/exploration_pod)
+"Yr" = (
+/obj/structure/closet/firecloset,
+/turf/simulated/floor/tiled/dark/monotile,
+/area/tethys/hallway/tower)
+"YP" = (
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 10
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 6
+	},
+/turf/simulated/floor/tiled/dark,
+/area/tethys/exploration_pod)
+"Zc" = (
+/obj/structure/closet/secure_closet{
+	closet_appearance = /decl/closet_appearance/secure_closet/security;
+	name = "equipment closet";
+	req_access = list(access_armory)
+	},
+/obj/item/gun/projectile/automatic/smg,
+/obj/item/gun/projectile/automatic/smg,
+/obj/item/gun/projectile/automatic/smg,
+/obj/item/gun/projectile/automatic/smg,
+/obj/item/gun/projectile/revolver/lasvolver,
+/obj/item/gun/projectile/revolver/lasvolver,
+/obj/item/gun/projectile/revolver/lasvolver,
+/obj/item/gun/projectile/revolver/lasvolver,
+/turf/simulated/floor/tiled/techfloor/grid,
+/area/tethys/security)
+"Zx" = (
+/obj/structure/lattice,
+/turf/simulated/open,
+/area/tethys/science/testing)
+"ZD" = (
+/obj/effect/wallframe_spawn/reinforced,
+/turf/simulated/floor/plating,
+/area/tethys/eva)
+"ZI" = (
+/obj/machinery/atmospherics/pipe/manifold/hidden/scrubbers{
+	dir = 8
+	},
+/obj/structure/cable{
+	icon_state = "2-4"
+	},
+/obj/structure/cable{
+	icon_state = "2-8"
+	},
+/obj/structure/cable{
+	icon_state = "4-8"
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 6
+	},
+/turf/simulated/floor/tiled/techfloor,
+/area/tethys/eva)
+"ZY" = (
+/obj/effect/landmark/map_data{
+	height = 3
+	},
+/turf/simulated/open/flooded,
+/area/space/ocean)
 
 (1,1,1) = {"
-jbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjb
-jbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjb
-jbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjb
-jbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjb
-jbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjb
-jbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjb
-jbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjb
-jbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjb
-jbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjb
-jbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjb
-jbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjb
-jbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjb
-jbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjb
-jbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjb
-jbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjb
-jbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjb
-jbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjb
-jbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjb
-jbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjb
-jbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjb
-jbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjb
-jbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjb
-jbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjb
-jbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjb
-jbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjb
-jbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjb
-jbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjb
-jbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjb
-jbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbkbkbkbkbkbkbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjb
-jbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbkbyveWgbkbVtjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjb
-jbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbkbekgwMNkbVtjbjbcyjbjbjbcyjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjb
-jbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbkbkbIssMkbVtjbjbcycycycycyjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjb
-jbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbzakbGzEbkbVtjbjbLFLFfzLFLFjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbvDvDvDvDvDvDvDndndndndndndndjbjbjbjbjb
-jbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbXwkbUhkAkbkbjbjbLFCIHYwmLFjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbvDvDvDvDvDvDvDndvXvXPevXvXndjbjbjbjbjb
-jbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbXwkbiIGbkbLFTKTKLFNeHYNeKrxPxPKrjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbvDvDvDvDvDvDvDndvXZxITvXvXndjbjbjbjbjb
-jbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbkbjfkbkbLFZDZDLFLFfzLFKrGMGMKrjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbndvXZxMgCbyundjbjbjbjbjb
-jbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbLFINLFLFLFPYGvLFmvpyItKreqZcKrKrKrxPjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbndvXZxyuyuttndjbjbjbjbjb
-jbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbLFjtLFIAbjNFpyLFsmJpnUKrbsNDkhKeGMxPjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbndvXZxQAsVCSndjbjbjbjbjb
-jbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbLFKXvuDCZImjTquIrMILrMdbaClJISWVGMxPxPjbjbjbjbjbjbjbjbjbjbjbjbjbjbzvzvzvzvzvjbndndndndndndndjbjbjbjbjb
-jbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbLFLFLFLFfZLFLFLFLFLFLFnJnJnJnJnJnJnJDSjbjbjbjbjbjbjbjbjbjbjbjbjbjbzvhCVmOFzvjbjbjbjbjbjbjbjbjbjbjbjbjb
-jbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbrzccdQyEBOoLGAxHxHxHxHxHnJcMmAvJvJnJDSjbjbjbjbjbjbjbjbjbjbjbjbjbjbzvGZfHxWzvjbjbjbjbjbjbjbjbjbjbjbjbjb
-jbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbrzccNySLTXoLGAxHxHxHxHxHnJXSEnVBVBnJDSjbjbjbjbjbjbjbjbjbjbjbjbjbjbzvDHnYhQzvjbjbjbjbjbjbjbjbjbjbjbjbjb
-jbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbrzccywywBOoLGAxHxHxHxHxHnJaKnxcMcMnJDSjbjbjbjbjbjbjbjbjbjbjbjbjbjbzvDeDeDezvjbjbjbjbjbjbjbjbjbjbjbjbjb
-jbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbrzccNyMXyZTvGAxHxHxHxHxHnJtfVrFHETnJDSjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjb
-jbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbrzccKzvcxOiyGAjhwcwcwcjhnJEwIwFHETnJDSjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjb
-jbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbrzGAGAGAHzGAGAyQjMUTgylQnJnJcLnJnJnJDSjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjb
-jbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbWmWmrEvRlbwRRNsZgUNCJUsoRNwRpTYrrEWmWmjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjb
-jbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbWmjhjhiGKpmgmgmgtbmgmgmgmWtDjhjhWmjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjb
-jbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjhjhvRmgiRCLqdAiOrmgvRjhjhjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjb
-jbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjhrEmgmggXdLgXmgmgrEjhjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjb
-jbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbMvckmgqmqmqmmgckckjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjb
-jbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbauauaujbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjb
-jbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbauauaujbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjb
-jbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbauauaujbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjb
-jbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbauauaujbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjb
-jbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjb
-jbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjb
-jbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjb
-jbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjb
-jbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjb
-jbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjb
-jbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjb
-jbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjb
-jbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjb
-jbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjb
-jbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjb
-jbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjb
-jbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjb
-jbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjb
-jbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjb
-jbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjb
-jbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjb
-jbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjb
-jbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjb
-jbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjb
-jbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjb
-jbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjb
-jbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjb
-jbZYjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjb
-jbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+"}
+(2,1,1) = {"
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+ZY
+jb
+"}
+(3,1,1) = {"
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+"}
+(4,1,1) = {"
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+"}
+(5,1,1) = {"
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+"}
+(6,1,1) = {"
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+"}
+(7,1,1) = {"
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+"}
+(8,1,1) = {"
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+"}
+(9,1,1) = {"
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+"}
+(10,1,1) = {"
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+"}
+(11,1,1) = {"
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+"}
+(12,1,1) = {"
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+"}
+(13,1,1) = {"
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+"}
+(14,1,1) = {"
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+"}
+(15,1,1) = {"
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+"}
+(16,1,1) = {"
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+"}
+(17,1,1) = {"
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+"}
+(18,1,1) = {"
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+"}
+(19,1,1) = {"
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+dI
+Oq
+rw
+rw
+rw
+rw
+rw
+OG
+rw
+rw
+rw
+rw
+wx
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+"}
+(20,1,1) = {"
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+IN
+vE
+rw
+rw
+BR
+xR
+pl
+lP
+wd
+jD
+pA
+fB
+rw
+rw
+wx
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+"}
+(21,1,1) = {"
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+TC
+MQ
+Jx
+hf
+DZ
+yV
+rZ
+qW
+ot
+am
+MB
+lf
+qH
+rw
+wx
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+"}
+(22,1,1) = {"
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+TC
+vP
+Yo
+rw
+wp
+Vn
+rw
+rw
+dD
+rw
+ni
+GJ
+ku
+rw
+wx
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+"}
+(23,1,1) = {"
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+TC
+sU
+qc
+rw
+wp
+YP
+aN
+ax
+Fq
+yS
+ch
+mp
+zA
+rw
+wx
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+"}
+(24,1,1) = {"
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+TC
+JW
+EC
+rw
+wp
+iK
+oF
+Um
+At
+rw
+Bv
+Dy
+qZ
+rw
+wx
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+"}
+(25,1,1) = {"
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+TC
+Sp
+nI
+rw
+wp
+Yq
+rl
+VI
+BU
+rw
+uP
+rw
+rw
+rw
+wx
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+"}
+(26,1,1) = {"
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+TC
+Ij
+ow
+oE
+mr
+QH
+pd
+Ds
+Qr
+Ca
+SD
+uq
+Yc
+rw
+wx
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+"}
+(27,1,1) = {"
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+IN
+vE
+rw
+rw
+cw
+EQ
+Lp
+hS
+Ae
+Dg
+hh
+Dl
+rw
+rw
+wx
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+"}
+(28,1,1) = {"
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+GX
+lY
+rw
+rw
+rw
+rw
+rw
+Lu
+rw
+Kx
+GO
+FE
+zU
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+"}
+(29,1,1) = {"
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+LF
+LF
+sM
+LF
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+"}
+(30,1,1) = {"
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+LF
+hx
+jm
+LF
+rz
+rz
+rz
+rz
+rz
+rz
+Wm
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+"}
+(31,1,1) = {"
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+LF
+jt
+KX
+LF
+cc
+cc
+cc
+cc
+cc
+GA
+sC
+Wm
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+"}
+(32,1,1) = {"
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+LF
+LF
+iL
+vu
+LF
+dQ
+Ny
+yw
+Ny
+Kz
+GA
+rE
+jh
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+"}
+(33,1,1) = {"
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+LF
+Ol
+IA
+DC
+LF
+yE
+SL
+yw
+MX
+vc
+GA
+vR
+jh
+jh
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+"}
+(34,1,1) = {"
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+LF
+LF
+Ph
+bj
+ZI
+fZ
+BO
+TX
+BO
+yZ
+xO
+Hz
+lb
+iG
+jh
+jh
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+"}
+(35,1,1) = {"
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+TK
+ZD
+PY
+NF
+mj
+LF
+oL
+oL
+oL
+Tv
+iy
+GA
+wR
+Kp
+vR
+rE
+Mv
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+"}
+(36,1,1) = {"
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+TK
+ZD
+Gv
+py
+Tq
+LF
+GA
+GA
+GA
+GA
+GA
+GA
+RN
+mg
+mg
+mg
+ck
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+"}
+(37,1,1) = {"
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+Br
+cy
+LF
+LF
+LF
+LF
+LF
+LF
+uI
+LF
+xH
+xH
+xH
+xH
+jh
+yQ
+sZ
+qm
+iR
+mg
+mg
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+"}
+(38,1,1) = {"
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+cy
+LF
+CI
+Ne
+LF
+mv
+sm
+rM
+LF
+xH
+xH
+xH
+xH
+wc
+jM
+gU
+mg
+CL
+gX
+qm
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+"}
+(39,1,1) = {"
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+cy
+fz
+HY
+HY
+fz
+py
+Jp
+IL
+LF
+xH
+xH
+xH
+xH
+wc
+UT
+NC
+tb
+qd
+dL
+qm
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+"}
+(40,1,1) = {"
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+cy
+LF
+wm
+Ne
+LF
+It
+nU
+rM
+LF
+xH
+xH
+xH
+xH
+wc
+gy
+JU
+mg
+Ai
+gX
+qm
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+"}
+(41,1,1) = {"
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+Br
+cy
+LF
+LF
+Kr
+Kr
+Kr
+Kr
+db
+nJ
+xH
+xH
+xH
+xH
+jh
+lQ
+so
+qm
+Or
+mg
+mg
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+"}
+(42,1,1) = {"
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+xP
+GM
+eq
+bs
+aC
+nJ
+nJ
+nJ
+nJ
+nJ
+nJ
+nJ
+RN
+mg
+mg
+mg
+ck
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+"}
+(43,1,1) = {"
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+xP
+GM
+Zc
+ND
+lJ
+nJ
+cM
+XS
+aK
+tf
+Ew
+nJ
+wR
+mW
+vR
+rE
+ck
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+"}
+(44,1,1) = {"
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+Kr
+Kr
+Kr
+kh
+IS
+nJ
+mA
+En
+nx
+Vr
+Iw
+cL
+pT
+tD
+jh
+jh
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+"}
+(45,1,1) = {"
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+Kr
+Ke
+WV
+nJ
+vJ
+VB
+cM
+FH
+FH
+nJ
+Yr
+jh
+jh
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+"}
+(46,1,1) = {"
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+Kr
+GM
+GM
+nJ
+vJ
+VB
+cM
+ET
+ET
+nJ
+rE
+jh
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+"}
+(47,1,1) = {"
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+xP
+xP
+OQ
+nJ
+nJ
+nJ
+nJ
+nJ
+nJ
+nJ
+sC
+Wm
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+"}
+(48,1,1) = {"
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+xP
+DS
+DS
+DS
+DS
+DS
+DS
+DS
+Wm
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+"}
+(49,1,1) = {"
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+"}
+(50,1,1) = {"
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+"}
+(51,1,1) = {"
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+au
+au
+au
+au
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+"}
+(52,1,1) = {"
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+Mn
+au
+au
+Mn
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+"}
+(53,1,1) = {"
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+au
+au
+au
+au
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+"}
+(54,1,1) = {"
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+"}
+(55,1,1) = {"
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+"}
+(56,1,1) = {"
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+"}
+(57,1,1) = {"
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+"}
+(58,1,1) = {"
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+"}
+(59,1,1) = {"
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+"}
+(60,1,1) = {"
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+"}
+(61,1,1) = {"
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+"}
+(62,1,1) = {"
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+vD
+vD
+vD
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+"}
+(63,1,1) = {"
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+vD
+vD
+vD
+jb
+jb
+jb
+zv
+zv
+zv
+zv
+zv
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+"}
+(64,1,1) = {"
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+vD
+vD
+vD
+jb
+jb
+jb
+zv
+hC
+GZ
+DH
+De
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+"}
+(65,1,1) = {"
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+vD
+Oz
+vD
+jb
+jb
+jb
+zv
+Vm
+fH
+nY
+De
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+"}
+(66,1,1) = {"
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+vD
+vD
+vD
+jb
+jb
+jb
+zv
+OF
+xW
+hQ
+De
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+"}
+(67,1,1) = {"
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+vD
+vD
+vD
+jb
+jb
+jb
+zv
+zv
+zv
+zv
+zv
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+"}
+(68,1,1) = {"
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+vD
+vD
+vD
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+"}
+(69,1,1) = {"
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+nd
+nd
+nd
+nd
+nd
+nd
+nd
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+"}
+(70,1,1) = {"
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+nd
+vX
+vX
+vX
+vX
+vX
+nd
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+"}
+(71,1,1) = {"
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+nd
+vX
+Zx
+Zx
+Zx
+Zx
+nd
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+"}
+(72,1,1) = {"
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+nd
+Pe
+IT
+Mg
+yu
+QA
+nd
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+"}
+(73,1,1) = {"
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+nd
+vX
+vX
+Cb
+yu
+sV
+nd
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+"}
+(74,1,1) = {"
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+nd
+vX
+vX
+yu
+tt
+CS
+nd
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+"}
+(75,1,1) = {"
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+nd
+nd
+nd
+nd
+nd
+nd
+nd
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+"}
+(76,1,1) = {"
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+"}
+(77,1,1) = {"
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+"}
+(78,1,1) = {"
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+"}
+(79,1,1) = {"
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+"}
+(80,1,1) = {"
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
+jb
 "}

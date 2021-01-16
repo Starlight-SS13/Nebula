@@ -1,9 +1,10 @@
 //Areas + ocean things
 
 /datum/map/tethys
-	base_turf_by_z = list("1" = /turf/exterior/seafloor,
-						  "2" = /turf/simulated/open,
-						  "3" = /turf/simulated/open)
+	base_turf_by_z = list(
+		"1" = /turf/exterior/seafloor,
+		"2" = /turf/simulated/open,
+		"3" = /turf/simulated/open)
 
 /turf/simulated/wall/natural/ocean
 	name       = "ocean rock"
@@ -11,7 +12,8 @@
 	strata     = /decl/strata/permafrost
 
 /turf/c_airblock(turf/other)
-	if(get_fluid_depth() >= FLUID_OVER_MOB_HEAD) return BLOCKED
+	if(get_fluid_depth() >= FLUID_OVER_MOB_HEAD)
+		return BLOCKED
 	. = ..()
 
 /area/space/ocean
@@ -21,7 +23,7 @@
 	base_turf   = /turf/exterior/seafloor
 
 /area/space/ocean/has_gravity()
-	return 1
+	return TRUE
 
 /area/tethys
 	name       = "\improper The Tethys"
@@ -39,14 +41,13 @@
 		/area/turbolift/tethys_under,
 		/area/turbolift/tethys_surface,
 		/area/turbolift/tethys_tower
-
 	)
 
 /area/turbolift
 	name             = "Main Elevator"
 	icon_state       = "shuttle"
-	requires_power   = 0
-	dynamic_lighting = 1
+	requires_power   = FALSE
+	dynamic_lighting = TRUE
 
 /area/turbolift/tethys_tower
 	name      = "Tower Access"
@@ -62,28 +63,28 @@
 
 //Engineering
 
-/area/tethys/engine
+/area/tethys/engineering
 	name       = "Engineering"
 	req_access = list(access_engine)
 
-/area/tethys/engine/reactor
+/area/tethys/engineering/reactor
 	name = "Reactor Bay"
 
-/area/tethys/engine/power
+/area/tethys/engineering/power
 	name = "Power Supply"
 
-/area/tethys/engine/atmos
+/area/tethys/engineering/atmospherics
 	name = "Life Support"
 
-/area/tethys/engine/comms
+/area/tethys/engineering/communications
 	name = "Communications"
 
 //Maintenance
 
-/area/tethys/maint
+/area/tethys/maintenance
 	req_access = list(access_maint_tunnels)
 
-/area/tethys/maint/shaft
+/area/tethys/maintenance/shaft
 	name = "Maintenance Shaft"
 
 //Routing
@@ -160,6 +161,6 @@
 	name       = "Bridge"
 	req_access = list(access_bridge)
 
-/area/tethys/sec
+/area/tethys/security
 	name       = "Security"
 	req_access = list(access_security)
