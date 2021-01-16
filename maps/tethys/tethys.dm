@@ -13,15 +13,13 @@
 	#include "tethys_antagonists.dm"
 	#include "tethys_areas.dm"
 	#include "tethys_jobs.dm"
+    #include "tethys_loadout.dm"
 	#include "tethys_lore.dm"
 	#include "tethys_overmap.dm"
 	#include "tethys_overrides.dm"
 	#include "tethys_setup.dm"
 	#include "tethys_shuttles.dm"
 	#include "tethys_unit_testing.dm"
-
-	#include "datum/fabricator_designs.dm"
-	#include "datum/loadout.dm"
 
 	#include "jobs/_goals.dm"
 	#include "jobs/_jobs.dm"

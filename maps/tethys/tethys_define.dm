@@ -26,6 +26,14 @@
 
 	radiation_detected_message = "High levels of radiation have been detected in proximity of the %STATION_NAME%. Ensure that all areas all shielded properly. EVA cut recommended."
 
+	radiation_detected_sound = 'maps/tethys/media/threat.ogg'
+	space_time_anomaly_sound = 'maps/tethys/media/subspace.ogg'
+	unidentified_lifesigns_sound = 'maps/tethys/media/threat.ogg'
+	command_report_sound = 'maps/tethys/media/attention.ogg'
+	grid_check_sound = 'maps/tethys/media/warning.ogg'
+	grid_restored_sound = 'maps/tethys/media/warning.ogg'
+	meteor_detected_sound = 'maps/tethys/media/threat.ogg'
+
 	starting_money   = 120000
 	department_money = 9000
 	salary_modifier  = 3

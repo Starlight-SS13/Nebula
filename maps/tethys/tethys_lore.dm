@@ -22,8 +22,8 @@
 	..()
 
 /datum/map/tethys/get_map_info()
-	return {"<small>Long time ago, humanity built a colonial seedship. \
-	Fitted with the most reliable equipment, it was travelling through darkness of space.. until something went wrong. \
+	return {"<small>A long time ago, Humanity built a colonial seedship. \
+	Fitted with the most reliable equipment, it was travelling through the darkness of space ... until something went wrong. \
 	On-board computer decided to expand their journey by a few years.. \
-	When they crashed on unknown planet in uncharted space, they knew: it was a start for a new human era.</small> <br>
+	The on-board computer decided to extend their journey by a few years, when they crashed on an unknown planet in uncharted space, they knew; it was a start for a new era of Humanity.</small> <br>
 	Nowadays, it's [game_year] AE. You are onboard <b>[station_name]</b>, a facility placed in deeps of New Omaha, second planet in the K'tarr star system."}

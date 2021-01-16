@@ -2,7 +2,6 @@
 	use_overmap         = TRUE
 	overmap_event_areas = 6
 	num_exoplanets      = 2
-	planet_size         = list(129,129)
 
 /obj/effect/overmap/visitable/ship/tethys
 	name         = "underwater complex"
