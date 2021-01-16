@@ -6,5 +6,5 @@
 
 /obj/machinery/power/port_gen/pacman/super/potato
 	desc           = "PTTO-3, an industrial all-in-one nuclear power plant by Neo-Chernobyl GmbH. Rated for 250 kW max safe output."
-	power_gen      = 250 KW
+	power_gen      = 250 KILOWATTS
 	time_per_sheet = 7200
