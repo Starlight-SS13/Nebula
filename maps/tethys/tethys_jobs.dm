@@ -17,12 +17,8 @@
 
 /datum/map/tethys
 	species_to_job_blacklist = list(
-		/decl/species/resomi = list(HUMAN_ONLY_JOBS),
 		/decl/species/corvid = list(HUMAN_ONLY_JOBS),
-		/decl/species/tajaran = list(HUMAN_ONLY_JOBS),
-		/decl/species/utility_frame = list(HUMAN_ONLY_JOBS),
-		/decl/species/human/booster = list(HUMAN_ONLY_JOBS),
-		/decl/species/human/vatgrown = list(HUMAN_ONLY_JOBS)
+		/decl/species/utility_frame = list(HUMAN_ONLY_JOBS)
 	)
 
 #undef HUMAN_ONLY_JOBS

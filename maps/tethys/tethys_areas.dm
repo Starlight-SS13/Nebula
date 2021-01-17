@@ -1,17 +1,3 @@
-/turf/c_airblock(turf/other)
-	if(get_fluid_depth() >= FLUID_OVER_MOB_HEAD)
-		return BLOCKED
-	. = ..()
-
-/area/space
-	name        = "open ocean"
-	icon_state  = "ocean"
-	icon        = 'maps/tethys/media/areas.dmi'
-	base_turf   = /turf/exterior/seafloor
-
-/area/space/has_gravity()
-	return TRUE
-
 /area/tethys
 	name       = "\improper The Tethys"
 	icon_state = "tethys"
@@ -113,10 +99,11 @@
 
 /area/tethys/medical
 	name = "Medical Bay"
+	req_access = list(access_medical)
 
-/area/tethys/medical/chem
-	name       = "Chemistry"
-	req_access = list(access_chemistry)
+/area/tethys/medical/lobby
+	name = "Medical Lobby"
+	req_access = list()
 
 //Science
 

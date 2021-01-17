@@ -1779,9 +1779,6 @@
 /turf/simulated/floor/carpet/blue,
 /area/tethys/civilian/library)
 "NF" = (
-/obj/structure/bed/chair/comfy/blue{
-	dir = 1
-	},
 /obj/machinery/firealarm{
 	dir = 1
 	},
