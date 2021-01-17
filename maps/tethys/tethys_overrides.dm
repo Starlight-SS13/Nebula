@@ -8,3 +8,8 @@
 	desc           = "PTTO-3, an industrial all-in-one nuclear power plant by Neo-Chernobyl GmbH. Rated for 250 kW max safe output."
 	power_gen      = 250 KILOWATTS
 	time_per_sheet = 7200
+
+/obj/machinery/suit_cycler/mining
+	helmet = /obj/item/clothing/head/helmet/space/void/mining
+	suit = /obj/item/clothing/suit/space/void/mining
+	boots = /obj/item/clothing/shoes/magboots

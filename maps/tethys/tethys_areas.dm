@@ -133,14 +133,14 @@
 /area/tethys/science/testing
 	name = "Secure Testing Site"
 
-/area/tethys/science/robot
-	name = "Robot Storage"
-
 //Cargo
 
 /area/tethys/cargo
 	name       = "Cargo Storage"
 	req_access = list(access_cargo)
+
+/area/tethys/cargo/smelter
+	name = "Mining Smelter"
 
 //Sec+com
 

@@ -8,6 +8,13 @@
 	},
 /turf/simulated/floor/plating,
 /area/tethys/exploration_pod)
+"at" = (
+/obj/structure/table/standard,
+/obj/machinery/atmospherics/unary/vent_pump/on{
+	dir = 4
+	},
+/turf/simulated/floor/carpet/blue,
+/area/tethys/civilian/library)
 "au" = (
 /obj/machinery/door/firedoor,
 /obj/effect/wallframe_spawn/reinforced/titanium,
@@ -59,6 +66,15 @@
 /obj/effect/floor_decal/industrial/outline/yellow,
 /turf/simulated/floor/tiled/dark/monotile,
 /area/tethys/exploration_pod)
+"bT" = (
+/obj/machinery/power/apc{
+	dir = 4
+	},
+/obj/structure/cable{
+	icon_state = "0-8"
+	},
+/turf/simulated/floor/wood/walnut,
+/area/tethys/civilian/library)
 "cc" = (
 /obj/effect/floor_decal/industrial/outline/yellow,
 /obj/machinery/computer/shuttle_control/explore/exploration_pod,
@@ -299,12 +315,22 @@
 	id_tag = "exit_dock_port_sensor";
 	pixel_x = 24
 	},
-/obj/structure/ore_box,
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/tethys/eva)
 "jM" = (
 /turf/simulated/wall/r_wall/prepainted,
 /area/tethys/security)
+"jX" = (
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
+/obj/machinery/atmospherics/pipe/simple/hidden/supply,
+/obj/structure/cable{
+	icon_state = "1-2"
+	},
+/obj/structure/cable{
+	icon_state = "2-4"
+	},
+/turf/simulated/floor/wood/walnut,
+/area/tethys/civilian/library)
 "kh" = (
 /turf/simulated/floor/reinforced/airless,
 /area/tethys/security)
@@ -507,6 +533,10 @@
 /obj/machinery/merchant_pad,
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/tethys/eva)
+"pi" = (
+/obj/structure/flora/pottedplant/floorleaf,
+/turf/simulated/floor/wood/walnut,
+/area/tethys/civilian/library)
 "pl" = (
 /obj/machinery/atmospherics/portables_connector{
 	dir = 1
@@ -1393,7 +1423,6 @@
 /turf/simulated/floor/carpet/blue,
 /area/tethys/civilian/library)
 "En" = (
-/obj/structure/bed/chair/comfy/blue,
 /obj/machinery/alarm,
 /turf/simulated/floor/carpet/blue,
 /area/tethys/civilian/library)
@@ -1525,13 +1554,18 @@
 /area/tethys/exploration_pod)
 "Iw" = (
 /obj/structure/table/standard,
-/turf/simulated/floor/carpet/blue,
-/area/tethys/civilian/library)
-"IA" = (
 /obj/machinery/atmospherics/unary/vent_scrubber/on{
 	dir = 4
 	},
-/obj/structure/table/standard,
+/turf/simulated/floor/carpet/blue,
+/area/tethys/civilian/library)
+"IA" = (
+/obj/structure/bed/chair/comfy/blue{
+	dir = 8
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 4
+	},
 /turf/simulated/floor/carpet/blue,
 /area/tethys/civilian/library)
 "IL" = (
@@ -1684,11 +1718,12 @@
 /turf/simulated/floor/airless,
 /area/tethys/exploration_pod)
 "Mv" = (
-/obj/machinery/atmospherics/unary/vent_pump/on{
+/obj/structure/bed/chair/comfy/blue{
+	dir = 8
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
 	dir = 4
 	},
-/obj/structure/table/standard,
-/obj/machinery/recharger,
 /turf/simulated/floor/carpet/blue,
 /area/tethys/civilian/library)
 "MB" = (
@@ -1738,33 +1773,36 @@
 	dir = 1
 	},
 /obj/machinery/light/small,
+/obj/structure/bed/chair/comfy/blue{
+	dir = 1
+	},
 /turf/simulated/floor/carpet/blue,
 /area/tethys/civilian/library)
 "NF" = (
 /obj/structure/bed/chair/comfy/blue{
 	dir = 1
 	},
-/obj/structure/cable{
-	icon_state = "0-4"
+/obj/machinery/firealarm{
+	dir = 1
 	},
-/obj/machinery/power/apc,
 /turf/simulated/floor/carpet/blue,
 /area/tethys/civilian/library)
 "Ol" = (
-/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
-/obj/machinery/atmospherics/pipe/simple/hidden/supply,
-/obj/structure/cable{
-	icon_state = "1-2"
-	},
-/obj/structure/cable{
-	icon_state = "2-8"
+/obj/structure/bookcase,
+/obj/machinery/light/small{
+	dir = 1
 	},
 /turf/simulated/floor/wood/walnut,
 /area/tethys/civilian/library)
 "Oq" = (
-/obj/structure/bookcase/skill_books/random,
 /obj/machinery/light_switch{
 	pixel_y = -21
+	},
+/obj/machinery/light/small,
+/obj/structure/table/standard,
+/obj/machinery/recharger,
+/obj/structure/extinguisher_cabinet{
+	pixel_x = 24
 	},
 /turf/simulated/floor/wood/walnut,
 /area/tethys/civilian/library)
@@ -7909,8 +7947,8 @@ wR
 fB
 DZ
 Iw
-KX
-Iw
+pi
+at
 ND
 EQ
 SD
@@ -8169,9 +8207,9 @@ xO
 Bv
 Ew
 IL
-Ew
+jX
 MB
-Ol
+Ew
 OQ
 Tq
 VB
@@ -8297,9 +8335,9 @@ oL
 sC
 xP
 fB
+Ol
 EC
-EC
-EC
+bT
 MQ
 Oq
 EQ
