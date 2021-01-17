@@ -30,6 +30,10 @@
 	num_exoplanets      = 2
 
 	exterior_atmos_temp = 110 // -160 degrees celcius (surface temperature of Europa)
+	exterior_atmos_composition = list(
+		/decl/material/gas/oxygen = O2STANDARD * 100,
+		/decl/material/gas/nitrogen = N2STANDARD * 100
+	)
 
 	emergency_shuttle_leaving_dock   = "Attention all hands: the escape pods have been launched, maintaining burn for %ETA%."
 	emergency_shuttle_called_message = "Attention all hands: emergency evacuation procedures are now in effect. Escape pods will launch in %ETA%"

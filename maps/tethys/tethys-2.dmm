@@ -99,11 +99,15 @@
 /turf/simulated/floor/plating,
 /area/tethys/science/testing)
 "fO" = (
+/obj/effect/floor_decal/spline/fancy/wood/corner,
 /turf/simulated/floor/lino,
 /area/tethys/civilian/lounge)
 "fP" = (
 /obj/effect/floor_decal/spline/fancy/wood/corner{
 	dir = 1
+	},
+/obj/effect/floor_decal/spline/fancy/wood/corner{
+	dir = 4
 	},
 /turf/simulated/floor/lino,
 /area/tethys/civilian/lounge)
@@ -120,6 +124,9 @@
 	},
 /obj/effect/floor_decal/spline/fancy/wood/corner{
 	dir = 4
+	},
+/obj/effect/floor_decal/spline/fancy/wood/corner{
+	dir = 8
 	},
 /turf/simulated/floor/lino,
 /area/tethys/civilian/lounge)
@@ -343,6 +350,9 @@
 "qC" = (
 /obj/machinery/light_switch{
 	pixel_y = -21
+	},
+/obj/effect/floor_decal/spline/fancy/wood/corner{
+	dir = 1
 	},
 /turf/simulated/floor/lino,
 /area/tethys/civilian/lounge)
@@ -6561,7 +6571,7 @@ RF
 RF
 RF
 RF
-bK
+RF
 RF
 RF
 RF
