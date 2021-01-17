@@ -834,6 +834,13 @@
 /obj/structure/reagent_dispensers/watertank,
 /turf/simulated/floor/plating,
 /area/tethys/science/workshop)
+"gr" = (
+/obj/effect/wallframe_spawn/reinforced,
+/obj/machinery/door/firedoor{
+	dir = 4
+	},
+/turf/simulated/floor/plating,
+/area/tethys/cargo/smelter)
 "gJ" = (
 /obj/structure/table/rack,
 /obj/random/tech_supply,
@@ -1118,7 +1125,7 @@
 /area/tethys/civilian)
 "jq" = (
 /obj/machinery/door/firedoor,
-/obj/effect/wingrille_spawn/reinforced,
+/obj/effect/wallframe_spawn/reinforced,
 /turf/simulated/floor/plating,
 /area/tethys/science)
 "ju" = (
@@ -3183,7 +3190,7 @@
 /area/tethys/science/fabrication)
 "CI" = (
 /obj/machinery/door/firedoor,
-/obj/effect/wingrille_spawn/reinforced,
+/obj/effect/wallframe_spawn/reinforced,
 /turf/simulated/floor/plating,
 /area/tethys/cargo/smelter)
 "CJ" = (
@@ -3442,7 +3449,7 @@
 /area/tethys/hallway/lower)
 "EK" = (
 /obj/machinery/door/firedoor,
-/obj/effect/wingrille_spawn/reinforced,
+/obj/effect/wallframe_spawn/reinforced,
 /turf/simulated/floor/plating,
 /area/tethys/medical/chem)
 "ES" = (
@@ -3490,7 +3497,7 @@
 /area/tethys/cargo/smelter)
 "Fy" = (
 /obj/machinery/door/firedoor,
-/obj/effect/wingrille_spawn/reinforced,
+/obj/effect/wallframe_spawn/reinforced,
 /turf/simulated/floor/plating,
 /area/tethys/cargo)
 "FA" = (
@@ -16376,7 +16383,7 @@ UE
 UE
 UE
 Vq
-CI
+gr
 po
 po
 po
@@ -16506,7 +16513,7 @@ Ro
 mn
 UE
 XG
-CI
+gr
 po
 po
 po
@@ -16636,7 +16643,7 @@ PE
 RI
 UE
 XG
-CI
+gr
 po
 po
 po
@@ -16766,7 +16773,7 @@ cU
 RM
 UE
 Vq
-CI
+gr
 po
 po
 po
@@ -16896,7 +16903,7 @@ bk
 Oz
 UE
 XG
-CI
+gr
 po
 po
 po
@@ -17151,7 +17158,7 @@ po
 DD
 DD
 CI
-CI
+gr
 DD
 DD
 DD
