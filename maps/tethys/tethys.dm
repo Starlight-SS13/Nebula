@@ -8,7 +8,17 @@
 	// General content mod
 	#include "../../starlight/mods/content/starlight/_starlight.dme"
 
+	// Species mods
+	#include "../../starlight/mods/species/booster/_booster.dme"
+	#include "../../starlight/mods/species/resomi/_resomi.dme"
+	#include "../../starlight/mods/species/vatgrown/_vatgrown.dme"
+	#include "../../mods/species/tajaran/_tajaran.dme"
+
 // STARLIGHT MODS END
+
+	#include "../../mods/mobs/dionaea/_dionaea.dme"
+	#include "../../mods/species/neocorvids/_neocorvids.dme"
+	#include "../random_ruins/exoplanet_ruins/playablecolony/playablecolony.dm"
 
 	#include "tethys_antagonists.dm"
 	#include "tethys_areas.dm"
