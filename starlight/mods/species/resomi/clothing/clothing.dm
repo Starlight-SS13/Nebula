@@ -105,13 +105,6 @@
 	sprite_sheets[BODYTYPE_RESOMI] = 'starlight/mods/species/resomi/icons/clothing/exp/id.dmi'
 	. = ..()
 
-//Glasses
-
-/obj/item/clothing/glasses/Initialize()
-	LAZYINITLIST(sprite_sheets)
-	sprite_sheets[BODYTYPE_RESOMI] = 'starlight/mods/species/resomi/icons/clothing/onmob_eyes.dmi'
-	. = ..()
-
 //Masks
 
 /obj/item/clothing/mask/Initialize()
@@ -147,7 +140,7 @@
 	LAZYINITLIST(sprite_sheets)
 	sprite_sheets[BODYTYPE_RESOMI] = 'starlight/mods/species/resomi/icons/clothing/exp/rad_suit.dmi'
 	. = ..()
-
+//material cloak
 /obj/item/clothing/accessory/cloak/hide/Initialize()
 	LAZYINITLIST(sprite_sheets)
 	sprite_sheets[BODYTYPE_RESOMI] = 'starlight/mods/species/resomi/icons/clothing/exp/cloak_hide.dmi'
