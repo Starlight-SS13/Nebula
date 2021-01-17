@@ -2431,7 +2431,7 @@
 /turf/simulated/floor/plating,
 /area/tethys/engineering/communications)
 "um" = (
-/obj/effect/shuttle_landmark/supply/station,
+/obj/effect/shuttle_landmark/supply/complex,
 /turf/simulated/floor/plating,
 /area/tethys/cargo/storage)
 "us" = (
@@ -3102,7 +3102,6 @@
 	},
 /obj/machinery/door/airlock/hatch/tethys,
 /obj/machinery/door/firedoor,
-/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/tethys/cargo/storage)
 "zU" = (
@@ -5751,6 +5750,7 @@
 	},
 /obj/structure/catwalk,
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
+/obj/machinery/atmospherics/pipe/simple/hidden/supply,
 /turf/simulated/floor/plating,
 /area/tethys/cargo/storage)
 "WU" = (

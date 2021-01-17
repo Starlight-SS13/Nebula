@@ -18,6 +18,7 @@
 	station_levels = list(1,2,3)
 	contact_levels = list(1,2,3)
 	player_levels  = list(1,2,3)
+	admin_levels   = list(4)
 
 	base_turf_by_z = list(
 		"1" = /turf/exterior/seafloor,

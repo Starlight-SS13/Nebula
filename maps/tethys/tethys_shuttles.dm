@@ -29,7 +29,7 @@
 	name = "Deep Storage"
 	landmark_tag = "nav_cargo_start"
 
-/obj/effect/shuttle_landmark/supply/station
+/obj/effect/shuttle_landmark/supply/complex
 	name = "Cargo Storage"
 	landmark_tag = "nav_cargo_storage"
 	base_area = /area/tethys/cargo/lift
