@@ -24,7 +24,7 @@ jobs:
           pip install ruamel.yaml PyGithub
       - name: Make CL
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          GIT_EMAIL: "action@github.com"
-          GIT_NAME: "Changelogs" 
+          BOT_TOKEN: ${{ secrets.BOT_TOKEN }}
+          GIT_EMAIL: "NebulaSS13Bot@gmail.com"
+          GIT_NAME: "NebulaSS13Bot" 
         run: python tools/changelog/generate_cl.py
