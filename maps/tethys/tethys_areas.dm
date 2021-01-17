@@ -123,11 +123,20 @@
 //Cargo
 
 /area/tethys/cargo
-	name       = "Cargo Storage"
+	name = "Cargo Bay"
 	req_access = list(access_cargo)
+
+/area/tethys/cargo/storage
+	name = "Cargo Storage"
+
+/area/tethys/cargo/lift
+	name = "Cargo Lift"
+	requires_power = FALSE
+	dynamic_lighting = TRUE
 
 /area/tethys/cargo/smelter
 	name = "Mining Smelter"
+	req_access = list(list(access_cargo, access_research, access_engine))
 
 //Sec+com
 

@@ -111,6 +111,11 @@
 	},
 /turf/simulated/floor/lino,
 /area/tethys/civilian/lounge)
+"fY" = (
+/obj/structure/table/standard,
+/obj/structure/hygiene/drain,
+/turf/simulated/floor/carpet/blue2,
+/area/tethys/civilian/lounge)
 "gr" = (
 /obj/effect/floor_decal/spline/fancy/wood{
 	dir = 1
@@ -196,6 +201,14 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/simulated/floor/plating,
 /area/tethys/science/testing)
+"jv" = (
+/obj/effect/floor_decal/spline/fancy/wood{
+	dir = 1
+	},
+/obj/effect/floor_decal/spline/fancy/wood,
+/obj/structure/hygiene/drain,
+/turf/simulated/floor/lino,
+/area/tethys/civilian/lounge)
 "ki" = (
 /obj/machinery/constructable_frame/machine_frame,
 /obj/item/shard/borosilicate,
@@ -877,6 +890,7 @@
 	icon_state = "4-8"
 	},
 /obj/effect/landmark/test/safe_turf,
+/obj/structure/hygiene/drain,
 /turf/simulated/floor/tiled/dark,
 /area/tethys/hallway/upper)
 "ST" = (
@@ -972,7 +986,6 @@
 /obj/effect/floor_decal/corner/blue{
 	dir = 9
 	},
-/obj/structure/hygiene/drain,
 /turf/simulated/floor/tiled/dark,
 /area/tethys/hallway/upper)
 "Xc" = (
@@ -983,7 +996,6 @@
 /obj/effect/floor_decal/corner/blue{
 	dir = 6
 	},
-/obj/structure/hygiene/drain,
 /turf/simulated/floor/tiled/dark,
 /area/tethys/hallway/upper)
 "Xu" = (
@@ -6927,7 +6939,7 @@ nx
 qE
 tp
 AA
-AA
+fY
 AA
 AA
 Lv
@@ -7701,7 +7713,7 @@ al
 aJ
 bU
 fa
-gr
+jv
 lS
 oS
 HZ

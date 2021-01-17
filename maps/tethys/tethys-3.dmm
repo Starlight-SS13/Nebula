@@ -378,6 +378,7 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 6
 	},
+/obj/structure/hygiene/drain,
 /turf/simulated/floor/tiled/dark,
 /area/tethys/exploration_pod)
 "lS" = (
@@ -1119,6 +1120,7 @@
 /obj/structure/cable{
 	icon_state = "4-8"
 	},
+/obj/structure/hygiene/drain,
 /turf/simulated/floor/tiled/techfloor,
 /area/tethys/eva)
 "xW" = (
@@ -1192,6 +1194,7 @@
 /obj/machinery/light_switch{
 	pixel_y = -21
 	},
+/obj/structure/hygiene/drain,
 /turf/simulated/floor/tiled/techfloor,
 /area/tethys/security)
 "yS" = (
@@ -1319,6 +1322,7 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 4
 	},
+/obj/structure/hygiene/drain,
 /turf/simulated/floor/plating,
 /area/tethys/exploration_pod)
 "De" = (
@@ -1670,6 +1674,7 @@
 /turf/simulated/wall/titanium,
 /area/tethys/exploration_pod)
 "KX" = (
+/obj/structure/hygiene/drain,
 /turf/simulated/floor/wood/walnut,
 /area/tethys/civilian/library)
 "Lj" = (
@@ -1965,6 +1970,7 @@
 /obj/structure/cable{
 	icon_state = "2-4"
 	},
+/obj/structure/hygiene/drain,
 /turf/simulated/floor/tiled/dark,
 /area/tethys/hallway/tower)
 "UT" = (
