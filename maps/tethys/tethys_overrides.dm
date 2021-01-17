@@ -1,3 +1,17 @@
+/area/space
+	name        = "open ocean"
+	icon_state  = "ocean"
+	icon        = 'maps/tethys/media/areas.dmi'
+	base_turf   = /turf/exterior/seafloor
+
+/area/space/has_gravity()
+	return TRUE
+
+/turf/c_airblock(turf/other)
+	if(get_fluid_depth() >= FLUID_OVER_MOB_HEAD)
+		return BLOCKED
+	. = ..()
+
 /datum/computer_file/program/merchant
 	required_access = null
 

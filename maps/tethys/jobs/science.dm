@@ -28,7 +28,8 @@
 		access_tox_storage,
 		access_research,
 		access_xenobiology,
-		access_xenoarch
+		access_xenoarch,
+		access_eva
 	)
 	minimal_access = list(
 		access_robotics,
@@ -36,7 +37,8 @@
 		access_tox_storage,
 		access_research,
 		access_xenobiology,
-		access_xenoarch
+		access_xenoarch,
+		access_eva
 	)
 
 /datum/job/researcher/head
@@ -89,7 +91,8 @@
 		access_tcomsat,
 		access_gateway,
 		access_xenoarch,
-		access_network
+		access_network,
+		access_eva
 	)
 	minimal_access = list(
 		access_rd,
@@ -110,7 +113,8 @@
 		access_tcomsat,
 		access_gateway,
 		access_xenoarch,
-		access_network
+		access_network,
+		access_eva
 	)
 	minimal_player_age = 14
 	ideal_character_age = 50
