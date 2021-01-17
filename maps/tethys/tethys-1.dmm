@@ -324,6 +324,7 @@
 /obj/structure/cable{
 	icon_state = "4-8"
 	},
+/obj/structure/hygiene/drain,
 /turf/simulated/floor/tiled/white,
 /area/tethys/science/testing)
 "aZ" = (
@@ -717,6 +718,7 @@
 /obj/structure/cable{
 	icon_state = "1-2"
 	},
+/obj/structure/hygiene/drain,
 /turf/simulated/floor/tiled/white,
 /area/tethys/science/workshop)
 "eT" = (
@@ -832,6 +834,13 @@
 /obj/structure/reagent_dispensers/watertank,
 /turf/simulated/floor/plating,
 /area/tethys/science/workshop)
+"gr" = (
+/obj/effect/wallframe_spawn/reinforced,
+/obj/machinery/door/firedoor{
+	dir = 4
+	},
+/turf/simulated/floor/plating,
+/area/tethys/cargo/smelter)
 "gJ" = (
 /obj/structure/table/rack,
 /obj/random/tech_supply,
@@ -1116,7 +1125,7 @@
 /area/tethys/civilian)
 "jq" = (
 /obj/machinery/door/firedoor,
-/obj/effect/wingrille_spawn/reinforced,
+/obj/effect/wallframe_spawn/reinforced,
 /turf/simulated/floor/plating,
 /area/tethys/science)
 "ju" = (
@@ -1436,6 +1445,7 @@
 /area/tethys/science/testing)
 "lS" = (
 /obj/machinery/atmospherics/pipe/manifold4w/hidden/scrubbers,
+/obj/structure/hygiene/drain,
 /turf/simulated/floor/reinforced,
 /area/tethys/science/testing)
 "ma" = (
@@ -1583,6 +1593,7 @@
 /obj/structure/cable{
 	icon_state = "1-2"
 	},
+/obj/structure/hygiene/drain,
 /turf/simulated/floor/tiled/white,
 /area/tethys/science/workshop)
 "no" = (
@@ -2647,6 +2658,7 @@
 /obj/structure/cable{
 	icon_state = "1-4"
 	},
+/obj/structure/hygiene/drain,
 /turf/simulated/floor/tiled/white,
 /area/tethys/science)
 "xz" = (
@@ -2680,6 +2692,7 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
 	dir = 4
 	},
+/obj/structure/hygiene/drain,
 /turf/simulated/floor/tiled/white,
 /area/tethys/science)
 "xF" = (
@@ -3134,6 +3147,13 @@
 /obj/item/dice,
 /turf/simulated/floor/carpet/blue,
 /area/tethys/civilian)
+"Cm" = (
+/obj/structure/cable{
+	icon_state = "4-8"
+	},
+/obj/structure/hygiene/drain,
+/turf/simulated/floor/tiled,
+/area/tethys/civilian)
 "Cq" = (
 /turf/simulated/floor/tiled/white,
 /area/tethys/science/workshop)
@@ -3170,7 +3190,7 @@
 /area/tethys/science/fabrication)
 "CI" = (
 /obj/machinery/door/firedoor,
-/obj/effect/wingrille_spawn/reinforced,
+/obj/effect/wallframe_spawn/reinforced,
 /turf/simulated/floor/plating,
 /area/tethys/cargo/smelter)
 "CJ" = (
@@ -3429,7 +3449,7 @@
 /area/tethys/hallway/lower)
 "EK" = (
 /obj/machinery/door/firedoor,
-/obj/effect/wingrille_spawn/reinforced,
+/obj/effect/wallframe_spawn/reinforced,
 /turf/simulated/floor/plating,
 /area/tethys/medical/chem)
 "ES" = (
@@ -3477,7 +3497,7 @@
 /area/tethys/cargo/smelter)
 "Fy" = (
 /obj/machinery/door/firedoor,
-/obj/effect/wingrille_spawn/reinforced,
+/obj/effect/wallframe_spawn/reinforced,
 /turf/simulated/floor/plating,
 /area/tethys/cargo)
 "FA" = (
@@ -4795,6 +4815,7 @@
 	name = "door lock";
 	pixel_y = -24
 	},
+/obj/structure/hygiene/drain,
 /turf/simulated/floor/tiled/freezer,
 /area/tethys/civilian/hygiene)
 "Si" = (
@@ -5056,6 +5077,18 @@
 /obj/structure/reagent_dispensers/fueltank,
 /turf/simulated/floor/tiled/techmaint,
 /area/tethys/cargo)
+"UO" = (
+/obj/machinery/atmospherics/pipe/simple/hidden/supply,
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
+/obj/structure/cable{
+	icon_state = "1-2"
+	},
+/obj/effect/floor_decal/corner/beige{
+	dir = 9
+	},
+/obj/structure/hygiene/drain,
+/turf/simulated/floor/tiled,
+/area/tethys/civilian/dorm)
 "US" = (
 /obj/structure/closet/crate,
 /obj/random/loot,
@@ -5404,6 +5437,7 @@
 	dir = 4
 	},
 /obj/machinery/alarm,
+/obj/structure/hygiene/drain,
 /turf/simulated/floor/tiled/freezer,
 /area/tethys/civilian/hygiene)
 "XS" = (
@@ -5616,6 +5650,10 @@
 /obj/effect/floor_decal/industrial/outline/yellow,
 /turf/simulated/floor/tiled/dark/monotile,
 /area/tethys/engineering)
+"Zw" = (
+/obj/structure/hygiene/drain,
+/turf/simulated/floor/tiled,
+/area/tethys/civilian)
 "Zz" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
 	dir = 4
@@ -11773,11 +11811,11 @@ po
 po
 ab
 ai
-az
+Cm
 jC
 jC
 jC
-jC
+Zw
 jC
 mj
 oe
@@ -11787,7 +11825,7 @@ uN
 wl
 XJ
 AP
-yr
+UO
 yr
 GG
 KC
@@ -16345,7 +16383,7 @@ UE
 UE
 UE
 Vq
-CI
+gr
 po
 po
 po
@@ -16475,7 +16513,7 @@ Ro
 mn
 UE
 XG
-CI
+gr
 po
 po
 po
@@ -16605,7 +16643,7 @@ PE
 RI
 UE
 XG
-CI
+gr
 po
 po
 po
@@ -16735,7 +16773,7 @@ cU
 RM
 UE
 Vq
-CI
+gr
 po
 po
 po
@@ -16865,7 +16903,7 @@ bk
 Oz
 UE
 XG
-CI
+gr
 po
 po
 po
@@ -17120,7 +17158,7 @@ po
 DD
 DD
 CI
-CI
+gr
 DD
 DD
 DD

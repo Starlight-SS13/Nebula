@@ -1,8 +1,8 @@
 /datum/job/doctor
-	title = "Colony Doctor"
+	title = "Colony Physician"
 	department_refs = list(DEPT_MEDICAL)
 	head_position = 0
-	supervisors = "the Head Colony Doctor and the Colony Director"
+	supervisors = "the Head Colony Physician and the Colony Director"
 	total_positions = 2
 	spawn_positions = 2
 	alt_titles = list()
@@ -42,7 +42,7 @@
 	outfit_type = /decl/hierarchy/outfit/job/tethys/basic/doctor
 
 /datum/job/doctor/head
-	title = "Colony Head Doctor"
+	title = "Colony Head Physician"
 	head_position = 1
 	hud_icon = "hudchiefmedicalofficer"
 	department_refs = list(

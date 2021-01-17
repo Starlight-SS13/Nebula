@@ -4,7 +4,7 @@
 	outfit_type     = /decl/hierarchy/outfit/job/tethys/basic
 
 /datum/job/assistant
-	title = "Colonist"
+	title = "Colony Member"
 	supervisors = "literally everyone, you bottom feeder"
 	outfit_type = /decl/hierarchy/outfit/job/tethys/basic
 	hud_icon = "hudcargotechnician"

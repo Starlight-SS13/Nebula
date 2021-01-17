@@ -1,5 +1,6 @@
 #if !defined(USING_MAP_DATUM)
 
+	#include "../../mods/content/corporate/_corporate.dme"
 	#include "../../mods/species/utility_frames/_utility_frames.dme"
 	#include "../../mods/species/tritonian/_tritonian.dme"
 
@@ -8,12 +9,40 @@
 	// General content mod
 	#include "../../starlight/mods/content/starlight/_starlight.dme"
 
+	// Species mods
+	#include "../../starlight/mods/species/booster/_booster.dme"
+	#include "../../starlight/mods/species/resomi/_resomi.dme"
+	#include "../../starlight/mods/species/vatgrown/_vatgrown.dme"
+	#include "../../mods/species/tajaran/_tajaran.dme"
+
 // STARLIGHT MODS END
+
+	#include "../../mods/mobs/dionaea/_dionaea.dme"
+	#include "../../mods/species/neocorvids/_neocorvids.dme"
+
+	#include "../random_ruins/exoplanet_ruins/playablecolony/playablecolony.dm"
+	#include "../../mods/content/government/away_sites/icarus/icarus.dm"
+	#include "../../mods/content/government/ruins/ec_old_crash/ec_old_crash.dm"
+	#include "../../mods/content/corporate/away_sites/lar_maria/lar_maria.dm"
+
+	#include "../away/bearcat/bearcat.dm"
+	#include "../away/casino/casino.dm"
+	#include "../away/derelict/derelict.dm"
+	#include "../away/errant_pisces/errant_pisces.dm"
+	#include "../away/lost_supply_base/lost_supply_base.dm"
+	#include "../away/magshield/magshield.dm"
+	#include "../away/mining/mining.dm"
+	#include "../away/mobius_rift/mobius_rift.dm"
+	#include "../away/smugglers/smugglers.dm"
+	#include "../away/slavers/slavers_base.dm"
+	#include "../away/unishi/unishi.dm"
+	#include "../away/yacht/yacht.dm"
 
 	#include "tethys_antagonists.dm"
 	#include "tethys_areas.dm"
 	#include "tethys_jobs.dm"
 	#include "tethys_loadout.dm"
+	#include "tethys_lobby_tracks.dm"
 	#include "tethys_lore.dm"
 	#include "tethys_overmap.dm"
 	#include "tethys_overrides.dm"

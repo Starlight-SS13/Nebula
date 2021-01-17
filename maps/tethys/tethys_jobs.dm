@@ -1,17 +1,31 @@
 /datum/map/tethys
 	default_law_type = /datum/ai_laws/asimov
-	default_assistant_title = "Colonist"
+	default_assistant_title = "Colony Member"
 	allowed_jobs = list(
 		/datum/job/assistant,
 		/datum/job/director,
 		/datum/job/manager,
 		/datum/job/engineer/head,
 		/datum/job/engineer,
-		/datum/job/doctor,
 		/datum/job/doctor/head,
+		/datum/job/doctor,
 		/datum/job/researcher/head,
 		/datum/job/researcher
 	)
+
+#define HUMAN_ONLY_JOBS /datum/job/director, /datum/job/manager, /datum/job/engineer/head, /datum/job/researcher/head, /datum/job/doctor/head
+
+/datum/map/tethys
+	species_to_job_blacklist = list(
+		/decl/species/resomi = list(HUMAN_ONLY_JOBS),
+		/decl/species/corvid = list(HUMAN_ONLY_JOBS),
+		/decl/species/tajaran = list(HUMAN_ONLY_JOBS),
+		/decl/species/utility_frame = list(HUMAN_ONLY_JOBS),
+		/decl/species/human/booster = list(HUMAN_ONLY_JOBS),
+		/decl/species/human/vatgrown = list(HUMAN_ONLY_JOBS)
+	)
+
+#undef HUMAN_ONLY_JOBS
 
 /obj/machinery/suit_cycler/tethys
 	helmet = /obj/item/clothing/head/helmet/space/void/engineering

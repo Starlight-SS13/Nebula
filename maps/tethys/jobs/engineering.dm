@@ -1,6 +1,6 @@
 /datum/job/engineer
-	title = "Colony Engineer"
-	supervisors = "the Head Colony Engineer"
+	title = "Colony Technician"
+	supervisors = "the Colony Head Technician"
 	total_positions = 2
 	spawn_positions = 2
 	hud_icon = "hudengineer"
@@ -52,7 +52,7 @@
 	alt_titles = list()
 
 /datum/job/engineer/head
-	title = "Colony Head Engineer"
+	title = "Colony Head Technician"
 	head_position = 1
 	department_refs = list(
 		DEPT_ENGINEERING,
