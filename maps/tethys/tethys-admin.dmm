@@ -7,6 +7,11 @@
 	dir = 4;
 	id_tag = "cargo_shutter_lift"
 	},
+/obj/machinery/button/blast_door{
+	dir = 8;
+	id_tag = "cargo_shutter_lift";
+	pixel_y = 32
+	},
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/tethys/cargo/lift)
 "c" = (
@@ -24,9 +29,28 @@
 /turf/simulated/floor/plating,
 /area/tethys/cargo/lift)
 "h" = (
-/obj/machinery/button/blast_door{
+/obj/machinery/door/blast/shutters{
+	dir = 4;
 	id_tag = "cargo_shutter_lift"
 	},
+/obj/machinery/button/blast_door{
+	dir = 8;
+	id_tag = "cargo_shutter_lift";
+	pixel_y = -32
+	},
+/turf/simulated/floor/tiled/techfloor/grid,
+/area/tethys/cargo/lift)
+"G" = (
+/obj/effect/floor_decal/industrial/outline/yellow,
+/obj/machinery/light/small/red{
+	dir = 4
+	},
+/turf/simulated/floor/tiled,
+/area/tethys/cargo/lift)
+"L" = (
+/obj/effect/paint/brown,
+/obj/effect/paint_stripe/red,
+/obj/effect/paint_stripe/red,
 /turf/simulated/wall/titanium,
 /area/tethys/cargo/lift)
 "P" = (
@@ -35,6 +59,8 @@
 /turf/simulated/floor/tiled,
 /area/tethys/cargo/lift)
 "R" = (
+/obj/effect/paint/brown,
+/obj/effect/paint_stripe/red,
 /turf/simulated/wall/titanium,
 /area/tethys/cargo/lift)
 
@@ -290,11 +316,11 @@ a
 a
 c
 R
-h
+R
 b
 g
-b
 h
+R
 R
 c
 "}
@@ -680,11 +706,11 @@ a
 a
 c
 g
+G
 d
+G
 d
-d
-d
-d
+G
 g
 c
 "}
@@ -810,9 +836,9 @@ a
 a
 c
 R
+L
+g
 R
-g
-g
 g
 R
 R

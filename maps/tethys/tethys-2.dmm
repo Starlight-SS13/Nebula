@@ -96,6 +96,8 @@
 "fE" = (
 /obj/item/stool/padded,
 /obj/effect/decal/cleanable/dirt,
+/obj/item/music_tape/custom,
+/obj/item/music_tape/custom,
 /turf/simulated/floor/plating,
 /area/tethys/science/testing)
 "fO" = (
@@ -990,6 +992,9 @@
 /area/tethys/hallway/upper)
 "Xc" = (
 /obj/machinery/media/jukebox/old,
+/obj/item/music_tape/custom,
+/obj/item/music_tape/custom,
+/obj/item/music_tape/custom,
 /turf/simulated/floor/tiled/dark/monotile,
 /area/tethys/hallway/upper)
 "Xq" = (

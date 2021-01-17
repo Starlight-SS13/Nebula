@@ -32,5 +32,5 @@
 /obj/effect/shuttle_landmark/supply/complex
 	name = "Cargo Storage"
 	landmark_tag = "nav_cargo_storage"
-	base_area = /area/tethys/cargo/lift
+	base_area = /area/tethys/cargo/storage
 	base_turf = /turf/simulated/floor/plating
