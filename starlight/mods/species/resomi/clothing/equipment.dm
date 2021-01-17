@@ -1,5 +1,5 @@
 //Contains resomi-unique clothing, TODO: cloaks and stuff
-
+//cloaks
 /obj/item/clothing/suit/storage/hooded/polychromic
 	name = "polychromic cloak"
 	desc = "Resomi cloak. Seems to be coated with polychrome paint. There is also a sewn hood. DO NOT MIX WITH EMP!"
