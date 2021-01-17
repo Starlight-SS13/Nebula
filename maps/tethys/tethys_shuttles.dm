@@ -16,3 +16,21 @@
 	name               = "Tethys Exploration Shuttle Dock"
 	landmark_tag       = "nav_tethys_dock"
 	docking_controller = "tethys_dock_port"
+
+/datum/shuttle/autodock/ferry/supply/lift
+	name = "Cargo Lift"
+	location = 1
+	warmup_time = 10
+	shuttle_area = /area/tethys/cargo/lift
+	waypoint_offsite = "nav_cargo_start"
+	waypoint_station = "nav_cargo_storage"
+
+/obj/effect/shuttle_landmark/supply/deep
+	name = "Deep Storage"
+	landmark_tag = "nav_cargo_start"
+
+/obj/effect/shuttle_landmark/supply/complex
+	name = "Cargo Storage"
+	landmark_tag = "nav_cargo_storage"
+	base_area = /area/tethys/cargo/storage
+	base_turf = /turf/simulated/floor/plating

@@ -1,7 +1,13 @@
 #if !defined(USING_MAP_DATUM)
 
 	#include "../../mods/content/corporate/_corporate.dme"
+	#include "../../mods/content/bigpharma/_bigpharma.dme"
+
+	#include "../../mods/mobs/dionaea/_dionaea.dme"
+	#include "../../mods/mobs/borers/_borers.dme"
+
 	#include "../../mods/species/utility_frames/_utility_frames.dme"
+	#include "../../mods/species/neocorvids/_neocorvids.dme"
 	#include "../../mods/species/tritonian/_tritonian.dme"
 
 // STARLIGHT MODS START
@@ -14,9 +20,6 @@
 	#include "../../starlight/mods/species/vatgrown/_vatgrown.dme"
 
 // STARLIGHT MODS END
-
-	#include "../../mods/mobs/dionaea/_dionaea.dme"
-	#include "../../mods/species/neocorvids/_neocorvids.dme"
 
 	#include "../random_ruins/exoplanet_ruins/playablecolony/playablecolony.dm"
 	#include "../../mods/content/government/away_sites/icarus/icarus.dm"
@@ -66,6 +69,7 @@
 	#include "tethys-1.dmm"
 	#include "tethys-2.dmm"
 	#include "tethys-3.dmm"
+	#include "tethys-admin.dmm"
 
 	#define USING_MAP_DATUM /datum/map/tethys
 
