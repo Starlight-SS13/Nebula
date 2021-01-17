@@ -2227,10 +2227,16 @@
 /area/tethys/science)
 "ta" = (
 /obj/machinery/fabricator,
+/obj/machinery/light{
+	dir = 1
+	},
 /turf/simulated/floor/tiled/white/monotile,
 /area/tethys/science)
 "tr" = (
 /obj/machinery/fabricator/imprinter,
+/obj/machinery/light_switch{
+	pixel_y = 24
+	},
 /turf/simulated/floor/tiled/white/monotile,
 /area/tethys/science)
 "tt" = (
@@ -2642,6 +2648,9 @@
 /obj/machinery/atmospherics/unary/vent_scrubber/on{
 	dir = 4
 	},
+/obj/machinery/light{
+	dir = 8
+	},
 /turf/simulated/floor/tiled/white,
 /area/tethys/science)
 "xu" = (
@@ -2718,6 +2727,9 @@
 	},
 /obj/machinery/atmospherics/unary/vent_pump/on{
 	dir = 8
+	},
+/obj/machinery/light{
+	dir = 4
 	},
 /turf/simulated/floor/tiled/white,
 /area/tethys/science)
