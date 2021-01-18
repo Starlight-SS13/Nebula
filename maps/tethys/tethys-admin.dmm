@@ -40,6 +40,13 @@
 	},
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/tethys/cargo/lift)
+"A" = (
+/obj/machinery/door/blast/shutters{
+	dir = 4;
+	id_tag = "cargo_shutter_lift"
+	},
+/turf/simulated/floor/tiled/techfloor/grid,
+/area/tethys/cargo/lift)
 "G" = (
 /obj/effect/floor_decal/industrial/outline/yellow,
 /obj/machinery/light/small/red{
@@ -318,7 +325,7 @@ c
 R
 R
 b
-g
+A
 h
 R
 R

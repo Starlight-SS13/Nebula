@@ -740,7 +740,7 @@
 /area/tethys/cargo/storage)
 "fd" = (
 /obj/effect/floor_decal/industrial/outline/yellow,
-/obj/machinery/alarm,
+/obj/structure/closet/crate/freezer/rations,
 /turf/simulated/floor/tiled/techmaint,
 /area/tethys/cargo/storage)
 "fj" = (
@@ -788,6 +788,11 @@
 /obj/machinery/atmospherics/pipe/manifold/visible,
 /turf/simulated/floor/plating,
 /area/tethys/engineering/atmospherics)
+"fN" = (
+/obj/effect/floor_decal/industrial/outline/yellow,
+/obj/structure/closet/crate/secure/explosives,
+/turf/simulated/floor/tiled/techmaint,
+/area/tethys/cargo/storage)
 "fO" = (
 /obj/machinery/power/apc{
 	dir = 1
@@ -924,6 +929,13 @@
 	},
 /turf/simulated/floor/plating,
 /area/tethys/science/testing)
+"ha" = (
+/obj/structure/catwalk,
+/obj/machinery/firealarm{
+	dir = 1
+	},
+/turf/simulated/floor/plating,
+/area/tethys/cargo/storage)
 "hc" = (
 /obj/machinery/firealarm{
 	dir = 1
@@ -1122,6 +1134,10 @@
 	},
 /turf/simulated/floor/tiled/freezer,
 /area/tethys/civilian/hygiene)
+"iJ" = (
+/obj/machinery/firealarm,
+/turf/simulated/floor/tiled/techmaint,
+/area/tethys/cargo)
 "iL" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 6
@@ -2099,14 +2115,13 @@
 /turf/simulated/floor/tiled/white/monotile,
 /area/tethys/medical/lobby)
 "qp" = (
-/obj/structure/ore_box,
-/turf/simulated/floor/tiled/techmaint,
+/obj/machinery/mech_recharger,
+/mob/living/exosuit/premade/powerloader,
+/turf/simulated/floor/plating,
 /area/tethys/cargo/storage)
 "qq" = (
 /obj/effect/floor_decal/industrial/outline/yellow,
-/obj/machinery/firealarm{
-	dir = 1
-	},
+/obj/structure/closet/crate/med_crate/oxyloss,
 /turf/simulated/floor/tiled/techmaint,
 /area/tethys/cargo/storage)
 "qv" = (
@@ -2143,6 +2158,7 @@
 /obj/machinery/light{
 	dir = 8
 	},
+/obj/structure/closet/crate,
 /turf/simulated/floor/tiled/techmaint,
 /area/tethys/cargo/storage)
 "qQ" = (
@@ -2281,6 +2297,7 @@
 	dir = 4
 	},
 /obj/machinery/light,
+/obj/structure/closet/crate/med_crate/burn,
 /turf/simulated/floor/tiled/techmaint,
 /area/tethys/cargo/storage)
 "sa" = (
@@ -2352,7 +2369,7 @@
 /area/tethys/science)
 "sN" = (
 /obj/effect/floor_decal/industrial/outline/yellow,
-/obj/machinery/light,
+/obj/structure/closet/crate/med_crate/trauma,
 /turf/simulated/floor/tiled/techmaint,
 /area/tethys/cargo/storage)
 "ta" = (
@@ -2364,8 +2381,17 @@
 /area/tethys/science)
 "tc" = (
 /obj/effect/floor_decal/industrial/outline/yellow,
+/obj/structure/closet/crate,
+/obj/machinery/status_display/supply_display{
+	pixel_x = 32;
+	pixel_y = 34
+	},
 /turf/simulated/floor/tiled/techmaint,
 /area/tethys/cargo/storage)
+"te" = (
+/obj/machinery/status_display/supply_display,
+/turf/simulated/wall/r_wall/prepainted,
+/area/tethys/cargo)
 "tr" = (
 /obj/machinery/fabricator/imprinter,
 /obj/machinery/light_switch{
@@ -2600,16 +2626,6 @@
 	},
 /turf/simulated/floor/tiled/white,
 /area/tethys/science)
-"vu" = (
-/obj/effect/floor_decal/industrial/outline/yellow,
-/obj/structure/railing/mapped{
-	dir = 4
-	},
-/obj/effect/floor_decal/industrial/warning{
-	dir = 4
-	},
-/turf/simulated/floor/tiled/techmaint,
-/area/tethys/cargo/storage)
 "vw" = (
 /obj/effect/floor_decal/techfloor{
 	dir = 1
@@ -2755,6 +2771,14 @@
 	},
 /turf/simulated/floor/tiled,
 /area/tethys/civilian/dorm)
+"wm" = (
+/obj/effect/floor_decal/industrial/outline/yellow,
+/obj/structure/closet/crate,
+/obj/machinery/light{
+	dir = 1
+	},
+/turf/simulated/floor/tiled/techmaint,
+/area/tethys/cargo/storage)
 "wn" = (
 /obj/machinery/atmospherics/portables_connector{
 	dir = 4
@@ -2926,15 +2950,17 @@
 /obj/structure/table/standard,
 /turf/simulated/floor/tiled/white,
 /area/tethys/science)
+"xM" = (
+/obj/structure/catwalk,
+/obj/machinery/alarm,
+/turf/simulated/floor/plating,
+/area/tethys/cargo/storage)
 "xO" = (
 /obj/effect/floor_decal/corner/research{
 	dir = 6
 	},
 /obj/structure/table/standard,
 /obj/item/robotanalyzer,
-/obj/machinery/light_switch{
-	pixel_x = 24
-	},
 /obj/machinery/atmospherics/unary/vent_pump/on{
 	dir = 8
 	},
@@ -3071,10 +3097,6 @@
 	},
 /turf/simulated/floor/plating,
 /area/tethys/cargo)
-"zj" = (
-/obj/machinery/mech_recharger,
-/turf/simulated/floor/plating,
-/area/tethys/cargo/storage)
 "zk" = (
 /obj/machinery/portable_atmospherics/powered/pump/filled,
 /turf/simulated/floor/plating,
@@ -3419,9 +3441,6 @@
 /turf/simulated/floor/carpet/blue,
 /area/tethys/civilian)
 "Cm" = (
-/obj/structure/cable{
-	icon_state = "4-8"
-	},
 /obj/structure/hygiene/drain,
 /turf/simulated/floor/tiled,
 /area/tethys/civilian)
@@ -3833,6 +3852,16 @@
 	},
 /turf/simulated/floor/tiled,
 /area/tethys/hallway/lower)
+"FV" = (
+/obj/structure/table/standard,
+/obj/machinery/cell_charger,
+/turf/simulated/floor/tiled/techmaint,
+/area/tethys/cargo)
+"Ge" = (
+/obj/effect/floor_decal/industrial/outline/yellow,
+/obj/structure/closet/crate/med_crate/toxin,
+/turf/simulated/floor/tiled/techmaint,
+/area/tethys/cargo/storage)
 "Gh" = (
 /obj/machinery/suit_cycler/mining,
 /turf/simulated/floor/tiled/techfloor/grid,
@@ -4073,7 +4102,6 @@
 	},
 /obj/structure/catwalk,
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
-/obj/structure/hygiene/drain,
 /turf/simulated/floor/plating,
 /area/tethys/cargo/storage)
 "HF" = (
@@ -4228,6 +4256,12 @@
 	},
 /turf/simulated/floor/plating,
 /area/tethys/science/testing)
+"IG" = (
+/obj/effect/floor_decal/industrial/outline/yellow,
+/obj/structure/closet/crate,
+/obj/machinery/light,
+/turf/simulated/floor/tiled/techmaint,
+/area/tethys/cargo/storage)
 "IL" = (
 /obj/structure/cable{
 	icon_state = "4-8"
@@ -4812,9 +4846,8 @@
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/tethys/engineering)
 "Nq" = (
-/obj/machinery/mech_recharger,
-/mob/living/exosuit/premade/random/normal,
-/turf/simulated/floor/plating,
+/obj/structure/ore_box,
+/turf/simulated/floor/tiled/techmaint,
 /area/tethys/cargo/storage)
 "Nt" = (
 /obj/machinery/fabricator/robotics,
@@ -4822,6 +4855,42 @@
 /turf/simulated/floor/tiled/white/monotile,
 /area/tethys/science/fabrication)
 "NA" = (
+/obj/machinery/fabricator/industrial,
+/turf/simulated/floor/tiled/techmaint,
+/area/tethys/cargo)
+"NC" = (
+/obj/machinery/optable,
+/obj/effect/floor_decal/corner/paleblue/mono,
+/obj/structure/table/standard,
+/obj/item/storage/firstaid/surgery,
+/turf/simulated/floor/tiled/white/monotile,
+/area/tethys/medical)
+"NO" = (
+/obj/effect/floor_decal/industrial/warning{
+	dir = 4
+	},
+/obj/structure/catwalk,
+/turf/simulated/floor/plating,
+/area/tethys/cargo/storage)
+"NQ" = (
+/obj/machinery/button/blast_door{
+	id_tag = "cargo_shutter_mechbay";
+	pixel_y = 24
+	},
+/turf/simulated/floor/tiled/techmaint,
+/area/tethys/cargo)
+"NT" = (
+/obj/machinery/fabricator,
+/turf/simulated/floor/tiled/techmaint,
+/area/tethys/cargo)
+"NU" = (
+/obj/structure/catwalk,
+/obj/machinery/light{
+	dir = 8
+	},
+/turf/simulated/floor/plating,
+/area/tethys/cargo)
+"Og" = (
 /obj/structure/closet/crate,
 /obj/random/material,
 /obj/random/material,
@@ -4834,40 +4903,6 @@
 /obj/item/stack/material/osmium/ten,
 /obj/item/stack/material/osmium/ten,
 /obj/item/stack/material/osmium/ten,
-/turf/simulated/floor/tiled/techmaint,
-/area/tethys/cargo)
-"NC" = (
-/obj/machinery/optable,
-/obj/effect/floor_decal/corner/paleblue/mono,
-/obj/structure/table/standard,
-/obj/item/storage/firstaid/surgery,
-/turf/simulated/floor/tiled/white/monotile,
-/area/tethys/medical)
-"NO" = (
-/obj/structure/catwalk,
-/obj/effect/floor_decal/industrial/warning{
-	dir = 4
-	},
-/turf/simulated/floor/plating,
-/area/tethys/cargo/storage)
-"NQ" = (
-/obj/machinery/fabricator/industrial,
-/obj/machinery/button/blast_door{
-	id_tag = "cargo_shutter_mechbay";
-	pixel_y = 24
-	},
-/turf/simulated/floor/tiled/techmaint,
-/area/tethys/cargo)
-"NT" = (
-/obj/machinery/light{
-	dir = 1
-	},
-/obj/machinery/fabricator,
-/turf/simulated/floor/tiled/techmaint,
-/area/tethys/cargo)
-"Og" = (
-/obj/machinery/mech_recharger,
-/mob/living/exosuit/premade/powerloader,
 /turf/simulated/floor/tiled/techmaint,
 /area/tethys/cargo)
 "Oj" = (
@@ -4908,6 +4943,7 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
 	dir = 10
 	},
+/obj/structure/bed/chair/office/comfy/purple,
 /turf/simulated/floor/tiled/techfloor,
 /area/tethys/cargo)
 "Oz" = (
@@ -4917,9 +4953,6 @@
 /turf/simulated/floor/tiled,
 /area/tethys/cargo/smelter)
 "OC" = (
-/obj/machinery/light{
-	dir = 1
-	},
 /turf/simulated/floor/tiled/techfloor,
 /area/tethys/cargo)
 "OD" = (
@@ -5073,9 +5106,6 @@
 "Qo" = (
 /obj/structure/table/standard,
 /obj/item/storage/toolbox/mechanical,
-/obj/machinery/status_display/supply_display{
-	pixel_y = 34
-	},
 /obj/structure/window/reinforced{
 	dir = 8
 	},
@@ -5099,7 +5129,7 @@
 "Qw" = (
 /obj/machinery/atmospherics/unary/vent_pump/on,
 /obj/structure/catwalk,
-/obj/machinery/firealarm{
+/obj/machinery/light{
 	dir = 4
 	},
 /turf/simulated/floor/plating,
@@ -5438,26 +5468,20 @@
 	},
 /turf/simulated/floor/tiled/dark,
 /area/tethys/engineering)
-"Uc" = (
-/obj/machinery/fabricator/micro/bartender,
-/obj/structure/table/standard,
-/turf/simulated/floor/tiled/techmaint,
-/area/tethys/cargo)
 "Uh" = (
 /obj/machinery/atmospherics/pipe/manifold/visible,
 /turf/simulated/floor/tiled/techfloor,
 /area/tethys/engineering/atmospherics)
 "Um" = (
-/obj/machinery/light,
-/obj/structure/table/standard,
-/obj/machinery/cell_charger,
+/obj/machinery/fabricator/textile,
 /turf/simulated/floor/tiled/techmaint,
 /area/tethys/cargo)
 "Un" = (
 /turf/simulated/floor/plating,
 /area/tethys/cargo/storage)
 "Us" = (
-/obj/machinery/fabricator/textile,
+/obj/machinery/fabricator/micro/bartender,
+/obj/structure/table/standard,
 /turf/simulated/floor/tiled/techmaint,
 /area/tethys/cargo)
 "Uu" = (
@@ -5647,6 +5671,7 @@
 /obj/machinery/light{
 	dir = 1
 	},
+/obj/structure/closet/crate/hydroponics/prespawned,
 /turf/simulated/floor/tiled/techmaint,
 /area/tethys/cargo/storage)
 "VQ" = (
@@ -5852,9 +5877,7 @@
 /area/tethys/cargo)
 "Xb" = (
 /obj/effect/floor_decal/industrial/outline/yellow,
-/obj/machinery/status_display/supply_display{
-	pixel_y = 34
-	},
+/obj/structure/closet/crate/freezer/meat,
 /turf/simulated/floor/tiled/techmaint,
 /area/tethys/cargo/storage)
 "Xd" = (
@@ -5906,6 +5929,11 @@
 /obj/structure/catwalk,
 /turf/simulated/floor/plating,
 /area/tethys/cargo)
+"Xy" = (
+/obj/effect/floor_decal/industrial/outline/yellow,
+/obj/structure/closet/crate,
+/turf/simulated/floor/tiled/techmaint,
+/area/tethys/cargo/storage)
 "XE" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 4
@@ -6063,9 +6091,7 @@
 /area/tethys/engineering/power)
 "YD" = (
 /obj/effect/floor_decal/industrial/outline/yellow,
-/obj/machinery/light{
-	dir = 1
-	},
+/obj/structure/closet/crate/freezer,
 /turf/simulated/floor/tiled/techmaint,
 /area/tethys/cargo/storage)
 "YE" = (
@@ -6184,10 +6210,6 @@
 /obj/effect/floor_decal/industrial/outline/yellow,
 /turf/simulated/floor/tiled/dark/monotile,
 /area/tethys/engineering)
-"Zw" = (
-/obj/structure/hygiene/drain,
-/turf/simulated/floor/tiled,
-/area/tethys/civilian)
 "Zz" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
 	dir = 4
@@ -12353,12 +12375,12 @@ po
 po
 ab
 ai
+az
 Cm
 jC
 jC
 jC
-Zw
-jC
+Cm
 mj
 oe
 qd
@@ -14452,8 +14474,8 @@ DY
 Ig
 OO
 NA
-Qs
-Uc
+NU
+Um
 RF
 ZH
 Ss
@@ -14710,8 +14732,8 @@ BO
 jq
 DP
 Iw
-Fy
-UA
+OO
+iJ
 kA
 Us
 RF
@@ -14843,7 +14865,7 @@ Iw
 Fy
 NT
 Qs
-Us
+FV
 RF
 RF
 zG
@@ -15496,10 +15518,10 @@ UB
 UA
 dm
 pm
-wc
+Xy
 qP
 tx
-tc
+fN
 JL
 qp
 pm
@@ -15627,9 +15649,9 @@ UA
 Xd
 Rx
 MA
-tc
+wc
 GL
-tc
+Bh
 Ij
 qp
 pm
@@ -15750,7 +15772,7 @@ CJ
 rj
 DP
 HF
-OO
+te
 Qo
 Jk
 UF
@@ -15887,11 +15909,11 @@ dp
 Xn
 Rx
 wB
-tc
+wc
 hP
-tc
+wc
 Kp
-zj
+Nq
 pm
 po
 po
@@ -16016,10 +16038,10 @@ ne
 na
 od
 pm
-wc
+Xy
 tc
 hP
-tc
+wc
 Kp
 Nq
 pm
@@ -16147,11 +16169,11 @@ OO
 Xs
 Rx
 Rx
-pm
+wm
 hP
-tc
+wc
 Kp
-pm
+IG
 Rx
 po
 po
@@ -16279,7 +16301,7 @@ ZL
 Rx
 YD
 hP
-tc
+wc
 Kp
 sN
 Rx
@@ -16409,9 +16431,9 @@ ZM
 Rx
 Xb
 hP
-tc
+wc
 Kp
-tc
+Ge
 Rx
 po
 po
@@ -16537,11 +16559,11 @@ Va
 XF
 ZO
 Rx
-wc
+xM
 tY
 Bh
 eY
-wc
+ha
 Rx
 po
 po
@@ -16669,7 +16691,7 @@ OO
 Rx
 fd
 wc
-tc
+wc
 wc
 qq
 Rx
@@ -16799,7 +16821,7 @@ DD
 Rx
 VM
 NO
-vu
+NO
 NO
 rN
 Rx
