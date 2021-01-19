@@ -17,4 +17,4 @@
 	new_planet.map_z = list(1,2)
 	new_planet.build_level(planet_size[1], planet_size[2])
 	base_turf_by_z = initial(base_turf_by_z)
-	exterior_atmosphere = exterior_atmosphere.copy_from(new_planet.atmosphere)
+	exterior_atmosphere.copy_from(new_planet.atmosphere)
