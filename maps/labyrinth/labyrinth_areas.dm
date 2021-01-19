@@ -5,7 +5,6 @@
 	name       = "\improper Labyrinth Facility"
 	icon_state = "labyrinth"
 	icon       = 'maps/labyrinth/media/areas.dmi'
-	base_turf  = /turf/simulated/open
 	area_flags = AREA_FLAG_RAD_SHIELDED | AREA_FLAG_ION_SHIELDED
 
 //Engineering
