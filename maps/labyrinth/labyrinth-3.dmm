@@ -25,6 +25,9 @@
 /area/labyrinth/exploration_pod)
 "ax" = (
 /obj/machinery/light/navigation/delay5,
+/obj/structure/railing/mapped{
+	dir = 4
+	},
 /turf/simulated/floor/reinforced/airless,
 /area/exoplanet/volcanic/labyrinth)
 "aC" = (
@@ -1970,6 +1973,13 @@
 	},
 /turf/simulated/floor/reinforced/airless,
 /area/labyrinth/engineering/atmospherics)
+"Rt" = (
+/obj/machinery/light/navigation/delay5,
+/obj/structure/railing/mapped{
+	dir = 8
+	},
+/turf/simulated/floor/reinforced/airless,
+/area/exoplanet/volcanic/labyrinth)
 "RN" = (
 /obj/structure/catwalk,
 /obj/structure/railing/mapped{
@@ -9249,8 +9259,8 @@ jb
 jb
 jb
 jb
-ax
-DH
+Rt
+cy
 fB
 fB
 jM

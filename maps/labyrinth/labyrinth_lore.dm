@@ -25,4 +25,4 @@
 	return {"<small>A long time ago, Humanity built a colonial seedship. \
 	Fitted with the most reliable equipment, it was travelling through the darkness of space ... until something went wrong. \
 	The on-board computer decided to extend their journey by a few years, when they crashed in uncharted space, they knew; it was a start for a new era of Humanity.</small> <br>
-	Nowadays, it's [game_year] AE. You are onboard <b>[station_name]</b>, a facility placed in deeps in space."}
+	Nowadays, it's [game_year] AE. You are onboard <b>[station_name]</b>, a facility placed in deeps of space."}
