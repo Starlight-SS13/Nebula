@@ -7,6 +7,7 @@
 /datum/sprite_accessory/hair/resomi/ears
 	name = "Resomi Ears"
 	icon_state = "resomi_ears"
+	blend = ICON_MULTIPLY
 
 /datum/sprite_accessory/hair/resomi/excited
 	name = "Resomi Spiky"
@@ -71,20 +72,3 @@
 /datum/sprite_accessory/hair/resomi/fluffymohawk
 	name = "Resomi Fluffy Mohawk"
 	icon_state = "resomi_fluffymohawk"
-
-// MARKINGS
-
-/datum/sprite_accessory/marking/resomi
-	icon = 'starlight/mods/species/resomi/icons/markings.dmi'
-	species_allowed = list(SPECIES_RESOMI)
-	do_colouration = 1
-
-/datum/sprite_accessory/marking/resomi/resomi_fluff
-	name = "Resomi underfluff"
-	icon_state = "resomi_fluff"
-	body_parts = list(BP_L_FOOT,BP_R_FOOT,BP_GROIN,BP_CHEST,BP_HEAD)
-
-/datum/sprite_accessory/marking/resomi/resomi_small_feathers
-	name = "Resomi small wingfeathers"
-	icon_state = "resomi_sf"
-	body_parts = list(BP_L_FOOT,BP_R_FOOT,BP_L_HAND,BP_R_HAND,BP_CHEST)

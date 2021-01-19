@@ -13,10 +13,10 @@
 /decl/species/resomi/New()
 	equip_adjust = list(
 		slot_head_str = list(
-			"[NORTH]" = list("x" = 1, "y" = -6),
+			"[NORTH]" = list("x" = 0, "y" = -6),
 			"[EAST]" =  list("x" = 0,  "y" = -6),
 			"[WEST]" =  list("x" = 0,  "y" = -6),
-			"[SOUTH]" = list("x" = 1,  "y" = -6)
+			"[SOUTH]" = list("x" = 0,  "y" = -6)
 		),
 		slot_back_str = list(
 			"[NORTH]" = list("x" = 0,  "y" = -5),
@@ -47,6 +47,12 @@
 			"[EAST]" =  list("x" = 2,  "y" = -4),
 			"[WEST]" =  list("x" = -2, "y" = -4),
 			"[SOUTH]" = list("x" = 0,  "y" = -4)
+		),
+		slot_glasses_str = list(
+			"[NORTH]" = list("x" = 0,  "y" = -6),
+			"[EAST]" =  list("x" = 0,  "y" = -6),
+			"[WEST]" =  list("x" = 0,  "y" = -6),
+			"[SOUTH]" = list("x" = 0,  "y" = -6)
 		)
 	)
 	..()
