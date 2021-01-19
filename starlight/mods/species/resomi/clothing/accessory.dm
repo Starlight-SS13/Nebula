@@ -7,7 +7,6 @@
 /datum/sprite_accessory/hair/resomi/ears
 	name = "Resomi Ears"
 	icon_state = "resomi_ears"
-	blend = ICON_MULTIPLY
 
 /datum/sprite_accessory/hair/resomi/excited
 	name = "Resomi Spiky"
@@ -17,9 +16,9 @@
 	name = "Resomi Hedgehog"
 	icon_state = "resomi_hedge"
 
-/datum/sprite_accessory/hair/resomi/long
+/datum/sprite_accessory/hair/resomi/unpruned
 	name = "Resomi Unpruned"
-	icon_state = "resomi_long"
+	icon_state = "resomi_unpruned"
 
 /datum/sprite_accessory/hair/resomi/sunburst
 	name = "Resomi Sunburst"
@@ -49,13 +48,9 @@
 	name = "Resomi Droopy"
 	icon_state = "resomi_droopy"
 
-/datum/sprite_accessory/hair/resomi/mushroom
-	name = "Resomi Mushroom"
-	icon_state = "resomi_mushroom"
-
-/datum/sprite_accessory/hair/resomi/twies
-	name = "Resomi Twies"
-	icon_state = "resomi_twies"
+/datum/sprite_accessory/hair/resomi/neon
+	name = "Resomi Neon"
+	icon_state = "resomi_neon"
 
 /datum/sprite_accessory/hair/resomi/backstrafe
 	name = "Resomi Backstrafe"
@@ -65,10 +60,6 @@
 	name = "Resomi Long way"
 	icon_state = "resomi_longway"
 
-/datum/sprite_accessory/hair/resomi/notree
-	name = "Resomi Tree"
-	icon_state = "resomi_notree"
-
-/datum/sprite_accessory/hair/resomi/fluffymohawk
-	name = "Resomi Fluffy Mohawk"
-	icon_state = "resomi_fluffymohawk"
+/datum/sprite_accessory/hair/resomi/twinshift
+	name = "Resomi Twinshift"
+	icon_state = "resomi_twinshift"
