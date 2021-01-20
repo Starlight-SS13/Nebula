@@ -17,7 +17,6 @@
 	push_flags        = MONKEY|SLIME|SIMPLE_ANIMAL|ALIEN
 	limb_blend        = ICON_MULTIPLY
 	tail_blend        = ICON_MULTIPLY
-	tail_hair_blend   = ICON_MULTIPLY
 
 	icobase           = 'starlight/mods/species/resomi/icons/body.dmi'
 	deform            = 'starlight/mods/species/resomi/icons/body.dmi'
