@@ -7,13 +7,12 @@
 	#include "../../mods/mobs/borers/_borers.dme"
 
 	#include "../../mods/species/utility_frames/_utility_frames.dme"
-	#include "../../mods/species/neocorvids/_neocorvids.dme"
-	#include "../../mods/species/tritonian/_tritonian.dme"
 
 // STARLIGHT MODS START
 
 	// General content mod
 	#include "../../starlight/mods/content/starlight/_starlight.dme"
+	#include "../../starlight/mods/content/intersound/_intersound.dme"
 
 	// Species mods
 	#include "../../starlight/mods/species/booster/_booster.dme"
@@ -41,11 +40,9 @@
 
 	#include "labyrinth_antagonists.dm"
 	#include "labyrinth_areas.dm"
-	#include "labyrinth_exoplanet.dm"
 	#include "labyrinth_jobs.dm"
 	#include "labyrinth_loadout.dm"
 	#include "labyrinth_lobby_tracks.dm"
-	#include "labyrinth_lore.dm"
 	#include "labyrinth_map.dm"
 	#include "labyrinth_overmap.dm"
 	#include "labyrinth_overrides.dm"
