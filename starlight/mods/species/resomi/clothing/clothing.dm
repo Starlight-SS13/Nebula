@@ -120,12 +120,12 @@
 
 //Backpacks & tanks
 
-/obj/item/storage/backpack/Initialize()
-	LAZYINITLIST(sprite_sheets)
-	sprite_sheets[BODYTYPE_RESOMI] = 'starlight/mods/species/resomi/icons/clothing/exp/backpack.dmi'
-	. = ..()
-
 /obj/item/storage/backpack/satchel/Initialize()
+	. = ..()
+	LAZYINITLIST(sprite_sheets)
+	sprite_sheets[BODYTYPE_RESOMI] = 'starlight/mods/species/resomi/icons/clothing/exp/satchel.dmi'
+
+/obj/item/storage/backpack/Initialize()
 	LAZYINITLIST(sprite_sheets)
 	sprite_sheets[BODYTYPE_RESOMI] = 'starlight/mods/species/resomi/icons/clothing/exp/backpack.dmi'
 	. = ..()

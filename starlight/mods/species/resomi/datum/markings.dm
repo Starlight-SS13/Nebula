@@ -9,10 +9,6 @@
 	body_parts = list(BP_R_HAND,BP_L_HAND)
 	blend = ICON_MULTIPLY
 
-/datum/sprite_accessory/marking/resomi/resomi_small_feathers
-	name       = "Resomi small wingfeathers"
-	icon_state = "resomi_sf"
-	body_parts = list(BP_CHEST,BP_R_HAND,BP_L_HAND,BP_R_FOOT,BP_L_FOOT)
 
 /datum/sprite_accessory/marking/resomi/resomi_fluff
 	name = "Resomi underfluff"
