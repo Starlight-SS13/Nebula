@@ -7,6 +7,7 @@
 	#include "../../mods/mobs/borers/_borers.dme"
 
 	#include "../../mods/species/utility_frames/_utility_frames.dme"
+	#include "../../mods/species/tajaran/_tajaran.dme"
 
 // STARLIGHT MODS START
 
@@ -17,6 +18,8 @@
 	// Species mods
 	#include "../../starlight/mods/species/booster/_booster.dme"
 	#include "../../starlight/mods/species/vatgrown/_vatgrown.dme"
+
+	#include "../../starlight/mods/species/resomi/_resomi.dme"
 
 // STARLIGHT MODS END
 
