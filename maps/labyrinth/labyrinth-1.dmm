@@ -4954,7 +4954,6 @@
 /turf/simulated/floor/tiled/techmaint,
 /area/labyrinth/service/cargo)
 "NC" = (
-/obj/machinery/optable,
 /obj/effect/floor_decal/corner/paleblue/mono,
 /obj/structure/table/standard,
 /obj/item/storage/firstaid/surgery,
