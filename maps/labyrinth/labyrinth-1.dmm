@@ -600,6 +600,8 @@
 /obj/machinery/light{
 	dir = 8
 	},
+/obj/structure/table/standard,
+/obj/machinery/reagentgrinder,
 /turf/simulated/floor/tiled/white,
 /area/labyrinth/medical)
 "do" = (
@@ -1103,6 +1105,13 @@
 	},
 /turf/simulated/floor/tiled/white/monotile,
 /area/labyrinth/civilian/cryo)
+"id" = (
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 4
+	},
+/obj/structure/closet/crate,
+/turf/simulated/floor/tiled/white,
+/area/labyrinth/medical)
 "if" = (
 /obj/effect/floor_decal/industrial/outline/orange,
 /obj/machinery/mech_recharger,
@@ -2439,6 +2448,7 @@
 /area/labyrinth/service/cargo/storage)
 "sS" = (
 /obj/machinery/mech_recharger,
+/mob/living/exosuit/premade/random/normal,
 /turf/simulated/floor/plating,
 /area/labyrinth/service/cargo/storage)
 "ta" = (
@@ -5302,6 +5312,9 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 4
 	},
+/obj/structure/table/standard,
+/obj/item/storage/box/syringes,
+/obj/item/storage/box/syringes,
 /turf/simulated/floor/tiled/white,
 /area/labyrinth/medical)
 "Rx" = (
@@ -5395,6 +5408,7 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 9
 	},
+/obj/structure/closet/crate,
 /turf/simulated/floor/tiled/white,
 /area/labyrinth/medical)
 "Sq" = (
@@ -14278,7 +14292,7 @@ aE
 dv
 Je
 dv
-Rs
+id
 dz
 fj
 ia
