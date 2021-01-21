@@ -26,13 +26,13 @@
 
 	radiation_detected_message = "High levels of radiation have been detected in proximity of the %STATION_NAME%. Ensure that all areas all shielded properly. EVA cut recommended."
 
-	radiation_detected_sound = 'maps/labyrinth/media/threat.ogg'
-	space_time_anomaly_sound = 'maps/labyrinth/media/subspace.ogg'
-	unidentified_lifesigns_sound = 'maps/labyrinth/media/threat.ogg'
-	command_report_sound = 'maps/labyrinth/media/attention.ogg'
-	grid_check_sound = 'maps/labyrinth/media/warning.ogg'
-	grid_restored_sound = 'maps/labyrinth/media/warning.ogg'
-	meteor_detected_sound = 'maps/labyrinth/media/threat.ogg'
+	radiation_detected_sound     = 'starlight/mods/content/intersound/sound/announcements/threat.ogg'
+	space_time_anomaly_sound     = 'starlight/mods/content/intersound/sound/announcements/subspace.ogg'
+	unidentified_lifesigns_sound = 'starlight/mods/content/intersound/sound/announcements/threat.ogg'
+	command_report_sound         = 'starlight/mods/content/intersound/sound/announcements/attention.ogg'
+	grid_check_sound             = 'starlight/mods/content/intersound/sound/announcements/warning.ogg'
+	grid_restored_sound          = 'starlight/mods/content/intersound/sound/announcements/warning.ogg'
+	meteor_detected_sound        = 'starlight/mods/content/intersound/sound/announcements/threat.ogg'
 
 	starting_money = 5000
 	department_money = 0
