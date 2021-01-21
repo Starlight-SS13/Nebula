@@ -84,6 +84,9 @@
 /area/labyrinth/medical)
 "aq" = (
 /obj/structure/closet/secure_closet/freezer/meat,
+/obj/machinery/light{
+	dir = 4
+	},
 /turf/simulated/floor/tiled/white/monotile,
 /area/labyrinth/medical)
 "ar" = (
@@ -353,7 +356,6 @@
 /turf/simulated/floor/tiled,
 /area/labyrinth/civilian)
 "bI" = (
-/obj/machinery/door/airlock/hatch/labyrinth/med,
 /obj/machinery/door/airlock/hatch/labyrinth/med,
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 4
@@ -2676,15 +2678,6 @@
 /obj/structure/hygiene/drain,
 /turf/simulated/floor/tiled/techfloor,
 /area/labyrinth/engineering/reactor)
-"vy" = (
-/obj/effect/floor_decal/corner/paleblue{
-	dir = 9
-	},
-/obj/machinery/light{
-	dir = 1
-	},
-/turf/simulated/floor/tiled/white,
-/area/labyrinth/medical)
 "vz" = (
 /obj/machinery/power/apc{
 	dir = 1
@@ -2700,19 +2693,6 @@
 	},
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/labyrinth/medical/lobby)
-"vD" = (
-/obj/effect/floor_decal/corner/paleblue{
-	dir = 6
-	},
-/obj/machinery/light{
-	dir = 1
-	},
-/obj/structure/hygiene/sink{
-	dir = 4;
-	pixel_x = 12
-	},
-/turf/simulated/floor/tiled/white,
-/area/labyrinth/medical)
 "vG" = (
 /turf/simulated/floor/tiled/white,
 /area/labyrinth/science)
@@ -6046,6 +6026,13 @@
 /obj/machinery/atmospherics/pipe/manifold/hidden/scrubbers,
 /turf/simulated/floor/tiled/freezer,
 /area/labyrinth/civilian/hygiene)
+"XU" = (
+/obj/effect/wallframe_spawn/reinforced,
+/obj/machinery/door/firedoor{
+	dir = 4
+	},
+/turf/simulated/floor/plating,
+/area/labyrinth/medical)
 "XW" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
 	dir = 10
@@ -13334,8 +13321,8 @@ po
 po
 po
 Ws
-hL
-vy
+XU
+QX
 QX
 an
 aB
@@ -13594,8 +13581,8 @@ po
 po
 po
 Ws
-hL
-vD
+XU
+WP
 UC
 ap
 aD

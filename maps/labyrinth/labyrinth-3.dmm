@@ -193,6 +193,11 @@
 /obj/structure/lattice,
 /turf/exterior/open,
 /area/exoplanet/volcanic/labyrinth)
+"fn" = (
+/obj/machinery/shipsensors,
+/obj/structure/catwalk,
+/turf/simulated/floor/plating,
+/area/labyrinth/bridge)
 "fz" = (
 /obj/machinery/shipsensors,
 /obj/structure/railing/mapped{
@@ -220,7 +225,8 @@
 /turf/simulated/floor/plating,
 /area/labyrinth/eva)
 "gy" = (
-/turf/simulated/floor/reinforced/airless,
+/obj/structure/catwalk,
+/turf/simulated/floor/plating,
 /area/labyrinth/science/testing)
 "gU" = (
 /turf/simulated/wall/r_wall/prepainted,
@@ -270,7 +276,8 @@
 /area/labyrinth/eva)
 "hQ" = (
 /obj/machinery/light/navigation/delay5,
-/turf/simulated/floor/reinforced/airless,
+/obj/structure/catwalk,
+/turf/simulated/floor/plating,
 /area/labyrinth/science/testing)
 "hS" = (
 /turf/simulated/open,
@@ -377,6 +384,13 @@
 	},
 /turf/simulated/floor/wood/walnut,
 /area/labyrinth/civilian/library)
+"kj" = (
+/obj/structure/railing/mapped,
+/obj/structure/railing/mapped{
+	dir = 4
+	},
+/turf/exterior/open,
+/area/exoplanet/volcanic/labyrinth)
 "ku" = (
 /obj/structure/lattice,
 /turf/simulated/open,
@@ -447,6 +461,15 @@
 /obj/item/radio_beacon,
 /turf/simulated/floor/tiled/dark,
 /area/labyrinth/exploration_shuttle)
+"mb" = (
+/obj/structure/railing/mapped{
+	dir = 1
+	},
+/obj/structure/railing/mapped{
+	dir = 4
+	},
+/turf/exterior/open,
+/area/exoplanet/volcanic/labyrinth)
 "mg" = (
 /obj/machinery/light,
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
@@ -599,11 +622,6 @@
 /obj/machinery/merchant_pad,
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/labyrinth/eva)
-"pf" = (
-/obj/structure/catwalk,
-/obj/machinery/light/navigation/delay5,
-/turf/simulated/floor/reinforced/airless,
-/area/exoplanet/volcanic/labyrinth)
 "pi" = (
 /obj/structure/flora/pottedplant/floorleaf,
 /turf/simulated/floor/wood/walnut,
@@ -628,7 +646,8 @@
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/labyrinth/eva)
 "pE" = (
-/turf/simulated/floor/reinforced/airless,
+/obj/structure/catwalk,
+/turf/simulated/floor/plating,
 /area/labyrinth/engineering/atmospherics)
 "pT" = (
 /obj/structure/closet/secure_closet{
@@ -1518,7 +1537,7 @@
 /area/labyrinth/exploration_shuttle)
 "DH" = (
 /obj/structure/catwalk,
-/turf/simulated/floor/reinforced/airless,
+/turf/simulated/floor/plating,
 /area/exoplanet/volcanic/labyrinth)
 "DS" = (
 /obj/effect/wallframe_spawn/reinforced,
@@ -1585,6 +1604,15 @@
 	},
 /turf/simulated/floor/tiled/techfloor,
 /area/labyrinth/eva)
+"Go" = (
+/obj/structure/railing/mapped{
+	dir = 1
+	},
+/obj/structure/railing/mapped{
+	dir = 8
+	},
+/turf/exterior/open,
+/area/exoplanet/volcanic/labyrinth)
 "Gv" = (
 /obj/machinery/commsrelay,
 /turf/simulated/floor/bluegrid,
@@ -1819,7 +1847,8 @@
 /area/labyrinth/civilian/library)
 "Lj" = (
 /obj/machinery/light/navigation/delay5,
-/turf/simulated/floor/reinforced/airless,
+/obj/structure/catwalk,
+/turf/simulated/floor/plating,
 /area/labyrinth/engineering/atmospherics)
 "Lp" = (
 /obj/machinery/atmospherics/pipe/zpipe/down/scrubbers{
@@ -2054,10 +2083,6 @@
 	},
 /turf/exterior/open,
 /area/exoplanet/volcanic/labyrinth)
-"Rt" = (
-/obj/machinery/light/navigation/delay5,
-/turf/simulated/floor/reinforced/airless,
-/area/exoplanet/volcanic/labyrinth)
 "RN" = (
 /obj/structure/railing/mapped{
 	dir = 1
@@ -2065,13 +2090,14 @@
 /turf/exterior/open,
 /area/exoplanet/volcanic/labyrinth)
 "RV" = (
-/obj/machinery/shipsensors,
-/turf/simulated/floor/reinforced/airless,
-/area/labyrinth/bridge)
+/obj/structure/catwalk,
+/obj/machinery/light/navigation/delay5,
+/turf/simulated/floor/plating,
+/area/exoplanet/volcanic/labyrinth)
 "Sp" = (
 /obj/machinery/light/navigation/delay5,
 /obj/structure/catwalk,
-/turf/simulated/floor/reinforced/airless,
+/turf/simulated/floor/plating,
 /area/exoplanet/volcanic/labyrinth)
 "Sr" = (
 /obj/structure/railing/mapped{
@@ -2262,6 +2288,16 @@
 "Wm" = (
 /turf/simulated/wall/r_wall/prepainted,
 /area/labyrinth/bridge)
+"WC" = (
+/obj/structure/railing/mapped{
+	dir = 8
+	},
+/obj/structure/railing/mapped{
+	dir = 1
+	},
+/obj/structure/railing/mapped,
+/turf/exterior/open,
+/area/exoplanet/volcanic/labyrinth)
 "WV" = (
 /obj/effect/wallframe_spawn/reinforced,
 /obj/machinery/door/firedoor,
@@ -6219,7 +6255,7 @@ jb
 jb
 jb
 cy
-pf
+RV
 DH
 DH
 DH
@@ -6237,7 +6273,7 @@ DH
 DH
 DH
 DH
-pf
+RV
 RN
 jb
 jb
@@ -7909,7 +7945,7 @@ jb
 jb
 jb
 cy
-pf
+RV
 DH
 DH
 DH
@@ -8046,7 +8082,7 @@ eJ
 eJ
 Pl
 DH
-pf
+RV
 fB
 rM
 wx
@@ -8691,7 +8727,7 @@ jb
 jb
 jb
 jb
-cy
+kj
 DH
 DH
 DH
@@ -8820,8 +8856,8 @@ jb
 jb
 jb
 jb
-jb
-Rt
+cy
+Sp
 DH
 fB
 fB
@@ -8843,7 +8879,7 @@ Yq
 Wm
 Wm
 DH
-RN
+mb
 jb
 jb
 jb
@@ -8951,7 +8987,7 @@ jb
 jb
 jb
 jb
-jb
+eJ
 DH
 fH
 hh
@@ -8973,8 +9009,8 @@ Yr
 ZI
 WV
 DH
+DH
 RN
-jb
 jb
 jb
 jb
@@ -9102,9 +9138,9 @@ XS
 YP
 nm
 WV
+fn
 DH
 RN
-jb
 jb
 jb
 jb
@@ -9211,7 +9247,7 @@ jb
 jb
 jb
 jb
-jb
+da
 DH
 fH
 hC
@@ -9233,8 +9269,8 @@ Zc
 ZI
 WV
 DH
+DH
 RN
-jb
 jb
 jb
 jb
@@ -9340,8 +9376,8 @@ jb
 jb
 jb
 jb
-jb
-Rt
+cy
+Sp
 DH
 fB
 fB
@@ -9363,7 +9399,7 @@ Zx
 Wm
 Wm
 DH
-RN
+Go
 jb
 jb
 jb
@@ -9471,7 +9507,7 @@ jb
 jb
 jb
 jb
-cy
+Pl
 DH
 DH
 DH
@@ -9491,7 +9527,7 @@ TC
 Wm
 Wm
 Wm
-DH
+RV
 DH
 RN
 jb
@@ -9866,7 +9902,7 @@ jb
 cy
 DH
 DH
-pf
+RV
 jM
 tt
 yZ
@@ -10011,8 +10047,8 @@ SD
 Or
 DH
 DH
-Ti
-jb
+DH
+RN
 jb
 jb
 jb
@@ -10140,9 +10176,9 @@ BO
 Sp
 DH
 DH
-Ti
-jb
-jb
+WC
+DH
+RN
 jb
 jb
 jb
@@ -10270,9 +10306,9 @@ DH
 DH
 DH
 Ti
-jb
-jb
-jb
+cy
+DH
+RN
 jb
 jb
 jb
@@ -10397,12 +10433,12 @@ eJ
 eJ
 eJ
 eJ
-Pl
+eJ
+eJ
+jb
+cy
 DH
 RN
-jb
-jb
-jb
 jb
 jb
 jb
@@ -10527,12 +10563,12 @@ jb
 jb
 jb
 jb
+jb
+jb
+jb
 cy
 DH
-RN
-jb
-jb
-da
+Sr
 da
 da
 Pq
@@ -10657,11 +10693,11 @@ jb
 jb
 jb
 jb
+jb
+jb
+jb
 cy
 DH
-Sr
-da
-Jm
 pE
 pE
 pE
@@ -10787,10 +10823,10 @@ jb
 jb
 jb
 jb
+jb
+jb
+jb
 cy
-DH
-DH
-DH
 DH
 Lj
 pE
@@ -10918,10 +10954,10 @@ jb
 jb
 jb
 jb
-eJ
-eJ
-eJ
-Pl
+jb
+jb
+cy
+DH
 pE
 pE
 pE
@@ -11051,7 +11087,7 @@ jb
 jb
 jb
 jb
-jb
+eJ
 eJ
 eJ
 eJ
