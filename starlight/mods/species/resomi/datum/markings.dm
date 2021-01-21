@@ -9,7 +9,6 @@
 	body_parts = list(BP_R_HAND,BP_L_HAND)
 	blend = ICON_MULTIPLY
 
-
 /datum/sprite_accessory/marking/resomi/resomi_fluff
 	name = "Resomi underfluff"
 	icon_state = "resomi_fluff"

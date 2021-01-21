@@ -87,6 +87,12 @@
 		/datum/mob_descriptor/build = -8
 	)
 
+	available_cultural_info = list(
+		TAG_CULTURE = list(
+			CULTURE_RESOMI
+		)
+	)
+
 	has_organ = list(
 		BP_HEART =    /obj/item/organ/internal/heart,
 		BP_STOMACH =  /obj/item/organ/internal/stomach,
