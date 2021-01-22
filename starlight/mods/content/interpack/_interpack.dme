@@ -1,6 +1,7 @@
 #ifndef MODPACK_INTERSOUND
 #define MODPACK_INTERSOUND
+#include "_interpack.dm"
 #include "airlock.dm"
 #include "footsteps.dm"
-#include "intersound.dm"
+#include "living.dm"
 #endif

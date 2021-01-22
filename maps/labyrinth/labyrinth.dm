@@ -13,7 +13,7 @@
 
 	// General content mod
 	#include "../../starlight/mods/content/starlight/_starlight.dme"
-	#include "../../starlight/mods/content/intersound/_intersound.dme"
+	#include "../../starlight/mods/content/interpack/_interpack.dme"
 
 	// Species mods
 	#include "../../starlight/mods/species/booster/_booster.dme"
