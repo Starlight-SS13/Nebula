@@ -7,10 +7,10 @@
 	station_short  = "Labyrinth"
 
 	dock_name      = "Patrol Headquarters"
-	boss_name      = "SÄK #53"
-	boss_short     = "SÄK"
-	company_name   = "Kungshall"
-	company_short  = "KS"
+	boss_name      = "Automatia #53"
+	boss_short     = "Automatia"
+	company_name   = "Centrius"
+	company_short  = "CUS"
 
 	lobby_screens = list('maps/labyrinth/media/labyrinth.png')
 	welcome_sound = 'maps/labyrinth/media/welcome.ogg'
