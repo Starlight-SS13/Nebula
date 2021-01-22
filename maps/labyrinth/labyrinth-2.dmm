@@ -467,7 +467,7 @@
 /turf/simulated/floor/plating,
 /area/labyrinth/maintenance/shaft)
 "xP" = (
-/turf/exterior/concrete/reinforced,
+/turf/exterior/concrete,
 /area/exoplanet/volcanic/labyrinth)
 "yb" = (
 /obj/structure/catwalk,

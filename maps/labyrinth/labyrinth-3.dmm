@@ -222,6 +222,7 @@
 /obj/machinery/door/airlock/external/bolted{
 	id_tag = "exit_dock_port_out"
 	},
+/obj/machinery/atmospherics/pipe/simple/hidden,
 /turf/simulated/floor/plating,
 /area/labyrinth/eva)
 "gy" = (
@@ -248,30 +249,23 @@
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/labyrinth/exploration_shuttle)
 "hh" = (
-/obj/structure/hygiene/drain,
 /obj/machinery/light/small/red{
 	dir = 8
-	},
-/obj/machinery/atmospherics/pipe/simple/hidden{
-	dir = 6;
-	icon_state = "intact"
 	},
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/labyrinth/eva)
 "hx" = (
 /obj/structure/catwalk,
 /obj/machinery/atmospherics/unary/vent_pump/high_volume/external_air{
-	dir = 8;
-	id_tag = "exit_dock_port_pump"
+	dir = 1;
+	id_tag = "exit_dock_port_pump_out_internal"
 	},
 /turf/simulated/floor/plating,
 /area/labyrinth/eva)
 "hC" = (
-/obj/structure/hygiene/drain,
 /obj/machinery/light/small/red{
 	dir = 4
 	},
-/obj/structure/ore_box,
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/labyrinth/eva)
 "hQ" = (
@@ -348,11 +342,8 @@
 /turf/simulated/floor/tiled/dark/monotile,
 /area/labyrinth/exploration_shuttle)
 "jt" = (
-/obj/structure/hygiene/drain,
-/obj/machinery/atmospherics/pipe/manifold/hidden{
-	dir = 8
-	},
 /obj/machinery/embedded_controller/radio/airlock/docking_port{
+	cycle_to_external_air = 1;
 	id_tag = "exit_dock_port";
 	pixel_x = -24;
 	tag_airpump = "exit_dock_port_pump";
@@ -363,7 +354,6 @@
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/labyrinth/eva)
 "jD" = (
-/obj/structure/hygiene/drain,
 /obj/machinery/airlock_sensor{
 	id_tag = "exit_dock_port_sensor";
 	pixel_x = 24
@@ -491,11 +481,10 @@
 /turf/simulated/floor/tiled/dark/monotile,
 /area/labyrinth/exploration_shuttle)
 "mr" = (
-/obj/machinery/atmospherics/pipe/simple/hidden,
-/obj/machinery/door/firedoor,
-/obj/effect/wallframe_spawn/reinforced_borosilicate,
+/obj/structure/catwalk,
+/obj/machinery/light/small/red,
 /turf/simulated/floor/plating,
-/area/labyrinth/eva)
+/area/exoplanet/volcanic/labyrinth)
 "mv" = (
 /obj/machinery/door/airlock/external/bolted{
 	id_tag = "exit_dock_port_in"
@@ -505,13 +494,16 @@
 	pixel_x = 20;
 	pixel_y = -12
 	},
+/obj/machinery/atmospherics/pipe/simple/hidden,
 /turf/simulated/floor/plating,
 /area/labyrinth/eva)
 "mA" = (
-/obj/effect/wallframe_spawn/reinforced,
-/obj/machinery/door/firedoor,
+/obj/machinery/atmospherics/unary/vent_pump/high_volume/external_air{
+	id_tag = "exit_dock_port_pump_out_external"
+	},
+/obj/structure/catwalk,
 /turf/simulated/floor/plating,
-/area/labyrinth/security)
+/area/exoplanet/volcanic/labyrinth)
 "mW" = (
 /obj/structure/cable,
 /obj/machinery/power/shield_generator,
@@ -628,21 +620,27 @@
 /area/labyrinth/civilian/library)
 "pl" = (
 /obj/machinery/atmospherics/portables_connector{
-	dir = 1
+	dir = 4
 	},
 /obj/machinery/portable_atmospherics/canister/air/airlock,
+/obj/machinery/light/small/red{
+	dir = 8
+	},
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/labyrinth/eva)
 "py" = (
-/obj/machinery/atmospherics/unary/vent_pump/on,
+/obj/machinery/atmospherics/pipe/simple/hidden{
+	dir = 9;
+	icon_state = "intact"
+	},
 /turf/simulated/floor/tiled/techfloor,
 /area/labyrinth/eva)
 "pA" = (
-/obj/machinery/light{
-	dir = 4
-	},
 /obj/machinery/recharger,
 /obj/structure/table/standard,
+/obj/machinery/light/small/red{
+	dir = 4
+	},
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/labyrinth/eva)
 "pE" = (
@@ -848,21 +846,11 @@
 /turf/simulated/floor/tiled/techfloor,
 /area/labyrinth/eva)
 "sM" = (
-/obj/item/clothing/mask/gas/aquabreather,
-/obj/structure/table/rack,
-/obj/item/clothing/mask/gas/aquabreather,
-/obj/item/clothing/mask/gas/aquabreather,
-/obj/item/clothing/mask/gas/aquabreather,
-/obj/item/clothing/mask/gas/aquabreather,
-/obj/item/clothing/mask/gas/aquabreather,
-/obj/item/clothing/mask/gas/aquabreather,
-/obj/item/clothing/mask/gas/aquabreather,
-/obj/item/clothing/mask/gas/aquabreather,
+/obj/machinery/atmospherics/unary/vent_pump/on,
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/labyrinth/eva)
 "sU" = (
 /obj/machinery/atmospherics/unary/vent_scrubber/on,
-/obj/machinery/atmospherics/pipe/simple/hidden/supply,
 /obj/structure/cable{
 	icon_state = "2-4"
 	},
@@ -1242,17 +1230,14 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 4
 	},
-/obj/machinery/atmospherics/pipe/simple/hidden/supply{
-	dir = 4
-	},
 /obj/structure/cable{
 	icon_state = "4-8"
 	},
+/obj/machinery/atmospherics/pipe/manifold/hidden/supply,
 /turf/simulated/floor/tiled/techfloor,
 /area/labyrinth/eva)
 "yw" = (
 /obj/machinery/atmospherics/pipe/manifold/hidden/scrubbers,
-/obj/machinery/atmospherics/pipe/manifold/hidden/supply,
 /obj/structure/cable{
 	icon_state = "4-8"
 	},
@@ -1261,6 +1246,9 @@
 	},
 /obj/machinery/alarm{
 	dir = 1
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 4
 	},
 /turf/simulated/floor/tiled/techfloor,
 /area/labyrinth/eva)
@@ -2274,6 +2262,13 @@
 	},
 /turf/simulated/floor/tiled/dark/monotile,
 /area/labyrinth/hallway/tower)
+"Wh" = (
+/obj/structure/catwalk,
+/obj/machinery/atmospherics/unary/vent_pump/high_volume/external_air{
+	id_tag = "exit_dock_port_pump"
+	},
+/turf/simulated/floor/plating,
+/area/labyrinth/eva)
 "Wm" = (
 /turf/simulated/wall/r_wall/prepainted,
 /area/labyrinth/bridge)
@@ -2286,6 +2281,11 @@
 	},
 /obj/structure/railing/mapped,
 /turf/exterior/open,
+/area/exoplanet/volcanic/labyrinth)
+"WL" = (
+/obj/machinery/light/small/red,
+/obj/structure/catwalk,
+/turf/simulated/floor/plating,
 /area/exoplanet/volcanic/labyrinth)
 "WV" = (
 /obj/effect/wallframe_spawn/reinforced,
@@ -8846,8 +8846,8 @@ jb
 jb
 jb
 cy
-Sp
 DH
+mr
 fB
 fB
 fB
@@ -8981,7 +8981,7 @@ DH
 fH
 hh
 jt
-mr
+fH
 pl
 sM
 yu
@@ -9107,10 +9107,10 @@ jb
 jb
 jb
 jb
-DH
+mA
 fZ
 hx
-hx
+Wh
 mv
 py
 sU
@@ -9366,16 +9366,16 @@ jb
 jb
 jb
 cy
-Sp
 DH
+WL
 fB
 fB
-jM
-jM
-jM
-jM
+fB
+fB
+fB
+fB
 yE
-BO
+fB
 ET
 ET
 ET
@@ -9501,7 +9501,7 @@ DH
 DH
 DH
 DH
-mA
+tD
 pT
 sZ
 yQ
@@ -9631,7 +9631,7 @@ eJ
 Pl
 DH
 DH
-mA
+tD
 qc
 tb
 yS
