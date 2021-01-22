@@ -209,8 +209,8 @@
 /turf/simulated/wall/r_wall/prepainted,
 /area/labyrinth/eva)
 "fH" = (
-/obj/effect/wallframe_spawn/reinforced,
 /obj/machinery/door/firedoor,
+/obj/effect/wallframe_spawn/reinforced_borosilicate,
 /turf/simulated/floor/plating,
 /area/labyrinth/eva)
 "fZ" = (
@@ -491,9 +491,9 @@
 /turf/simulated/floor/tiled/dark/monotile,
 /area/labyrinth/exploration_shuttle)
 "mr" = (
-/obj/effect/wallframe_spawn/reinforced,
 /obj/machinery/atmospherics/pipe/simple/hidden,
 /obj/machinery/door/firedoor,
+/obj/effect/wallframe_spawn/reinforced_borosilicate,
 /turf/simulated/floor/plating,
 /area/labyrinth/eva)
 "mv" = (
@@ -902,10 +902,8 @@
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/labyrinth/security)
 "tD" = (
-/obj/effect/wallframe_spawn/reinforced,
-/obj/machinery/door/firedoor{
-	dir = 4
-	},
+/obj/machinery/door/firedoor,
+/obj/effect/wallframe_spawn/reinforced_borosilicate,
 /turf/simulated/floor/plating,
 /area/labyrinth/security)
 "uq" = (
@@ -1540,10 +1538,8 @@
 /turf/simulated/floor/plating,
 /area/exoplanet/volcanic/labyrinth)
 "DS" = (
-/obj/effect/wallframe_spawn/reinforced,
-/obj/machinery/door/firedoor{
-	dir = 4
-	},
+/obj/machinery/door/firedoor,
+/obj/effect/wallframe_spawn/reinforced_borosilicate,
 /turf/simulated/floor/plating,
 /area/labyrinth/civilian/library)
 "DZ" = (
@@ -1959,10 +1955,10 @@
 /turf/simulated/floor/carpet/blue,
 /area/labyrinth/civilian/library)
 "Ol" = (
-/obj/structure/bookcase,
 /obj/machinery/light/small{
 	dir = 1
 	},
+/obj/structure/bookcase/skill_books/random,
 /turf/simulated/floor/wood/walnut,
 /area/labyrinth/civilian/library)
 "Oq" = (
@@ -2108,13 +2104,6 @@
 	},
 /turf/exterior/open,
 /area/exoplanet/volcanic/labyrinth)
-"SD" = (
-/obj/effect/wallframe_spawn/reinforced,
-/obj/machinery/door/firedoor{
-	dir = 4
-	},
-/turf/simulated/floor/plating,
-/area/labyrinth/hallway/tower)
 "SL" = (
 /obj/structure/closet/emcloset,
 /turf/simulated/floor/tiled/dark/monotile,
@@ -2410,8 +2399,8 @@
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/labyrinth/bridge)
 "ZD" = (
-/obj/effect/wallframe_spawn/reinforced,
 /obj/machinery/door/firedoor,
+/obj/effect/wallframe_spawn/reinforced_borosilicate,
 /turf/simulated/floor/plating,
 /area/labyrinth/hallway/tower)
 "ZI" = (
@@ -8223,7 +8212,7 @@ pi
 at
 ND
 EQ
-SD
+ZD
 Or
 DH
 DH
@@ -10043,7 +10032,7 @@ Fq
 yM
 NC
 BO
-SD
+ZD
 Or
 DH
 DH

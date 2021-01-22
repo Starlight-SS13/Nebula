@@ -334,6 +334,14 @@
 /obj/machinery/recharger,
 /turf/simulated/floor/tiled,
 /area/labyrinth/civilian)
+"bd" = (
+/obj/effect/floor_decal/corner/paleblue{
+	dir = 9
+	},
+/obj/structure/table/standard,
+/obj/structure/closet/walllocker/emerglocker/west,
+/turf/simulated/floor/tiled/white,
+/area/labyrinth/medical)
 "bg" = (
 /obj/effect/floor_decal/corner/blue{
 	dir = 10
@@ -394,6 +402,8 @@
 /obj/item/roller,
 /obj/item/roller,
 /obj/item/roller,
+/obj/item/defibrillator/compact/loaded,
+/obj/structure/iv_drip,
 /turf/simulated/floor/tiled/white/monotile,
 /area/labyrinth/medical)
 "bQ" = (
@@ -573,16 +583,6 @@
 	},
 /turf/simulated/floor/tiled,
 /area/labyrinth/civilian)
-"de" = (
-/obj/structure/hygiene/sink{
-	dir = 8;
-	pixel_x = -12
-	},
-/obj/effect/floor_decal/corner/paleblue{
-	dir = 9
-	},
-/turf/simulated/floor/tiled/white,
-/area/labyrinth/medical)
 "dm" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
 	dir = 4
@@ -600,7 +600,6 @@
 /obj/machinery/light{
 	dir = 8
 	},
-/obj/structure/table/standard,
 /obj/machinery/reagentgrinder,
 /turf/simulated/floor/tiled/white,
 /area/labyrinth/medical)
@@ -632,6 +631,7 @@
 /obj/effect/floor_decal/corner/paleblue{
 	dir = 6
 	},
+/obj/structure/closet/secure_closet/medical1,
 /turf/simulated/floor/tiled/white,
 /area/labyrinth/medical)
 "dz" = (
@@ -674,6 +674,10 @@
 /obj/random/tool,
 /turf/simulated/floor/plating,
 /area/labyrinth/science/testing)
+"dN" = (
+/obj/machinery/design_database,
+/turf/simulated/floor/bluegrid,
+/area/labyrinth/science)
 "dP" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
@@ -727,19 +731,21 @@
 /turf/simulated/floor/tiled,
 /area/labyrinth/civilian)
 "ez" = (
-/obj/structure/closet/secure_closet/medical3,
 /obj/effect/floor_decal/corner/paleblue{
 	dir = 9
 	},
 /obj/effect/floor_decal/corner/paleblue,
+/obj/machinery/light_switch{
+	pixel_y = -24
+	},
+/obj/structure/table/standard,
+/obj/item/storage/firstaid/adv,
+/obj/random/medical,
+/obj/item/stack/medical/advanced/bruise_pack,
+/obj/item/chems/syringe/antibiotic,
 /turf/simulated/floor/tiled/white,
 /area/labyrinth/medical)
 "eJ" = (
-/obj/machinery/light_switch{
-	pixel_x = 6;
-	pixel_y = -24
-	},
-/obj/structure/closet/secure_closet/medical3,
 /obj/effect/floor_decal/corner/paleblue{
 	dir = 10
 	},
@@ -756,7 +762,6 @@
 /obj/machinery/firealarm{
 	dir = 1
 	},
-/obj/structure/closet/secure_closet/medical1,
 /obj/effect/floor_decal/corner/paleblue{
 	dir = 10
 	},
@@ -984,24 +989,21 @@
 	},
 /turf/simulated/floor/plating,
 /area/exoplanet/volcanic/labyrinth)
-"hc" = (
-/obj/machinery/firealarm{
-	dir = 1
-	},
-/turf/simulated/floor/tiled/white,
-/area/labyrinth/medical/lobby)
 "hf" = (
 /obj/machinery/light/small,
 /turf/simulated/floor/plating,
 /area/labyrinth/science/testing)
 "hn" = (
-/obj/structure/closet/secure_closet/medical1,
 /obj/effect/floor_decal/corner/paleblue{
 	dir = 6
 	},
 /obj/effect/floor_decal/corner/paleblue{
 	dir = 8
 	},
+/obj/structure/sign/goldenplaque/medical{
+	pixel_x = 32
+	},
+/obj/structure/closet/secure_closet/medical3,
 /turf/simulated/floor/tiled/white,
 /area/labyrinth/medical)
 "hp" = (
@@ -1223,6 +1225,15 @@
 	},
 /turf/simulated/floor/tiled/white/monotile,
 /area/labyrinth/science/testing)
+"jc" = (
+/obj/effect/floor_decal/corner/paleblue{
+	dir = 9
+	},
+/obj/structure/hygiene/sink{
+	pixel_y = 23
+	},
+/turf/simulated/floor/tiled/white,
+/area/labyrinth/medical)
 "je" = (
 /obj/machinery/light/small{
 	dir = 8
@@ -1326,6 +1337,9 @@
 "jX" = (
 /obj/machinery/bodyscanner{
 	dir = 1
+	},
+/obj/item/modular_computer/telescreen/preset/medical{
+	pixel_y = 32
 	},
 /turf/simulated/floor/tiled/white/monotile,
 /area/labyrinth/medical/lobby)
@@ -1926,7 +1940,6 @@
 /obj/structure/cable{
 	icon_state = "1-8"
 	},
-/obj/machinery/light,
 /turf/simulated/floor/tiled/white,
 /area/labyrinth/medical/lobby)
 "oA" = (
@@ -2180,6 +2193,11 @@
 /obj/random/medical,
 /obj/item/storage/pill_bottle/foil_pack/painkillers,
 /obj/item/storage/pill_bottle/foil_pack/painkillers,
+/obj/item/scanner/health,
+/obj/item/scanner/health,
+/obj/structure/sign/warning/nosmoking_2{
+	pixel_y = -32
+	},
 /turf/simulated/floor/tiled/white/monotile,
 /area/labyrinth/medical/lobby)
 "qp" = (
@@ -2198,7 +2216,9 @@
 /obj/random/medical/lite,
 /obj/item/storage/firstaid/regular,
 /obj/item/storage/firstaid/regular,
-/obj/machinery/light,
+/obj/machinery/firealarm{
+	dir = 1
+	},
 /turf/simulated/floor/tiled/white/monotile,
 /area/labyrinth/medical/lobby)
 "qD" = (
@@ -2296,10 +2316,18 @@
 /turf/simulated/floor/tiled/techfloor,
 /area/labyrinth/engineering/reactor)
 "rp" = (
-/obj/effect/floor_decal/corner/paleblue/mono,
+/obj/structure/iv_drip,
+/obj/item/chems/ivbag/blood/AMinus,
+/obj/item/chems/ivbag/blood/APlus,
+/obj/item/chems/ivbag/blood/BMinus,
+/obj/item/chems/ivbag/blood/BPlus,
+/obj/item/chems/ivbag/blood/OMinus,
+/obj/item/chems/ivbag/blood/OPlus,
+/obj/effect/floor_decal/corner/paleblue{
+	dir = 9
+	},
 /obj/structure/window/reinforced/polarized,
-/obj/machinery/optable,
-/turf/simulated/floor/tiled/white/monotile,
+/turf/simulated/floor/tiled/white,
 /area/labyrinth/medical)
 "rq" = (
 /turf/simulated/wall/r_wall/prepainted,
@@ -2456,6 +2484,9 @@
 /obj/machinery/light{
 	dir = 1
 	},
+/obj/machinery/light_switch{
+	pixel_y = 24
+	},
 /turf/simulated/floor/tiled/white/monotile,
 /area/labyrinth/science)
 "tc" = (
@@ -2473,8 +2504,9 @@
 /area/labyrinth/service/cargo)
 "tr" = (
 /obj/machinery/fabricator/imprinter,
-/obj/machinery/light_switch{
-	pixel_y = 24
+/obj/item/chems/glass/beaker/sulphuric,
+/obj/structure/reagent_dispensers/acid{
+	pixel_y = 32
 	},
 /turf/simulated/floor/tiled/white/monotile,
 /area/labyrinth/science)
@@ -2701,9 +2733,6 @@
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/labyrinth/civilian/cryo)
 "vq" = (
-/obj/structure/bed/chair/office/comfy/purple{
-	dir = 4
-	},
 /obj/effect/floor_decal/corner/research{
 	dir = 9
 	},
@@ -2944,8 +2973,6 @@
 /obj/effect/floor_decal/corner/research{
 	dir = 9
 	},
-/obj/structure/table/standard,
-/obj/machinery/cell_charger,
 /obj/machinery/atmospherics/unary/vent_scrubber/on{
 	dir = 4
 	},
@@ -2958,9 +2985,6 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 4
 	},
-/obj/structure/table/standard,
-/obj/item/paper_bin,
-/obj/item/pen,
 /turf/simulated/floor/tiled/white,
 /area/labyrinth/science)
 "xw" = (
@@ -3018,6 +3042,8 @@
 	dir = 1
 	},
 /obj/structure/table/standard,
+/obj/item/paper_bin,
+/obj/item/pen,
 /turf/simulated/floor/tiled/white,
 /area/labyrinth/science)
 "xM" = (
@@ -3287,11 +3313,6 @@
 	},
 /turf/simulated/floor/tiled/white,
 /area/labyrinth/science/fabrication)
-"Al" = (
-/obj/machinery/door/firedoor,
-/obj/effect/wallframe_spawn/reinforced,
-/turf/simulated/floor/plating,
-/area/labyrinth/engineering/atmospherics)
 "Aq" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 4
@@ -3399,6 +3420,11 @@
 	},
 /turf/simulated/floor/tiled,
 /area/labyrinth/civilian/dorm)
+"AT" = (
+/obj/effect/floor_decal/corner/paleblue/mono,
+/obj/machinery/optable,
+/turf/simulated/floor/tiled/white/monotile,
+/area/labyrinth/medical)
 "AV" = (
 /obj/turbolift_map_holder/labyrinth,
 /turf/simulated/floor/plating,
@@ -3549,6 +3575,8 @@
 /obj/structure/extinguisher_cabinet{
 	pixel_x = 24
 	},
+/obj/structure/table/standard,
+/obj/machinery/cell_charger,
 /turf/simulated/floor/tiled/white,
 /area/labyrinth/science)
 "CD" = (
@@ -3558,11 +3586,6 @@
 	},
 /turf/simulated/floor/tiled/white/monotile,
 /area/labyrinth/science/fabrication)
-"CI" = (
-/obj/machinery/door/firedoor,
-/obj/effect/wallframe_spawn/reinforced,
-/turf/simulated/floor/plating,
-/area/labyrinth/service/cargo/smelter)
 "CJ" = (
 /obj/machinery/fabricator/protolathe,
 /turf/simulated/floor/tiled/white/monotile,
@@ -4242,13 +4265,6 @@
 	},
 /turf/simulated/floor/tiled,
 /area/labyrinth/hallway/lower)
-"Id" = (
-/obj/effect/wallframe_spawn/reinforced,
-/obj/machinery/door/firedoor{
-	dir = 4
-	},
-/turf/simulated/floor/plating,
-/area/labyrinth/civilian)
 "Ig" = (
 /obj/structure/cable{
 	icon_state = "4-8"
@@ -4571,13 +4587,6 @@
 	},
 /turf/simulated/floor/tiled,
 /area/labyrinth/civilian/dorm)
-"KH" = (
-/obj/effect/wallframe_spawn/reinforced,
-/obj/machinery/door/firedoor{
-	dir = 4
-	},
-/turf/simulated/floor/plating,
-/area/labyrinth/service/cargo/storage)
 "KL" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
 	dir = 4
@@ -4656,6 +4665,10 @@
 	},
 /turf/simulated/floor/tiled,
 /area/labyrinth/hallway/lower)
+"Ll" = (
+/obj/machinery/light,
+/turf/simulated/floor/tiled/white,
+/area/labyrinth/medical/lobby)
 "Lp" = (
 /obj/machinery/atmospherics/pipe/manifold/hidden/supply,
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
@@ -4954,12 +4967,12 @@
 /turf/simulated/floor/tiled/techmaint,
 /area/labyrinth/service/cargo)
 "NC" = (
-/obj/effect/floor_decal/corner/paleblue/mono,
 /obj/structure/table/standard,
 /obj/item/storage/firstaid/surgery,
 /obj/item/chems/spray/antiseptic{
 	pixel_x = 4
 	},
+/obj/effect/floor_decal/corner/paleblue/mono,
 /turf/simulated/floor/tiled/white/monotile,
 /area/labyrinth/medical)
 "NO" = (
@@ -5049,7 +5062,7 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
 	dir = 10
 	},
-/obj/structure/bed/chair/office/comfy/purple,
+/obj/structure/bed/chair/office/comfy/brown,
 /turf/simulated/floor/tiled/techfloor,
 /area/labyrinth/service/cargo)
 "Oy" = (
@@ -5567,11 +5580,6 @@
 /obj/machinery/material_processing/compressor,
 /turf/simulated/floor/plating,
 /area/labyrinth/service/cargo/smelter)
-"TO" = (
-/obj/machinery/door/firedoor,
-/obj/effect/wallframe_spawn/reinforced,
-/turf/simulated/floor/plating,
-/area/labyrinth/engineering)
 "TP" = (
 /obj/effect/floor_decal/corner/yellow/three_quarters{
 	dir = 1
@@ -5650,11 +5658,9 @@
 /turf/simulated/floor/tiled/techfloor,
 /area/labyrinth/service/cargo)
 "UC" = (
-/obj/effect/floor_decal/corner/paleblue{
-	dir = 6
-	},
 /obj/structure/window/reinforced/polarized,
-/turf/simulated/floor/tiled/white,
+/obj/effect/floor_decal/corner/paleblue/mono,
+/turf/simulated/floor/tiled/white/monotile,
 /area/labyrinth/medical)
 "UE" = (
 /turf/simulated/floor/tiled/techfloor,
@@ -5667,12 +5673,11 @@
 /obj/structure/reagent_dispensers/fueltank,
 /turf/simulated/floor/tiled/techmaint,
 /area/labyrinth/service/cargo)
-"UN" = (
-/obj/structure/sign/warning/nosmoking_2{
-	pixel_y = -32
-	},
-/turf/simulated/floor/tiled/white,
-/area/labyrinth/medical/lobby)
+"UL" = (
+/obj/structure/table/standard,
+/obj/item/integrated_circuit_printer,
+/turf/simulated/floor/bluegrid,
+/area/labyrinth/science)
 "UO" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
@@ -6111,13 +6116,6 @@
 /obj/machinery/atmospherics/pipe/manifold/hidden/scrubbers,
 /turf/simulated/floor/tiled/freezer,
 /area/labyrinth/civilian/hygiene)
-"XU" = (
-/obj/effect/wallframe_spawn/reinforced,
-/obj/machinery/door/firedoor{
-	dir = 4
-	},
-/turf/simulated/floor/plating,
-/area/labyrinth/medical)
 "XW" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
 	dir = 10
@@ -11819,12 +11817,12 @@ po
 po
 Ws
 ab
-Id
-ab
-Id
 ab
 ab
-Id
+ab
+ab
+ab
+ab
 ab
 ab
 Oy
@@ -12078,7 +12076,7 @@ po
 po
 po
 Ws
-Id
+ab
 af
 az
 bg
@@ -12338,7 +12336,7 @@ po
 po
 po
 Ws
-Id
+ab
 ah
 az
 bn
@@ -12598,7 +12596,7 @@ po
 po
 po
 Ws
-Id
+ab
 aj
 ax
 bs
@@ -12858,7 +12856,7 @@ po
 po
 po
 Ws
-Id
+ab
 fU
 az
 bM
@@ -13252,14 +13250,14 @@ OR
 am
 aA
 bN
-de
+bd
 ez
 ac
 jS
 mq
 ov
-UN
-ac
+mN
+ja
 uQ
 uQ
 uQ
@@ -13376,8 +13374,8 @@ po
 po
 po
 Ws
-XU
-QX
+hL
+jc
 QX
 an
 aB
@@ -13388,8 +13386,8 @@ ac
 jX
 mG
 oL
-hc
-ac
+mN
+ja
 uQ
 uQ
 uQ
@@ -13518,7 +13516,7 @@ hQ
 ka
 ka
 oz
-ac
+Ll
 ac
 rF
 rF
@@ -13636,8 +13634,8 @@ po
 po
 po
 Ws
-XU
-WP
+hL
+AT
 UC
 ap
 aD
@@ -13797,7 +13795,7 @@ YE
 ny
 do
 Up
-TO
+Qq
 Bv
 po
 po
@@ -14156,7 +14154,7 @@ po
 po
 po
 Ws
-EK
+hL
 si
 bQ
 dv
@@ -14187,7 +14185,7 @@ iX
 qh
 do
 cM
-TO
+Qq
 Bv
 po
 po
@@ -14286,7 +14284,7 @@ po
 po
 po
 Ws
-EK
+hL
 aE
 dv
 Je
@@ -14550,7 +14548,7 @@ hL
 hL
 hL
 hL
-EK
+hL
 hL
 dC
 dC
@@ -14689,7 +14687,7 @@ ks
 ng
 fB
 qX
-ss
+dN
 vq
 xn
 Ku
@@ -14812,14 +14810,14 @@ vt
 po
 po
 Ws
-fZ
+dC
 Cq
 if
 kt
 no
 pc
 qX
-tt
+UL
 vG
 xu
 zQ
@@ -14969,7 +14967,7 @@ fz
 Yo
 jM
 cl
-Al
+RF
 Bv
 po
 po
@@ -15072,7 +15070,7 @@ vt
 po
 po
 Ws
-fZ
+dC
 Cq
 ih
 kx
@@ -15229,7 +15227,7 @@ RU
 DS
 RU
 Uh
-Al
+RF
 Bv
 po
 po
@@ -15619,7 +15617,7 @@ tx
 fN
 JL
 sS
-pm
+Rx
 Bv
 po
 po
@@ -15749,7 +15747,7 @@ GL
 Bh
 Ij
 qp
-pm
+Rx
 Bv
 po
 po
@@ -16009,7 +16007,7 @@ hP
 wc
 Kp
 Nq
-pm
+Rx
 Bv
 po
 po
@@ -16139,7 +16137,7 @@ hP
 wc
 Kp
 Nq
-pm
+Rx
 Bv
 po
 po
@@ -16399,7 +16397,7 @@ hP
 wc
 Kp
 sN
-KH
+Rx
 Bv
 po
 po
@@ -16529,7 +16527,7 @@ hP
 wc
 Kp
 Ge
-KH
+Rx
 Bv
 po
 po
@@ -16789,7 +16787,7 @@ wc
 wc
 wc
 qq
-KH
+Rx
 Oy
 aP
 po
@@ -17050,7 +17048,7 @@ Un
 Un
 Un
 Un
-KH
+Rx
 Bv
 po
 po
@@ -17180,7 +17178,7 @@ Un
 Un
 Un
 Un
-KH
+Rx
 Bv
 po
 po
@@ -17288,13 +17286,13 @@ iE
 lD
 iE
 pO
-ID
+ad
 Bv
 po
 po
 po
 Ws
-CI
+DD
 Wu
 Km
 Km
@@ -17310,7 +17308,7 @@ um
 Un
 Un
 Un
-KH
+Rx
 Bv
 po
 po
@@ -17418,13 +17416,13 @@ iL
 lS
 nK
 pO
-ID
+ad
 Bv
 po
 po
 po
 Ws
-CI
+DD
 Wu
 CA
 CA
@@ -17440,7 +17438,7 @@ Un
 Un
 Un
 Un
-KH
+Rx
 Bv
 po
 po
@@ -17548,13 +17546,13 @@ iP
 iP
 iP
 pO
-ID
+ad
 Bv
 po
 po
 po
 Ws
-CI
+DD
 Wu
 Wd
 TI
@@ -17570,7 +17568,7 @@ Un
 Un
 Un
 Un
-KH
+Rx
 Bv
 po
 po
@@ -17694,11 +17692,11 @@ Jo
 XG
 DD
 Rx
-KH
-KH
-KH
-KH
-KH
+Rx
+Rx
+Rx
+Rx
+Rx
 Rx
 Rx
 Bv
@@ -17816,10 +17814,10 @@ po
 Ws
 DD
 DD
-CI
-gr
 DD
-gr
+DD
+DD
+DD
 DD
 DD
 DD
