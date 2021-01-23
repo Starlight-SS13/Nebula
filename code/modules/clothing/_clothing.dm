@@ -46,10 +46,6 @@
 	. = ..()
 // End placeholder.
 
-// Updates the icons of the mob wearing the clothing item, if any.
-/obj/item/clothing/proc/update_clothing_icon()
-	return
-
 // Updates the vision of the mob wearing the clothing item, if any
 /obj/item/clothing/proc/update_vision()
 	if(isliving(src.loc))
@@ -189,3 +185,6 @@
 	. = ..()
 	for(var/obj/item/clothing/accessory/A in accessories)
 		. = min(., A.get_pressure_weakness(pressure,zone))
+
+/obj/item/clothing/proc/check_limb_support(var/mob/living/carbon/human/user)
+	return FALSE

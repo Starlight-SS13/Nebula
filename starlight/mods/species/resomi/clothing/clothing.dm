@@ -57,9 +57,6 @@
 	)
 	..()
 
-/obj/item
-	on_mob_use_spritesheets = TRUE
-
 /obj/item/clothing/Initialize()
 	. = ..()
 	LAZYINITLIST(bodytype_restricted)
