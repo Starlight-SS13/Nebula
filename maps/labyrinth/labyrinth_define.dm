@@ -12,7 +12,6 @@
 	company_name   = "Centrius"
 	company_short  = "CUS"
 
-	lobby_screens = list('maps/labyrinth/media/labyrinth.png')
 	welcome_sound = 'maps/labyrinth/media/welcome.ogg'
 
 	station_levels = list(1,2,3)
