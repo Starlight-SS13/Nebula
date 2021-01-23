@@ -237,6 +237,15 @@
 "gU" = (
 /turf/simulated/wall/r_wall/prepainted,
 /area/labyrinth/science/testing)
+"gV" = (
+/obj/machinery/door/firedoor,
+/obj/machinery/atmospherics/pipe/simple/hidden{
+	dir = 9;
+	icon_state = "intact"
+	},
+/obj/effect/wallframe_spawn/reinforced_borosilicate,
+/turf/simulated/floor/plating,
+/area/labyrinth/eva)
 "gX" = (
 /obj/machinery/atmospherics/pipe/simple/hidden,
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
@@ -263,20 +272,27 @@
 	tag_exterior_door = "exit_dock_port_out";
 	tag_interior_door = "exit_dock_port_in"
 	},
-/turf/simulated/floor/tiled/techfloor/grid,
-/area/labyrinth/eva)
-"hx" = (
-/obj/structure/catwalk,
 /obj/machinery/atmospherics/unary/vent_pump/high_volume/external_air{
 	dir = 1;
 	id_tag = "exit_dock_port_pump_out_internal"
 	},
-/turf/simulated/floor/plating,
+/turf/simulated/floor/tiled/techfloor/grid,
+/area/labyrinth/eva)
+"hx" = (
+/obj/machinery/atmospherics/unary/vent_pump/high_volume/external_air{
+	dir = 1;
+	id_tag = "exit_dock_port_pump_out_internal"
+	},
+/turf/simulated/floor/tiled/techfloor/grid,
 /area/labyrinth/eva)
 "hC" = (
 /obj/machinery/airlock_sensor{
 	id_tag = "exit_dock_port_sensor";
 	pixel_x = 24
+	},
+/obj/machinery/atmospherics/unary/vent_pump/high_volume/external_air{
+	dir = 1;
+	id_tag = "exit_dock_port_pump_out_internal"
 	},
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/labyrinth/eva)
@@ -359,11 +375,17 @@
 /obj/machinery/light/small/red{
 	dir = 8
 	},
+/obj/machinery/atmospherics/unary/vent_pump/high_volume/external_air{
+	id_tag = "exit_dock_port_pump"
+	},
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/labyrinth/eva)
 "jD" = (
 /obj/machinery/light/small/red{
 	dir = 4
+	},
+/obj/machinery/atmospherics/unary/vent_pump/high_volume/external_air{
+	id_tag = "exit_dock_port_pump"
 	},
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/labyrinth/eva)
@@ -484,26 +506,25 @@
 /obj/structure/catwalk,
 /obj/machinery/light/small/red,
 /turf/simulated/floor/reinforced,
-/area/exoplanet/volcanic/labyrinth)
+/area/labyrinth/eva)
 "mv" = (
-/obj/machinery/door/airlock/external/bolted{
-	id_tag = "exit_dock_port_in"
-	},
 /obj/machinery/button/access/interior{
 	id_tag = "exit_dock_port";
 	pixel_x = 20;
 	pixel_y = -12
 	},
-/obj/machinery/atmospherics/pipe/simple/hidden,
+/obj/machinery/atmospherics/pipe/manifold4w/hidden,
+/obj/machinery/door/airlock/external/bolted{
+	id_tag = "exit_dock_port_in"
+	},
 /turf/simulated/floor/plating,
 /area/labyrinth/eva)
 "mA" = (
 /obj/machinery/atmospherics/unary/vent_pump/high_volume/external_air{
 	id_tag = "exit_dock_port_pump_out_external"
 	},
-/obj/structure/catwalk,
 /turf/simulated/floor/reinforced,
-/area/exoplanet/volcanic/labyrinth)
+/area/labyrinth/eva)
 "mW" = (
 /obj/structure/cable,
 /obj/machinery/power/shield_generator,
@@ -1238,6 +1259,12 @@
 	},
 /obj/machinery/light,
 /turf/simulated/floor/tiled/techfloor,
+/area/labyrinth/eva)
+"yy" = (
+/obj/machinery/door/firedoor,
+/obj/effect/wallframe_spawn/reinforced_borosilicate,
+/obj/machinery/atmospherics/pipe/simple/hidden,
+/turf/simulated/floor/plating,
 /area/labyrinth/eva)
 "yE" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
@@ -2022,6 +2049,15 @@
 "PY" = (
 /turf/simulated/floor/tiled/dark,
 /area/labyrinth/hallway/tower)
+"Qb" = (
+/obj/machinery/door/firedoor,
+/obj/machinery/atmospherics/pipe/simple/hidden{
+	dir = 5;
+	icon_state = "intact"
+	},
+/obj/effect/wallframe_spawn/reinforced_borosilicate,
+/turf/simulated/floor/plating,
+/area/labyrinth/eva)
 "Qr" = (
 /obj/machinery/atmospherics/unary/vent_pump/on,
 /turf/simulated/floor/tiled/dark,
@@ -2263,11 +2299,10 @@
 /turf/simulated/floor/tiled/dark/monotile,
 /area/labyrinth/hallway/tower)
 "Wh" = (
-/obj/structure/catwalk,
 /obj/machinery/atmospherics/unary/vent_pump/high_volume/external_air{
 	id_tag = "exit_dock_port_pump"
 	},
-/turf/simulated/floor/plating,
+/turf/simulated/floor/tiled/techfloor/grid,
 /area/labyrinth/eva)
 "Wm" = (
 /turf/simulated/wall/r_wall/prepainted,
@@ -2283,7 +2318,7 @@
 /obj/machinery/light/small/red,
 /obj/structure/catwalk,
 /turf/simulated/floor/reinforced,
-/area/exoplanet/volcanic/labyrinth)
+/area/labyrinth/eva)
 "WV" = (
 /obj/machinery/door/firedoor,
 /obj/effect/wallframe_spawn/reinforced_borosilicate,
@@ -2332,9 +2367,7 @@
 	dir = 4
 	},
 /obj/effect/landmark/paperwork_spawn_labyrinth,
-/obj/machinery/firealarm{
-	dir = 1
-	},
+/obj/machinery/firealarm,
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/labyrinth/bridge)
 "Yr" = (
@@ -8958,11 +8991,11 @@ jb
 jb
 jb
 jb
-Sp
-fH
+mA
+yy
 hh
 jt
-fH
+Qb
 pl
 sM
 yu
@@ -9218,11 +9251,11 @@ jb
 jb
 jb
 jb
-Sp
-fH
+mA
+yy
 hC
 jD
-fH
+gV
 pA
 sV
 wh

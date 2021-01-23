@@ -1270,8 +1270,7 @@
 	tag_exterior_door = "exit_underground_out";
 	tag_interior_door = "exit_underground_in"
 	},
-/obj/structure/catwalk,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/tiled/techfloor/grid,
 /area/labyrinth/service/cargo/smelter)
 "jq" = (
 /obj/machinery/door/firedoor,
@@ -4420,8 +4419,7 @@
 	dir = 8;
 	id_tag = "exit_underground_pump"
 	},
-/obj/structure/catwalk,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/tiled/techfloor/grid,
 /area/labyrinth/service/cargo/smelter)
 "It" = (
 /obj/structure/cable{
@@ -4662,8 +4660,7 @@
 	dir = 4;
 	id_tag = "exit_underground_out_internal"
 	},
-/obj/structure/catwalk,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/tiled/techfloor/grid,
 /area/labyrinth/service/cargo/smelter)
 "Km" = (
 /obj/structure/window/reinforced{
@@ -4927,8 +4924,7 @@
 	dir = 8;
 	id_tag = "exit_underground_pump"
 	},
-/obj/structure/catwalk,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/tiled/techfloor/grid,
 /area/labyrinth/service/cargo/smelter)
 "Ma" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
@@ -5424,8 +5420,7 @@
 	dir = 4;
 	id_tag = "exit_underground_out_internal"
 	},
-/obj/structure/catwalk,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/tiled/techfloor/grid,
 /area/labyrinth/service/cargo/smelter)
 "QX" = (
 /obj/effect/floor_decal/corner/paleblue{
@@ -5533,8 +5528,7 @@
 	id_tag = "exit_underground_sensor";
 	pixel_y = -24
 	},
-/obj/structure/catwalk,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/tiled/techfloor/grid,
 /area/labyrinth/service/cargo/smelter)
 "RX" = (
 /obj/structure/hygiene/shower{
