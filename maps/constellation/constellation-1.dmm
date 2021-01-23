@@ -416,6 +416,7 @@
 	dir = 8;
 	icon_state = "corner_white"
 	},
+/obj/effect/landmark/test/safe_turf,
 /turf/simulated/floor/tiled/dark,
 /area/ship/trade/cargo/lower)
 "aP" = (
@@ -832,14 +833,6 @@
 /obj/machinery/artifact_scanpad,
 /turf/simulated/floor/reinforced,
 /area/ship/trade/science/artifact_storage)
-"bL" = (
-/obj/effect/landmark/test/safe_turf,
-/obj/structure/catwalk,
-/obj/structure/railing/mapped{
-	dir = 8
-	},
-/turf/simulated/open,
-/area/ship/trade/cargo/lower)
 "bM" = (
 /obj/structure/cable{
 	icon_state = "4-9"
@@ -6927,7 +6920,7 @@ aO
 du
 Dh
 bv
-bL
+bV
 bV
 lZ
 lZ

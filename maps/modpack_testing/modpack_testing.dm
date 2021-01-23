@@ -18,6 +18,7 @@
 	#include "../../mods/species/tajaran/_tajaran.dme"
 	#include "../../mods/species/tritonian/_tritonian.dme"
 	#include "../../mods/species/neocorvids/_neocorvids.dme"
+	#include "../../mods/species/lizard/_lizard.dme"
 
 // STARLIGHT MODS START
 
