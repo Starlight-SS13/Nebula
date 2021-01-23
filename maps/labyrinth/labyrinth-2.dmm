@@ -225,7 +225,7 @@
 /obj/structure/railing/mapped{
 	dir = 4
 	},
-/turf/simulated/floor/plating,
+/turf/exterior/volcanic,
 /area/exoplanet/volcanic/labyrinth)
 "jv" = (
 /obj/effect/floor_decal/spline/fancy/wood{
@@ -403,11 +403,11 @@
 	dir = 4
 	},
 /obj/structure/catwalk,
-/turf/simulated/floor/plating,
+/turf/exterior/volcanic,
 /area/exoplanet/volcanic/labyrinth)
 "pP" = (
 /obj/structure/catwalk,
-/turf/simulated/floor/plating,
+/turf/exterior/volcanic,
 /area/exoplanet/volcanic/labyrinth)
 "qz" = (
 /obj/structure/railing/mapped,
@@ -471,7 +471,7 @@
 /area/labyrinth/civilian/lounge)
 "tO" = (
 /obj/effect/landmark/test/space_turf,
-/turf/unsimulated/mask,
+/turf/exterior/concrete,
 /area/exoplanet/volcanic/labyrinth)
 "uC" = (
 /obj/effect/floor_decal/spline/fancy/wood/corner{
@@ -515,7 +515,7 @@
 /obj/structure/railing/mapped{
 	dir = 8
 	},
-/turf/simulated/floor/plating,
+/turf/exterior/volcanic,
 /area/exoplanet/volcanic/labyrinth)
 "yi" = (
 /obj/structure/reagent_dispensers/watertank,
@@ -596,7 +596,7 @@
 /obj/structure/railing/mapped{
 	dir = 1
 	},
-/turf/simulated/floor/plating,
+/turf/exterior/volcanic,
 /area/exoplanet/volcanic/labyrinth)
 "DT" = (
 /obj/structure/cable{
@@ -731,7 +731,7 @@
 /obj/structure/railing/mapped{
 	dir = 1
 	},
-/turf/simulated/floor/plating,
+/turf/exterior/volcanic,
 /area/exoplanet/volcanic/labyrinth)
 "HW" = (
 /turf/simulated/open,
@@ -881,12 +881,12 @@
 /obj/structure/railing/mapped{
 	dir = 8
 	},
-/turf/simulated/floor/plating,
+/turf/exterior/volcanic,
 /area/exoplanet/volcanic/labyrinth)
 "OA" = (
 /obj/structure/catwalk,
 /obj/structure/railing/mapped,
-/turf/simulated/floor/plating,
+/turf/exterior/volcanic,
 /area/exoplanet/volcanic/labyrinth)
 "Pe" = (
 /turf/simulated/floor/plating,
@@ -1024,7 +1024,7 @@
 /obj/structure/railing/mapped{
 	dir = 8
 	},
-/turf/simulated/floor/plating,
+/turf/exterior/volcanic,
 /area/exoplanet/volcanic/labyrinth)
 "ST" = (
 /obj/effect/floor_decal/corner/blue,
@@ -1064,7 +1064,7 @@
 	dir = 8
 	},
 /obj/structure/catwalk,
-/turf/simulated/floor/plating,
+/turf/exterior/volcanic,
 /area/exoplanet/volcanic/labyrinth)
 "Ux" = (
 /obj/effect/floor_decal/corner/blue{
@@ -1133,7 +1133,7 @@
 /obj/structure/railing/mapped{
 	dir = 4
 	},
-/turf/simulated/floor/plating,
+/turf/exterior/volcanic,
 /area/exoplanet/volcanic/labyrinth)
 "Xc" = (
 /obj/machinery/media/jukebox/old,
@@ -1168,6 +1168,7 @@
 "ZY" = (
 /obj/machinery/door/firedoor,
 /obj/effect/wallframe_spawn/reinforced_borosilicate,
+/obj/machinery/atmospherics/pipe/simple/hidden,
 /turf/simulated/floor/plating,
 /area/labyrinth/engineering/atmospherics)
 
@@ -7878,10 +7879,10 @@ Wp
 Xc
 Xu
 OA
-tO
+RF
 RF
 dx
-xP
+tO
 qz
 RF
 dq

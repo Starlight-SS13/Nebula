@@ -299,7 +299,7 @@
 	dir = 8
 	},
 /obj/structure/railing/mapped,
-/turf/simulated/floor/plating,
+/turf/exterior/volcanic,
 /area/exoplanet/volcanic/labyrinth)
 "aV" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
@@ -548,7 +548,7 @@
 /obj/structure/railing/mapped{
 	dir = 8
 	},
-/turf/simulated/floor/plating,
+/turf/exterior/volcanic,
 /area/exoplanet/volcanic/labyrinth)
 "cV" = (
 /obj/structure/cable,
@@ -1004,7 +1004,7 @@
 /obj/structure/railing/mapped{
 	dir = 8
 	},
-/turf/simulated/floor/plating,
+/turf/exterior/volcanic,
 /area/exoplanet/volcanic/labyrinth)
 "hf" = (
 /obj/machinery/light/small,
@@ -1701,7 +1701,7 @@
 	id_tag = "exit_underground_out_external"
 	},
 /obj/structure/catwalk,
-/turf/simulated/floor/plating,
+/turf/exterior/volcanic,
 /area/labyrinth/service/cargo/smelter)
 "mL" = (
 /obj/structure/closet/secure_closet/cargotech,
@@ -2045,7 +2045,7 @@
 /obj/machinery/light/small/red{
 	dir = 8
 	},
-/turf/simulated/floor/plating,
+/turf/exterior/volcanic,
 /area/labyrinth/service/cargo/smelter)
 "pa" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
@@ -2364,7 +2364,7 @@
 /obj/structure/railing/mapped{
 	dir = 1
 	},
-/turf/simulated/floor/plating,
+/turf/exterior/volcanic,
 /area/exoplanet/volcanic/labyrinth)
 "ro" = (
 /obj/machinery/atmospherics/unary/vent_scrubber/on{
@@ -2569,7 +2569,7 @@
 /obj/structure/railing/mapped{
 	dir = 4
 	},
-/turf/simulated/floor/plating,
+/turf/exterior/volcanic,
 /area/exoplanet/volcanic/labyrinth)
 "tr" = (
 /obj/machinery/fabricator/imprinter,
@@ -2813,7 +2813,7 @@
 /obj/structure/railing/mapped{
 	dir = 1
 	},
-/turf/simulated/floor/plating,
+/turf/exterior/volcanic,
 /area/exoplanet/volcanic/labyrinth)
 "vw" = (
 /obj/effect/floor_decal/techfloor{
@@ -2846,7 +2846,7 @@
 	dir = 4
 	},
 /obj/structure/railing/mapped,
-/turf/simulated/floor/plating,
+/turf/exterior/volcanic,
 /area/exoplanet/volcanic/labyrinth)
 "vK" = (
 /obj/effect/floor_decal/corner/research{
@@ -3541,7 +3541,7 @@
 "Bv" = (
 /obj/structure/catwalk,
 /obj/structure/railing/mapped,
-/turf/simulated/floor/plating,
+/turf/exterior/volcanic,
 /area/exoplanet/volcanic/labyrinth)
 "By" = (
 /obj/effect/floor_decal/corner/beige{
@@ -5042,7 +5042,7 @@
 /obj/structure/railing/mapped{
 	dir = 4
 	},
-/turf/simulated/floor/plating,
+/turf/exterior/volcanic,
 /area/exoplanet/volcanic/labyrinth)
 "MX" = (
 /obj/machinery/computer/modular/preset/engineering{
@@ -5210,7 +5210,7 @@
 /area/labyrinth/service/cargo)
 "Oy" = (
 /obj/structure/catwalk,
-/turf/simulated/floor/plating,
+/turf/exterior/volcanic,
 /area/exoplanet/volcanic/labyrinth)
 "Oz" = (
 /obj/effect/floor_decal/corner/beige{
@@ -6036,7 +6036,7 @@
 /obj/structure/railing/mapped{
 	dir = 1
 	},
-/turf/simulated/floor/plating,
+/turf/exterior/volcanic,
 /area/exoplanet/volcanic/labyrinth)
 "Wm" = (
 /obj/machinery/fabricator,
@@ -6054,7 +6054,7 @@
 /obj/structure/railing/mapped{
 	dir = 1
 	},
-/turf/simulated/floor/plating,
+/turf/exterior/volcanic,
 /area/exoplanet/volcanic/labyrinth)
 "Wu" = (
 /turf/simulated/floor/tiled,
