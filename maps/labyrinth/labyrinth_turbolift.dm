@@ -1,9 +1,9 @@
 //Elevator
 
 /obj/turbolift_map_holder/labyrinth
-	depth        = 3
-	lift_size_x  = 4
-	lift_size_y  = 3
+	depth = 3
+	lift_size_x = 4
+	lift_size_y = 3
 	areas_to_use = list(
 		/area/turbolift/labyrinth_under,
 		/area/turbolift/labyrinth_surface,

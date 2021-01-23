@@ -2,6 +2,12 @@
 "al" = (
 /turf/simulated/wall/r_wall/prepainted,
 /area/exoplanet/volcanic/labyrinth)
+"aq" = (
+/obj/structure/railing/mapped{
+	dir = 4
+	},
+/turf/exterior/concrete,
+/area/exoplanet/volcanic/labyrinth)
 "aI" = (
 /obj/structure/stairs/south,
 /turf/simulated/floor/plating,
@@ -17,6 +23,15 @@
 "bl" = (
 /turf/simulated/wall/r_wall/prepainted,
 /area/labyrinth/science/testing)
+"bD" = (
+/obj/structure/railing/mapped{
+	dir = 8
+	},
+/obj/structure/railing/mapped{
+	dir = 1
+	},
+/turf/exterior/concrete,
+/area/exoplanet/volcanic/labyrinth)
 "bE" = (
 /obj/structure/table/standard,
 /obj/machinery/reagent_temperature,
@@ -44,6 +59,12 @@
 "dq" = (
 /obj/structure/grille,
 /turf/simulated/floor/plating,
+/area/exoplanet/volcanic/labyrinth)
+"dx" = (
+/obj/structure/railing/mapped{
+	dir = 1
+	},
+/turf/exterior/concrete,
 /area/exoplanet/volcanic/labyrinth)
 "dA" = (
 /obj/structure/cable{
@@ -260,6 +281,15 @@
 "ml" = (
 /turf/simulated/floor/plating,
 /area/exoplanet/volcanic/labyrinth)
+"mo" = (
+/obj/structure/railing/mapped{
+	dir = 4
+	},
+/obj/structure/railing/mapped{
+	dir = 1
+	},
+/turf/exterior/concrete,
+/area/exoplanet/volcanic/labyrinth)
 "mp" = (
 /obj/machinery/cooker/oven,
 /turf/simulated/floor/tiled/freezer,
@@ -379,6 +409,10 @@
 /obj/structure/catwalk,
 /turf/simulated/floor/plating,
 /area/exoplanet/volcanic/labyrinth)
+"qz" = (
+/obj/structure/railing/mapped,
+/turf/exterior/concrete,
+/area/exoplanet/volcanic/labyrinth)
 "qC" = (
 /obj/machinery/light_switch{
 	pixel_y = -21
@@ -400,6 +434,12 @@
 	},
 /turf/simulated/floor/lino,
 /area/labyrinth/civilian/lounge)
+"qM" = (
+/obj/structure/railing/mapped{
+	dir = 8
+	},
+/turf/exterior/concrete,
+/area/exoplanet/volcanic/labyrinth)
 "rC" = (
 /turf/simulated/wall/r_wall/prepainted,
 /area/labyrinth/maintenance/shaft)
@@ -564,10 +604,24 @@
 	},
 /turf/simulated/floor/plating,
 /area/labyrinth/maintenance/shaft)
+"Ee" = (
+/obj/structure/railing/mapped,
+/obj/structure/railing/mapped{
+	dir = 4
+	},
+/turf/exterior/concrete,
+/area/exoplanet/volcanic/labyrinth)
 "Ey" = (
 /obj/structure/railing/mapped,
 /turf/simulated/floor/plating,
 /area/labyrinth/maintenance/shaft)
+"EE" = (
+/obj/structure/railing/mapped,
+/obj/structure/railing/mapped{
+	dir = 8
+	},
+/turf/exterior/concrete,
+/area/exoplanet/volcanic/labyrinth)
 "Fu" = (
 /obj/machinery/alarm{
 	dir = 8
@@ -690,11 +744,9 @@
 /turf/simulated/floor/bluegrid,
 /area/labyrinth/engineering/communications)
 "HZ" = (
-/obj/effect/floor_decal/spline/fancy/wood{
-	dir = 1
-	},
-/obj/machinery/light,
-/turf/simulated/floor/lino,
+/obj/machinery/door/firedoor,
+/obj/effect/wallframe_spawn/reinforced,
+/turf/simulated/floor/plating,
 /area/labyrinth/civilian/lounge)
 "IU" = (
 /obj/machinery/atmospherics/pipe/zpipe/up/scrubbers{
@@ -856,6 +908,13 @@
 "PD" = (
 /turf/simulated/floor/tiled/dark,
 /area/labyrinth/hallway/upper)
+"PK" = (
+/obj/effect/floor_decal/spline/fancy/wood{
+	dir = 1
+	},
+/obj/machinery/light,
+/turf/simulated/floor/lino,
+/area/labyrinth/civilian/lounge)
 "PO" = (
 /obj/machinery/vending/coffee,
 /turf/simulated/floor/tiled/dark/monotile,
@@ -5979,25 +6038,25 @@ RF
 RF
 RF
 RF
-RF
-xP
-xP
-xP
-xP
-xP
-xP
-xP
-xP
-xP
-xP
-xP
-xP
-xP
-xP
-xP
-xP
-xP
-RF
+bD
+qM
+qM
+qM
+qM
+qM
+qM
+qM
+qM
+qM
+qM
+qM
+qM
+qM
+qM
+qM
+qM
+qM
+EE
 RF
 RF
 RF
@@ -6108,7 +6167,7 @@ RF
 RF
 RF
 RF
-RF
+bD
 xP
 xP
 xP
@@ -6128,7 +6187,7 @@ xP
 xP
 xP
 xP
-RF
+EE
 RF
 RF
 RF
@@ -6237,29 +6296,29 @@ dq
 RF
 RF
 RF
-RF
+bD
 xP
 xP
 xP
+aq
+aq
+aq
+aq
+aq
+aq
+aq
+aq
+aq
+aq
+aq
+aq
+aq
+aq
+aq
 xP
 xP
 xP
-xP
-xP
-xP
-xP
-xP
-xP
-xP
-xP
-xP
-xP
-xP
-xP
-xP
-xP
-xP
-RF
+EE
 RF
 RF
 RF
@@ -6366,31 +6425,31 @@ al
 dq
 RF
 RF
-RF
+bD
 xP
 xP
 xP
+Ee
+RF
+RF
+RF
+RF
+RF
+RF
+RF
+RF
+RF
+RF
+RF
+RF
+RF
+RF
+RF
+mo
 xP
-RF
-RF
-RF
-RF
-RF
-RF
-RF
-RF
-RF
-RF
-RF
-RF
-RF
-RF
-RF
 xP
 xP
-xP
-xP
-RF
+EE
 RF
 RF
 RF
@@ -6495,11 +6554,11 @@ dq
 al
 dq
 RF
-RF
+bD
 xP
 xP
 xP
-xP
+Ee
 RF
 RF
 RF
@@ -6517,11 +6576,11 @@ SS
 yb
 RF
 RF
+mo
 xP
 xP
 xP
-xP
-RF
+EE
 RF
 RF
 RF
@@ -6624,11 +6683,11 @@ RF
 dq
 al
 dq
-RF
+bD
 xP
 xP
 xP
-xP
+Ee
 RF
 RF
 RF
@@ -6648,11 +6707,11 @@ OA
 RF
 RF
 RF
+mo
 xP
 xP
 xP
-xP
-RF
+EE
 RF
 RF
 dq
@@ -6754,10 +6813,10 @@ RF
 dq
 al
 dq
+dx
 xP
 xP
-xP
-xP
+Ee
 RF
 RF
 RF
@@ -6779,11 +6838,11 @@ SS
 yb
 RF
 RF
+mo
 xP
 xP
 xP
-xP
-RF
+EE
 RF
 dq
 al
@@ -6884,9 +6943,9 @@ RF
 dq
 al
 dq
+dx
 xP
-xP
-xP
+qz
 RF
 RF
 RF
@@ -6910,10 +6969,10 @@ pP
 yb
 RF
 RF
+mo
 xP
 xP
-xP
-RF
+qz
 RF
 dq
 al
@@ -7014,9 +7073,9 @@ RF
 dq
 al
 dq
+dx
 xP
-xP
-xP
+qz
 RF
 RF
 RF
@@ -7041,9 +7100,9 @@ pP
 yb
 RF
 RF
+dx
 xP
-xP
-RF
+qz
 RF
 dq
 al
@@ -7144,9 +7203,9 @@ RF
 dq
 al
 dq
+dx
 xP
-xP
-xP
+qz
 RF
 RF
 RF
@@ -7171,9 +7230,9 @@ LZ
 OA
 RF
 RF
+dx
 xP
-xP
-RF
+qz
 RF
 dq
 al
@@ -7274,9 +7333,9 @@ RF
 dq
 al
 dq
+dx
 xP
-xP
-xP
+qz
 RF
 RF
 RF
@@ -7301,9 +7360,9 @@ Xu
 OA
 RF
 RF
+dx
 xP
-xP
-RF
+qz
 RF
 dq
 al
@@ -7404,7 +7463,7 @@ RF
 dq
 al
 dq
-xP
+dx
 xP
 xP
 SS
@@ -7431,9 +7490,9 @@ Xu
 OA
 RF
 RF
+dx
 xP
-xP
-RF
+qz
 RF
 dq
 al
@@ -7547,7 +7606,7 @@ BM
 le
 nH
 qL
-aJ
+HZ
 Cd
 Cd
 Cd
@@ -7561,9 +7620,9 @@ Xu
 OA
 RF
 RF
+dx
 xP
-xP
-RF
+qz
 RF
 dq
 al
@@ -7677,7 +7736,7 @@ gr
 lG
 oz
 qL
-aJ
+HZ
 Cd
 Cd
 Cd
@@ -7691,9 +7750,9 @@ Xu
 OA
 RF
 RF
+dx
 xP
-xP
-RF
+qz
 RF
 dq
 al
@@ -7806,7 +7865,7 @@ fa
 jv
 lS
 oS
-HZ
+PK
 aJ
 Cd
 Cd
@@ -7821,9 +7880,9 @@ Xu
 OA
 tO
 RF
+dx
 xP
-xP
-RF
+qz
 RF
 dq
 al
@@ -7937,7 +7996,7 @@ gr
 mp
 pa
 qL
-aJ
+HZ
 Cd
 Cd
 Cd
@@ -7951,9 +8010,9 @@ Xu
 OA
 RF
 RF
+dx
 xP
-xP
-RF
+qz
 RF
 dq
 al
@@ -8067,7 +8126,7 @@ gt
 mR
 mR
 fP
-aJ
+HZ
 Cd
 Cd
 Cd
@@ -8081,9 +8140,9 @@ Xu
 OA
 RF
 RF
+dx
 xP
-xP
-RF
+qz
 RF
 dq
 al
@@ -8184,7 +8243,7 @@ RF
 dq
 al
 dq
-xP
+dx
 xP
 xP
 WP
@@ -8211,9 +8270,9 @@ Xu
 OA
 RF
 RF
+dx
 xP
-xP
-RF
+qz
 RF
 dq
 al
@@ -8314,9 +8373,9 @@ RF
 dq
 al
 dq
+dx
 xP
-xP
-xP
+qz
 RF
 RF
 RF
@@ -8341,9 +8400,9 @@ Xu
 OA
 RF
 RF
+dx
 xP
-xP
-RF
+qz
 RF
 dq
 al
@@ -8444,9 +8503,9 @@ RF
 dq
 al
 dq
+dx
 xP
-xP
-xP
+qz
 RF
 RF
 RF
@@ -8471,9 +8530,9 @@ LZ
 OA
 RF
 RF
+dx
 xP
-xP
-RF
+qz
 RF
 dq
 al
@@ -8574,9 +8633,9 @@ RF
 dq
 al
 dq
+dx
 xP
-xP
-xP
+qz
 RF
 RF
 RF
@@ -8601,9 +8660,9 @@ pP
 jm
 RF
 RF
+dx
 xP
-xP
-RF
+qz
 RF
 dq
 al
@@ -8704,9 +8763,9 @@ RF
 dq
 al
 dq
+dx
 xP
-xP
-xP
+qz
 RF
 RF
 RF
@@ -8730,10 +8789,10 @@ pP
 jm
 RF
 RF
+bD
 xP
 xP
-xP
-RF
+Ee
 RF
 dq
 al
@@ -8834,10 +8893,10 @@ RF
 dq
 al
 dq
+dx
 xP
 xP
-xP
-xP
+EE
 RF
 RF
 RF
@@ -8859,10 +8918,10 @@ WP
 jm
 RF
 RF
+bD
 xP
 xP
-xP
-xP
+Ee
 RF
 RF
 dq
@@ -8964,11 +9023,11 @@ RF
 dq
 al
 dq
-RF
+mo
 xP
 xP
 xP
-xP
+EE
 RF
 RF
 RF
@@ -8988,10 +9047,10 @@ OA
 RF
 RF
 RF
+bD
 xP
 xP
-xP
-xP
+Ee
 RF
 RF
 RF
@@ -9095,11 +9154,11 @@ dq
 al
 dq
 RF
-RF
+mo
 xP
 xP
 xP
-xP
+EE
 RF
 RF
 RF
@@ -9117,10 +9176,10 @@ WP
 jm
 RF
 RF
+bD
 xP
 xP
-xP
-xP
+Ee
 RF
 RF
 RF
@@ -9226,30 +9285,30 @@ al
 dq
 RF
 RF
-RF
+mo
 xP
 xP
 xP
+EE
+RF
+RF
+RF
+RF
+RF
+RF
+RF
+RF
+RF
+RF
+RF
+RF
+RF
+RF
+RF
+bD
 xP
-RF
-RF
-RF
-RF
-RF
-RF
-RF
-RF
-RF
-RF
-RF
-RF
-RF
-RF
-RF
 xP
-xP
-xP
-xP
+Ee
 RF
 RF
 RF
@@ -9357,28 +9416,28 @@ dq
 RF
 RF
 RF
-RF
+mo
 xP
 xP
 xP
+qM
+qM
+qM
+qM
+qM
+qM
+qM
+qM
+qM
+qM
+qM
+qM
+qM
+qM
+qM
 xP
 xP
-xP
-xP
-xP
-xP
-xP
-xP
-xP
-xP
-xP
-xP
-xP
-xP
-xP
-xP
-xP
-xP
+Ee
 XS
 XS
 XS
@@ -9488,7 +9547,7 @@ RF
 RF
 RF
 RF
-RF
+mo
 xP
 xP
 xP
@@ -9507,7 +9566,7 @@ xP
 xP
 xP
 xP
-xP
+Ee
 RF
 XS
 Yo
@@ -9619,24 +9678,24 @@ RF
 RF
 RF
 RF
-RF
-RF
-RF
-RF
-RF
-RF
-RF
-RF
-RF
-RF
-RF
-RF
-RF
-RF
-RF
-RF
-RF
-RF
+mo
+aq
+aq
+aq
+aq
+aq
+aq
+aq
+aq
+aq
+aq
+aq
+aq
+aq
+aq
+aq
+aq
+Ee
 RF
 RF
 XS
