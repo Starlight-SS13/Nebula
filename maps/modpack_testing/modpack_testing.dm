@@ -21,18 +21,13 @@
 	#include "../../mods/species/lizard/_lizard.dme"
 
 // STARLIGHT MODS START
-
-	// General content mod
 	#include "../../starlight/mods/content/starlight/_starlight.dme"
+	#include "../../starlight/mods/content/interpack/_interpack.dme"
+	#include "../../starlight/mods/content/europa_tileset/_europa_tileset.dme"
 
-	// Species mods
 	#include "../../starlight/mods/species/booster/_booster.dme"
 	#include "../../starlight/mods/species/resomi/_resomi.dme"
 	#include "../../starlight/mods/species/vatgrown/_vatgrown.dme"
-
-	// Other
-	#include "../../starlight/mods/content/europa_tileset/_europa_tileset.dme"
-
 // STARLIGHT MODS END
 
 	#define USING_MAP_DATUM /datum/map/modpack_testing

@@ -4,7 +4,6 @@
 
 /obj/item/storage/backpack/satchel
 	worn_access = TRUE
-//	max_w_class = ITEM_SIZE_NORMAL todo: revisit, fix unit test error
 
 /obj/item/storage/backpack/attackby(obj/item/W, mob/user)
 	if(!worn_check(user)) return
@@ -29,14 +28,3 @@
 			to_chat(L, SPAN_WARNING("You need to take off \the [src] before you can use it!"))
 		return FALSE
 	return TRUE
-
-
-/* Satchel subtypes */
-
-/obj/item/storage/backpack/satchel/pocketbook/navy
-	name = "navy pocketbook"
-	color = "#1c2133"
-
-/obj/item/storage/backpack/satchel/pocketbook/khaki
-	name = "khaki pocketbook"
-	color = "#baa481"

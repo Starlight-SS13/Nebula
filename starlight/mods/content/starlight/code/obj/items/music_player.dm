@@ -117,7 +117,7 @@ GLOBAL_LIST_EMPTY(music_players)
 	if(value == mode)
 		return
 
-	playsound(src, mode == (PLAYER_STATE_OFF || PLAYER_STATE_PAUSE) ? 'starlight/mods/content/starlight/sound/effects/using/switch/small1.ogg' : 'starlight/mods/content/starlight/sound/effects/using/switch/small2.ogg', 35)
+	playsound(src, mode == (PLAYER_STATE_OFF || PLAYER_STATE_PAUSE) ? 'starlight/mods/content/starlight/sound/obj/machinery/switch/small1.ogg' : 'starlight/mods/content/starlight/sound/obj/machinery/switch/small2.ogg', 35)
 
 	if(broken)
 		return
@@ -352,7 +352,7 @@ GLOBAL_LIST_EMPTY(music_players)
 	if(mode)
 		StopPlaying()
 
-	playsound(src, 'starlight/mods/content/starlight/sound/machines/Custom_screwdriveropen.ogg', 20, 1)
+	playsound(src, 'starlight/mods/content/starlight/sound/obj/machinery/Custom_screwdriveropen.ogg', 20, 1)
 	if(user)
 		visible_message(
 			SPAN_NOTICE("[user] eject \a [tape] from \the [src]."),
@@ -456,6 +456,35 @@ GLOBAL_LIST_EMPTY(music_players)
 	if(tape)
 		tape.ruin()
 	return ..()
+
+// Radio player
+/obj/item/music_player/radio
+	name = "radio station"
+	desc = "An old radio box. In the past people used them for listening to radio stations and communication between radio amateurs. \
+	In future there's still an enthusiasts who like to repair and modify old electronics. For example this one may play music disks."
+	icon = 'starlight/mods/content/starlight/icons/obj/items/music_player_radio.dmi'
+
+// Boombox
+/obj/item/music_player/boombox
+	name = "black boombox"
+	desc = "A musical audio player station, also known as boombox or ghettobox. Very robust."
+	icon = 'starlight/mods/content/starlight/icons/obj/items/music_player_boombox.dmi'
+
+	slot_flags = SLOT_BACK
+	w_class = ITEM_SIZE_LARGE
+
+	throwforce = 10
+	throw_speed = 2
+	throw_range = 10
+	force = 10
+
+// This one for debug pruporses
+// I'll yell on you if you will use it in game without good reason >:(
+/obj/item/music_player/debug
+	name = "typ3n4m3-cl4ss: CRUSH/ZER0"
+	icon = 'starlight/mods/content/starlight/icons/obj/items/music_player_console.dmi'
+
+	tape = /obj/item/music_tape/custom
 
 #undef PLAYER_STATE_OFF
 #undef PLAYER_STATE_PLAY
