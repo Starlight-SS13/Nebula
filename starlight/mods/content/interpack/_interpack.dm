@@ -1,2 +1,2 @@
 /decl/modpack/interpack
-	name = "Interpack"
+	name = "InterPack"
