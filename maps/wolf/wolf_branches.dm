@@ -18,6 +18,9 @@
 		),
 		/decl/species/lizard = list(
 			/datum/mil_branch/exoplanetary_affairs
+		),
+		/decl/species/utility_frame = list(
+			/datum/mil_branch/exoplanetary_affairs
 		)
 	)
 
