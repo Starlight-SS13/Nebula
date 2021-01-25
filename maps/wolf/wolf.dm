@@ -20,6 +20,7 @@
 	#include "../../starlight/mods/species/booster/_booster.dme"
 	#include "../../starlight/mods/species/resomi/_resomi.dme"
 	#include "../../starlight/mods/species/vatgrown/_vatgrown.dme"
+	#include "../../starlight/mods/species/skrell/_skrell.dme"
 // STARLIGHT MODS END
 
 // EPN5 MODS START
