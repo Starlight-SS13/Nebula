@@ -1,6 +1,7 @@
 /decl/species/skrell
 	name = SPECIES_SKRELL
 	name_plural = SPECIES_SKRELL
+	bodytype = BODYTYPE_HUMANOID
 
 	icobase = 'starlight/mods/species/skrell/icons//body.dmi'
 	deform = 'starlight/mods/species/skrell/icons//deformed_body.dmi'
@@ -8,12 +9,19 @@
 	bandages_icon = 'icons/mob/bandage.dmi'
 
 	primitive_form = "Neaera"
-	unarmed_attacks = list(/decl/natural_attack/stomp, /decl/natural_attack/kick, /decl/natural_attack/punch, /decl/natural_attack/bite)
+	unarmed_attacks = list(
+		/decl/natural_attack/stomp, 
+		/decl/natural_attack/kick, 
+		/decl/natural_attack/punch, 
+		/decl/natural_attack/bite
+	)
+
 	description = "An amphibious species, Skrell come from the star system known as Qerr'Vallis, which translates to 'Star of \
 	the royals' or 'Light of the Crown'.<br/><br/>Skrell are a highly advanced and logical race who live under the rule \
 	of the Qerr'Katish, a caste within their society which keeps the empire of the Skrell running smoothly. Skrell are \
 	herbivores on the whole and tend to be co-operative with the other species of the galaxy, although they rarely reveal \
 	the secrets of their empire to their allies."
+
 	health_hud_intensity = 1.75
 	meat_type = /obj/item/chems/food/snacks/fish/octopus
 	bone_material = /decl/material/solid/bone/cartilage
@@ -101,7 +109,7 @@
 		BP_KIDNEYS =  /obj/item/organ/internal/kidneys,
 		BP_BRAIN =    /obj/item/organ/internal/brain,
 		BP_EYES =     /obj/item/organ/internal/eyes/skrell
-		)
+	)
 
 	exertion_effect_chance = 10
 	exertion_hydration_scale = 1
