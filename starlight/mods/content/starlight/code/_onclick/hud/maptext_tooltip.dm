@@ -38,8 +38,6 @@
 		screen |= maptext_tooltip
 
 		var/maptext_color = COLOR_WHITE
-		if(istype(A, /turf))
-			maptext_color = COLOR_GRAY
 		if(istype(A, /obj))
 			maptext_color = COLOR_DARK_ORANGE
 		if(istype(A, /mob))
