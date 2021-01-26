@@ -300,9 +300,11 @@ its easier to just keep the beam vertical.
 				M.client.eye = M.client.mob
 				M.client.perspective = MOB_PERSPECTIVE
 
-/atom/proc/physically_destroyed()
+/atom/proc/physically_destroyed(var/skip_qdel)
 	SHOULD_CALL_PARENT(TRUE)
 	dump_contents()
+	if(!skip_qdel && !QDELETED(src))
+		qdel(src)
 	. = TRUE
 
 /atom/proc/try_detonate_reagents(var/severity = 3)
@@ -453,11 +455,7 @@ its easier to just keep the beam vertical.
 /atom/movable/onDropInto(var/atom/movable/AM)
 	return loc // If onDropInto returns something, then dropInto will attempt to drop AM there.
 
-/atom/proc/InsertedContents()
-	return contents
-
 //all things climbable
-
 /atom/attack_hand(mob/user)
 	..()
 	if(LAZYLEN(climbers) && !(user in climbers))
