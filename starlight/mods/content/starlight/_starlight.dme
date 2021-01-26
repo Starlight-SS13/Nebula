@@ -3,7 +3,7 @@
 // BEGIN_INCLUDE
 #include "_starlight.dm"
 #include "code\fix_preferences.dm"
-#include "code\_onclick\hud\tooltip.dm"
+#include "code\_onclick\hud\maptext_tooltip.dm"
 #include "code\datum\footsteps.dm"
 #include "code\datum\votes.dm"
 #include "code\datum\webhook_message_ooc.dm"
