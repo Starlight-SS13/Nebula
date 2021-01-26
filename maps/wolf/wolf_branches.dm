@@ -36,7 +36,7 @@
 		/datum/mil_rank/exo/o7,
 		/datum/mil_rank/exo/o8,
 		/datum/mil_rank/exo/o9,
-	)
+		)
 
 	spawn_rank_types = list(
 		/datum/mil_rank/exo/e2,
@@ -51,17 +51,15 @@
 		/datum/mil_rank/exo/o4,
 		/datum/mil_rank/exo/o5,
 		/datum/mil_rank/exo/o6
-	)
+		)
 
 	assistant_job = DEFAULT_JOB_TYPE
 
 	// Email addresses will be created under this domain name. Mostly for the looks.
 	email_domain = "odyssey.exo.usn.net"
 
-	min_skill = list(
-		SKILL_SCIENCE = SKILL_BASIC,
-		SKILL_EVA     = SKILL_BASIC
-	)
+	min_skill = list(	SKILL_SCIENCE = SKILL_BASIC,
+						SKILL_EVA     = SKILL_BASIC)
 
 /datum/mil_branch/civilian
 	name = "Civilian"
