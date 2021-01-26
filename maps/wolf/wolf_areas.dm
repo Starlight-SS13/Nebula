@@ -1,17 +1,6 @@
 /area/ship/wolf
 	name = "\improper Generic Ship"
-	ambience = list(
-		'sound/ambience/ambigen3.ogg',
-		'sound/ambience/ambigen4.ogg',
-		'sound/ambience/ambigen5.ogg',
-		'sound/ambience/ambigen6.ogg',
-		'sound/ambience/ambigen7.ogg',
-		'sound/ambience/ambigen8.ogg',
-		'sound/ambience/ambigen9.ogg',
-		'sound/ambience/ambigen10.ogg',
-		'sound/ambience/ambigen11.ogg',
-		'sound/ambience/ambigen12.ogg'
-	)
+	ambience = list('sound/ambience/ambigen3.ogg','sound/ambience/ambigen4.ogg','sound/ambience/ambigen5.ogg','sound/ambience/ambigen6.ogg','sound/ambience/ambigen7.ogg','sound/ambience/ambigen8.ogg','sound/ambience/ambigen9.ogg','sound/ambience/ambigen10.ogg','sound/ambience/ambigen11.ogg','sound/ambience/ambigen12.ogg')
 	icon = 'maps/wolf/icons/areas.dmi'
 
 //Engineering
@@ -196,7 +185,7 @@
 
 /area/ship/wolf/security/maa_office
 	icon_state = "maa"
-	name = "\improper Master At Arms Office"
+	name = "\improper Brig Chief's Office"
 	req_access = list(access_armory, access_brig, access_sec_doors)
 
 /area/ship/wolf/security/armory
@@ -436,7 +425,7 @@
 /area/ship/wolf/science/xenobio
 	name = "Xenobioflora Laboratory"
 	icon_state = "science"
-	req_access = list(access_research, access_xenobiology)
+	req_access = list(access_xenobiology)
 
 /area/ship/wolf/science/xenoarch
 	name = "Xenoarcheology"
@@ -496,12 +485,6 @@
 
 /area/ship/wolf/escape_pod/four
 	name = "Escape Pod Bay Four"
-
-/area/ship/wolf/escape_pod/five
-	name = "Escape Pod Bay Five"
-
-/area/ship/wolf/escape_pod/six
-	name = "Escape Pod Bay Six"
 
 //Maintenance
 
