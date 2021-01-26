@@ -10,15 +10,6 @@
 	)
 
 	species_to_branch_blacklist = list(
-		/decl/species/resomi = list(
-			/datum/mil_branch/exoplanetary_affairs
-		),
-		/decl/species/tajaran = list(
-			/datum/mil_branch/exoplanetary_affairs
-		),
-		/decl/species/lizard = list(
-			/datum/mil_branch/exoplanetary_affairs
-		),
 		/decl/species/utility_frame = list(
 			/datum/mil_branch/exoplanetary_affairs
 		)
