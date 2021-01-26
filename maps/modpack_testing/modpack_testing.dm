@@ -19,6 +19,8 @@
 	#include "../../mods/species/tritonian/_tritonian.dme"
 	#include "../../mods/species/neocorvids/_neocorvids.dme"
 	#include "../../mods/species/lizard/_lizard.dme"
+	#include "../../mods/species/vox/_vox.dme"
+	#include "../../mods/species/adherent/_adherent.dme"
 
 // STARLIGHT MODS START
 	#include "../../starlight/mods/content/starlight/_starlight.dme"
