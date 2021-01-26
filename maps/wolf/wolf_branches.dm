@@ -12,6 +12,9 @@
 	species_to_branch_blacklist = list(
 		/decl/species/utility_frame = list(
 			/datum/mil_branch/exoplanetary_affairs
+		),
+		/decl/species/adherent = list(
+			/datum/mil_branch/exoplanetary_affairs
 		)
 	)
 
