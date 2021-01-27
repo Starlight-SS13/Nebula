@@ -43,7 +43,6 @@
 	slot = ACCESSORY_SLOT_INSIGNIA
 	hide_on_uniform_rolldown = TRUE
 	icon = 'maps/wolf/icons/rank_chevrons.dmi'
-	icon_state = "chevron"
 
 /obj/item/clothing/accessory/chevrons/engineering
 	color = COLOR_ORANGE
@@ -72,7 +71,6 @@
 	slot = ACCESSORY_SLOT_DEPT
 	hide_on_uniform_rolldown = TRUE
 	icon = 'maps/wolf/icons/dept_stripes.dmi'
-	icon_state = "deptstripe"
 
 /obj/item/clothing/accessory/dept_stripes/engineering
 	color = COLOR_ORANGE
@@ -99,7 +97,6 @@
 	name = "rank patch"
 	desc = "A patch of colored fabric with a hook-and-loop backing."
 	slot = ACCESSORY_SLOT_RANK
-	icon = 'maps/wolf/icons/ranks.dmi'
 	var/rank
 
 /obj/item/clothing/accessory/ranks/Initialize()
@@ -107,10 +104,10 @@
 	name = "[initial(name)] - [rank]"
 
 /obj/item/clothing/accessory/ranks/enlisted
-	icon_state = "ea_enlisted"
+	icon = 'maps/wolf/icons/rank_ea_enlisted.dmi'
 
-/obj/item/clothing/accessory/ranks/senior_enlisted
-	icon_state = "ea_senior_enlisted"
+/obj/item/clothing/accessory/ranks/enlisted/senior
+	icon = 'maps/wolf/icons/rank_ea_enlisted_senior.dmi'
 
 /obj/item/clothing/accessory/ranks/enlisted/e1
 	name = "enlisted rank patch (E1)"
@@ -128,20 +125,20 @@
 	name = "enlisted rank patch (E4)"
 	rank = "Lance Starman"
 
-/obj/item/clothing/accessory/ranks/senior_enlisted/e5
+/obj/item/clothing/accessory/ranks/enlisted/senior/e5
 	name = "senior enlisted rank patch (E5)"
 	rank = "Senior Lance Starman"
 
-/obj/item/clothing/accessory/ranks/senior_enlisted/e6
+/obj/item/clothing/accessory/ranks/enlisted/senior/e6
 	name = "senior enlisted rank patch (E6)"
 	rank = "Chief Lance Starman"
 
-/obj/item/clothing/accessory/ranks/senior_enlisted/e7
+/obj/item/clothing/accessory/ranks/enlisted/senior/e7
 	name = "senior enlisted rank patch (E7)"
 	rank = "Senior Chief Lance Starman"
 
 /obj/item/clothing/accessory/ranks/officer
-	icon_state = "ea_officer"
+	icon = 'maps/wolf/icons/rank_ea_officer.dmi'
 
 /obj/item/clothing/accessory/ranks/officer/o1
 	name = "officer rank patch (O1)"
@@ -164,7 +161,7 @@
 	rank = "Commander"
 
 /obj/item/clothing/accessory/ranks/command
-	icon_state = "ea_command"
+	icon = 'maps/wolf/icons/rank_ea_command.dmi'
 
 /obj/item/clothing/accessory/ranks/command/o6
 	name = "senior officer rank patch (O6)"

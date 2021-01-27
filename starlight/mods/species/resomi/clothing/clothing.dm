@@ -8,7 +8,7 @@
 	. = ..()
 	QDEL_NULL(H.shoes)
 	H.equip_to_slot(new        /obj/item/clothing/shoes/resomi,      slot_shoes_str)    //since they cant wear hooman shoes
-	H.equip_to_slot_or_del(new /obj/item/clothing/under/resomi/work, slot_w_uniform_str)
+	H.equip_to_slot_or_del(new /obj/item/clothing/under/resomi, slot_w_uniform_str)
 
 /decl/species/resomi/New()
 	equip_adjust = list(

@@ -113,19 +113,19 @@
 	name = "Senior Lance Starman"
 	name_short = "LSP"
 	sort_order = 5
-	accessory = list(/obj/item/clothing/accessory/ranks/senior_enlisted/e5)
+	accessory = list(/obj/item/clothing/accessory/ranks/enlisted/senior/e5)
 
 /datum/mil_rank/exo/e6
 	name = "Chief Lance Starman"
 	name_short = "CLSP"
 	sort_order = 6
-	accessory = list(/obj/item/clothing/accessory/ranks/senior_enlisted/e6)
+	accessory = list(/obj/item/clothing/accessory/ranks/enlisted/senior/e6)
 
 /datum/mil_rank/exo/e7
 	name = "Senior Chief Lance Starman"
 	name_short = "SCLSP"
 	sort_order = 7
-	accessory = list(/obj/item/clothing/accessory/ranks/senior_enlisted/e7)
+	accessory = list(/obj/item/clothing/accessory/ranks/enlisted/senior/e7)
 
 /datum/mil_rank/exo/o1
 	name = "Ensign"
