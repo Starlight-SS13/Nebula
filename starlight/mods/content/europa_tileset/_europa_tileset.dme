@@ -1,6 +1,6 @@
 #ifndef MODPACK_EUROPA_TILESET
 #define MODPACK_EUROPA_TILESET
-#include "europa_tileset.dm"
+#include "_europa_tileset.dm"
 #include "flooring.dm"
 #include "flooring_premade.dm"
 #endif
