@@ -15,6 +15,7 @@
 #include "code\datum\sprite_accessory\markings.dm"
 #include "code\mob\ghost.dm"
 #include "code\mob\living.dm"
+#include "code\mob\malnourished.dm"
 #include "code\mob\pixel_shift.dm"
 #include "code\music_tracks\darkspace1.dm"
 #include "code\music_tracks\intermissi0n.dm"
@@ -25,6 +26,7 @@
 #include "code\obj\items\music_player.dm"
 #include "code\obj\items\music_tape.dm"
 #include "code\obj\machinery\jukebox.dm"
+#include "code\obj\machinery\mantrap.dm"
 #include "code\obj\structures\barsign.dm"
 #include "code\obj\structures\noose\noose.dm"
 // END_INCLUDE
