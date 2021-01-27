@@ -7,69 +7,69 @@
 </h1>
 
 <p align="center">
-  <a href="https://github.com/Starlight-SS13/Nebula">
-    <img src="https://github.com/Starlight-SS13/Nebula/workflows/Run%20Tests/badge.svg"
+  <a href="https://github.com/NebulaSS13/Nebula/actions">
+    <img src="https://github.com/NebulaSS13/Nebula/workflows/Run%20Tests/badge.svg"
          alt="Build Status">
   </a>
-  <a href="https://www.codefactor.io/repository/github/Starlight-SS13/Nebula">
-    <img src="https://www.codefactor.io/repository/github/Starlight-SS13/Nebula/badge"
+  <a href="https://www.codefactor.io/repository/github/NebulaSS13/Nebula">
+    <img src="https://www.codefactor.io/repository/github/NebulaSS13/Nebula/badge"
          alt="CodeFactor">
   </a>
-  <a href="https://github.com/Starlight-SS13/Nebula/commits/dev">
-    <img src="https://img.shields.io/github/last-commit/Starlight-SS13/Nebula"
+  <a href="https://github.com/NebulaSS13/Nebula/commits/dev">
+    <img src="https://img.shields.io/github/last-commit/NebulaSS13/Nebula"
          alt="Last Commit">
   </a>
-  <a href="https://github.com/Starlight-SS13/Nebula/issues">
-    <img src="https://img.shields.io/github/issues/Starlight-SS13/Nebula"
+  <a href="https://github.com/NebulaSS13/Nebula/issues">
+    <img src="https://img.shields.io/github/issues/NebulaSS13/Nebula"
          alt="Issues">
   </a>
-  <a href="https://discord.gg/MZDPfeqUKY">
-    <img src="https://img.shields.io/discord/684286008384159766?style=plastic"
+  <a href="https://discord.gg/Ddw58yF">
+    <img src="https://img.shields.io/discord/678820025355862045?style=plastic"
          alt="Discord">
   </a>
-  <a href="https://github.com/Starlight-SS13/Nebula/blob/dev/LICENSE">
-    <img src="https://img.shields.io/github/license/Starlight-SS13/Nebula"
+  <a href="https://github.com/NebulaSS13/Nebula/blob/dev/LICENSE">
+    <img src="https://img.shields.io/github/license/NebulaSS13/Nebula"
          alt="License">
   </a>
 </p>
 
 <p align="center">
-  <a href="#руководство-по-содействию">Руководство по Содействию</a> •
-  <a href="#безопасность">Безопасность</a> •
-  <a href="#лицензирование">Лицензирование</a> •
-  <a href="#получение-кода-и-установка">Получение кода и Установка</a>
+  <a href="#contributing-guidelines">Contributing Guidelines</a> •
+  <a href="#security">Security</a> •
+  <a href="#license">License</a> •
+  <a href="#getting-the-code-and-installing">Getting the Code and Installing</a>
 </p>
 
 ---
 
-### РУКОВОДСТВО ПО СОДЕЙСТВИЮ
+### CONTRIBUTING GUIDELINES
 
-Ожидается, что все пользователи прочитают [/docs/CODE_OF_CONDUCT.md](/docs/CODE_OF_CONDUCT.md) перед взаимодействием с репозиторием или другими пользователями.
-
----
-
-### БЕЗОПАСНОСТЬ
-
-Пожалуйста прочтите [/docs/SECURITY.md](/docs/SECURITY.md) для получения информации о политике безопасности этого репозитория и как сообщать о проблемах безопасности.
+All users are expected to review [/docs/CODE_OF_CONDUCT.md](/docs/CODE_OF_CONDUCT.md) before interacting with the repository or other users.
 
 ---
 
-### ЛИЦЕНЗИРОВАНИЕ
+### SECURITY
 
-Код Nebula13 находится под лицензией [GNU Affero General Public License v3](http://www.gnu.org/licenses/agpl.html), которую можно найти полностью в [/LICENSE](/LICENSE).
-
-Код с датой авторства git до `1420675200 +0000` (2015/01/08 00:00 GMT) под лицензией GNU General Public License версии 3, которую можно найти полностью в [/docs/GPL3.txt](/docs/GPL3.txt)
-
-Предполагается, что весь код, авторство которого находится на `1420675200 +0000` или позднее ицензируется по AGPL v3. Если вы хотите лицензировать по GPL v3, пожалуйста, укажите это в сообщении о фиксации и любых добавленных файлах.
-
-Если вы хотите разрабатывать и использовать эту кодовую базу в условиях закрытого исходного кода, вы можете использовать все коммиты до `1420675200 +0000`, которые лицензированы под GPL v3. Основное изменение здесь заключается в том, что если вы размещаете сервер с использованием любого кода, лицензированного под AGPLv3, вам необходимо предоставить полный исходный код для пользователей ваших серверов, а также дополнения и внесенные вами изменения.
-
-См. [здесь](https://www.gnu.org/licenses/why-affero-gpl.html) для получения дополнительной информации.
-
-Все ресурсы, включая значки и звук, находятся под лицензией [Creative Commons 3.0 BY-SA](http://creativecommons.org/licenses/by-sa/3.0/) если не указано иное.
+Please see [/docs/SECURITY.md](/docs/SECURITY.md) for this repository's security policy, and how to report security issues.
 
 ---
 
-### ПОЛУЧЕНИЕ КОДА И УСТАНОВКА
+### LICENSE
 
-Пожалуйста прочтите [/docs/installation.md](/docs/installation.md) для получения инструкций по получению, установке, обновлению и запуску этого кода.
+The code for Nebula13 is licensed under the [GNU Affero General Public License v3](http://www.gnu.org/licenses/agpl.html), which can be found in full in [/LICENSE](/LICENSE).
+
+Code with a git authorship date prior to `1420675200 +0000` (2015/01/08 00:00 GMT) is licensed under the GNU General Public License version 3, which can be found in full in [/docs/GPL3.txt](/docs/GPL3.txt)
+
+All code where the authorship dates on or after `1420675200 +0000` is assumed to be licensed under AGPL v3, if you wish to license under GPL v3 please make this clear in the commit message and any added files.
+
+If you wish to develop and host this codebase in a closed source manner you may use all commits prior to `1420675200 +0000`, which are licensed under GPL v3.  The major change here is that if you host a server using any code licensed under AGPLv3 you are required to provide full source code for your servers users as well including addons and modifications you have made.
+
+See [here](https://www.gnu.org/licenses/why-affero-gpl.html) for more information.
+
+All assets including icons and sound are under a [Creative Commons 3.0 BY-SA license](http://creativecommons.org/licenses/by-sa/3.0/) unless otherwise indicated.
+
+---
+
+### GETTING THE CODE AND INSTALLING
+
+Please see [/docs/installation.md](/docs/installation.md) for instructions on obtaining, installing, updating, and running this code.
