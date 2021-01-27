@@ -20915,12 +20915,12 @@
 /turf/simulated/floor/tiled,
 /area/hallway/primary/central_two)
 "aNR" = (
-/obj/machinery/light{
-	dir = 1
+/obj/effect/floor_decal/corner/blue{
+	dir = 10
 	},
-/obj/machinery/door/firedoor,
-/turf/simulated/floor/tiled/techfloor/grid,
-/area/hallway/primary/central_two)
+/obj/machinery/light,
+/turf/simulated/floor/tiled,
+/area/hallway/primary/central_one)
 "aNS" = (
 /obj/structure/cable/green{
 	d1 = 4;
@@ -22546,12 +22546,12 @@
 /turf/simulated/floor/plating,
 /area/maintenance/library)
 "aQM" = (
-/obj/machinery/light,
 /obj/effect/floor_decal/corner/blue{
 	dir = 10
 	},
+/obj/machinery/light,
 /turf/simulated/floor/tiled,
-/area/hallway/primary/central_one)
+/area/hallway/primary/central_two)
 "aQN" = (
 /obj/structure/sign/warning/high_voltage{
 	pixel_y = -32
@@ -97464,7 +97464,7 @@ aGW
 aLI
 aNK
 aPu
-eEV
+aNR
 aUp
 mwu
 aUp
@@ -99263,7 +99263,7 @@ aJe
 aJe
 aNO
 aPu
-eEV
+aNR
 azb
 aAu
 aVP
@@ -99777,7 +99777,7 @@ aKA
 aKA
 cbl
 aPz
-aQM
+eEV
 azE
 ari
 auR
@@ -100291,7 +100291,7 @@ aKE
 aLM
 aNJ
 aPu
-eEV
+aNR
 azb
 aAX
 aVU
@@ -101574,7 +101574,7 @@ aHi
 aCu
 aJl
 aJl
-aNR
+beV
 aPE
 beV
 mwu
@@ -102090,7 +102090,7 @@ aKK
 aMa
 aNT
 aPF
-aQQ
+aQM
 aUp
 mwu
 aUp
