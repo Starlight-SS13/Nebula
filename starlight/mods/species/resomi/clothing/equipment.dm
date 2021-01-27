@@ -3,19 +3,12 @@
 /obj/item/clothing/suit/storage/hooded/polychromic
 	name = "polychromic cloak"
 	desc = "Resomi cloak. Seems to be coated with polychrome paint. There is also a sewn hood. DO NOT MIX WITH EMP!"
-	icon = 'starlight/mods/species/resomi/icons/clothing/obj_suit.dmi'
-	icon_state = "polychromic"
+	icon = 'starlight/mods/species/resomi/icons/clothing/exp/suit/polychromic.dmi'
 	hoodtype = /obj/item/clothing/head/winterhood/polychromic_hood
 	action_button_name = "Toggle Hood"
 	slots = 4
 	bodytype_restricted = list(BODYTYPE_RESOMI)
 	body_parts_covered = SLOT_UPPER_BODY|SLOT_ARMS|SLOT_LOWER_BODY
-
-/obj/item/clothing/suit/storage/hooded/polychromic/Initialize()
-	. = ..()
-	sprite_sheets = list(
-		BODYTYPE_RESOMI = 'starlight/mods/species/resomi/icons/clothing/onmob_suit.dmi'
-	)
 
 /obj/item/clothing/suit/storage/hooded/polychromic/verb/change_color()
 	set name = "Change Cloak Color"
@@ -47,19 +40,14 @@
 
 /obj/item/clothing/head/winterhood/polychromic_hood
 	name = "hood"
-	icon = 'starlight/mods/species/resomi/icons/clothing/obj_head.dmi'
-	icon_state = "polychromic_hood"
+	icon = 'starlight/mods/species/resomi/icons/clothing/exp/head/polychromic_hood.dmi'
 	bodytype_restricted = list(BODYTYPE_RESOMI)
 	desc = "It's hood that covers the head."
 	flags_inv = BLOCKHAIR | HIDEEARS
 	body_parts_covered = SLOT_HEAD
 	canremove = 0
 
-/obj/item/clothing/head/winterhood/polychromic_hood/Initialize()
-	. = ..()
-	sprite_sheets = list(
-		BODYTYPE_RESOMI = 'starlight/mods/species/resomi/icons/clothing/onmob_head.dmi'
-	)
+
 
 /obj/item/clothing/under/resomi
 	name = "small jumpsuit"
@@ -95,34 +83,6 @@
 /obj/item/clothing/under/resomi/command
 	name = "small command uniform"
 	icon = 'starlight/mods/species/resomi/icons/clothing/exp/under/command_uniform.dmi'
-
-/obj/item/clothing/under/resomi/work
-	name = "small work jumpsuit"
-	icon_state = "work"
-	var/glow_color = COLOR_WHITE
-
-/obj/item/clothing/under/resomi/work/Initialize()
-	glow_color = pick(COLOR_RED,COLOR_BLUE,COLOR_GREEN,COLOR_YELLOW,COLOR_ORANGE,COLOR_WHITE,COLOR_PURPLE,COLOR_CYAN)
-	. = ..()
-
-/obj/item/clothing/under/resomi/work/verb/glowchange(col as color)
-	set name = "Change Glow Color"
-	set category = "Object"
-	set src in usr
-	if(usr.incapacitated()) return
-	glow_color = col
-	to_chat(usr,"You change your [name] color to a <span style='color: [glow_color]'>a new one.</span>")
-	update_clothing_icon()
-
-/obj/item/clothing/under/resomi/work/get_mob_overlay(mob/user_mob, slot)
-	. = ..()
-	var/image/last = .
-	if(slot == slot_w_uniform_str)
-		var/image/I = image(sprite_sheets[BODYTYPE_RESOMI], "[icon_state]_overlay")
-		I.color = glow_color
-		I.layer = EYE_GLOW_LAYER
-		I.plane = EFFECTS_ABOVE_LIGHTING_PLANE
-		last.overlays += I
 
 //Shoes
 /obj/item/clothing/shoes/resomi/footwraps
@@ -200,10 +160,8 @@
 /obj/item/clothing/head/resomi_space
 	name       = "small glass helmet"
 	desc       = "Small glass dome made of durable glass alloy. It's wearer surely will have a spectacular view."
-	icon       = 'starlight/mods/species/resomi/icons/clothing/obj_head.dmi'
-	icon_state = "space_dome"
+	icon       = 'starlight/mods/species/resomi/icons/clothing/exp/head/space_dome.dmi'
 	bodytype_restricted = list(BODYTYPE_RESOMI)
-	sprite_sheets       = list(BODYTYPE_RESOMI = 'starlight/mods/species/resomi/icons/clothing/onmob_head.dmi')
 	item_flags          = ITEM_FLAG_THICKMATERIAL | ITEM_FLAG_AIRTIGHT
 	flags_inv           = HIDEMASK | BLOCKHAIR
 	body_parts_covered  = SLOT_HEAD|SLOT_FACE|SLOT_EYES
@@ -217,19 +175,15 @@
 
 /obj/item/clothing/head/helmet/space/void/engineering/resomi
 	name = "heavy resomi voidsuit helmet"
-	icon = 'starlight/mods/species/resomi/icons/clothing/obj_head.dmi'
-	icon_state = "heavy"
+	icon = 'starlight/mods/species/resomi/icons/clothing/exp/head/heavy.dmi'
 
 	bodytype_restricted = list(BODYTYPE_RESOMI)
-	sprite_sheets       = list(BODYTYPE_RESOMI = 'starlight/mods/species/resomi/icons/clothing/onmob_head.dmi')
 
 /obj/item/clothing/suit/space/void/engineering/resomi
 	name = "heavy resomi voidsuit"
-	icon = 'starlight/mods/species/resomi/icons/clothing/obj_suit.dmi'
-	icon_state = "heavy"
+	icon = 'starlight/mods/species/resomi/icons/clothing/exp/suit/heavy_suit.dmi'
 
 	bodytype_restricted = list(BODYTYPE_RESOMI)
-	sprite_sheets       = list(BODYTYPE_RESOMI = 'starlight/mods/species/resomi/icons/clothing/onmob_suit.dmi')
 
 /obj/item/clothing/suit/space/void/engineering/resomi/prepared
 	helmet = /obj/item/clothing/head/helmet/space/void/engineering/resomi
@@ -243,10 +197,6 @@
 
 /obj/structure/closet/wardrobe/resomi/Initialize()
 	. = ..()
-	new /obj/item/clothing/under/resomi/work(src)
-	new /obj/item/clothing/under/resomi/work(src)
-	new /obj/item/clothing/under/resomi/work(src)
-	new /obj/item/clothing/under/resomi/work(src)
 	new /obj/item/clothing/under/resomi/space(src)
 	new /obj/item/clothing/under/resomi/space(src)
 	new /obj/item/clothing/under/resomi/space(src)

@@ -20,7 +20,6 @@
 	uniforms["security smock"]    = /obj/item/clothing/under/resomi/security
 	uniforms["science smock"]     = /obj/item/clothing/under/resomi/science
 	uniforms["command uniform"]   = /obj/item/clothing/under/resomi/command
-	uniforms["work uniform"]      = /obj/item/clothing/under/resomi/work
 	gear_tweaks += new/datum/gear_tweak/path(uniforms)
 
 /datum/gear/resomi/uniform_color
