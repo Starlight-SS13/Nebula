@@ -8,6 +8,7 @@
 	layer = UNDER_HUD_LAYER
 	maptext_width = 256
 	maptext_x = -16
+	appearance_flags = PIXEL_SCALE
 
 	var/maptext_state = TRUE
 	var/maptext_style = "font-family: 'Small Fonts'; text-shadow: 1px 1px 2px black;"
