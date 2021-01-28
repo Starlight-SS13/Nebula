@@ -50,6 +50,7 @@
 	#include "wolf-3.dmm"
 	#include "wolf-4.dmm"
 	#include "extras.dmm"
+
 	#include "wolf_branches.dm"
 	#include "wolf_overmap.dm"
 	#include "wolf_jobs.dm"
@@ -66,12 +67,12 @@
 	#include "wolf_antag.dm"
 	#include "wolf_unit_tests.dm"
 
-	#include "decals\floor_decals.dm"
+	#include "decals/floor_decals.dm"
 
-	#include "machines\smes.dm"
-	#include "machines\atmos_machinery.dm"
-	#include "machines\autoset_doors.dm"
-	#include "machines\celltimers.dm"
+	#include "machines/smes.dm"
+	#include "machines/atmos_machinery.dm"
+	#include "machines/autoset_doors.dm"
+	#include "machines/celltimers.dm"
 	#include "machines/coffeemachine.dm"
 	#include "machines/morgue_machines.dm"
 	#include "machines/consoles.dm"
@@ -80,7 +81,7 @@
 
 	#include "structures/lockers.dm"
 
-	#include "turfs\fuel_tank.dm"
+	#include "turfs/fuel_tank.dm"
 
 //	#include "wolf_security_state.dm"
 
