@@ -88,12 +88,6 @@
 	icon_state = "white"
 	},
 /area/centcom/holding)
-"aaU" = (
-/turf/unsimulated/floor{
-	icon_state = "plating";
-	name = "plating"
-	},
-/area/centcom/suppy)
 "abg" = (
 /obj/structure/bed/chair/shuttle/black{
 	dir = 4
@@ -523,12 +517,6 @@
 	},
 /turf/simulated/floor/tiled/steel_ridged,
 /area/supply)
-"awt" = (
-/obj/machinery/light{
-	dir = 4
-	},
-/turf/simulated/floor/tiled/steel_ridged,
-/area/supply)
 "awv" = (
 /obj/item/chems/food/drinks/bottle/small/beer,
 /obj/structure/table/standard,
@@ -542,47 +530,16 @@
 	icon_state = "steel"
 	},
 /area/centcom/living)
-"awz" = (
-/obj/machinery/conveyor{
-	dir = 4;
-	id_tag = "QMLoad2"
-	},
-/turf/simulated/floor,
-/area/supply)
-"awA" = (
-/obj/machinery/conveyor{
-	dir = 4;
-	id_tag = "QMLoad2"
-	},
-/obj/machinery/door/airlock/external/bolted{
-	id_tag = "supply_shuttle_hatch";
-	locked = 1;
-	name = "Shuttle Hatch"
-	},
-/turf/simulated/floor,
-/area/supply)
 "awB" = (
 /turf/space,
 /turf/space,
 /area/space)
-"awC" = (
-/obj/machinery/door/airlock/external/bolted{
-	id_tag = "supply_shuttle_hatch";
-	locked = 1;
-	name = "Shuttle Hatch"
-	},
-/turf/simulated/floor,
-/area/supply)
 "awD" = (
 /turf/unsimulated/floor{
 	icon_state = "steel"
 	},
 /area/centcom/living)
 "awE" = (
-/obj/effect/shuttle_landmark/supply/start,
-/turf/simulated/floor/tiled/steel_ridged,
-/area/supply)
-"awF" = (
 /obj/machinery/embedded_controller/radio/simple_docking_controller{
 	id_tag = "supply_shuttle";
 	pixel_x = 25;
@@ -683,24 +640,21 @@
 	},
 /area/centcom/living)
 "awY" = (
-/obj/machinery/conveyor{
-	dir = 4;
-	id_tag = "QMLoad"
-	},
-/turf/simulated/floor,
-/area/supply)
-"awZ" = (
-/obj/machinery/conveyor{
-	dir = 4;
-	id_tag = "QMLoad"
-	},
 /obj/machinery/door/airlock/external/bolted{
-	id_tag = "supply_shuttle_hatch";
-	locked = 1;
+	id_tag = "cargo_bay_centcom_hatch";
 	name = "Shuttle Hatch"
 	},
-/turf/simulated/floor,
-/area/supply)
+/turf/unsimulated/floor{
+	icon_state = "plating";
+	name = "plating"
+	},
+/area/centcom/suppy)
+"awZ" = (
+/turf/unsimulated/floor{
+	dir = 2;
+	icon_state = "dark"
+	},
+/area/centcom/suppy)
 "axa" = (
 /obj/structure/table/standard,
 /obj/item/chems/food/drinks/shaker,
@@ -753,16 +707,10 @@
 	},
 /area/centcom/living)
 "axi" = (
-/obj/structure/window/reinforced{
-	dir = 1;
-	health = 1e+006
+/obj/machinery/light{
+	dir = 4
 	},
-/obj/structure/showcase{
-	desc = "A self-contained autopilot that controls supply drones.";
-	icon_state = "comm_server";
-	name = "Supply Drone Virtual Intelligence"
-	},
-/turf/simulated/floor/plating,
+/turf/simulated/floor/tiled/steel_ridged,
 /area/supply)
 "axj" = (
 /obj/machinery/sleeper{
@@ -861,21 +809,23 @@
 	},
 /area/centcom/living)
 "axu" = (
-/obj/structure/shuttle/engine/propulsion{
-	icon_state = "burst_l"
+/obj/machinery/conveyor{
+	dir = 4;
+	id_tag = "QMLoad2"
 	},
-/turf/space,
+/turf/simulated/floor,
 /area/supply)
 "axv" = (
 /obj/structure/shuttle/engine/propulsion,
 /turf/space,
 /area/supply)
 "axw" = (
-/obj/structure/shuttle/engine/propulsion{
-	icon_state = "burst_r"
+/obj/effect/wingrille_spawn/reinforced/crescent,
+/turf/unsimulated/floor{
+	icon_state = "plating";
+	name = "plating"
 	},
-/turf/space,
-/area/supply)
+/area/centcom/suppy)
 "axz" = (
 /turf/unsimulated/floor{
 	icon_state = "grass0";
@@ -5031,12 +4981,31 @@
 	icon_state = "white"
 	},
 /area/tdome)
+"fwX" = (
+/obj/structure/window/reinforced{
+	dir = 1;
+	health = 1e+006
+	},
+/obj/structure/showcase{
+	desc = "A self-contained autopilot that controls supply drones.";
+	icon_state = "comm_server";
+	name = "Supply Drone Virtual Intelligence"
+	},
+/turf/simulated/floor/plating,
+/area/supply)
 "fyA" = (
 /obj/structure/table/reinforced,
 /turf/unsimulated/floor{
 	icon_state = "white"
 	},
 /area/tdome)
+"fDb" = (
+/obj/machinery/conveyor{
+	dir = 4;
+	id_tag = "QMLoad"
+	},
+/turf/simulated/floor,
+/area/supply)
 "fFh" = (
 /obj/item/camera,
 /turf/unsimulated/floor{
@@ -5122,6 +5091,12 @@
 	icon_state = "vault"
 	},
 /area/tdome)
+"haB" = (
+/obj/structure/shuttle/engine/propulsion{
+	icon_state = "burst_r"
+	},
+/turf/space,
+/area/supply)
 "haH" = (
 /obj/structure/disposalpipe/segment,
 /turf/unsimulated/floor{
@@ -5154,6 +5129,17 @@
 	icon_state = "bcircuit"
 	},
 /area/tdome)
+"hqn" = (
+/obj/machinery/embedded_controller/radio/simple_docking_controller{
+	id_tag = "cargo_bay_centcom";
+	pixel_x = 25;
+	tag_door = "cargo_bay_centcom_hatch"
+	},
+/turf/unsimulated/floor{
+	dir = 2;
+	icon_state = "dark"
+	},
+/area/centcom/suppy)
 "hvD" = (
 /obj/machinery/flasher{
 	id_tag = "flash";
@@ -5224,6 +5210,18 @@
 	icon_state = "dark"
 	},
 /area/tdome)
+"jpg" = (
+/obj/machinery/conveyor{
+	dir = 4;
+	id_tag = "QMLoad"
+	},
+/obj/machinery/door/airlock/external/bolted{
+	id_tag = "supply_shuttle_hatch";
+	locked = 1;
+	name = "Shuttle Hatch"
+	},
+/turf/simulated/floor,
+/area/supply)
 "jpr" = (
 /obj/machinery/atmospherics/pipe/simple/visible{
 	dir = 9;
@@ -5319,6 +5317,16 @@
 	icon_state = "dark"
 	},
 /area/tdome)
+"kBU" = (
+/obj/structure/shuttle/engine/propulsion{
+	icon_state = "burst_l"
+	},
+/turf/space,
+/area/supply)
+"kTr" = (
+/obj/effect/shuttle_landmark/supply/start,
+/turf/simulated/floor/tiled/steel_ridged,
+/area/supply)
 "kXc" = (
 /obj/structure/table/standard,
 /obj/item/storage/toolbox/mechanical,
@@ -5407,6 +5415,14 @@
 	icon_state = "lino"
 	},
 /area/tdome/tdomeadmin)
+"myI" = (
+/obj/machinery/door/airlock/external/bolted{
+	id_tag = "supply_shuttle_hatch";
+	locked = 1;
+	name = "Shuttle Hatch"
+	},
+/turf/simulated/floor,
+/area/supply)
 "mXz" = (
 /obj/structure/disposalpipe/trunk{
 	dir = 1
@@ -5572,6 +5588,18 @@
 	icon_state = "lino"
 	},
 /area/tdome/tdomeadmin)
+"sza" = (
+/obj/machinery/conveyor{
+	dir = 4;
+	id_tag = "QMLoad2"
+	},
+/obj/machinery/door/airlock/external/bolted{
+	id_tag = "supply_shuttle_hatch";
+	locked = 1;
+	name = "Shuttle Hatch"
+	},
+/turf/simulated/floor,
+/area/supply)
 "sCN" = (
 /obj/structure/table/rack,
 /obj/item/clothing/under/color/green,
@@ -15387,20 +15415,20 @@ aab
 "}
 (49,1,1) = {"
 aad
-aaU
-aaU
-aaU
-aaU
-aaU
-aaU
-aaU
-aaU
-aaU
-aaU
-aaU
-aaU
-aaU
-aaU
+aab
+ace
+ace
+ace
+ace
+ace
+ace
+ace
+ace
+ace
+ace
+ace
+aab
+aab
 axB
 axU
 axS
@@ -15589,20 +15617,20 @@ aab
 "}
 (50,1,1) = {"
 aad
-aaU
-aaU
-aaU
-aaU
-aaU
-aaU
-aaU
-aaU
-aaU
-aaU
-aaU
-aaU
-aaU
-aaU
+aab
+ace
+awh
+aws
+awh
+awh
+awh
+awh
+awh
+aws
+ace
+ace
+kBU
+aab
 axB
 axV
 axS
@@ -15791,20 +15819,20 @@ aab
 "}
 (51,1,1) = {"
 aad
-aaU
+aab
 ace
+awh
+awh
+awh
+awh
+awh
+awh
+awh
+awh
 ace
-ace
-ace
-ace
-ace
-ace
-ace
-ace
-ace
-ace
-aaU
-aaU
+axo
+axv
+aab
 axB
 axV
 axS
@@ -15993,20 +16021,20 @@ aab
 "}
 (52,1,1) = {"
 aad
-aaU
+aab
 ace
 awh
-aws
 awh
 awh
 awh
+kTr
 awh
 awh
-aws
-ace
-ace
-axu
-aaU
+awh
+fwX
+axo
+axv
+aab
 axB
 axX
 axS
@@ -16195,7 +16223,7 @@ aab
 "}
 (53,1,1) = {"
 aad
-aaU
+aab
 ace
 awh
 awh
@@ -16208,7 +16236,7 @@ awh
 ace
 axo
 axv
-aaU
+aab
 axB
 axX
 axS
@@ -16397,20 +16425,20 @@ aab
 "}
 (54,1,1) = {"
 aad
-aaU
+aab
 ace
 awh
-awh
-awh
+axi
+axu
 awh
 awE
 awh
-awh
-awh
+fDb
 axi
-axo
-axv
-aaU
+ace
+ace
+haB
+aab
 axC
 axC
 axC
@@ -16599,20 +16627,20 @@ aab
 "}
 (55,1,1) = {"
 aad
-aaU
+aab
 ace
-awh
-awh
-awh
-awh
-awh
-awh
-awh
-awh
 ace
-axo
-axv
-aaU
+ace
+sza
+myI
+ace
+myI
+jpg
+ace
+ace
+ace
+aab
+aab
 axC
 axY
 ayp
@@ -16801,20 +16829,20 @@ aab
 "}
 (56,1,1) = {"
 aad
-aaU
-ace
-awh
-awt
-awz
-awh
-awF
-awh
-awY
-awt
-ace
-ace
 axw
-aaU
+axw
+axw
+axw
+awY
+awY
+axw
+awY
+awY
+axw
+axw
+axw
+axw
+axw
 axC
 axY
 axY
@@ -17003,20 +17031,20 @@ aab
 "}
 (57,1,1) = {"
 aad
-aaU
-ace
-ace
-ace
-awA
-awC
-ace
-awC
 awZ
-ace
-ace
-ace
-aaU
-aaU
+awZ
+awZ
+awZ
+awZ
+awZ
+awZ
+awZ
+awZ
+awZ
+awZ
+awZ
+awZ
+awZ
 axC
 axY
 ayq
@@ -17205,20 +17233,20 @@ aab
 "}
 (58,1,1) = {"
 aad
-aaU
-aaU
-aaU
-aaU
-aaU
-aaU
-aaU
-aaU
-aaU
-aaU
-aaU
-aaU
-aaU
-aaU
+awZ
+awZ
+awZ
+awZ
+awZ
+awZ
+awZ
+awZ
+awZ
+awZ
+awZ
+awZ
+awZ
+awZ
 axC
 axY
 axY
@@ -17407,20 +17435,20 @@ aab
 "}
 (59,1,1) = {"
 aad
-aaU
-aaU
-aaU
-aaU
-aaU
-aaU
-aaU
-aaU
-aaU
-aaU
-aaU
-aaU
-aaU
-aaU
+awZ
+awZ
+awZ
+awZ
+awZ
+awZ
+hqn
+awZ
+awZ
+awZ
+awZ
+awZ
+awZ
+awZ
 axC
 axY
 ayr
@@ -17613,8 +17641,8 @@ aad
 aad
 aad
 aad
-aad
-aad
+awl
+awl
 aad
 aad
 aad
@@ -17815,8 +17843,8 @@ aad
 acf
 awj
 aad
-acf
-awj
+awl
+awl
 aad
 acf
 awj
@@ -18017,8 +18045,8 @@ aad
 avL
 avL
 aad
-avL
-avL
+awl
+awl
 aad
 avL
 avL
@@ -18219,8 +18247,8 @@ aad
 avY
 avL
 aad
-avY
-avL
+awl
+awl
 aad
 avY
 avL
@@ -18421,8 +18449,8 @@ aad
 aad
 awk
 aad
-aad
-awk
+awl
+awl
 aad
 aad
 awk

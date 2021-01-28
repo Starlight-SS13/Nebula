@@ -119,6 +119,7 @@ ESCAPE_POD(4)
 
 /obj/effect/shuttle_landmark/supply/start
 	landmark_tag = "nav_cargo_start"
+	docking_controller = "cargo_bay_centcom"
 
 /obj/effect/shuttle_landmark/supply/station
 	landmark_tag = "nav_cargo_station"
