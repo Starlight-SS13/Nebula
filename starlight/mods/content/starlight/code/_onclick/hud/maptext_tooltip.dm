@@ -37,14 +37,7 @@
 	. = ..()
 	if(maptext_tooltip?.maptext_state && GAME_STATE > RUNLEVEL_SETUP)
 		screen |= maptext_tooltip
-
-		var/maptext_color = COLOR_WHITE
-		if(istype(A, /obj))
-			maptext_color = COLOR_DARK_ORANGE
-		if(istype(A, /mob))
-			maptext_color = COLOR_GREEN
-
-		maptext_tooltip.maptext = "<b><center><span style=\"color:[maptext_color];[maptext_tooltip.maptext_style]\">[uppertext(A.name)]</span></center></b>"
+		maptext_tooltip.maptext = "<b><center><span style=\"color:[COLOR_WHITE];[maptext_tooltip.maptext_style]\">[uppertext(A.name)]</span></center></b>"
 
 /datum/client_preference/maptext_tooltip
 	description = "Show Maptext Tooltip"
