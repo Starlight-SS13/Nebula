@@ -159,6 +159,7 @@
 	d2 = 4;
 	icon_state = "2-4"
 	},
+/obj/structure/catwalk,
 /turf/simulated/floor/airless,
 /area/solar/fore)
 "aas" = (
@@ -170,6 +171,7 @@
 	d2 = 4;
 	icon_state = "0-4"
 	},
+/obj/effect/floor_decal/solarpanel,
 /turf/simulated/floor/airless,
 /area/solar/fore)
 "aat" = (
@@ -194,6 +196,7 @@
 	id_tag = "auxsolarnorth";
 	name = "Fore Solar Array"
 	},
+/obj/effect/floor_decal/solarpanel,
 /turf/simulated/floor/airless,
 /area/solar/fore)
 "aaw" = (
@@ -212,6 +215,7 @@
 	d2 = 2;
 	icon_state = "1-2"
 	},
+/obj/structure/catwalk,
 /turf/simulated/floor/airless,
 /area/solar/fore)
 "aax" = (
@@ -522,6 +526,7 @@
 	d2 = 2;
 	icon_state = "1-2"
 	},
+/obj/structure/catwalk,
 /turf/simulated/floor/airless,
 /area/solar/fore)
 "abn" = (
@@ -844,6 +849,7 @@
 	d2 = 4;
 	icon_state = "0-4"
 	},
+/obj/effect/floor_decal/solarpanel,
 /turf/simulated/floor/airless,
 /area/solar/fore)
 "abR" = (
@@ -907,6 +913,7 @@
 	d2 = 4;
 	icon_state = "2-4"
 	},
+/obj/structure/catwalk,
 /turf/simulated/floor/airless,
 /area/solar/fore)
 "abV" = (
@@ -931,6 +938,7 @@
 	d2 = 8;
 	icon_state = "4-8"
 	},
+/obj/structure/catwalk,
 /turf/simulated/floor/airless,
 /area/solar/fore)
 "abX" = (
@@ -969,6 +977,7 @@
 	d2 = 8;
 	icon_state = "4-8"
 	},
+/obj/structure/catwalk,
 /turf/simulated/floor/airless,
 /area/solar/fore)
 "aca" = (
@@ -977,6 +986,7 @@
 	d2 = 8;
 	icon_state = "4-8"
 	},
+/obj/structure/catwalk,
 /turf/simulated/floor/airless,
 /area/solar/auxstarboard)
 "acb" = (
@@ -1035,6 +1045,7 @@
 	d2 = 8;
 	icon_state = "2-8"
 	},
+/obj/structure/catwalk,
 /turf/simulated/floor/airless,
 /area/solar/auxstarboard)
 "acf" = (
@@ -1232,6 +1243,7 @@
 	d2 = 8;
 	icon_state = "4-8"
 	},
+/obj/structure/catwalk,
 /turf/simulated/floor/airless,
 /area/solar/auxport)
 "acz" = (
@@ -1563,6 +1575,7 @@
 	d2 = 2;
 	icon_state = "1-2"
 	},
+/obj/structure/catwalk,
 /turf/simulated/floor/airless,
 /area/solar/fore)
 "adb" = (
@@ -2178,6 +2191,7 @@
 	d2 = 8;
 	icon_state = "1-8"
 	},
+/obj/structure/catwalk,
 /turf/simulated/floor/airless,
 /area/solar/fore)
 "aes" = (
@@ -5321,8 +5335,12 @@
 /turf/simulated/floor/plating,
 /area/maintenance/dormitory)
 "akr" = (
-/turf/space,
-/area/shuttle/syndicate_elite/station)
+/obj/effect/floor_decal/corner/red{
+	dir = 5
+	},
+/obj/item/radio/beacon,
+/turf/simulated/floor/tiled,
+/area/security/lobby)
 "aks" = (
 /obj/structure/cable/green{
 	d1 = 1;
@@ -5494,6 +5512,7 @@
 	d2 = 2;
 	icon_state = "0-2"
 	},
+/obj/effect/floor_decal/solarpanel,
 /turf/simulated/floor/airless,
 /area/solar/auxstarboard)
 "akI" = (
@@ -5953,6 +5972,7 @@
 	d2 = 2;
 	icon_state = "1-2"
 	},
+/obj/structure/catwalk,
 /turf/simulated/floor/airless,
 /area/solar/auxstarboard)
 "alq" = (
@@ -6268,6 +6288,7 @@
 	d2 = 8;
 	icon_state = "2-8"
 	},
+/obj/structure/catwalk,
 /turf/simulated/floor/airless,
 /area/solar/auxport)
 "alW" = (
@@ -6279,6 +6300,7 @@
 	d2 = 2;
 	icon_state = "0-2"
 	},
+/obj/effect/floor_decal/solarpanel,
 /turf/simulated/floor/airless,
 /area/solar/auxport)
 "alY" = (
@@ -6652,6 +6674,7 @@
 	d2 = 2;
 	icon_state = "0-2"
 	},
+/obj/effect/floor_decal/solarpanel,
 /turf/simulated/floor/airless,
 /area/solar/auxstarboard)
 "amK" = (
@@ -6670,6 +6693,7 @@
 	d2 = 8;
 	icon_state = "1-8"
 	},
+/obj/structure/catwalk,
 /turf/simulated/floor/airless,
 /area/solar/starboard)
 "amL" = (
@@ -6678,6 +6702,7 @@
 	d2 = 2;
 	icon_state = "1-2"
 	},
+/obj/structure/catwalk,
 /turf/simulated/floor/airless,
 /area/solar/auxport)
 "amM" = (
@@ -7129,6 +7154,7 @@
 	d2 = 4;
 	icon_state = "2-4"
 	},
+/obj/structure/catwalk,
 /turf/simulated/floor/airless,
 /area/solar/auxstarboard)
 "anx" = (
@@ -7185,6 +7211,7 @@
 	d2 = 4;
 	icon_state = "2-4"
 	},
+/obj/structure/catwalk,
 /turf/simulated/floor/airless,
 /area/solar/auxstarboard)
 "anC" = (
@@ -7193,6 +7220,7 @@
 	d2 = 8;
 	icon_state = "4-8"
 	},
+/obj/structure/catwalk,
 /turf/simulated/floor/airless,
 /area/solar/starboard)
 "anD" = (
@@ -7201,6 +7229,7 @@
 	d2 = 2;
 	icon_state = "1-2"
 	},
+/obj/structure/catwalk,
 /turf/simulated/floor/airless,
 /area/solar/port)
 "anE" = (
@@ -7219,6 +7248,7 @@
 	d2 = 8;
 	icon_state = "2-8"
 	},
+/obj/structure/catwalk,
 /turf/simulated/floor/airless,
 /area/solar/auxstarboard)
 "anF" = (
@@ -7232,6 +7262,7 @@
 	d2 = 8;
 	icon_state = "2-8"
 	},
+/obj/structure/catwalk,
 /turf/simulated/floor/airless,
 /area/solar/auxstarboard)
 "anG" = (
@@ -7253,6 +7284,7 @@
 	d2 = 4;
 	icon_state = "2-4"
 	},
+/obj/structure/catwalk,
 /turf/simulated/floor/airless,
 /area/solar/port)
 "anI" = (
@@ -7574,6 +7606,7 @@
 	name = "Port Auxiliary Solar Array"
 	},
 /obj/structure/cable/yellow,
+/obj/effect/floor_decal/solarpanel,
 /turf/simulated/floor/airless,
 /area/solar/auxstarboard)
 "aop" = (
@@ -7585,6 +7618,7 @@
 	d2 = 2;
 	icon_state = "0-2"
 	},
+/obj/effect/floor_decal/solarpanel,
 /turf/simulated/floor/airless,
 /area/solar/auxport)
 "aoq" = (
@@ -8016,6 +8050,7 @@
 	d2 = 8;
 	icon_state = "4-8"
 	},
+/obj/structure/catwalk,
 /turf/simulated/floor/airless,
 /area/solar/auxport)
 "apk" = (
@@ -8029,6 +8064,7 @@
 	d2 = 4;
 	icon_state = "2-4"
 	},
+/obj/structure/catwalk,
 /turf/simulated/floor/airless,
 /area/solar/auxport)
 "apl" = (
@@ -8075,6 +8111,7 @@
 	d2 = 8;
 	icon_state = "4-8"
 	},
+/obj/structure/catwalk,
 /turf/simulated/floor/airless,
 /area/solar/auxport)
 "apo" = (
@@ -8088,6 +8125,7 @@
 	d2 = 8;
 	icon_state = "2-8"
 	},
+/obj/structure/catwalk,
 /turf/simulated/floor/airless,
 /area/solar/auxport)
 "app" = (
@@ -8394,6 +8432,7 @@
 	name = "Port Auxiliary Solar Array"
 	},
 /obj/structure/cable/yellow,
+/obj/effect/floor_decal/solarpanel,
 /turf/simulated/floor/airless,
 /area/solar/auxport)
 "apW" = (
@@ -9688,6 +9727,7 @@
 	d2 = 2;
 	icon_state = "1-2"
 	},
+/obj/structure/catwalk,
 /turf/simulated/floor/airless,
 /area/solar/auxstarboard)
 "asi" = (
@@ -12053,6 +12093,7 @@
 	d2 = 2;
 	icon_state = "1-2"
 	},
+/obj/structure/catwalk,
 /turf/simulated/floor/airless,
 /area/solar/auxport)
 "awX" = (
@@ -14090,6 +14131,7 @@
 	d2 = 4;
 	icon_state = "2-4"
 	},
+/obj/item/radio/beacon,
 /turf/simulated/floor/tiled/dark,
 /area/ai_monitored/storage/eva)
 "aAO" = (
@@ -23418,9 +23460,7 @@
 /turf/simulated/floor/plating,
 /area/quartermaster/miningdock)
 "aSD" = (
-/obj/structure/table/woodentable,
 /obj/machinery/computer/modular/preset/cardslot/command,
-/obj/prefab/hand_teleporter,
 /turf/simulated/floor/wood/walnut,
 /area/crew_quarters/captain)
 "aSE" = (
@@ -32832,12 +32872,8 @@
 /turf/simulated/floor/wood/walnut,
 /area/crew_quarters/captain)
 "bkO" = (
-/obj/machinery/light{
-	dir = 1
-	},
-/obj/structure/table/standard,
-/obj/prefab/hand_teleporter,
-/turf/simulated/floor/tiled,
+/obj/machinery/teleport/station,
+/turf/simulated/floor/tiled/dark/monotile,
 /area/teleporter)
 "bkP" = (
 /obj/structure/disposalpipe/segment{
@@ -37055,9 +37091,6 @@
 /obj/machinery/door/airlock/maintenance{
 	name = "Teleporter Maintenance"
 	},
-/obj/structure/sign/warning/secure_area{
-	pixel_x = -32
-	},
 /obj/structure/cable/green{
 	d1 = 1;
 	d2 = 2;
@@ -38165,6 +38198,7 @@
 /obj/machinery/camera/network/civilian_west{
 	c_tag = "Cargo Lobby"
 	},
+/obj/item/radio/beacon,
 /turf/simulated/floor/tiled,
 /area/quartermaster/office)
 "buT" = (
@@ -40737,13 +40771,12 @@
 /turf/simulated/floor/tiled/dark,
 /area/turret_protected/ai_upload_foyer)
 "bzQ" = (
-/obj/structure/closet/crate,
-/obj/item/crowbar,
 /obj/item/radio/intercom{
 	dir = 2;
 	pixel_y = 22
 	},
-/turf/simulated/floor/tiled,
+/obj/machinery/teleport/hub,
+/turf/simulated/floor/tiled/dark/monotile,
 /area/teleporter)
 "bzR" = (
 /obj/machinery/power/apc{
@@ -40781,20 +40814,14 @@
 /turf/simulated/floor/carpet/blue,
 /area/medical/psych)
 "bzU" = (
-/obj/structure/extinguisher_cabinet{
-	pixel_x = -27;
-	pixel_y = 1
-	},
-/obj/structure/table/standard,
-/obj/machinery/atmospherics/unary/vent_scrubber/on,
-/turf/simulated/floor/tiled,
+/obj/machinery/computer/teleporter,
+/turf/simulated/floor/tiled/dark/monotile,
 /area/teleporter)
 "bzV" = (
-/obj/machinery/firealarm{
-	dir = 2;
-	pixel_y = 24
-	},
-/turf/simulated/floor/tiled,
+/obj/structure/table/rack,
+/obj/item/tank/oxygen,
+/obj/item/clothing/mask/gas,
+/turf/simulated/floor/tiled/dark/monotile,
 /area/teleporter)
 "bzW" = (
 /obj/structure/table/standard,
@@ -40816,17 +40843,15 @@
 /turf/simulated/floor/plating,
 /area/maintenance/engineering)
 "bzY" = (
-/obj/machinery/light{
-	dir = 1
+/obj/machinery/power/apc{
+	dir = 1;
+	name = "north bump";
+	pixel_x = 0;
+	pixel_y = 24
 	},
-/turf/simulated/floor/tiled,
-/area/teleporter)
-"bzZ" = (
-/obj/machinery/alarm{
-	pixel_y = 23
-	},
-/obj/machinery/camera/network/command{
-	c_tag = "Bridge - Teleporter"
+/obj/structure/cable/green{
+	d2 = 4;
+	icon_state = "0-4"
 	},
 /turf/simulated/floor/tiled,
 /area/teleporter)
@@ -40834,13 +40859,13 @@
 /obj/machinery/light_switch{
 	pixel_x = 27
 	},
-/obj/structure/cable/green{
-	d1 = 1;
-	d2 = 2;
-	icon_state = "1-2"
-	},
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
+/obj/structure/cable/green{
+	d1 = 1;
+	d2 = 8;
+	icon_state = "1-8"
+	},
 /turf/simulated/floor/tiled,
 /area/teleporter)
 "bAb" = (
@@ -41894,70 +41919,41 @@
 	},
 /turf/simulated/floor/tiled/dark,
 /area/turret_protected/ai_cyborg_station)
-"bBL" = (
-/obj/item/stool,
-/obj/structure/cable/green{
-	d1 = 4;
-	d2 = 8;
-	icon_state = "4-8"
-	},
-/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
-	dir = 4
-	},
-/turf/simulated/floor/tiled,
-/area/teleporter)
 "bBM" = (
-/obj/machinery/power/apc{
-	dir = 8;
-	name = "west bump";
-	pixel_x = -24
+/obj/effect/floor_decal/industrial/warning{
+	dir = 9
 	},
-/obj/structure/cable/green{
-	d2 = 4;
-	icon_state = "0-4"
+/obj/item/stool,
+/obj/structure/sign/warning/secure_area{
+	pixel_x = -32
 	},
-/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
-	dir = 5
-	},
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/tiled/monotile,
 /area/teleporter)
 "bBN" = (
+/obj/effect/floor_decal/industrial/warning{
+	dir = 5
+	},
 /obj/item/radio/beacon,
-/obj/structure/cable/green{
-	d1 = 4;
-	d2 = 8;
-	icon_state = "4-8"
-	},
-/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
-	dir = 4
-	},
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/tiled/monotile,
 /area/teleporter)
 "bBO" = (
-/obj/machinery/hologram/holopad,
-/obj/structure/cable/green{
-	d1 = 4;
-	d2 = 8;
-	icon_state = "4-8"
+/obj/effect/floor_decal/industrial/warning{
+	dir = 1
 	},
-/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
-	dir = 4
-	},
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/tiled/monotile,
 /area/teleporter)
 "bBP" = (
 /obj/machinery/network/message_server,
 /turf/simulated/floor/bluegrid,
 /area/turret_protected/ai_server_room)
 "bBQ" = (
-/obj/structure/cable/green{
-	d1 = 4;
-	d2 = 8;
-	icon_state = "4-8"
+/obj/structure/railing/mapped{
+	dir = 8
 	},
-/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
-	dir = 4
+/obj/effect/floor_decal/corner/blue{
+	dir = 9
 	},
+/obj/machinery/shieldwallgen,
 /turf/simulated/floor/tiled,
 /area/teleporter)
 "bBR" = (
@@ -41968,15 +41964,8 @@
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/teleporter)
 "bBS" = (
-/obj/structure/cable/green{
-	d1 = 1;
-	d2 = 8;
-	icon_state = "1-8"
-	},
-/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
-	dir = 9
-	},
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
 /turf/simulated/floor/tiled,
 /area/teleporter)
 "bBT" = (
@@ -42601,35 +42590,48 @@
 /turf/simulated/floor/bluegrid,
 /area/turret_protected/ai_cyborg_station)
 "bDc" = (
-/obj/effect/floor_decal/industrial/warning,
-/turf/simulated/floor/tiled,
-/area/teleporter)
-"bDd" = (
-/obj/effect/floor_decal/industrial/warning{
-	dir = 10
-	},
-/turf/simulated/floor/tiled,
-/area/teleporter)
-"bDe" = (
-/obj/effect/floor_decal/industrial/warning{
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 6
 	},
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/tiled/monotile,
 /area/teleporter)
-"bDf" = (
-/obj/machinery/shieldwallgen,
-/turf/simulated/floor/tiled,
+"bDd" = (
+/obj/structure/extinguisher_cabinet{
+	pixel_x = -27;
+	pixel_y = 1
+	},
+/turf/simulated/floor/tiled/monotile,
+/area/teleporter)
+"bDe" = (
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 4
+	},
+/turf/simulated/floor/tiled/monotile,
 /area/teleporter)
 "bDg" = (
-/obj/machinery/shieldwallgen,
-/obj/structure/window/reinforced{
-	dir = 8
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 4
 	},
 /turf/simulated/floor/tiled,
 /area/teleporter)
 "bDh" = (
-/obj/structure/closet/crate,
-/obj/machinery/atmospherics/pipe/simple/hidden/supply,
+/obj/machinery/firealarm{
+	dir = 4;
+	pixel_x = 24
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 9;
+	pixel_y = 0
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 9
+	},
 /turf/simulated/floor/tiled,
 /area/teleporter)
 "bDi" = (
@@ -43434,29 +43436,45 @@
 /turf/simulated/floor/tiled/dark,
 /area/turret_protected/ai_cyborg_station)
 "bEE" = (
-/obj/machinery/teleport/station,
-/turf/simulated/floor/tiled/dark,
-/area/teleporter)
-"bEF" = (
-/obj/machinery/computer/teleporter{
+/obj/structure/table/standard,
+/obj/prefab/hand_teleporter,
+/obj/machinery/light,
+/obj/machinery/atmospherics/unary/vent_scrubber/on{
 	dir = 1
 	},
-/turf/simulated/floor/tiled/dark,
+/turf/simulated/floor/tiled/monotile,
+/area/teleporter)
+"bEF" = (
+/obj/structure/table/standard,
+/turf/simulated/floor/tiled/monotile,
 /area/teleporter)
 "bEG" = (
-/obj/structure/table/rack,
-/obj/item/tank/oxygen,
-/obj/item/clothing/mask/gas,
-/turf/simulated/floor/tiled/dark,
+/obj/machinery/camera/network/command{
+	c_tag = "Bridge - Teleporter";
+	dir = 1
+	},
+/obj/structure/closet/crate,
+/obj/item/crowbar,
+/turf/simulated/floor/tiled/monotile,
 /area/teleporter)
 "bEH" = (
-/obj/machinery/teleport/hub,
-/turf/simulated/floor/tiled/dark,
-/area/teleporter)
-"bEI" = (
-/obj/structure/closet/crate,
+/obj/machinery/alarm{
+	dir = 1;
+	pixel_y = -24
+	},
+/obj/structure/table/standard,
 /obj/machinery/atmospherics/unary/vent_pump/on{
 	dir = 1
+	},
+/turf/simulated/floor/tiled/monotile,
+/area/teleporter)
+"bEI" = (
+/obj/machinery/alarm{
+	dir = 1;
+	pixel_y = -24
+	},
+/obj/effect/floor_decal/corner/blue{
+	dir = 10
 	},
 /turf/simulated/floor/tiled,
 /area/teleporter)
@@ -45092,7 +45110,6 @@
 /obj/machinery/embedded_controller/radio/airlock/docking_port{
 	id_tag = "research_dock_airlock";
 	pixel_x = 25;
-	pixel_y = 0;
 	tag_airpump = "research_dock_pump";
 	tag_chamber_sensor = "research_dock_sensor";
 	tag_exterior_door = "research_dock_outer";
@@ -60787,9 +60804,9 @@
 /area/maintenance/starboardsolar)
 "ckP" = (
 /obj/machinery/power/solar_control{
+	dir = 1;
 	id_tag = "starboardsolar";
-	name = "Aft Starboard Solar Control";
-	track = 0
+	name = "Aft Starboard Solar Control"
 	},
 /obj/structure/cable/yellow{
 	d2 = 4;
@@ -61842,6 +61859,7 @@
 	d2 = 8;
 	icon_state = "4-8"
 	},
+/obj/structure/catwalk,
 /turf/simulated/floor/airless,
 /area/solar/port)
 "cmR" = (
@@ -62967,6 +62985,7 @@
 	d2 = 2;
 	icon_state = "1-2"
 	},
+/obj/structure/catwalk,
 /turf/simulated/floor/airless,
 /area/solar/starboard)
 "cpn" = (
@@ -63560,6 +63579,7 @@
 	d2 = 2;
 	icon_state = "1-2"
 	},
+/obj/structure/catwalk,
 /turf/simulated/floor/airless,
 /area/solar/starboard)
 "cqL" = (
@@ -64806,6 +64826,7 @@
 	d2 = 2;
 	icon_state = "0-2"
 	},
+/obj/effect/floor_decal/solarpanel,
 /turf/simulated/floor/airless,
 /area/solar/starboard)
 "cub" = (
@@ -65408,6 +65429,7 @@
 	d2 = 4;
 	icon_state = "2-4"
 	},
+/obj/structure/catwalk,
 /turf/simulated/floor/airless,
 /area/solar/starboard)
 "cvj" = (
@@ -65426,6 +65448,7 @@
 	d2 = 4;
 	icon_state = "2-4"
 	},
+/obj/structure/catwalk,
 /turf/simulated/floor/airless,
 /area/solar/starboard)
 "cvk" = (
@@ -65458,6 +65481,7 @@
 	d2 = 8;
 	icon_state = "2-8"
 	},
+/obj/structure/catwalk,
 /turf/simulated/floor/airless,
 /area/solar/starboard)
 "cvo" = (
@@ -65471,6 +65495,7 @@
 	d2 = 8;
 	icon_state = "2-8"
 	},
+/obj/structure/catwalk,
 /turf/simulated/floor/airless,
 /area/solar/starboard)
 "cvq" = (
@@ -65683,6 +65708,7 @@
 	name = "Starboard Solar Array"
 	},
 /obj/structure/cable/yellow,
+/obj/effect/floor_decal/solarpanel,
 /turf/simulated/floor/airless,
 /area/solar/starboard)
 "cwm" = (
@@ -67562,6 +67588,7 @@
 "cFL" = (
 /obj/machinery/power/tracker,
 /obj/structure/cable/yellow,
+/obj/effect/floor_decal/solarpanel,
 /turf/simulated/floor/airless,
 /area/solar/starboard)
 "cFM" = (
@@ -68224,6 +68251,7 @@
 	d2 = 4;
 	icon_state = "0-4"
 	},
+/obj/effect/floor_decal/solarpanel,
 /turf/simulated/floor/airless,
 /area/solar/port)
 "cIv" = (
@@ -68235,6 +68263,7 @@
 	d2 = 8;
 	icon_state = "0-8"
 	},
+/obj/effect/floor_decal/solarpanel,
 /turf/simulated/floor/airless,
 /area/solar/port)
 "cIw" = (
@@ -68248,6 +68277,7 @@
 	d2 = 8;
 	icon_state = "2-8"
 	},
+/obj/structure/catwalk,
 /turf/simulated/floor/airless,
 /area/solar/port)
 "cIx" = (
@@ -68355,6 +68385,7 @@
 	d2 = 8;
 	icon_state = "2-8"
 	},
+/obj/structure/catwalk,
 /turf/simulated/floor/airless,
 /area/solar/port)
 "cIV" = (
@@ -68836,6 +68867,7 @@
 	d2 = 8;
 	icon_state = "4-8"
 	},
+/obj/structure/catwalk,
 /turf/simulated/floor/airless,
 /area/solar/port)
 "cKN" = (
@@ -68844,6 +68876,7 @@
 	d2 = 4;
 	icon_state = "0-4"
 	},
+/obj/effect/floor_decal/solarpanel,
 /turf/simulated/floor/airless,
 /area/solar/port)
 "cKO" = (
@@ -69031,9 +69064,9 @@
 /area/engineering/engine_room)
 "cLs" = (
 /obj/machinery/power/solar_control{
+	dir = 4;
 	id_tag = "portsolar";
-	name = "Aft Port Solar Control";
-	track = 0
+	name = "Aft Port Solar Control"
 	},
 /obj/structure/cable/yellow,
 /obj/effect/floor_decal/industrial/warning/corner{
@@ -69211,6 +69244,7 @@
 	d2 = 4;
 	icon_state = "1-4"
 	},
+/obj/structure/catwalk,
 /turf/simulated/floor/airless,
 /area/solar/port)
 "cLP" = (
@@ -69224,6 +69258,7 @@
 	d2 = 4;
 	icon_state = "1-4"
 	},
+/obj/structure/catwalk,
 /turf/simulated/floor/airless,
 /area/solar/port)
 "cLQ" = (
@@ -69362,6 +69397,16 @@
 	},
 /turf/simulated/floor/tiled/dark,
 /area/ship/exodus_pod_engineering)
+"cQX" = (
+/obj/effect/floor_decal/corner/blue{
+	dir = 10
+	},
+/obj/structure/railing/mapped{
+	dir = 8
+	},
+/obj/machinery/shieldwallgen,
+/turf/simulated/floor/tiled,
+/area/teleporter)
 "cSp" = (
 /obj/machinery/power/terminal{
 	dir = 8
@@ -69548,12 +69593,23 @@
 	},
 /turf/simulated/floor/plating,
 /area/ship/exodus_pod_research)
+"eWD" = (
+/obj/structure/catwalk,
+/obj/structure/cable/green{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8"
+	},
+/obj/item/radio/beacon,
+/turf/simulated/floor/plating,
+/area/ship/exodus_pod_research)
 "ffg" = (
 /obj/effect/shuttle_landmark/engineering_pod_dock,
 /obj/structure/cable/green,
 /obj/machinery/power/terminal{
 	dir = 8
 	},
+/obj/item/radio/beacon,
 /turf/simulated/floor/tiled/dark,
 /area/ship/exodus_pod_engineering)
 "fhb" = (
@@ -69636,6 +69692,10 @@
 	},
 /turf/simulated/floor,
 /area/quartermaster/miningdock)
+"gpG" = (
+/obj/machinery/hologram/holopad,
+/turf/simulated/floor/tiled/monotile,
+/area/teleporter)
 "gsd" = (
 /obj/machinery/vending/cola{
 	dir = 4
@@ -70087,6 +70147,10 @@
 	},
 /turf/simulated/floor/plating,
 /area/ship/exodus_pod_research)
+"mYp" = (
+/obj/item/radio/beacon,
+/turf/simulated/floor/tiled,
+/area/hallway/secondary/exit)
 "ngU" = (
 /obj/effect/shuttle_landmark/exodus_main_aft,
 /turf/space,
@@ -70254,6 +70318,16 @@
 	},
 /turf/simulated/floor/tiled/dark,
 /area/shuttle/arrival/station)
+"qBY" = (
+/obj/structure/cable/green{
+	d1 = 1;
+	d2 = 2;
+	icon_state = "1-2"
+	},
+/obj/structure/catwalk,
+/obj/item/radio/beacon,
+/turf/simulated/floor,
+/area/ship/exodus_pod_mining)
 "qHi" = (
 /obj/machinery/light{
 	dir = 4;
@@ -70808,6 +70882,15 @@
 	},
 /turf/simulated/floor/tiled,
 /area/hallway/primary/port)
+"wTp" = (
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 6
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 4
+	},
+/turf/simulated/floor/tiled/monotile,
+/area/teleporter)
 "wVz" = (
 /obj/effect/floor_decal/corner/white{
 	dir = 6
@@ -70886,6 +70969,14 @@
 	},
 /turf/simulated/floor/tiled,
 /area/hallway/primary/central_three)
+"yeJ" = (
+/obj/machinery/light,
+/obj/machinery/shieldwallgen,
+/obj/effect/floor_decal/corner/blue{
+	dir = 10
+	},
+/turf/simulated/floor/tiled,
+/area/teleporter)
 
 (1,1,1) = {"
 cLU
@@ -89541,7 +89632,7 @@ dRD
 iTt
 tUa
 vRS
-vRS
+qBY
 vRS
 idY
 xJn
@@ -98987,7 +99078,7 @@ ajT
 aks
 alb
 anA
-amn
+akr
 amp
 amp
 amp
@@ -101866,7 +101957,7 @@ bvQ
 bwR
 byN
 bkO
-bBL
+bBO
 bDc
 bEE
 btG
@@ -102124,7 +102215,7 @@ bwU
 byN
 bzQ
 bBO
-bDc
+wTp
 bEH
 btG
 bHM
@@ -102636,10 +102727,10 @@ btp
 bvh
 bah
 byN
-bzZ
+bBQ
 bBQ
 bDg
-bDg
+cQX
 aJi
 bIe
 bJC
@@ -102894,9 +102985,9 @@ bed
 bed
 byN
 bzY
-bBQ
-bDf
-bDf
+gpG
+bDg
+yeJ
 aJi
 bId
 bJA
@@ -107208,16 +107299,16 @@ cLU
 cLU
 crP
 cLU
-akr
-akr
-akr
-akr
-akr
-akr
-akr
-akr
-akr
-akr
+cLU
+cLU
+cLU
+cLU
+cLU
+cLU
+cLU
+cLU
+cLU
+cLU
 cLU
 aaf
 aaf
@@ -107465,17 +107556,17 @@ cLU
 cLU
 crP
 cLU
-akr
-akr
-akr
-akr
-akr
-akr
-akr
-akr
-akr
-akr
-akr
+cLU
+cLU
+cLU
+cLU
+cLU
+cLU
+cLU
+cLU
+cLU
+cLU
+cLU
 aaf
 atP
 atP
@@ -107722,17 +107813,17 @@ cLU
 cLU
 crP
 cLU
-akr
-akr
-akr
-akr
-akr
-akr
-akr
-akr
-akr
-akr
-akr
+cLU
+cLU
+cLU
+cLU
+cLU
+cLU
+cLU
+cLU
+cLU
+cLU
+cLU
 aaf
 anU
 atW
@@ -107979,17 +108070,17 @@ cLU
 cLU
 crP
 cLU
-akr
-akr
-akr
-akr
-akr
-akr
-akr
-akr
-akr
-akr
-akr
+cLU
+cLU
+cLU
+cLU
+cLU
+cLU
+cLU
+cLU
+cLU
+cLU
+cLU
 cLU
 anS
 atW
@@ -108236,16 +108327,16 @@ cLU
 cLU
 crP
 cLU
-akr
-akr
-akr
-akr
-akr
-akr
-akr
-akr
-akr
-akr
+cLU
+cLU
+cLU
+cLU
+cLU
+cLU
+cLU
+cLU
+cLU
+cLU
 cLU
 cLU
 anS
@@ -119838,7 +119929,7 @@ aRZ
 aKu
 aWw
 aUY
-aUY
+mYp
 aUY
 bdc
 aUY
@@ -123452,7 +123543,7 @@ cLU
 cLU
 bvO
 brg
-hZw
+eWD
 eTV
 bvO
 aPa
