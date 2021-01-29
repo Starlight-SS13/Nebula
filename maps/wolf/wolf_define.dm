@@ -7,7 +7,8 @@
 
 	station_levels = list(1, 2, 3, 4)
 	contact_levels = list(1, 2, 3, 4)
-	player_levels = list(1, 2, 3, 4)
+	player_levels = list(1, 2, 3, 4, 6)
+	admin_levels = list(5)
 
 	station_name  = "USN Odyssey"
 	station_short = "Odyssey"
