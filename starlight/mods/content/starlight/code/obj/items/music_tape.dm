@@ -12,7 +12,6 @@
 
 	var/ruined = FALSE
 	var/random_color = TRUE
-	var/rewrites_left = 2
 	var/datum/track/track
 	var/uploader_ckey
 
@@ -89,8 +88,25 @@
 	ruined = FALSE
 	update_icon()
 
-// Pre-made cassetes
+/obj/item/music_tape/proc/setup_tape(mob/user)
+	var/new_sound = input(user, "Select sound to upload. You should use only those audio formats which BYOND can accept. Module files is a good choice.", "Song Reminiscence") as null|sound
+	if(isnull(new_sound))
+		return FALSE
 
+	var/new_name = input(user, "Name \the [src]:", "Song Reminiscence", "Untitled") as null|text
+	if(isnull(new_name))
+		return FALSE
+
+	if(new_sound && new_name)
+		if(track) qdel(track)
+		if(user.ckey) uploader_ckey = user.ckey
+		new_name = "music tape - [sanitizeSafe(new_name)]"
+		track = new /datum/track(new_name, new_sound)
+		return TRUE
+
+	return FALSE
+
+// Pre-made cassetes
 /obj/item/music_tape/random/Initialize()
 	. = ..()
 	track = pick(setup_music_tracks())
@@ -98,7 +114,6 @@
 /obj/item/music_tape/custom
 	name = "dusty tape"
 	desc = "A dusty tape, which can hold anything. Only what you need is blow the dust away and you will be able to play it again."
-	rewrites_left = 1
 
 /obj/item/music_tape/custom/attack_self(mob/user)
 	if(!ruined && !track)
@@ -107,19 +122,6 @@
 		return
 	..()
 
-/obj/item/music_tape/custom/proc/setup_tape(mob/user)
-	var/new_sound = input(user, "Select sound to upload. You should use only those audio formats which byond can accept. Ogg and module files is a good choice.", "Song Reminiscence") as null|sound
-	if(isnull(new_sound))
-		return FALSE
-
-	var/new_name = input(user, "Name \the [src]:", "Song Reminiscence", "Untitled") as null|text
-	if(isnull(new_name))
-		return FALSE
-
-	new_name = "tape - [sanitizeSafe(new_name)]"
-
-	if(new_sound && new_name && !track)
-		track = new /datum/track(new_name, new_sound)
-		return TRUE
-	return FALSE
-
+// Fabricator design
+/datum/fabricator_recipe/music_tape_custom
+	path = /obj/item/music_tape/custom
