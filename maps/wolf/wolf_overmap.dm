@@ -8,5 +8,15 @@
 	burn_delay = 2 SECONDS
 	initial_generic_waypoints = list("nav_odyssey_near_bow_third", "nav_odyssey_near_bow_bridge")
 	initial_restricted_waypoints = list(
-		"Gnat" = list("odyssey_hangar"), //pod can only dock starboard-side, b/c there's only one door.
+		"Gnat" = list("odyssey_hangar")
+	)
+
+/obj/effect/overmap/visitable/sector/supply_station
+	name = "Supply Station"
+	desc = "Sensors detect an automated supply station."
+	icon_state = "object"
+	known = 1
+
+	initial_generic_waypoints = list(
+		"nav_supply_station_1"
 	)

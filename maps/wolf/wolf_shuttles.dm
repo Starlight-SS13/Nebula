@@ -20,7 +20,7 @@
 	landmark_tag = "escape_pod_"+ #NUMBER +"_out"; \
 } \
 /area/shuttle/escape_pod_##NUMBER { \
-	name = "Escape Pod ##NUMBER"; \
+	name = "Escape Pod " + #NUMBER; \
 	area_flags = AREA_FLAG_RAD_SHIELDED | AREA_FLAG_ION_SHIELDED | AREA_FLAG_IS_NOT_PERSISTENT; \
 }
 
@@ -64,4 +64,26 @@ ESCAPE_POD(4)
 	name = "Near Odyssey Bow Bridge Deck"
 	landmark_tag = "nav_odyssey_near_bow_bridge"
 
+// Supply Station
 
+/obj/effect/shuttle_landmark/nav_supply_station/nav1
+	name = "Automated Supply Station Navpoint #1"
+	landmark_tag = "nav_supply_station_1"
+	base_area = /area/supply_station
+	base_turf = /turf/simulated/floor/plating
+
+/datum/shuttle/autodock/ferry/supply/cargo
+	name = "Supply"
+	warmup_time = 10
+	location = 1
+	shuttle_area = /area/supply
+	waypoint_offsite = "nav_cargo_start"
+	waypoint_station = "nav_cargo_station"
+
+/obj/effect/shuttle_landmark/supply/start
+	landmark_tag = "nav_cargo_start"
+
+/obj/effect/shuttle_landmark/supply/station
+	landmark_tag = "nav_cargo_station"
+	base_area = /area/supply_station
+	base_turf = /turf/simulated/floor/plating

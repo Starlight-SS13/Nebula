@@ -25,7 +25,6 @@
 
 // EPN5 MODS START
 //	#include "../../mods/content/ship_combat2/_spacebattles.dme"
-	#include "../away/supply_station/supply_station.dm"
 // EPN5 MODS END
 
 	#include "../random_ruins/exoplanet_ruins/playablecolony/playablecolony.dm"
@@ -50,7 +49,8 @@
 	#include "wolf-2.dmm"
 	#include "wolf-3.dmm"
 	#include "wolf-4.dmm"
-	#include "extras.dmm"
+	#include "wolf-admin.dmm"
+	#include "wolf-supply-station.dmm"
 
 	#include "wolf_branches.dm"
 	#include "wolf_overmap.dm"
