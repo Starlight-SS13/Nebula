@@ -1,4 +1,5 @@
 /obj/item/clothing/under/wolf
+	bodytype_restricted = list(BODYTYPE_HUMANOID)
 	rolled_down = 0
 	rolled_sleeves = 0
 

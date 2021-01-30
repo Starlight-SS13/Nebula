@@ -1,11 +1,10 @@
 //MAP CONVERTED BY dmm2tgm.py THIS HEADER COMMENT PREVENTS RECONVERSION, DO NOT REMOVE
-"aa" = (
-/turf/simulated/wall/r_wall/prepainted,
-/area/supply_station)
 "ab" = (
-/obj/effect/shuttle_landmark/supply/station,
-/turf/simulated/floor/plating,
-/area/supply_station)
+/obj/effect/shuttle_landmark/nav_supply_station/nav1{
+	docking_controller = "ts_big_airlock"
+	},
+/turf/space,
+/area/space)
 "ad" = (
 /obj/structure/catwalk,
 /turf/simulated/floor/airless,
@@ -16,12 +15,10 @@
 /turf/simulated/floor/airless,
 /area/space)
 "ah" = (
-/obj/effect/floor_decal/industrial/warning/corner,
-/obj/machinery/atmospherics/pipe/simple/hidden/supply{
-	dir = 6;
-	icon_state = "intact-supply"
+/obj/machinery/door/airlock/external/bolted{
+	id_tag = "ts_big_airlock_ext"
 	},
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/plating,
 /area/supply_station)
 "ak" = (
 /turf/space,
@@ -29,206 +26,294 @@
 "am" = (
 /turf/simulated/floor/tiled,
 /area/supply_station)
-"an" = (
-/obj/machinery/door/airlock/external,
-/obj/machinery/door/firedoor,
-/turf/simulated/floor/tiled,
-/area/supply_station)
 "ao" = (
-/obj/machinery/atmospherics/pipe/simple/hidden/supply{
-	dir = 5;
-	icon_state = "intact-supply"
+/obj/machinery/embedded_controller/radio/airlock/docking_port{
+	dir = 4;
+	id_tag = "ts_big_airlock";
+	pixel_x = -24;
+	tag_airpump = "ts_big_airlock_vent";
+	tag_chamber_sensor = "ts_big_airlock_sensor";
+	tag_exterior_door = "ts_big_airlock_ext";
+	tag_interior_door = "ts_big_airlock_int"
 	},
-/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
-	dir = 6;
-	icon_state = "intact-scrubbers"
+/obj/machinery/atmospherics/unary/vent_pump/high_volume/external_air{
+	id_tag = "ts_big_airlock_vent"
 	},
-/turf/simulated/floor/tiled/airless,
+/turf/simulated/floor/plating,
 /area/supply_station)
 "ap" = (
-/obj/machinery/atmospherics/pipe/simple/hidden/supply{
-	dir = 4
-	},
-/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
-	dir = 4;
-	icon_state = "intact-scrubbers"
-	},
+/obj/machinery/door/airlock/external/bolted,
 /turf/simulated/floor/tiled,
 /area/supply_station)
 "aq" = (
-/obj/machinery/atmospherics/pipe/manifold/hidden/scrubbers{
-	dir = 1;
-	icon_state = "map-scrubbers"
-	},
-/obj/machinery/atmospherics/pipe/manifold/hidden/supply{
-	dir = 1;
-	icon_state = "map-supply"
+/obj/machinery/door/airlock/external/bolted,
+/obj/machinery/atmospherics/pipe/simple/hidden{
+	dir = 4;
+	icon_state = "intact"
 	},
 /turf/simulated/floor/tiled,
 /area/supply_station)
 "ar" = (
-/obj/machinery/atmospherics/pipe/simple/hidden/supply{
-	dir = 9;
-	icon_state = "intact-supply"
-	},
-/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
-	dir = 10;
-	icon_state = "intact-scrubbers"
-	},
-/turf/simulated/floor/tiled,
-/area/supply_station)
-"as" = (
-/obj/machinery/atmospherics/pipe/manifold/hidden/supply{
-	dir = 8
-	},
-/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
+/obj/machinery/atmospherics/pipe/manifold4w/hidden,
 /turf/simulated/floor/tiled,
 /area/supply_station)
 "at" = (
 /turf/simulated/floor/plating,
 /area/supply_station)
 "au" = (
-/obj/machinery/atmospherics/pipe/simple/hidden/universal{
+/obj/machinery/light{
 	dir = 4
 	},
-/turf/simulated/wall/r_wall/prepainted,
-/area/supply_station)
-"av" = (
-/obj/machinery/light{
-	dir = 1
+/obj/machinery/atmospherics/unary/vent_pump/high_volume/external_air{
+	id_tag = "ts_big_airlock_vent"
 	},
-/obj/machinery/atmospherics/unary/vent_pump/on,
-/turf/simulated/floor/tiled,
-/area/supply_station)
-"aw" = (
-/obj/machinery/atmospherics/unary/vent_scrubber/on{
-	dir = 1;
-	icon_state = "map_scrubber_on"
+/obj/machinery/airlock_sensor{
+	id_tag = "ts_big_airlock_sensor";
+	pixel_x = 32
 	},
-/obj/machinery/light,
-/turf/simulated/floor/tiled,
-/area/supply_station)
-"ax" = (
-/obj/machinery/atmospherics/pipe/simple/hidden/supply,
-/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
-/obj/machinery/door/firedoor,
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/plating,
 /area/supply_station)
 "ay" = (
-/obj/effect/wallframe_spawn/reinforced,
-/obj/machinery/door/firedoor,
-/turf/simulated/floor/plating,
-/area/supply_station)
-"az" = (
-/obj/machinery/light{
-	dir = 1
+/obj/machinery/door/airlock/external/bolted{
+	id_tag = "ts_big_airlock_int"
 	},
-/obj/machinery/atmospherics/unary/vent_scrubber/on,
-/turf/simulated/floor/tiled,
-/area/supply_station)
-"aA" = (
-/obj/machinery/alarm{
-	dir = 4;
-	icon_state = "alarm0";
-	pixel_x = -24
-	},
-/turf/simulated/floor/tiled,
-/area/supply_station)
-"aB" = (
-/obj/effect/floor_decal/industrial/warning,
-/obj/machinery/atmospherics/pipe/manifold/hidden/supply,
-/turf/simulated/floor/tiled,
-/area/supply_station)
-"aD" = (
-/obj/machinery/atmospherics/omni/filter{
-	tag_east = 4;
-	tag_north = 1;
-	tag_south = 3;
-	tag_west = 2
-	},
-/turf/simulated/floor/plating,
-/area/supply_station)
-"aE" = (
-/obj/machinery/atmospherics/omni/mixer{
-	tag_east = 2;
-	tag_north = 1;
-	tag_north_con = 0.79;
-	tag_west = 1;
-	tag_west_con = 0.21
-	},
-/turf/simulated/floor/plating,
-/area/supply_station)
-"aF" = (
-/obj/machinery/atmospherics/unary/outlet_injector{
-	dir = 4;
-	icon_state = "on";
-	id_tag = "o2_injector";
-	use_power = 1
-	},
-/obj/structure/catwalk,
-/turf/simulated/floor/airless,
-/area/supply_station)
-"aG" = (
 /obj/machinery/atmospherics/pipe/simple/hidden{
-	dir = 4;
-	icon_state = "intact"
-	},
-/turf/simulated/wall/r_wall/prepainted,
-/area/supply_station)
-"aH" = (
-/obj/machinery/power/debug_items/infinite_generator,
-/obj/structure/cable{
-	icon_state = "0-4"
-	},
-/turf/simulated/floor/plating,
-/area/supply_station)
-"aI" = (
-/obj/machinery/atmospherics/pipe/simple/hidden{
-	dir = 4;
-	icon_state = "intact"
-	},
-/turf/simulated/floor/tiled,
-/area/supply_station)
-"aJ" = (
-/obj/machinery/atmospherics/pipe/simple/visible/red{
-	dir = 10;
-	icon_state = "intact"
-	},
-/turf/simulated/floor/plating,
-/area/supply_station)
-"aK" = (
-/obj/machinery/atmospherics/pipe/simple/visible/cyan{
 	dir = 5;
 	icon_state = "intact"
 	},
 /turf/simulated/floor/plating,
 /area/supply_station)
-"aL" = (
-/obj/machinery/atmospherics/pipe/manifold/visible{
-	dir = 8;
+"az" = (
+/obj/machinery/door/firedoor,
+/turf/simulated/floor/tiled,
+/area/supply_station)
+"aA" = (
+/obj/machinery/door/airlock/external/bolted{
+	id_tag = "ts_big_airlock_int"
+	},
+/obj/machinery/atmospherics/pipe/manifold/hidden{
+	dir = 1;
 	icon_state = "map"
 	},
 /turf/simulated/floor/plating,
 /area/supply_station)
-"aM" = (
-/obj/machinery/atmospherics/pipe/manifold4w/visible,
-/turf/simulated/floor/plating,
+"aD" = (
+/obj/machinery/atmospherics/pipe/simple/hidden,
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 4
+	},
+/turf/simulated/floor/tiled,
 /area/supply_station)
-"aN" = (
-/obj/machinery/atmospherics/pipe/simple/visible{
-	dir = 5;
+"aE" = (
+/obj/machinery/atmospherics/pipe/simple/hidden/supply,
+/obj/machinery/atmospherics/pipe/manifold/hidden/scrubbers{
+	dir = 4;
+	icon_state = "map-scrubbers"
+	},
+/turf/simulated/floor/tiled,
+/area/supply_station)
+"aF" = (
+/obj/machinery/door/airlock/external/bolted{
+	id_tag = "ts_big_airlock_int"
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden{
+	dir = 9;
 	icon_state = "intact"
 	},
 /turf/simulated/floor/plating,
 /area/supply_station)
-"aO" = (
-/obj/machinery/atmospherics/pipe/simple/visible{
+"aG" = (
+/obj/machinery/light{
+	dir = 8
+	},
+/obj/machinery/atmospherics/unary/vent_pump/on{
+	dir = 4;
+	icon_state = "map_vent_out"
+	},
+/turf/simulated/floor/tiled,
+/area/supply_station)
+"aI" = (
+/obj/machinery/atmospherics/unary/vent_pump/on{
+	dir = 4;
+	icon_state = "map_vent_out"
+	},
+/turf/simulated/floor/tiled,
+/area/supply_station)
+"aJ" = (
+/obj/machinery/atmospherics/pipe/manifold/hidden/supply{
+	dir = 4;
+	icon_state = "map-supply"
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
+/turf/simulated/floor/tiled,
+/area/supply_station)
+"aR" = (
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 10;
+	icon_state = "intact-supply"
+	},
+/turf/simulated/floor/tiled,
+/area/supply_station)
+"aT" = (
+/obj/machinery/atmospherics/pipe/simple/hidden/supply,
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
+/turf/simulated/floor/tiled,
+/area/supply_station)
+"aW" = (
+/obj/machinery/atmospherics/pipe/simple/hidden/supply,
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 10;
+	icon_state = "intact-scrubbers"
+	},
+/turf/simulated/floor/tiled,
+/area/supply_station)
+"aX" = (
+/obj/machinery/embedded_controller/radio/airlock/docking_port{
+	dir = 1;
+	icon_state = "airlock_control_off";
+	pixel_y = -32
+	},
+/obj/machinery/atmospherics/unary/vent_pump/high_volume/external_air{
+	dir = 4;
+	icon_state = "map_vent";
+	id_tag = "gnatdocking_pump_out_internal"
+	},
+/obj/machinery/airlock_sensor{
+	pixel_y = 32
+	},
+/turf/simulated/floor/tiled,
+/area/supply_station)
+"ba" = (
+/obj/machinery/atmospherics/pipe/simple/hidden,
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 4;
+	icon_state = "intact-scrubbers"
+	},
+/turf/simulated/floor/tiled,
+/area/supply_station)
+"bb" = (
+/obj/machinery/atmospherics/pipe/simple/hidden/supply,
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
+/obj/machinery/atmospherics/pipe/simple/hidden{
 	dir = 4;
 	icon_state = "intact"
 	},
+/turf/simulated/floor/tiled,
+/area/supply_station)
+"be" = (
+/obj/effect/paint/brown,
+/obj/machinery/atmospherics/pipe/simple/hidden/universal{
+	dir = 4
+	},
+/turf/simulated/wall/r_wall,
+/area/supply_station)
+"bg" = (
+/obj/structure/bed/chair/comfy/beige,
+/turf/simulated/floor/carpet,
+/area/supply_station)
+"bh" = (
+/obj/machinery/atmospherics/pipe/manifold/hidden/supply{
+	dir = 8
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
+/turf/simulated/floor/tiled,
+/area/supply_station)
+"bj" = (
+/obj/machinery/atmospherics/pipe/simple/hidden{
+	dir = 4;
+	icon_state = "intact"
+	},
+/turf/simulated/floor/tiled,
+/area/supply_station)
+"bk" = (
+/obj/machinery/embedded_controller/radio/airlock/docking_port{
+	dir = 1;
+	icon_state = "airlock_control_off";
+	pixel_y = -32
+	},
+/obj/machinery/atmospherics/unary/vent_pump/high_volume/external_air{
+	dir = 8;
+	id_tag = "eva_pump"
+	},
+/obj/machinery/airlock_sensor{
+	pixel_y = 32
+	},
+/turf/simulated/floor/tiled,
+/area/supply_station)
+"bn" = (
+/obj/machinery/alarm{
+	dir = 8;
+	icon_state = "alarm0";
+	pixel_x = 24
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/supply,
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
+/turf/simulated/floor/tiled,
+/area/supply_station)
+"bp" = (
+/obj/machinery/atmospherics/unary/vent_scrubber/on{
+	dir = 4
+	},
+/turf/simulated/floor/tiled,
+/area/supply_station)
+"bq" = (
+/obj/machinery/door/firedoor,
+/obj/machinery/atmospherics/pipe/simple/hidden{
+	dir = 5;
+	icon_state = "intact"
+	},
+/turf/simulated/floor/tiled,
+/area/supply_station)
+"br" = (
+/obj/machinery/atmospherics/pipe/simple/hidden/supply,
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
+/obj/machinery/door/firedoor,
+/obj/machinery/atmospherics/pipe/simple/hidden{
+	dir = 4;
+	icon_state = "intact"
+	},
+/turf/simulated/floor/tiled,
+/area/supply_station)
+"bs" = (
+/obj/machinery/atmospherics/pipe/simple/hidden{
+	dir = 4;
+	icon_state = "intact"
+	},
+/obj/effect/paint/brown,
+/turf/simulated/wall/r_wall,
+/area/supply_station)
+"bt" = (
+/obj/machinery/atmospherics/pipe/simple/hidden{
+	dir = 10;
+	icon_state = "intact"
+	},
+/obj/effect/paint/brown,
+/turf/simulated/wall/r_wall,
+/area/supply_station)
+"bv" = (
+/obj/structure/bed/chair/comfy/beige,
+/obj/machinery/light{
+	dir = 1
+	},
+/turf/simulated/floor/carpet,
+/area/supply_station)
+"bw" = (
+/obj/machinery/atmospherics/pipe/manifold/hidden,
 /turf/simulated/floor/plating,
 /area/supply_station)
-"aP" = (
+"bx" = (
+/obj/effect/wallframe_spawn/reinforced,
+/obj/machinery/door/firedoor,
+/turf/simulated/floor/plating,
+/area/supply_station)
+"by" = (
+/obj/machinery/atmospherics/binary/pump/on{
+	dir = 8;
+	icon_state = "map_on"
+	},
+/turf/simulated/floor/plating,
+/area/supply_station)
+"bz" = (
 /obj/machinery/atmospherics/pipe/simple/visible{
 	dir = 10;
 	icon_state = "intact"
@@ -238,14 +323,18 @@
 	},
 /turf/simulated/floor/plating,
 /area/supply_station)
-"aQ" = (
-/obj/machinery/atmospherics/pipe/simple/visible,
-/obj/machinery/network/mainframe{
-	initial_network_id = "tradenet"
-	},
-/turf/simulated/floor/plating,
+"bA" = (
+/turf/simulated/floor/wood/walnut,
 /area/supply_station)
-"aR" = (
+"bB" = (
+/obj/machinery/atmospherics/pipe/manifold/hidden/scrubbers{
+	dir = 8;
+	icon_state = "map-scrubbers"
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/supply,
+/turf/simulated/floor/tiled,
+/area/supply_station)
+"bC" = (
 /obj/machinery/atmospherics/portables_connector{
 	dir = 8;
 	icon_state = "map_connector"
@@ -253,213 +342,168 @@
 /obj/machinery/portable_atmospherics/canister/air,
 /turf/simulated/floor/plating,
 /area/supply_station)
-"aS" = (
-/obj/machinery/atmospherics/binary/pump/on{
-	dir = 8;
-	icon_state = "map_on"
+"bD" = (
+/obj/machinery/atmospherics/pipe/simple/visible/red{
+	dir = 10;
+	icon_state = "intact"
 	},
 /turf/simulated/floor/plating,
 /area/supply_station)
-"aT" = (
+"bG" = (
+/obj/machinery/atmospherics/pipe/simple/visible,
+/obj/machinery/network/mainframe{
+	initial_network_id = "tradenet"
+	},
+/turf/simulated/floor/plating,
+/area/supply_station)
+"bH" = (
+/obj/machinery/light{
+	dir = 8
+	},
+/obj/machinery/atmospherics/unary/vent_scrubber/on{
+	dir = 4
+	},
+/turf/simulated/floor/tiled,
+/area/supply_station)
+"eI" = (
+/obj/effect/floor_decal/industrial/warning,
+/obj/machinery/computer/modular/preset/supply_public{
+	dir = 1;
+	icon_state = "computer"
+	},
+/obj/structure/railing/mapped,
+/turf/simulated/floor/tiled,
+/area/supply_station)
+"fb" = (
+/obj/machinery/atmospherics/pipe/manifold4w/visible,
+/turf/simulated/floor/plating,
+/area/supply_station)
+"fc" = (
+/obj/machinery/alarm,
+/turf/simulated/floor/tiled,
+/area/supply_station)
+"gt" = (
+/obj/effect/floor_decal/industrial/warning,
+/obj/structure/railing/mapped,
+/turf/simulated/floor/tiled,
+/area/supply_station)
+"km" = (
+/obj/machinery/atmospherics/unary/outlet_injector{
+	dir = 4;
+	icon_state = "on";
+	id_tag = "o2_injector";
+	use_power = 1
+	},
+/obj/structure/catwalk,
+/turf/simulated/floor/airless,
+/area/supply_station)
+"mD" = (
+/obj/machinery/atmospherics/unary/vent_pump/on,
+/turf/simulated/floor/tiled,
+/area/supply_station)
+"oN" = (
+/obj/machinery/atmospherics/unary/vent_scrubber/on{
+	dir = 1;
+	icon_state = "map_scrubber_on"
+	},
+/obj/effect/floor_decal/industrial/warning,
+/turf/simulated/floor/tiled,
+/area/supply_station)
+"qy" = (
+/obj/machinery/atmospherics/pipe/simple/hidden{
+	dir = 4;
+	icon_state = "intact"
+	},
+/obj/structure/bed/chair/comfy/beige,
+/turf/simulated/floor/carpet,
+/area/supply_station)
+"qK" = (
+/obj/machinery/atmospherics/pipe/simple/hidden,
+/turf/simulated/floor/tiled,
+/area/supply_station)
+"rm" = (
+/obj/structure/bed/chair/comfy/beige{
+	dir = 1;
+	icon_state = "comfychair"
+	},
+/turf/simulated/floor/carpet,
+/area/supply_station)
+"rw" = (
+/obj/structure/bed/chair/comfy/beige{
+	dir = 1;
+	icon_state = "comfychair"
+	},
+/obj/machinery/light,
+/turf/simulated/floor/carpet,
+/area/supply_station)
+"ua" = (
+/obj/machinery/atmospherics/pipe/manifold/hidden/scrubbers,
+/obj/machinery/atmospherics/pipe/manifold/hidden/supply,
+/turf/simulated/floor/tiled,
+/area/supply_station)
+"vj" = (
 /obj/machinery/power/apc,
 /obj/structure/cable{
 	icon_state = "0-8"
 	},
 /turf/simulated/floor/plating,
 /area/supply_station)
-"aW" = (
-/turf/simulated/floor/wood/walnut,
+"yh" = (
+/obj/machinery/power/debug_items/infinite_generator,
+/obj/structure/cable{
+	icon_state = "0-4"
+	},
+/turf/simulated/floor/plating,
 /area/supply_station)
-"aX" = (
+"yM" = (
+/obj/effect/paint/brown,
+/turf/simulated/wall/r_wall,
+/area/supply_station)
+"Bq" = (
+/obj/machinery/atmospherics/omni/mixer{
+	tag_east = 2;
+	tag_north = 1;
+	tag_north_con = 0.79;
+	tag_west = 1;
+	tag_west_con = 0.21
+	},
+/turf/simulated/floor/plating,
+/area/supply_station)
+"CZ" = (
 /obj/machinery/atmospherics/pipe/simple/hidden{
 	dir = 4;
 	icon_state = "intact"
 	},
-/obj/structure/bed/chair/comfy/beige,
-/turf/simulated/floor/carpet,
+/turf/simulated/floor/wood/walnut,
 /area/supply_station)
-"aY" = (
-/obj/machinery/atmospherics/pipe/manifold/hidden/scrubbers{
-	dir = 8;
-	icon_state = "map-scrubbers"
-	},
-/obj/machinery/atmospherics/pipe/simple/hidden/supply,
-/obj/machinery/light{
-	dir = 4
-	},
-/turf/simulated/floor/tiled,
-/area/supply_station)
-"aZ" = (
-/obj/machinery/atmospherics/pipe/manifold/hidden/supply{
+"FW" = (
+/obj/machinery/atmospherics/pipe/simple/hidden{
 	dir = 4;
-	icon_state = "map-supply"
+	icon_state = "intact"
 	},
-/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
+/obj/effect/overmap/visitable/sector/supply_station,
 /turf/simulated/floor/tiled,
 /area/supply_station)
-"ba" = (
-/obj/effect/floor_decal/industrial/warning{
-	dir = 1;
-	icon_state = "stripe"
-	},
-/obj/machinery/atmospherics/unary/vent_pump/on,
-/turf/simulated/floor/tiled,
-/area/supply_station)
-"bb" = (
-/obj/machinery/alarm{
-	dir = 8;
-	icon_state = "alarm0";
-	pixel_x = 24
-	},
-/turf/simulated/floor/tiled,
-/area/supply_station)
-"bc" = (
-/obj/machinery/door/airlock/external,
-/obj/machinery/atmospherics/pipe/simple/hidden/supply,
-/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
-/obj/machinery/door/firedoor,
-/obj/machinery/door/firedoor,
-/turf/simulated/floor/tiled,
-/area/supply_station)
-"bd" = (
-/obj/machinery/atmospherics/pipe/simple/hidden/supply,
-/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
-/turf/simulated/floor/tiled,
-/area/supply_station)
-"be" = (
-/obj/effect/floor_decal/industrial/warning,
-/obj/machinery/atmospherics/pipe/manifold/hidden/scrubbers,
-/turf/simulated/floor/tiled,
-/area/supply_station)
-"bf" = (
-/obj/effect/floor_decal/industrial/warning,
-/obj/machinery/atmospherics/pipe/simple/hidden/supply{
-	dir = 4
-	},
-/turf/simulated/floor/tiled,
-/area/supply_station)
-"bg" = (
-/obj/effect/floor_decal/industrial/warning,
-/obj/machinery/atmospherics/pipe/simple/hidden/supply{
-	dir = 9;
-	icon_state = "intact-supply"
-	},
-/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+"FZ" = (
+/obj/machinery/atmospherics/pipe/simple/visible{
 	dir = 5;
-	icon_state = "intact-scrubbers"
+	icon_state = "intact"
 	},
-/turf/simulated/floor/tiled,
+/turf/simulated/floor/plating,
 /area/supply_station)
-"bh" = (
-/obj/effect/floor_decal/industrial/warning,
-/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
-	dir = 4;
-	icon_state = "intact-scrubbers"
-	},
-/turf/simulated/floor/tiled,
-/area/supply_station)
-"bi" = (
-/obj/effect/floor_decal/industrial/warning/corner{
-	dir = 8
-	},
-/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
-	dir = 10;
-	icon_state = "intact-scrubbers"
-	},
-/turf/simulated/floor/tiled,
-/area/supply_station)
-"bj" = (
-/obj/machinery/atmospherics/unary/vent_pump/on{
-	dir = 4;
-	icon_state = "map_vent_out"
-	},
-/obj/machinery/light{
-	dir = 8
-	},
-/turf/simulated/floor/tiled,
-/area/supply_station)
-"bk" = (
-/obj/effect/floor_decal/industrial/warning{
-	dir = 4;
-	icon_state = "stripe"
-	},
-/obj/machinery/atmospherics/pipe/manifold/hidden/supply{
-	dir = 4;
-	icon_state = "map-supply"
-	},
-/turf/simulated/floor/tiled,
-/area/supply_station)
-"bl" = (
-/obj/effect/floor_decal/industrial/warning{
-	dir = 8;
-	icon_state = "stripe"
-	},
-/obj/machinery/atmospherics/pipe/manifold/hidden/scrubbers{
-	dir = 8;
-	icon_state = "map-scrubbers"
-	},
-/turf/simulated/floor/tiled,
-/area/supply_station)
-"bm" = (
-/obj/machinery/atmospherics/unary/vent_scrubber/on{
-	dir = 8;
-	icon_state = "map_scrubber_on"
-	},
-/obj/machinery/light{
-	dir = 4
-	},
-/turf/simulated/floor/tiled,
-/area/supply_station)
-"bn" = (
-/obj/structure/catwalk,
-/turf/simulated/floor/airless,
-/area/supply_station)
-"bp" = (
-/obj/machinery/door/firedoor,
-/turf/simulated/floor/tiled,
-/area/supply_station)
-"bq" = (
-/obj/machinery/atmospherics/unary/vent_scrubber/on{
-	dir = 4
-	},
-/obj/machinery/light,
-/turf/simulated/floor/tiled,
-/area/supply_station)
-"br" = (
-/obj/machinery/atmospherics/unary/vent_pump/on{
-	dir = 4;
-	icon_state = "map_vent_out"
-	},
-/turf/simulated/floor/tiled,
-/area/supply_station)
-"bs" = (
-/obj/structure/bed/chair/comfy/beige,
-/obj/machinery/light{
-	dir = 1
-	},
-/turf/simulated/floor/carpet,
-/area/supply_station)
-"bt" = (
-/obj/structure/bed/chair/comfy/beige,
-/turf/simulated/floor/carpet,
-/area/supply_station)
-"bu" = (
+"JY" = (
 /obj/machinery/atmospherics/pipe/simple/hidden{
 	dir = 4;
 	icon_state = "intact"
 	},
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
+/obj/machinery/light{
+	dir = 4
+	},
 /turf/simulated/floor/tiled,
 /area/supply_station)
-"bv" = (
-/obj/machinery/atmospherics/pipe/simple/hidden{
-	dir = 4;
-	icon_state = "intact"
-	},
-/turf/simulated/floor/wood/walnut,
-/area/supply_station)
-"bw" = (
+"Kx" = (
 /obj/machinery/alarm{
 	dir = 1;
 	icon_state = "alarm0";
@@ -468,7 +512,52 @@
 	},
 /turf/simulated/floor/wood/walnut,
 /area/supply_station)
-"bx" = (
+"Lt" = (
+/obj/machinery/atmospherics/pipe/manifold/visible{
+	dir = 8;
+	icon_state = "map"
+	},
+/turf/simulated/floor/plating,
+/area/supply_station)
+"Mk" = (
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 4;
+	icon_state = "intact-scrubbers"
+	},
+/turf/simulated/floor/tiled,
+/area/supply_station)
+"Nq" = (
+/obj/effect/shuttle_landmark/supply/station,
+/turf/simulated/floor/plating,
+/area/supply_station)
+"Oq" = (
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
+/obj/machinery/atmospherics/pipe/simple/hidden/supply,
+/turf/simulated/floor/tiled,
+/area/supply_station)
+"Ou" = (
+/obj/machinery/atmospherics/omni/filter{
+	tag_east = 4;
+	tag_north = 1;
+	tag_south = 3;
+	tag_west = 2
+	},
+/turf/simulated/floor/plating,
+/area/supply_station)
+"Qg" = (
+/obj/structure/table/woodentable,
+/turf/simulated/floor/carpet,
+/area/supply_station)
+"Uw" = (
+/obj/machinery/light{
+	dir = 8
+	},
+/turf/simulated/floor/tiled,
+/area/supply_station)
+"Vg" = (
 /obj/machinery/atmospherics/pipe/manifold/hidden/scrubbers{
 	dir = 4;
 	icon_state = "map-scrubbers"
@@ -481,138 +570,60 @@
 	},
 /turf/simulated/floor/tiled,
 /area/supply_station)
-"by" = (
-/obj/effect/floor_decal/industrial/warning{
-	dir = 4;
-	icon_state = "stripe"
-	},
+"VQ" = (
+/obj/machinery/door/airlock/external,
+/obj/machinery/door/firedoor,
+/turf/simulated/floor/tiled,
+/area/supply_station)
+"WG" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
-/turf/simulated/floor/tiled,
-/area/supply_station)
-"bz" = (
-/obj/effect/overmap/visitable/sector/supply_station,
-/turf/simulated/floor/tiled,
-/area/supply_station)
-"bA" = (
-/obj/structure/bed/chair/comfy/beige{
-	dir = 1;
-	icon_state = "comfychair"
-	},
-/turf/simulated/floor/carpet,
-/area/supply_station)
-"bB" = (
-/obj/structure/bed/chair/comfy/beige{
-	dir = 1;
-	icon_state = "comfychair"
-	},
-/obj/machinery/light,
-/turf/simulated/floor/carpet,
-/area/supply_station)
-"bC" = (
-/obj/effect/floor_decal/industrial/warning{
-	dir = 8;
-	icon_state = "stripe"
-	},
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
+/obj/machinery/door/firedoor,
 /turf/simulated/floor/tiled,
 /area/supply_station)
-"bD" = (
-/obj/effect/shuttle_landmark/nav_supply_station/nav1,
-/turf/simulated/floor/plating,
-/area/supply_station)
-"bG" = (
-/obj/effect/floor_decal/industrial/warning{
-	dir = 4;
-	icon_state = "stripe"
-	},
+"XK" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
 	dir = 9;
 	icon_state = "intact-supply"
 	},
-/turf/simulated/floor/tiled,
-/area/supply_station)
-"bH" = (
-/obj/effect/floor_decal/industrial/warning{
-	dir = 1;
-	icon_state = "stripe"
-	},
-/turf/simulated/floor/tiled,
-/area/supply_station)
-"iS" = (
-/obj/machinery/alarm{
-	pixel_y = 17
-	},
-/turf/simulated/floor/tiled,
-/area/supply_station)
-"km" = (
-/obj/effect/floor_decal/industrial/warning{
-	dir = 4;
-	icon_state = "stripe"
-	},
-/turf/simulated/floor/tiled,
-/area/supply_station)
-"qy" = (
-/obj/machinery/door/airlock/external,
-/obj/machinery/door/firedoor,
-/obj/machinery/door/firedoor,
-/turf/simulated/floor/tiled,
-/area/supply_station)
-"qK" = (
-/obj/machinery/atmospherics/pipe/simple/visible/red{
-	dir = 10;
-	icon_state = "intact"
-	},
-/obj/machinery/light{
-	dir = 8
-	},
-/turf/simulated/floor/plating,
-/area/supply_station)
-"yM" = (
-/obj/effect/floor_decal/industrial/warning{
-	dir = 1;
-	icon_state = "stripe"
-	},
-/obj/structure/railing/mapped{
-	dir = 1
-	},
-/turf/simulated/floor/tiled,
-/area/supply_station)
-"CZ" = (
-/obj/machinery/door/blast/regular,
-/turf/simulated/floor/airless,
-/area/supply_station)
-"FW" = (
-/obj/effect/floor_decal/industrial/warning{
-	dir = 8;
-	icon_state = "stripe"
-	},
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
-	dir = 5;
+	dir = 10;
 	icon_state = "intact-scrubbers"
 	},
 /turf/simulated/floor/tiled,
 /area/supply_station)
-"JY" = (
-/obj/structure/table/woodentable,
-/turf/simulated/floor/carpet,
-/area/supply_station)
-"Ou" = (
-/obj/effect/floor_decal/industrial/warning{
-	dir = 8;
-	icon_state = "stripe"
-	},
-/turf/simulated/floor/tiled,
-/area/supply_station)
 "XL" = (
-/obj/effect/floor_decal/industrial/warning{
-	dir = 1;
-	icon_state = "stripe"
+/obj/effect/wallframe_spawn/reinforced,
+/obj/machinery/door/firedoor,
+/turf/simulated/floor/airless,
+/area/supply_station)
+"XU" = (
+/obj/machinery/light{
+	dir = 4
 	},
-/obj/structure/railing/mapped{
-	dir = 1
-	},
-/obj/machinery/computer/modular/preset/supply_public,
 /turf/simulated/floor/tiled,
+/area/supply_station)
+"Yz" = (
+/obj/effect/floor_decal/industrial/warning,
+/turf/simulated/floor/tiled,
+/area/supply_station)
+"YK" = (
+/obj/machinery/atmospherics/pipe/simple/visible/cyan{
+	dir = 5;
+	icon_state = "intact"
+	},
+/turf/simulated/floor/plating,
+/area/supply_station)
+"ZW" = (
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 5;
+	icon_state = "intact-supply"
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 6;
+	icon_state = "intact-scrubbers"
+	},
+/turf/simulated/floor/tiled/airless,
 /area/supply_station)
 
 (1,1,1) = {"
@@ -4991,19 +5002,19 @@ ak
 ak
 ak
 ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
+af
+af
+af
+af
+af
+af
+ad
+af
+af
+af
+af
+af
+af
 ak
 ak
 ak
@@ -5118,19 +5129,19 @@ ak
 ak
 ak
 ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
+ad
+ad
+ad
+ad
+ad
+ad
+ad
+ad
+ad
+ad
+ad
+ad
+ad
 ak
 ak
 ak
@@ -5245,19 +5256,19 @@ ak
 ak
 ak
 ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
+af
+af
+af
+af
+af
+af
+ad
+af
+af
+af
+af
+af
+af
 ak
 ak
 ak
@@ -5378,7 +5389,7 @@ ak
 ak
 ak
 ak
-ak
+ad
 ak
 ak
 ak
@@ -5499,19 +5510,19 @@ ak
 ak
 ak
 ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
+af
+af
+af
+af
+af
+af
+ad
+af
+af
+af
+af
+af
+af
 ak
 ak
 ak
@@ -5626,19 +5637,19 @@ ak
 ak
 ak
 ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
+ad
+ad
+ad
+ad
+ad
+ad
+ad
+ad
+ad
+ad
+ad
+ad
+ad
 ak
 ak
 ak
@@ -5753,19 +5764,19 @@ ak
 ak
 ak
 ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
+af
+af
+af
+af
+af
+af
+ad
+af
+af
+af
+af
+af
+af
 ak
 ak
 ak
@@ -5886,7 +5897,7 @@ ak
 ak
 ak
 ak
-ak
+ad
 ak
 ak
 ak
@@ -6007,19 +6018,19 @@ ak
 ak
 ak
 ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
+af
+af
+af
+af
+af
+af
+ad
+af
+af
+af
+af
+af
+af
 ak
 ak
 ak
@@ -6134,19 +6145,19 @@ ak
 ak
 ak
 ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
+ad
+ad
+ad
+ad
+ad
+ad
+ad
+ad
+ad
+ad
+ad
+ad
+ad
 ak
 ak
 ak
@@ -6245,6 +6256,22 @@ ak
 ak
 ak
 ak
+ak
+ak
+ak
+ak
+ak
+ak
+ak
+ak
+ak
+ak
+ak
+ak
+ak
+ak
+ak
+ak
 af
 af
 af
@@ -6264,26 +6291,10 @@ ak
 ak
 ak
 ak
-af
-af
-af
-af
-af
-af
-ad
-af
-af
-af
-af
-af
-af
-ad
-af
-af
-af
-af
-af
-af
+ak
+ak
+ak
+ak
 ak
 ak
 ak
@@ -6372,45 +6383,45 @@ ak
 ak
 ak
 ak
+ak
+ak
+ak
+ak
+ak
+ak
+ak
+ak
+ak
+ak
+ak
+ak
+ak
+ak
+ak
+ak
+ak
+ak
+ak
+ak
+ak
+ak
 ad
-ad
-ad
-ad
-ad
-ad
-ad
-ad
-ad
-ad
-ad
-ad
-ad
-ad
-ad
-ad
-ad
-ad
-ad
-ad
-ad
-ad
-ad
-ad
-ad
-ad
-ad
-ad
-ad
-ad
-ad
-ad
-ad
-ad
-ad
-ad
-ad
-ad
-ad
+ak
+ak
+ak
+ak
+ak
+ak
+ak
+ak
+ak
+ak
+ak
+ak
+ak
+ak
+ak
+ak
 ak
 ak
 ak
@@ -6499,21 +6510,18 @@ ak
 ak
 ak
 ak
-af
-af
-af
-af
-af
-af
-ad
-af
-af
-af
-af
-af
-af
 ak
-ad
+ak
+ak
+ak
+ak
+ak
+ak
+ak
+ak
+ak
+ak
+ak
 ak
 ak
 ak
@@ -6531,13 +6539,16 @@ af
 af
 af
 af
-ad
-af
-af
-af
-af
-af
-af
+ak
+ak
+ak
+ak
+ak
+ak
+ak
+ak
+ak
+ak
 ak
 ak
 ak
@@ -6640,21 +6651,21 @@ ak
 ak
 ak
 ak
+ak
+ak
 ad
-ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
+ad
+ad
+ad
+ad
+ad
+ad
+ad
+ad
+ad
+ad
+ad
+ad
 ak
 ak
 ak
@@ -6767,32 +6778,32 @@ ak
 ak
 ak
 ak
+ak
+ak
+af
+af
+af
+af
+af
+af
 ad
+af
+af
+af
+af
+af
+af
 ak
 ak
-aa
-aa
-aa
-aa
-aa
-ay
-aa
-aa
-aa
-ay
-aa
-aa
-aa
-ay
-aa
-aa
-aa
-ay
-aa
-aa
-aa
-aa
-aa
+ak
+ak
+ak
+ak
+ak
+ak
+ak
+ak
+ak
 ak
 ak
 ak
@@ -6880,46 +6891,46 @@ ak
 ak
 ak
 ak
-af
-af
-af
-af
-af
-af
-ad
-af
-af
-af
-af
-af
-af
+ak
+ak
+ak
+ak
+ak
+ak
+ak
+ak
+ak
+ak
+ak
+ak
+ak
+ak
+ak
+ak
+ak
+ak
+ak
+ak
+ak
 ak
 ad
 ak
-aa
-aa
-am
-aA
-bj
-am
-am
-am
-bj
-am
-am
-aA
-bj
-am
-am
-am
-bj
-am
-am
-aA
-bj
-am
-am
-aa
+ak
+ak
+ak
+ak
+ak
+ak
+ak
+ak
+ak
+ak
+ak
+ak
+ak
+ak
+ak
+ak
 ak
 ak
 ak
@@ -7007,46 +7018,46 @@ ak
 ak
 ak
 ak
+ak
+ak
+ak
+ak
+ak
+ak
+ak
+ak
+ak
+ak
+ak
+ak
+ak
+ak
+ak
+ak
+af
+af
+af
+af
+af
+af
 ad
-ad
-ad
-ad
-ad
-ad
-ad
-ad
-ad
-ad
-ad
-ad
-ad
-ad
-ad
-ad
-aa
-aa
-am
-ah
-bk
-by
-by
-by
-bk
-by
-by
-by
-bk
-by
-by
-by
-bk
-by
-by
-by
-bG
-km
-km
-aa
+af
+af
+af
+af
+af
+af
+ak
+ak
+ak
+ak
+ak
+ak
+ak
+ak
+ak
+ak
+ak
 ak
 ak
 ak
@@ -7134,46 +7145,46 @@ ak
 ak
 ak
 ak
-af
-af
-af
-af
-af
-af
-ad
-af
-af
-af
-af
-af
-af
 ak
-aF
-bn
-aa
-aa
-av
-aB
-at
-at
-at
-at
-at
-at
-at
-at
-at
-at
-at
-at
-at
-at
-at
-at
-at
-at
-at
-CZ
+ak
+ak
+ak
+ak
+ak
+ak
+ak
+ak
+ak
+ak
+ak
+ak
+ak
+ak
+ak
+ad
+ad
+ad
+ad
+ad
+ad
+ad
+ad
+ad
+ad
+ad
+ad
+ad
+ak
+ak
+ak
+ak
+ak
+ak
+ak
+ak
+ak
+ak
+ak
 ak
 ak
 ak
@@ -7274,33 +7285,33 @@ ak
 ak
 ak
 ak
-aa
-aG
-ay
-aa
-aa
-am
-bf
-at
-at
-at
-at
-at
-at
-at
-at
-at
-at
-at
-at
-at
-at
-at
-at
-at
-at
-at
-CZ
+ak
+ak
+ak
+af
+af
+af
+af
+af
+af
+ad
+af
+af
+af
+af
+af
+af
+ak
+ak
+ak
+ak
+ak
+ak
+ak
+ak
+ak
+ak
+ak
 ak
 ak
 ak
@@ -7390,44 +7401,44 @@ ak
 ak
 ak
 ak
-aa
-aa
-aa
-aa
-aa
-aa
-aa
 ak
 ak
-aa
-ay
-aa
-aX
-JY
-bA
-aa
-am
-bf
-at
-at
-at
-at
-at
-at
-at
-at
-at
-at
-at
-at
-at
-at
-at
-at
-at
-at
-at
-CZ
+ak
+ak
+ak
+ak
+ak
+ak
+ak
+ak
+ak
+ak
+ak
+ak
+ak
+ak
+ak
+ak
+ak
+ak
+ad
+ak
+yM
+ak
+ak
+ak
+ak
+ak
+ak
+ak
+ak
+ak
+ak
+ak
+ak
+ak
+ak
+ak
 ak
 ak
 ak
@@ -7517,44 +7528,44 @@ ak
 ak
 ak
 ak
-aa
-at
-at
-at
-at
-at
-aa
-aa
-aa
-aa
-bt
-aW
-bv
-aW
-aW
-aa
-av
-aB
-at
-at
-at
-at
-at
-at
-at
-at
-at
-at
-at
-at
-at
-at
-at
-at
-at
-at
-at
-CZ
+ak
+ak
+ak
+ak
+ak
+ak
+ak
+ak
+ak
+ak
+ak
+ak
+ak
+ak
+ak
+ak
+ak
+ak
+ak
+km
+ad
+yM
+yM
+ak
+ak
+ak
+ak
+ak
+ak
+ak
+ak
+ak
+ak
+ak
+ak
+ak
+ak
+ak
 ak
 ak
 ak
@@ -7644,44 +7655,44 @@ ak
 ak
 ak
 ak
-aa
-at
-at
-at
-at
-at
-bH
-am
-am
-aa
-bt
-aW
-bv
-aW
-bw
-aa
-am
-bf
-at
-at
-at
-at
-at
-at
-at
-at
-at
-at
-at
-at
-at
-at
-at
-at
-at
-at
-at
-CZ
+ak
+ak
+ak
+ak
+ak
+ak
+ak
+ak
+ak
+ak
+ak
+ak
+ak
+ak
+ak
+ak
+ak
+ak
+yM
+bs
+bx
+yM
+yM
+ak
+ak
+ak
+ak
+ak
+ak
+ak
+ak
+ak
+ak
+ak
+ak
+ak
+ak
+ak
 ak
 ak
 ak
@@ -7771,44 +7782,44 @@ ak
 ak
 ak
 ak
-aa
-at
-at
-at
-at
-at
-ba
-ao
-aw
-aa
-bs
-aW
-aX
-JY
-bB
-aa
-iS
-bf
-at
-at
-at
-at
-at
-at
-at
-at
-at
-at
-at
-at
-at
-at
-at
-at
-at
-at
-at
-CZ
+ak
+ak
+ak
+ak
+ak
+ak
+ak
+ak
+ak
+ak
+ak
+ak
+ak
+ak
+ak
+ak
+yM
+yM
+yM
+qy
+Qg
+rm
+yM
+ak
+ak
+yM
+yM
+yM
+yM
+yM
+yM
+yM
+ak
+ak
+ak
+ak
+ak
+ak
 ak
 ak
 ak
@@ -7898,44 +7909,44 @@ ak
 ak
 ak
 ak
-aa
-at
-at
-at
-at
-at
-bH
-ap
-am
-aa
-bt
-aW
-aX
-JY
+ak
+ak
+ak
+ak
+ak
+ak
+ak
+ak
+ak
+ak
+ak
+ak
+ak
+ak
+ak
+ak
+yM
+bg
 bA
-aa
-av
-aB
-at
-at
-at
-at
-at
-at
-at
-at
-at
-at
-at
-at
-at
-at
-at
-at
-at
-at
-at
 CZ
+bA
+bA
+yM
+yM
+yM
+yM
+at
+at
+at
+at
+at
+yM
+ak
+ak
+ak
+ak
+ak
+ak
 ak
 ak
 ak
@@ -8025,44 +8036,44 @@ ak
 ak
 ak
 ak
-aa
+ak
+ak
+ak
+ak
+ak
+ak
+yM
+ap
+yM
+ak
+ak
+ak
+ak
+ak
+ak
+ak
+yM
+bg
+bA
+CZ
+bA
+Kx
+yM
+am
+Uw
+Yz
 at
 at
 at
 at
 at
 yM
-ap
-am
-bp
-am
-am
-aI
-am
-am
-qy
-am
-bf
-at
-at
-at
-at
-at
-at
-at
-at
-at
-at
-at
-at
-at
-at
-at
-at
-at
-at
-at
-CZ
+ak
+ak
+ak
+ak
+ak
+ak
 ak
 ak
 ak
@@ -8152,44 +8163,44 @@ ak
 ak
 ak
 ak
-aa
-at
-at
-ab
-at
-at
+ak
+ak
+ak
+ak
+ak
+ak
 XL
-ap
-am
-bp
-am
-bz
-aI
-br
-bq
-aa
-am
-bf
+aX
+yM
+ak
+ak
+ak
+ak
+ak
+ak
+ak
+yM
+bv
+bA
+qy
+Qg
+rw
+yM
+mD
+ZW
+oN
 at
 at
 at
 at
 at
-at
-at
-at
-at
-at
-bD
-at
-at
-at
-at
-at
-at
-at
-at
-CZ
+yM
+ak
+ak
+ak
+ak
+ak
+ak
 ak
 ak
 ak
@@ -8279,44 +8290,44 @@ ak
 ak
 ak
 ak
-aa
+yM
+yM
+yM
+bx
+bx
+bx
+yM
+aq
+yM
+bx
+bx
+bx
+yM
+bx
+bx
+bx
+yM
+bg
+bA
+qy
+Qg
+rm
+yM
+am
+Mk
+Yz
 at
 at
 at
 at
 at
 yM
-aq
-bd
-ax
-as
-aY
-bu
-aZ
-bx
-bc
-bd
-bg
-at
-at
-at
-at
-at
-at
-at
-at
-at
-at
-at
-at
-at
-at
-at
-at
-at
-at
-at
-CZ
+ak
+ak
+ak
+ak
+ak
+ak
 ak
 ak
 ak
@@ -8406,44 +8417,44 @@ ak
 ak
 ak
 ak
-aa
-at
-at
-at
-at
-at
-bH
-ap
+ah
+ao
+ay
 am
-aa
-au
-au
+am
+aI
+bH
+bj
+am
+am
+am
+am
 aG
-aa
-aa
-aa
+bp
+am
+am
 az
-be
+am
+am
+bj
+am
+am
+az
+am
+Mk
+gt
 at
 at
 at
 at
 at
-at
-at
-at
-at
-at
-at
-at
-at
-at
-at
-at
-at
-at
-at
-CZ
+yM
+ak
+ak
+ak
+ak
+ak
+ak
 ak
 ak
 ak
@@ -8527,50 +8538,50 @@ ak
 ak
 ak
 ak
+ab
 ak
 ak
 ak
 ak
 ak
-ak
-aa
+ah
 at
-at
-at
-at
-at
-ba
-ar
-aw
-aa
-aO
+aA
+qK
 qK
 aD
-aK
-aH
-aa
-iS
-bh
+ba
+ar
+qK
+qK
+qK
+qK
+aD
+ba
+qK
+qK
+bq
+am
+am
+FW
+aI
+bp
+az
+am
+Mk
+eI
 at
 at
+Nq
 at
 at
-at
-at
-at
-at
-at
-at
-at
-at
-at
-at
-at
-at
-at
-at
-at
-CZ
+yM
+ak
+ak
+ak
+ak
+ak
+ak
 ak
 ak
 ak
@@ -8660,44 +8671,44 @@ ak
 ak
 ak
 ak
-aa
-at
-at
-at
-at
-at
-bH
-bb
+ah
+au
+aF
 am
-an
-aS
-at
+am
+aR
+aW
+bb
+bn
+aT
+aT
+aT
 aJ
 aE
 aT
-aa
-am
+aT
+br
 bh
+bB
+JY
+aJ
+Vg
+WG
+Oq
+ua
+gt
 at
 at
 at
 at
 at
-at
-at
-at
-at
-at
-at
-at
-at
-at
-at
-at
-at
-at
-at
-CZ
+yM
+ak
+ak
+ak
+ak
+ak
+ak
 ak
 ak
 ak
@@ -8787,44 +8798,44 @@ ak
 ak
 ak
 ak
-aa
-at
-at
-at
-at
-at
-aa
-aa
-aa
-aa
-aP
-aQ
-aL
-aM
-aN
-aa
-az
+yM
+yM
+yM
+bx
+bx
+bx
+yM
+aq
+yM
+bx
+bx
+bx
+yM
+bx
+bx
+bx
+bs
 be
+be
+bs
+VQ
+yM
+yM
+fc
+Mk
+Yz
 at
 at
 at
 at
 at
-at
-at
-at
-at
-at
-at
-at
-at
-at
-at
-at
-at
-at
-at
-CZ
+yM
+ak
+ak
+ak
+ak
+ak
+ak
 ak
 ak
 ak
@@ -8914,44 +8925,44 @@ ak
 ak
 ak
 ak
-aa
-aa
-aa
-aa
-aa
-aa
-aa
 ak
 ak
-aa
-ay
-aa
-aR
-aR
-aR
-aa
-am
-bh
+ak
+ak
+ak
+ak
+XL
+bk
+yM
+ak
+ak
+ak
+ak
+ak
+ak
+ak
+bt
+bw
+bD
+Ou
+YK
+yh
+yM
+mD
+XK
+oN
 at
 at
 at
 at
 at
-at
-at
-at
-at
-at
-at
-at
-at
-at
-at
-at
-at
-at
-at
-CZ
+yM
+ak
+ak
+ak
+ak
+ak
+ak
 ak
 ak
 ak
@@ -9047,38 +9058,38 @@ ak
 ak
 ak
 ak
+yM
+ap
+yM
 ak
 ak
 ak
 ak
 ak
-aa
-ay
-aa
-aa
-aa
+ak
+ak
+yM
+by
+at
+bD
+Bq
+vj
+yM
 am
-bh
+XU
+Yz
 at
 at
 at
 at
 at
-at
-at
-at
-at
-at
-at
-at
-at
-at
-at
-at
-at
-at
-at
-CZ
+yM
+ak
+ak
+ak
+ak
+ak
+ak
 ak
 ak
 ak
@@ -9166,46 +9177,46 @@ ak
 ak
 ak
 ak
-af
-af
-af
-af
-af
-af
-ad
-af
-af
-af
-af
-af
-af
 ak
-ad
-ad
-aa
-aa
-az
-be
+ak
+ak
+ak
+ak
+ak
+ak
+ak
+ak
+ak
+ak
+ak
+ak
+ak
+ak
+ak
+ak
+ak
+yM
+bz
+bG
+Lt
+fb
+FZ
+yM
+yM
+yM
+yM
 at
 at
 at
 at
 at
-at
-at
-at
-at
-at
-at
-at
-at
-at
-at
-at
-at
-at
-at
-CZ
+yM
+ak
+ak
+ak
+ak
+ak
+ak
 ak
 ak
 ak
@@ -9293,46 +9304,46 @@ ak
 ak
 ak
 ak
-ad
-ad
-ad
-ad
-ad
-ad
-ad
-ad
-ad
-ad
-ad
-ad
-ad
-ad
-ad
-ad
-aa
-aa
-am
-bi
-bl
+ak
+ak
+ak
+ak
+ak
+ak
+ak
+ak
+ak
+ak
+ak
+ak
+ak
+ak
+ak
+ak
+ak
+ak
+yM
+yM
+yM
 bC
 bC
 bC
-bl
-bC
-bC
-bC
-bl
-bC
-bC
-bC
-bl
-bC
-bC
-bC
-FW
-Ou
-Ou
-aa
+yM
+ak
+ak
+yM
+yM
+yM
+yM
+yM
+yM
+yM
+ak
+ak
+ak
+ak
+ak
+ak
 ak
 ak
 ak
@@ -9420,46 +9431,46 @@ ak
 ak
 ak
 ak
-af
-af
-af
-af
-af
-af
-ad
-af
-af
-af
-af
-af
-af
 ak
-ad
 ak
-aa
-aa
-am
-bb
-bm
-am
-am
-am
-bm
-am
-am
-bb
-bm
-am
-am
-am
-bm
-am
-am
-bb
-bm
-am
-am
-aa
+ak
+ak
+ak
+ak
+ak
+ak
+ak
+ak
+ak
+ak
+ak
+ak
+ak
+ak
+ak
+ak
+ak
+ak
+yM
+bx
+yM
+yM
+yM
+ak
+ak
+ak
+ak
+ak
+ak
+ak
+ak
+ak
+ak
+ak
+ak
+ak
+ak
+ak
 ak
 ak
 ak
@@ -9561,32 +9572,32 @@ ak
 ak
 ak
 ak
+ak
+ak
+ak
+ak
+ak
+ak
+ak
 ad
+ad
+yM
+yM
 ak
 ak
-aa
-aa
-aa
-aa
-aa
-ay
-aa
-aa
-aa
-ay
-aa
-aa
-aa
-ay
-aa
-aa
-aa
-ay
-aa
-aa
-aa
-aa
-aa
+ak
+ak
+ak
+ak
+ak
+ak
+ak
+ak
+ak
+ak
+ak
+ak
+ak
 ak
 ak
 ak
@@ -9688,17 +9699,17 @@ ak
 ak
 ak
 ak
+ak
+ak
+ak
+ak
+ak
+ak
+ak
+ak
 ad
 ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
+yM
 ak
 ak
 ak
@@ -9801,21 +9812,18 @@ ak
 ak
 ak
 ak
-af
-af
-af
-af
-af
-af
-ad
-af
-af
-af
-af
-af
-af
 ak
-ad
+ak
+ak
+ak
+ak
+ak
+ak
+ak
+ak
+ak
+ak
+ak
 ak
 ak
 ak
@@ -9833,13 +9841,16 @@ af
 af
 af
 af
-ad
-af
-af
-af
-af
-af
-af
+ak
+ak
+ak
+ak
+ak
+ak
+ak
+ak
+ak
+ak
 ak
 ak
 ak
@@ -9928,6 +9939,22 @@ ak
 ak
 ak
 ak
+ak
+ak
+ak
+ak
+ak
+ak
+ak
+ak
+ak
+ak
+ak
+ak
+ak
+ak
+ak
+ak
 ad
 ad
 ad
@@ -9941,32 +9968,16 @@ ad
 ad
 ad
 ad
-ad
-ad
-ad
-ad
-ad
-ad
-ad
-ad
-ad
-ad
-ad
-ad
-ad
-ad
-ad
-ad
-ad
-ad
-ad
-ad
-ad
-ad
-ad
-ad
-ad
-ad
+ak
+ak
+ak
+ak
+ak
+ak
+ak
+ak
+ak
+ak
 ak
 ak
 ak
@@ -10055,6 +10066,22 @@ ak
 ak
 ak
 ak
+ak
+ak
+ak
+ak
+ak
+ak
+ak
+ak
+ak
+ak
+ak
+ak
+ak
+ak
+ak
+ak
 af
 af
 af
@@ -10074,26 +10101,10 @@ ak
 ak
 ak
 ak
-af
-af
-af
-af
-af
-af
-ad
-af
-af
-af
-af
-af
-af
-ad
-af
-af
-af
-af
-af
-af
+ak
+ak
+ak
+ak
 ak
 ak
 ak
@@ -10204,7 +10215,7 @@ ak
 ak
 ak
 ak
-ak
+ad
 ak
 ak
 ak
@@ -10325,19 +10336,19 @@ ak
 ak
 ak
 ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
+af
+af
+af
+af
+af
+af
+ad
+af
+af
+af
+af
+af
+af
 ak
 ak
 ak
@@ -10452,19 +10463,19 @@ ak
 ak
 ak
 ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
+ad
+ad
+ad
+ad
+ad
+ad
+ad
+ad
+ad
+ad
+ad
+ad
+ad
 ak
 ak
 ak
@@ -10579,19 +10590,19 @@ ak
 ak
 ak
 ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
+af
+af
+af
+af
+af
+af
+ad
+af
+af
+af
+af
+af
+af
 ak
 ak
 ak
@@ -10712,7 +10723,7 @@ ak
 ak
 ak
 ak
-ak
+ad
 ak
 ak
 ak
@@ -10833,19 +10844,19 @@ ak
 ak
 ak
 ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
+af
+af
+af
+af
+af
+af
+ad
+af
+af
+af
+af
+af
+af
 ak
 ak
 ak
@@ -10960,19 +10971,19 @@ ak
 ak
 ak
 ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
+ad
+ad
+ad
+ad
+ad
+ad
+ad
+ad
+ad
+ad
+ad
+ad
+ad
 ak
 ak
 ak
@@ -11087,19 +11098,19 @@ ak
 ak
 ak
 ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
+af
+af
+af
+af
+af
+af
+ad
+af
+af
+af
+af
+af
+af
 ak
 ak
 ak
@@ -11220,7 +11231,7 @@ ak
 ak
 ak
 ak
-ak
+ad
 ak
 ak
 ak
@@ -11341,19 +11352,19 @@ ak
 ak
 ak
 ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
+af
+af
+af
+af
+af
+af
+ad
+af
+af
+af
+af
+af
+af
 ak
 ak
 ak
@@ -11468,19 +11479,19 @@ ak
 ak
 ak
 ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
+ad
+ad
+ad
+ad
+ad
+ad
+ad
+ad
+ad
+ad
+ad
+ad
+ad
 ak
 ak
 ak
@@ -11595,19 +11606,19 @@ ak
 ak
 ak
 ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
+af
+af
+af
+af
+af
+af
+ad
+af
+af
+af
+af
+af
+af
 ak
 ak
 ak
@@ -11728,7 +11739,7 @@ ak
 ak
 ak
 ak
-ak
+ad
 ak
 ak
 ak
@@ -11849,19 +11860,19 @@ ak
 ak
 ak
 ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
+af
+af
+af
+af
+af
+af
+ad
+af
+af
+af
+af
+af
+af
 ak
 ak
 ak
@@ -11976,19 +11987,19 @@ ak
 ak
 ak
 ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
+ad
+ad
+ad
+ad
+ad
+ad
+ad
+ad
+ad
+ad
+ad
+ad
+ad
 ak
 ak
 ak
@@ -12103,19 +12114,19 @@ ak
 ak
 ak
 ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
-ak
+af
+af
+af
+af
+af
+af
+ad
+af
+af
+af
+af
+af
+af
 ak
 ak
 ak

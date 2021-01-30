@@ -66,12 +66,6 @@ ESCAPE_POD(4)
 
 // Supply Station
 
-/obj/effect/shuttle_landmark/nav_supply_station/nav1
-	name = "Automated Supply Station Navpoint #1"
-	landmark_tag = "nav_supply_station_1"
-	base_area = /area/supply_station
-	base_turf = /turf/simulated/floor/plating
-
 /datum/shuttle/autodock/ferry/supply/cargo
 	name = "Supply"
 	warmup_time = 10
@@ -87,3 +81,8 @@ ESCAPE_POD(4)
 	landmark_tag = "nav_cargo_station"
 	base_area = /area/supply_station
 	base_turf = /turf/simulated/floor/plating
+
+/obj/effect/shuttle_landmark/nav_supply_station/nav1
+	name = "Automated Supply Station Navpoint #1"
+	landmark_tag = "nav_supply_station_1"
+	docking_controller = "ts_big_airlock"
