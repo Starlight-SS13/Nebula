@@ -93,7 +93,7 @@
 	if(isnull(new_sound))
 		return FALSE
 
-	var/new_name = input(user, "Name \the [src]:", "Song Reminiscence", "Untitled") as null|text
+	var/new_name = input(user, "Name the tape:", "Song Reminiscence", "Untitled") as null|text
 	if(isnull(new_name))
 		return FALSE
 
