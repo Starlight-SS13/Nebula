@@ -19,14 +19,15 @@
 /turf/simulated/floor/tiled/steel_grid,
 /area/supply)
 "f" = (
-/obj/effect/floor_decal/industrial/outline/yellow,
-/obj/machinery/light{
-	dir = 1
+/obj/machinery/door/blast/shutters{
+	id_tag = "supply_station_shuttle_shutter"
 	},
-/turf/simulated/floor/tiled/steel_grid,
+/turf/simulated/floor/plating,
 /area/supply)
 "g" = (
-/obj/machinery/door/blast/shutters{
+/obj/effect/wallframe_spawn/reinforced,
+/obj/machinery/door/firedoor,
+/obj/machinery/button/blast_door{
 	id_tag = "supply_station_shuttle_shutter"
 	},
 /turf/simulated/floor/plating,
@@ -57,12 +58,9 @@
 /turf/simulated/floor/tiled/steel_grid,
 /area/supply)
 "D" = (
-/obj/effect/wallframe_spawn/reinforced,
-/obj/machinery/door/firedoor,
-/obj/machinery/button/blast_door{
-	id_tag = "supply_station_shuttle_shutter"
-	},
-/turf/simulated/floor/plating,
+/obj/effect/floor_decal/industrial/outline/yellow,
+/obj/machinery/light,
+/turf/simulated/floor/tiled/steel_grid,
 /area/supply)
 "K" = (
 /obj/effect/shuttle_landmark/escape_pod/transit/pod4,
@@ -463,11 +461,11 @@ a
 a
 a
 b
-c
+f
 d
 B
 d
-g
+c
 b
 "}
 (4,1,1) = {"
@@ -590,11 +588,11 @@ a
 a
 a
 b
+f
+d
+d
+d
 c
-d
-d
-d
-g
 b
 "}
 (5,1,1) = {"
@@ -717,11 +715,11 @@ a
 a
 a
 b
+f
+d
+d
+d
 c
-d
-d
-d
-g
 b
 "}
 (6,1,1) = {"
@@ -971,11 +969,11 @@ a
 a
 a
 b
-c
-f
-e
+g
 d
+e
 D
+c
 b
 "}
 (8,1,1) = {"
@@ -1225,11 +1223,11 @@ a
 a
 a
 b
+f
+d
+d
+d
 c
-d
-d
-d
-g
 b
 "}
 (10,1,1) = {"
@@ -1352,11 +1350,11 @@ a
 a
 a
 b
+f
+d
+d
+d
 c
-d
-d
-d
-g
 b
 "}
 (11,1,1) = {"
@@ -1479,11 +1477,11 @@ a
 a
 a
 b
-c
+f
 d
 r
 d
-g
+c
 b
 "}
 (12,1,1) = {"

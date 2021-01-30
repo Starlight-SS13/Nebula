@@ -50,7 +50,7 @@
 	#include "wolf-3.dmm"
 	#include "wolf-4.dmm"
 	#include "wolf-admin.dmm"
-	#include "wolf-supply-station.dmm"
+	#include "wolf-supply.dmm"
 
 	#include "wolf_branches.dm"
 	#include "wolf_overmap.dm"
@@ -84,7 +84,7 @@
 
 	#include "turfs/fuel_tank.dm"
 
-//	#include "wolf_security_state.dm"
+	#include "wolf_security_state.dm"
 
 	#define USING_MAP_DATUM /datum/map/wolf
 
