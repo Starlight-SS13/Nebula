@@ -104,7 +104,7 @@
 	dir = 1
 	},
 /obj/structure/railing/mapped,
-/turf/exterior/open,
+/turf/simulated/open,
 /area/exoplanet/volcanic/labyrinth)
 "cL" = (
 /turf/simulated/floor/airless,
@@ -120,7 +120,7 @@
 /obj/structure/railing/mapped{
 	dir = 4
 	},
-/turf/exterior/open,
+/turf/simulated/open,
 /area/exoplanet/volcanic/labyrinth)
 "db" = (
 /obj/machinery/atmospherics/pipe/simple/hidden,
@@ -180,7 +180,7 @@
 /obj/structure/railing/mapped{
 	dir = 8
 	},
-/turf/exterior/open,
+/turf/simulated/open,
 /area/exoplanet/volcanic/labyrinth)
 "eL" = (
 /obj/structure/catwalk,
@@ -189,11 +189,11 @@
 	},
 /obj/structure/railing/mapped,
 /obj/machinery/light/navigation,
-/turf/exterior/open,
+/turf/simulated/open,
 /area/exoplanet/volcanic/labyrinth)
 "fn" = (
 /obj/structure/catwalk,
-/turf/exterior/open,
+/turf/simulated/open,
 /area/exoplanet/volcanic/labyrinth)
 "fz" = (
 /obj/machinery/shipsensors,
@@ -219,11 +219,6 @@
 /obj/machinery/atmospherics/pipe/simple/hidden,
 /turf/simulated/floor/plating,
 /area/labyrinth/eva)
-"gd" = (
-/obj/structure/catwalk,
-/obj/machinery/light/navigation,
-/turf/simulated/floor/reinforced,
-/area/labyrinth/engineering/atmospherics)
 "gy" = (
 /obj/structure/catwalk,
 /obj/structure/railing/mapped{
@@ -233,7 +228,7 @@
 	dir = 8
 	},
 /turf/simulated/floor/reinforced,
-/area/labyrinth/science/testing)
+/area/exoplanet/volcanic/labyrinth)
 "gU" = (
 /turf/simulated/wall/r_wall/prepainted,
 /area/labyrinth/science/testing)
@@ -265,6 +260,7 @@
 "hh" = (
 /obj/machinery/embedded_controller/radio/airlock/docking_port{
 	cycle_to_external_air = 1;
+	dir = 4;
 	id_tag = "exit_dock_port";
 	pixel_x = -24;
 	tag_airpump = "exit_dock_port_pump";
@@ -300,7 +296,7 @@
 /obj/structure/catwalk,
 /obj/machinery/light/navigation,
 /turf/simulated/floor/reinforced,
-/area/labyrinth/science/testing)
+/area/exoplanet/volcanic/labyrinth)
 "hS" = (
 /turf/simulated/open,
 /area/labyrinth/science/testing)
@@ -311,7 +307,7 @@
 /obj/structure/railing/mapped{
 	dir = 8
 	},
-/turf/exterior/open,
+/turf/simulated/open,
 /area/exoplanet/volcanic/labyrinth)
 "iy" = (
 /obj/structure/ladder,
@@ -329,7 +325,7 @@
 /obj/structure/railing/mapped{
 	dir = 8
 	},
-/turf/exterior/open,
+/turf/simulated/open,
 /area/exoplanet/volcanic/labyrinth)
 "iG" = (
 /obj/machinery/atmospherics/unary/vent_pump/on{
@@ -360,7 +356,7 @@
 /turf/simulated/floor/tiled/dark,
 /area/labyrinth/exploration_shuttle)
 "jb" = (
-/turf/exterior/open,
+/turf/simulated/open,
 /area/exoplanet/volcanic/labyrinth)
 "jh" = (
 /obj/machinery/atmospherics/pipe/simple/hidden{
@@ -409,7 +405,7 @@
 	dir = 1
 	},
 /turf/simulated/floor/reinforced,
-/area/labyrinth/science/testing)
+/area/exoplanet/volcanic/labyrinth)
 "ku" = (
 /obj/structure/lattice,
 /turf/simulated/open,
@@ -438,10 +434,6 @@
 /obj/effect/floor_decal/industrial/outline/yellow,
 /turf/simulated/floor/tiled/dark/monotile,
 /area/labyrinth/exploration_shuttle)
-"lq" = (
-/obj/structure/catwalk,
-/turf/simulated/floor/reinforced,
-/area/labyrinth/science/testing)
 "lJ" = (
 /obj/machinery/atmospherics/pipe/simple/hidden,
 /obj/machinery/atmospherics/pipe/manifold/hidden/supply,
@@ -480,7 +472,7 @@
 /obj/structure/railing/mapped{
 	dir = 8
 	},
-/turf/exterior/open,
+/turf/simulated/open,
 /area/exoplanet/volcanic/labyrinth)
 "mg" = (
 /obj/machinery/light,
@@ -655,13 +647,6 @@
 	},
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/labyrinth/eva)
-"pE" = (
-/obj/structure/catwalk,
-/obj/structure/railing/mapped{
-	dir = 8
-	},
-/turf/simulated/floor/reinforced,
-/area/labyrinth/engineering/atmospherics)
 "pT" = (
 /obj/structure/closet/secure_closet{
 	closet_appearance = /decl/closet_appearance/secure_closet/security;
@@ -1172,7 +1157,7 @@
 "xN" = (
 /obj/structure/catwalk,
 /obj/machinery/light/navigation,
-/turf/exterior/open,
+/turf/simulated/open,
 /area/exoplanet/volcanic/labyrinth)
 "xO" = (
 /obj/machinery/atmospherics/pipe/manifold/hidden/scrubbers{
@@ -1234,7 +1219,7 @@
 /area/labyrinth/eva)
 "yd" = (
 /obj/structure/lattice,
-/turf/exterior/open,
+/turf/simulated/open,
 /area/exoplanet/volcanic/labyrinth)
 "yu" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
@@ -1383,22 +1368,9 @@
 /obj/machinery/door/firedoor,
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/labyrinth/eva)
-"BI" = (
-/obj/structure/catwalk,
-/obj/structure/railing/mapped,
-/obj/structure/railing/mapped{
-	dir = 8
-	},
-/turf/simulated/floor/reinforced,
-/area/labyrinth/science/testing)
 "BO" = (
 /turf/simulated/wall/r_wall/prepainted,
 /area/labyrinth/maintenance/shaft)
-"BR" = (
-/obj/structure/catwalk,
-/obj/structure/railing/mapped,
-/turf/simulated/floor/reinforced,
-/area/labyrinth/science/testing)
 "BU" = (
 /obj/machinery/network/router,
 /turf/simulated/floor/bluegrid,
@@ -1531,7 +1503,7 @@
 /obj/structure/railing/mapped{
 	dir = 1
 	},
-/turf/exterior/open,
+/turf/simulated/open,
 /area/exoplanet/volcanic/labyrinth)
 "DS" = (
 /obj/machinery/door/firedoor,
@@ -1766,7 +1738,7 @@
 "Jm" = (
 /obj/structure/catwalk,
 /obj/structure/railing/mapped,
-/turf/exterior/open,
+/turf/simulated/open,
 /area/exoplanet/volcanic/labyrinth)
 "Jp" = (
 /obj/structure/table/standard,
@@ -2009,7 +1981,7 @@
 /obj/structure/catwalk,
 /obj/structure/railing/mapped,
 /turf/simulated/floor/reinforced,
-/area/labyrinth/engineering/atmospherics)
+/area/exoplanet/volcanic/labyrinth)
 "Pl" = (
 /obj/structure/catwalk,
 /obj/structure/railing/mapped{
@@ -2026,7 +1998,7 @@
 	dir = 4
 	},
 /obj/machinery/light/navigation,
-/turf/exterior/open,
+/turf/simulated/open,
 /area/exoplanet/volcanic/labyrinth)
 "Pr" = (
 /obj/structure/catwalk,
@@ -2037,14 +2009,14 @@
 	dir = 8
 	},
 /obj/machinery/light/navigation,
-/turf/exterior/open,
+/turf/simulated/open,
 /area/exoplanet/volcanic/labyrinth)
 "PS" = (
 /obj/structure/catwalk,
 /obj/structure/railing/mapped{
 	dir = 4
 	},
-/turf/exterior/open,
+/turf/simulated/open,
 /area/exoplanet/volcanic/labyrinth)
 "PY" = (
 /turf/simulated/floor/tiled/dark,
@@ -2101,7 +2073,7 @@
 	},
 /obj/structure/railing/mapped,
 /turf/simulated/floor/reinforced,
-/area/labyrinth/engineering/atmospherics)
+/area/exoplanet/volcanic/labyrinth)
 "RN" = (
 /obj/structure/bed/chair/office/comfy/blue{
 	dir = 4
@@ -2116,7 +2088,7 @@
 /obj/structure/railing/mapped{
 	dir = 8
 	},
-/turf/exterior/open,
+/turf/simulated/open,
 /area/exoplanet/volcanic/labyrinth)
 "Sp" = (
 /obj/structure/catwalk,
@@ -2145,7 +2117,7 @@
 	dir = 4
 	},
 /obj/structure/railing/mapped,
-/turf/exterior/open,
+/turf/simulated/open,
 /area/exoplanet/volcanic/labyrinth)
 "Tl" = (
 /obj/structure/catwalk,
@@ -2153,7 +2125,7 @@
 	dir = 8
 	},
 /obj/structure/railing/mapped,
-/turf/exterior/open,
+/turf/simulated/open,
 /area/exoplanet/volcanic/labyrinth)
 "Tq" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
@@ -2285,10 +2257,6 @@
 	},
 /turf/simulated/floor/tiled/dark/monotile,
 /area/labyrinth/hallway/tower)
-"VG" = (
-/obj/structure/catwalk,
-/turf/simulated/floor/reinforced,
-/area/labyrinth/engineering/atmospherics)
 "VI" = (
 /obj/machinery/light{
 	dir = 4
@@ -2307,13 +2275,6 @@
 "Wm" = (
 /turf/simulated/wall/r_wall/prepainted,
 /area/labyrinth/bridge)
-"WC" = (
-/obj/structure/catwalk,
-/obj/structure/railing/mapped{
-	dir = 4
-	},
-/turf/simulated/floor/reinforced,
-/area/labyrinth/engineering/atmospherics)
 "WL" = (
 /obj/machinery/light/small/red,
 /obj/structure/catwalk,
@@ -2331,7 +2292,7 @@
 	dir = 8
 	},
 /turf/simulated/floor/reinforced,
-/area/labyrinth/engineering/atmospherics)
+/area/exoplanet/volcanic/labyrinth)
 "XS" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
@@ -2431,7 +2392,7 @@
 /obj/effect/landmark/map_data{
 	height = 3
 	},
-/turf/exterior/open,
+/turf/simulated/open,
 /area/exoplanet/volcanic/labyrinth)
 
 (1,1,1) = {"
@@ -10701,9 +10662,9 @@ jb
 jb
 jb
 DH
-pE
-pE
-pE
+Pl
+Pl
+Pl
 XR
 jb
 jb
@@ -10831,9 +10792,9 @@ jb
 jb
 jb
 DH
-VG
-gd
-VG
+Sp
+hQ
+Sp
 Pj
 jb
 jb
@@ -10961,9 +10922,9 @@ jb
 jb
 jb
 da
-WC
-WC
-WC
+Jl
+Jl
+Jl
 RJ
 jb
 jb
@@ -12113,8 +12074,8 @@ jb
 jb
 jb
 gy
-lq
-BI
+Sp
+XR
 jb
 jb
 RV
@@ -12243,8 +12204,8 @@ jb
 jb
 jb
 kj
-lq
-BR
+Sp
+Pj
 jb
 jb
 DH
@@ -12373,8 +12334,8 @@ jb
 jb
 jb
 kj
-lq
-BR
+Sp
+Pj
 jb
 jb
 DH
@@ -12504,7 +12465,7 @@ jb
 jb
 kj
 hQ
-lq
+Sp
 iC
 iC
 fn
@@ -12633,8 +12594,8 @@ jb
 jb
 jb
 kj
-lq
-BR
+Sp
+Pj
 jb
 jb
 DH
@@ -12763,8 +12724,8 @@ jb
 jb
 jb
 kj
-lq
-BR
+Sp
+Pj
 jb
 jb
 DH
@@ -12893,8 +12854,8 @@ jb
 jb
 jb
 kj
-lq
-BR
+Sp
+Pj
 jb
 jb
 da

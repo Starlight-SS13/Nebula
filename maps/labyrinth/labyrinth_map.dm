@@ -26,6 +26,6 @@
 		var/obj/effect/overmap/visitable/sector/exoplanet/new_planet = new exoplanet_type(null, world.maxz)
 		new_planet.build_level(planet_size[1], planet_size[2])
 
-	var/obj/effect/overmap/visitable/sector/exoplanet/labyrinth = new /obj/effect/overmap/visitable/sector/exoplanet/volcanic/labyrinth(null, station_levels.len)
+	var/obj/effect/overmap/visitable/sector/exoplanet/labyrinth = new /obj/effect/overmap/visitable/sector/exoplanet/volcanic/labyrinth(null, 2)
 	labyrinth.build_level(planet_size[1], planet_size[2])
 	exterior_atmosphere.copy_from(labyrinth.atmosphere)
