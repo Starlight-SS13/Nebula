@@ -2,35 +2,19 @@
 "a" = (
 /turf/space,
 /area/space)
-"b" = (
-/turf/simulated/shuttle/wall,
-/area/space)
 "c" = (
-/obj/effect/paint/sun,
-/turf/simulated/wall/r_titanium,
-/area/supply)
+/turf/simulated/wall,
+/area/space)
 "d" = (
 /obj/effect/floor_decal/industrial/outline/yellow,
 /turf/simulated/floor/tiled/steel_grid,
 /area/supply)
-"e" = (
-/obj/effect/shuttle_landmark/supply/start,
-/obj/effect/floor_decal/industrial/outline/yellow,
-/turf/simulated/floor/tiled/steel_grid,
-/area/supply)
-"f" = (
-/obj/machinery/door/blast/shutters{
-	id_tag = "supply_station_shuttle_shutter"
-	},
-/turf/simulated/floor/plating,
-/area/supply)
 "g" = (
-/obj/effect/wallframe_spawn/reinforced,
-/obj/machinery/door/firedoor,
-/obj/machinery/button/blast_door{
-	id_tag = "supply_station_shuttle_shutter"
+/obj/effect/floor_decal/industrial/outline/yellow,
+/obj/effect/floor_decal/industrial/warning{
+	dir = 4
 	},
-/turf/simulated/floor/plating,
+/turf/simulated/floor/tiled/steel_grid,
 /area/supply)
 "h" = (
 /obj/effect/shuttle_landmark/escape_pod/transit/pod2,
@@ -38,7 +22,17 @@
 /area/space)
 "r" = (
 /obj/effect/floor_decal/industrial/outline/yellow,
+/obj/effect/floor_decal/industrial/warning{
+	dir = 9
+	},
+/turf/simulated/floor/tiled/steel_grid,
+/area/supply)
+"s" = (
 /obj/machinery/light{
+	dir = 4
+	},
+/obj/effect/floor_decal/industrial/outline/yellow,
+/obj/effect/floor_decal/industrial/warning{
 	dir = 4
 	},
 /turf/simulated/floor/tiled/steel_grid,
@@ -52,14 +46,42 @@
 /area/space)
 "B" = (
 /obj/effect/floor_decal/industrial/outline/yellow,
-/obj/machinery/light{
+/obj/effect/floor_decal/industrial/warning{
 	dir = 8
 	},
 /turf/simulated/floor/tiled/steel_grid,
 /area/supply)
 "D" = (
 /obj/effect/floor_decal/industrial/outline/yellow,
-/obj/machinery/light,
+/obj/effect/floor_decal/industrial/warning{
+	dir = 6
+	},
+/turf/simulated/floor/tiled/steel_grid,
+/area/supply)
+"E" = (
+/obj/effect/floor_decal/industrial/outline/yellow,
+/obj/effect/floor_decal/industrial/warning{
+	dir = 1
+	},
+/turf/simulated/floor/tiled/steel_grid,
+/area/supply)
+"H" = (
+/obj/effect/floor_decal/industrial/outline/yellow,
+/obj/effect/floor_decal/industrial/warning,
+/turf/simulated/floor/tiled/steel_grid,
+/area/supply)
+"I" = (
+/obj/effect/floor_decal/industrial/outline/yellow,
+/obj/effect/floor_decal/industrial/warning{
+	dir = 5
+	},
+/turf/simulated/floor/tiled/steel_grid,
+/area/supply)
+"J" = (
+/obj/effect/floor_decal/industrial/outline/yellow,
+/obj/effect/floor_decal/industrial/warning{
+	dir = 10
+	},
 /turf/simulated/floor/tiled/steel_grid,
 /area/supply)
 "K" = (
@@ -78,6 +100,16 @@
 /obj/effect/shuttle_landmark/escape_pod/out/pod1,
 /turf/space/transit/east,
 /area/space)
+"T" = (
+/obj/machinery/light{
+	dir = 8
+	},
+/obj/effect/floor_decal/industrial/outline/yellow,
+/obj/effect/floor_decal/industrial/warning{
+	dir = 8
+	},
+/turf/simulated/floor/tiled/steel_grid,
+/area/supply)
 "U" = (
 /obj/effect/shuttle_landmark/escape_pod/transit/pod3,
 /turf/space/transit/east,
@@ -86,6 +118,11 @@
 /obj/effect/shuttle_landmark/escape_pod/transit/pod1,
 /turf/space/transit/east,
 /area/space)
+"X" = (
+/obj/effect/shuttle_landmark/supply/start,
+/obj/effect/floor_decal/industrial/outline/yellow,
+/turf/simulated/floor/tiled/steel_grid,
+/area/supply)
 
 (1,1,1) = {"
 a
@@ -206,13 +243,13 @@ a
 a
 a
 a
-b
-b
-b
-b
-b
-b
-b
+a
+a
+a
+a
+a
+a
+a
 "}
 (2,1,1) = {"
 a
@@ -332,14 +369,14 @@ a
 a
 a
 a
+c
+c
+c
+c
+c
+c
+c
 a
-b
-c
-c
-c
-c
-c
-b
 "}
 (3,1,1) = {"
 a
@@ -459,14 +496,14 @@ a
 a
 a
 a
-a
-b
-f
-d
-B
-d
 c
-b
+r
+B
+T
+B
+J
+c
+a
 "}
 (4,1,1) = {"
 a
@@ -586,14 +623,14 @@ a
 a
 a
 a
-a
-b
-f
-d
-d
-d
 c
-b
+E
+d
+d
+d
+H
+c
+a
 "}
 (5,1,1) = {"
 a
@@ -713,14 +750,14 @@ a
 a
 a
 a
-a
-b
-f
-d
-d
-d
 c
-b
+E
+d
+X
+d
+H
+c
+a
 "}
 (6,1,1) = {"
 a
@@ -840,14 +877,14 @@ a
 a
 a
 a
+c
+E
+d
+d
+d
+H
+c
 a
-b
-c
-d
-d
-d
-c
-b
 "}
 (7,1,1) = {"
 a
@@ -967,14 +1004,14 @@ a
 a
 a
 a
-a
-b
+c
+I
 g
-d
-e
+s
+g
 D
 c
-b
+a
 "}
 (8,1,1) = {"
 a
@@ -1094,14 +1131,14 @@ a
 a
 a
 a
+c
+c
+c
+c
+c
+c
+c
 a
-b
-c
-d
-d
-d
-c
-b
 "}
 (9,1,1) = {"
 a
@@ -1222,13 +1259,13 @@ a
 a
 a
 a
-b
-f
-d
-d
-d
-c
-b
+a
+a
+a
+a
+a
+a
+a
 "}
 (10,1,1) = {"
 a
@@ -1349,13 +1386,13 @@ a
 a
 a
 a
-b
-f
-d
-d
-d
-c
-b
+a
+a
+a
+a
+a
+a
+a
 "}
 (11,1,1) = {"
 a
@@ -1476,13 +1513,13 @@ a
 a
 a
 a
-b
-f
-d
-r
-d
-c
-b
+a
+a
+a
+a
+a
+a
+a
 "}
 (12,1,1) = {"
 a
@@ -1603,13 +1640,13 @@ a
 a
 a
 a
-b
-c
-c
-c
-c
-c
-b
+a
+a
+a
+a
+a
+a
+a
 "}
 (13,1,1) = {"
 a
@@ -1730,13 +1767,13 @@ a
 a
 a
 a
-b
-b
-b
-b
-b
-b
-b
+a
+a
+a
+a
+a
+a
+a
 "}
 (14,1,1) = {"
 a

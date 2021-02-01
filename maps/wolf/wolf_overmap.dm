@@ -13,6 +13,7 @@
 
 /obj/effect/overmap/visitable/sector/supply_station
 	name = "Automated Supply Station"
+	desc = "A supply station. These are usually deployed en-masse for the occasional explorer to resupply at."
 	color = "#00ffff"
 	start_x = 4
 	start_y = 4

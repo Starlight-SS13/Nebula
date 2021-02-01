@@ -66,13 +66,16 @@ ESCAPE_POD(4)
 
 // Supply Station
 
-/datum/shuttle/autodock/ferry/supply/cargo
+/datum/shuttle/autodock/ferry/supply/lift
+	name = "Supply Lift"
 	name = "Supply"
 	warmup_time = 10
 	location = 1
 	shuttle_area = /area/supply
 	waypoint_offsite = "nav_cargo_start"
 	waypoint_station = "nav_cargo_station"
+	sound_takeoff = 'sound/effects/lift_heavy_start.ogg'
+	sound_landing = 'sound/effects/lift_heavy_stop.ogg'
 
 /obj/effect/shuttle_landmark/supply/start
 	landmark_tag = "nav_cargo_start"
