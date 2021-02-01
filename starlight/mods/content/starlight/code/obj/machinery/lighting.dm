@@ -1,7 +1,11 @@
 /obj/item/light
-	var/enviroment_sound = 'starlight/mods/content/starlight/sound/obj/machinery/neon_hum.ogg'
+	var/enviroment_sound
 	var/enviroment_sound_range = 3
 	var/enviroment_sound_volume = 30
+
+/obj/item/light/bulb
+	enviroment_sound = 'starlight/mods/content/starlight/sound/obj/machinery/neon_hum.ogg'
+	enviroment_sound_volume = 20
 
 /obj/machinery/light
 	var/sound_id
@@ -16,11 +20,11 @@
 		QDEL_NULL(sound_token)
 
 #define UPDATE_ENVIROMENT_SOUND_MACRO_INHERITER(lproc) ##lproc{. = ..(); update_enviroment_sound();}
-UPDATE_ENVIROMENT_SOUND_MACRO_INHERITER(/obj/machinery/light/Initialize(...))
-UPDATE_ENVIROMENT_SOUND_MACRO_INHERITER(/obj/machinery/light/seton(...))
+UPDATE_ENVIROMENT_SOUND_MACRO_INHERITER(/obj/machinery/light/Initialize())
+UPDATE_ENVIROMENT_SOUND_MACRO_INHERITER(/obj/machinery/light/seton())
 UPDATE_ENVIROMENT_SOUND_MACRO_INHERITER(/obj/machinery/light/broken())
 UPDATE_ENVIROMENT_SOUND_MACRO_INHERITER(/obj/machinery/light/fix())
-UPDATE_ENVIROMENT_SOUND_MACRO_INHERITER(/obj/machinery/light/insert_bulb(...))
+UPDATE_ENVIROMENT_SOUND_MACRO_INHERITER(/obj/machinery/light/insert_bulb())
 UPDATE_ENVIROMENT_SOUND_MACRO_INHERITER(/obj/machinery/light/remove_bulb())
 #undef UPDATE_ENVIROMENT_SOUND_MACRO_INHERITER
 
