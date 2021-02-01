@@ -48,7 +48,7 @@
 	#include "wolf-2.dmm"
 	#include "wolf-3.dmm"
 	#include "wolf-4.dmm"
-	#include "wolf-admin.dmm"
+	#include "wolf-extras.dmm"
 	#include "wolf-supply.dmm"
 
 	#include "wolf_branches.dm"
