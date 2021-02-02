@@ -44,16 +44,12 @@
 	#include "constellation_documents.dm"
 	#include "constellation_jobs.dm"
 	#include "constellation_loadout.dm"
+	#include "constellation_lobby.dm"
 	#include "constellation_overmap.dm"
 	#include "constellation_overrides.dm"
 	#include "constellation_shuttles.dm"
 	#include "constellation_spawnpoints.dm"
 	#include "constellation_unit_testing.dm"
-
-	#include "constellation-1.dmm"
-	#include "constellation-2.dmm"
-	#include "constellation-3.dmm"
-	#include "constellation-4.dmm"
 
 	#include "jobs/_goals.dm"
 	#include "jobs/_jobs.dm"
@@ -66,6 +62,11 @@
 	#include "outfits/engineering.dm"
 	#include "outfits/medical.dm"
 	#include "outfits/science.dm"
+
+	#include "constellation-1.dmm"
+	#include "constellation-2.dmm"
+	#include "constellation-3.dmm"
+	#include "constellation-4.dmm"
 
 	#define USING_MAP_DATUM /datum/map/constellation
 

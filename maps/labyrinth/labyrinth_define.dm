@@ -12,8 +12,6 @@
 	company_name   = "Centrius"
 	company_short  = "CUS"
 
-	welcome_sound = 'maps/labyrinth/media/welcome.ogg'
-
 	station_levels = list(1,2,3)
 	contact_levels = list(1,2,3)
 	player_levels  = list(1,2,3)
@@ -23,15 +21,7 @@
 	overmap_event_areas = 6
 	num_exoplanets      = 2
 
-	radiation_detected_message = "High levels of radiation have been detected in proximity of the %STATION_NAME%. Ensure that all areas all shielded properly. EVA cut recommended."
-
-	radiation_detected_sound     = 'starlight/mods/content/interpack/sound/announcements/threat.ogg'
-	space_time_anomaly_sound     = 'starlight/mods/content/interpack/sound/announcements/subspace.ogg'
-	unidentified_lifesigns_sound = 'starlight/mods/content/interpack/sound/announcements/threat.ogg'
-	command_report_sound         = 'starlight/mods/content/interpack/sound/announcements/attention.ogg'
-	grid_check_sound             = 'starlight/mods/content/interpack/sound/announcements/warning.ogg'
-	grid_restored_sound          = 'starlight/mods/content/interpack/sound/announcements/warning.ogg'
-	meteor_detected_sound        = 'starlight/mods/content/interpack/sound/announcements/threat.ogg'
+	welcome_sound = 'maps/labyrinth/media/welcome.ogg'
 
 	starting_money = 5000
 	department_money = 0
@@ -40,10 +30,20 @@
 	allowed_spawns = list("Cryogenic Storage")
 	default_spawn  = "Cryogenic Storage"
 
+	radiation_detected_message = "High levels of radiation have been detected in proximity of the %STATION_NAME%. Ensure that all areas all shielded properly. EVA cut recommended."
+
 	emergency_shuttle_leaving_dock   = "Attention all hands: the escape pods have been launched, maintaining burn for %ETA%."
 	emergency_shuttle_called_message = "Attention all hands: emergency evacuation procedures are now in effect. Escape pods will launch in %ETA%"
 	emergency_shuttle_recall_message = "Attention all hands: emergency evacuation sequence aborted. Return to normal operating conditions."
 	evac_controller_type             = /datum/evacuation_controller/lifepods
+
+	radiation_detected_sound     = 'starlight/mods/content/interpack/sound/announcements/threat.ogg'
+	space_time_anomaly_sound     = 'starlight/mods/content/interpack/sound/announcements/subspace.ogg'
+	unidentified_lifesigns_sound = 'starlight/mods/content/interpack/sound/announcements/threat.ogg'
+	command_report_sound         = 'starlight/mods/content/interpack/sound/announcements/attention.ogg'
+	grid_check_sound             = 'starlight/mods/content/interpack/sound/announcements/warning.ogg'
+	grid_restored_sound          = 'starlight/mods/content/interpack/sound/announcements/warning.ogg'
+	meteor_detected_sound        = 'starlight/mods/content/interpack/sound/announcements/threat.ogg'
 
 /datum/map/labyrinth/get_map_info()
 	return {"<center><small>When I was little,<br> \
