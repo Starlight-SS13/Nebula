@@ -1,4 +1,4 @@
-/datum/map/labyrinth
+/datum/map/constellation
 	lobby_screens = list(
 		'maps/constellation/media/constellation.png'
 	)

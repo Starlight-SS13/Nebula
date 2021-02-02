@@ -14,6 +14,7 @@
 
 // STARLIGHT MODS START
 	#include "../../starlight/mods/content/starlight/_starlight.dme"
+	#include "../../starlight/mods/content/interaction/_interaction.dme"
 
 	#include "../../starlight/mods/species/booster/_booster.dme"
 	#include "../../starlight/mods/species/resomi/_resomi.dme"
