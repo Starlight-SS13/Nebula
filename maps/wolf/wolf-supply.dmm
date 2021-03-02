@@ -115,7 +115,8 @@
 "aI" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/machinery/atmospherics/unary/vent_pump/on,
-/turf/simulated/floor/carpet/green,
+/obj/structure/table/woodentable/mahogany,
+/turf/simulated/floor/carpet/purple,
 /area/supply_station)
 "aJ" = (
 /obj/effect/decal/cleanable/dirt,
@@ -127,17 +128,30 @@
 	dir = 4
 	},
 /obj/machinery/light/small,
-/turf/simulated/floor/carpet/green,
+/turf/simulated/floor/carpet/purple,
 /area/supply_station)
 "aK" = (
 /obj/machinery/light/small{
 	dir = 1
 	},
-/turf/simulated/floor/carpet/green,
+/obj/machinery/button/alternate/door/bolts{
+	id_tag = "wolf_supply_dormone";
+	name = "door bolt control";
+	pixel_x = 5;
+	pixel_y = 32
+	},
+/obj/machinery/button/blast_door{
+	id_tag = "supply_shuttercabone";
+	name = "shutter control";
+	pixel_x = -8;
+	pixel_y = 32
+	},
+/turf/simulated/floor/carpet/purple,
 /area/supply_station)
 "aL" = (
 /obj/machinery/atmospherics/unary/vent_pump/on,
-/turf/simulated/floor/carpet/green,
+/obj/structure/table/woodentable/mahogany,
+/turf/simulated/floor/carpet/red,
 /area/supply_station)
 "aM" = (
 /obj/effect/decal/cleanable/generic,
@@ -150,7 +164,7 @@
 "aN" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/structure/closet/secure_closet/personal/cabinet,
-/turf/simulated/floor/carpet/green,
+/turf/simulated/floor/carpet/red,
 /area/supply_station)
 "aO" = (
 /obj/effect/decal/cleanable/dirt,
@@ -162,7 +176,7 @@
 	dir = 6;
 	icon_state = "intact-supply"
 	},
-/turf/simulated/floor/carpet/green,
+/turf/simulated/floor/carpet/red,
 /area/supply_station)
 "aP" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
@@ -173,7 +187,7 @@
 	dir = 4
 	},
 /obj/machinery/light/small,
-/turf/simulated/floor/carpet/green,
+/turf/simulated/floor/carpet/red,
 /area/supply_station)
 "aQ" = (
 /obj/structure/bed,
@@ -182,7 +196,7 @@
 	dir = 9;
 	icon_state = "intact-supply"
 	},
-/turf/simulated/floor/carpet/green,
+/turf/simulated/floor/carpet/red,
 /area/supply_station)
 "aR" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
@@ -201,6 +215,7 @@
 "aT" = (
 /obj/machinery/door/firedoor,
 /obj/machinery/door/airlock/civilian{
+	id_tag = "wolf_supply_dormtwo";
 	name = "Cabin Two"
 	},
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
@@ -665,7 +680,7 @@
 	dir = 5;
 	icon_state = "intact-supply"
 	},
-/turf/simulated/floor/carpet/green,
+/turf/simulated/floor/carpet/purple,
 /area/supply_station)
 "ed" = (
 /obj/machinery/door/airlock/civilian{
@@ -749,6 +764,7 @@
 /obj/structure/cable/yellow{
 	dir = 8
 	},
+/obj/effect/decal/cleanable/blood/oil,
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/supply_station)
 "fV" = (
@@ -775,7 +791,19 @@
 /obj/machinery/light/small{
 	dir = 1
 	},
-/turf/simulated/floor/carpet/green,
+/obj/machinery/button/alternate/door/bolts{
+	id_tag = "wolf_supply_dormtwo";
+	name = "door bolt control";
+	pixel_x = -5;
+	pixel_y = 32
+	},
+/obj/machinery/button/blast_door{
+	id_tag = "supply_shuttercabtwo";
+	name = "shutter control";
+	pixel_x = 8;
+	pixel_y = 32
+	},
+/turf/simulated/floor/carpet/red,
 /area/supply_station)
 "gA" = (
 /obj/effect/floor_decal/corner/red/diagonal,
@@ -851,7 +879,8 @@
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/supply_station)
 "ik" = (
-/obj/structure/reagent_dispensers/watertank,
+/obj/structure/mopbucket,
+/obj/item/chems/glass/bucket,
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/supply_station)
 "ip" = (
@@ -1015,7 +1044,7 @@
 /area/supply_station)
 "mx" = (
 /obj/effect/decal/cleanable/dirt,
-/turf/simulated/floor/carpet/green,
+/turf/simulated/floor/carpet/red,
 /area/supply_station)
 "mB" = (
 /obj/effect/decal/cleanable/dirt,
@@ -1075,6 +1104,14 @@
 	},
 /turf/simulated/floor/tiled/dark,
 /area/supply_station)
+"np" = (
+/obj/effect/wallframe_spawn/reinforced,
+/obj/machinery/door/firedoor,
+/obj/machinery/door/blast/shutters{
+	id_tag = "supply_shuttercabtwo"
+	},
+/turf/simulated/floor/plating,
+/area/supply_station)
 "nC" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/machinery/door/firedoor,
@@ -1084,7 +1121,7 @@
 /turf/simulated/floor/tiled/dark,
 /area/supply_station)
 "nF" = (
-/turf/simulated/floor/carpet/green,
+/turf/simulated/floor/carpet/purple,
 /area/supply_station)
 "nQ" = (
 /obj/effect/decal/cleanable/dirt,
@@ -1378,7 +1415,7 @@
 /area/supply_station)
 "tQ" = (
 /obj/structure/closet/secure_closet/personal/cabinet,
-/turf/simulated/floor/carpet/green,
+/turf/simulated/floor/carpet/purple,
 /area/supply_station)
 "uh" = (
 /obj/effect/decal/cleanable/dirt,
@@ -1412,6 +1449,7 @@
 /obj/effect/floor_decal/corner/yellow{
 	dir = 9
 	},
+/obj/effect/decal/cleanable/blood/oil,
 /turf/simulated/floor/tiled/dark,
 /area/supply_station)
 "vA" = (
@@ -1434,6 +1472,13 @@
 	},
 /turf/simulated/floor/tiled/dark,
 /area/supply_station)
+"wi" = (
+/obj/effect/floor_decal/corner/yellow{
+	dir = 6
+	},
+/obj/effect/decal/cleanable/blood/oil,
+/turf/simulated/floor/tiled/dark,
+/area/supply_station)
 "wr" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/structure/table/rack,
@@ -1446,6 +1491,7 @@
 "wN" = (
 /obj/random/drinkbottle,
 /obj/structure/table/rack,
+/obj/item/mop,
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/supply_station)
 "wT" = (
@@ -1515,6 +1561,14 @@
 /obj/effect/floor_decal/corner/yellow/three_quarters,
 /turf/simulated/floor/tiled/dark,
 /area/supply_station)
+"yI" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/floor_decal/corner/yellow{
+	dir = 6
+	},
+/obj/effect/decal/cleanable/blood/oil,
+/turf/simulated/floor/tiled/dark,
+/area/supply_station)
 "yJ" = (
 /obj/effect/floor_decal/corner/yellow{
 	dir = 10
@@ -1566,6 +1620,13 @@
 "zS" = (
 /obj/machinery/atmospherics/unary/vent_scrubber/on,
 /turf/simulated/floor/tiled/techfloor/grid,
+/area/supply_station)
+"zZ" = (
+/obj/effect/floor_decal/corner/yellow{
+	dir = 8
+	},
+/obj/effect/decal/cleanable/blood/oil,
+/turf/simulated/floor/tiled/dark,
 /area/supply_station)
 "Ad" = (
 /obj/effect/catwalk_plated/dark,
@@ -1628,7 +1689,7 @@
 	dir = 10;
 	icon_state = "intact-supply"
 	},
-/turf/simulated/floor/carpet/green,
+/turf/simulated/floor/carpet/purple,
 /area/supply_station)
 "BE" = (
 /obj/structure/cable/yellow{
@@ -1672,6 +1733,10 @@
 /obj/machinery/vending/hotfood,
 /turf/simulated/floor/wood/walnut,
 /area/supply_station)
+"Dl" = (
+/obj/effect/decal/cleanable/blood/oil,
+/turf/simulated/floor/tiled/techfloor/grid,
+/area/supply_station)
 "Dq" = (
 /obj/structure/bookcase/manuals/medical,
 /turf/simulated/floor/carpet/green,
@@ -1686,14 +1751,20 @@
 	},
 /turf/simulated/floor/tiled/dark,
 /area/supply_station)
+"DA" = (
+/obj/effect/floor_decal/corner/yellow{
+	dir = 10
+	},
+/obj/effect/decal/cleanable/blood/oil,
+/turf/simulated/floor/tiled/dark,
+/area/supply_station)
 "El" = (
 /obj/effect/decal/cleanable/dirt,
-/obj/structure/table/standard,
+/obj/machinery/vending/cigarette,
 /turf/simulated/floor/wood/walnut,
 /area/supply_station)
 "En" = (
-/obj/structure/table/standard,
-/obj/item/mop,
+/obj/structure/table/woodentable/mahogany,
 /obj/machinery/light{
 	dir = 1
 	},
@@ -1984,6 +2055,14 @@
 	},
 /turf/simulated/floor/wood/walnut,
 /area/supply_station)
+"Lp" = (
+/obj/effect/wallframe_spawn/reinforced,
+/obj/machinery/door/firedoor,
+/obj/machinery/door/blast/shutters{
+	id_tag = "supply_shuttercabone"
+	},
+/turf/simulated/floor/plating,
+/area/supply_station)
 "Ls" = (
 /obj/effect/floor_decal/corner/orange{
 	dir = 5;
@@ -2091,6 +2170,7 @@
 "NU" = (
 /obj/machinery/door/firedoor,
 /obj/machinery/door/airlock/civilian{
+	id_tag = "wolf_supply_dormone";
 	name = "Cabin One"
 	},
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
@@ -2145,7 +2225,10 @@
 /area/supply_station)
 "OD" = (
 /obj/machinery/atmospherics/unary/vent_scrubber/on,
-/turf/simulated/floor/carpet/green,
+/obj/structure/bed/chair/wood/mahogany{
+	dir = 8
+	},
+/turf/simulated/floor/carpet/purple,
 /area/supply_station)
 "OM" = (
 /obj/structure/cable/yellow{
@@ -2197,6 +2280,11 @@
 /obj/effect/floor_decal/corner/yellow/three_quarters,
 /turf/simulated/floor/tiled/dark,
 /area/supply_station)
+"PN" = (
+/obj/effect/floor_decal/industrial/warning,
+/obj/effect/decal/cleanable/blood/oil,
+/turf/simulated/floor/tiled/dark,
+/area/supply_station)
 "PS" = (
 /obj/machinery/light,
 /obj/effect/floor_decal/corner/yellow{
@@ -2245,6 +2333,7 @@
 "Qt" = (
 /obj/structure/table/woodentable/mahogany,
 /obj/machinery/light,
+/obj/item/ashtray/glass,
 /turf/simulated/floor/carpet/red,
 /area/supply_station)
 "Qx" = (
@@ -2270,6 +2359,13 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
 /turf/simulated/floor/tiled/dark/monotile,
+/area/supply_station)
+"Rn" = (
+/obj/machinery/atmospherics/unary/vent_scrubber/on,
+/obj/structure/bed/chair/wood/mahogany{
+	dir = 4
+	},
+/turf/simulated/floor/carpet/red,
 /area/supply_station)
 "RH" = (
 /obj/item/bikehorn,
@@ -2306,6 +2402,10 @@
 /obj/effect/floor_decal/corner/red/diagonal,
 /obj/machinery/cooker/cereal,
 /obj/effect/decal/cleanable/dirt,
+/obj/machinery/light{
+	dir = 1
+	},
+/obj/structure/table/marble,
 /turf/simulated/floor/tiled/white,
 /area/supply_station)
 "US" = (
@@ -2340,6 +2440,9 @@
 	dir = 4;
 	icon_state = "map_vent_out"
 	},
+/obj/machinery/light{
+	dir = 1
+	},
 /turf/simulated/floor/tiled,
 /area/supply_station)
 "Vd" = (
@@ -2361,6 +2464,9 @@
 	},
 /obj/effect/decal/cleanable/dirt,
 /obj/machinery/portable_atmospherics/hydroponics,
+/obj/machinery/light{
+	dir = 1
+	},
 /turf/simulated/floor/tiled,
 /area/supply_station)
 "Vj" = (
@@ -2468,6 +2574,20 @@
 /obj/effect/floor_decal/corner/red/diagonal,
 /turf/simulated/floor/tiled/white,
 /area/supply_station)
+"Xn" = (
+/obj/effect/floor_decal/corner/yellow{
+	dir = 5
+	},
+/obj/effect/decal/cleanable/blood/oil,
+/turf/simulated/floor/tiled/dark,
+/area/supply_station)
+"Xp" = (
+/obj/effect/floor_decal/corner/yellow{
+	dir = 9
+	},
+/obj/effect/decal/cleanable/blood/oil,
+/turf/simulated/floor/tiled/dark,
+/area/supply_station)
 "XK" = (
 /obj/effect/floor_decal/corner/red/diagonal,
 /obj/effect/decal/cleanable/dirt,
@@ -2489,8 +2609,8 @@
 	dir = 8;
 	icon_state = "map_scrubber_on"
 	},
-/obj/machinery/light{
-	dir = 4
+/obj/structure/hygiene/sink/kitchen{
+	pixel_x = 32
 	},
 /turf/simulated/floor/tiled/white,
 /area/supply_station)
@@ -2503,8 +2623,9 @@
 /obj/machinery/atmospherics/unary/vent_scrubber/on{
 	dir = 4
 	},
-/obj/machinery/light{
-	dir = 8
+/obj/structure/hygiene/sink{
+	dir = 8;
+	pixel_x = -16
 	},
 /turf/simulated/floor/tiled,
 /area/supply_station)
@@ -2532,6 +2653,8 @@
 	icon_state = "corner_white_three_quarters"
 	},
 /obj/structure/reagent_dispensers/watertank,
+/obj/item/minihoe,
+/obj/item/chems/glass/bucket,
 /turf/simulated/floor/tiled,
 /area/supply_station)
 "Zr" = (
@@ -9121,7 +9244,7 @@ pz
 bJ
 mB
 sh
-yJ
+DA
 bJ
 CL
 HG
@@ -9872,7 +9995,7 @@ aa
 aa
 aa
 aa
-Ko
+Lp
 aI
 eb
 bJ
@@ -9883,7 +10006,7 @@ Qg
 Qg
 nQ
 tH
-fB
+zZ
 Qg
 Qg
 IB
@@ -9999,7 +10122,7 @@ aa
 aa
 aa
 aa
-Ko
+Lp
 OD
 aJ
 bJ
@@ -10134,7 +10257,7 @@ bd
 bK
 HR
 wf
-ZM
+yI
 ZM
 uh
 ZM
@@ -10142,7 +10265,7 @@ ZM
 ET
 JB
 Ad
-yJ
+DA
 bJ
 TO
 XK
@@ -10509,7 +10632,7 @@ uk
 aF
 Qg
 Qg
-Qg
+Xp
 aF
 Fz
 bQ
@@ -10767,7 +10890,7 @@ Oz
 Wq
 bh
 Ad
-Qh
+PN
 gc
 zc
 zc
@@ -11269,11 +11392,11 @@ aa
 aa
 aa
 aa
-Ko
-OD
+np
+Rn
 aP
 bJ
-bn
+Xn
 ct
 fE
 hm
@@ -11396,7 +11519,7 @@ aa
 aa
 aa
 aa
-Ko
+np
 aL
 aQ
 bJ
@@ -11411,7 +11534,7 @@ Oz
 Bo
 ZM
 Oz
-Oz
+wi
 Qr
 bJ
 WF
@@ -11787,7 +11910,7 @@ bJ
 hR
 kF
 pc
-pc
+Dl
 pc
 Cb
 GH
@@ -12296,7 +12419,7 @@ jk
 mi
 pc
 xo
-pc
+Dl
 mi
 bJ
 bJ

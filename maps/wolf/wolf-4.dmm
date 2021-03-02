@@ -80,6 +80,7 @@
 /obj/machinery/hologram/holopad/longrange,
 /obj/effect/landmark/test/safe_turf,
 /obj/effect/floor_decal/techfloor,
+/obj/structure/railing/mapped,
 /turf/simulated/floor/tiled/techfloor,
 /area/ship/wolf/command/bridge)
 "am" = (
@@ -105,6 +106,7 @@
 	dir = 10
 	},
 /obj/effect/floor_decal/techfloor,
+/obj/structure/railing/mapped,
 /turf/simulated/floor/tiled/techfloor,
 /area/ship/wolf/command/bridge)
 "as" = (
@@ -274,6 +276,7 @@
 	dir = 6
 	},
 /obj/effect/floor_decal/techfloor,
+/obj/structure/railing/mapped,
 /turf/simulated/floor/tiled/techfloor,
 /area/ship/wolf/command/bridge)
 "aR" = (
@@ -581,7 +584,10 @@
 /obj/effect/floor_decal/techfloor{
 	dir = 6
 	},
-/obj/structure/flora/pottedplant/deskleaf,
+/obj/structure/flora/pottedplant/deskleaf{
+	pixel_x = 5;
+	pixel_y = 3
+	},
 /turf/simulated/floor/tiled/techfloor,
 /area/ship/wolf/command/bridge)
 "bB" = (
@@ -778,7 +784,10 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
 	dir = 4
 	},
-/obj/machinery/door/airlock/autoname/wolf/glass/command,
+/obj/machinery/door/airlock/autoname/wolf/glass/command{
+	autoset_access = 0;
+	req_access = list("ACCESS_BRIDGE")
+	},
 /obj/structure/disposalpipe/segment{
 	dir = 4
 	},
@@ -1492,16 +1501,18 @@
 /area/ship/wolf/command/hallway)
 "dg" = (
 /obj/machinery/button/windowtint{
-	id_tag = "meetingroom";
+	id_tag = "wolf_meetingroom";
+	pixel_y = 24
+	},
+/obj/machinery/button/windowtint{
+	id_tag = "wolf_meetingroomspace";
+	pixel_x = 9;
 	pixel_y = 24
 	},
 /turf/simulated/floor/wood/walnut,
 /area/ship/wolf/command/meetingroom)
 "dh" = (
 /obj/machinery/atmospherics/pipe/manifold/hidden/scrubbers,
-/obj/effect/landmark/start{
-	name = "First Officer"
-	},
 /turf/simulated/floor/wood,
 /area/ship/wolf/command/office/xo/bedroom)
 "di" = (
@@ -2323,7 +2334,7 @@
 	dir = 1
 	},
 /obj/item/storage/mirror{
-	pixel_x = 27;
+	pixel_x = 28;
 	pixel_y = 6
 	},
 /obj/structure/hygiene/sink{
@@ -2520,6 +2531,9 @@
 /obj/effect/floor_decal/techfloor{
 	dir = 8
 	},
+/obj/structure/railing/mapped{
+	dir = 8
+	},
 /turf/simulated/floor/tiled/techfloor,
 /area/ship/wolf/command/bridge)
 "fb" = (
@@ -2545,6 +2559,9 @@
 	dir = 1
 	},
 /obj/effect/floor_decal/techfloor{
+	dir = 4
+	},
+/obj/structure/railing/mapped{
 	dir = 4
 	},
 /turf/simulated/floor/tiled/techfloor,
@@ -2654,6 +2671,9 @@
 	dir = 1;
 	pixel_y = -24
 	},
+/obj/effect/landmark/start{
+	name = "First Officer"
+	},
 /turf/simulated/floor/wood,
 /area/ship/wolf/command/office/xo/bedroom)
 "fo" = (
@@ -2665,7 +2685,7 @@
 	pixel_y = -24
 	},
 /obj/item/storage/mirror{
-	pixel_x = 27;
+	pixel_x = 28;
 	pixel_y = 6
 	},
 /obj/structure/hygiene/sink{
@@ -2783,6 +2803,10 @@
 /turf/simulated/floor/wood/walnut,
 /area/ship/wolf/command/meetingroom)
 "fz" = (
+/obj/machinery/door/blast/regular/open{
+	dir = 8;
+	id_tag = "wolf_sensorsblastdoor"
+	},
 /turf/simulated/floor/reinforced/airless,
 /area/ship/wolf/command/bridge)
 "fA" = (
@@ -2804,6 +2828,7 @@
 "fC" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
 /obj/machinery/computer/ship/navigation,
+/obj/item/binoculars,
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/ship/wolf/command/bridge)
 "fD" = (
@@ -3092,7 +3117,7 @@
 /area/ship/wolf/command/office/ce)
 "gi" = (
 /obj/effect/wallframe_spawn/reinforced/polarized{
-	id = "meetingroom"
+	id = "wolf_meetingroom"
 	},
 /obj/machinery/door/firedoor,
 /turf/simulated/floor/plating,
@@ -3121,6 +3146,9 @@
 "gm" = (
 /obj/effect/floor_decal/techfloor{
 	dir = 9
+	},
+/obj/structure/railing/mapped{
+	dir = 4
 	},
 /turf/simulated/floor/tiled/techfloor,
 /area/ship/wolf/command/bridge)
@@ -3600,6 +3628,7 @@
 /obj/effect/floor_decal/techfloor{
 	dir = 5
 	},
+/obj/structure/railing/mapped,
 /turf/simulated/floor/tiled/techfloor,
 /area/ship/wolf/command/bridge)
 "hk" = (
@@ -4102,6 +4131,9 @@
 /obj/effect/floor_decal/techfloor{
 	dir = 5
 	},
+/obj/structure/railing/mapped{
+	dir = 8
+	},
 /turf/simulated/floor/tiled/techfloor,
 /area/ship/wolf/command/bridge)
 "iU" = (
@@ -4273,29 +4305,23 @@
 /turf/simulated/floor/reinforced/airless,
 /area/space)
 "qR" = (
-/obj/effect/wallframe_spawn/reinforced,
-/obj/machinery/door/firedoor,
+/obj/effect/floor_decal/techfloor{
+	dir = 9
+	},
 /obj/structure/railing/mapped,
-/obj/structure/railing/mapped{
-	dir = 4
-	},
-/obj/machinery/door/blast/regular/open{
-	id_tag = "battledoors"
-	},
-/obj/structure/cable/green{
-	icon_state = "1-2"
-	},
-/turf/simulated/floor/airless,
+/turf/simulated/floor/tiled/techfloor,
 /area/ship/wolf/command/bridge)
 "sq" = (
-/obj/effect/wallframe_spawn/reinforced,
 /obj/machinery/door/firedoor,
-/obj/structure/railing/mapped,
+/obj/effect/wallframe_spawn/reinforced/polarized{
+	id = "wolf_meetingroom"
+	},
 /obj/machinery/door/blast/regular/open{
+	dir = 8;
 	id_tag = "battledoors"
 	},
 /turf/simulated/floor/airless,
-/area/ship/wolf/command/bridge)
+/area/ship/wolf/command/meetingroom)
 "sr" = (
 /obj/structure/flora/ausbushes/ppflowers,
 /turf/simulated/floor/grass,
@@ -4319,16 +4345,11 @@
 /turf/simulated/floor/wood/walnut,
 /area/ship/wolf/command/meetingroom)
 "vn" = (
-/obj/effect/wallframe_spawn/reinforced,
-/obj/machinery/door/firedoor,
-/obj/structure/railing/mapped{
-	dir = 4
+/obj/structure/closet/secure_closet/wall{
+	pixel_x = -32
 	},
-/obj/machinery/door/blast/regular/open{
-	id_tag = "battledoors"
-	},
-/turf/simulated/floor/airless,
-/area/ship/wolf/command/bridge)
+/turf/simulated/floor/tiled/freezer,
+/area/ship/wolf/command/bathroom)
 "vA" = (
 /obj/effect/floor_decal/corner/green{
 	dir = 8
@@ -4456,18 +4477,6 @@
 	},
 /turf/simulated/floor/tiled/freezer,
 /area/ship/wolf/command/bathroom)
-"AJ" = (
-/obj/effect/wallframe_spawn/reinforced,
-/obj/machinery/door/firedoor,
-/obj/structure/railing/mapped{
-	dir = 8
-	},
-/obj/structure/railing/mapped,
-/obj/machinery/door/blast/regular/open{
-	id_tag = "battledoors"
-	},
-/turf/simulated/floor/airless,
-/area/ship/wolf/command/bridge)
 "Bf" = (
 /obj/machinery/photocopier,
 /turf/simulated/floor/wood/walnut,
@@ -4606,17 +4615,6 @@
 /obj/structure/disposalpipe/segment,
 /turf/simulated/floor/tiled/dark,
 /area/ship/wolf/command/hallway)
-"Fv" = (
-/obj/effect/wallframe_spawn/reinforced,
-/obj/machinery/door/firedoor,
-/obj/structure/railing/mapped{
-	dir = 8
-	},
-/obj/machinery/door/blast/regular/open{
-	id_tag = "battledoors"
-	},
-/turf/simulated/floor/airless,
-/area/ship/wolf/command/bridge)
 "FJ" = (
 /obj/structure/cable/yellow{
 	icon_state = "0-2"
@@ -4810,7 +4808,9 @@
 /area/ship/wolf/command/hallway)
 "LH" = (
 /obj/machinery/door/firedoor,
-/obj/effect/wallframe_spawn/reinforced,
+/obj/effect/wallframe_spawn/reinforced/polarized{
+	id = "wolf_meetingroomspace"
+	},
 /obj/machinery/door/blast/regular/open{
 	dir = 8;
 	id_tag = "battledoors"
@@ -4930,6 +4930,9 @@
 "Rz" = (
 /obj/structure/flora/ausbushes/ppflowers,
 /obj/structure/closet/crate/hydroponics,
+/obj/item/minihoe,
+/obj/item/scanner/plant,
+/obj/item/shovel/spade,
 /turf/simulated/floor/grass,
 /area/ship/wolf/habitation/garden)
 "RH" = (
@@ -5075,6 +5078,11 @@
 /obj/machinery/keycard_auth,
 /obj/effect/floor_decal/techfloor{
 	dir = 8
+	},
+/obj/machinery/button/blast_door{
+	id_tag = "wolf_sensorsblastdoor";
+	name = "sensors blast control";
+	pixel_x = -24
 	},
 /turf/simulated/floor/tiled/techfloor,
 /area/ship/wolf/command/bridge)
@@ -12104,10 +12112,10 @@ hv
 hE
 hE
 LH
-LH
-LH
-LH
-LH
+sq
+sq
+sq
+sq
 kE
 ab
 ab
@@ -12492,7 +12500,7 @@ gC
 KO
 SS
 Yl
-Kl
+vn
 WH
 ZT
 yE
@@ -12587,7 +12595,7 @@ ab
 ab
 ab
 ad
-Fv
+ad
 eP
 eV
 fB
@@ -12713,8 +12721,8 @@ ab
 aB
 ab
 ad
-AJ
-gm
+ad
+qR
 eN
 eQ
 eR
@@ -12839,7 +12847,7 @@ ab
 ab
 ab
 ab
-sq
+ad
 gm
 Iq
 fd
@@ -13347,7 +13355,7 @@ ab
 ab
 ab
 ab
-sq
+ad
 iQ
 Nl
 eX
@@ -13475,7 +13483,7 @@ eO
 eO
 eO
 eW
-qR
+eW
 hj
 hT
 hU
@@ -13603,7 +13611,7 @@ ab
 ab
 ab
 ad
-vn
+ad
 eT
 fA
 fF

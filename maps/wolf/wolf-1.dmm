@@ -806,6 +806,7 @@
 /area/ship/wolf/engineering/atmospherics/pump_room)
 "ch" = (
 /obj/machinery/atmospherics/pipe/simple/visible/green,
+/obj/structure/catwalk,
 /turf/simulated/floor/plating,
 /area/ship/wolf/engineering/atmospherics/pump_room)
 "ci" = (
@@ -1099,12 +1100,14 @@
 /obj/machinery/atmospherics/pipe/simple/visible/green{
 	dir = 4
 	},
+/obj/structure/catwalk,
 /turf/simulated/floor/plating,
 /area/ship/wolf/engineering/atmospherics/pump_room)
 "cQ" = (
 /obj/machinery/atmospherics/pipe/simple/visible/green{
 	dir = 9
 	},
+/obj/structure/catwalk,
 /turf/simulated/floor/plating,
 /area/ship/wolf/engineering/atmospherics/pump_room)
 "cR" = (
@@ -2438,6 +2441,7 @@
 	icon_state = "1-4"
 	},
 /obj/structure/catwalk,
+/obj/structure/railing/mapped,
 /turf/simulated/floor/plating,
 /area/ship/wolf/engineering/inertial_damper)
 "fO" = (
@@ -2454,6 +2458,7 @@
 /obj/structure/window/borosilicate_reinforced{
 	dir = 4
 	},
+/obj/structure/railing/mapped,
 /turf/simulated/floor/plating,
 /area/ship/wolf/engineering/inertial_damper)
 "fP" = (
@@ -2720,6 +2725,7 @@
 	pixel_x = -24
 	},
 /obj/machinery/atmospherics/pipe/simple/visible/green,
+/obj/structure/catwalk,
 /turf/simulated/floor/plating,
 /area/ship/wolf/engineering/atmospherics/pump_room)
 "gp" = (
@@ -2773,6 +2779,7 @@
 	dir = 8
 	},
 /obj/structure/railing/mapped,
+/obj/structure/catwalk,
 /turf/simulated/floor/plating,
 /area/ship/wolf/maintenance/deckone/aft/port)
 "gu" = (
@@ -4283,6 +4290,7 @@
 /obj/structure/cable/green{
 	icon_state = "1-4"
 	},
+/obj/structure/catwalk,
 /turf/simulated/floor/plating,
 /area/ship/wolf/maintenance/deckone/aft/port)
 "jB" = (
@@ -4398,6 +4406,7 @@
 /obj/structure/cable/green{
 	icon_state = "4-8"
 	},
+/obj/structure/catwalk,
 /turf/simulated/floor/plating,
 /area/ship/wolf/maintenance/deckone/aft/port)
 "jN" = (
@@ -4449,6 +4458,7 @@
 /obj/machinery/light{
 	dir = 4
 	},
+/obj/item/chems/glass/bucket,
 /turf/simulated/floor/tiled,
 /area/ship/wolf/janitorial)
 "jR" = (
@@ -4559,6 +4569,7 @@
 /obj/structure/cable/green{
 	icon_state = "0-4"
 	},
+/obj/structure/catwalk,
 /turf/simulated/floor/plating,
 /area/ship/wolf/cargo/disposals)
 "kb" = (
@@ -4573,6 +4584,7 @@
 	},
 /obj/structure/disposalpipe/segment,
 /obj/machinery/atmospherics/pipe/simple/visible/green,
+/obj/structure/catwalk,
 /turf/simulated/floor/plating,
 /area/ship/wolf/cargo/disposals)
 "kc" = (
@@ -4602,6 +4614,7 @@
 /obj/structure/cable{
 	icon_state = "2-8"
 	},
+/obj/structure/catwalk,
 /turf/simulated/floor/plating,
 /area/ship/wolf/maintenance/deckone/aft/port)
 "kf" = (
@@ -4683,7 +4696,8 @@
 /obj/structure/cable/green{
 	icon_state = "4-8"
 	},
-/turf/simulated/floor/tiled/dark,
+/obj/structure/catwalk,
+/turf/simulated/floor/plating,
 /area/ship/wolf/maintenance/deckone/aft)
 "kq" = (
 /obj/structure/cable/green{
@@ -4736,6 +4750,7 @@
 	},
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
+/obj/structure/catwalk,
 /turf/simulated/floor/plating,
 /area/ship/wolf/maintenance/deckone/aft)
 "ku" = (
@@ -4957,7 +4972,8 @@
 /obj/structure/cable/green{
 	icon_state = "4-8"
 	},
-/turf/simulated/floor/tiled/dark,
+/obj/structure/catwalk,
+/turf/simulated/floor/plating,
 /area/ship/wolf/maintenance/deckone/aft)
 "kT" = (
 /obj/structure/cable{
@@ -5010,6 +5026,7 @@
 /area/ship/wolf/maintenance/deckone/amidships/port)
 "la" = (
 /obj/structure/railing/mapped,
+/obj/structure/catwalk,
 /turf/simulated/floor/plating,
 /area/ship/wolf/maintenance/deckone/aft/port)
 "lb" = (
@@ -5059,6 +5076,7 @@
 /obj/machinery/light/small{
 	dir = 1
 	},
+/obj/structure/catwalk,
 /turf/simulated/floor/plating,
 /area/ship/wolf/maintenance/deckone/aft/port)
 "lh" = (
@@ -5250,15 +5268,6 @@
 /obj/effect/floor_decal/industrial/hatch/orange,
 /turf/simulated/floor/plating,
 /area/ship/wolf/engineering/thruster_bay/one)
-"lE" = (
-/obj/machinery/atmospherics/pipe/simple/visible/black{
-	dir = 4
-	},
-/obj/structure/cable/green{
-	icon_state = "4-8"
-	},
-/turf/simulated/floor/tiled/dark/monotile,
-/area/ship/wolf/maintenance/deckone/aft)
 "lF" = (
 /obj/machinery/fabricator/protolathe,
 /obj/effect/floor_decal/corner/research{
@@ -5443,13 +5452,15 @@
 /turf/simulated/floor/tiled/white,
 /area/ship/wolf/science/xenoarch/lab)
 "lY" = (
-/turf/simulated/floor/tiled/dark,
+/obj/structure/railing/mapped,
+/turf/simulated/floor/plating,
 /area/ship/wolf/maintenance/deckone/aft/port)
 "lZ" = (
 /obj/machinery/atmospherics/unary/vent_pump/on{
 	dir = 4
 	},
 /obj/item/radio/intercom/bump/west,
+/obj/item/clothing/shoes/galoshes,
 /turf/simulated/floor/tiled,
 /area/ship/wolf/janitorial)
 "ma" = (
@@ -5570,12 +5581,13 @@
 /obj/structure/cable/green{
 	icon_state = "4-8"
 	},
-/turf/simulated/floor/tiled/dark,
+/turf/simulated/floor/plating,
 /area/ship/wolf/maintenance/deckone/aft)
 "mq" = (
 /obj/structure/railing/mapped{
 	dir = 8
 	},
+/obj/structure/catwalk,
 /turf/simulated/floor/plating,
 /area/ship/wolf/maintenance/deckone/aft/port)
 "mr" = (
@@ -5793,6 +5805,7 @@
 /obj/machinery/atmospherics/pipe/manifold/hidden/supply{
 	dir = 1
 	},
+/obj/structure/catwalk,
 /turf/simulated/floor/plating,
 /area/ship/wolf/maintenance/deckone/aft)
 "mU" = (
@@ -5854,7 +5867,9 @@
 /obj/structure/cable{
 	icon_state = "4-8"
 	},
-/turf/simulated/floor/tiled/dark,
+/obj/structure/catwalk,
+/obj/structure/catwalk,
+/turf/simulated/floor/plating,
 /area/ship/wolf/maintenance/deckone/aft/port)
 "na" = (
 /obj/machinery/light/small{
@@ -6594,6 +6609,9 @@
 	dir = 10
 	},
 /obj/structure/closet/crate,
+/obj/random/loot,
+/obj/random/loot,
+/obj/random/loot,
 /turf/simulated/floor/tiled,
 /area/ship/wolf/cargo/general)
 "oK" = (
@@ -6869,6 +6887,9 @@
 	dir = 6
 	},
 /obj/structure/closet/crate,
+/obj/random/loot,
+/obj/random/loot,
+/obj/random/loot,
 /turf/simulated/floor/tiled,
 /area/ship/wolf/cargo/general)
 "pp" = (
@@ -7073,7 +7094,6 @@
 /area/ship/wolf/shuttle/gnat/cockpit)
 "pY" = (
 /obj/structure/closet/crate/freezer,
-/obj/item/storage/firstaid/combat,
 /turf/simulated/floor/tiled/white/monotile,
 /area/ship/wolf/shuttle/gnat/passenger)
 "qe" = (
@@ -7104,6 +7124,15 @@
 /obj/structure/bed/chair/shuttle/black,
 /turf/simulated/floor/tiled/dark,
 /area/ship/wolf/shuttle/gnat/passenger)
+"qn" = (
+/obj/machinery/atmospherics/pipe/simple/visible/green{
+	dir = 4
+	},
+/obj/structure/cable/green{
+	icon_state = "4-8"
+	},
+/turf/simulated/floor/plating,
+/area/ship/wolf/maintenance/deckone/aft)
 "qo" = (
 /obj/machinery/atmospherics/pipe/simple/heat_exchanging{
 	dir = 6
@@ -7165,6 +7194,9 @@
 	dir = 4
 	},
 /obj/structure/closet/crate,
+/obj/random/loot,
+/obj/random/loot,
+/obj/random/loot,
 /turf/simulated/floor/tiled,
 /area/ship/wolf/cargo/general)
 "qX" = (
@@ -8177,6 +8209,8 @@
 /obj/machinery/recharger/wallcharger{
 	pixel_y = 24
 	},
+/obj/item/roller,
+/obj/item/roller,
 /turf/simulated/floor/tiled/white/monotile,
 /area/ship/wolf/shuttle/gnat/passenger)
 "tg" = (
@@ -8248,6 +8282,10 @@
 "tn" = (
 /obj/machinery/atmospherics/unary/vent_pump/on{
 	dir = 1
+	},
+/obj/machinery/vending/wallmed2{
+	dir = 1;
+	pixel_y = -30
 	},
 /turf/simulated/floor/tiled/white/monotile,
 /area/ship/wolf/shuttle/gnat/passenger)
@@ -8481,6 +8519,7 @@
 /obj/machinery/camera/network/engineering{
 	dir = 1
 	},
+/obj/structure/catwalk,
 /turf/simulated/floor/plating,
 /area/ship/wolf/engineering/atmospherics/pump_room)
 "tL" = (
@@ -9163,13 +9202,19 @@
 	},
 /turf/simulated/floor/tiled/white,
 /area/ship/wolf/science/xenoarch/lab)
-"yi" = (
-/obj/machinery/status_display{
-	pixel_y = -32
+"yd" = (
+/obj/machinery/computer/modular/preset/cardslot/command{
+	density = 0;
+	pixel_y = 32
 	},
-/obj/structure/flora/pottedplant/subterranean,
 /turf/simulated/floor/tiled,
 /area/ship/wolf/hallway/first_deck)
+"yi" = (
+/obj/structure/railing/mapped{
+	dir = 4
+	},
+/turf/simulated/floor/plating,
+/area/ship/wolf/maintenance/deckone/aft/port)
 "yp" = (
 /obj/machinery/door/airlock/autoname/wolf/research,
 /turf/simulated/floor/tiled/white,
@@ -9285,6 +9330,7 @@
 /obj/machinery/atmospherics/pipe/simple/visible/green{
 	dir = 6
 	},
+/obj/structure/catwalk,
 /turf/simulated/floor/plating,
 /area/ship/wolf/maintenance/deckone/aft/port)
 "As" = (
@@ -9457,6 +9503,7 @@
 /area/ship/wolf/science/xenoarch)
 "Dx" = (
 /obj/machinery/door/firedoor,
+/obj/structure/catwalk,
 /turf/simulated/floor/plating,
 /area/ship/wolf/maintenance/deckone/aft/port)
 "DD" = (
@@ -10138,6 +10185,7 @@
 /obj/machinery/atmospherics/pipe/simple/visible/green{
 	dir = 5
 	},
+/obj/structure/catwalk,
 /turf/simulated/floor/plating,
 /area/ship/wolf/engineering/atmospherics/pump_room)
 "QJ" = (
@@ -10177,6 +10225,12 @@
 	},
 /turf/simulated/floor/tiled/white,
 /area/ship/wolf/science/xenoarch/lab)
+"RU" = (
+/obj/machinery/computer/modular/preset/engineering{
+	dir = 1
+	},
+/turf/simulated/floor/plating,
+/area/ship/wolf/engineering/atmospherics/pump_room)
 "Sc" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
 	dir = 4
@@ -10210,6 +10264,7 @@
 /obj/machinery/atmospherics/pipe/simple/visible/green{
 	dir = 6
 	},
+/obj/structure/catwalk,
 /turf/simulated/floor/plating,
 /area/ship/wolf/engineering/atmospherics/pump_room)
 "Tr" = (
@@ -10256,6 +10311,13 @@
 	},
 /turf/simulated/floor/tiled/white,
 /area/ship/wolf/science/xenoarch)
+"TJ" = (
+/obj/structure/railing/mapped{
+	dir = 4
+	},
+/obj/structure/railing/mapped,
+/turf/simulated/floor/plating,
+/area/ship/wolf/maintenance/deckone/aft)
 "TX" = (
 /obj/effect/floor_decal/corner/research{
 	dir = 6
@@ -10508,6 +10570,7 @@
 /obj/machinery/atmospherics/pipe/simple/visible/green{
 	dir = 10
 	},
+/obj/structure/catwalk,
 /turf/simulated/floor/plating,
 /area/ship/wolf/engineering/atmospherics/pump_room)
 "WM" = (
@@ -16796,9 +16859,9 @@ Ot
 Rz
 Co
 QV
-eE
-eE
-eE
+yi
+yi
+yi
 jI
 aa
 aa
@@ -16923,9 +16986,9 @@ Eb
 ZU
 Du
 sF
-eE
-eE
-eE
+jd
+jd
+jd
 jI
 eH
 eH
@@ -17052,7 +17115,7 @@ xW
 QV
 kM
 lP
-eE
+jd
 Dx
 gt
 lv
@@ -17683,7 +17746,7 @@ lL
 je
 eE
 eE
-eE
+lY
 nA
 jV
 je
@@ -17809,8 +17872,8 @@ mc
 mf
 je
 eE
-jd
-jd
+eE
+lY
 jd
 jV
 fQ
@@ -17824,7 +17887,7 @@ lz
 mY
 im
 mQ
-cr
+qn
 bq
 bu
 nm
@@ -17950,7 +18013,7 @@ lw
 gr
 jZ
 im
-kg
+TJ
 iw
 bq
 bu
@@ -18198,7 +18261,7 @@ bc
 jm
 cl
 cP
-cl
+RU
 im
 mz
 iM
@@ -18446,7 +18509,7 @@ jg
 cG
 js
 bm
-lY
+eE
 mZ
 bc
 lo
@@ -18574,7 +18637,7 @@ gA
 jj
 bm
 eE
-mZ
+kd
 bc
 br
 ch
@@ -18700,7 +18763,7 @@ eR
 eT
 jt
 bm
-jd
+eE
 ke
 fX
 cg
@@ -18827,7 +18890,7 @@ cH
 fn
 lM
 bm
-jd
+eE
 le
 bc
 cn
@@ -19348,7 +19411,7 @@ Hz
 bm
 bm
 ku
-lE
+mp
 bq
 gs
 bo
@@ -19597,8 +19660,8 @@ QZ
 fS
 bm
 bm
-aL
-yi
+yd
+pC
 bm
 bm
 mG
