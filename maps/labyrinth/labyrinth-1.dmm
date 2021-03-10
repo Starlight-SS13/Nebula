@@ -735,11 +735,11 @@
 /turf/simulated/floor/plating,
 /area/labyrinth/science/testing)
 "dG" = (
-/obj/machinery/power/port_gen/pacman/mrs,
 /obj/structure/cable/yellow{
 	icon_state = "1-8"
 	},
 /obj/structure/cable/yellow,
+/obj/machinery/power/port_gen/pacman/mrs,
 /turf/simulated/floor/plating,
 /area/labyrinth/engineering/protofusionreactor)
 "dJ" = (
@@ -786,6 +786,7 @@
 /obj/machinery/door/airlock/hatch/labyrinth/engineering,
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
+/obj/item/taperoll/engineering/applied,
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/labyrinth/engineering)
 "dW" = (
@@ -2733,7 +2734,8 @@
 /area/labyrinth/engineering/protorcontrol)
 "qM" = (
 /obj/machinery/computer/fusion/core_control{
-	dir = 1
+	dir = 1;
+	id_tag = "labr_protoreactor"
 	},
 /obj/effect/floor_decal/techfloor/orange,
 /obj/machinery/light_switch{
@@ -2935,9 +2937,7 @@
 /turf/simulated/floor/tiled/techmaint,
 /area/labyrinth/service/cargo/storage)
 "rS" = (
-/obj/machinery/computer/air_control/fuel_injection{
-	id_tag = "labyr_rust_injector"
-	},
+/obj/machinery/computer/air_control,
 /obj/effect/floor_decal/techfloor/orange{
 	dir = 1
 	},
@@ -3001,7 +3001,6 @@
 /obj/machinery/atmospherics/portables_connector{
 	dir = 4
 	},
-/obj/machinery/portable_atmospherics/canister/hydrogen,
 /turf/simulated/floor/plating,
 /area/labyrinth/engineering/protofusionreactor)
 "ss" = (
@@ -3677,10 +3676,10 @@
 /turf/simulated/floor/tiled/white,
 /area/labyrinth/science)
 "xA" = (
-/obj/machinery/power/apc{
-	dir = 4
-	},
 /obj/structure/cable{
+	icon_state = "0-8"
+	},
+/obj/machinery/power/apc{
 	dir = 4
 	},
 /turf/simulated/floor/plating,
@@ -3839,7 +3838,9 @@
 /area/labyrinth/maintenance/shaft)
 "yV" = (
 /obj/structure/window/borosilicate_reinforced,
-/obj/machinery/fusion_fuel_injector/mapped,
+/obj/machinery/fusion_fuel_injector/mapped{
+	id_tag = "labr_reactinject"
+	},
 /turf/simulated/floor/plating,
 /area/labyrinth/engineering/protofusionreactor)
 "yW" = (
@@ -3952,13 +3953,15 @@
 /obj/structure/cable{
 	icon_state = "1-2"
 	},
+/obj/structure/cable{
+	dir = 1
+	},
 /obj/effect/floor_decal/techfloor/orange{
 	dir = 5
 	},
 /obj/machinery/power/apc{
 	dir = 4
 	},
-/obj/structure/cable,
 /obj/machinery/atmospherics/pipe/manifold/hidden/supply{
 	dir = 4
 	},
@@ -4950,9 +4953,11 @@
 /turf/simulated/floor/tiled,
 /area/labyrinth/hallway/lower)
 "Hl" = (
-/obj/machinery/power/fusion_core/mapped,
 /obj/structure/cable/yellow{
 	dir = 4
+	},
+/obj/machinery/power/fusion_core/mapped{
+	id_tag = "labr_protoreactor"
 	},
 /turf/simulated/floor/reinforced/airless,
 /area/labyrinth/engineering/protofusionreactor)
@@ -5121,9 +5126,8 @@
 /turf/simulated/floor/tiled,
 /area/labyrinth/hallway/lower)
 "HU" = (
-/obj/machinery/atmospherics/unary/outlet_injector/engine{
-	dir = 8;
-	id_tag = "labyr_rust_injector"
+/obj/machinery/atmospherics/unary/outlet_injector{
+	dir = 8
 	},
 /turf/simulated/floor/reinforced/airless,
 /area/labyrinth/engineering/protofusionreactor)
@@ -5203,7 +5207,8 @@
 /area/labyrinth/hallway/lower)
 "Iy" = (
 /obj/machinery/computer/fusion/gyrotron{
-	dir = 1
+	dir = 1;
+	id_tag = "labr_gryotron"
 	},
 /obj/effect/floor_decal/techfloor/orange{
 	dir = 10
@@ -5573,14 +5578,15 @@
 /obj/structure/window/borosilicate_reinforced{
 	dir = 4
 	},
-/obj/machinery/power/emitter/gyrotron/anchored{
-	dir = 4
-	},
-/obj/structure/cable/yellow{
-	icon_state = "0-2"
-	},
 /obj/structure/cable/yellow{
 	icon_state = "2-4"
+	},
+/obj/structure/cable/yellow{
+	dir = 1
+	},
+/obj/machinery/power/emitter/gyrotron/anchored{
+	dir = 4;
+	id_tag = "labr_gryotron"
 	},
 /obj/machinery/light/small{
 	dir = 8
@@ -6220,15 +6226,16 @@
 /turf/simulated/floor/tiled,
 /area/labyrinth/civilian)
 "Py" = (
-/obj/machinery/power/terminal{
-	dir = 1
-	},
 /obj/structure/cable/yellow{
 	dir = 8
+	},
+/obj/machinery/power/terminal{
+	dir = 1
 	},
 /obj/machinery/firealarm{
 	dir = 8
 	},
+/obj/machinery/portable_atmospherics/canister/hydrogen,
 /turf/simulated/floor/plating,
 /area/labyrinth/engineering/protofusionreactor)
 "PA" = (
@@ -6286,6 +6293,7 @@
 	dir = 1
 	},
 /obj/structure/reagent_dispensers/watertank,
+/obj/item/chems/glass/beaker/insulated/large,
 /turf/simulated/floor/tiled/techfloor,
 /area/labyrinth/engineering/reactor)
 "Qn" = (
@@ -7162,7 +7170,9 @@
 /turf/simulated/floor/tiled/dark/monotile,
 /area/labyrinth/engineering)
 "WC" = (
-/obj/machinery/computer/fusion/fuel_control,
+/obj/machinery/computer/fusion/fuel_control{
+	id_tag = "labr_reactinject"
+	},
 /obj/effect/floor_decal/techfloor/orange{
 	dir = 9
 	},
@@ -7625,6 +7635,7 @@
 	dir = 1;
 	pixel_y = -24
 	},
+/obj/machinery/fusion_fuel_compressor,
 /turf/simulated/floor/plating,
 /area/labyrinth/engineering/protofusionreactor)
 "Zc" = (
