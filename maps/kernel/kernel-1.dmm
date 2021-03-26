@@ -1754,7 +1754,7 @@
 /area/space)
 "qH" = (
 /obj/machinery/airlock_sensor{
-	id_tag = "kernel_dock_star_sensor;
+	id_tag = "kernel_dock_star_sensor";
 	pixel_x = -24
 	},
 /obj/machinery/atmospherics/unary/vent_pump/high_volume/external_air{
@@ -3791,7 +3791,7 @@
 	id_tag = "kernel_dock_port_pump"
 	},
 /obj/machinery/airlock_sensor{
-	id_tag = "kernel_dock_port_sensor;
+	id_tag = "kernel_dock_port_sensor";
 	pixel_x = 24
 	},
 /obj/structure/catwalk,
