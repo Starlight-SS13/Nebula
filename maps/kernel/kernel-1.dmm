@@ -2952,7 +2952,6 @@
 	},
 /obj/structure/catwalk,
 /obj/structure/reagent_dispensers/watertank,
-/obj/structure/catwalk,
 /turf/simulated/floor/plating,
 /area/space)
 "Dp" = (
