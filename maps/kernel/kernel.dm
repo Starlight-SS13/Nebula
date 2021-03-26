@@ -26,6 +26,7 @@
 	#include "kernel-1.dmm"
 	#include "kernel-2.dmm"
 	#include "kernel-3.dmm"
+	#include "kernel-4.dmm"
 
 	#include "jobs\_departments.dm"
 	#include "jobs\_jobs.dm"
@@ -37,6 +38,7 @@
 	#include "kernel_antagonists.dm"
 	#include "kernel_areas.dm"
 	#include "kernel_outfits.dm"
+	#include "kernel_presets.dm"
 	#include "kernel_setup.dm"
 	#include "kernel_shuttles.dm"
 	#include "kernel_unit_testing.dm"
