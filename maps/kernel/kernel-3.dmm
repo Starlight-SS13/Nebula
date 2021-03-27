@@ -870,9 +870,6 @@
 /obj/effect/floor_decal/corner_techfloor_gray{
 	dir = 10
 	},
-/obj/structure/bed/chair{
-	dir = 8
-	},
 /turf/simulated/floor/tiled/techmaint,
 /area/space)
 "pn" = (
@@ -1013,14 +1010,13 @@
 /turf/simulated/floor/tiled/white/monotile,
 /area/space)
 "rF" = (
-/obj/structure/lattice,
-/obj/structure/railing/mapped{
-	dir = 4
+/obj/effect/floor_decal/corner_techfloor_gray{
+	dir = 5
 	},
 /obj/structure/railing/mapped{
-	dir = 8
+	dir = 1
 	},
-/turf/simulated/open,
+/turf/simulated/floor/tiled/techmaint,
 /area/space)
 "rI" = (
 /obj/structure/cable{
@@ -1627,12 +1623,11 @@
 /turf/simulated/floor/tiled,
 /area/space)
 "AO" = (
-/obj/structure/railing/mapped,
 /obj/structure/railing/mapped{
 	dir = 8
 	},
 /obj/effect/floor_decal/corner_techfloor_gray/full,
-/obj/structure/table/standard,
+/obj/structure/railing/mapped,
 /turf/simulated/floor/tiled/techmaint,
 /area/space)
 "AQ" = (
@@ -1848,7 +1843,7 @@
 /turf/simulated/floor/tiled/white/monotile,
 /area/space)
 "EI" = (
-/obj/structure/lattice,
+/obj/structure/catwalk,
 /obj/structure/railing/mapped{
 	dir = 8
 	},
@@ -1929,6 +1924,7 @@
 /obj/effect/floor_decal/corner_techfloor_gray/full{
 	dir = 4
 	},
+/obj/structure/railing/mapped,
 /turf/simulated/floor/tiled/techmaint,
 /area/space)
 "FF" = (
@@ -1989,11 +1985,13 @@
 /turf/simulated/floor/plating,
 /area/space)
 "Gh" = (
-/obj/structure/lattice,
+/obj/structure/catwalk,
+/obj/structure/railing/mapped{
+	dir = 4
+	},
 /obj/structure/railing/mapped{
 	dir = 8
 	},
-/obj/structure/railing/mapped,
 /turf/simulated/open,
 /area/space)
 "Gk" = (
@@ -11201,17 +11199,17 @@ by
 SX
 XN
 XN
-Pg
-Pg
-Pg
-Pg
-Pg
-Pg
-Pg
+gc
+gc
+gc
+gc
+gc
+gc
+gc
 XN
 XN
 Kb
-XN
+Kb
 XN
 XN
 XN
@@ -11321,20 +11319,20 @@ by
 by
 by
 SX
-Pg
+XN
 by
 by
 Nz
 by
 by
 by
-by
+Nz
 by
 by
 bg
 ND
 ND
-BU
+ND
 BU
 XN
 by
@@ -11443,14 +11441,14 @@ by
 by
 by
 SX
-Pg
+gc
 by
 by
 Nz
 by
 by
 by
-by
+Nz
 by
 by
 Xp
@@ -11565,14 +11563,14 @@ OP
 OP
 OP
 Nz
-Pg
+gc
 by
 by
 Nz
 Nz
 by
 by
-by
+Nz
 by
 by
 Xp
@@ -11687,14 +11685,14 @@ by
 by
 Pg
 Nz
-Pg
+gc
 by
 by
 Nz
 Nz
 by
 by
-by
+Nz
 by
 by
 Xp
@@ -11809,14 +11807,14 @@ by
 by
 Pg
 Nz
-Pg
+gc
 by
 by
 iw
 RM
 AO
 by
-by
+Nz
 by
 by
 bg
@@ -11931,17 +11929,17 @@ mj
 mj
 Pg
 Nz
-Pg
+gc
 by
 by
 qP
 ND
 oT
-Qa
 Gh
-by
-by
-bg
+Gh
+Gh
+Gh
+Xp
 ND
 ND
 ND
@@ -12053,17 +12051,17 @@ mj
 mj
 Pg
 Nz
-Pg
+gc
 Nz
 Nz
 zT
 qs
 FE
+by
+Nz
+by
+by
 rF
-rF
-rF
-rF
-Xp
 ND
 ND
 ND
@@ -12175,14 +12173,14 @@ mj
 mj
 Nz
 Nz
-Pg
+gc
 by
 Nz
 Nz
 by
 by
 by
-by
+Nz
 by
 by
 bg
@@ -12297,14 +12295,14 @@ mj
 mj
 Nz
 Nz
-Pg
+gc
 by
 by
 Nz
 by
 by
 by
-by
+Nz
 by
 by
 bg
@@ -12426,7 +12424,7 @@ Nz
 by
 by
 by
-by
+Nz
 by
 by
 XN
@@ -12545,12 +12543,12 @@ XN
 gc
 gc
 gc
-by
-by
-by
-by
-by
-by
+Nz
+Nz
+Nz
+Nz
+Nz
+Nz
 gc
 wB
 wB
@@ -12670,7 +12668,7 @@ gc
 by
 by
 by
-by
+Nz
 by
 by
 gc
@@ -12792,7 +12790,7 @@ XN
 by
 by
 by
-by
+Nz
 by
 by
 XN
