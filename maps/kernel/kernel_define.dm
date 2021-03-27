@@ -1,23 +1,28 @@
 /datum/map/kernel
-	name = "Station Kernel"
-	full_name = "Station Kernel"
+	name = "Kernel"
+	full_name = "Space Station Kernel"
 	path = "kernel"
 
-	station_levels = list(1,2,3)
-	contact_levels = list(1,2,3)
-	player_levels  = list(1,2,3)
+	// lobby_screens = list('kernel_lobby.png')
+
+	station_levels = list(1, 2, 3, 4)
+	contact_levels = list(1, 2, 3, 4)
+	player_levels  = list(1, 2, 3, 4)
 
 	station_name  = "Space Station Kernel"
 	station_short = "Kernel"
 
-	dock_name     = "UES-7"
-	boss_name     = "UE Command"
-	boss_short    = "UE Admiral"
-	company_name  = "United Earth"
-	company_short = "UE"
+	dock_name     = "NTTM1-54 Relay"
+	boss_name     = "Colonial Magistrate Council"
+	boss_short    = "Council"
+	company_name  = "Colonial Magistrate Authority"
+	company_short = "CMA"
+
+	system_name = "somewhere in space"
+
+	map_admin_faxes = list("Colonial Magistrate Authority")
 
 	overmap_event_areas = 11
-	// lobby_screens = list('kernel-lobby.png')
 	use_overmap = 1
 	num_exoplanets = 2
 
