@@ -4821,6 +4821,10 @@
 	},
 /turf/simulated/floor/plating,
 /area/space)
+"UD" = (
+/obj/turbolift_map_holder/kernel_cargo,
+/turf/unsimulated/mask,
+/area/space)
 "UG" = (
 /obj/machinery/button/blast_door{
 	id_tag = "kernel_lower_safety";
@@ -4979,6 +4983,10 @@
 	pixel_y = -30
 	},
 /turf/simulated/floor/plating,
+/area/space)
+"Wq" = (
+/obj/turbolift_map_holder/kernel_main,
+/turf/unsimulated/mask,
 /area/space)
 "Wu" = (
 /obj/effect/floor_decal/corner/grey{
@@ -13044,8 +13052,8 @@ pS
 pS
 WC
 WC
-WC
-fO
+Wq
+pS
 tK
 qa
 UG
@@ -13399,7 +13407,7 @@ ko
 ko
 pS
 WC
-WC
+UD
 Yq
 kE
 uX
@@ -13411,7 +13419,7 @@ pS
 WC
 WC
 WC
-fO
+pS
 FV
 zM
 cc

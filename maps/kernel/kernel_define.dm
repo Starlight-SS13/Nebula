@@ -24,7 +24,7 @@
 
 	overmap_event_areas = 11
 	use_overmap = 1
-	num_exoplanets = 2
+	num_exoplanets = 0
 
 	emergency_shuttle_leaving_dock   = "Attention all hands: the escape pods have been launched, maintaining burn for %ETA%."
 	emergency_shuttle_called_message = "Attention all hands: emergency evacuation procedures are now in effect. Escape pods will launch in %ETA%"

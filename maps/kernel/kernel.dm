@@ -41,6 +41,7 @@
 	#include "kernel_presets.dm"
 	#include "kernel_setup.dm"
 	#include "kernel_shuttles.dm"
+	#include "kernel_turbolift.dm"
 	#include "kernel_unit_testing.dm"
 
 	#define USING_MAP_DATUM /datum/map/kernel

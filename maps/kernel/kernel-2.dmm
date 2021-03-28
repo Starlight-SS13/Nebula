@@ -4,6 +4,18 @@
 /obj/item/deck/cards,
 /turf/simulated/floor/wood/walnut,
 /area/space)
+"al" = (
+/obj/structure/cable{
+	icon_state = "1-4"
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 5
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 5
+	},
+/turf/simulated/floor/tiled/techmaint,
+/area/space)
 "ao" = (
 /turf/simulated/floor/plating,
 /area/space)
@@ -137,6 +149,12 @@
 	dir = 1
 	},
 /turf/simulated/floor/tiled/white/monotile,
+/area/space)
+"bz" = (
+/obj/machinery/light/small{
+	dir = 4
+	},
+/turf/simulated/floor/wood/walnut,
 /area/space)
 "bA" = (
 /obj/structure/bed/chair/comfy/brown{
@@ -493,6 +511,13 @@
 /area/space)
 "fm" = (
 /obj/structure/bookcase/manuals/engineering,
+/turf/simulated/floor/wood/walnut,
+/area/space)
+"fn" = (
+/obj/structure/bed/chair/comfy/brown{
+	dir = 8
+	},
+/obj/machinery/light/small,
 /turf/simulated/floor/wood/walnut,
 /area/space)
 "fp" = (
@@ -906,16 +931,10 @@
 /turf/simulated/floor/plating,
 /area/space)
 "jq" = (
-/obj/structure/cable{
-	icon_state = "1-4"
+/obj/machinery/light/small{
+	dir = 1
 	},
-/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
-	dir = 5
-	},
-/obj/machinery/atmospherics/pipe/simple/hidden/supply{
-	dir = 5
-	},
-/turf/simulated/floor/tiled/techmaint,
+/turf/simulated/floor/tiled/white,
 /area/space)
 "ju" = (
 /obj/structure/railing/mapped{
@@ -971,16 +990,10 @@
 /turf/simulated/open,
 /area/space)
 "jK" = (
-/obj/structure/cable{
-	icon_state = "1-8"
+/obj/machinery/light/small{
+	dir = 8
 	},
-/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
-	dir = 9
-	},
-/obj/machinery/atmospherics/pipe/simple/hidden/supply{
-	dir = 9
-	},
-/turf/simulated/floor/wood/walnut,
+/turf/simulated/floor/tiled/techmaint,
 /area/space)
 "jP" = (
 /obj/structure/railing/mapped,
@@ -2064,6 +2077,12 @@
 /obj/structure/fitness/punchingbag,
 /turf/simulated/floor/tiled/dark/monotile,
 /area/space)
+"sc" = (
+/obj/machinery/light/small{
+	dir = 4
+	},
+/turf/simulated/floor/tiled/techmaint,
+/area/space)
 "se" = (
 /obj/structure/railing/mapped{
 	dir = 4
@@ -2222,6 +2241,11 @@
 /turf/simulated/floor/tiled/white,
 /area/space)
 "tf" = (
+/obj/structure/cable{
+	icon_state = "1-2"
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
+/obj/machinery/atmospherics/pipe/simple/hidden/supply,
 /obj/machinery/firealarm{
 	dir = 8
 	},
@@ -2319,6 +2343,12 @@
 	name = "hatch (SPACE)"
 	},
 /turf/simulated/floor/tiled/techfloor/grid,
+/area/space)
+"tY" = (
+/obj/machinery/light/small{
+	dir = 1
+	},
+/turf/simulated/floor/wood/walnut,
 /area/space)
 "tZ" = (
 /obj/structure/railing/mapped,
@@ -2723,6 +2753,13 @@
 	},
 /turf/simulated/floor/tiled/white,
 /area/space)
+"yf" = (
+/obj/structure/bed/chair/comfy/brown,
+/obj/machinery/light/small{
+	dir = 1
+	},
+/turf/simulated/floor/wood/walnut,
+/area/space)
 "yg" = (
 /obj/machinery/atmospherics/pipe/manifold/hidden/supply,
 /obj/machinery/atmospherics/pipe/manifold/hidden/scrubbers,
@@ -2807,7 +2844,7 @@
 /turf/simulated/open,
 /area/space)
 "yS" = (
-/obj/structure/lattice,
+/obj/structure/catwalk,
 /obj/structure/railing/mapped{
 	dir = 8
 	},
@@ -2832,7 +2869,7 @@
 /turf/simulated/floor/tiled/white,
 /area/space)
 "zu" = (
-/obj/structure/lattice,
+/obj/structure/catwalk,
 /obj/structure/railing/mapped{
 	dir = 4
 	},
@@ -3261,6 +3298,18 @@
 	id_tag = "kernel_bar_table"
 	},
 /turf/simulated/floor/tiled/techfloor,
+/area/space)
+"CY" = (
+/obj/structure/cable{
+	icon_state = "1-8"
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 9
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 9
+	},
+/turf/simulated/floor/wood/walnut,
 /area/space)
 "Dg" = (
 /obj/structure/lattice,
@@ -3822,6 +3871,20 @@
 	},
 /turf/simulated/floor/wood/walnut,
 /area/space)
+"Im" = (
+/obj/structure/bed/chair/comfy/brown{
+	dir = 1
+	},
+/obj/machinery/light/small,
+/turf/simulated/floor/wood/walnut,
+/area/space)
+"In" = (
+/obj/structure/table/woodentable/walnut,
+/obj/machinery/light/small{
+	dir = 1
+	},
+/turf/simulated/floor/wood/walnut,
+/area/space)
 "Is" = (
 /obj/structure/railing/mapped{
 	dir = 8
@@ -4272,6 +4335,10 @@
 /area/space)
 "MZ" = (
 /turf/simulated/floor/tiled/techmaint,
+/area/space)
+"Nd" = (
+/obj/machinery/light/small,
+/turf/simulated/floor/wood/walnut,
 /area/space)
 "Nh" = (
 /obj/structure/catwalk,
@@ -5583,6 +5650,10 @@
 	},
 /turf/simulated/floor/plating,
 /area/space)
+"YC" = (
+/obj/machinery/light/small,
+/turf/simulated/floor/tiled/techmaint,
+/area/space)
 "YD" = (
 /obj/structure/closet/secure_closet/freezer/kitchen/mining,
 /obj/item/storage/fancy/egg_box,
@@ -5738,6 +5809,10 @@
 	pixel_x = -24
 	},
 /turf/simulated/floor/tiled/techmaint,
+/area/space)
+"ZZ" = (
+/obj/machinery/light/small,
+/turf/simulated/floor/tiled/dark,
 /area/space)
 
 (1,1,1) = {"
@@ -12889,7 +12964,7 @@ UW
 ST
 wp
 VS
-Vf
+jq
 Vf
 AI
 cj
@@ -13373,7 +13448,7 @@ VS
 IS
 IS
 IS
-ao
+VS
 Is
 QD
 VS
@@ -13624,6 +13699,7 @@ dy
 MZ
 MZ
 MZ
+jK
 MZ
 MZ
 MZ
@@ -13639,8 +13715,7 @@ MZ
 MZ
 MZ
 MZ
-MZ
-MZ
+YC
 VS
 HA
 HA
@@ -13739,25 +13814,25 @@ VS
 IS
 IS
 IS
-ao
+VS
 aD
 dQ
 xu
 jk
 jk
-jq
+jk
+jk
+jk
+jk
+al
+MZ
+sc
 MZ
 MZ
 MZ
 MZ
 MZ
-MZ
-MZ
-MZ
-MZ
-MZ
-MZ
-MZ
+sc
 MZ
 MZ
 MZ
@@ -13867,11 +13942,11 @@ yi
 VS
 VS
 UW
-Gb
 UW
 VS
+VS
 UW
-dy
+Gb
 UW
 VS
 VS
@@ -13989,24 +14064,24 @@ GY
 VS
 cg
 CL
-jK
-Cs
+CL
+CL
 tf
-Cs
-Cs
+CL
+CY
 Cs
 FU
 VS
+tY
 Cs
 Cs
-Cs
-Cs
+Nd
 VS
+WW
 kP
 kP
 kP
-kP
-kP
+ZZ
 VS
 HA
 HA
@@ -14224,7 +14299,7 @@ pP
 pP
 VS
 VS
-MZ
+TE
 MZ
 aD
 aD
@@ -14485,16 +14560,16 @@ Cs
 Cs
 Cs
 VS
-EZ
+In
 Cs
 Cs
-bA
+fn
 VS
+WW
 kP
 kP
 kP
-kP
-kP
+ZZ
 VS
 HA
 HA
@@ -14612,11 +14687,11 @@ Cs
 Cs
 BQ
 VS
-cD
 kP
 kP
 kP
-rU
+kP
+kP
 VS
 HA
 HA
@@ -14734,11 +14809,11 @@ Cs
 Cs
 BQ
 VS
+cD
 kP
 kP
 kP
-kP
-kP
+rU
 VS
 HA
 HA
@@ -14851,16 +14926,16 @@ Hi
 Hi
 Cs
 VS
-sT
+yf
 Cs
 Cs
-oO
+Im
 VS
+WW
 kP
 kP
 kP
-kP
-kP
+ZZ
 VS
 HA
 HA
@@ -14978,11 +15053,11 @@ Cs
 Cs
 Es
 VS
-VS
-VS
-VS
-VS
-VS
+kP
+kP
+kP
+kP
+kP
 VS
 HA
 HA
@@ -15100,12 +15175,12 @@ Cs
 Cs
 Es
 VS
-HA
-HA
-HA
-HA
-HA
-HA
+VS
+VS
+VS
+VS
+VS
+VS
 HA
 HA
 HA
@@ -15583,10 +15658,10 @@ Nm
 CT
 lt
 VS
-Cs
+bz
 bA
 bA
-Cs
+bz
 VS
 HA
 HA
