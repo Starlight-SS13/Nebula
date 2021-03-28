@@ -1,6 +1,6 @@
 //MAP CONVERTED BY dmm2tgm.py THIS HEADER COMMENT PREVENTS RECONVERSION, DO NOT REMOVE
 "ac" = (
-/turf/simulated/floor/tiled/techfloor/grid,
+/turf/unsimulated/mask,
 /area/space)
 "ai" = (
 /obj/structure/lattice,
@@ -171,6 +171,11 @@
 /obj/structure/lattice,
 /turf/simulated/open,
 /area/space)
+"dr" = (
+/obj/item/knife/hook,
+/obj/structure/table/marble,
+/turf/simulated/floor/tiled/freezer,
+/area/space)
 "dB" = (
 /obj/machinery/optable,
 /obj/machinery/light{
@@ -228,6 +233,9 @@
 "ex" = (
 /obj/machinery/power/apc/hyper{
 	dir = 1
+	},
+/obj/structure/cable{
+	icon_state = "0-2"
 	},
 /turf/simulated/floor/tiled/white,
 /area/space)
@@ -699,6 +707,10 @@
 	},
 /obj/machinery/atmospherics/pipe/manifold/hidden/scrubbers,
 /turf/simulated/floor/lino,
+/area/space)
+"lz" = (
+/obj/structure/closet/secure_closet/freezer/meat,
+/turf/simulated/floor/tiled/freezer,
 /area/space)
 "lH" = (
 /obj/structure/railing/mapped{
@@ -1687,9 +1699,6 @@
 "Bz" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
-/obj/machinery/firealarm{
-	dir = 8
-	},
 /obj/structure/cable{
 	icon_state = "1-2"
 	},
@@ -1705,7 +1714,8 @@
 /turf/simulated/floor/reinforced/airless,
 /area/space)
 "BU" = (
-/turf/simulated/floor/tiled/techfloor,
+/obj/structure/railing/mapped,
+/turf/simulated/floor/tiled/techmaint,
 /area/space)
 "BW" = (
 /obj/machinery/power/apc{
@@ -2241,6 +2251,9 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 4
 	},
+/obj/structure/cable{
+	icon_state = "4-8"
+	},
 /turf/simulated/floor/tiled/white,
 /area/space)
 "LL" = (
@@ -2283,6 +2296,9 @@
 "MH" = (
 /obj/machinery/atmospherics/unary/vent_scrubber/on{
 	dir = 8
+	},
+/obj/structure/cable{
+	icon_state = "1-8"
 	},
 /turf/simulated/floor/tiled/white,
 /area/space)
@@ -2359,9 +2375,13 @@
 /area/space)
 "OP" = (
 /obj/structure/railing/mapped{
-	dir = 8
+	dir = 4
 	},
-/turf/simulated/floor/plating,
+/turf/simulated/floor/tiled/techmaint,
+/area/space)
+"OW" = (
+/obj/structure/kitchenspike,
+/turf/simulated/floor/tiled/freezer,
 /area/space)
 "OX" = (
 /obj/effect/floor_decal/industrial/outline/yellow,
@@ -2427,11 +2447,8 @@
 /turf/simulated/floor/plating,
 /area/space)
 "Qa" = (
-/obj/structure/lattice,
-/obj/structure/railing/mapped{
-	dir = 8
-	},
-/turf/simulated/open,
+/obj/structure/stairs/north,
+/turf/simulated/floor/tiled/techmaint,
 /area/space)
 "Qd" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
@@ -2482,9 +2499,9 @@
 /area/space)
 "Qt" = (
 /obj/structure/railing/mapped{
-	dir = 4
+	dir = 8
 	},
-/turf/simulated/floor/plating,
+/turf/simulated/floor/tiled/techmaint,
 /area/space)
 "Qz" = (
 /obj/structure/lattice,
@@ -2685,10 +2702,9 @@
 /turf/simulated/floor/tiled/techmaint,
 /area/space)
 "SX" = (
-/obj/structure/railing/mapped{
-	dir = 1
-	},
-/turf/simulated/floor/plating,
+/obj/structure/railing/mapped,
+/obj/structure/catwalk,
+/turf/simulated/open,
 /area/space)
 "Tc" = (
 /obj/machinery/smartfridge/foods,
@@ -2738,6 +2754,9 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 4
 	},
+/obj/structure/cable{
+	icon_state = "4-8"
+	},
 /turf/simulated/floor/tiled/white,
 /area/space)
 "Ub" = (
@@ -2770,9 +2789,16 @@
 /obj/structure/cable{
 	icon_state = "1-8"
 	},
+/obj/machinery/firealarm{
+	dir = 1
+	},
 /turf/simulated/floor/tiled/dark,
 /area/space)
 "Ul" = (
+/turf/simulated/floor/tiled/freezer,
+/area/space)
+"Un" = (
+/obj/structure/table/marble,
 /turf/simulated/floor/tiled/freezer,
 /area/space)
 "Uq" = (
@@ -3017,6 +3043,10 @@
 	},
 /turf/simulated/floor/tiled/white,
 /area/space)
+"Ym" = (
+/obj/structure/closet/secure_closet/freezer/kitchen,
+/turf/simulated/floor/tiled/freezer,
+/area/space)
 "YX" = (
 /obj/machinery/shipsensors{
 	critical_heat = 300;
@@ -3065,6 +3095,9 @@
 	},
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 4
+	},
+/obj/structure/cable{
+	icon_state = "4-8"
 	},
 /turf/simulated/floor/tiled/white,
 /area/space)
@@ -9487,8 +9520,8 @@ mj
 mj
 mj
 XN
-Pg
-Pg
+ND
+ND
 XN
 Pg
 Pg
@@ -9609,8 +9642,8 @@ mj
 mj
 mj
 XN
-Pg
-Pg
+ND
+ND
 XN
 Pg
 Pg
@@ -9731,8 +9764,8 @@ mj
 mj
 mj
 XN
-Pg
-Pg
+ND
+ND
 XN
 Pg
 Pg
@@ -9853,8 +9886,8 @@ mj
 mj
 mj
 XN
-Pg
-Pg
+ND
+ND
 XN
 Pg
 Pg
@@ -9975,8 +10008,8 @@ mj
 mj
 mj
 XN
-Pg
-Pg
+ND
+ND
 XN
 Pg
 Pg
@@ -10097,8 +10130,8 @@ mj
 mj
 mj
 XN
-Pg
-Pg
+ND
+ND
 XN
 Pg
 Pg
@@ -10219,8 +10252,8 @@ mj
 mj
 mj
 XN
-Pg
-SX
+ND
+ND
 XN
 Pg
 Pg
@@ -10341,8 +10374,8 @@ mj
 mj
 mj
 XN
-Pg
-SX
+ND
+ND
 XN
 Pg
 Pg
@@ -10463,8 +10496,8 @@ mj
 mj
 mj
 XN
-Pg
-SX
+ND
+ND
 XN
 Pg
 Pg
@@ -10585,8 +10618,8 @@ XN
 XN
 XN
 XN
-by
-SX
+Kb
+Kb
 XN
 Pg
 Pg
@@ -10703,12 +10736,12 @@ mj
 mj
 mj
 XN
-mj
-mj
-mj
+ac
+ac
+ac
 Pg
-Qa
-Pg
+ND
+ND
 XN
 Pg
 Pg
@@ -10825,12 +10858,12 @@ mj
 mj
 mj
 XN
-mj
-mj
-mj
+ac
+ac
+ac
 Pg
-Nz
-Pg
+ND
+ND
 XN
 XN
 XN
@@ -10842,9 +10875,9 @@ XN
 XN
 XN
 XN
-Pg
-Pg
-Pg
+Kb
+gc
+Kb
 XN
 XN
 XN
@@ -10947,33 +10980,33 @@ mj
 mj
 mj
 XN
-mj
-mj
-mj
-Pg
-Nz
-Pg
+ac
+ac
 ac
 Pg
-Pg
-Pg
-Pg
-Pg
-Pg
-Pg
-Pg
-Pg
-Pg
-Pg
-Pg
-Pg
-Pg
-Pg
-Pg
-Pg
-Pg
-Pg
-Pg
+ND
+ND
+Kb
+ND
+ND
+ND
+ND
+ND
+ND
+ND
+ND
+ND
+ND
+ND
+ND
+ND
+ND
+ND
+ND
+ND
+ND
+ND
+ND
 XN
 bi
 So
@@ -11069,33 +11102,33 @@ mj
 mj
 mj
 XN
-mj
-mj
-mj
-Pg
-Qt
-Pg
+ac
+ac
 ac
 Pg
-Pg
-Pg
-Pg
-Pg
-Pg
-Pg
-Pg
-Pg
-Pg
-Pg
-Pg
-Pg
-Pg
-Pg
-Pg
-Pg
-Pg
-Pg
-Pg
+ND
+ND
+Kb
+ND
+ND
+ND
+ND
+ND
+ND
+ND
+ND
+ND
+ND
+ND
+ND
+ND
+ND
+ND
+ND
+ND
+ND
+ND
+ND
 XN
 td
 QE
@@ -11195,8 +11228,8 @@ XN
 XN
 XN
 XN
-by
-SX
+Kb
+Kb
 XN
 XN
 gc
@@ -11209,8 +11242,8 @@ gc
 XN
 XN
 Kb
+gc
 Kb
-XN
 XN
 XN
 XN
@@ -11312,13 +11345,13 @@ mj
 mj
 mj
 mj
-mj
-mj
-mj
-by
-by
-by
-SX
+XN
+ND
+BU
+Qa
+ND
+ND
+ND
 XN
 by
 by
@@ -11333,9 +11366,9 @@ bg
 ND
 ND
 ND
-BU
-XN
-by
+ND
+gc
+SX
 by
 by
 by
@@ -11434,13 +11467,13 @@ mj
 mj
 mj
 mj
-mj
-mj
-mj
-by
-by
-by
-SX
+XN
+ND
+ND
+Qt
+Qt
+ND
+ND
 gc
 by
 by
@@ -11455,9 +11488,9 @@ Xp
 ND
 ND
 ND
-BU
-XN
-by
+ND
+gc
+SX
 by
 by
 by
@@ -11556,13 +11589,13 @@ mj
 mj
 mj
 mj
-mj
-mj
-mj
+XN
+ND
+ND
 OP
 OP
-OP
-Nz
+ND
+ND
 gc
 by
 by
@@ -11577,9 +11610,9 @@ Xp
 ND
 ND
 ND
-BU
+ND
 XN
-by
+SX
 by
 by
 by
@@ -11678,13 +11711,13 @@ mj
 mj
 mj
 mj
-mj
-mj
-mj
+XN
+ND
+BU
 by
 by
-Pg
-Nz
+ND
+ND
 gc
 by
 by
@@ -11699,9 +11732,9 @@ Xp
 ND
 ND
 ND
-BU
-XN
-by
+ND
+Kb
+SX
 by
 by
 by
@@ -11800,13 +11833,13 @@ mj
 mj
 mj
 mj
-mj
-mj
-mj
+XN
+ND
+BU
 by
 by
-Pg
-Nz
+ND
+ND
 gc
 by
 by
@@ -11821,9 +11854,9 @@ bg
 ND
 ND
 ND
-BU
-XN
-by
+ND
+Kb
+SX
 by
 by
 by
@@ -11922,13 +11955,13 @@ mj
 mj
 mj
 mj
-mj
-mj
-mj
-mj
-mj
-Pg
-Nz
+XN
+XN
+XN
+XN
+XN
+ND
+ND
 gc
 by
 by
@@ -11943,9 +11976,9 @@ Xp
 ND
 ND
 ND
-BU
+ND
 XN
-by
+SX
 by
 by
 by
@@ -12049,8 +12082,8 @@ mj
 mj
 mj
 mj
-Pg
-Nz
+ND
+ND
 gc
 Nz
 Nz
@@ -12065,9 +12098,9 @@ rF
 ND
 ND
 ND
-BU
-XN
-by
+ND
+gc
+SX
 by
 by
 by
@@ -12171,8 +12204,8 @@ mj
 mj
 mj
 mj
-Nz
-Nz
+ND
+ND
 gc
 by
 Nz
@@ -12187,9 +12220,9 @@ bg
 ND
 ND
 ND
-BU
-XN
-by
+ND
+gc
+SX
 by
 by
 by
@@ -12293,8 +12326,8 @@ mj
 mj
 mj
 mj
-Nz
-Nz
+ND
+ND
 gc
 by
 by
@@ -12415,8 +12448,8 @@ mj
 mj
 mj
 mj
-Nz
-Pg
+ND
+ND
 XN
 by
 by
@@ -12436,10 +12469,10 @@ XN
 hh
 hh
 XN
-Ul
-Ul
-Ul
-Ul
+OW
+OW
+OW
+OW
 XN
 mj
 mj
@@ -12537,18 +12570,18 @@ mj
 mj
 mj
 mj
-Nz
-Pg
+ND
+ND
 XN
 gc
 gc
 gc
-Nz
-Nz
-Nz
-Nz
-Nz
-Nz
+gc
+gc
+gc
+gc
+gc
+gc
 gc
 wB
 wB
@@ -12659,8 +12692,8 @@ mj
 mj
 mj
 mj
-Nz
-Pg
+ND
+ND
 XN
 lH
 ND
@@ -12668,7 +12701,7 @@ gc
 by
 by
 by
-Nz
+by
 by
 by
 gc
@@ -12681,8 +12714,8 @@ us
 wB
 Kb
 Ul
-Ul
-Ul
+dr
+Un
 Ul
 XN
 mj
@@ -12790,10 +12823,10 @@ XN
 by
 by
 by
-Nz
 by
 by
-XN
+by
+gc
 wB
 Dx
 eL
@@ -12924,10 +12957,10 @@ wB
 wB
 wB
 XN
-Ul
-Ul
-Ul
-Ul
+Ym
+Ym
+lz
+lz
 XN
 mj
 mj

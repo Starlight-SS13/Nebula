@@ -95,9 +95,6 @@
 /obj/machinery/vending/cola{
 	dir = 1
 	},
-/obj/machinery/firealarm{
-	dir = 1
-	},
 /turf/simulated/floor/tiled/techfloor,
 /area/space)
 "bC" = (
@@ -495,6 +492,12 @@
 /obj/item/rig/industrial/equipped,
 /turf/simulated/floor/tiled/techfloor,
 /area/space)
+"fb" = (
+/obj/structure/railing/mapped{
+	dir = 8
+	},
+/turf/simulated/floor/tiled/techmaint,
+/area/space)
 "fd" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 4
@@ -566,9 +569,6 @@
 /obj/machinery/vending/sol{
 	dir = 1
 	},
-/obj/machinery/firealarm{
-	dir = 1
-	},
 /turf/simulated/floor/tiled/techfloor,
 /area/space)
 "fz" = (
@@ -589,6 +589,9 @@
 	dir = 10
 	},
 /obj/machinery/atmospherics/unary/vent_pump/on{
+	dir = 1
+	},
+/obj/machinery/firealarm{
 	dir = 1
 	},
 /turf/simulated/floor/tiled/techmaint,
@@ -4194,6 +4197,9 @@
 /obj/machinery/atmospherics/unary/vent_scrubber/on{
 	dir = 1
 	},
+/obj/machinery/firealarm{
+	dir = 1
+	},
 /turf/simulated/floor/tiled/techmaint,
 /area/space)
 "Pr" = (
@@ -5008,12 +5014,7 @@
 /turf/simulated/floor/tiled/techmaint,
 /area/space)
 "WC" = (
-/obj/effect/floor_decal/industrial/outline/yellow,
-/obj/machinery/mech_recharger,
-/mob/living/exosuit/premade/powerloader/old{
-	hatch_closed = 1
-	},
-/turf/simulated/floor/tiled/monotile,
+/turf/unsimulated/mask,
 /area/space)
 "WH" = (
 /obj/machinery/light_switch/on{
@@ -13033,7 +13034,7 @@ ko
 pS
 ch
 cM
-WC
+cM
 aW
 pS
 ZJ
@@ -13041,9 +13042,9 @@ EA
 pS
 pS
 pS
-ko
-ko
-ko
+WC
+WC
+WC
 fO
 tK
 qa
@@ -13153,7 +13154,7 @@ ko
 ko
 ko
 pS
-cM
+ch
 cM
 cM
 aV
@@ -13163,9 +13164,9 @@ Ow
 QU
 rM
 pS
-ko
-ko
-ko
+WC
+WC
+WC
 fO
 ED
 jb
@@ -13285,9 +13286,9 @@ Ow
 pO
 fO
 pS
-ko
-ko
-ko
+WC
+WC
+WC
 fO
 Wx
 cb
@@ -13397,8 +13398,8 @@ ko
 ko
 ko
 pS
-fO
-fO
+WC
+WC
 Yq
 kE
 uX
@@ -13407,9 +13408,9 @@ jt
 GS
 as
 pS
-ko
-ko
-ko
+WC
+WC
+WC
 fO
 FV
 zM
@@ -13519,8 +13520,8 @@ ko
 ko
 ko
 pS
-fO
-fO
+WC
+WC
 Yq
 kE
 uX
@@ -13641,8 +13642,8 @@ ko
 ko
 ko
 pS
-fO
-fO
+WC
+WC
 Yq
 kE
 uX
@@ -13763,8 +13764,8 @@ ko
 ko
 ko
 pS
-fO
-fO
+WC
+WC
 Yq
 kE
 uX
@@ -13775,8 +13776,8 @@ rD
 pS
 gp
 pS
-lA
-cb
+fb
+fb
 fR
 IL
 zX
