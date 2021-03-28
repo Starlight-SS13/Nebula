@@ -36,4 +36,3 @@
 	selection_color = "#dddddd"
 	department_types = list(/decl/department/civilian)
 	supervisors = "the Captain and your lazy bone"
-
