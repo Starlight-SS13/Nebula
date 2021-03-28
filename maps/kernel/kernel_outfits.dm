@@ -6,7 +6,7 @@
 
 // Basic outfit
 /decl/hierarchy/outfit/job/kernel
-	name = "Kernel Uniform - Standart"
+	name = "Kernel Uniform - Crewmember"
 	uniform = /obj/item/clothing/under/color/kernel
 	pda_type = /obj/item/modular_computer/pda
 	pda_slot = slot_l_store_str
@@ -31,6 +31,14 @@
 			uniform.attach_accessory(null, eyegore)
 		else
 			qdel(eyegore)
+
+// Logistics Officer outfit
+/decl/hierarchy/outfit/job/kernel/logistics_officer
+	name = "Kernel Uniform - Logistics Officer"
+	shoes = /obj/item/clothing/shoes/color/black
+	pda_type = /obj/item/modular_computer/pda/heads
+	r_pocket = /obj/item/radio
+	id_type = /obj/item/card/id/silver
 
 // Engineering outfit
 /decl/hierarchy/outfit/job/kernel/engineering

@@ -1,19 +1,3 @@
-/datum/map/kernel
-	default_law_type = /datum/ai_laws/asimov
-	allowed_jobs = list(
-		/datum/job/assistant,
-		/datum/job/kernel/command/captain,
-		/datum/job/kernel/engineering/engineer,
-		/datum/job/kernel/medical/doctor,
-		/datum/job/kernel/science/researcher
-	)
-
-// Civilian
-/datum/job/kernel/civilian
-	selection_color = "#663300"
-	department_types = list(/decl/department/civilian)
-	supervisors = "the Captain and your lazy bone"
-
 // Command
 /datum/job/kernel/command
 	selection_color = "#46698c"
@@ -46,3 +30,10 @@
 	selection_color = "#9d2300"
 	department_types = list(/decl/department/security)
 	supervisors = "the Captain and your strong arms"
+
+// Civilian
+/datum/job/kernel/civilian
+	selection_color = "#dddddd"
+	department_types = list(/decl/department/civilian)
+	supervisors = "the Captain and your lazy bone"
+
