@@ -6,5 +6,5 @@
 		/area/kernel/hall/kitchen = null,
 		/area/kernel/engineering/atmospherics = NO_SCRUBBER,
 		/area/kernel/dock = NO_SCRUBBER|NO_VENT,
-		/area/ship/kernel_shuttle = NO_SCRUBBER|NO_VENT
+		/area/ship/proton = NO_SCRUBBER|NO_VENT
 	)

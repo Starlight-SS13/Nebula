@@ -34,5 +34,5 @@
 /area/kernel/dock
 	name = "Docking Area"
 
-/area/ship/kernel_shuttle
+/area/ship/proton
 	name = "Proton"

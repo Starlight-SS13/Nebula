@@ -3,7 +3,7 @@
 	full_name = "Space Station Kernel"
 	path = "kernel"
 
-	// lobby_screens = list('kernel_lobby.png')
+	lobby_screens = list('kernel_lobby.gif')
 
 	station_levels = list(1, 2, 3, 4)
 	contact_levels = list(1, 2, 3, 4)
