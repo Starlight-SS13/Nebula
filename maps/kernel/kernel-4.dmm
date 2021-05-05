@@ -533,6 +533,9 @@
 /obj/structure/cable{
 	icon_state = "32-8"
 	},
+/obj/structure/disposalpipe/down{
+	dir = 4
+	},
 /turf/simulated/open,
 /area/space)
 "IC" = (
