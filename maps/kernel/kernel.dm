@@ -18,7 +18,6 @@
 
 // STARLIGHT MODS START
 	#include "../../starlight/mods/content/starlight/_starlight.dme"
-	#include "../../starlight/mods/content/interpack/_interpack.dme"
 
 	#include "../../starlight/mods/species/vatgrown/_vatgrown.dme"
 // STARLIGHT MODS END

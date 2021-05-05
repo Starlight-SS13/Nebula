@@ -3,8 +3,6 @@
 	full_name = "Space Station Kernel"
 	path = "kernel"
 
-	lobby_screens = list('kernel_lobby.gif')
-
 	station_levels = list(1, 2, 3, 4)
 	contact_levels = list(1, 2, 3, 4)
 	player_levels  = list(1, 2, 3, 4)
@@ -39,6 +37,10 @@
 
 	allowed_spawns = list("Cryogenic Storage")
 	default_spawn = "Cryogenic Storage"
+
+	lobby_screens = list(
+		'kernel_lobby.gif'
+	)
 
 /datum/map/kernel/get_map_info()
 	return "<b>[station_name]</b> - a space station located at the very frontier of explored space."

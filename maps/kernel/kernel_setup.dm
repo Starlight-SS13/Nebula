@@ -5,7 +5,7 @@
 /datum/map/kernel/send_welcome()
 	var/obj/effect/overmap/visitable/ship/kernel = SSshuttle.ship_by_type(/obj/effect/overmap/visitable/ship/kernel)
 
-	var/welcome_text = "<center><font size = 3><b>[GLOB.using_map.station_name]</b> Sensor Readings:</font><br>"
+	var/welcome_text = "<center><font size = 3><b>[global.using_map.station_name]</b> Sensor Readings:</font><br>"
 	welcome_text += "Report generated on [stationdate2text()] at [stationtime2text()]</center><br /><br />"
 	welcome_text += "<hr>Current system:<br /><b>[kernel ? system_name() : "Unknown"]</b><br /><br>"
 
@@ -45,5 +45,5 @@
 			welcome_text += "<br>No distress calls logged.<br />"
 		welcome_text += "<hr>"
 
-	post_comm_message("[GLOB.using_map.station_short] Sensor Readings", welcome_text)
-	minor_announcement.Announce(message = "New [GLOB.using_map.station_short] Update available at all communication consoles.")
+	post_comm_message("[global.using_map.station_short] Sensor Readings", welcome_text)
+	minor_announcement.Announce(message = "New [global.using_map.station_short] Update available at all communication consoles.")

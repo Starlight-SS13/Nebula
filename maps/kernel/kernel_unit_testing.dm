@@ -8,3 +8,6 @@
 		/area/kernel/dock = NO_SCRUBBER|NO_VENT,
 		/area/ship/proton = NO_SCRUBBER|NO_VENT
 	)
+
+/obj/effect/landmark/map_data/kernel
+	height = 4
