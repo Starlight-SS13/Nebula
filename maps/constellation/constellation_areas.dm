@@ -159,7 +159,7 @@ please do not remove my messages. they just look fancy to sort these areas. i rl
 /area/constellation/maintenance
 	name = "Maintenance Compartments"
 	icon_state = "amaint"
-	area_flags = AREA_FLAG_RAD_SHIELDED
+	area_flags = AREA_FLAG_RAD_SHIELDED | AREA_FLAG_MAINTENANCE
 	sound_env = TUNNEL_ENCLOSED
 	turf_initializer = /decl/turf_initializer/maintenance
 	forced_ambience = list('sound/ambience/maintambience.ogg')
