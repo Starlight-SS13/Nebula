@@ -154,12 +154,15 @@ please do not remove my messages. they just look fancy to sort these areas. i rl
 /area/constellation/cargo/lower
 	name = "Loading Bay"
 
-//Maint. and unused
+//Maintenance
 
 /area/constellation/maintenance
 	name = "Maintenance Compartments"
 	icon_state = "amaint"
-	area_flags = AREA_FLAG_RAD_SHIELDED | AREA_FLAG_MAINTENANCE
+	area_flags = AREA_FLAG_RAD_SHIELDED
+	sound_env = TUNNEL_ENCLOSED
+	turf_initializer = /decl/turf_initializer/maintenance
+	forced_ambience = list('sound/ambience/maintambience.ogg')
 
 /area/constellation/maintenance/hallway
 	name = "Maintenance Corridors"
@@ -252,36 +255,30 @@ please do not remove my messages. they just look fancy to sort these areas. i rl
 		'sound/ambience/sonar.ogg'
 	)
 
-//Underside.
+//Underside Maintenance
 
-/area/constellation/aft_port_underside_maint
+/area/constellation/maintenance/aft_port_underside_maint
 	name = "Underside - Aft Port Maintenance"
 	icon_state = "medbay"
-	area_flags = AREA_FLAG_RAD_SHIELDED | AREA_FLAG_MAINTENANCE
 
-/area/constellation/aft_starboard_underside_maint
+/area/constellation/maintenance/aft_starboard_underside_maint
 	name = "Underside - Aft Starboard Maintenance"
 	icon_state = "toilet"
-	area_flags = AREA_FLAG_RAD_SHIELDED | AREA_FLAG_MAINTENANCE
+
+/area/constellation/maintenance/fore_port_underside_maint
+	name = "Underside - Fore Port Maintenance"
+	icon_state = "green"
+
+//Underside
 
 /area/constellation/loading_bay
 	name = "Underside - Loading Bay"
 	icon_state = "entry_1"
 
-/area/constellation/fore_port_underside_maint
-	name = "Underside - Fore Port Maintenance"
-	icon_state = "green"
-	area_flags = AREA_FLAG_RAD_SHIELDED | AREA_FLAG_MAINTENANCE
-
 /area/constellation/livestock
 	name = "Underside - Livestock Handling"
 	icon_state = "red"
 	req_access = list(access_xenobiology)
-
-/area/constellation/fore_starboard_underside_maint
-	name = "Underside - Fore Starboard Maintenance"
-	icon_state = "locker"
-	area_flags = AREA_FLAG_RAD_SHIELDED | AREA_FLAG_MAINTENANCE
 
 /area/constellation/bar
 	name = "Underside - Bar"
