@@ -1,5 +1,5 @@
-/area/ship/trade
-	name = "Generic Ship"
+/area/ship/constellation
+	name = "\improper Constellation"
 	ambience = list(
 		'sound/ambience/ambigen3.ogg',
 		'sound/ambience/ambigen4.ogg',
@@ -13,299 +13,326 @@
 		'sound/ambience/ambigen12.ogg'
 	)
 
+/datum/event/prison_break/medical
+	areaType = list(/area/ship/constellation/medical)
+
+/datum/event/prison_break/science
+	areaType = list(/area/ship/constellation/livestock)
+
+/datum/event/prison_break/station
+	areaType = list(/area/ship/constellation/brig)
+
 /*
 please do not remove my messages. they just look fancy to sort these areas. i rly dont like previous file. i know that it was sorted by area placement but..
 */
 
 //Crew/Civilian
 
-/area/ship/trade/crew
+/area/ship/constellation/crew
 	name = "Crew Compartments"
 	icon_state = "crew_quarters"
 
-/area/ship/trade/crew/hallway/port
+/area/ship/constellation/crew/hallway/port
 	name = "Crew Hallway - Port"
 
-/area/ship/trade/crew/hallway/starboard
+/area/ship/constellation/crew/hallway/starboard
 	name = "Crew Hallway - Starboard"
 
-/area/ship/trade/crew/kitchen
+/area/ship/constellation/crew/kitchen
 	name = "Kitchen"
 	icon_state = "kitchen"
 
-/area/ship/trade/crew/hydro
+/area/ship/constellation/crew/hydro
 	name = "Hydroponics"
 	icon_state = "green"
 
-/area/ship/trade/crew/dorms1
+/area/ship/constellation/crew/dorms1
 	name = "Sleep Capsule"
 	icon_state = "green"
 	area_flags = AREA_FLAG_RAD_SHIELDED
 
-/area/ship/trade/crew/dorms2
+/area/ship/constellation/crew/dorms2
 	name = "Crew Cabin"
 	icon_state = "purple"
 	area_flags = AREA_FLAG_RAD_SHIELDED
 
-/area/ship/trade/crew/saloon
+/area/ship/constellation/crew/saloon
 	name = "Saloon"
 	icon_state = "conference"
 
-/area/ship/trade/crew/library
+/area/ship/constellation/crew/library
 	name = "Library"
 	icon_state = "yellow"
 
-/area/ship/trade/crew/toilets
+/area/ship/constellation/crew/toilets
 	name = "Bathrooms"
 	icon_state = "toilet"
 
-/area/ship/trade/crew/wash
+/area/ship/constellation/crew/wash
 	name = "Laundry"
 	icon_state = "locker"
 
 //Docks
 
-/area/ship/trade/dock
+/area/ship/constellation/dock
 	name = "Docking Bay"
 	icon_state = "entry_1"
 
-/area/ship/trade/shuttle
-	name = "Exploration Shuttle"
-	icon_state = "tcomsatcham"
-	area_flags = AREA_FLAG_RAD_SHIELDED
-
 //Escape Pods/Cryo
 
-/area/ship/trade/escape_port
+/area/ship/constellation/escape_port
 	name = "Port Escape Pods"
 	icon_state = "green"
 
-/area/ship/trade/escape_star
+/area/ship/constellation/escape_star
 	name = "Starboard Escape Pods"
 	icon_state = "yellow"
 
 //Command
 
-/area/ship/trade/command
+/area/ship/constellation/command
 	req_access = list(access_heads)
 
-/area/ship/trade/command/hallway
+/area/ship/constellation/command/hallway
 	name = "Command Deck"
 	icon_state = "centcom"
 	req_access = list()
 
-/area/ship/trade/command/bridge
+/area/ship/constellation/command/bridge
 	name = "Bridge"
 	icon_state = "bridge"
 
-/area/ship/trade/command/bridge_upper
+/area/ship/constellation/command/bridge_upper
 	name = "Upper Bridge"
 	icon_state = "blue"
 
-/area/ship/trade/command/captain
+/area/ship/constellation/command/captain
 	name = "Captain's Quarters"
 	icon_state = "captain"
 	req_access = list(access_captain)
+	area_flags = AREA_FLAG_RAD_SHIELDED
 
-/area/ship/trade/command/fmate
+/area/ship/constellation/command/fmate
 	name = "First Mate's Office"
 	icon_state = "heads_hop"
 	req_access = list(access_hop)
 
 //Medical
 
-/area/ship/trade/medical
+/area/ship/constellation/medical
 	name = "Medical Bay"
 	icon_state = "medbay"
 	area_flags = AREA_FLAG_RAD_SHIELDED
 
-/area/ship/trade/medical/chemistry
+/area/ship/constellation/medical/chemistry
 	name = "Chemistry Bay"
 	icon_state = "cave"
 	req_access = list(access_medical)
 
 //Science
 
-/area/ship/trade/science
+/area/ship/constellation/science
 	name = "Research Bay"
 	icon_state = "green"
 	req_access = list(access_research)
 
-/area/ship/trade/science/fabricaton
+/area/ship/constellation/science/fabricaton
 	name = "Fabrication Bay"
 	icon_state = "yellow"
 
-/area/ship/trade/science/artifact_storage
+/area/ship/constellation/science/artifact_storage
 	name = "Artifact Storage"
 	icon_state = "ai_cyborg"
 
 //Cargo
 
-/area/ship/trade/cargo
+/area/ship/constellation/cargo
 	name = "Cargo Hold"
 	icon_state = "quartstorage"
 	area_flags = AREA_FLAG_RAD_SHIELDED
 
-/area/ship/trade/cargo/lower
+/area/ship/constellation/cargo/lower
 	name = "Loading Bay"
 
 //Maint. and unused
 
-/area/ship/trade/maintenance
+/area/ship/constellation/maintenance
 	name = "Maintenance Compartments"
 	icon_state = "amaint"
+	area_flags = AREA_FLAG_RAD_SHIELDED | AREA_FLAG_MAINTENANCE
 
-/area/ship/trade/maintenance/hallway
+/area/ship/constellation/maintenance/hallway
 	name = "Maintenance Corridors"
 
-/area/ship/trade/maintenance/lower
+/area/ship/constellation/maintenance/lower
 	name = "Lower Deck Maintenance Compartments"
 	icon_state = "sub_maint_aft"
 
-/area/ship/trade/hidden
+/area/ship/constellation/hidden
 	name = "Unknown"
 	icon_state = "auxstorage"
 
-/area/ship/trade/command/bridge_unused
+/area/ship/constellation/command/bridge_unused
 	name = "Bridge Starboard Storage"
 	icon_state = "armory"
 
 //Engineering
 
-/area/ship/trade/engineering
+/area/ship/constellation/engineering
 	name       = "Engineering Bay"
 	icon_state = "engineering_supply"
 	req_access = list(access_engine)
 	secure     = 1
 
-	ambience = list('sound/ambience/ambigen3.ogg',
-					'sound/ambience/ambigen4.ogg',
-					'sound/ambience/ambigen5.ogg',
-					'sound/ambience/ambigen6.ogg',
-					'sound/ambience/ambigen7.ogg',
-					'sound/ambience/ambigen8.ogg',
-					'sound/ambience/ambigen9.ogg',
-					'sound/ambience/ambigen10.ogg',
-					'sound/ambience/ambigen11.ogg',
-					'sound/ambience/ambieng1.ogg')
+	ambience = list(
+		'sound/ambience/ambigen3.ogg',
+		'sound/ambience/ambigen4.ogg',
+		'sound/ambience/ambigen5.ogg',
+		'sound/ambience/ambigen6.ogg',
+		'sound/ambience/ambigen7.ogg',
+		'sound/ambience/ambigen8.ogg',
+		'sound/ambience/ambigen9.ogg',
+		'sound/ambience/ambigen10.ogg',
+		'sound/ambience/ambigen11.ogg',
+		'sound/ambience/ambieng1.ogg'
+	)
 
-/area/ship/trade/engineering/storage
+/area/ship/constellation/engineering/storage
 	name = "Engineering Storage"
 	icon_state = "engineering_storage"
 
-/area/ship/trade/engineering/techstorage
+/area/ship/constellation/engineering/techstorage
 	name = "Parts Storage"
 	icon_state = "engineering_supply"
 
-/area/ship/trade/engineering/eva
+/area/ship/constellation/engineering/eva
 	name = "EVA Storage"
 	icon_state = "eva"
 	req_access = list(access_eva)
 
-/area/ship/trade/engineering/atmos
+/area/ship/constellation/engineering/atmos
 	name = "Atmospherics Comparment"
 	icon_state = "atmos"
 
-/area/ship/trade/engineering/power
+/area/ship/constellation/engineering/power
 	name = "Power Compartment"
 	icon_state = "engine_smes"
 
-/area/ship/trade/engineering/engine
+/area/ship/constellation/engineering/engine
 	name = "Main Engine Bay"
 	icon_state = "engine"
 
-/area/ship/trade/engineering/solars
+/area/ship/constellation/engineering/solars
 	name = "Solar Array Access"
 	icon_state = "SolarcontrolA"
 
 //Misc.
 
-/area/ship/trade/brig
+/area/ship/constellation/brig
 	name = "Brig"
 	icon_state = "brig"
 	req_access = list(access_brig)
 	secure     = 1
-	area_flags = AREA_FLAG_RAD_SHIELDED
+	area_flags = AREA_FLAG_RAD_SHIELDED | AREA_FLAG_SECURITY
 
-/area/ship/trade/storage
+/area/ship/constellation/storage
 	name = "Secure Storage"
 	icon_state = "engine"
 	req_access = list(access_engine_equip)
 
-/area/ship/trade/comms
+/area/ship/constellation/comms
 	name = "Communications Relay"
 	icon_state = "tcomsatcham"
-	ambience = list('sound/ambience/ambigen3.ogg',
-					'sound/ambience/ambigen4.ogg',
-					'sound/ambience/signal.ogg',
-					'sound/ambience/sonar.ogg')
 	req_access = list(access_engine)
+
+	ambience = list(
+		'sound/ambience/ambigen3.ogg',
+		'sound/ambience/ambigen4.ogg',
+		'sound/ambience/signal.ogg',
+		'sound/ambience/sonar.ogg'
+	)
 
 //Underside.
 
-/area/ship/trade/aft_port_underside_maint
+/area/ship/constellation/aft_port_underside_maint
 	name = "Underside - Aft Port Maintenance"
 	icon_state = "medbay"
+	area_flags = AREA_FLAG_RAD_SHIELDED | AREA_FLAG_MAINTENANCE
 
-/area/ship/trade/aft_starboard_underside_maint
+/area/ship/constellation/aft_starboard_underside_maint
 	name = "Underside - Aft Starboard Maintenance"
 	icon_state = "toilet"
+	area_flags = AREA_FLAG_RAD_SHIELDED | AREA_FLAG_MAINTENANCE
 
-/area/ship/trade/loading_bay
+/area/ship/constellation/loading_bay
 	name = "Underside - Loading Bay"
 	icon_state = "entry_1"
 
-/area/ship/trade/fore_port_underside_maint
+/area/ship/constellation/fore_port_underside_maint
 	name = "Underside - Fore Port Maintenance"
 	icon_state = "green"
+	area_flags = AREA_FLAG_RAD_SHIELDED | AREA_FLAG_MAINTENANCE
 
-/area/ship/trade/livestock
+/area/ship/constellation/livestock
 	name = "Underside - Livestock Handling"
 	icon_state = "red"
 	req_access = list(access_xenobiology)
 
-/area/ship/trade/fore_starboard_underside_maint
+/area/ship/constellation/fore_starboard_underside_maint
 	name = "Underside - Fore Starboard Maintenance"
 	icon_state = "locker"
+	area_flags = AREA_FLAG_RAD_SHIELDED | AREA_FLAG_MAINTENANCE
 
-/area/ship/trade/bar
+/area/ship/constellation/bar
 	name = "Underside - Bar"
 	icon_state = "yellow"
 
-/area/ship/trade/undercomms
+/area/ship/constellation/undercomms
 	name = "Underside - Communications Relay"
 	icon_state = "blue"
 
 //Elevator
 
-/area/turbolift
+/area/turbolift/constellation
 	name = "Cargo Elevator"
 	icon_state = "shuttle"
 	requires_power = 0
 	dynamic_lighting = 1
 	sound_env = STANDARD_STATION
 	area_flags = AREA_FLAG_RAD_SHIELDED | AREA_FLAG_ION_SHIELDED
-	ambience = list('sound/ambience/ambigen3.ogg','sound/ambience/ambigen4.ogg','sound/ambience/ambigen5.ogg','sound/ambience/ambigen6.ogg','sound/ambience/ambigen7.ogg','sound/ambience/ambigen8.ogg','sound/ambience/ambigen9.ogg','sound/ambience/ambigen10.ogg','sound/ambience/ambigen11.ogg','sound/ambience/ambigen12.ogg')
 	arrival_sound = null
 	lift_announce_str = null
 
-/area/turbolift/alert_on_fall(var/mob/living/carbon/human/H)
+	ambience = list(
+		'sound/ambience/ambigen3.ogg',
+		'sound/ambience/ambigen4.ogg',
+		'sound/ambience/ambigen5.ogg',
+		'sound/ambience/ambigen6.ogg',
+		'sound/ambience/ambigen7.ogg',
+		'sound/ambience/ambigen8.ogg',
+		'sound/ambience/ambigen9.ogg',
+		'sound/ambience/ambigen10.ogg',
+		'sound/ambience/ambigen11.ogg',
+		'sound/ambience/ambigen12.ogg'
+	)
+
+/area/turbolift/constellation/alert_on_fall(var/mob/living/carbon/human/H)
 	if(H.client && SSpersistence.elevator_fall_shifts > 0)
 		SSwebhooks.send(WEBHOOK_ELEVATOR_FALL, list("text" = "We managed to make it [SSpersistence.elevator_fall_shifts] shift\s without someone falling down an elevator shaft."))
 		SSpersistence.elevator_fall_shifts = -1
 
-/area/turbolift/constellation_enclave
+/area/turbolift/constellation/enclave
 	name = "Disused Sublevel"
 	base_turf = /turf/simulated/floor
 
-/area/turbolift/constellation_cargo
+/area/turbolift/constellation/cargo
 	name = "Lower Cargo Bay"
 	base_turf = /turf/simulated/open
 
-/area/turbolift/constellation_upper
+/area/turbolift/constellation/upper
 	name = "Upper Cargo Bay"
 	base_turf = /turf/simulated/open
 
-/area/turbolift/constellation_roof
+/area/turbolift/constellation/roof
 	name = "Solar Array Access"
 	base_turf = /turf/simulated/open

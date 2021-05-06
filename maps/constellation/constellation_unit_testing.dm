@@ -7,17 +7,17 @@
 		/area/turbolift = NO_SCRUBBER|NO_VENT|NO_APC,
 		/area/space = NO_SCRUBBER|NO_VENT|NO_APC,
 		/area/exoplanet = NO_SCRUBBER|NO_VENT|NO_APC,
-		/area/ship/trade/crew/hallway/port = NO_SCRUBBER|NO_VENT,
-		/area/ship/trade/crew/hallway/starboard = NO_SCRUBBER|NO_VENT,
-		/area/ship/trade/maintenance/hallway = NO_SCRUBBER|NO_VENT,
-		/area/ship/trade/maintenance/lower = NO_SCRUBBER|NO_VENT,
-		/area/ship/trade/escape_port = NO_SCRUBBER|NO_VENT,
-		/area/ship/trade/escape_star = NO_SCRUBBER|NO_VENT,
-		/area/ship/trade/engineering/atmos = NO_SCRUBBER
+		/area/ship/constellation/crew/hallway/port = NO_SCRUBBER|NO_VENT,
+		/area/ship/constellation/crew/hallway/starboard = NO_SCRUBBER|NO_VENT,
+		/area/ship/constellation/maintenance/hallway = NO_SCRUBBER|NO_VENT,
+		/area/ship/constellation/maintenance/lower = NO_SCRUBBER|NO_VENT,
+		/area/ship/constellation/escape_port = NO_SCRUBBER|NO_VENT,
+		/area/ship/constellation/escape_star = NO_SCRUBBER|NO_VENT,
+		/area/ship/constellation/engineering/atmos = NO_SCRUBBER
 	)
 
 	area_coherency_test_subarea_count = list(
-		/area/ship/trade/crew/hallway/port = 2
+		/area/ship/constellation/crew/hallway/port = 2
 	)
 
 /obj/effect/landmark/map_data/constellation

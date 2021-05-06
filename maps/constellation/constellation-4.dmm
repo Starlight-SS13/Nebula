@@ -8,7 +8,7 @@
 	dir = 1
 	},
 /turf/simulated/floor/tiled,
-/area/ship/trade/command/bridge_upper)
+/area/ship/constellation/command/bridge_upper)
 "af" = (
 /obj/structure/cable/yellow{
 	icon_state = "1-2"
@@ -20,7 +20,7 @@
 	dir = 1
 	},
 /turf/simulated/floor/tiled/techfloor,
-/area/ship/trade/engineering/solars)
+/area/ship/constellation/engineering/solars)
 "ah" = (
 /obj/structure/cable/yellow{
 	icon_state = "1-8"
@@ -35,7 +35,7 @@
 	icon_state = "1-4"
 	},
 /turf/simulated/open,
-/area/ship/trade/engineering/solars)
+/area/ship/constellation/engineering/solars)
 "ai" = (
 /obj/structure/cable/yellow{
 	d1 = 2;
@@ -75,11 +75,11 @@
 	icon_state = "1-4"
 	},
 /turf/simulated/floor/plating,
-/area/ship/trade/engineering/solars)
+/area/ship/constellation/engineering/solars)
 "ao" = (
 /obj/item/stool/padded,
 /turf/simulated/floor/tiled/techfloor,
-/area/ship/trade/engineering/solars)
+/area/ship/constellation/engineering/solars)
 "ap" = (
 /obj/structure/ladder,
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
@@ -91,7 +91,7 @@
 	},
 /obj/structure/catwalk,
 /turf/simulated/open,
-/area/ship/trade/engineering/solars)
+/area/ship/constellation/engineering/solars)
 "as" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 4
@@ -114,7 +114,7 @@
 	dir = 4
 	},
 /turf/simulated/floor/plating,
-/area/ship/trade/engineering/solars)
+/area/ship/constellation/engineering/solars)
 "at" = (
 /obj/machinery/atmospherics/portables_connector{
 	dir = 8
@@ -122,7 +122,7 @@
 /obj/machinery/portable_atmospherics/canister/air/airlock,
 /obj/effect/floor_decal/industrial/outline/yellow,
 /turf/simulated/floor/tiled/techfloor/grid,
-/area/ship/trade/engineering/solars)
+/area/ship/constellation/engineering/solars)
 "au" = (
 /obj/effect/wallframe_spawn/reinforced,
 /obj/machinery/door/firedoor,
@@ -133,7 +133,7 @@
 	name = "EXTERNAL LOCKDOWN"
 	},
 /turf/simulated/floor/plating,
-/area/ship/trade/engineering/solars)
+/area/ship/constellation/engineering/solars)
 "av" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 4
@@ -150,7 +150,7 @@
 	dir = 8
 	},
 /turf/simulated/floor/tiled/techmaint,
-/area/ship/trade/engineering/solars)
+/area/ship/constellation/engineering/solars)
 "ax" = (
 /turf/simulated/floor/reinforced/airless,
 /area/space)
@@ -165,12 +165,12 @@
 	},
 /obj/machinery/power/smes/buildable/max_cap_in_out,
 /turf/simulated/floor/plating,
-/area/ship/trade/engineering/solars)
+/area/ship/constellation/engineering/solars)
 "aG" = (
 /obj/structure/closet/crate/solar,
 /obj/item/stack/material/glass/fifty,
 /turf/simulated/floor/tiled/techfloor,
-/area/ship/trade/engineering/solars)
+/area/ship/constellation/engineering/solars)
 "aH" = (
 /obj/structure/cable/yellow{
 	d1 = 4;
@@ -201,7 +201,7 @@
 	pixel_y = 24
 	},
 /turf/simulated/floor/tiled/techmaint,
-/area/ship/trade/engineering/solars)
+/area/ship/constellation/engineering/solars)
 "aR" = (
 /obj/structure/cable/yellow{
 	d1 = 1;
@@ -209,14 +209,14 @@
 	icon_state = "1-2"
 	},
 /turf/simulated/floor/tiled/techmaint,
-/area/ship/trade/engineering/solars)
+/area/ship/constellation/engineering/solars)
 "aV" = (
 /turf/simulated/wall/r_wall/prepainted,
-/area/ship/trade/engineering/solars)
+/area/ship/constellation/engineering/solars)
 "bb" = (
 /obj/structure/sign/warning/airlock,
 /turf/simulated/wall/r_wall/prepainted,
-/area/ship/trade/engineering/solars)
+/area/ship/constellation/engineering/solars)
 "bd" = (
 /obj/structure/cable/yellow{
 	d2 = 8;
@@ -237,21 +237,21 @@
 	},
 /obj/structure/lattice,
 /turf/simulated/open,
-/area/ship/trade/engineering/solars)
+/area/ship/constellation/engineering/solars)
 "br" = (
 /obj/structure/inflatable/door,
 /turf/simulated/floor/plating,
-/area/ship/trade/command/bridge_unused)
+/area/ship/constellation/command/bridge_unused)
 "bE" = (
 /obj/machinery/computer/modular/preset/civilian{
 	dir = 1
 	},
 /turf/simulated/floor/tiled/monotile,
-/area/ship/trade/command/bridge_upper)
+/area/ship/constellation/command/bridge_upper)
 "cO" = (
 /obj/structure/grille/broken,
 /turf/simulated/floor/plating,
-/area/ship/trade/command/bridge_unused)
+/area/ship/constellation/command/bridge_unused)
 "dq" = (
 /obj/structure/cable/yellow{
 	d1 = 2;
@@ -266,7 +266,7 @@
 	initial_network_id = "tradenet"
 	},
 /turf/simulated/floor/bluegrid,
-/area/ship/trade/comms)
+/area/ship/constellation/comms)
 "fi" = (
 /obj/machinery/atmospherics/pipe/manifold/hidden/scrubbers,
 /obj/structure/cable{
@@ -278,7 +278,7 @@
 	dir = 8
 	},
 /turf/simulated/floor/tiled,
-/area/ship/trade/command/bridge_upper)
+/area/ship/constellation/command/bridge_upper)
 "fE" = (
 /obj/machinery/power/tracker,
 /obj/structure/cable/yellow{
@@ -302,7 +302,7 @@
 	dir = 4
 	},
 /turf/simulated/floor/plating,
-/area/ship/trade/command/bridge_unused)
+/area/ship/constellation/command/bridge_unused)
 "gx" = (
 /obj/structure/railing/mapped,
 /obj/effect/floor_decal/industrial/warning,
@@ -312,7 +312,7 @@
 	icon_state = "4-8"
 	},
 /turf/simulated/floor/tiled/techmaint,
-/area/ship/trade/engineering/solars)
+/area/ship/constellation/engineering/solars)
 "gI" = (
 /obj/machinery/door/firedoor,
 /obj/effect/wallframe_spawn/reinforced,
@@ -323,7 +323,7 @@
 	name = "EXTERNAL LOCKDOWN"
 	},
 /turf/simulated/floor/plating,
-/area/ship/trade/comms)
+/area/ship/constellation/comms)
 "hh" = (
 /obj/structure/cable/yellow{
 	icon_state = "1-8"
@@ -355,11 +355,11 @@
 	dir = 1
 	},
 /turf/simulated/floor/tiled/dark,
-/area/ship/trade/command/bridge_upper)
+/area/ship/constellation/command/bridge_upper)
 "hN" = (
 /obj/machinery/atmospherics/unary/vent_scrubber/on,
 /turf/simulated/floor/plating,
-/area/ship/trade/command/bridge_unused)
+/area/ship/constellation/command/bridge_unused)
 "jy" = (
 /obj/machinery/computer/modular/preset/engineering{
 	dir = 8
@@ -368,12 +368,12 @@
 	dir = 4
 	},
 /turf/simulated/floor/tiled/techfloor,
-/area/ship/trade/engineering/solars)
+/area/ship/constellation/engineering/solars)
 "jz" = (
 /obj/random/trash,
 /obj/item/stool/padded,
 /turf/simulated/floor/plating,
-/area/ship/trade/command/bridge_unused)
+/area/ship/constellation/command/bridge_unused)
 "jJ" = (
 /obj/machinery/door/airlock/hatch/autoname/command,
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
@@ -391,7 +391,7 @@
 /obj/machinery/door/firedoor,
 /obj/effect/floor_decal/industrial/hatch/yellow,
 /turf/simulated/floor/tiled/techfloor/grid,
-/area/ship/trade/comms)
+/area/ship/constellation/comms)
 "ke" = (
 /obj/structure/cable/yellow{
 	icon_state = "1-2"
@@ -407,13 +407,13 @@
 	},
 /obj/effect/floor_decal/industrial/outline/yellow,
 /turf/simulated/floor/tiled/techfloor/grid,
-/area/ship/trade/engineering/solars)
+/area/ship/constellation/engineering/solars)
 "lH" = (
 /obj/machinery/network/mainframe{
 	initial_network_id = "tradenet"
 	},
 /turf/simulated/floor/bluegrid,
-/area/ship/trade/comms)
+/area/ship/constellation/comms)
 "ma" = (
 /obj/machinery/embedded_controller/radio/airlock/airlock_controller{
 	id_tag = "solars";
@@ -431,10 +431,10 @@
 	dir = 4
 	},
 /turf/simulated/floor/tiled/techfloor,
-/area/ship/trade/engineering/solars)
+/area/ship/constellation/engineering/solars)
 "mn" = (
 /turf/simulated/floor/tiled/dark,
-/area/ship/trade/command/bridge_upper)
+/area/ship/constellation/command/bridge_upper)
 "mV" = (
 /obj/structure/cable/yellow{
 	d1 = 1;
@@ -471,7 +471,7 @@
 	pixel_y = 0
 	},
 /turf/simulated/floor/tiled,
-/area/ship/trade/command/bridge_upper)
+/area/ship/constellation/command/bridge_upper)
 "oq" = (
 /obj/random/trash,
 /obj/machinery/power/apc{
@@ -484,11 +484,11 @@
 	},
 /obj/random/trash,
 /turf/simulated/floor/plating,
-/area/ship/trade/command/bridge_unused)
+/area/ship/constellation/command/bridge_unused)
 "oL" = (
 /obj/structure/catwalk,
 /turf/simulated/floor/plating,
-/area/ship/trade/command/bridge_unused)
+/area/ship/constellation/command/bridge_unused)
 "pt" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
@@ -499,14 +499,14 @@
 	pixel_y = 0
 	},
 /turf/simulated/floor/tiled,
-/area/ship/trade/command/bridge_upper)
+/area/ship/constellation/command/bridge_upper)
 "qw" = (
 /obj/effect/floor_decal/industrial/warning,
 /obj/structure/cable/yellow{
 	icon_state = "1-8"
 	},
 /turf/simulated/floor/tiled/techmaint,
-/area/ship/trade/engineering/solars)
+/area/ship/constellation/engineering/solars)
 "rl" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
 /obj/structure/cable{
@@ -523,7 +523,7 @@
 	},
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
 /turf/simulated/floor/tiled,
-/area/ship/trade/command/bridge_upper)
+/area/ship/constellation/command/bridge_upper)
 "sx" = (
 /obj/effect/floor_decal/industrial/warning/fulltile,
 /turf/simulated/floor/airless,
@@ -534,7 +534,7 @@
 	pixel_x = -24
 	},
 /turf/simulated/floor/plating,
-/area/ship/trade/command/bridge_unused)
+/area/ship/constellation/command/bridge_unused)
 "sX" = (
 /obj/machinery/door/window/westleft,
 /obj/structure/cable{
@@ -549,7 +549,7 @@
 	dir = 6
 	},
 /turf/simulated/floor/tiled/techfloor,
-/area/ship/trade/comms)
+/area/ship/constellation/comms)
 "ts" = (
 /obj/machinery/alarm{
 	dir = 1;
@@ -561,10 +561,10 @@
 	dir = 4
 	},
 /turf/simulated/floor/bluegrid,
-/area/ship/trade/comms)
+/area/ship/constellation/comms)
 "tJ" = (
 /turf/simulated/wall/r_wall/prepainted,
-/area/ship/trade/command/bridge_upper)
+/area/ship/constellation/command/bridge_upper)
 "uM" = (
 /obj/machinery/door/airlock/external/bolted{
 	id_tag = "solars_in"
@@ -575,7 +575,7 @@
 	},
 /obj/effect/floor_decal/industrial/hatch/yellow,
 /turf/simulated/floor/tiled/techfloor/grid,
-/area/ship/trade/engineering/solars)
+/area/ship/constellation/engineering/solars)
 "vi" = (
 /obj/structure/cable/yellow{
 	d1 = 4;
@@ -596,16 +596,16 @@
 	icon_state = "4-8"
 	},
 /turf/simulated/floor/tiled/techmaint,
-/area/ship/trade/engineering/solars)
+/area/ship/constellation/engineering/solars)
 "vD" = (
 /obj/random/trash,
 /turf/simulated/floor/plating,
-/area/ship/trade/command/bridge_unused)
+/area/ship/constellation/command/bridge_unused)
 "wa" = (
 /obj/structure/railing/mapped,
 /obj/effect/floor_decal/industrial/warning,
 /turf/simulated/floor/tiled/techmaint,
-/area/ship/trade/engineering/solars)
+/area/ship/constellation/engineering/solars)
 "wc" = (
 /obj/machinery/power/apc{
 	dir = 1
@@ -619,7 +619,7 @@
 /obj/item/paper_bin,
 /obj/item/pen,
 /turf/simulated/floor/tiled/monotile,
-/area/ship/trade/command/bridge_upper)
+/area/ship/constellation/command/bridge_upper)
 "wf" = (
 /obj/machinery/light/small{
 	dir = 4
@@ -628,13 +628,13 @@
 	dir = 1
 	},
 /turf/simulated/floor/tiled/techmaint,
-/area/ship/trade/engineering/solars)
+/area/ship/constellation/engineering/solars)
 "wq" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
 /obj/item/stool/padded,
 /obj/item/stack/material/rods,
 /turf/simulated/floor/plating,
-/area/ship/trade/command/bridge_unused)
+/area/ship/constellation/command/bridge_unused)
 "xF" = (
 /obj/structure/railing/mapped{
 	dir = 1
@@ -643,7 +643,7 @@
 	dir = 1
 	},
 /turf/simulated/floor/tiled/techmaint,
-/area/ship/trade/engineering/solars)
+/area/ship/constellation/engineering/solars)
 "yt" = (
 /obj/machinery/door/airlock/external/bolted{
 	id_tag = "solars_out"
@@ -653,7 +653,7 @@
 	},
 /obj/effect/floor_decal/industrial/hatch/yellow,
 /turf/simulated/floor/tiled/techfloor/grid,
-/area/ship/trade/engineering/solars)
+/area/ship/constellation/engineering/solars)
 "yA" = (
 /obj/structure/window/reinforced{
 	dir = 8
@@ -665,7 +665,7 @@
 	pixel_x = 24
 	},
 /turf/simulated/floor/tiled/techfloor,
-/area/ship/trade/comms)
+/area/ship/constellation/comms)
 "yQ" = (
 /obj/machinery/airlock_sensor{
 	id_tag = "solars_sensor";
@@ -677,7 +677,7 @@
 	icon_state = "intact"
 	},
 /turf/simulated/floor/tiled/techfloor,
-/area/ship/trade/engineering/solars)
+/area/ship/constellation/engineering/solars)
 "zn" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
 	dir = 10
@@ -687,7 +687,7 @@
 	},
 /obj/random/junk,
 /turf/simulated/floor/plating,
-/area/ship/trade/command/bridge_unused)
+/area/ship/constellation/command/bridge_unused)
 "zH" = (
 /obj/structure/cable/yellow{
 	icon_state = "1-8"
@@ -707,7 +707,7 @@
 /area/space)
 "zY" = (
 /turf/simulated/wall/r_wall/prepainted,
-/area/ship/trade/command/bridge_unused)
+/area/ship/constellation/command/bridge_unused)
 "Al" = (
 /obj/structure/cable/yellow{
 	d1 = 2;
@@ -721,14 +721,14 @@
 	dir = 1
 	},
 /turf/simulated/floor/tiled/techmaint,
-/area/ship/trade/engineering/solars)
+/area/ship/constellation/engineering/solars)
 "Bp" = (
 /obj/machinery/atmospherics/unary/vent_pump/on{
 	dir = 1;
 	level = 2
 	},
 /turf/simulated/floor/plating,
-/area/ship/trade/command/bridge_unused)
+/area/ship/constellation/command/bridge_unused)
 "BD" = (
 /obj/machinery/atmospherics/unary/vent_pump/on{
 	dir = 8;
@@ -741,7 +741,7 @@
 	icon_state = "4-8"
 	},
 /turf/simulated/floor/tiled/techmaint,
-/area/ship/trade/engineering/solars)
+/area/ship/constellation/engineering/solars)
 "Dg" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
@@ -755,12 +755,12 @@
 	dir = 4
 	},
 /turf/simulated/floor/tiled/dark,
-/area/ship/trade/command/bridge_upper)
+/area/ship/constellation/command/bridge_upper)
 "DP" = (
 /obj/structure/table/standard,
 /obj/item/storage/pill_bottle/dice_nerd,
 /turf/simulated/floor/tiled/monotile,
-/area/ship/trade/command/bridge_upper)
+/area/ship/constellation/command/bridge_upper)
 "DY" = (
 /obj/machinery/door/airlock/hatch/autoname/command{
 	locked = 1
@@ -780,7 +780,7 @@
 /obj/item/taperoll/engineering/applied,
 /obj/effect/floor_decal/industrial/hatch/yellow,
 /turf/simulated/floor/tiled/techfloor/grid,
-/area/ship/trade/command/bridge_unused)
+/area/ship/constellation/command/bridge_unused)
 "DZ" = (
 /obj/effect/floor_decal/industrial/warning{
 	dir = 1
@@ -792,7 +792,7 @@
 	id_tag = "solars_pump"
 	},
 /turf/simulated/floor/tiled/techfloor,
-/area/ship/trade/engineering/solars)
+/area/ship/constellation/engineering/solars)
 "Eg" = (
 /obj/machinery/atmospherics/unary/vent_pump/on{
 	dir = 1;
@@ -809,7 +809,7 @@
 /obj/item/storage/toolbox/electrical,
 /obj/item/multitool,
 /turf/simulated/floor/tiled/techfloor/grid,
-/area/ship/trade/comms)
+/area/ship/constellation/comms)
 "Fe" = (
 /obj/structure/cable/yellow{
 	d1 = 4;
@@ -826,7 +826,7 @@
 	dir = 1
 	},
 /turf/simulated/floor/tiled/techmaint,
-/area/ship/trade/engineering/solars)
+/area/ship/constellation/engineering/solars)
 "FY" = (
 /obj/structure/cable/yellow{
 	d1 = 1;
@@ -840,10 +840,10 @@
 	dir = 4
 	},
 /turf/simulated/floor/tiled/techmaint,
-/area/ship/trade/engineering/solars)
+/area/ship/constellation/engineering/solars)
 "GP" = (
 /turf/simulated/open,
-/area/ship/trade/engineering/solars)
+/area/ship/constellation/engineering/solars)
 "Hh" = (
 /obj/machinery/door/airlock/external/bolted{
 	id_tag = "solars_in"
@@ -855,17 +855,17 @@
 	},
 /obj/effect/floor_decal/industrial/hatch/yellow,
 /turf/simulated/floor/tiled/techfloor/grid,
-/area/ship/trade/engineering/solars)
+/area/ship/constellation/engineering/solars)
 "HN" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 6
 	},
 /turf/simulated/floor/tiled,
-/area/ship/trade/command/bridge_upper)
+/area/ship/constellation/command/bridge_upper)
 "IH" = (
 /obj/random/shoes,
 /turf/simulated/floor/plating,
-/area/ship/trade/command/bridge_unused)
+/area/ship/constellation/command/bridge_unused)
 "IY" = (
 /obj/machinery/atmospherics/pipe/manifold/hidden,
 /obj/effect/floor_decal/industrial/warning{
@@ -875,11 +875,11 @@
 	icon_state = "1-2"
 	},
 /turf/simulated/floor/tiled/techmaint,
-/area/ship/trade/engineering/solars)
+/area/ship/constellation/engineering/solars)
 "Jo" = (
 /obj/machinery/network/message_server,
 /turf/simulated/floor/bluegrid,
-/area/ship/trade/comms)
+/area/ship/constellation/comms)
 "Jt" = (
 /obj/machinery/atmospherics/unary/vent_scrubber/on,
 /obj/structure/window/reinforced{
@@ -900,7 +900,7 @@
 /obj/item/stock_parts/computer/hard_drive/small,
 /obj/item/stock_parts/computer/hard_drive/small,
 /turf/simulated/floor/tiled/techfloor/grid,
-/area/ship/trade/comms)
+/area/ship/constellation/comms)
 "Ko" = (
 /obj/machinery/light/small{
 	dir = 4
@@ -909,7 +909,7 @@
 	dir = 8
 	},
 /turf/simulated/floor/tiled/techmaint,
-/area/ship/trade/engineering/solars)
+/area/ship/constellation/engineering/solars)
 "KG" = (
 /obj/structure/cable/yellow{
 	d1 = 1;
@@ -929,12 +929,12 @@
 	pixel_y = 0
 	},
 /turf/simulated/floor/tiled/dark,
-/area/ship/trade/command/bridge_upper)
+/area/ship/constellation/command/bridge_upper)
 "KS" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
 /obj/item/stool/padded,
 /turf/simulated/floor/plating,
-/area/ship/trade/command/bridge_unused)
+/area/ship/constellation/command/bridge_unused)
 "Lf" = (
 /obj/structure/cable/yellow{
 	d1 = 2;
@@ -946,7 +946,7 @@
 	},
 /obj/effect/floor_decal/industrial/warning/corner,
 /turf/simulated/floor/tiled/techmaint,
-/area/ship/trade/engineering/solars)
+/area/ship/constellation/engineering/solars)
 "Mk" = (
 /obj/structure/railing/mapped{
 	dir = 8
@@ -958,7 +958,7 @@
 	dir = 8
 	},
 /turf/simulated/floor/tiled/techmaint,
-/area/ship/trade/engineering/solars)
+/area/ship/constellation/engineering/solars)
 "Nv" = (
 /obj/machinery/door/firedoor,
 /obj/effect/wallframe_spawn/reinforced,
@@ -969,10 +969,10 @@
 	name = "EXTERNAL LOCKDOWN"
 	},
 /turf/simulated/floor/plating,
-/area/ship/trade/command/bridge_upper)
+/area/ship/constellation/command/bridge_upper)
 "Ob" = (
 /turf/simulated/wall/r_wall/prepainted,
-/area/ship/trade/comms)
+/area/ship/constellation/comms)
 "Oy" = (
 /obj/structure/cable/yellow{
 	d1 = 1;
@@ -1003,7 +1003,7 @@
 	dir = 4
 	},
 /turf/simulated/floor/tiled/techmaint,
-/area/ship/trade/engineering/solars)
+/area/ship/constellation/engineering/solars)
 "Pn" = (
 /obj/structure/railing/mapped{
 	dir = 8
@@ -1012,7 +1012,7 @@
 	dir = 8
 	},
 /turf/simulated/floor/tiled/techmaint,
-/area/ship/trade/engineering/solars)
+/area/ship/constellation/engineering/solars)
 "PP" = (
 /obj/structure/closet/coffin,
 /turf/simulated/floor/reinforced/airless,
@@ -1023,7 +1023,7 @@
 	level = 2
 	},
 /turf/simulated/floor/tiled,
-/area/ship/trade/command/bridge_upper)
+/area/ship/constellation/command/bridge_upper)
 "Rg" = (
 /obj/structure/cable/yellow{
 	d1 = 1;
@@ -1052,7 +1052,7 @@
 	},
 /obj/effect/floor_decal/industrial/hatch/yellow,
 /turf/simulated/floor/tiled/techfloor/grid,
-/area/ship/trade/engineering/solars)
+/area/ship/constellation/engineering/solars)
 "RF" = (
 /turf/simulated/wall/r_wall/prepainted,
 /area/space)
@@ -1066,7 +1066,7 @@
 	},
 /obj/machinery/computer/ship/navigation,
 /turf/simulated/floor/tiled/monotile,
-/area/ship/trade/command/bridge_upper)
+/area/ship/constellation/command/bridge_upper)
 "Sc" = (
 /obj/structure/cable/yellow{
 	d1 = 1;
@@ -1077,13 +1077,13 @@
 /obj/effect/floor_decal/industrial/hatch/yellow,
 /obj/machinery/door/airlock/hatch/autoname/engineering,
 /turf/simulated/floor/tiled/techfloor/grid,
-/area/ship/trade/engineering/solars)
+/area/ship/constellation/engineering/solars)
 "Su" = (
 /obj/effect/floor_decal/industrial/warning{
 	dir = 4
 	},
 /turf/simulated/floor/bluegrid,
-/area/ship/trade/comms)
+/area/ship/constellation/comms)
 "SO" = (
 /obj/machinery/atmospherics/pipe/simple/hidden{
 	dir = 4;
@@ -1093,7 +1093,7 @@
 	dir = 1
 	},
 /turf/simulated/floor/tiled/techmaint,
-/area/ship/trade/engineering/solars)
+/area/ship/constellation/engineering/solars)
 "SQ" = (
 /obj/machinery/door/firedoor,
 /obj/effect/wallframe_spawn/reinforced,
@@ -1103,7 +1103,7 @@
 	name = "EXTERNAL LOCKDOWN"
 	},
 /turf/simulated/floor/plating,
-/area/ship/trade/command/bridge_upper)
+/area/ship/constellation/command/bridge_upper)
 "Tt" = (
 /obj/structure/cable/yellow{
 	d1 = 4;
@@ -1116,7 +1116,7 @@
 "Tx" = (
 /obj/structure/catwalk,
 /turf/simulated/floor/plating,
-/area/ship/trade/command/bridge_upper)
+/area/ship/constellation/command/bridge_upper)
 "Tz" = (
 /obj/machinery/door/firedoor,
 /obj/effect/wallframe_spawn/reinforced,
@@ -1127,7 +1127,7 @@
 	name = "EXTERNAL LOCKDOWN"
 	},
 /turf/simulated/floor/plating,
-/area/ship/trade/command/bridge_unused)
+/area/ship/constellation/command/bridge_unused)
 "Ua" = (
 /obj/structure/cable/yellow{
 	d2 = 4;
@@ -1151,11 +1151,11 @@
 	dir = 4
 	},
 /turf/simulated/floor/tiled/techmaint,
-/area/ship/trade/engineering/solars)
+/area/ship/constellation/engineering/solars)
 "Vb" = (
 /obj/structure/girder,
 /turf/simulated/floor/plating,
-/area/ship/trade/command/bridge_unused)
+/area/ship/constellation/command/bridge_unused)
 "We" = (
 /obj/machinery/atmospherics/unary/vent_scrubber/on{
 	dir = 8
@@ -1166,7 +1166,7 @@
 	pixel_y = -24
 	},
 /turf/simulated/floor/tiled/techmaint,
-/area/ship/trade/engineering/solars)
+/area/ship/constellation/engineering/solars)
 "Wf" = (
 /obj/machinery/light{
 	dir = 1
@@ -1175,11 +1175,11 @@
 	dir = 4
 	},
 /turf/simulated/floor/bluegrid,
-/area/ship/trade/comms)
+/area/ship/constellation/comms)
 "Wi" = (
 /obj/structure/catwalk,
 /turf/simulated/floor/plating,
-/area/ship/trade/comms)
+/area/ship/constellation/comms)
 "Xu" = (
 /obj/structure/cable/yellow{
 	d1 = 2;
@@ -1200,7 +1200,7 @@
 /area/space)
 "XF" = (
 /turf/simulated/floor/plating,
-/area/ship/trade/command/bridge_unused)
+/area/ship/constellation/command/bridge_unused)
 "XQ" = (
 /obj/machinery/door/firedoor,
 /obj/structure/cable/yellow{
@@ -1211,14 +1211,14 @@
 /obj/machinery/door/airlock/hatch/autoname/engineering,
 /obj/effect/floor_decal/industrial/hatch/yellow,
 /turf/simulated/floor/tiled/techfloor/grid,
-/area/ship/trade/engineering/solars)
+/area/ship/constellation/engineering/solars)
 "Yk" = (
 /obj/effect/floor_decal/industrial/warning{
 	dir = 4
 	},
 /obj/machinery/light,
 /turf/simulated/floor/bluegrid,
-/area/ship/trade/comms)
+/area/ship/constellation/comms)
 "Yq" = (
 /obj/structure/cable/yellow{
 	d1 = 4;
@@ -1241,7 +1241,7 @@
 	},
 /obj/machinery/door/firedoor,
 /turf/simulated/floor/tiled/techfloor/grid,
-/area/ship/trade/command/bridge_upper)
+/area/ship/constellation/command/bridge_upper)
 "Zx" = (
 /obj/machinery/power/solar_control/autostart{
 	dir = 8
@@ -1251,7 +1251,7 @@
 	icon_state = "0-8"
 	},
 /turf/simulated/floor/tiled/techfloor,
-/area/ship/trade/engineering/solars)
+/area/ship/constellation/engineering/solars)
 "ZD" = (
 /obj/structure/window/reinforced{
 	dir = 8
@@ -1266,7 +1266,7 @@
 	icon_state = "0-2"
 	},
 /turf/simulated/floor/tiled/techfloor,
-/area/ship/trade/comms)
+/area/ship/constellation/comms)
 "ZT" = (
 /obj/structure/ladder,
 /obj/machinery/atmospherics/pipe/zpipe/down/scrubbers{
@@ -1286,10 +1286,10 @@
 	},
 /obj/machinery/light,
 /turf/simulated/open,
-/area/ship/trade/command/bridge_upper)
+/area/ship/constellation/command/bridge_upper)
 "ZU" = (
 /turf/simulated/floor/bluegrid,
-/area/ship/trade/comms)
+/area/ship/constellation/comms)
 
 (1,1,1) = {"
 aa
