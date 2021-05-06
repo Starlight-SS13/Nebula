@@ -28,3 +28,5 @@
 	max_skill = list(
 		SKILL_HAULING = SKILL_MAX
 	)
+
+	hud_icon = "hudblank"

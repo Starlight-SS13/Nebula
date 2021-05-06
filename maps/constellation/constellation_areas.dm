@@ -1,4 +1,4 @@
-/area/ship/constellation
+/area/constellation
 	name = "\improper Constellation"
 	ambience = list(
 		'sound/ambience/ambigen3.ogg',
@@ -14,13 +14,13 @@
 	)
 
 /datum/event/prison_break/medical
-	areaType = list(/area/ship/constellation/medical)
+	areaType = list(/area/constellation/medical)
 
 /datum/event/prison_break/science
-	areaType = list(/area/ship/constellation/livestock)
+	areaType = list(/area/constellation/livestock)
 
 /datum/event/prison_break/station
-	areaType = list(/area/ship/constellation/brig)
+	areaType = list(/area/constellation/brig)
 
 /*
 please do not remove my messages. they just look fancy to sort these areas. i rly dont like previous file. i know that it was sorted by area placement but..
@@ -28,157 +28,157 @@ please do not remove my messages. they just look fancy to sort these areas. i rl
 
 //Crew/Civilian
 
-/area/ship/constellation/crew
+/area/constellation/crew
 	name = "Crew Compartments"
 	icon_state = "crew_quarters"
 
-/area/ship/constellation/crew/hallway/port
+/area/constellation/crew/hallway/port
 	name = "Crew Hallway - Port"
 
-/area/ship/constellation/crew/hallway/starboard
+/area/constellation/crew/hallway/starboard
 	name = "Crew Hallway - Starboard"
 
-/area/ship/constellation/crew/kitchen
+/area/constellation/crew/kitchen
 	name = "Kitchen"
 	icon_state = "kitchen"
 
-/area/ship/constellation/crew/hydro
+/area/constellation/crew/hydro
 	name = "Hydroponics"
 	icon_state = "green"
 
-/area/ship/constellation/crew/dorms1
+/area/constellation/crew/dorms1
 	name = "Sleep Capsule"
 	icon_state = "green"
 	area_flags = AREA_FLAG_RAD_SHIELDED
 
-/area/ship/constellation/crew/dorms2
+/area/constellation/crew/dorms2
 	name = "Crew Cabin"
 	icon_state = "purple"
 	area_flags = AREA_FLAG_RAD_SHIELDED
 
-/area/ship/constellation/crew/saloon
+/area/constellation/crew/saloon
 	name = "Saloon"
 	icon_state = "conference"
 
-/area/ship/constellation/crew/library
+/area/constellation/crew/library
 	name = "Library"
 	icon_state = "yellow"
 
-/area/ship/constellation/crew/toilets
+/area/constellation/crew/toilets
 	name = "Bathrooms"
 	icon_state = "toilet"
 
-/area/ship/constellation/crew/wash
+/area/constellation/crew/wash
 	name = "Laundry"
 	icon_state = "locker"
 
 //Docks
 
-/area/ship/constellation/dock
+/area/constellation/dock
 	name = "Docking Bay"
 	icon_state = "entry_1"
 
 //Escape Pods/Cryo
 
-/area/ship/constellation/escape_port
+/area/constellation/escape_port
 	name = "Port Escape Pods"
 	icon_state = "green"
 
-/area/ship/constellation/escape_star
+/area/constellation/escape_star
 	name = "Starboard Escape Pods"
 	icon_state = "yellow"
 
 //Command
 
-/area/ship/constellation/command
+/area/constellation/command
 	req_access = list(access_heads)
 
-/area/ship/constellation/command/hallway
+/area/constellation/command/hallway
 	name = "Command Deck"
 	icon_state = "centcom"
 	req_access = list()
 
-/area/ship/constellation/command/bridge
+/area/constellation/command/bridge
 	name = "Bridge"
 	icon_state = "bridge"
 
-/area/ship/constellation/command/bridge_upper
+/area/constellation/command/bridge_upper
 	name = "Upper Bridge"
 	icon_state = "blue"
 
-/area/ship/constellation/command/captain
+/area/constellation/command/captain
 	name = "Captain's Quarters"
 	icon_state = "captain"
 	req_access = list(access_captain)
 	area_flags = AREA_FLAG_RAD_SHIELDED
 
-/area/ship/constellation/command/fmate
+/area/constellation/command/fmate
 	name = "First Mate's Office"
 	icon_state = "heads_hop"
 	req_access = list(access_hop)
 
 //Medical
 
-/area/ship/constellation/medical
+/area/constellation/medical
 	name = "Medical Bay"
 	icon_state = "medbay"
 	area_flags = AREA_FLAG_RAD_SHIELDED
 
-/area/ship/constellation/medical/chemistry
+/area/constellation/medical/chemistry
 	name = "Chemistry Bay"
 	icon_state = "cave"
 	req_access = list(access_medical)
 
 //Science
 
-/area/ship/constellation/science
+/area/constellation/science
 	name = "Research Bay"
 	icon_state = "green"
 	req_access = list(access_research)
 
-/area/ship/constellation/science/fabricaton
+/area/constellation/science/fabricaton
 	name = "Fabrication Bay"
 	icon_state = "yellow"
 
-/area/ship/constellation/science/artifact_storage
+/area/constellation/science/artifact_storage
 	name = "Artifact Storage"
 	icon_state = "ai_cyborg"
 
 //Cargo
 
-/area/ship/constellation/cargo
+/area/constellation/cargo
 	name = "Cargo Hold"
 	icon_state = "quartstorage"
 	area_flags = AREA_FLAG_RAD_SHIELDED
 
-/area/ship/constellation/cargo/lower
+/area/constellation/cargo/lower
 	name = "Loading Bay"
 
 //Maint. and unused
 
-/area/ship/constellation/maintenance
+/area/constellation/maintenance
 	name = "Maintenance Compartments"
 	icon_state = "amaint"
 	area_flags = AREA_FLAG_RAD_SHIELDED | AREA_FLAG_MAINTENANCE
 
-/area/ship/constellation/maintenance/hallway
+/area/constellation/maintenance/hallway
 	name = "Maintenance Corridors"
 
-/area/ship/constellation/maintenance/lower
+/area/constellation/maintenance/lower
 	name = "Lower Deck Maintenance Compartments"
 	icon_state = "sub_maint_aft"
 
-/area/ship/constellation/hidden
+/area/constellation/hidden
 	name = "Unknown"
 	icon_state = "auxstorage"
 
-/area/ship/constellation/command/bridge_unused
+/area/constellation/command/bridge_unused
 	name = "Bridge Starboard Storage"
 	icon_state = "armory"
 
 //Engineering
 
-/area/ship/constellation/engineering
+/area/constellation/engineering
 	name       = "Engineering Bay"
 	icon_state = "engineering_supply"
 	req_access = list(access_engine)
@@ -197,50 +197,50 @@ please do not remove my messages. they just look fancy to sort these areas. i rl
 		'sound/ambience/ambieng1.ogg'
 	)
 
-/area/ship/constellation/engineering/storage
+/area/constellation/engineering/storage
 	name = "Engineering Storage"
 	icon_state = "engineering_storage"
 
-/area/ship/constellation/engineering/techstorage
+/area/constellation/engineering/techstorage
 	name = "Parts Storage"
 	icon_state = "engineering_supply"
 
-/area/ship/constellation/engineering/eva
+/area/constellation/engineering/eva
 	name = "EVA Storage"
 	icon_state = "eva"
 	req_access = list(access_eva)
 
-/area/ship/constellation/engineering/atmos
+/area/constellation/engineering/atmos
 	name = "Atmospherics Comparment"
 	icon_state = "atmos"
 
-/area/ship/constellation/engineering/power
+/area/constellation/engineering/power
 	name = "Power Compartment"
 	icon_state = "engine_smes"
 
-/area/ship/constellation/engineering/engine
+/area/constellation/engineering/engine
 	name = "Main Engine Bay"
 	icon_state = "engine"
 
-/area/ship/constellation/engineering/solars
+/area/constellation/engineering/solars
 	name = "Solar Array Access"
 	icon_state = "SolarcontrolA"
 
 //Misc.
 
-/area/ship/constellation/brig
+/area/constellation/brig
 	name = "Brig"
 	icon_state = "brig"
 	req_access = list(access_brig)
 	secure     = 1
 	area_flags = AREA_FLAG_RAD_SHIELDED | AREA_FLAG_SECURITY
 
-/area/ship/constellation/storage
+/area/constellation/storage
 	name = "Secure Storage"
 	icon_state = "engine"
 	req_access = list(access_engine_equip)
 
-/area/ship/constellation/comms
+/area/constellation/comms
 	name = "Communications Relay"
 	icon_state = "tcomsatcham"
 	req_access = list(access_engine)
@@ -254,40 +254,40 @@ please do not remove my messages. they just look fancy to sort these areas. i rl
 
 //Underside.
 
-/area/ship/constellation/aft_port_underside_maint
+/area/constellation/aft_port_underside_maint
 	name = "Underside - Aft Port Maintenance"
 	icon_state = "medbay"
 	area_flags = AREA_FLAG_RAD_SHIELDED | AREA_FLAG_MAINTENANCE
 
-/area/ship/constellation/aft_starboard_underside_maint
+/area/constellation/aft_starboard_underside_maint
 	name = "Underside - Aft Starboard Maintenance"
 	icon_state = "toilet"
 	area_flags = AREA_FLAG_RAD_SHIELDED | AREA_FLAG_MAINTENANCE
 
-/area/ship/constellation/loading_bay
+/area/constellation/loading_bay
 	name = "Underside - Loading Bay"
 	icon_state = "entry_1"
 
-/area/ship/constellation/fore_port_underside_maint
+/area/constellation/fore_port_underside_maint
 	name = "Underside - Fore Port Maintenance"
 	icon_state = "green"
 	area_flags = AREA_FLAG_RAD_SHIELDED | AREA_FLAG_MAINTENANCE
 
-/area/ship/constellation/livestock
+/area/constellation/livestock
 	name = "Underside - Livestock Handling"
 	icon_state = "red"
 	req_access = list(access_xenobiology)
 
-/area/ship/constellation/fore_starboard_underside_maint
+/area/constellation/fore_starboard_underside_maint
 	name = "Underside - Fore Starboard Maintenance"
 	icon_state = "locker"
 	area_flags = AREA_FLAG_RAD_SHIELDED | AREA_FLAG_MAINTENANCE
 
-/area/ship/constellation/bar
+/area/constellation/bar
 	name = "Underside - Bar"
 	icon_state = "yellow"
 
-/area/ship/constellation/undercomms
+/area/constellation/undercomms
 	name = "Underside - Communications Relay"
 	icon_state = "blue"
 

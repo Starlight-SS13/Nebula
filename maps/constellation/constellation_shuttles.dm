@@ -8,11 +8,11 @@
 
 /datum/shuttle/autodock/overmap/exploration_shuttle
 	name = "Exploration Shuttle"
-	shuttle_area = /area/ship/constellation/exploration_shuttle
+	shuttle_area = /area/constellation/exploration_shuttle
 	dock_target = "constellation_shuttle"
 	current_location = "nav_constellation_port_dock_shuttle"
 
-/area/ship/constellation/exploration_shuttle
+/area/constellation/exploration_shuttle
 	name       = "\improper Exploration Shuttle"
 	area_flags = AREA_FLAG_RAD_SHIELDED | AREA_FLAG_ION_SHIELDED | AREA_FLAG_IS_NOT_PERSISTENT
 
