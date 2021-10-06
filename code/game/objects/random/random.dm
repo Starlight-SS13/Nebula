@@ -109,7 +109,7 @@
 				/obj/item/storage/toolbox/electrical = 20,
 				/obj/item/storage/toolbox/emergency = 20,
 				/obj/item/storage/toolbox/repairs = 20,
-				/obj/item/storage/toolbox/syndicate = 1)
+				/obj/item/storage/toolbox/syndicate = 5)
 
 /obj/random/tech_supply
 	name = "random tech supply"
@@ -148,8 +148,8 @@
 				/obj/item/storage/pill_bottle/painkillers = 1,
 				/obj/item/storage/pill_bottle/antidepressants = 2,
 				/obj/item/storage/pill_bottle/oxygen = 1,
-				/obj/item/storage/pill_bottle/burn_meds = 1,
-				/obj/item/storage/pill_bottle/brute_meds = 1,
+				/obj/item/storage/pill_bottle/burn_meds = 2,
+				/obj/item/storage/pill_bottle/brute_meds = 2,
 				/obj/item/chems/syringe/antitoxin = 2,
 				/obj/item/chems/syringe/antibiotic = 1,
 				/obj/item/chems/syringe/stabilizer = 2,
@@ -230,7 +230,7 @@
 				/obj/item/chems/food/snacks/egg/lizard = 3)
 
 /obj/random/drinkingglass
-	name = "random drinking glass" 
+	name = "random drinking glass"
 	desc = "This is a random drinking glass."
 	icon = 'icons/obj/drink_glasses/square.dmi'
 	icon_state = "square"
@@ -915,8 +915,8 @@
 	icon_state = "gift1"
 
 /obj/random/maintenance/spawn_choices()
-	return list(/obj/random/junk = 4,
-				/obj/random/trash = 4,
+	return list(/obj/random/junk = 2,
+				/obj/random/trash = 2,
 				/obj/random/maintenance/clean = 5)
 
 /obj/random/maintenance/clean
@@ -929,27 +929,27 @@ something, make sure it's not in one of the other lists.*/
 	icon_state = "gift2"
 
 /obj/random/maintenance/clean/spawn_choices()
-	return list(/obj/random/tech_supply = 100,
+	return list(/obj/random/tech_supply = 80,
 				/obj/random/medical = 40,
-				/obj/random/medical/lite = 80,
+				/obj/random/medical/lite = 70,
 				/obj/random/firstaid = 20,
 				/obj/random/powercell = 50,
 				/obj/random/technology_scanner = 80,
-				/obj/random/bomb_supply = 80,
-				/obj/random/contraband = 1,
+				/obj/random/bomb_supply = 70,
+				/obj/random/contraband = 20,
 				/obj/random/action_figure = 2,
 				/obj/random/plushie = 2,
 				/obj/random/material = 40,
 				/obj/random/coin = 5,
-				/obj/random/toy = 20,
-				/obj/random/tank = 20,
+				/obj/random/toy = 1,
+				/obj/random/tank = 5,
 				/obj/random/soap = 5,
 				/obj/random/drinkbottle = 5,
-				/obj/random/loot = 1,
+				/obj/random/loot = 5,
 				/obj/random/advdevice = 50,
-				/obj/random/smokes = 30,
-				/obj/random/masks = 10,
-				/obj/random/snack = 60,
+				/obj/random/smokes = 25,
+				/obj/random/masks = 15,
+				/obj/random/snack = 50,
 				/obj/random/storage = 30,
 				/obj/random/shoes = 20,
 				/obj/random/gloves = 10,
@@ -958,7 +958,7 @@ something, make sure it's not in one of the other lists.*/
 				/obj/random/suit = 20,
 				/obj/random/clothing = 30,
 				/obj/random/accessory = 20,
-				/obj/random/cash = 10)
+				/obj/random/cash = 5)
 
 /obj/random/loot /*Better loot for away missions and salvage */
 	name = "random loot"

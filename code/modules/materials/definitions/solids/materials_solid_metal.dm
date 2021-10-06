@@ -127,8 +127,8 @@
 	lore_text = "A strong, flexible alloy of iron and carbon. Probably the single most fundamentally useful and ubiquitous substance in human space."
 	weight = MAT_VALUE_NORMAL
 	wall_support_value = MAT_VALUE_VERY_HEAVY // Ideal construction material.
-	integrity = 150
-	brute_armor = 5
+	integrity = 175
+	brute_armor = 25
 	icon_base = 'icons/turf/walls/solid.dmi'
 	icon_reinf = 'icons/turf/walls/reinforced.dmi'
 	wall_flags = PAINT_PAINTABLE|PAINT_STRIPABLE|WALL_HAS_EDGES
@@ -192,8 +192,8 @@
 	name = "stainless steel"
 	lore_text = "A reflective alloy of steel and chromium. Used for its reflective and sturdy properties."
 	wall_support_value = MAT_VALUE_HEAVY
-	integrity = 175
-	burn_armor = 10
+	integrity = 190
+	burn_armor = 15
 	color = "#a5a5a5"
 	icon_base = 'icons/turf/walls/solid.dmi'
 	icon_reinf = 'icons/turf/walls/reinforced.dmi'
@@ -207,7 +207,7 @@
 /decl/material/solid/metal/aluminium
 	name = "aluminium"
 	lore_text = "A low-density ductile metal with a silvery-white sheen."
-	integrity = 125
+	integrity = 130
 	weight = MAT_VALUE_LIGHT
 	icon_base = 'icons/turf/walls/solid.dmi'
 	icon_reinf = 'icons/turf/walls/reinforced.dmi'
@@ -236,7 +236,7 @@
 /decl/material/solid/metal/plasteel
 	name = "plasteel"
 	lore_text = "An alloy of steel and platinum. When regular high-tensile steel isn't tough enough to get the job done, the smart consumer turns to frankly absurd alloys of steel and platinum."
-	integrity = 400
+	integrity = 500
 	melting_point = 6000
 	icon_base = 'icons/turf/walls/solid.dmi'
 	icon_reinf = 'icons/turf/walls/reinforced.dmi'
@@ -244,8 +244,8 @@
 	use_reinf_state = null
 	color = "#a8a9b2"
 	explosion_resistance = 25
-	brute_armor = 8
-	burn_armor = 10
+	brute_armor = 30
+	burn_armor = 20
 	hardness = MAT_VALUE_VERY_HARD
 	stack_origin_tech = "{'materials':2}"
 	hitsound = 'sound/weapons/smash.ogg'
@@ -264,9 +264,9 @@
 /decl/material/solid/metal/titanium
 	name = "titanium"
 	lore_text = "A light, strong, corrosion-resistant metal. Perfect for cladding high-velocity ballistic supply pods."
-	brute_armor = 10
-	burn_armor = 8
-	integrity = 200
+	brute_armor = 40
+	burn_armor = 15
+	integrity = 250
 	melting_point = 3000
 	weight = MAT_VALUE_LIGHT
 	icon_base = 'icons/turf/walls/metal.dmi'
@@ -293,15 +293,15 @@
 
 /decl/material/solid/metal/plasteel/ocp
 	name = "osmium-carbide plasteel"
-	integrity = 200
+	integrity = 260
 	melting_point = 12000
 	icon_base = 'icons/turf/walls/solid.dmi'
 	icon_reinf = 'icons/turf/walls/reinforced.dmi'
 	wall_flags = PAINT_PAINTABLE|PAINT_STRIPABLE|WALL_HAS_EDGES
 	use_reinf_state = null
 	color = "#9bc6f2"
-	brute_armor = 4
-	burn_armor = 20
+	brute_armor = 10
+	burn_armor = 45
 	stack_origin_tech = "{'materials':3}"
 	construction_difficulty = MAT_VALUE_VERY_HARD_DIY
 	value = 1.8
